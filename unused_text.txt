@@ -1,0 +1,284 @@
+Psychedelics are capable of catalyzing important insights but they (less so MDMA) are also capable of generating a wide variety of compelling yet ungrounded conceptual hallucinations. Psychedelics increase the strength of your imagination, thereby weakening your mind's ability to differentiate between reality and imaginary \cite{quantaRealityImagination}. Please critique your insights with mainstream academic philosophy, neuroscience, and physics before concluding that the tree next to you harbors malevolent intentions or that the entity you talked to was real. It was in all likelihood a construct of your subconscious mind.
+
+
+The "three month rule" started out as Anne Shuglin's educated guess for how often you can take MDMA while maintaining long-term effectiveness. While she was a respected psychedelic researcher, one person's guess is not a reliable guideline. Many people use MDMA more often than three months and don't experience a decline of effect. 
+
+If you are significantly constrained by time, care resources, or critical responsibilities, you should take care to not go too deep in one session, otherwise you might get into a too-much-too-soon scenario and experience more destabilization than you can handle.
+
+
+Multiple psychedelic-therapy practitioners also believe that judiciously adding 0.5 g dried psilocybin mushrooms to the start of MDMA trips would further improve outcomes [M.G.'s observation and personal communications]. 
+
+Another less durable mechanism in play is fear extinction. Here, a second emotional memory of safety is overlaid upon the first painful memory. Both memories exist and the safe overlay has to be explicitly and repetitively trained for every context where you don't want the stuck emotional memory to activate. Because fear extinction is shallow and fragile, reconsolidation is preferable. Activating and staying present with stuck emotional memories during therapy reliably prioritizes reconsolidation. While you may have to reconsolidate multiple parts of a memory, once you do, the emotional tone of the memory should feel greatly diminished or transformed.
+
+Even if the current scientific grasp of reconsolidation isn't perfect, focusing on strong mismatches proves effective. This might indicate that if reconsolidation isn't what is happening in the brain, the true process is similar.
+
+Dissociation may be an information disconnection between brain regions that psychedelics forcefully reconnect. 
+
+As an example, here is one maximum speed schedule that the author [M.G.] would have done with hindsight: \todo{include what support I should have had}
+\textit{Three guided PSIP sessions at the start. Let out neurogenic tremors as much as possible throughout the healing journey and after.
+MDMA + 0.5 g dried mushroom session once every 6 weeks. Spend abundant time walking in nature, pondering my past, transcribing recorded MDMA sessions, etc.
+30ug LSD sessions twice a week to bring up minor stuck emotional memories that I could process. Eventually the minor stuck emotional memories ran out, and the sessions started going to the major stuck emotional memories, which felt unbearable. I stopped using LSD at that point.}
+
+
+
+\section{Body-Scan Meditation}
+\label{bodyScan}
+The aim of this body scan meditation is to cultivate awareness and identify areas in the body where stress or trauma-related feelings might be stored. This can help in understanding and processing these feelings.
+\begin{enumerate}
+    \item \textbf{Find a Comfortable Position:} 
+    \begin{itemize}
+        \item \textbf{Lying Down:} Lay on a mat or comfortable surface, ensuring your entire body is supported. Place your arms slightly away from the body, palms facing up.
+        \item \textbf{Seated:} If you prefer sitting, choose a chair or cushion. Ensure your back is straight, feet are flat on the ground, and hands rest on your lap.
+    \end{itemize}
+    \item \textbf{Close Your Eyes:} Begin by taking several deep breaths. As you inhale, feel the air fill your lungs. As you exhale, imagine releasing any immediate tension.
+    \item \textbf{Begin at the Feet:} Focus your attention on your toes, then the soles of your feet, progressing to the heels and up to the ankles. Notice any sensations - be it warmth, coolness, tension, tingling, or even numbness. If you sense areas of tension or discomfort that might be related to stress or trauma, acknowledge them without judgment.
+    \item \textbf{Progress Upward Slowly:} Move your attention up through the body, section by section – calves, knees, thighs, pelvis, stomach, chest, back, shoulders, arms, hands, neck, face, and the top of your head. At each section, pause for a moment to notice sensations and any feelings of tension or unease.
+    \item \textbf{Observe without Judgment:} If you identify areas that seem to hold trauma or stress, simply observe without trying to change, judge, or interpret. Your role is to be an observer, bringing these areas into your conscious awareness.
+    \item \textbf{Breathe into Tension:} When you encounter a spot holding tension or trauma feelings, imagine breathing into that area on the inhale and releasing tension on the exhale. This can promote relaxation and release.
+    \item \textbf{Complete the Scan:} Once you've observed every section of your body, take a few more deep breaths. Reflect on the experience, acknowledging any insights or sensations you've encountered.
+    \item \textbf{Return Slowly:} When you feel ready, wiggle your fingers and toes, bringing movement back to the body. If lying down, turn to one side and push yourself up to a seated position. Open your eyes and take a moment to transition back to your surroundings.
+\end{enumerate}
+Body scan meditation can bring up intense emotions, especially when focused on trauma. It's important to approach the practice with self-compassion. Remember, this is a tool for awareness and healing, so be gentle with yourself.
+
+
+This manual starts with an overview of trauma, how the mind and body respond to trauma, and the mechanisms of healing. Then we discuss the outcomes of MDMA-assisted psychotherapy clinical trials, compare MDMA-therapy to other methods, and discuss drug interactions, medical contraindications, psychological risks, common concerns, and dosing. Next we cover session planning and expectations, recommendations for conducting the session, making sense of the session afterwards, continued healing, making positive life-changes, and managing pacing and technique to minimize destabilization. Finally, there is troubleshooting, complementary practices and medicines, and recommended books and tools. \todo{move to abstract?}
+
+Stuck emotional memories and their associated defenses are sometimes called different things based on the intensity of their impact on your life. "Trauma" and "mental illness" are often used for major experiences and "unprocessed emotions", "emotional baggage", "residual stress", "hang-ups", or "emotional triggers" are often used for minor experiences, though this categorization is imprecise. Other than intensity and impact, the distinction between major and minor is not important, as both work in similar ways, have similar negative impacts on your wellbeing, cause similar, often harmful defenses, and should be healed in similar ways. This guide will prefer the term "stuck emotional memory" to avoid the unnecessary connotations of the other terms, and to emphasize the emotional component of the memory rather than the episodic component. "Healing" will be used as a broad term that includes memory reconsolidation, gaining insight, learning of skills, and more.
+
+While not every citation was reviewed, most were carefully selected as valuable resources. We have tried to prioritize freely available sources that don't use unnecessarily technical language, but sometimes rigor or comprehensiveness took precedence. Some references contain both DOI and URL links. The DOI is a stable link to the publisher's webpage for the article. The URL links to a less stable full-text document on another website when the full text isn't available from the publisher.
+
+If any type of trauma therapy is successful and continued until there aren't many stuck emotional memories left, you can expect long-lasting, durable healing of most stuck fears, maladaptive defenses, mental illnesses, and some psychosomatic and stress-aggravated illnesses (some may not be reversible, or only reversible with additional life changes or medical tools). These states may arise again in response to new trauma or old unhealed triggers, but you will now have tools to get unstuck again. If all trauma-therapy is discontinued while you're in a destabilized state, that destabilization has the potential to persist long-term.
+
+
+In certain contexts, activities like crying, physical activity, yelling, laughter, rituals, singing, talking, or art can also heal, with different activities working for different people \cite{rottenbergCrying}. They reduce a heightened ANS state, enabling calmer exploration of emotional memories. They may also facilitate reconsolidation through bringing the memory into extended focus and increasing mismatch though release of various good-feeling neurochemicals.
+
+ Almost all deaths involving MDMA are caused by heat stroke from dehydration, hot environments, and prolonged dancing \cite{hubermanMDMA}. Heat stroke is not a concertn in typical therapeutic contexts.
+
+ The placebo results are similar to other forms of non-medicine-assisted professionally guided therapy \cite{otaloraMDMA}
+
+ While expert assistance can be invaluable at challenging moments during the healing journey, we won't reiterate this throughout this manual unless there is an exceptional risk.
+
+, especially if others depend on your stability for their basic needs.
+
+ MDMA also has medical contraindications, addressed in Section \ref{sectionSafety}.
+
+    \item Absence of personality disorders, psychotic disorders, mania or depression significant enough to cause hospitalization, or severely impaired impulse control \cite{colemanPsychedelicPsychotherapy}. We think these conditions may be amenable to MDMA healing with expert guidance and an abundance of care and planning.
+
+
+MDMA is an empathogen, ("generating a state of empathy"), also possessing minor psychedelic ("mind manifesting") properties. 
+
+While some claim supplements can reduce post-session exhaustion, their efficacy isn't well-supported by scientific evidence \cite{hubermanMDMA}.
+
+. A drug's concentration in the blood decreases by half during each half-life period. For example, after one half-life, 50\% of the drug remains; after two half-lives, 25\% remains, and so on. The half-life of MDMA is 8 hours \cite{torrePharmacology}.
+
+ (Hours 0.25 to 0.75)
+ (Hours 0.75 to 4)
+ (Hours 4 to 6)
+ (Hours 5 to 24)
+
+ Although reconsolidation may still occur at a slower pace, you might need to use additional effort to focus on distressing schemas.
+
+    \item \textit{Why Zebras don't get Ulcers} by Robert Sapolsky, Ph.D. Sapolsky discusses how chronic stress affects human health, drawing parallels between humans and other animals. He combines humor and research to provide insights into managing stress \cite{sapolskyZebra}.
+
+The usage and prominence of these defense mechanisms can vary widely based on individual experiences, cultural factors, and personal development. While many of these mechanisms can be healthy in certain contexts, they can become problematic if overused or if they hinder overall emotional growth or understanding. For more thorough coverage see \textit{Why Do I Do That?: Psychological Defense Mechanisms and the Hidden Ways They Shape Our Lives} by Joseph Burgo Ph.D. \cite{burgoDefenseMechanisms,cramerDefenses}.
+
+While defenses are unconscious, people also use conscious methods called coping strategies to manage their distress \cite{lazarusCoping}. These can take a variety of adaptive  and maladaptive forms, such as exercise, drinking alcohol, or avoiding triggering situations.
+
+ R. Coleman's \textit{Psychedelic Psychotherapy} for a wealth of information \cite{colemanPsychedelicPsychotherapy}.
+
+This built on a history of drug prohibition and stigmatization that predates this era. 
+
+        We note that you could add psilocybin, an anti-addictive medicine, at the start of your MDMA session (see Section \ref{sec:dissociationandresistance}) if you feel susceptible \cite{principeAddiction}. It will expose you more directly to distressing repressed emotions and your experience will likely be unpleasant, while likely increasing the depth of healing.
+
+\item \textbf{Psychosis}
+        Psychedelics uncommonly trigger temporary psychosis in those with a personal or family history of psychosis or bipolar disorder \cite{schlagPsychedelicAdverseEffects}. We suggest expert guidance may allow safe use of these medicines even with those contraindications. There are almost no recorded incidents of psychedelics inducing psychosis in those without a personal or family history. Psychosis, while strongly affected by genetic and social factors, generally requires triggering by trauma. MDMA is more of an empathogen than a psychedelic, but it also facilitates the surfacing of distressing emotional memories and could conceivably trigger temporary psychosis in those with a personal or family history.
+    
+\FloatBarrier
+\begin{figure}[h!]
+\centering
+\begin{framed}
+\begin{tikzpicture}
+% Define the list of labels and angles
+\def\labels{Emotional Responses, Beliefs, Episodic Memories, Hyperarousal or Dissociation, Resistance Schemas, Lack of Resources, Social Models, Biological Predisposition}
+\def\numlabels{8}
+\pgfmathsetmacro\stepangle{360/\numlabels}
+
+\foreach \label [count=\xi] in \labels
+{
+    \node[draw, rectangle] (Node-\xi) at (\xi*\stepangle:4cm) {\label};
+}
+\draw[<->] (Node-1) -- (Node-2);
+\draw[<->] (Node-2) -- (Node-3);
+\draw[<->] (Node-3) -- (Node-1);
+\node[fit=(Node-1) (Node-2) (Node-3), draw, inner sep=10pt, rounded corners, thick, label={above:Maldaptive Schemas}] (maladaptiveSchema){};
+
+\draw[<->] (maladaptiveSchema) -- (Node-4);
+\draw[<->] (maladaptiveSchema) -- (Node-5);
+\draw[<->] (maladaptiveSchema) -- (Node-6);
+\draw[<-] (maladaptiveSchema) -- (Node-7);
+\draw[->] (Node-7) -- (Node-5);
+\draw[->] (Node-7) -- (Node-6);
+\draw[->] (Node-8) -- (Node-4);
+\draw[->] (Node-8) -- (Node-5);
+
+\end{tikzpicture}
+\end{framed}
+\caption{Mental Illness: All components interact with all other components?}
+\label{fig:mentalIllness}
+\end{figure}
+\FloatBarrier
+\todo{finish or discard diagram}
+
+
+
+ Social support and healthy relationships promote healing and resilience.
+ 
+Poor diet, harmful substances, and lack of physical activity contribute to a wide range of health problems, including mental illness.
+
+
+    \item \textit{The PTSD Workbook} by Tijana Mandic, Ph.D., offers individuals a comprehensive collection of therapeutic exercises and techniques to navigate and alleviate their symptoms. Through its structured approach, readers are empowered to understand their trauma, learn coping mechanisms, and integrate strategies such as grounding and self-soothing into their daily lives \cite{williamsWorkbook}.
+
+Specific todos auto-generated from \textbackslash todo\{\} tags:
+\listoftodos
+
+
+    \item \textbf{Humor} Finding comic elements in adverse situations to alleviate stress.
+    \item \textbf{Altruism} Deriving satisfaction from helping others.
+    \item \textbf{Suppression} Consciously postponing processing of emotions.
+    \item \textbf{Anticipation} Planning .
+    \item \textbf{Denial} Refusing to accept reality, acting as if a painful event or feeling didn't exist.
+
+    \item \textbf{Narcissism} Constantly seeking a sense of superiority by seeking admiration from others as a means to cover shame.
+    \item \textbf{Perfectionism} Setting unrealistically high standards for oneself or others as a way to avoid dealing with underlying feelings of inadequacy or fear of failure.
+    \item \textbf{Fantasy} Escaping reality into a world of imagination.
+    \item \textbf{Rationalization} Creating a logical reason as an excuse for actions or feelings that might otherwise be shameful or irrational. Tied to specific feelings or events.
+
+    \item \textbf{Regression} Reverting to a previous, usually more childlike, state of functioning.
+    \item \textbf{Undoing} Trying to reverse or undo a feeling by performing an action that signifies an opposite feeling than one's true feelings.
+    \item \textbf{Isolation of Affect} Disconnecting from feelings associated with an event.
+    \item \textbf{Compartmentalization} Keeping different parts of one's life separate to avoid emotional conflicts.
+    \item \textbf{Conversion} Unconsciously converting anxiety into a physical symptom.
+    
+    \item \textbf{Affiliation} Turning to others for support to counterbalance a psychic threat.
+    \item \textbf{Compensation} Overemphasizing certain behaviors to make up for perceived deficiencies.
+    \item \textbf{Asceticism} Denying oneself pleasures or using self-discipline to avoid feeling guilty.
+    \item \textbf{Humor} Finding comic elements in adverse situations to alleviate the stress.
+    \item \textbf{Altruism} Deriving satisfaction from helping others and thus deriving gratification from sacrifices.
+
+    \item \textbf{Splitting} Seeing things as all good or all bad with no middle ground.
+    \item \textbf{Idealization} Modeling behavior after someone else or after social standards of status to deflect feelings of shame or inadequacy.
+    \item \textbf{Control} Actions or beliefs we think will bring order to an uncertain world, but actually produce no positive result.
+
+
+
+ This could be explained if maladaptive schemas are a necessary (but not necessarily sufficient) component of the large majority of mental illness \cite{vanderKolkBody}. Maladaptive schemas are healed through reconsolidation, and we hypothesize that traditional psychiatric drugs may not assist that process, though appropriate use can help you stabilize in some situations. A variety of psychiatric drugs may also inhibit reconsolidation \cite{laneReconsolidation}.
+
+
+
+\textbf{Example schedule \#1 (typical):}
+\textit{
+    \begin{itemize}
+        \item Enough PSIP sessions to enable non-medicine-assisted psychogenic tremoring. Guidance may be necessary. Use tremoring as needed when you are outside the therapeutic window or otherwise want to deactivate.
+        \item MDMA sessions every 6 weeks. Adjust frequency as you gain experience. A higher frequency may be justified if you are not able to make significant progress without MDMA or if you need to make faster progress to meet various goals.
+        \item Coherence therapy every day when you notice maladaptive schemas.
+        \item As much journaling, nature walks, body-movement practices, etc. as needed to make sense of how trauma affected you.
+    \end{itemize}
+}
+\noindent \textbf{Example schedule \#2 (max-speed):}
+\textit{
+    \begin{itemize}
+        \item Enough PSIP sessions to enable non-medicine-assisted psychogenic tremoring. Guidance may be necessary. Use tremoring as needed when you are outside the therapeutic window or otherwise want to deactivate.
+        \item MDMA sessions every 3 weeks to continually stay in a critical period where daily reconsolidation is more effective. Adjust the frequency if your post-MDMA session critical period is more or less than 3 weeks. The safety of MDMA-therapy as this frequency has not been rigorously studied. Some may find this frequency worth doing if they are deeply dysfunctional.
+        \item Coherence therapy every day when you notice maladaptive schemas. Keep going until you're exhausted. Adding 5 $\mu$g LSD may help. Small-dose LSD session of 30 $\mu$g up to twice a week may serve a similar role.
+        \item As much journaling, nature walks, body-movement practices, etc. as needed to make sense of how trauma affected you.
+    \end{itemize}
+}
+
+
+
+ This method can also ease challenging tasks, like difficult conversations, by associating them with empathy. For this, have such conversations during an MDMA session once you're familiar with the therapy. Make sure to ask for informed consent from your conversation partner.
+
+
+The contraindications listed here are a best-effort list and may not be comprehensive. We advise always checking with the scientific literature, a doctor, or a pharmacist if you regularly use another medicine, need to use another drug within 24 hours on either side of an MDMA session, or have a potentially relevant health condition. You may need to abstain from some medicines for two weeks before it's safe to use MDMA \cite{malcolmSerotonin,edinoffInteractions}. \todo{emphasize 3 ways to avoid problems}
+
+
+None of those methods working may be a sign that MDMA doesn't work with your brain chemistry.
+
+\item MDMA, as a stimulant, increases blood pressure to 147/89 mmHg and heart rate to 92 b/min in the average user in therapeutic contexts \cite{mitchellMDMAClinicalTrial}. Transient increases in systolic blood pressure to above 180 mmHg also occured in 5\% of users in one study \cite{vizeliActuteEffects}. This could be problematic for those with serious cardiovascular problems.
+
+
+ If you do abuse MDMA, the adverse effects are likely lower than those of most drugs of abuse, possibly because tolerance usually makes abuse self-limiting \cite{nuttDrugHarms}.
+
+ You can also do body scan meditation (Part of Appendix \ref{MBSR} describes this technique) to see if the dissociation feels present in a certain part of your body and send the love there.
+
+You can also try deliberately triggering schemas by looking at photographs or letters, doing a safe activity which triggers the memory, or engaging in a practice that helps you process emotions such as music or art. \todo{Should this really be recommended? It worked for me once but IDK if it's a good strategy in general. If not, also change elsewhere in paper.}
+
+    \item Transitioning to a "whole-food, plant-based" diet for a large risk reduction for many chronic illnesses and significantly reduced environmental impact \cite{WillettEATLancet}. We suggest the Forks over Knives guide \cite{forks}. \todo{impact on mental health} \todo{better way to do this? the guide we cite is triggering}
+
+If your concern is with the pharmaceutical industry's reputation, it may help to know that MDMA-therapy has been successfully used for decades by underground therapists before the clinical trials were started by the Multidisciplinary Association for Psychedelic Studies (MAPS) \cite{passieHistory}. MAPS is a hybrid organization with non-profit and public benefit corporation components and donations have provided most of its funding. Also take care to establish the quality of your medicine, possibly using a test kit. \todo{strongman evil drug argument. Example aspirin. Refinement is good. }
+
+        If your concern is with the medicine coming from a lab vs a plant or fungi, consider that those chemical pathways are not fundamentally different \cite{naturalProducts}. Plants and fungi use many of the same chemical reactions used in a lab. Many natural substances are also toxic and cause acute or chronic damage. \todo{not relevant concern. Supplements have a poor track record, chemically isolated medicines do}
+
+ The effects of psychedelics are context-dependent \cite{nardouMDMAPlasticity}.
+
+    \item Two doses of 5 mg/kg on consecutive days may increase long-term anxiety-like behavior in rats \cite{baumannRats}. Doses of 10-20 mg/kg have been shown to cause serotonin system dysfunction in rats. Doses over 25 mg/kg are clearly neurotoxic in rats. We suggest the safe dose limit is far lower than these numbers to account for individual differences and a margin of error. We suggest limiting doses to 120mg plus a 60mg booster, as was used in the clinical trials, as a precaution. \todo{comment on mg/kg vs fixed size} \todo{inaccurate because of injection vs oral}
+
+
+This section is written assuming some familiarity with the theory and practice of healing maladaptive emotions, beliefs, and behaviors, and managing resistance, destabilization, and autonomic nervous system states. The rest of this manual is written assuming no knowledge of the topic at all. 
+
+\subsubsection{Feeling less motivated} \todo{why did I include this one?}
+Some schemas use unhealthy fear to motivate us (e.g. "Devoting all my energy to this project will prove that I'm not a bad person"). Therapy can reconsolidate this fear-based motivating schema before you develop healthier motivation. We suggest further reconsolidation and engagement with the world will reveal and develop healthier motivations.
+
+\item \textbf{Safety Mapping}
+    \begin{itemize}
+        \item Imagine a safe, comforting place. Add multiple vivid sensations to the memory to increase its power.
+        \item Set boundaries around triggering items.
+    \end{itemize}
+
+        \item Somatic Experiencing: Focuses on noticing and processing bodily sensations \cite{levineSomatic}. \todo{link to details}
+
+Many find Somatic Experiencing, a related technique of tracking and processing bodily sensations, useful, though no high-quality studies have examined it \cite{kuhfußSomatic}. \textit{Healing Trauma, A Pioneering Program for Restoring the Wisdom of Your Body} by Peter Levine Ph.D. is a good resource for further information and techniques \cite{levineSomatic}.
+
+\subsection{*Body-Connection Medicines}
+\todo{a bit woo; probably excise}
+Low-dose combinations of LSD and THC taken at the same time can produce a good-feeling and powerful body-awareness \cite{colemanPsychedelicPsychotherapy}. M.G reports a positive experience with 10 $\mu$g LSD and 1.5 mg edible THC and no existing tolerance. This can be deeply healing to those who have been perpetually disconnected from their bodies, a common effect of trauma \cite{vanderKolkBody}. These low doses will likely produce a small alteration of consciousness. At these low doses the primary contraindications of LSD are pregnancy, serious liver and kidney diseases, brain disorders, or personal or family history of psychosis or bipolar disorder \cite{schlagPsychedelicAdverseEffects,passiePsycholytic}. The contraindications of THC are psychosis, severe bipolar disorder, severe cardiovascular, immunological, liver, or kidney disease, especially in acute illness \cite{DCCannabis}.
+
+\subsection{Coherence Therapy}
+\todo{incorporate technique of intertwined identification and disconfirmation}
+Coherence Therapy addresses emotional and behavioral patterns through the lens of schemas \cite{eckerUnlocking}. The goal is to unearth these schemas, confront them with contradictory experiences, and thus facilitate their reconsolidation. Here's a simplified model: \todo{what does coherence mean? why does this make sense?} \todo{make an example and work through it with each technique}
+
+\noindent \textbf{Accessing Sequence:}
+\begin{itemize}
+    \item Symptom Identification: Start by identifying a recurring, unwanted emotional or behavioral reaction or belief that seems involuntary, beyond conscious control.
+    \item Identification of Target Schema: Reflect on the origin of this reaction. Consider its past occurrences and try to remember its inception. Documenting your introspection might reveal events or situations that birthed this deep-seated schema. \todo{hard, how make easier? therapist can help. tools (prompts we mention above, thought records)?}
+    \item Identification of Disconfirming Knowledge: Choose whether you want to disconfirm the belief or emotional memory component of the schema. One may feel more fundamental than the other and disconfirming it may provide deeper healing. Identify experiences or understandings that challenge or oppose this schema component. \todo{is one really more fundamental}
+\end{itemize}
+\noindent \textbf{Erasure Sequence:}
+\begin{itemize}
+    \item Reactivation of the Target Schema: Activate the target schema, perhaps by reliving related emotions or memories.
+    \item Activation of Disconfirming Knowledge, Mismatching the Target Schema: Simultaneously hold in mind both the old truth and the current experiences that challenge it. Feel the tension or contradiction between them. This direct emotional juxtaposition is the essence of Coherence Therapy and serves as the catalyst for the dissolution of the outdated schema. The tension dissipates after minutes to tens of minutes, indicating completion of reconsolidation. Focusing on the physical sensations of the disconfirming experience may increase mismatch since activating multiple aspects (touch, taste, etc.) of a memory make it stronger \cite{brownAttachmentDisturbances,mayerMultimedia}. \todo{thought record}  \todo{is somatic visualization the term for this?}
+    \item Repetitions of the Target-Disconfirmation Pairing: Schemas often feel like complex networks of multiple memories, beliefs, emotions, and triggers. The previous step only reconsolidates the portion activated during that session. Repetition is necessary as different triggers activate remaining parts of the network.
+\end{itemize}
+\noindent \textbf{Verification:}
+\begin{itemize}
+    \item Reflective Self-Assessment: Reflect on the initial triggers and schema. Do they feel different now?
+    \item Mental Imagery Evaluation: "Visualize situations that previously evoked the initial reaction. Note any changes in your emotional response.
+\end{itemize}
+For on-the-spot reconsolidation of daily-activated schemas: Recognize the schema, identify opposing experiences, and activate the opposing experience. Memories of profound MDMA experiences can provide a universal mismatch if you can't identify the target schema or a disconfirming experience. \todo{also need to sit with schemas}
+
+Coherence Therapy requires more cognitive effort than MDMA-therapy, but is fundamentally similar. Activation of target schemas and disconfirming experiences (here it is the effects of MDMA) are more automatic and intense in MDMA-therapy, achieving deeper reconsolidation with less effort and thinking. Memories of powerful MDMA experiences can serve as exceptionally effective disconfirming experiences for a range of maladaptive schemas. \todo{talk about lack of critical period for non-psychedelic therapy}
+
+\subsection{Somatic Healing with THC}
+\todo{no evidence, probably excise; might be worthwhile to try but may compromise reputation of paper}
+\label{psip}
+When dissociation is blocking other methods of healing, you can deactivate the ANS and reconsolidate stuck schemas by working through the bodily manifestation of stress \cite{razviPSIP}. First, prepare by spending an hour engaging with your sensations and relaxing your body via deep breathing \todo{an hour may be too hard for some people, a shower, or another method [personal communication with Jessica Sojorne Libere]. Second, a small dose of THC is taken to heighten bodily awareness. Third, locate the stress in your body with body-scan meditation (see Appendix \ref{MBSR}) or a similar technique. When you find it, you can either:} \todo{What does tremoring actually do? Unclear.}
+\begin{enumerate}
+    \item Surround the stress with love and compassion until it dissipates, thus reconsolidating the associated memory. This will become easier to do without THC or a guide as you practice.
+    \item Shake your body to induce neurogenic tremoring, an important natural process that returns the ANS to a relaxed state \cite{berceliTremor,razviPSIP}. We often unconsciously avoid this because we fear loss of control, associate tremoring with stigma, or are taught to suppress it. Re-engaging with it can permanently reduce dissociation and anxiety if your ANS was stuck in an activated state. The deactivation may be temporary if a maladaptive schema re-triggers the ANS, though tremoring can be used as much as you want to keep deactivating it. Reconsolidation is now possible once dissociation and panic are relaxed, and you regain contact with your body. We have observed that tremoring can become spontaneous when relaxed and can be temporarily halted if needed. If tremoring is not possible, stay present with the dissociation or panic and gently inhibit thoughts, small movements, and comforting impulses (called Selective Inhibition in the Psychedelic Somatic Interactional Psychotherapy (PSIP) model. See Section \ref{selectiveInhibition}). Maintaining Selective Inhibition for tens of minutes will likely start deactivating the ANS and induce tremoring.
+\end{enumerate}
+We know some can do this on their own, but an experienced guide is required if the THC impairs your executive control. The contraindications of THC are psychosis, severe bipolar disorder, severe cardiovascular, immunological, liver, or kidney disease, especially in acute illness \cite{DCCannabis}.
+
+There is little evidence that even lower sub-perceptual doses called microdosing improve mental health \cite{politoMicrodosing}.
+
+We welcome comments at \href{mailto:mgroeneveld@protonmail.ch}{mgroeneveld@protonmail.ch}.
+
