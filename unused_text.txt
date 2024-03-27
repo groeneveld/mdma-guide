@@ -282,3 +282,4 @@ There is little evidence that even lower sub-perceptual doses called microdosing
 
 We welcome comments at \href{mailto:mgroeneveld@protonmail.ch}{mgroeneveld@protonmail.ch}.
 
+    \item \textit{Healing the Fragmented Selves of Trauma Survivors} by Janina Fisher, Ph.D. "...integrates a neurobiologically informed understanding of trauma, dissociation, and attachment with a practical approach to treatment \cite{fisherFragmented}."
