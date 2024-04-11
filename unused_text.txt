@@ -282,4 +282,23 @@ There is little evidence that even lower sub-perceptual doses called microdosing
 
 We welcome comments at \href{mailto:mgroeneveld@protonmail.ch}{mgroeneveld@protonmail.ch}.
 
-    \item \textit{Healing the Fragmented Selves of Trauma Survivors} by Janina Fisher, Ph.D. "...integrates a neurobiologically informed understanding of trauma, dissociation, and attachment with a practical approach to treatment \cite{fisherFragmented}."
+\item \textit{Healing the Fragmented Selves of Trauma Survivors} by Janina Fisher, Ph.D. "...integrates a neurobiologically informed understanding of trauma, dissociation, and attachment with a practical approach to treatment \cite{fisherFragmented}."
+
+\subsection{*Common Maladaptive Schemas}
+\todo{Would probably be better as glossary of common language for maladaptive behaviors. Unclear on utility of this section.}
+\label{ref:defenses}
+All schemas were at some point defensive (protective) \cite{eckerUnlocking}. We suggest some of these overlap with what the psychodynamic framework calls defense mechanisms. Here are some common ones \cite{vaillantAdaptation}:
+
+\begin{itemize}
+    \item \textbf{Psychosis} Denial or distortion of external reality. Sometimes involves delusions of persecution.
+    
+    \item \textbf{Projection} Attributing one's own unacceptable feelings or thoughts to others.
+    \item \textbf{Passive-Aggressive Behavior} Expressing hostility or anger in non-assertive ways.
+    
+    \item \textbf{Intellectualization} A pattern of perceived dispassionate and rational thought that hides distressing emotions. It is similar to rationalization and magical thinking.
+    \item \textbf{Repression} General unawareness of emotions, memory, or senses.
+    \item \textbf{Displacement} Taking out emotions on people or objects that aren't the actual cause of the issue.
+    \item \textbf{Reaction Formation} Behaving in a way that's opposite to one's genuine feelings.
+\end{itemize}
+
+*Several other phenomena also explain the behavior of traumatized people \cite{laneReconsolidation}. Partially surfaced schemas push us to excessively focus on related emotional stimuli, a phenomenon known as emotional congruence. Intense emotions also strengthen memory formation, making traumatic memories especially prominent.
