@@ -302,3 +302,7 @@ All schemas were at some point defensive (protective) \cite{eckerUnlocking}. We 
 \end{itemize}
 
 *Several other phenomena also explain the behavior of traumatized people \cite{laneReconsolidation}. Partially surfaced schemas push us to excessively focus on related emotional stimuli, a phenomenon known as emotional congruence. Intense emotions also strengthen memory formation, making traumatic memories especially prominent.
+
+MAPS has two MDMA-therapy playlists on Spotify \cite{mapsMusicA,mapsMusicB}.     \item Music is commonly used to evoke distressing emotional memories \cite{mithoeferManual}. We suggest creating art or music may also help you evoke distressing schemas.
+
+Two doses of 5 mg/kg on consecutive days is known to possibly cause long-term side effects in rats \cite{baumannRats}. 
