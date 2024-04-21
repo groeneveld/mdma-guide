@@ -280,8 +280,6 @@ We know some can do this on their own, but an experienced guide is required if t
 
 There is little evidence that even lower sub-perceptual doses called microdosing improve mental health \cite{politoMicrodosing}.
 
-We welcome comments at \href{mailto:mgroeneveld@protonmail.ch}{mgroeneveld@protonmail.ch}.
-
 \item \textit{Healing the Fragmented Selves of Trauma Survivors} by Janina Fisher, Ph.D. "...integrates a neurobiologically informed understanding of trauma, dissociation, and attachment with a practical approach to treatment \cite{fisherFragmented}."
 
 \subsection{*Common Maladaptive Schemas}
@@ -306,3 +304,11 @@ All schemas were at some point defensive (protective) \cite{eckerUnlocking}. We 
 MAPS has two MDMA-therapy playlists on Spotify \cite{mapsMusicA,mapsMusicB}.     \item Music is commonly used to evoke distressing emotional memories \cite{mithoeferManual}. We suggest creating art or music may also help you evoke distressing schemas.
 
 Two doses of 5 mg/kg on consecutive days is known to possibly cause long-term side effects in rats \cite{baumannRats}. 
+
+ MDMA-therapy afterglow is less-studied but shares some similarities \cite{sessaAfterglow}.
+
+ Examples include individuals or groups of humans you don't like or don't approve of, the more intelligent non-human animals like great apes, elephants, and octopuses, and less intelligent animals like fish and insects. 
+
+ While starting a session under stress from current events or memories is ok, refrain if you're overly fatigued or unstable. \todo{ask jess} \todo{family history of psychosis is strong indication is strong indication to go cautiously} Consecutive sessions without sufficient recovery amplify the risk of severe side effects like psychosis. You can proceed with a subsequent session even if you haven't fully integrated the insights from the previous one. \todo{self assessment}
+
+Healing is a lifelong practice. The stresses of life may eventually create more stuck schemas, but now you will have more tools to process them.
