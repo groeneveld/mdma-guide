@@ -314,3 +314,5 @@ Two doses of 5 mg/kg on consecutive days is known to possibly cause long-term si
 Healing is a lifelong practice. The stresses of life may eventually create more stuck schemas, but now you will have more tools to process them.
 
 Heat stroke from intense physical activity and dehydration can also cause brain damage \cite{yeoHeatStroke}.
+
+MDMA benignly increases body temperature by 0.2-0.8$^{\circ}$C or 0.4-1.4$^{\circ}$F \cite{liechti2014effects}. 
