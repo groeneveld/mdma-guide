@@ -316,3 +316,5 @@ Healing is a lifelong practice. The stresses of life may eventually create more 
 Heat stroke from intense physical activity and dehydration can also cause brain damage \cite{yeoHeatStroke}.
 
 MDMA benignly increases body temperature by 0.2-0.8$^{\circ}$C or 0.4-1.4$^{\circ}$F \cite{liechti2014effects}. 
+
+4. defense cascade-deactivating techniques such as deep breathing, tremoring, and grounding can be essential to staying within the therapeutic window, and are complementary to MDMA during a session. 
