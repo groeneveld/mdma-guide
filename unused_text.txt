@@ -318,3 +318,8 @@ Heat stroke from intense physical activity and dehydration can also cause brain 
 MDMA benignly increases body temperature by 0.2-0.8$^{\circ}$C or 0.4-1.4$^{\circ}$F \cite{liechti2014effects}. 
 
 4. defense cascade-deactivating techniques such as deep breathing, tremoring, and grounding can be essential to staying within the therapeutic window, and are complementary to MDMA during a session. 
+
+MDMA's biological half life is 8.5 hours, however sessions typically only last 4-8 hours due to rapidly developed tolerance \cite{torrePharmacology,mithoeferManual,vizeliActuteEffects,farreTolerance}. Because of this tolerance, booster doses may not increase the beneficial subjective effects as much as the dose would suggest. We hypothesize that a greater therapeutic effect may be obtained for the same amount of MDMA by reducing dose but increasing session frequency, such that total mg MDMA/month remains constant. For example, instead of using a standard 120mg initial dose + 60mg booster dose once every 6 weeks, a 120mg dose once every 4 weeks may provide greater theraputic benefit on the same overall quantity of medicine. We are not aware of this hypothesis having been tested. This approach may be particularly useful for individuals doing solo MDMA therapy who also have an abundance of time. It may be less useful for expensive professionally guided sessions where it is worthwhile to trade a deeper or slightly extended session (probable 1.5 hour increase) for more recovery post-session. \todo{is this still relevent in light of non-linear dose-response of mdma?} \todo{ask expert who has done study design of mdma}
+
+
+We welcome comments at \href{mailto:mgroeneveld@protonmail.ch}{mgroeneveld@protonmail.ch}.
