@@ -323,3 +323,48 @@ MDMA's biological half life is 8.5 hours, however sessions typically only last 4
 
 
 We welcome comments at \href{mailto:mgroeneveld@protonmail.ch}{mgroeneveld@protonmail.ch}.
+
+We suggest a procedure for reconsolidation in figure \ref{fig:sober-reconsolidation}
+\todo{This is focused on behaviors. Want maps of endpoints. Label tactics. Label goal (reconsolidation). Talk about self-care. Sit mindfully with dissipation of distress and how your body feels.}
+\FloatBarrier
+\begin{figure}[h!]
+\centering
+\begin{framed}
+\begin{tikzpicture}[on grid, node distance=1.5cm]
+
+\node (start) [startstop, text width=4cm] {Start. Distress or avoidance is noticed.};
+\node (universal) [process, below=of start, xshift=5cm, text width=4cm] {Activate universal mismatch};
+\node (specific) [process, below=of start, text width=4cm] {Identify distressing schema};
+\node (common) [process, below=of start, xshift=-5cm, text width=4cm] {Activate common mismatchs};
+\node (specificMismatch) [process, below=of specific] {Identify and activate mismatch};
+\node (inhibition) [influence, right=of start, xshift=4.5cm, text width=5cm] {Suppress comforting behavior, revisit the activating stimulus, or change tactics.};
+\node (isWorking) [process, below=of specificMismatch] {Do the target schema and mismatch interact and heighten each other?};
+\node (hold) [process, below=of isWorking, text width=10cm] {Keep the mismatch activated until the distress dissipates. Repeat process with additional maladaptive schemas as they arise.};
+\node (stop) [startstop, below=of hold] {Stop. Restart if you feel more distress.};
+
+\draw [->,thick] (start) -- (universal);
+\draw [->,thick] (start) -- (specific);
+\draw [->,thick] (start) -- (common);
+\draw [->,thick] (specific) -- (specificMismatch);
+\draw [->,thick] (universal) -- (isWorking.north -| universal);
+\draw [->,thick] (specificMismatch) -- (isWorking.north -| specificMismatch);
+\draw [->,thick] (common) -- (isWorking.north -| common);
+\draw [->,thick] (isWorking) -- node {yes} (hold);
+\draw [->,thick] (isWorking) -| (8.64,-4) -- node {no} (inhibition.south east);
+\draw [->,thick] (inhibition) -- (start);
+\draw [->,thick] (hold) -- (stop);
+
+\end{tikzpicture}
+\end{framed}
+\caption{Procedure for on-the-spot reconsolidation. Three tactics are presented to give you more tools in case one of them does not work in a particular situation. Insight into the nature of the distressing schema will arise throughout this process. You can then use that knowledge to choose more appropriate disconfirming experiences. Universal mismatches may include love sent from the ok part of yourself or profound experiences of love from an MDMA session or meditative experience. If none of the methods listed here work, try psycholytic therapy, body movement practices, nature walks, ask ChatGPT to help you with coherence therapy, or wait until your next MDMA session.}
+\label{fig:sober-reconsolidation}
+\end{figure}
+\FloatBarrier
+
+
+    \item Obtain reading material from the reading list in Section \ref{resources} if desired.
+
+
+ If you do take supplements, we suggest a high level of caution when purchasing supplements, as false claims and inaccurate ingredient lists are pervasive in the supplement industry \cite{cohen2023Supplements}.
+ 
+ 
