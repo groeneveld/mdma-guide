@@ -367,4 +367,14 @@ We suggest a procedure for reconsolidation in figure \ref{fig:sober-reconsolidat
 
  If you do take supplements, we suggest a high level of caution when purchasing supplements, as false claims and inaccurate ingredient lists are pervasive in the supplement industry \cite{cohen2023Supplements}.
  
- 
+  We agree but also speculate that limited, pre-agreed touch like hand-holding may be ok with providers you have an existing high-trust relationship with. Feeling safe and confident telling the therapist no is also a prerequisite to touch. Saying no could be practiced in an MDMA session prior to actual hand-holding in a subsequent session, allowing the client to soberly reflect on how it felt for them. This should not escalate into any remotely sexual forms of touch. Sexual touch from others is not necessary to heal sexual trauma; only reactivation and mismatching of the relevant schemas is needed.
+
+On the high side, distracting side-effects can start increasing at doses over 120 mg and may overtake desirable effects at doses over 160 mg in the average person \cite{bruntLinking}. 
+
+
+We think MDMA-therapy is useful for a broad range of cases, but appears most promising in these cases:
+\begin{itemize}
+    \item Professional guidance with possible transition to solo sessions with check-ins for cases resistant to conventional treatment.
+    \item Professional guidance with transition to solo sessions with check-ins for individuals who lack the resources for frequent psychotherapy sessions.
+    \item Solo use with no professional guidance with the following conditions: 1) lack of access to conventional treatments 2) ability to self-treat and experience destabilization with acceptable consequences 3) inadequate response to, or an inability to use other effective DIY treatments.
+\end{itemize}

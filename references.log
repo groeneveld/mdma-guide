@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.28)  15 MAY 2024 19:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.28)  23 MAY 2024 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -15,13 +15,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 @
-     misc{understandingScience,
+     misc{accountabilityMartinez,
 ? 
 ./references.bib:1: Emergency stop.
  ...                                              
                                                   
 l.1 @
-     misc{understandingScience,
+     misc{accountabilityMartinez,
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -33,5 +33,5 @@ Here is how much of TeX's memory you used:
  22476 multiletter control sequences out of 15000+600000
  558069 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 15i,0n,18p,77b,14s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 15i,0n,18p,79b,14s stack positions out of 10000i,1000n,20000p,200000b,200000s
 ./references.bib:1:  ==> Fatal error occurred, no output PDF file produced!
