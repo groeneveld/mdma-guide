@@ -378,3 +378,13 @@ We think MDMA-therapy is useful for a broad range of cases, but appears most pro
     \item Professional guidance with transition to solo sessions with check-ins for individuals who lack the resources for frequent psychotherapy sessions.
     \item Solo use with no professional guidance with the following conditions: 1) lack of access to conventional treatments 2) ability to self-treat and experience destabilization with acceptable consequences 3) inadequate response to, or an inability to use other effective DIY treatments.
 \end{itemize}
+
+
+
+MDMA-therapy also reduced alcohol addiction among clinical trial participants \cite{nicholasAlcohol}.
+
+
+We also suggest that MDMA can be overused when an individual wishes to accomplish a great amount of therapy quickly but does not understand the critical need for sufficient sleep between sessions or the quickly-developed tolerance to MDMA in the brain \cite{simon2020sleep,farreTolerance}. 
+
+
+The indigenous communities who first discovered how to use psychedelic medicines for healing \cite{celidwen2023Indigenous,davisOneRiver}.
