@@ -388,3 +388,63 @@ We also suggest that MDMA can be overused when an individual wishes to accomplis
 
 
 The indigenous communities who first discovered how to use psychedelic medicines for healing \cite{celidwen2023Indigenous,davisOneRiver}.
+
+Resistance also includes networks of schemas that reinforce each other: Schema A is itself a stimuli for activating schema B. B then reinforces A with a negative stimulus, preventing A from adapting. Sometimes these networks of avoidance and reinforcement become complex and paralyzing. \todo{give examples}
+
+When you feel the emotions and beliefs of the memory, you are feeling the part of that network that activated in response to a particular stimulus. 
+
+We also recommend The MAPS Psychedelic Integration Workbook \cite{integrationHandbook}. \todo{do we?}
+
+CBD also shows weak, preliminary promise for reducing anxiety \cite{skelleyCBD}. We also do not discuss its risks and benefits here.
+
+
+    \item Some cases of personality disorder are likely treatable with MDMA-therapy \cite{traynorBorderline}. These conditions involve extremely strong resistance, and destabilization during therapy may be intense \cite{razviPSIP}. The process of MDMA-therapy will likely be more difficult and may benefit from additional support if that is accessible.
+    
+    
+Despite effects being dependent on body mass, most data is only available from fixed dose studies. 
+
+
+The phase III clinical trials found fixed doses consisting of an 80-120 mg initial dose followed by a half-strength supplemental dose administered 1.5-2 hours later were generally effective and safe for medically screened participants \cite{mitchellMDMAClinicalTrial2}.
+
+
+We suggest practicing loving-kindness meditation for yourself and your dissociation or avoidance (see Appendix \ref{lkmeditation}). The feelings of compassion could ease down dissociation and resistance.
+
+
+
+ 
+ 
+ 
+ 
+ 
+        
+        Safrole harvesting in Southeast Asia often causes large-scale deforestation and species extinction \cite{safroleProduction}. We urge sustainable production that doesn't involve degradation of natural areas. However, we also urge you to not let this knowledge dissuade you from MDMA-therapy, given the importance of connection, care, and mental health. We also believe care for nature (see Section \ref{sec:nature}), and care and compassion for each other and future generations (see Section \ref{sec:circle}) are of paramount importance and were among the primary motivations for this manual. \todo{remove to avoid scaring people off?}
+        
+        
+        MDMA addiction is rare to nonexistent in supportive therapeutic contexts where it has been formally studied \cite{mitchellMDMAClinicalTrial2,mitchellMDMAClinicalTrial}. 
+        
+        
+    \item When working with a therapist or guide: Your empathy and regard for each other, agreement on goals and methods, and therapist skill with facilitating reconsolidation. These factors impact outcomes more than the choice of therapeutic framework \cite{wampoldCommonFactors}.
+    
+    No clear statistical connection between recreational MDMA and suicidal ideation has been found, and correlational studies have had mixed results \cite{jonesSuicideAdults,jonesSuicideAdolescents,kimSuicide}. However, i
+    
+    
+    The interactions between MDMA and many drugs remain uncertain, and self-experimentation could lead to unforeseen complications \cite{cohenMDMADrugCombinations,sarparastDrugInteractions}.
+    
+        \item Interactions with other medications. Ritonavir, opioids, benzodiazepines, amphetamines, stimulants, caffeine, anesthetics, MDMA metabolites or analogs, muscle relaxants, olanzapine, and metoclopramide may be particularly dangerous and occasionally deadly. Discontinuing medications for 5 drug half-lives before the session and restarting it  2 days after the session generally assures a significant amount (only 2\% remains) of the other drug won't be in your body at the same time as a significant amount of MDMA \todo{soso advice, need better}. As with MAOI's, this doesn't prevent all interaction problems. Discussing drug combinations with a doctor or pharmacist may be necessary.
+        
+            \item Combining bupropion with MDMA extends the therapeutic effects of MDMA by about 1 hour, while reducing heart rate and blood pressure \cite{schmid2015bupropion}. No adverse effects of this combination have been found.
+
+
+ Caffeine also increases risk at high MDMA doses in rats \cite{vanattouCaffeine}.
+ 
+ 
+ In a highly supportive setting with medical screening of participants, both phase 3 clinical trials measured no serious or long term adverse effects (among the set of outcomes they looked at) at 6-week spacing for 3 sessions with 180 mg MDMA (combined measure of primary and supplemental doses) \cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. Higher doses, more frequent sessions, and a greater number of sessions are likely safe, but it's unknown where the limits are and experimentation can be risky. Doing more than three sessions is likely safe but could potentially introduce unknown risks, which should be weighed against potential benefits. It is also possible that participants experienced a set of problems that the study was not capable of detecting.
+ 
+ On a population level, recreational MDMA use leads to acute physical injury far less often than horse riding does, for instance \cite{nutt2009equasy}.
+ 
+ As previously discussed, MDMA therapy commonly accelerates the processes of reconsolidation and therapeutic destabilization, the latter of which can be disruptive when intense or poorly managed.
+ 
+ We only found one case study describing psychosis following a single purported dose. 
+ 
+ Note that this study only investigated those who experienced new, persistent negative symptoms. Most psychedelic users do not experience these.
+
