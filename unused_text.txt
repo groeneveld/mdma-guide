@@ -448,3 +448,20 @@ We suggest practicing loving-kindness meditation for yourself and your dissociat
  
  Note that this study only investigated those who experienced new, persistent negative symptoms. Most psychedelic users do not experience these.
 
+    \item MDMA-therapy has only been clinically tested at 6-week spacing \cite{mitchellMDMAClinicalTrial2}. There is little data regarding responsible recreational use but what we have has not shown clear long-term cognitive deficits even with a large number of lifetime doses \cite{halpernMormonRavers}. We are not aware of any high-quality investigation of long-term physical problems. It is not known where the limit of safety is, and it is likely different for different people. We can only suggest attempting to balance this unknown risk with the benefits MDMA-therapy brings to your life.
+    
+    
+    
+    We suggest wariness of charismatic people selling things, non-scientific mechanisms of action (false claims of scientific support are widespread), cure-all or quick-fix claims, or companies selling proprietary treatments (almost no currently available psychedelics are not under patent protection). 
+    
+    
+    60% of adults experienced childhood trauma; half develop a mental illness in their
+life. Symptoms like cognitive distortion, emotional rigidness/insecurity, and impaired compassion increase tribalism, political polarization, and apathy to animal suffering–hobbling our collective capacity to defeat global catastrophic risks. Access to effective care (a crucial support for stopping intergenerational harm) is inadequate for most who need
+it. MDMA is a promising treatment, but good training is lacking because MDMA is illegal.
+With legalization immanent, our rigorous and accessible guide to MDMA therapy will: 1) Resource therapeutic MDMA users and clinicians 2) Articulate likely mecha- nisms of effectiveness, to inform the development of future therapeutic techniques
+This can reduce mental illness by addressing the prevalent, high impact barriers to effective care–increasing collective capacity for collaboration, supporting individuals who end cycles of abuse, and protecting future generations.
+
+
+
+\subsubsection{Warning signs of psychosis and mania}
+Psychedelic-induced psychosis and mania are rare unless you have a personal or family history. However, if you or someone you know is showing these signs, we suggest helping them access psychiatric care: \todo{finish} Fear of going insane is not itself a symptom of psychosis or mania. 
