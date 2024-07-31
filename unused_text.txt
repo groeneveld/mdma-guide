@@ -465,3 +465,6 @@ This can reduce mental illness by addressing the prevalent, high impact barriers
 
 \subsubsection{Warning signs of psychosis and mania}
 Psychedelic-induced psychosis and mania are rare unless you have a personal or family history. However, if you or someone you know is showing these signs, we suggest helping them access psychiatric care: \todo{finish} Fear of going insane is not itself a symptom of psychosis or mania. 
+
+
+However, we also feel these kinds or prompts are among the most fruitful tactics for accessing schemas that would be beneficial to reconsolidate.
