@@ -5,6 +5,7 @@ The "three month rule" started out as Anne Shuglin's educated guess for how ofte
 
 If you are significantly constrained by time, care resources, or critical responsibilities, you should take care to not go too deep in one session, otherwise you might get into a too-much-too-soon scenario and experience more destabilization than you can handle.
 
+We suspect that such an individual would actually have an even deeper attachment to living that would override their desire to not be alive, but they could hypothetically unlearn the not-falling-off-a-cliff schema before they unlearn the wanting-to-die schema.
 
 Multiple psychedelic-therapy practitioners also believe that judiciously adding 0.5 g dried psilocybin mushrooms to the start of MDMA trips would further improve outcomes [M.G.'s observation and personal communications]. 
 
@@ -194,17 +195,48 @@ Specific todos auto-generated from \textbackslash todo\{\} tags:
     \end{itemize}
 }
 
-
+Because of the dangers of manic and psychotic episodes, we only recommend experimenting with MDMA-therapy for those conditions if existing treatments are inadequate, and then only in the physical presence of a professional with a strong capacity to treat these conditions, understanding of MDMA-therapy, and effective symptom oversight and management (including the ability to prescribe psychiatric medication).
 
  This method can also ease challenging tasks, like difficult conversations, by associating them with empathy. For this, have such conversations during an MDMA session once you're familiar with the therapy. Make sure to ask for informed consent from your conversation partner.
 
+When it does happen, stress of therapeutic destabilization is likely a major factor in triggering episodes in genetically-susceptible people \cite{winkelPsychosisStress}. 
+
+Further studies investigating more health measures, longer-term MDMA use, larger numbers of participants, or higher-risk populations may discover currently unknown adverse effects.
+
+We think MDMA neurotoxicity is highly unlikely in humans in therapeutic contexts \cite{passieHistory,halpernMormonRavers}. However, MDMA is known to cause oxidative stress in the brain at very high doses in animal tests. This may also happen at sufficiently high doses in humans, though it has not been demonstrated. 
+
+    \item The target issue may involve schemas you don't fully understand or regularly experience. Once the schema is made explicit in therapy, you may not be able to avoid overwhelming feelings in daily life.
+
+    \item Challenging insights about one's past, behavior, or beliefs may provoke difficult emotions.
+    
+        \item Coping behaviors or beliefs may fall away as inner stability increases, or as a result of insight. This change is usually healthy in the long term, but the lack of a familiar coping pattern may be hard to deal with in the short term.
+
+    \item In the Internal Family Systems framework, some schemas termed "protectors" facilitate emotional stability by pushing us to avoid distressing thoughts or emotions \cite{schwartz2019internal}. Protectors can increase in intensity when the overwhelming feelings they push us to avoid are engaged with during therapy. This is termed protector backlash.
+    
+    Difficult emotions may become more noticeable as dissociation decreases.
+    
+    Emotional numbing is a category of mental and/or physiological states we invent to capture anecdotes we have heard of how some people seem to "not feel anything" during MDMA-therapy, but are not always clearly immobile. We are unsure of the nature or validity of this phenomena. It may be some extreme form of avoidance, an atypical form of opioid-mediated defense cascade activation, an opioid-mediated phenomena not in the defense cascade, immobility where the immobility aspect is counteracted by MDMA-induced stimulation, something else, multiple things, or a mistaken category that doesn't actually exist. Here is one example that highlights this category: "People with significant State-4 [a high level of dissociation] may have very little or no response to substances as powerful as MDMA or psilocybin. They will feel sober, or bored or sleepy as if they could get up and go about their day \cite{razviPSIP}." We don't think someone experiencing one of the dissociative defense cascade states of tonic or collapsed immobility would want to "get up and go about their day." This highlights the possibility that there is a category of dissociative state that doesn't match up well with the defense cascade model. Whatever the nature of this category, \textcite{razviPSIP} reports consistent success reducing the dissociation by "...bringing blankness, flat affect, nothingness, boredom, sleepiness, or sobriety into focus." Then, "In a psychedelic-assisted session, it might take staying with it from minutes to a full day-long session, but it will crack." If this category is opioid-mediated, naloxone may help, as mentioned above \cite{escamilla2023treatment}.
+
+These protective factors reduce risk of trauma through a range of mechanisms that improve a person's ability to experience potentially traumatic events in a way that holds a unified meaning for them. That is to say, a person who has many of these factors acting in their support when they experience a potentially traumatic event will be more likely to encode the memory with a single meaning across their somatic, emotional, and narrative/cognitive memory. For instance, a child whose caregiver is explosively violent towards them a single time is likely to carry different meanings of that event in they somatic, emotional, and narrative systems. Somatic systems may recall fear by activating the nervous system when triggers related to the event return. Emotionally, the child may experience anger, but they may instead experience self-doubt or self-blame (especially if they are dependent on the caregiver for survival)--regardless of whether they behaved inappropriately in the slightest. Narratively, the child may remember the events in the same way an outside observer would likely recount them, or they they may not remember them at all, or they may distort the events to amplify their own misbehavior prior to the caregiver violence--in alignment with their emotional memory. If the caregiver in question takes accountability, names what has happened, appolgizes to the child, and takes active observable steps towards preventing future repetitions of the harm, this greatly reduces the child's need to create such dissociated memory and meaning around the event. This is one example of how healthy support from other people can function to reduce the risk of trauma. In general, the protective factors on this list, in one way or another, are likely to similairy reduce risk of dissociation, and therefore risk of pathological truama response.
+
+There are a variety of neural systems activated in the defense cascade, including possibly two opioid systems ($\mu$-opioid and $\kappa$-opioid), each associated with different effects. Different combinations of system activations produce different symptom sets, and these may not always neatly line up with the above list of defense cascade states. Alternatively, this might just be a mild form of immobility. Dissociation is present in a wide variety of psychological disorders. 
+
+\textcite{colcott2024side} published a side-effect meta-analysis of MDMA-therapy trials and found that MDMA therapy "...is associated with greater likelihood of experiencing mild to moderate, but largely transient side effects. Findings, however, need to be interpreted cautiously due to limitations of the existing evidence." The statistically significant side effects included, starting from the most common: dilated pupils, feeling jittery, uncontrolled eye movements, excessive perspiration, chills, blurred vision, jaw clenching/tight jaw, muscle tightness, decreased appetite, restlessness, non-cardiac chest pain/discomfort, feeling cold, and nausea. We are unclear which of these symptoms are due to schema-related defense cascade activation and which are due to MDMA itself. Larger trials would help us better understand rare, potentially more serious, side-effects that haven't appeared in these relatively small trials. Side effects were also measured by spontaneous self-report. Systematic measurement with checklists would likely report more side effects.
+
+ In traditional psychotherapy where mismatch is provided by the client's existing knowledge, this generally does not happen \footnote{There might be rare situations where a healthy schema is unlearned. Someone's deep desire to not be alive might be able to contradict their desire to, say, avoid falling off a cliff because that would cause their death. In that case their not-falling-off-a-cliff schema could be an un-integrated remnant from a time in their life when they did want to be alive.} \todo{cite ecker email on footnote?}, because, a
+
+We are unclear on the exact nature of the mismatch that MDMA provides. However, we suspect it involves intense feelings of compassion and safety in the present moment that feels true and important (Possibly because in all likelihood you really are safe in the moment and your maladaptive schemas usually prevent you from feeling that truth. The same for compassion; you and other beings really do have inherent worth and when we do hurtful things, it's for reasons one can understand.). Compassion and safety contradict the negative expectations or disregard for others or self involved in most maladaptive schemas. Compassion and safety are unlikely to contradict healthy schemas that protect you or others from harm. If this mechanism is correct, it may indicate that conducting MDMA therapy in genuinely unsafe environments could unlearn healthy protective schemas. 
+
+There are a variety of neural systems activated in the defense cascade, including possibly two opioid systems ($\mu$-opioid and $\kappa$-opioid), each associated with different effects. Different combinations of system activations produce different symptom sets, and these may not always neatly line up with the above list of defense cascade states. 
+
+A variety of low-quality studies from the mid-20th century generally reported symptom improvement after administering LSD to individuals with schizophrenia \cite{sapienza2024psychedelics}. We're not sure how this applies to MDMA-therapy.
 
 The contraindications listed here are a best-effort list and may not be comprehensive. We advise always checking with the scientific literature, a doctor, or a pharmacist if you regularly use another medicine, need to use another drug within 24 hours on either side of an MDMA session, or have a potentially relevant health condition. You may need to abstain from some medicines for two weeks before it's safe to use MDMA \cite{malcolmSerotonin,edinoffInteractions}. \todo{emphasize 3 ways to avoid problems}
 
 
 None of those methods working may be a sign that MDMA doesn't work with your brain chemistry.
 
-\item MDMA, as a stimulant, increases blood pressure to 147/89 mmHg and heart rate to 92 b/min in the average user in therapeutic contexts \cite{mitchellMDMAClinicalTrial}. Transient increases in systolic blood pressure to above 180 mmHg also occured in 5\% of users in one study \cite{vizeliActuteEffects}. This could be problematic for those with serious cardiovascular problems.
+    \item MDMA has multiple interactions with the cardiovascular system that create risk for those with some cardiovascular problems \cite{bonsignoreCardio} \footnote{We think Bonsignore doesn't control well for polydrug use and also doesn't take enough caution translating high-dose rodent studies to human therapeutic use. However, we haven't been able to find any better source of information on the topics.}. These risks are further exacerbated by high doses or long-term high-frequency use.
 
 
  If you do abuse MDMA, the adverse effects are likely lower than those of most drugs of abuse, possibly because tolerance usually makes abuse self-limiting \cite{nuttDrugHarms}.
@@ -468,3 +500,515 @@ Psychedelic-induced psychosis and mania are rare unless you have a personal or f
 
 
 However, we also feel these kinds or prompts are among the most fruitful tactics for accessing schemas that would be beneficial to reconsolidate.
+
+
+
+ \footnote{The neuroplasticity that psychedelics increase is more accurately described as a reopening of neurodevelopmental windows (called critical periods) where certain types of learning are easier. These critical periods are domain specific, so reopening a reconsolidation critical period is not useful for say, language acquisition, and vice-vera. Luckily, psychedelics actually increase metaplasticity, the general ability to reopen any critical period. The context or activity done during the psychedelic session determines which critical period is reopened. This means doing reconsolidation during the session makes reconsolidation easier in the reopened critical period after the session. It also implies that, for example, spending your session learning another language would induce a language-acquisition critical period.}
+ 
+ 
+ 
+\begin{figure}
+    \centering
+    \title{Therapeutic Up's and Down's}
+    \includegraphics[width=1\textwidth]{long-term ups and downs.jpg}
+    \caption{The progress of therapeutic improvement has unpredictable ups and downs, but is reliably positive in the long-term. In our experience, the intensity of individual maladaptive schemas often appears to increase when you start working on them, before decreasing following completion of reconsolidation. Increases in distress are caused by a variety of mechanisms we call therapeutic destabilization (see Section \ref{def:destabilization}).}
+    \label{fig:ups-downs}
+\end{figure}
+\FloatBarrier
+
+
+
+
+ We also suggest reading about the Hard Problem of Consciousness from \textcite{hardProblem}. The linked article at the Internet Encyclopedia of Philosophy outlines a variety of theories of consciousness and the challenges each faces.
+
+
+
+
+ The common phrase "MDMA-therapy give you what you need, not what you want" contains significant truth, even if "need to" is seriously under-defined.
+ 
+ 
+ 
+ SSRIs have small average effects (or possibly, higher effect sizes for some poorly understood subtypes of depression, and no effect size for other subtypes) in short term use (long term use is poorly studied) while sometimes causing long-term adverse side effects \cite{ciprianiSSRI,bregginWithdrawal}. Long term benzodiazepine use for anxiety has low efficacy and severe side effects such as long term mental impairment that persists after discontinuation \cite{shinfukuBenzo,barkerBenzo}. \todo{Discuss nuances and variety of treatment options? I feel confident that reconsolidation works. How do mental health interventions work? Is exercise effective by itself or is it just an example of a task that requires effort and feels rewarding? We should talk about the fundamental causes if possible. For instance, if the fundamental mechanism of some intervention is just having a task that feels rewarding, then how do we know it will add any benefit on top of MDMA-therapy, which might already feel rewarding?} \todo{why is reconsolidation better than smushing down feelings?}
+ 
+ 
+
+You will likely notice activating remnants of the schemas you reconsolidated during the session. These remnants are easier to deal with than the entire network, perhaps because they are smaller or because you now better understand how that particular emotion affected you. Due to the healing that happened on the session, a variety of mechanisms will also surface different maladaptive schemas.
+
+
+
+
+ Studies of other drugs affecting VHD via the same mechanism suggest there is a linear relationship between cumulative doses and VHD risk \cite{corvol2007heart}. Therefore, we think this risk is low for typical use patterns. Assuming the relationship is linear, extrapolating from \textcite{droogmans2007valvular} indicates that 41 cumulative tablets of MDMA will cause a 1\% risk of abnormal signs on an echocardiogram test. We consider this estimate to be low-quality and, even if it was reliable, we are unclear what practical implications this would have for users.
+ 
+ 
+ 
+     Combining MDMA with some drugs of abuse may increase the risk of adverse effects, though high quality data is lacking \cite{papaseitInteractions}. There are strong suspicions that the negative long-term effects seen in some MDMA users are actually due to other drugs of abuse, or mixing other drugs of abuse with MDMA \cite{halpernMormonRavers,passieHistory}. The following drugs are correlated with adverse outcomes when combined with MDMA in recreational contexts, though cause and effect remain highly unclear: opioids, benzodiazepines, amphetamines, stimulants, anesthetics, MDMA metabolites or analogs, muscle relaxants, olanzapine, and metoclopramide \cite{cohenMDMADrugCombinations}. If you regularly use any of these drugs, we suggest following the recommendations in the previous paragraph.
+     
+     
+        \item Pursuing the suggestions from \textcite{adayMethodologicalRigor} and \textcite{vanElkMethodology} for designing more rigorous MDMA-therapy trials. Of particular note is blinding, with most participants accurately deducing whether they got MDMA or placebo. Expectancy effects were also high and may have heightened the problems from lack of adequate blinding.
+            \item Does R-MDMA increase the benefit/risk ratio in humans, as a rodent study has suggested \cite{curry2018RMDMA}?
+    \item What is an optimal mg/kg dosing? What is the safe upper mg/kg limit? What is the minimal effective mg/kg limit?
+\item Also gain a better understanding of the frequency of serious adverse effects. The Swiss Psychedelic Side Effects Inventory look promising \cite{caldervalidation}.
+
+
+
+
+
+There may be multiple mechanisms of action of psycholytic therapy, and these mechanisms' therapeutic relevance has yet to be fully fleshed-out. One mechanism may include psychedelics bringing the contents of your subconscious into conscious awareness by increasing connectivity between typically less-connected brain regions \cite{linguiti2023functional}, generating insight into your issues \cite{letheby2021philosophy}. Psychedelics also increase neural plasticity, making it easier to see things from a different angle or getting out of ruts \cite{nardou2023psychedelics}. 
+
+
+
+MDMA primarily creates feelings of safety, love, and connectedness. In this state your resistance schemas naturally relax and allow processing of avoided or dissociated schemas. MDMA-therapy proceeds similarly for most types of trauma, with minor variations to accommodate individual needs \cite{otaloraMDMA}.
+
+
+Many physical health problems are symptoms of maladaptive schemas, stress, and defense-cascade activation \cite{kozlowskaDefenseCascade,eckerUnlocking}. Among these problems, some are reversible and will disappear when the underlying schema is reconsolidated, like most of the immediate symptoms of hyperarousal and dissociation (See this list from \textcite{cheetahSigns}). Some heath conditions triggered or exacerbated by maladaptive schemas, stress, and defense-cascade activation may not be reversible or may only be partially reversible. \todo{day write}
+
+
+
+
+We think the 2024 generation of frontier models, Claude 3.5 Sonnet or ChatGPT 4o for instance, may be first generation to be broadly useful. However, their usefulness is likely not applicable to every client's particular needs, and they may represent generally low-quality therapy \cite{wang2025evaluating}. If the 2024 models are not working well for your situation we strongly recommend trying again when a new generation of models is released, since LLM's have been demonstrating major yearly gains in functionality in the early 2020's.
+
+
+
+We think LSD and psilocybin are potent tools for reducing resistance. \todo{cite} Mixing LSD or psilocybin with MDMA is widely practiced, though poorly studied \cite{zeifmanCo-use}. We suggest starting with very low doses because LSD or psilocybin-assisted psychotherapy are known for deeply challenging experiences. Adding up to 0.5 g dried psilocybe mushrooms at the beginning of the MDMA session reliably decreases resistance. It also increases the intensity and discomfort of the session. Do not take more than 0.5 g unless you are deeply familiar with the combination. See Section \ref{psychedelics} for more information. This combination is common practice in MDMA-therapy, but no studies have been done \cite{colemanPsychedelicPsychotherapy}. Acutely safe co-use is known from recreational contexts \cite{zeifmanCo-use}.
+
+
+
+Extreme threats such as lack of attunement from parents, may cause extreme dissociation from bodily sensations, emotional memories, and current feelings, even while the person appears to be functioning and conversing normally. Chronic dissociation is association with trauma in situations of powerlessness \cite{loewensteinDissociation}. \todo{resolve whether fight or flight is deactivated during dissociation; explain how fight or flight can coexist with dissociation}
+
+
+Recurrent activation of these states contributes to conditions such as anxiety, depression, PTSD, and dissociative disorders \cite{razviPSIP}. PTSD sufferers, for instance, might frequently switch between heightened aroused and dissociative states. Dissociative and panic states can also simultaneously coexist in many cases of depression and anxiety. We suggest understanding the defense cascade enables safer and more effective healing:
+\begin{itemize}
+    \item \textbf{Awareness and Insight} Recognizing where you might be within the defense cascade can clarify your reactions and behaviors.
+    \item \textbf{Self-Regulation} With awareness, employ techniques like deep breathing or mindfulness to transition from heightened arousal to a calmer state.
+    \item \textbf{Pacing} Observing your shifts between hyper-arousal (fight/flight) and hypo-arousal (freeze/collapse) can inform the rhythm of therapy, indicating when to proceed or pause. \todo{not quite right}
+    \item \textbf{Empathy Towards Self} Acknowledge these reactions as once protective, fostering self-understanding and compassion.
+    \item \textbf{Creating a Safe Environment} Prioritize crafting a secure physical and emotional space, potentially setting boundaries in scenarios prone to activating stimuli.
+\end{itemize}
+
+
+ A common cause of mental illness are protective responses to threats experienced during childhood that are originally adaptive, but then stick around into adulthood where they are no longer needed or healthy.
+
+
+
+
+Our minds continually create and update a network of unconscious memory structures called schemas \cite{eckerUnlocking}. Schemas are composed of detailed memories, abstract beliefs, and emotional responses. They form in response to emotionally positive or negative experiences to help guide our behavior when we encounter similar situations in the future. \todo{finish}
+
+
+
+
+
+This emotional response and the associated episodic memory (a narrative of how events unfolded during a specific event or "episode") then form and combine with abstract beliefs about the world to form durable, unconscious or partly unconscious structures called schemas, or 'parts' (from the Internal Family Systems framework) \cite{laneReconsolidation,lesswrongCoherenceTherapy}. The emotional, episodic, and belief components interact with each other and activating one activates the others. Schemas are originally protective or adaptive (enhances your ability to cope with your environment; see Figure \ref{fig:adaptiveSchema}), but sometimes become maladaptive (inhibits your ability to cope with your environment; see Figure \ref{fig:maladaptiveSchema1}) when they don't adapt to changing conditions due to the above reasons.
+
+
+\FloatBarrier
+\begin{figure}[h!]
+\centering
+\begin{framed}
+\begin{tikzpicture}[on grid, node distance=1.5cm]
+
+\node (emotionalResponses) [startstop] at (0,0) {Emotional Responses};
+\node (episodicMemories) [startstop, right=of emotionalResponses, xshift=3cm] {Episodic Memories};
+\node (beliefs) [startstop, below=of emotionalResponses, xshift=2.3cm] {Beliefs};
+\draw [thick,<->] (emotionalResponses) -- (episodicMemories);
+\draw [thick,<->] (emotionalResponses) -- (beliefs);
+\draw [thick,<->] (episodicMemories) -- (beliefs);
+\node[fit=(emotionalResponses) (episodicMemories) (beliefs), draw, inner sep=10pt, rounded corners, thick, label={above:Adapting and Flexible Schema}] (adaptiveSchema){};
+\node (emotionMismatch) [influence, left=of emotionalResponses, xshift=-3.2cm] {Emotion Mismatch};
+\node (beliefMismatch) [influence, below=of beliefs, yshift=-.3cm] {Belief Mismatch};
+\draw [very thick,->, draw=colorInfluence] (emotionMismatch) -- (emotionalResponses);
+\draw [very thick,->, draw=colorInfluence] (beliefMismatch) -- (beliefs);
+\end{tikzpicture}
+\end{framed}
+\caption{The whole schema updates when either its belief or emotion components experiences a prolonged mismatch with a contradictory experience. Avoidance behaviors are temporary and healthy.}
+\label{fig:adaptiveSchema}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h!]
+\centering
+\begin{framed}
+\begin{tikzpicture}[on grid, node distance=1.5cm]
+
+\node (emotionalResponses) [startstop] at (0,0) {Emotional Responses};
+\node (episodicMemories) [startstop, right=of emotionalResponses, xshift=3cm] {Episodic Memories};
+\node (beliefs) [startstop, below=of emotionalResponses, xshift=2.3cm] {Beliefs};
+\draw [thick,<->] (emotionalResponses) -- (episodicMemories);
+\draw [thick,<->] (emotionalResponses) -- (beliefs);
+\draw [thick,<->] (episodicMemories) -- (beliefs);
+\node[fit=(emotionalResponses) (episodicMemories) (beliefs), draw, inner sep=10pt, rounded corners, thick, label={[xshift=-.18cm]above:Nonadapting and Ridgid Schema}] (maladaptiveSchema){};
+\node (emotionMismatch) [influence, left=of emotionalResponses, xshift=-3.2cm] {Adaptive Mismatch};
+\node (beliefMismatch) [influence, below=of beliefs, yshift=-.2cm] {Adaptive Mismatch};
+\draw [very thick,->, draw=colorInfluence] (emotionMismatch) -- (emotionalResponses);
+\draw [very thick,->, draw=colorInfluence] (beliefMismatch) -- (beliefs);
+\coordinate (mid1) at ($(emotionMismatch)!0.5!(emotionalResponses)$);
+\draw[red, very thick] ($(mid1) + (0.2, 0.2)$) -- ($(mid1) - (0.2, 0.2)$);
+\draw[red, very thick] ($(mid1) + (0.2,-0.2)$) -- ($(mid1) - (0.2, -0.2)$);
+\coordinate (mid2) at ($(beliefMismatch)!0.5!(beliefs)$);
+\draw[red, very thick] ($(mid2) + (0.2, 0.2)$) -- ($(mid2) - (0.2, 0.2)$);
+\draw[red, very thick] ($(mid2) + (0.2,-0.2)$) -- ($(mid2) - (0.2, -0.2)$);
+\node (resources) [process, below=of emotionMismatch, yshift=-2.3cm] {Lack of Resources};
+\node (resistance) [process, below=of resources] {Resistance Schemas};
+\node (ans) [process, below=of resistance] {Fight-or-Flight or Dissociation};
+\node[fit=(resources) (resistance) (ans), draw, inner sep=10pt, rounded corners, thick] (inhibitors){};
+\draw [thick,->] (inhibitors) -- (mid1);
+\draw [thick,->] (inhibitors) -- (mid2);
+
+%\node (emotionalResponsesMal) [startstop] at (0,4) {Emotional Responses};
+%\node (episodicMemoriesMal) [startstop, right=of emotionalResponsesMal, xshift=3cm] {Episodic Memories};
+%\node (beliefsMal) [startstop, below=of emotionalResponsesMal, xshift=2.3cm] {Beliefs};
+%\draw [thick,<->] (emotionalResponsesMal) -- (episodicMemoriesMal);
+%\draw [thick,<->] (emotionalResponsesMal) -- (beliefsMal);
+%\draw [thick,<->] (episodicMemoriesMal) -- (beliefsMal);
+%\node[fit=(emotionalResponsesMal) (episodicMemoriesMal) (beliefsMal), draw, inner sep=10pt, rounded corners, thick, label={above:Reinforcing Schema}] (reinforcingSchema){};
+%\draw [line width=1.5mm, ->, draw=colorStartStop] (emotionalResponsesMal) -- (emotionalResponses);
+%\draw [line width=1.5mm, ->, draw=colorStartStop] (beliefsMal) -- (beliefs);
+\end{tikzpicture}
+\end{framed}
+\caption{The schema doesn't update and becomes maladaptive when mismatches are avoided or another schema reinforces it. The maladaptive schema may be a stimulus for the reinforcing schema, or they may share a common activating stimulus. The emotional response of the reinforcing schema is intense and outweighs the adaptive mismatch.}
+\label{fig:maladaptiveSchema1}
+\end{figure}
+\FloatBarrier
+
+
+
+
+*Schemas are stored as networks of neural connections spread across brain regions \cite{eckerUnlocking}. Some networks are complex, composed of multiple traumatic events and activated by a wide variety of stimuli. The stimuli may be singular and obvious like seeing a wasp of the same kind that once stung you, or diffuse and difficult to understand like a mood, thought, or time of day. We are often unaware of our activating stimuli.
+
+
+
+In addition to possibly lacking an episodic component, schemas may contain and sustain other signals in the brain, such as chronic pain or feelings in your chest or abdomen. The mind may interpret particularly strong collections of schemas as separate personalities.
+
+
+
+Children are easily traumatized because they have very little ability to protect themselves. A wide variety of situations that are not overwhelming to healthy adults are life-threats to children.
+
+
+
+
+We propose a description of the healing mechanisms of MDMA in Figure \ref{fig:healing}.
+
+\FloatBarrier
+\begin{figure}[h!]
+\centering
+\begin{framed}
+\begin{tikzpicture}[on grid, node distance=1.5cm]
+
+\node (emotionalResponses) [startstop] at (0,0) {Emotional Responses};
+\node (episodicMemories) [startstop, right=of emotionalResponses, xshift=3cm] {Episodic Memories};
+\node (beliefs) [startstop, below=of emotionalResponses, xshift=2.3cm] {Beliefs};
+\draw [thick,<->] (emotionalResponses) -- (episodicMemories);
+\draw [thick,<->] (emotionalResponses) -- (beliefs);
+\draw [thick,<->] (episodicMemories) -- (beliefs);
+\node[fit=(emotionalResponses) (episodicMemories) (beliefs), draw, inner sep=10pt, rounded corners, thick, label={above:Maldaptive Schema}] (adaptiveSchema){};
+\node (emotionMismatch) [influence, left=of emotionalResponses, xshift=-4.35cm] {1. Emotion Mismatch (MDMA?)};
+\node (beliefMismatch) [influence, below=of beliefs, yshift=-.2cm] {1. Belief Mismatch (MDMA?)};
+\coordinate (mid1) at ($(emotionMismatch)!0.59!(emotionalResponses)$);
+\draw[red, very thick] ($(mid1) + (0.2, 0.2)$) -- ($(mid1) - (0.2, 0.2)$);
+\draw[red, very thick] ($(mid1) + (0.2,-0.2)$) -- ($(mid1) - (0.2, -0.2)$);
+\coordinate (mid2) at ($(beliefMismatch)!0.5!(beliefs)$);
+\draw[red, very thick] ($(mid2) + (0.2, 0.2)$) -- ($(mid2) - (0.2, 0.2)$);
+\draw[red, very thick] ($(mid2) + (0.2,-0.2)$) -- ($(mid2) - (0.2, -0.2)$);
+\draw [very thick,->, draw=colorInfluence] (emotionMismatch) -- (emotionalResponses);
+\draw [very thick,->, draw=colorInfluence] (beliefMismatch) -- (beliefs);
+\node (resources) [process, below=of emotionMismatch, yshift=-3cm] {Lack of Resources};
+\node (resistance) [process, below=of resources] {Resistance Schemas};
+\node (ans) [process, below=of resistance] {Fight-or-Flight or Dissociation};
+\node[fit=(resources) (resistance) (ans), draw, inner sep=10pt, rounded corners, thick, label={above:Conscious or Unconscious Avoidance}] (inhibitors){};
+\draw [thick,->] (inhibitors) -- (mid1);
+\draw [thick,->] (inhibitors.north east) -- (mid2);
+\node (safety) [influence, right=of resistance, xshift=5.3cm] {3. Feelings of Safety (MDMA)};
+\draw [->, draw=colorInfluence, very thick] (safety) -- (resistance);
+\draw [->, draw=colorInfluence, very thick] (safety.south west) -- (ans.north east);
+\node (nonavoidance) [influence, right=of resources, xshift=5.2cm] {2. Gain Skills and Resources};
+\draw [->, draw=colorInfluence, very thick] (nonavoidance) -- (resources);
+%\node (regulator) [influence, right=of ans, xshift=5.5cm] {4. Defense Cascade Deactivation};
+%\draw [->, draw=colorInfluence, very thick] (regulator) -- (ans);
+\node (focus) [influence, right=of ans, xshift=5.5cm] {4. Present Focus (MDMA)};
+\end{tikzpicture}
+\end{framed}
+\caption{Reconsolidation is achieved through multiple interventions, some of which MDMA directly assists with: 1. MDMA introduces an emotion mismatch. 2. Learn emotional skills and develop resources 3. Feelings of safety lower resistance and deactivate the defense cascade. The feelings of safety from MDMA are sometimes insufficient by themselves when facing extreme dissociation. 4. Reconsolidation requires focus and is exhausting in extended sessions. The stimulant effect of MDMA assists with this.}
+\label{fig:healing}
+\end{figure}
+\FloatBarrier
+
+
+
+
+We think a track record of successful treatment is also vital. Repeated unproductive attempts at MDMA-therapy, or even a single exceptionally distressing session, may push someone to unfairly discount the possibility that MDMA-therapy can be effective. This guide aims to put distressing sessions into a larger context where the distress or adverse outcome might be an okay part of a long-term healing process, an unnecessary outcome that can be avoided with proper technique, or sign that MDMA isn't the right tool. Another goal is providing best-practices, risk-factors, and troubleshooting information to reduce the likelihood of unproductive sessions.
+
+
+
+Unlike most therapeutic modalities, going beyond the therapeutic window into a panic response is rarely a barrier to reconsolidation during an MDMA session. MDMA is also effective at reducing dissociation, however when the dissociation is strong enough it can still be a barrier. It typically presents as sleepiness, feeling bored or sober, or feeling disconnected from emotions. When dissociation impedes the therapeutic process, practicing extended focus meditation toward the dissociation often resolves the issue. A different approach such as Psychedelic Somatic Interactional Psychotherapy (PSIP) may be needed first if dissociation is so intense that the client falls asleep. Resistance or avoidance may also still be present during an MDMA-therapy session and can be worked with by worked with through both standard and novel therapeutic practices. These may include asking the client to practice selective inhibition (see Section \ref{selectiveInhibition}), prompting the client to focus on and stay present with their emotions instead of thinking or ruminating, or asking probing questions about feelings, beliefs, and the events that may have created them.
+
+This reduces dissociation and resistance, and provides a strong mismatch for reconsolidating maladaptive schemas. We based this manual on the schema/reconsolidation framework because of its epistemological foundation in lower-level neuroscience models and our belief that it is a major component of almost all therapeutic change. Schemas are memory structures containing multiple integrated and co-activating components: emotional responses (e.g. fear at the sight of dogs), abstract beliefs (e.g. dogs are dangerous), and episodic memories (e.g. being bitten by a dog as a young child). Minds create schemas to guide us toward beneficial actions and away from harmful ones. Schemas change over time as situations change, or as we grow up and acquire increased capability to cope with challenges. A schema reconsolidates (updates) when relevant stimuli activate it, and your brain detects a mismatch between the emotional responses or beliefs of the activated schema and the current situation (or a second activated schema, as is often used in therapy). Schemas can become maladaptive when prevented from updating by avoidance, resistance, lack of resources, fight-or-flight, or dissociation. They are similar to the parts of Internal Family Systems. In therapy, mismatches are often constructed and held in focus for a duration of time to deliberately rewrite and re-store the schema in a new, durable, and adaptive form. The safety and connection of MDMA create a strong, possibly universal, mismatch that easily reconsolidates most maladaptive schemas.
+
+
+    \item Therapy sessions are often scheduled for the day after an MDMA session \cite{mithoeferManual}. \todo{why? modes?}
+    
+    \item If you have the energy, make a plan to spend time understanding your experience in the following days and weeks \cite{mithoeferManual}. Common ways to do this includes journaling, nature walks, body movement practices, transcribing a recording of your session, and art. Planning for extra reconsolidation in the following two weeks is a
+
+    \item We suggest bringing materials that activates challenging schemas, like photographs or letters, to look at if distressing schemas don't spontaneously arise. See Section \ref{session} for more discussion on differentiating distractions.
+    
+    
+    
+     \footnote{The organization cited here, Psymposia, has been embroiled in controversy. The NYTimes reported: "Despite Psymposia’s modest resources, its members have become feared for their ability to use social media to damage reputations and careers, according to more than four dozen academic researchers, clinicians, industry executives, mental health advocates and former Psymposia members who were interviewed for this article. Many asked not to be named for fear of retaliation."\cite{psymposiaFear}}
+     
+     
+     
+     %\section{Challenging Beliefs Worksheet}
+%\todo{Does this method work because of Common Factors? If so, is it useful without a therapist?}
+%\label{challenge}
+%\includepdf[angle={270}]{challenging_beliefs.pdf}
+\label{thoughtRecord}
+\FloatBarrier
+\begin{sidewaystable}[!htbp]  % Force placement here if possible
+\centering
+\section{Thought Record}
+\scriptsize  % Even smaller than footnotesize
+\setlength{\tabcolsep}{3pt}  % Reduce column spacing further
+\begin{tabular}{|p{2cm}|p{2cm}|p{1cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{2cm}|p{1cm}|}
+\hline
+\rule{0pt}{2.5ex}\textbf{Situation}\textsuperscript{1} & 
+\textbf{Moods}\textsuperscript{2} & 
+\textbf{Out of 100}\textsuperscript{3} & 
+\textbf{Automatic thought and hot thought}\textsuperscript{4} & 
+\textbf{Evidence for}\textsuperscript{5} & 
+\textbf{Evidence against}\textsuperscript{6} & 
+\textbf{Alternative thoughts}\textsuperscript{7} & 
+\textbf{Final moods}\textsuperscript{8} & 
+\textbf{Out of 100} \rule[-1.2ex]{0pt}{0pt} \\
+\hline
+\rule{0pt}{4ex} &  &  &  &  &  &  &  &  \rule[-3ex]{0pt}{0pt} \\
+\hline
+\rule{0pt}{4ex} &  &  &  &  &  &  &  &  \rule[-3ex]{0pt}{0pt} \\
+\hline
+\rule{0pt}{4ex} &  &  &  &  &  &  &  &  \rule[-3ex]{0pt}{0pt} \\
+\hline
+\rule{0pt}{4ex} &  &  &  &  &  &  &  &  \rule[-3ex]{0pt}{0pt} \\
+\hline
+\end{tabular}
+
+\vspace{0.3cm}
+\scriptsize
+\begin{enumerate}
+\setlength{\itemsep}{0pt}  % Remove space between items
+\item This is usually simple–"sitting on the couch after finding out my friends are throwing a party without me", "Just found out election results", "hiding in my office after gnarly performance review," etc.
+\item When there's time I like to be exhaustive with this column, because people are more open to their most compassionate and flexible selves when they feel deeply seen and known. One way to approach this is to start with the self-attunement tool I've adapted from Bren{\'e} Brown, then sort, copy, and paste.
+\item As with every column, if a different scale (or a variant of what the column is asking) works better for you, go with that.
+\item All the ruminations in the rumination cycle go here. Some good prompt questions are: what does it feel like this situation is saying about your identity or your future? When we select and bold the hot thought from this list–for the most effective thought record, we are looking for the thought that is most avoided, most painful, most dreaded.  We're looking for a kind of "third rail" quality. We're looking for the thought that would be most relieving to learn isn't as true as you thought it was.
+\item I like to make this column exhaustive so that people have the experience of casting about for more evidence–preferably repeatedly–and not being able to find it. If you aren't exhaustive with this one, your brain will sometimes think there is more evidence you've left off the list than there actually is, and that helps it dig in.
+\item This column does not need to be exhaustive (in fact, better to quit before you quite hit that sense of exhaustion) but you need some. I like the prompt, "are there any ways in which the hot thought is not 100\% true 100\% of the time?"
+\item Summarize evidence for, summarize evidence against, combine with a conjunction (and, but, however). Most effective in the own words of the person whose thoughts are being recorded. :)
+\item The point of this exercise is not to change feelings, but recording the before and after like this helps people register more strongly the experience of "good things happening by facing the difficult emotions," which builds resilience–especially if repeated over time
+\end{enumerate}
+\end{sidewaystable}
+\FloatBarrier
+For people who experience alexithymia or who would like support in identifying their own emotions, we recommend this self-attunement tool. It consists of a list of emotions (each of which is elaborated on in Bren{\'e} Brown's Atlas of the Heart) and an instruction to rate how strongly one is feeling each of them \cite{brown2021atlas}. It can be helpful to complete this in a spreadsheet and then sort the responses by the number assigned to then intensity with which one is feeling each emotion–which can also be copied and pasted into columns 2 and 3 of the thought record.
+
+Psychedelic-assisted-therapy trials frequently suffer from methodological problems such as especially poor blinding and high researcher bias \cite{adayMethodologicalRigor}. Because the phase 3 trial participants (and their therapists) usually deduced whether or not they had been given MDMA or placebo, the trials were effectively only partially blinded. While this is a major limitation of these types of studies, we don't think it totally disqualifies them as useful sources of evidence. Psychedelic blinding is inherently difficult to account for because of its strong mental effects. Additionally, some trial participants reported intense expectations of good results \cite{powerTrip}. This expectancy effect likely exacerbates the consequences of poor blinding. We suggest \textcite{vanElkMethodology} for a thorough discussion of these problems. We note that placebo treatments can still be useful if the placebo-induced safety and compassion are strong enough to achieve memory reconsolidation. We also suspect MDMA-therapy is more effective than placebo due to its close alignment with the memory reconsolidation mechanism of action. There are also numerous anecdotal reports of inadvertent profound and durable therapeutic improvement in situations where the user was intending a recreational, rather than therapeutic experience.
+
+MDMA may also slightly change recollection of episodic details of emotionally charged memories \cite{dossRecollection}. 
+
+The complexities of forgotten and remembered memories of abuse are strongly debated within psychology, but there are some general guidelines: While the emotional tone of a memory is a reliable indicator of your subjective experience, episodic memory is flexible and amenable to change over time \cite{reynaFuzzyTrace}. The episodic gist (the overarching theme of a remembered event) is also significantly more reliable than episodic details. Trauma can further impair episodic memory formation, sometimes leading to missing or fragmented memories of traumatic events \cite{vanderKolkBody} \todo{really?}. Time passed since the event and the number of times you have recalled the memory also decrease reliability \cite{laneReconsolidation}. Use extra caution with psychedelics, as they can increase mental imagery and feelings of significance \cite{griffithsSignificance,araujoImagery}. Seek independent corroboration of recovered memories if possible. Due to the power of suggestion, therapists and guides should avoid leading questions, suggestive techniques, and undue influence that might inadvertently plant or reinforce unfounded memories of childhood abuse. 
+
+Based on the memory reconsolidation model, we think MDMA-therapy can potentially treat any mental illnesses that in significant-part consists maladaptive schemas and consequent defense-cascade activation \cite{carhart2019rebus,eckerUnlocking}. \textcite{coherenceSymptoms} has a list of symptoms they have found treatable with memory reconsolidation practices. While we think they are reputable, take the list with a grain of salt because it mostly consists of case studies involving single examples. We think most emotional problems and unhelpful reactivity that don't rise to the level of mental-illness are also schema-based. ADHD is a heterogeneous collection of symptoms with multiple causes, not a single well-defined disorder \cite{luoADHDcauses}. Because of this, it is difficult to say whether some subtypes of ADHD might be schema-based and amenable to treatment with MDMA-therapy. The symptoms of certain types of attachment disorders (which are schema-based) also overlap with ADHD symptoms, making the two difficult to distinguish \cite{follan2011discrimination}. Therefore, we suggest MDMA-therapy may be worth trying for those with ADHD, given the possibility of misdiagnosis or a schema-based subtype of ADHD. MDMA-therapy cannot cure autism, which is genetically- and environmentally-determined, but it can treat the anxieties that autistic people often have \cite{taylorAutismEtiology,danforth2018autismMDMA}. MDMA-therapy is effective for durably improving alexithymia and reconsolidating maladaptive schemas in the presence of strong alexithymia, which is often a barrier to reconsolidation \cite{vanSelfExperience}.
+
+Many mental illness have some degree of genetic susceptibility \cite{plomin2016top}. For, instance, psychosis and mania have strong genetic links, but episodes are often triggered or exacerbated by stress \cite{winkelPsychosisStress,Umeoka2021stressmania}. MDMA-therapy cannot change genetic susceptibility, but we think it could resolve schema-based stress exacerbation of strongly genetic mental illnesses.
+
+It is not entirely known which mental illnesses are schema-based or can be addressed by MDMA-therapy. We suspect a large majority have significant schema-based components. MDMA therapy has specifically show preliminary effectiveness for PTSD, dissociation, depression, and functional impairment \cite{greenMeta}. It has also shown preliminary improvement in well-being, excess vigilance, nightmares, avoidance, anxiety, and sleep in those with PTSD \cite{smithSystematic}.
+
+Reconsolidation produces significant, worthwhile, and continuous improvements in particular schemas (and their associated symptoms).
+
+You may experience feelings of intense and spontaneous compassion, connectedness, or love. We speculate these are flashbacks to the MDMA session and will gradually dissipate as the memory is reconsolidated. These increases in compassion almost always have good consequences for you and those around you.
+
+
+Self-assessment of the severity of your problems is useful for this last item. This is difficult since we are often not explicitly aware of our schemas, but there are some methods. If we had to choose one scale we 
+\begin{itemize}
+    \item The Attachment Style Test can be used for self-evaluation of attachment disorders, one common type of complex trauma \cite{attachmentProject}.
+    \item GAD-7
+    \item PHQ-9 or 17
+    \item Adverse Childhood Experiences Quiz
+    \item Sprint self report PTSD
+    \item CBIRT
+\end{itemize}
+
+
+
+\section{Loving-Kindness Meditation for Dissociation}
+\label{lkmeditation}
+Loving-kindness meditation can be directed towards one's dissociative experiences, fostering compassion and understanding for parts of oneself that disconnect under stress. This compassionate focus helps integrate these dissociative parts, building internal coherence and reducing self-judgment. If you find any of these instructions don't work for you, feel free to modify them in a way that works better. \todo{do this on medicine if youre dissociating}
+\begin{enumerate}
+    \item \textbf{Find a Quiet Place} Choose a location where you won't be disturbed for around 15-20 minutes. This could be a quiet room, a peaceful outdoor location, or even a calm corner of your house.
+    \item \textbf{Choose a Comfortable Position} You can sit cross-legged on the floor, on a cushion, in a chair, or even lay down. Ensure your back is straight or well-supported, you can breath comfortably, and your hands can rest comfortably on your lap or by your side.
+    \item \textbf{Close Your Eyes} Shut your eyes gently to minimize external distractions and help you focus inwards.
+    \item \textbf{Focus on Your Breath} Take a few deep breaths. Inhale deeply through your nose and exhale through your mouth. This calms the mind and prepares you for the meditation.
+    \item \textbf{Recognizing Dissociation} Begin by reflecting on moments when you felt disconnected from your surroundings, your body, or your emotions. Understand that dissociation served as a way for your mind to protect itself from overwhelming situations or feelings.
+    \item \textbf{Gratitude for its Service} With each inhaled breath, feel gratitude for this dissociative mechanism. It stepped in during moments of intense distress, attempting to keep you safe by creating distance from the pain. With each exhale, silently express gratitude, thinking “thank you” for its protective intentions.
+    \item \textbf{Compassionate Inquiry} As you breathe, gently ask your dissociative part, "What were you shielding me from?" Allow any memories, feelings, or sensations to emerge, welcoming them without judgment.
+    \item \textbf{Reassuring the Dissociative Part} Offer words of comfort and acknowledgement. You might internally convey messages like, "I understand why you were there," "I'm safe now," or "You can rest."
+    \item \textbf{Visualization} Imagine the dissociative part of you as a gentle veil or mist. With gratitude and understanding, visualize this veil lifting, connecting you back to the present moment and your surroundings.
+    \item \textbf{Reconsolidation} If difficult feelings come up, even frustration or disappointment, stay present with them until they reconsolidate.
+\end{enumerate}
+
+It's normal to get distracted during the meditation. Whenever you notice your mind wandering, gently bring your focus back to the phrases.
+
+A similar practice can be done in daily life for items other than dissociation. Start with loving-kindness toward yourself, then expand to loved ones, neutral people, difficult people, and finally all beings. Imagine them sitting in front of you and direct this set of phrases toward them: "May you be happy" "May you be safe" "May you be healthy" "May you live with ease." Over time, aim to practice loving-kindness daily or as often as you can to cultivate a heart full of compassion. Remember, the goal of Loving Kindness Meditation is not to achieve a particular state but to cultivate an attitude of goodwill and compassion. The more you practice, the more natural these feelings will become in your daily life. See \textit{Lovingkindness, The Revolutionary Art of Happiness} by Sharon Salzberg for a thorough exploration of the practice \cite{salzbergLovingKindness}. \todo{link to external guide for compassion meditation}
+
+
+
+\section{Mindfulness-Based Stress Reduction}
+\label{MBSR}
+This is an introduction to Mindfulness-Based Stress Reduction (MBSR) specifically tailored for individuals coping with distressing emotions and reactions, often associated with trauma. By introducing the foundational principles of mindfulness and offering a series of methodical practices—from body awareness exercises to cultivating self-compassion—it nurtures a heightened sense of presence, self-awareness, and emotional regulation. Through these exercises, individuals can develop skills to ground themselves during overwhelming moments, redirect wandering thoughts, and approach distressing feelings with a compassionate lens. MBSR is effective for coping with a wide variety of mental health conditions including stress, trauma, depression, and anxiety \cite{liuMBSR,khouryMBSR}. The body scan meditation part of MBSR may also help you locate schema-specific muscle tenseness. \todo{check that this list accurately represents MBSR}
+\begin{enumerate}
+    \item \textbf{Understanding Mindfulness} Mindfulness involves deliberately paying attention, non-judgmentally, in the present moment. This approach helps distance oneself from automatic reactions and habitual patterns, often shaped by past traumatic events. \todo{check john kabat plagarization; cite}
+    \item \textbf{Body Scan Meditation} Lie down in a comfortable position. Gradually move your attention through different parts of your body, from your toes to your head. Notice sensations without trying to change them. If the attention wanders, non-judgmentally gently bring it back. Go at your own pace.
+    \item \textbf{Mindful Breathing} Focus attention on the breath, noticing the sensations of breathing in and out. When the mind wanders, gently return your attention to the breath. If focusing on the breath activates overwhelming schemas, shift attention to another anchor, like the soles of the feet or sounds in the environment.
+    \item \textbf{Gentle Yoga and Stretching} Incorporate gentle movements to connect with the body. Always listen to your body and only do what feels comfortable. Remember, it's not about performance but about feeling and connecting with your body.
+    \item \textbf{Sitting Meditation} Sit comfortably, with a straight or well-supported back, and make sure you can breath comfortably. Pay attention to the sensations of the breath, or choose another anchor. Notice thoughts and feelings without getting caught up in them. If strong emotions or memories arise, ground yourself by feeling your feet on the ground or opening your eyes and focusing on your surroundings.
+    \item \textbf{Walking Meditation} Walk slowly and deliberately, being mindful of each step and the sensation of movement and touch. This can be grounding for trauma survivors, as it emphasizes the connection between the body and the earth.
+    \item \textbf{Cultivate Self-Compassion} Send wishes of well-being to oneself and others. This helps in healing emotional wounds and replacing negative thought patterns rooted in trauma. \todo{link to compassion meditation instructions}
+    \item \textbf{Mindful Everyday Activities} Practice being fully present during routine activities like eating, showering, or driving. This strengthens the habit of mindfulness, making it easier to summon during challenging moments.
+    \item \textbf{Group Sharing} Sharing experiences with trusted others can offer validation and support, but ensure it's a safe and understanding environment.
+    \item \textbf{Daily Practice} Establishing a routine, even if it's just for a few minutes, helps solidify the skills and reinforces the benefits.
+    \item \todo{intuitive eating; unwinding anxiety; yoga with Bird}
+\end{enumerate}
+For a thorough guide to the practice, see \textit{Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness} by Jon Kabat-Zinn, Ph.D. \cite{kabat-zinnMBSR}.
+
+Meditation can produce a wide variety of pleasant, distressing, or strange effects. Some are no more than curiosities, others provide insight into the workings of the mind, and yet others can be harmful. Different contemplative traditions also attach different lessons to these effects or may suggest different paths of meditation to follow or avoid. \textcite{cheetahHouse} provides a non-denominational service for helping meditators understand their difficult meditative experiences and adapt those practices to your needs. We also highly recommend \textcite{treleaven2018trauma}.
+
+
+    \item \textcite{bailey2023defense} provides an overview of psychological defense mechanisms, a concept from the psychoanalytic branch of psychotherapy. We are skeptical of the evidentiary foundation of psychoanalysis. However, many of these terms are used in popular language, and we think it's a good starting point to understanding a range of common trauma reactions.
+
+
+    \item[\textbf{Autonomic Nervous System (ANS)}] \textcite{waxenbaum2019ANS} define the ANS as "...component of the peripheral nervous system [as opposed to the central nervous system - the brain] that regulates involuntary physiologic processes including heart rate, blood pressure, respiration, digestion, and sexual arousal."
+        \item[\textbf{Abstract Belief}] The schema component that contains abstract understandings of the world. Someone with dog-related trauma may have the abstract belief "dogs are dangerous."
+    \item[\textbf{Emotional Response}] The aspect of a schema that captures and retains the emotional charge or significance associated with an event, allowing emotions experienced during the event to be re-experienced when the memory is recalled. To facilitate reconsolidation, the emotional response is juxtaposed with a contradictory emotion.
+    \item[\textbf{Episodic Memory}] The aspect of a schema that involves the recollection of a specific event, situation, and experience, including their temporal and spatial contexts. Together with an abstract memory and emotional response, this comprises a schema. Episodic memories can provide a lens with which to focus on specific schemas for reconsolidation.
+    \item[\textbf{Therapeutic window}] The zone where you can activate and stay present with maladaptive schemas without being overwhelmed by anxiety or disconnected by dissociation.
+\todo{Do we need a glossary when everything is defined within the first 6 pages of chapter 2? People can just go look there.}
+\begin{description}
+    \item[\textbf{Contraindication}] A specific situation or condition in which a particular treatment, procedure, or drug may not be appropriate in a particular case because it may be especially harmful.
+    \item[\textbf{Therapeutic Destabilization}] A state where an individual experiences increased emotional, psychological, or physiological distress, often as a result of confronting or processing traumatic memories or experiences. This can lead to heightened symptoms or new symptoms and requires careful management to ensure the individual's well-being.
+    \item[\textbf{Defense Cascade}] This part of the autonomic nervous system initiates a sequential set of physiological and behavioral responses in response to perceived threat or danger. It typically progresses from an initial "alert" response, to more extreme reactions like "fight or flight", "freeze,", or "dissociation," depending on the level and duration of the threat.
+    \item[\textbf{Disconfirming Experience}] An experience that undermines and refutes the validity of maladaptive schemas. Disconfirming experiences can accelerate the reconsolidation of maladaptive schemas.
+    \item[\textbf{Dissociation}] A disconnection and lack of continuity between thoughts, memories, surroundings, actions, and identity. It's part of the defense cascade that can become activated in situations of threat and powerlessness.
+    \item[\textbf{Reconsolidation}] Memory reconsolidation is the neurological process in which a schema (a type of memory) is recalled, modified, then re-stored. The modification starts when there is a mismatch between the schema's prediction ("broccoli is bad") and your current experience ("this broccoli is good!").
+    \item[\textbf{Resistance}] A person's actions that inhibit reconsolidation. These may include conscious or unconscious avoidance schemas like drinking alcohol when distressed, escapist habits, addictions, believing "feeling emotions is weakness", declining to connect with or trust supports that are trustworthy and appropriate, fear that healing a schema will hurt you in some way, denial, projection, rationalization, etc.
+    \item[\textbf{Suppression}] The conscious effort to control and avoid unwanted thoughts or feelings. This can be healthy and adaptive when used for short periods to maintain practical capacities until facing those feelings is appropriate.
+    \item[\textbf{Trauma}] An event or series of events that overwhelms an individual's capacity to cope, often leaving maladaptive schemas and maladaptive coping mechanisms in its wake.
+    \item[\textbf{Trauma Therapy}] A specialized, structured process designed to address the emotional, cognitive, and physiological residues of traumatic experiences, helping individuals process distressing memories, reduce trauma-related symptoms, and improve overall functioning.
+\end{description}
+
+
+
+
+\newglossaryentry{set-and-setting}{
+  name={Set and Setting},
+  description={One's mindset (set) and physical environment (setting) strongly influence psychedelic experiences \cite{setSettingMatrix}. Thus, safety, therapeutic intent, and lack of distraction are important for the effectiveness and safety of MDMA-therapy.}
+  %defined_in={Pre-Session Preparation},
+  %fragment={adverse idealizing transference}
+}
+
+
+\newglossaryentry{prediction-error}{
+  name={Prediction Error},
+  description={Prediction error is a discrepancy between 1) the brain's model of the world and incoming sensory data, or 2) two contradictory model predictions \cite{clark2024experience}. Minimization of prediction error is the brain's core optimization function, achieved through the construction of more complex and accurate world-models.}
+  %defined_in={What is Trauma and Why do its Effects Stick Around?},
+  %fragment={predicti}
+}
+
+
+    \item \textit{Multiagent Models of Mind} by Kaj Sotala draws from various disciplines, including psychology, neuroscience, and artificial intelligence, to build a framework for understanding complex cognitive phenomena. The multiagent approach allows for a more nuanced understanding of issues like self-deception, internal conflict, and the processes behind decision-making \cite{sotalaMultiagent}.
+
+ 
+\newglossaryentry{neuroplasticity}{
+  name={Neuroplasticity},
+  description={MDMA induces a few-weeks-long period where certain types of learning are possible (after certain developmental windows in childhood) or easier, thought it's unclear exactly how this applies to therapy \cite{nardou2023psychedelics}. We suspect it makes some (unclear to us) part of the reconsolidation process easier or more powerful.}
+  %defined_in={na},
+  %stem={neuroplastic}
+}
+
+	\item MDMA-therapy induces a period of post-session neuroplasticity that makes memory reconsolidation easier or more powerful (\textcite{nardouMDMAPlasticity}). Certainty - medium. This relies on a small set of studies by one lab group on mice and extrapolating the applicability of neuroplasticity from one context to another, but matches up with personal experience and some personal reports from other people.
+
+\textcite{nardouMDMAPlasticity} has showed that MDMA increases the capacity for certain types of learning and neuroplasticity, possibly making therapy is easier and more effective \footnote{They only investigated social reward learning in rodents, but we have observed that people commonly report a similarly few-week long period after MDMA-therapy where therapy seems easier, and they feel less mentally ill. We think it's a reasonable extrapolation that MDMA-induced neuroplasticity makes this few-week long period especially useful for additional therapy.}. We are unclear on the extent to which these two conceptions describe the same phenomena, but both describe similar ways in which MDMA could facilitate general reconsolidation. 
+
+
+    \item Additional reconsolidation may be easier in the few-weeks-long neuroplastic period after the session \cite{nardouMDMAPlasticity}, so we recommend planning to do as much as possible in this window.
+
+Because of that, we suspect that this period of feeling good is what increased neuroplasticity feels like in your particular context. Neuroplasticity likely aids out-of-session reconsolidation. However, while can also feel good in itself, it is a transient phenomena.
+
+**MDMA induces a period (2-4 weeks in mice) of certain types of neuroplasticity \cite{nardouMDMAPlasticity}. We have experienced that between-session reconsolidation exercises are easier during this period. If you want to accelerate healing, we recommend spending more effort on and experimenting with reconsolidation exercises in this period rather than more frequent MDMA use. You may even find that maxing-out your reconsolidation capacity every day will deliver very large amounts of therapeutic progress. Developing the skill of sober reconsolidation can reduce your therapeutic reliance on MDMA and allow reconsolidation in a wide variety of circumstances where MDMA use is not appropriate. When well-developed it also allows faster healing because the safety and logistical considerations of MDMA-therapy are no longer limiting. In the absence of better safety data, waiting to do another session until after the neuroplastic period also increases the margin of safety vs only waiting a few days until you are no longer fatigued.
+
+\item MDMA induces a period (2-4 weeks in mice) of certain types of neuroplasticity \cite{nardouMDMAPlasticity}. We have observed that people often report that between-session reconsolidation exercises are easier during this period. If you want to accelerate healing, we recommend spending more effort on and experimenting with reconsolidation exercises (See Section \ref{sec:moreReconsolidation}) in this period rather than more frequent MDMA use. You may even find that maxing-out your reconsolidation capacity every day will deliver very large amounts of therapeutic progress. Developing the skill of sober reconsolidation can reduce your therapeutic reliance on MDMA and allow reconsolidation in a wide variety of circumstances where MDMA use is not appropriate. When well-developed it also allows faster healing because the safety and logistical considerations of MDMA-therapy are no longer limiting. In the absence of better safety data, waiting to do another session until after the neuroplastic period also increases the margin of safety vs only waiting a few days until you are no longer fatigued.
+
+MDMA induces a period (2-4 weeks in mice) of certain types of neuroplasticity (your brain's ability to adapt) \cite{nardouMDMAPlasticity}. We posit that the neuroplasticity window after an MDMA treatment may offer an extra boost of support in making changes you seek in your life. This period may be context dependent. That is, a therapeutic session may lead to therapy-relevant neuroplasticity, but a recreational session might not. Some people may find that as they reconsolidate schemas and have positive disconfirming experiences, they have less need for compulsive self-soothing over time. They benefit from the therapy not just through reconsolidation, but through the support that the subsequent peace and perspective provide for positive behavioral changes. Sometimes being in a rut is the function of inertia; sometimes it is self protective, and improved regulation or a sense of new experience or perspective can help a person break out of it.
+
+
+
+ (mean of 3.6 tablets every week for 6.1 years) However, this is far more MDMA than is used for therapy. 
+
+
+
+ ; Email: \href{mailto:thomasharpertherapist@gmail.com}{thomasharpertherapist@gmail.com}
+
+
+ Additionally, reported effect sizes in psychiatric drug effect sizes have declined over time, possibly due to early trials tending to be of poor quality, publication bias, or changes in the characteristics of people seeking treatment \cite{leuchtDecline}. If the second explanation is correct, then the average person trying MDMA-therapy in 2050 may have significantly less success than the average person in 2025.
+
+ As \textcite{eckerUnlocking} state, "The therapist's stance is one of cooperating with and trusting the client's inherent capability of revising emotional learnings."
+
+ \textbf{What an ethical, skilled, and well-matched therapist or guide can provide}
+\noindent \textbf{What degree of professional support is right for you?}
+
+
+
+	\item \textbf{Internal Family Systems (IFS):} We have observed many people report IFS working well with MDMA therapy. We also recommend it because it closely aligns with the memory reconsolidation framework \cite{eckerUnlocking}. However, we think you should know that some IFS practitioners believe some mental problems, specifically "unattached burdens" in IFS terminology, are caused by objectively-real malevolent spirits \cite{IFSdemons}.
+
+It treats all problematic or distressing habits, emotional responses, and beliefs as logically consistent with the individual's internal emotional landscape. These maladaptive schemas are deliberately juxtaposed with a contradictory experience from the individual's past to update the individual's emotional landscape to better fit their current context. 
+
+	\item \textbf{Psychedelic Somatic Interactional Psychotherapy (PSIP):} Though rigorous trials have not yet been done, we think this method shows particular promise for reducing panic or dissociation that impede typical therapeutic methods \cite{razviPSIP,ragnhildstveit2023cannabis}. In this method, a small dose of THC or ketamine is used to directly engage with, and process, the hyper or hypo-activated defense cascade. We recommend a paper by \textcite{razviPSIP} and a presentation by \textcite{razviPresentation} for an introduction to the topic. A directory of trained PSIP therapists is maintained by \textcite{psipDirectory}. We recommend it mostly based on popularity of the method in psychedelic therapy, personal experience, and its alignment with the defense cascade.
+
+The previous section on compassion meditation may also be useful here. Tribalism often involves "othering" rival groups that involves discounting their worth. How does it feel to consider that they have just as much intrinsic worth, and fundamentally deserve just as much compassion as your members of group? How does the MDMA shift that discomfort over time?
+
+**If you're a fan of skeptical inquiry, MDMA's safety could very well help you "...think the thought that hurts the most [e.g. What if the other side is right? What if my political/religious/other belief is wrong?] \cite{eliezerCrisis}."
+
+
+% \chapter{The Expanded Self}
+% Some frameworks of psychedelic integration, including those of many indigenous cultures, consider community, interpersonal relationships, the natural world, and existential insights to be essential components of healing process \cite{bathje2022Integration}. \textcite{celidwen2023Indigenous} reports the following as broadly agreed-upon by traditional indigenous practitioners of psychedelic medicine:
+% \begin{quotation}
+%     Traditional Indigenous medicine is an ethical, ecosystem-protective, and holistic system of medicine that interconnects humans and the environment. A sense of reverence for the planet guides all relationships, as well as a commitment to preserve all life. Traditional Indigenous medicine from a systems and relational perspective prompts insight for compassionate living and awareness of collective care to sustain the wellbeing of the medicines themselves as well as all future generations.
+% \end{quotation}
+% In these models, these other components may not be described as fundamentally different than what is commonly meant by the self in the Western world. They may actually be described as different aspects of an expanded self. In practice, this might look something like this: During an MDMA-therapy session you experienced compassionate insight into the causes of a maladaptive or harmful behavioral pattern of yours. You sat with the pain of the behavior-causing schema and it dissipated. This experience helped you understand the causes of your behavior and the solution to ending that pattern. In an extended-self model this insight would also be applied to other domains of life. What implications does knowledge of maladaptive schemas have for public policy, the criminal justice system, cultural practices in your community, etc? Another example: During a session you had a deep understanding that you are worth of love and care; your wellbeing is deeply important, no matter what. This understanding persisted into daily life and you feel an ongoing sense of self-worth that you were previously missing. In the expanded-self model this insight would be transferred to others. The wellbeing of all beings is deeply important, including people who have hurt you, animals, and possibly even insects. What does this mean for how you treat them and how the systems you are a part of treat them?
+
+% We present here a few sections that we think are particularly relevant for the expanded-self in a modern world.
+
+
+% Unconscious avoidance and resistance are powerful obstacles to healing. Incorporating small amounts of psilocybin or LSD into your session can help bring avoided feelings into focus (see Section \ref{sec:dissociationandresistance}). \todo{do they really? revisit polydrug use}
+
+
+%\section{Psycholytic Therapy}
+%\label{psychedelics}
+%Small to medium-dose LSD (30-150 $\mu$g, lasting ~10 hours) or psilocybin (3-15 mg, lasting ~5 hours) sessions have a long history of therapeutic use \cite{passiePsycholytic}. This use of psychedelics is differentiated from traditional North American approaches by its lower doses. At these low doses the primary contraindications are pregnancy, serious liver and kidney diseases, some types of brain disorders, or personal or family history of psychosis or bipolar disorder/mania \cite{schlagPsychedelicAdverseEffects,passiePsycholytic}. We also suggest that a history of suicidal ideation indicates support (making a plan with a therapist or guide, using an experienced sitter, and spending time with trusted friends or family) during and after the session. Higher doses increase the risk of overwhelming engagement with distressing emotions. LSD and psilocybin possess anti-addictive properties and are not euphoric enough to pose a risk of psychological addiction \cite{principeAddiction}.
+%
+%We strongly recommend starting at the lowest end (or lower) of this dose range and only slowly increasing dose session-to-session if you feel like you could benefit from a higher dose. The MDMA session-preparation guidelines discussed earlier are generally applicable to psycholytic therapy as well.
+%
+%We especially recommend avoiding frequent, high doses of hallucinatory psychedelics. That, along with large amounts of certain types of high-level meditation, sometimes lead to extended psychosis, mania, or other maladaptive states, possibly even in mentally healthy people \cite{ingram2018mastering}.
+%
+%A wide variety of strange and profound feelings and thoughts are a common effects of psychedelics \cite{yaden2022varieties}. However, people typically interpret these experiences through the lens of their existing belief systems, belief systems they are aware of, and even symbols present in the session environment. These may include religion, metaphysical theories, or cultural tropes such as "psychedelics show the truth behind all things." While some of these thoughts and feelings may be true of our shared reality, we suggest keeping in mind that people interpret these experiences in a wide variety of different and contradictory ways \cite{notalltrue}. Many psychedelic feelings and thoughts are just hallucinations or representations of your mind. Psychedelics are also known to inflate feelings of meaning and not all insight is an accurate map of reality \cite{hartogsohn2018meaning,tulverInsight}. We suggest deliberation and skepticism before deciding whether your own experience either confirms or disconfirms any particular belief. \textcite{suggestibility} goes into depth about how psychedelics and power imbalances can increase suggestibility and decrease critical thinking.
+
+
+
+
+%We think LSD and psilocybin are potent tools for reducing resistance. \todo{cite} Mixing LSD or psilocybin with MDMA is widely practiced, though poorly studied \cite{zeifmanCo-use}. We suggest starting with very low doses because LSD or psilocybin-assisted psychotherapy are known for deeply challenging experiences. Adding up to 0.5 g dried psilocybe mushrooms at the beginning of the MDMA session reliably decreases resistance. It also increases the intensity and discomfort of the session. Do not take more than 0.5 g unless you are deeply familiar with the combination. See Section \ref{psychedelics} for more information. This combination is common practice in MDMA-therapy, but no studies have been done \cite{colemanPsychedelicPsychotherapy}. Acutely safe co-use is known from recreational contexts \cite{zeifmanCo-use}.
+
+
+
+%It is often difficult to access activating schemas. We have noticed that walking, other body-movement practices, selective inhibition (see Section \ref{selectiveInhibition}) or a 2.5-5 $\mu$g LSD supplement (see Section \ref{psychedelics}) can help.
+
+
+
+	% \item psycholytic therapy (see Section \ref{psychedelics})
+
+
+
+%\section{Thought Record}
+%%\label{challengingBeliefsWorksheet}
+%Some prefer more cognitive preparation before creating a mismatch for reconsolidation. \todo{day write} This may bring implicit schemas into explicit awareness. Some also like it for structure. One popular method is the thought record in Appendix \ref{thoughtRecord}. Resistance often lead us astray when we think about our emotions and beliefs, adding difficulty to the cognitive preparation approach.
