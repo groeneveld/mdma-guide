@@ -21,3 +21,16 @@
 Open MDMA.tex
 pdflatex2336.fls
 *.synctex(busy)
+*.4ct
+*.4tc
+*.css
+*.dvi
+*.idv
+*.lg
+*.ncx
+*.tmp
+*.xhtml
+*.xref
+*.svg
+*.opf
+Open_MDMA-epub3

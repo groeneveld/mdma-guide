@@ -1012,3 +1012,41 @@ The previous section on compassion meditation may also be useful here. Tribalism
 %\section{Thought Record}
 %%\label{challengingBeliefsWorksheet}
 %Some prefer more cognitive preparation before creating a mismatch for reconsolidation. \todo{day write} This may bring implicit schemas into explicit awareness. Some also like it for structure. One popular method is the thought record in Appendix \ref{thoughtRecord}. Resistance often lead us astray when we think about our emotions and beliefs, adding difficulty to the cognitive preparation approach.
+
+
+\footnote{The organization cited here and throughout this section, Psymposia, is highly controversial within the field. The NYTimes reported: "Despite Psymposia's modest resources, its members have become feared for their ability to use social media to damage reputations and careers, according to more than four dozen academic researchers, clinicians, industry executives, mental health advocates and former Psymposia members who were interviewed for this article. Many asked not to be named for fear of retaliation."\cite{psymposiaFear}}
+
+    \item When, how much, and why do some psychedelics cause short term (days-weeks) cognitive impairment?
+
+
+
+    The complete list of these fundamental sources of error is not known, and is likely somewhat different for each person, at least only in the sense that e.g. for one person hunger might weighted slightly higher than in another person. Even if the fundamental sources of error were roughly the same for everyone, the secondary sources of error derived from our infinitely-complex learned schemas are always different. Outside of temporary fulfillment, error for these things may only be completely zeroed-out in certain extraordinary states of mind. We don't know if MDMA-therapy optimizes your schemas according to your existing optimization function, or an MDMA-modified optimization function that includes different fundamental sources (perhaps different weighting of existing sources of error) of prediction error. These may be slightly different for each person, and the infinitely-complex secondary schemas that create behavior (e.g. how to use your legs to walk to where the food is, how to prepare this specific food, etc.) are always different to some degree. 
+
+
+ In the clinical trials, 30\% (Our own averaging of the two trials) of the MDMA group and 27\% of the placebo group reported suicidal ideation at the start of the study. After the last data point (integrative session 3 of the third MDMA session) available in both trials, 20\% of the MDMA group and 20\% of the placebo group reported suicidal ideation. Events of suicidal behavior or serious ideation during the trials were reported in 6\% of the MDMA group and 8\% of the placebo group. 
+
+
+ We suggest not calling or texting anyone until you have more experience with MDMA and you know the other person is comfortable talking to you in your altered state. 
+
+
+ *Different therapeutic frameworks, preferred by different therapists or guides, provide different ways to access target schemas \cite{eckerUnlocking}. In this section we present a minimum usable framework for readers: activate target schema (one may already be activated at the start of your session); stay present with the distress while the schema reconsolidates; repeat. We also discuss how to deal with dissociation and avoidance. 
+
+
+ %\section{After the Session}
+%\label{after}
+%*Physical and emotional exhaustion is common and healthy after therapy and reconsolidation. Because MDMA-therapy is so intense, we suggest planning for 1-2 more days of exhaustion post-session. MDMA can also cause a period of headaches, lack of appetite, lack of energy, dry mouth, difficulty concentrating, and jaw clenching \cite{vizeliActuteEffects}. These symptoms are strongly correlated with dose and usually last up to 3 days \cite{liechtiGender}. We suggest plenty of rest and comforting yourself in ways good for you. Ensure your schedule is clear of major commitments or stressors in the days following. \todo{list of good comforting techniques}
+%
+%Short-term improvements in your target schema or symptom are not very reliable for those with complex trauma. Longer term progress in overall emotional health is much more assured.
+%
+%Healing is a complexly layered process. As one layer of emotional distress is calmed, other schemas usually activate and/or become more visible. Though initially challenging, consistent reconsolidation will lead to long-term improvement. This cycle is noticeable both in the long-term (months-years) and short-term (the week after a session may feel more volatile than normal). We suggest not judging a session until 1-2 weeks have passed.
+%
+%*You will experience more time in the mind's relaxed state when maladaptive schemas/parts heal. The Internal Family Systems framework proposes this relaxed state consists of calmness, clarity, curiosity, compassion, confidence, courage, creativity, connectedness, perspective, joy, patience, kindness, equanimity, playfulness, and love \cite{schwartz2019internal}. Periods of dysfunction will remain, but will become less frequent. If the maladaptive schemas are severe, it might take quite a lot of healing to get to the point where anything feels ok. We suggest staying on top of reconsolidation and defense cascade deactivation, and avoiding situations that activate challenging schemas will help (see Section \ref{sectionManagement}).
+
+
+
+
+**If you know you are near the end of the session, we suggest not diving into any additional schemas, though finishing up reconsolidating your current ones is helpful. Surfacing previously unconscious schemas without adequate time to reconsolidate them could result in that schema dominating your post-session life if it strong enough. On the other hand, diving into additional schemas may be beneficial if you can tolerate the distress and want help making your unconscious schemas explicit for post-session reconsolidation.
+
+
+
+ \footnote{Most or all behavior is composed of schemas optimized for future fulfillment of some set of fundamental sources of prediction error.}
