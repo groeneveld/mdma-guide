@@ -1057,3 +1057,34 @@ The previous section on compassion meditation may also be useful here. Tribalism
 
 
   \footnote{Some of the major genes involved in mental health may function by making individuals more generally sensitive to their environment such that in environments of adversity they function worse than average and are more susceptible to a variety of mental illnesses, but also function better than average in response to healthy environments and childhoods \cite{assary2018gene}.}
+
+
+  Additional experiments and are often needed to figure out the intermediate steps. 
+
+  We recommend \textcite{evansBlame} for balanced reporting of why the FDA requested Lykos' do another study before reviewing the MDMA drug application again. 
+
+   \textcite{schenberg2024psychedelic} also discusses how the FDA may have rejected the application because 1) the FDA's process is only capable of evaluating the effect of a drug alone, and can't evaluate the combined drug-therapy intervention 2) the FDA advisory committee didn't have the appropriate expertise to evaluate the application.
+
+   The Institute for Clinical and Economic Review reported issues with blinding, high expectations of good results, and lack of long-term cardiovascular data \cite{icerReport}.
+
+While rigorous and highly promising, these studies were organized by a single organization, and a different methodology may show different results. MDMA-therapy with therapists less familiar with MDMA may also be less effective. 
+
+Those with multiple traumatic events or mental illnesses, as is common in early-life trauma, will need a longer time frame and number of sessions to reconsolidate all the schemas they want to address. 
+
+ How much role genes play in each specific mental illness is not settled, but it does appear to vary significantly \cite{assary2018gene}.
+
+
+ Here is grab-bag list of information we are aware of for particular disorders (Take these with a grain of salt. None of these trials controlled for blinding or used active placebos.):
+\begin{itemize}
+	\item ADHD is a heterogeneous collection of symptoms with multiple causes, not a single well-defined disorder \cite{luoADHDcauses}. Because of this, it is difficult to say whether some subtypes of ADHD might be schema-based and amenable to treatment with MDMA-therapy. The symptoms of certain types of attachment disorders (clearly schema-based in our opinion) also overlap with ADHD symptoms, making the two difficult to distinguish \cite{follan2011discrimination}.
+	\item MDMA-therapy cannot cure autism, which is almost entirely driven by genetics, but it can treat the anxieties that autistic people often have \cite{taylorAutismEtiology,danforth2018autismMDMA}.
+	\item MDMA-therapy is effective for durably improving alexithymia (difficulty in identifying and describing emotions) and reconsolidating maladaptive schemas in the presence of strong alexithymia (often a barrier to reconsolidation) \cite{vanSelfExperience}.
+\end{itemize}
+
+
+How much this will resolve the symptoms of any individual's particular problem is unclear, but the above results for PTSD are extremely promising. 
+
+
+Note that many mental illness symptoms, such as mania and psychosis, are also activated or exacerbated by stress \cite{winkelPsychosisStress,Umeoka2021stressmania}. Reconsolidation could potentially reduce these symptoms if your stress is significantly caused by maladaptive schemas.
+
+ We think of this work as similar to "Where there is no Doctor."
