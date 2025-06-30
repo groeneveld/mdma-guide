@@ -1091,3 +1091,75 @@ Note that many mental illness symptoms, such as mania and psychosis, are also ac
 
 
  This might bring up fear of your social group shunning you for having this belief. We think MDMA might be able to reconsolidate this fear if that fear is maladaptive in some way. For instance, truth seeking may be maladaptive if you only have access to one social group, but in reality you may be able to switch to a different social group that is more tolerant of varying beliefs.
+
+     \item \todo{Reevaluate} It may also be possible to use habit mapping (see \ref{habitMapping}) to guide you in crafting optimal support for your neuroplasticity period. For instance, if my after-work scrolling habit is driven by loneliness, I might arrange to volunteer at an animal shelter on certain days, and to have friends call and talk to me on other days–even if it's just for long enough to get myself started on a different self-care activity.
+
+
+
+
+%\section{[unfinished] Using MDMA to Facilitate Connection with Nature, a Fundamental Human Need}
+%\label{sec:nature}
+%\todo{If you want to improve your ability to do pro nature things: Mushrooms}
+%As \textcite{baxterNatureRelatedness} articulated, “In general, research supports the proposition for a basic psychological need for nature relatedness.” They define the “need for nature relatedness” as “a basic human psychological need to feel a secure and pleasant experiential connection to nature in a cognitive, emotional and physical sense.” Additionally, time in nature correlates with small improvements in blood pressure and stress \cite{caoimheGreenspaceOutcomes}. If you have been excluded from the benefits of nature-relatedness and regular nature exposure by your personal life history or access, we suggest therapeutic MDMA may serve as a catalyst for introducing or strengthening this beneficial relationship in your life.
+%
+%In order to leverage therapeutic MDMA to create a “secure and pleasant experiential connection with nature” we suggest completing an MDMA session in a peaceful natural setting.
+%
+%To safely get the most from this exercise, consider:
+%\begin{itemize}
+%    \item Arranging the presence of a nature-experienced friend who can assist you in finding a good location and staying safe during the session
+%    \item Access to support services and utilities, like bathrooms, food, shelter, and medical care
+%    \item Your level of experience and prior experiences with the medicine and dosage you will be using
+%    \item Physical hazards, like things you could fall off of and things that could fall on you
+%    \item Local plants (like poison ivy, thorn bushes, or plants that would be dangerous if ingested)
+%    \item Local wildlife and its likelihood of interacting with your specific location (many snakes like rocky areas near water, bears and rodents can be attracted to food, areas with higher human traffic tend to see less wildlife etc.)
+%    \item Insects and other bugs-in the US, especially ticks and mosquitos
+%    \item Additional precautions to avoid other humans and maintain legal safety
+%    \item Weather appropriate food, water, gear, first aid supplies, and shelter
+%\end{itemize}
+%
+%Although this list may appear daunting, most nature-experienced individuals are accustomed to taking these things into account continuously. Securing a location that takes all these items into consideration may be as simple as arranging to use the backyard of a friend who lives in the countryside or the woods, or having a friend who understands what you are looking for recommend a preferred campsite.
+%
+%During the actual session, engage all your senses— touch soil with your bare feet, study plants and insects, and feel bark textures. Using psilocybin or ayahuasca can deepen the nature connection and promote permanent increases in feelings of nature-connectedness \cite{forstmannPsilocybinNature}. We suggest caution if you suspect you have major unresolved trauma as it might resurface.
+%
+%According to \textcite{baxterNatureRelatedness}, increased cognitive and emotional attachment to a specific natural environment “will create a feeling of security and belonging with respect to that particular environment and lead to greater identification with that environment. This, ultimately, will lead a person to feel safer within that environment, which will ease the ability of that environment to elicit the positive effects for the person's psychological well-being.” As such, we posit that further explorations of one's therapeutic target environment can increase the positive effects of this intervention-and that such explorations may not need to be exclusively physical. The nature relatedness of Baxter and Pelletier has a strong cognitive component, and thoughts and feelings about belonging and familiarity are important to their model of how psychological benefits of nature-relatedness are realized. As such, we posit that additional emotional and intellectual explorations of the complexities of nature and our mutually integrated place in it (during or between therapeutic MDMA sessions) are promising as an additional mode of maximizing these benefits.
+%
+%Repeated experiences in the same natural environment will generate a cognitive and emotional attachment to that area and a stronger sense of place. For example, children who are reared with natural areas readily available may grow up to be more nature connected later in life \cite{windhorst2015growing}. The repeated exploration of a specific natural environment will generate a set of experiences and cognitive representations of the environment that will create a feeling of security and belonging with respect to that particular environment and lead to greater identification with that environment. This, ultimately, will lead a person to feel safer within that environment, which will ease the ability of that environment to elicit the positive effects for the person's psychological well-being.
+
+%If you are interested in doing more to help preserve natural areas, we recommend \textit{Not the End of the World} by Hannah Ritchie, Ph.D. \cite{ritchie2024not}. It presents evidence-based solutions that are individually actionable and neither overly optimistic nor pessimistic.
+
+
+
+%\chapter{[unfinished] Additional Therapeutic Techniques}
+%\section{[unfinished] Couple's Therapy}
+%\todo{Day write}
+%\todo{From reddit: one partner in diy couples therapy often gets deep into trauma that the other partner doesn't have the skill to handle}
+%MDMA-assisted couple's therapy, where each person takes MDMA and talks through their issues together, can be very effective \cite{colbertEvenings}.
+%\todo{In family therapy it's easy for one person to distract the other from some reconsolidation experience}
+%\section{Associate Love and Empathy with Cues for Later Recall}
+%In this section we speculate that it's possible and useful to associate the positive emotions generated by MDMA with cues, and then later use those cues to recall those emotions in daily life. We don't know of any research on this particular application of cueing/classical conditioning, but the underlaying research on classical conditioning is well established, and we think this particular application is plausible. This may be a productive topic for experimental research.
+%
+%Revisiting feelings of love, empathy, and safety (such as those experienced during MDMA therapy) can be beneficial in daily life. We think it may help you resolve conflict, enhance interpersonal communication, help you say things you wish you had the courage to say, enhance reconsolidation of distressing schemas, support the cultivation of difficult but healthy habits, or simply help you achieve calm and perspective in moments where those things are needed.
+%
+%It is possible to enhance your recall of these positive emotions by associating them with one or more specific cues while they are occurring, and then invoking those cues at later times when improved recall of positive emotions is desired. For instance, you might carry a vial of perfume or essential oil, and pull it out to enjoy the scent whenever you are feeling particularly compassionate, loved, or connected to your most positive identities and relationships. MDMA therapy should typically offer an extraordinarily potent opportunity to connect your chosen cue to these positive emotions. Compassion meditation may also offer excellent opportunities. When your cue is associated with positive emotions or “charged,” you can then revisit the scent and the positive memories you have associated with it in those moments when you feel it would be most helpful to ground yourself.
+%
+%In theory, association and recall should improve as you add more simultaneous cues \todo{Cite}-so if you find this strategy appealing, you may wish to ritualize a variety of simultaneous cues to maximize your access to this tactic. Here are some possibilities. This list prioritizes suggestions that are portable/easy to invoke in many diverse situations (like the flavor of an energy bar or a piece of fruit) or cues that may already be associated with transitioning into a state of mindfulness or positive emotions, like herbal tea. Note that to effectively be used for this strategy, you'll want a cue that you can reserve for this:
+%\begin{itemize}
+%    \item \textbf{Olfactory}: essential oils, fruit or other food, incense, personal care products, a particular tea or coffee drink
+%    \item \textbf{Auditory:} music, a bell or chime, or a sound you can make with your own voice or body 
+%    \item \textbf{Visual:} a piece of art, a picture of loved ones, an image that symbolizes a beloved identity or occupation, an item from nature
+%    \item \textbf{Tactile:} a fidget toy, a heavy piece of jewelry, a textile with a pleasing texture, faux fur, a massage technique, play-dough or similar
+%    \item \textbf{Taste:} hard candy, fruit or other food, gum, a particular energy bar or granola bar, your favorite mocktail, a particular tea or coffee drink
+%    \item \textbf{Spatial:} your home or bedroom, a favorite place in nature, a place where you often feel connected with loved ones, a place of spiritual significance to you
+%    \item \textbf{Temporal:} if there is a time of day when you usually feel good, you may wish to routinely invoke your cue/s at that time for an added boost and an added “charge” to your cues. Also, consider using holidays or happy gatherings as charging opportunities
+%    \item \textbf{Proprioceptive and kinesthetic:} specific yoga postures or dance moves; tracing a word or phrase that is meaningful to you with a finger on your skin; self-massage; drawing a particular shape on a chalkboard or in the air in front of you
+%    \item \textbf{Conceptual:} read a favorite conceptually important poem, passage, lyric, mantra, or similar. For example, the mantra, “I am becoming consistently capable of lovingly attentive behavior towards myself.”
+%\end{itemize}
+%
+%One example of a multi-cue grounding ritual would be to listen to a particular piece of music while massaging a particular lotion or massage oil into your skin-combining tactile, auditory, and possibly olfactory and conceptual cues.
+%
+%It may be important to only engage in such a ritual during a part of an MDMA session where you are suffused with positive emotions, rather than a part of an MDMA session where you are focused on processing distressing or traumatic experiences. Note that a cue (or a ritual which conglomerates several cues) must remain “charged” to stay effective because your brain learns that the cue is no longer associated with the original emotional stimulus. If you invoke your cues in distressing situations many times without continuing to build and maintain their association with positive experiences, they will eventually become neutral to you, and then associated with distress. As such, it is important to “re-charge” your cues at a level commensurate with the stress you put on them, in order to continue effectively using this strategy.
+
+
+You may experience closed-eye visual scenes (possibly of traumatic material) \cite{liechtiGender}.
+
+ One small, uncontrolled study with highly-motivated participants not currently in a manic or hypomanic state showed good efficacy and safety treating bipolar II with psilocybin and a high level of support \cite{aaronsonBipolarII}. We aren't sure how well that translates to MDMA-therapy. 
