@@ -1238,3 +1238,9 @@ In the latter stages there are essentially no steps in the sequence because the 
 **Based on MG's experience, we speculate that there is a daily mismatch limit (one date point suggests about 2 hours). At that point, reconsolidation exhaustion inhibits the practice. Sleep (or possibly just a sufficient length of time) seems to rejuvenate the ability. Reconsolidating to your limit every day will likely maximize your progress if you have the time and energy.
 
 In addition to the explicit process of maladaptive schema investigation detail in Section \ref{uncovering}, we think any defense cascade activation (see Section \ref{sec:signsofdc} for symptoms) or non-useful fear, anger, anxiety, etc. in daily life outside immediately dangerous situations is a valuable indicator of maladaptive schemas. Furthermore, we pervasively practice subtle, barely-noticeable avoidance around a wide swath of uncomfortable ideas, places, people, etc. We think noticing and going toward the object of avoidance is usually a fruitful endeavor.
+
+Note that long term use of benzodiazepines is addictive, ineffective (because of tolerance), and causes long-term cognitive impairment that persists even after discontinuation \cite{barkerBenzo}.
+
+In our experience LLMs also output garbage information on therapy in general because the existing corpus of knowledge about therapy in large part consists of a wide variety of a-mechanistic and conflicting therapy frameworks that each have their own language.
+
+    % \item \textit{The Body Keeps the Score} by Bessel van der Kolk, Ph.D. \todo{Description }\cite{vanderKolkBody} \footnote{The details are not publicly available, but Bessel van der Kolk's former boss said he fired Bessel based on multiple employee reports of bullying \cite{besselMisconduct}}.
