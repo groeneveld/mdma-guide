@@ -1244,3 +1244,67 @@ Note that long term use of benzodiazepines is addictive, ineffective (because of
 In our experience LLMs also output garbage information on therapy in general because the existing corpus of knowledge about therapy in large part consists of a wide variety of a-mechanistic and conflicting therapy frameworks that each have their own language.
 
     % \item \textit{The Body Keeps the Score} by Bessel van der Kolk, Ph.D. \todo{Description }\cite{vanderKolkBody} \footnote{The details are not publicly available, but Bessel van der Kolk's former boss said he fired Bessel based on multiple employee reports of bullying \cite{besselMisconduct}}.
+
+
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.geometric, arrows}
+\definecolor{colorStartStop}{RGB}{118, 140, 186}
+\definecolor{colorDecision}{RGB}{164, 185, 166}
+\definecolor{colorInfluence}{RGB}{169, 203, 169}
+\definecolor{colorProcess}{RGB}{205, 183, 196}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=colorStartStop, fill=colorStartStop]
+\tikzstyle{process} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=colorProcess, fill=colorProcess]
+\tikzstyle{influence} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=colorInfluence, fill=colorInfluence]
+\tikzstyle{decision} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=colorDecision, fill=colorDecision]
+We suggest Figure \ref{fig:process} as a high-level guide to the therapeutic process.
+\FloatBarrier
+\begin{figure}
+\centering
+\begin{framed}
+\begin{tikzpicture}[on grid, node distance=1.5cm]
+
+\node (start) [startstop] {Start};
+\node (stopNotSafe) [startstop, left=of start, xshift=-4cm] {Use a different therapeutic method};
+\node (initialSafety) [decision, below=of start, text width=3cm, yshift=-2cm] {\hyperref[sec:safety]{Safety} criteria met for MDMA-therapy};
+\node (morePrep) [decision, left=of initialSafety, xshift=-4cm, text width=3cm] {Is this fixable?};
+\node (professionalVSSelf) [process, below=of initialSafety, yshift=-1.5cm, xshift=-3cm] {Find a guide if you \hyperref[professionalVSSelf]{need} one};
+\node (mdmaPrep) [process, below=of professionalVSSelf] {\hyperref[prep]{Prepare} for MDMA-therapy};
+\node (session) [process, below=of mdmaPrep] {\hyperref[session]{MDMA-therapy}};
+\node (restProcess) [process, below=of session, text width=6cm] {Rest, gain insight, reconsolidate, make healthy changes};
+\node (stability) [process, below=of restProcess, text width=6cm] {Use \hyperref[sectionManagement]{stabilization techniques} as much as needed};
+\node (recovered) [decision, right=of restProcess, xshift=5.5cm, text width=3cm] {Have you \hyperref[sectionManagement]{recovered} from the previous session?};
+\node (signsOfMoreTrauma) [decision, below=of stability, text width=3cm, yshift=-3cm] {Do you have \hyperref[uncovering]{more maladaptive schemas?}};
+\node (otherMethods) [decision, right=of signsOfMoreTrauma, text width=4cm, xshift=5.5cm] {Can you effectively use \hyperref[sec:moreReconsolidation]{other therapeutic methods}?};
+\node (stop) [startstop, below=of signsOfMoreTrauma, yshift=-2cm] {Stop. Restart if you become stuck again.};
+\node (useOtherMethods) [startstop, below=of otherMethods, text width=5cm, yshift=-2cm] {Use \hyperref[sec:moreReconsolidation]{other methods}. Restart MDMA if you need more help.};
+
+\draw [->,thick] (start) -- (initialSafety);
+\draw [->,thick] (initialSafety) -- node {no} (morePrep);
+\draw [->,thick] (morePrep) -- node {no} (stopNotSafe);
+\draw [->,thick] (morePrep) -- node {yes, fix it} (start);
+\draw [->,thick] (initialSafety) -- node {yes} (professionalVSSelf.north);
+\draw [->,thick] (professionalVSSelf) -- (mdmaPrep);
+\draw [->,thick] (mdmaPrep) -- (session);
+\draw [->,thick] (session) -- (restProcess);
+\draw [->,thick] (recovered) -- node {no} (restProcess);
+\draw [->,thick] (restProcess) -- (stability);
+\draw [->,thick] (stability) -- (signsOfMoreTrauma);
+\draw [->,thick] (recovered) |- node {yes} (initialSafety);
+\draw [->,thick] (signsOfMoreTrauma) -- node {no} (stop);
+\draw [->,thick] (signsOfMoreTrauma) -- node {yes} (otherMethods);
+\draw [->,thick] (otherMethods) -- node {no} (recovered);
+\draw [->,thick] (otherMethods) -- node {yes} (useOtherMethods);
+
+\end{tikzpicture}
+\end{framed}
+\caption{Generalized long-term therapeutic process.}
+\label{fig:process}
+\end{figure}
+\FloatBarrier
+
+
+   \item MDMA may on rare occasion provoke destabilizing shifts to one's sense of self or beliefs about existence.
+
+    \item Not much is known about when MDMA-therapy will make dangerous symptoms like psychosis and suicidal ideation better or worse. See \ref{sec:safety} for more information.
