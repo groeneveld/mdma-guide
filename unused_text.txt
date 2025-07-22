@@ -1308,3 +1308,21 @@ We suggest Figure \ref{fig:process} as a high-level guide to the therapeutic pro
    \item MDMA may on rare occasion provoke destabilizing shifts to one's sense of self or beliefs about existence.
 
     \item Not much is known about when MDMA-therapy will make dangerous symptoms like psychosis and suicidal ideation better or worse. See \ref{sec:safety} for more information.
+
+
+%Observations (summarized by \textcite{fedduciaMDMAMemoryReconsolidation}, and additionally our own observations of trip reports) of post-session reports and MG's personal experience frequently match up with the signs (emotional non-reactivation, symptom cessation, and effortless permanence \cite{eckerUnlocking}) of a successfully reconsolidated schema. %MG's personal experience and our observation of trip reports also indicate that once a maladaptive schema is emotionally activated and non-avoidance is practiced, MDMA permanently dissolves it without any further effort. It remains unknown what particular source(s) of information provide the mismatch, or by what, if any, mechanisms MDMA facilitates reconsolidation other than safety and empathy.
+
+, or it at least some phenomena that operates in roughly the same way and produces similar outcomes.
+
+Frankly, it is not possible to do psychedelic therapy, or any type of therapy, without relying on someone's varyingly-informed opinions. We think MDMA-therapy shows a lot of promise and want to provide a manual with a lot of provisional elements, because the heat death of the universe will arrive before every little nuance has been rigorously studied.
+
+If you feel uncomfortable assuming the resistance is maladaptive, you can approach the truth of the schema's beliefs or emotional responses with agnosticism, "It may or may not be true or helpful; I will stay present with the feeling to learn why the schema exists and how it influences me." If you can't focus on the resistance schema and another schema is taking precedence, that's ok. You can revisit the resistance later.
+
+In our experience, your thoughts are also a reliable indicator of where in the reconsolidation process you are. Your thoughts often revolve around strongly activated schemas. For example, if your schema involves fear and a belief that you're dying, you may find your thoughts saying things like "I'm dying", "I'm afraid", "Death is horrible", "How could that person be comfortable with the thought of eventual death?", "Hospice facilities are scary", etc. Those thoughts will likely feel compelling. When reconsolidation finishes, those thoughts become less compelling or may shift into compassion for yourself or others. You can watch as your beliefs shift too. During a PTSD schema activation, you may believe, to some extent (often vocalized in your inner monologue), for example, that you're being attacked. As that schema reconsolidates, you can see how that belief dissolves, and you realize you're not actually being attacked. Sometimes our beliefs may stay the same while the emotional valence (positive, neutral, or negative) shifts. For example, you may have had anxiety about the thought of dying later in life. After reconsolidation, you still know you will die, but it will no longer be distressing \footnote{It could also be that the belief that feels like it stayed the same is not the schema you actually reconsolidated. It might be that a second, unnoticed schema, like "death is bad" was reconsolidated and that belief actually dissipated.}.
+
+	\item Metacognitive perspective / therapeutic de-centering; all maladaptive schemas might be clearly seen as incorrect or no long contextually appropriate
+
+the phase II long term follow-up study showed preliminary evidence that the effects are durable \cite{jeromeMDMALongTerm}.
+ Long term (1 year) follow up has only been conducted with 103 individuals and no study can investigate all possible health effects \cite{jeromeMDMALongTerm}.
+
+% Refer to \textit{The PSIP model. An introduction to a novel method of therapy: Psychedelic Somatic Interactional Psychotherapy} for one view of the role of the defense cascade in psychedelic therapy \cite{razviPSIP}.
