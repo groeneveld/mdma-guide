@@ -1326,3 +1326,21 @@ the phase II long term follow-up study showed preliminary evidence that the effe
  Long term (1 year) follow up has only been conducted with 103 individuals and no study can investigate all possible health effects \cite{jeromeMDMALongTerm}.
 
 % Refer to \textit{The PSIP model. An introduction to a novel method of therapy: Psychedelic Somatic Interactional Psychotherapy} for one view of the role of the defense cascade in psychedelic therapy \cite{razviPSIP}.
+
+Even worse, there is so little rigorous evidence on inpatient hospitalization that it's not clear it actually reduces suicide rates in the long run \cite{borecky2019reweighing}.
+
+This book primarily focuses on the "psycho" part of "biopsychosocial," with secondary focus on the "social."
+
+
+Symptom worsening may often be a sign of impending improvement, especially given further reconsolidation \cite{complex}. \textcite{complex} reports "Critical fluctuations and critical slowing have been well-documented to herald transition across a number of systems in nature...," but "Too few studies have been conducted on early warning signals in psychotherapy to draw firm conclusions, but the findings thus far suggest that nonlinear and discontinuous changes and periods of rising variability in symptoms and patterns of pathology occur in psychotherapy, and that these fluctuations predict symptom reduction and the development of more healthy patterns of functioning."
+
+In reality it seems like therapy is often more complicated than a simple transition from one maladaptive state to one adaptive state. 
+
+Therapeutic destabilization can make things feel or be worse at times \cite{olthofDestabilization}, and reconsolidation may only yield visible results at unforeseen turning points as the network of schemas shifts in complicated ways. Furthermore, we think more reconsolidation is the only durable way through destabilization. This claim needs more justification, especially since we are asking you to do more of they type of thing that may have destabilized you in the first place. The literature on destabilization is unfortunately poor.
+
+Destabilization may also consist of simply activating previously-dissociated or avoided memories. This may be overwhelming, or may activate debilitating defense cascade states.
+
+We think another complexity, destabilization (psychological turbulence or worstening of symtpms), is commonly a challenging part of MDMA therapy. You can think of it as standing up. Sitting and standing are both stable positions. The transition positions between the two are unstable, but must be passed through if you want to walk anywhere \cite{olthofDestabilization}. Therapeutic destabilization is associated with better outcomes later in therapy, however it can negatively impact your life if it is severe enough and not managed well. We think the following is a likely schema-based description of destabilization: Initially, multiple schemas and defense cascade states may work together to create a relatively stable but unhealthy pattern of behavior and emotions. Unlearning all or most of the schemas in that pattern may be necessary to reach a healthier pattern, but that can't be done all at once. Starting the reconsolidation process triggers an intermediary period where some schemas still exist but no longer form as stable of a pattern. We suspect some of them may react to the new state by strengthening and possibly activating defense cascade states. We are not aware of any papers demonstrating this, but, based on a number of anecdotal reports from reddit.com/r/mdmatherapy, we think it's highly likely that psychedelic therapy tends to produce stronger destabilization (and more rapid therapeutic progress) than traditional psychotherapy. See Section \ref{assessDestabilizationRisk} for tips on assessing this risk. We recommend \textcite{hayes2020complex} for a more thorough theoretical explanation of destabilization.
+
+
+
