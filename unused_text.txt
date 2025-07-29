@@ -1345,3 +1345,27 @@ We think another complexity, destabilization (psychological turbulence or worste
 Another sign of an immanent shift is lowered "pull" (critical slowing) of the old state. 
 
 Complex systems frequently have nonlinear dynamics, where improvement, worsening, and destabilization can come at unforeseen moments. 
+
+Activating and feeling the emotions of the target schema is necessary to enable reconsolidation \cite{ecker2015misunderstood} \footnote{Emotional activation is necessary because the schemas addressed in therapy almost always involve strong emotions. One can reconsolidate schemas that don't involve emotion without emotional activation.}. We think of it as focus-meditation, where you hold the feeling or belief of the schema in focus and gently dismiss distracting thoughts about, for instance, how beautiful the trees are. This can be deeply uncomfortable, but in our experience the MDMA almost always makes it bearable. The discomfort will be temporary; MDMA-induced reconsolidation will dissipate it over 10s of minutes. Insightful thoughts about how trauma impacted you or insights into human behavior may arise. Spend time on them if they feel cathartic or important. Leave them until after the session if they don't feel cathartic or important, reserving limited session time for reconsolidation or new experiences of profound wellbeing. It may also help to hold the schema with compassionate curiosity and agnosticism with regard to its truth. We have observed that activating and feeling the emotions of maladaptive schemas is a necessary part of MDMA therapy. Thinking can be useful, but only if it occurs in conjunction with feeling. Thinking by itself is a waste.
+
+Once you've found one of those, stay present with it, and it will reconsolidate.
+
+We've noticed that successful reconsolidation presents as either: 1) the schema gradually dissipating or becoming uninteresting, or 2) negative emotions transforming into positive ones. 
+
+We have observed (1 data point) that you can later use (with extensive practice) this knowledge of deep inner wellbeing to mismatch almost any maladaptive schema without the need for MDMA. We think that ability is enormously useful. See Section \ref{sec:moreReconsolidation} for instructions. (regular life will rarely be total bliss, but the experience does point you in the right direction)
+
+
+
+When a schema is healed you should notice that although the pain and maladaptive beliefs and behavior are diminished, a level of caution remains. If this caution is helpful rather than overwhelming, then this is the schema in its adaptive, rather than maladaptive form. This caution will aid you in avoiding future harm.
+
+PTSD makes us feel as though we are by our nature isolated; MDMA can help people feel as though they are by their nature connected to one another. This may be one of the central mechanisms of healing that both therapy and MDMA provide.
+
+ For further discussion of how to decide when to stop using medicine, see Section \ref{sec:moreReconsolidation}.
+
+ The term was introduced by John Welwood, a Buddhist teacher and psychotherapist. 
+
+ interpret the effects of MDMA and the reconsolidation process as spiritual., Because MDMA can produce profound spiritual experiences for those individuals who interpret their MDMA experience in a spiritual way, it may be important to take care to avoid spiritual bypass if MDMA experiences are to actually facilitate healing. In particular, the profundity of many MDMA experiences may lead one to feel that focusing on painful maladaptive schemas is simply no longer necessary; however, without that focus, the schemas will not be reconsolidated, and healing will not be accomplished to the degree it otherwise could be.
+
+ The intense emotions and beliefs you felt during the session may have been the schemas that have been negatively affecting your life. You will react and think differently now after the emotions and beliefs of your schema have updated. 
+
+ You might have had profound feelings or thoughts about various belief systems, sociocultural systems, organizations, etc. MDMA can spur profound insights. The feelings of trust, safety, and increased perspective inherent to many MDMA experiences can cause us to take the profound thoughts and feelings we have during those experiences as objective truth, which they may or may not be \cite{hartogsohn2018meaning}. Psychedelics inflate feelings of meaning. Rather, MDMA can offer a new perspective based on a state of heightened, but incomplete compassion and safety. Real insights may get mixed up with inaccurate interpretations. Even in these exceptional states of consciousness, all your still-unconscious emotions are deeply influencing your beliefs and feelings. Seek high quality critiques of your beliefs and incorporate beliefs into rigorous higher level frameworks \cite{saganDemon}. Correct for cognitive biases and aim for a balanced perspective when evaluating new ideas \cite{galefScoutMindset}. will more reliably lead you to what is objectively accurate or helpful for your life.
