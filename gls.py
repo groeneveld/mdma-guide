@@ -9,7 +9,8 @@ SKIP_TAGS = [
     'todo',       # Skip \todo{...}
     'hyperref',   # Skip \hyperref{...}
     'url',        # Skip \url{...}
-    'textcite'
+    'textcite',
+    'nameref'
     # Add more tags here as needed
 ]
 
