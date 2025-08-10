@@ -26,3 +26,4 @@ rm *.xref
 rm *.svg
 rm *.opf
 rm -r Open_MDMA-epub3
+rm paper.pdf

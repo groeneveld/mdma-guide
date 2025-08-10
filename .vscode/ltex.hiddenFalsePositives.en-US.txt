@@ -93,3 +93,11 @@
 {"rule":"SENTENCE_WHITESPACE","sentence":"^\\QMaster of Social Work Preprint Draft Version 4 .\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QMaster of Social Work Preprint Draft Version 4 .\\E$"}
 {"rule":"NON3PRS_VERB","sentence":"^\\QAs described in Section \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q, immobility's core function is to reduce movement to such an extent that the predator who caught you then loses interest and leaves you alone \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOpen MDMA: An Evidence-Based Synthesis, Theory, and Manual for MDMA Therapy Based on Predictive Processing, Complex Systems, and the Defense Cascade Mark GroeneveldCorresponding author; Email: \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q Thomas Harper, M.S.W.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QI believed that nobody could love a rape victim like me.\\E$"}
+{"rule":"AFFECT_EFFECT","sentence":"^\\QI saw that I had inherent value just for being a person, and that what happened to me had no affect on my worth.\\E$"}
+{"rule":"EN_WORD_COHERENCY","sentence":"^\\QThe victim internalises the idea that this display of dominance means that there must be something wrong with them, especially if the victim was young when it happened.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QVacillation (called critical fluctuations in complex systems theory) between two states might become more frequent as the two states become more equal in strength and minor environmental changes are enough of a jolt to initiate a transition from one to the other.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QOur theoretical integration of complex systems dynamics, predictive processing, and the defense cascade appears novel.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QIt may be possible to end up in an even more stable and maladaptive state than you started in in unusual circumstances.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QI also want to note that the initial experience didn't seem sufficient on its own to destabilize my sense of self.\\E$"}
