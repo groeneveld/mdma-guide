@@ -10,7 +10,8 @@ SKIP_TAGS = [
     'hyperref',   # Skip \hyperref{...}
     'url',        # Skip \url{...}
     'textcite',
-    'nameref'
+    'nameref',
+    'nameref*'
     # Add more tags here as needed
 ]
 
@@ -108,8 +109,11 @@ def find_all_skip_tag_positions(content, skip_tags):
     """Find all positions of content inside tags that should be skipped"""
     skip_positions = []
     
+    # Escape each tag to handle special regex characters like * in nameref*
+    escaped_tags = [re.escape(tag) for tag in skip_tags]
+    
     # Create a pattern like: \\(label|ref|cite|todo){[^}]*}
-    tags_pattern = f'\\\\({"|".join(skip_tags)}){{[^}}]*}}'
+    tags_pattern = f'\\\\({"|".join(escaped_tags)}){{[^}}]*}}'
     
     # Find all matches
     for match in re.finditer(tags_pattern, content):

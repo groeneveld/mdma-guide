@@ -1391,17 +1391,7 @@ These assessments strongly depend on the patient or clinician's understanding of
 
 The brain actively controls attention to obtain the most relevant information in any particular context \cite{clark2015surfing}. 
 
-\chapter{Self-Determination Theory}
-\label{sec:sdt}
-Self-Determination Theory (SDT) is a theory of human motivation and behavior, positing that people have innate psychological needs, and satisfying these needs leads to better mental well-being and performance \cite{deciSDT}. Many studies across cultures, age groups, and domains (education, work, sports, health, etc.) have examined and supported its principles. We think contemplating how these needs have or have not been fulfilled in your life may uncover maladaptive schemas.
 
-The three fundamental psychological needs identified in SDT are:
-\begin{itemize}
-    \item \textbf{Autonomy} The need to feel in control of one's actions and choices. It's not about being independent, but rather about feeling that one's behavior is self-endorsed and congruent with personal values and interests.
-    \item \textbf{Competence} The need to feel effective and capable in one's activities. It involves mastering tasks, gaining new skills, and feeling a sense of growth in one's capacities.
-    \item \textbf{Relatedness} The need to feel connected to others, to care for and be cared for by others, and to feel that one belongs with others. It emphasizes the importance of relationships and emotional connections with peers, family, and the broader community.
-\end{itemize}
-For more information, see \textit{The “What” and “Why” of Goal Pursuits: Human Needs and the Self-Determination of Behavior} by Edward Deci Ph.D. and Richard Ryan Ph.D. \cite{deciSDT}.
 
  and the principles of Self Determination Theory (Appendix \ref{sec:sdt})
 
@@ -1428,3 +1418,43 @@ We suspect there are opioid-mediated dissociative states that don't neatly fit i
 , or the various pseudoscientific beliefs popular in mainstream psychotherapy
 
 We suspect that in some cases a stable state of mental illness is actually only semi-stable, and one can transition to an even worse and potentially more stable state in certain unusual conditions. People occasionally uncover horrifying memories of abuse during MDMA therapy, and after the session end up with stable and much worse symptoms than before. We suspect this new state already existed in an inactive state, but was unreachable because of strong avoidance mechanisms that prevented access to that memory. Psychedelics are famous for their capacity to decrease avoidance. Completely avoiding these memories for the rest of your life is not healthy, as the schemas that abuse creates are generally important and active in peoples' lives. It's conceivable that a skilled therapist who you align well with could help you gently ease into these distressing memories instead of confronting them all at once. However, psychedelic experiences are famously difficult to control, and we think it's likely harder to maintain an easing-in pace during MDMA therapy. This symptom-worsening issue is further complicated in practice because people are sometimes avoiding a multitude of distressing things and possibly multiple associated even-more maladaptive and stable states. It's also easily possible that this even-worse state is not stable, and will naturally resolve to an even-better state of mental health.
+
+The Relaxed Beliefs Under Psychedelics (REBUS) model hypothesizes that LSD, psilocybin, and DMT work by relaxing all high level (abstract beliefs, unlike low-level prios that, say, maintain homeostasis) priors \cite{carhart2019rebus}. Incoming interoceptive sensory information gains relative strength compared to typically-entrenched maladaptive priors. This normal interoceptive information is then sufficient to reconsolidate the maladaptive priors when those priors are activated during psychedelic-assisted therapy. Relaxation of all high level priors also explains other features of these drugs like hallucinations.
+
+MDMA causes much less hallucination than psilocybin, so it likely doesn't relax all high level priors \cite{studerus2010psychometric}. 
+
+% \Section{Factors for Success}
+% \label{assessDestabilizationRisk}
+% We suspect the conditions below increase the chances of lasting healing and reduce the risk of destabilization and symptom worsening. While meeting all of them is not necessary for success, the more you have, the easier it will be. A good therapeutic alliance with a mental health professional can probably offset a lack of some of these. Many individuals with a history of trauma or mental illness have absorbed an "I have to do it all myself" or "these things were so long ago I should be over them already" attitude from difficult life circumstances, which makes it hard for them to feel they deserve supportive care. We hope this list will assist you in giving yourself credit for the difficulty of your endeavors, and help you give yourself permission to seek more support if that would be right for you. Consider these carefully when deciding what degree of professional guidance you need:
+% \begin{itemize}
+%     \item Access to resources: stable housing, financial security, stable healthy relationships, free time to process without compromising material stability, and friends or family skilled in emotional support.
+%     \item Understanding of healthy emotional behaviors (awareness of difficult moods and tools to manage them, conflict resolution, etc.).
+%     \item Some degree of impulse control
+%     \item Grit to navigate challenges in the healing process. Capacity to do between-session reconsolidation. Motivation to experiment with therapeutic methods to find what works for you.
+%     \item Time for and access to a secure and inviting space for your sessions, post-session rest, and reflection.
+%     \item Independence from those who have traumatized you, especially if they might react poorly to your insights and improvements. Most maladaptive schemas protected you at one point in your life. Dismantling these protections while you are still in a dangerous situation may be risky.
+%     \item A habit of inquiring why you have the beliefs and behaviors you do. Acknowledgement that many of them are strongly influenced by psychological and social factors, particularly from early-childhood \cite{brownAttachmentDisturbances}.
+%     \item Ability to identify dysregulation.
+%     \item Good therapeutic alliance if you're working with a mental health professional \cite{fluckiger2018alliance}.
+%     \item Absence of severe mental health problems such as CPTSD, attachment disorders, bipolar disorder, psychotic disorders, and personality disorders. We aren't aware of any high-quality research on how to predict destabilization and symptom worsening, but we strongly suspect the trauma reactions we just listed are major factors. If we had to pick one scale you can rate yourself with we would suggest the Maladaptive Schema Scale by \textcite{maladaptiveSchemaScale}. Unfortunately we aren't sure how to translate a specific score to specific recommendations on much good professional assistance is important for helping you in managing destabilization. The best we can recommend is using this as a vibe-check that you integrate with the other complexities of your personal situation.
+% \end{itemize}
+
+We believe MDMA therapy presents a significant increase in the potential cost-quality curve of therapy and provides a much-needed tool for cases that haven't responded well to other approaches \cite{mitchellMDMAClinicalTrial2,mitchellMDMAClinicalTrial}.
+
+Outcome measures continued to deacrease after each of the three doses administered during the trials, suggesting additional doses would further increase healing \cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. 
+
+\footnote{MDMA is sold in hydrochloride salt form, and all stated masses are masses of the hydrochloride salt form \cite{liechtiInteractions}. MDMA is made as a racemic (equal) mixture of the R-MDMA and S-MDMA enantiomers (a right or left-handed version of a molecule), though it is possible to purify either enantiomer \cite{straumann2024racemic}. They have different effects.}
+
+ is highly controversial. Unfortunately, it is very difficult to figure out how likely LLM therapy is to help in the current (2025) information environment of high AI attitude polarization, minimal high quality research, high rates of technological change, and wildly conflicting reports of LLMs providing everything from desperately needed and healthy help to fueling delusions of grandiosity.
+
+  MDMA's effects of safety and empathy also decrease avoidance and facilitate staying present with difficult schemas, one of the prerequisites of reconsolidation.
+
+This does not imply that destabilization due to abusive or incompetent therapists or guides is helpful. 
+
+These issues can presumably be solved, at least in part, though the methods outlined in this book for reconsolidating any maladaptive schema. 
+
+These drive unusually-strong attention to ambiguous sensory information and interpret it as persistence of threatening illness or injury.
+
+Fixing these issues might require reconsolidating the high-pervasive-threat schema and any schemas driving avoidance of bodily awareness in addition to the specific symptom-producing schema, since the former two continually reinforce the latter. We don't know if MDMA can facilitate reconsolidation of this type of symptom-producing schema, but the high-pervasive-threat and avoidance schemas sound like the type MDMA can help with. Any practice that directly increases attention to bodily sensations may also help if the practice doesn't get categorized as a threat itself.
+
+This might involve using the type of touch or movement that would produce symptom perception, but started at a gentle enough level that doesn't actually cause symptom perception. Gradually increasing intensity over time will gradually raise the learned threshold that triggers symptom perception. This suggests things like sports, yoga, accupuncture, gradual progressive strength training, etc. may work.

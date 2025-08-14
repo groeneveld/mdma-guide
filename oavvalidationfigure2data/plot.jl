@@ -14,7 +14,7 @@ x_pos = 1:length(subscales)
 
 # Initialize the plot
 p = plot(size=(800, 600), 
-         xlabel="New OAV Factors", 
+         xlabel="Factors", 
          ylabel="% of Scale Maximum",
          legend=(0.54,0.94),#:topright,
          xticks=(x_pos, subscales),
