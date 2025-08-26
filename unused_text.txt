@@ -1537,3 +1537,21 @@ We live in a world of pervasive threats, fear-based messaging, and out-group dem
 
 
 This might bring up some fears that you can then reconsolidate. Presumably, some improvements to cognitive flexibility depend on perceiving that there are attainable alternative social situations for you. If you are trapped in a cult without even a slight perceived chance (even unconscious) of possible escape, MDMA therapy might just help you better adapt to that situation.
+
+We don't know what this phenomenon is. A few weeks roughly equals the length of time of a certain type of increased neuroplasticity that \textcite{nardouMDMAPlasticity} found following MDMA sessions in mice. However, that lab's results with psilocybin have failed to replicate, calling their MDMA results into question too \cite{Lu2025noplasticity}. It could be that something about your MDMA session or your expectations about MDMA therapy temporarily deactivated the set of schemas that cause your problems. Perhaps one schema of a set of self-reinforcing schemas deactivated, and then the whole network of self-reinforcing schemas deactivated. Those schemas may eventually re-activate in the presence of their regular triggers if they are not reconsolidated.
+
+We recommend spending more effort on, and experimenting with sober reconsolidation exercises (see Section \ref{sec:moreReconsolidation}) in this period rather than more frequent MDMA use if this phenomenon occurs for you. You may even find that maxing-out your reconsolidation capacity every day will deliver very large amounts of therapeutic progress. Developing the skill of sober reconsolidation can reduce your therapeutic reliance on MDMA and allow reconsolidation in a wide variety of circumstances where MDMA use is not appropriate. When well-developed it could also allow faster healing because the safety and logistical considerations of MDMA therapy are no longer limiting.
+
+You might go through cycles of noticing new and interesting sensations or thoughts that feel really good at first then dissipate with time. We think this is positively-valenced prediction error caused by bringing attention to previously-avoided things. The error will gradually update your schemas until the new sensations or thoughts become the unremarkable new normal.
+
+This was found in clinical settings where physical activity was low and temperature moderate.
+
+Hyponatremia can become severe if the individual sweats a lot without replenishing the lost salt, or drinks large amounts of unsalted fluid, as sometimes occurs at dance parties \cite{vanOverheatingAlcohol}.
+
+ Exercise increased caution if your body has severe problems regulating its temperature because MDMA raises body temperature by $0.2$-$0.8^{\circ}$C or $0.4$-$1.4^{\circ}$F \cite{liechti2014effects}.
+
+ Replacing fluids and sodium will become more important to avoid dangerous heat illness (MDMA further raises body temperature by $0.2$-$0.8^{\circ}$C or $0.4$-$1.4^{\circ}$F\cite{liechti2014effects}) and hyponatremia if the environment is hot enough to cause sustained heavy sweating during the session (MDMA can further increase sweating \cite{colcott2024side}).
+
+  These are assuredly a limited subset of the full set of disorders associated with childhood trauma.
+
+      \item The Challenging Psychedelic Experiences Project also has a lot of information on extended difficulties from psychedelics \cite{peersupportgroup}.
