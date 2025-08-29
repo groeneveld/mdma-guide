@@ -64,4 +64,4 @@ end
 # Save as PDF
 savefig(p, "psychedelic_effects_plot.pdf")
 
-println("Plot saved as 'psychedelic_effects_plot.pdf'")
+println("Plot saved as 'effects_plot.pdf'")

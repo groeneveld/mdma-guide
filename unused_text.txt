@@ -1555,3 +1555,65 @@ Hyponatremia can become severe if the individual sweats a lot without replenishi
   These are assuredly a limited subset of the full set of disorders associated with childhood trauma.
 
       \item The Challenging Psychedelic Experiences Project also has a lot of information on extended difficulties from psychedelics \cite{peersupportgroup}.
+
+ The original data showed that the values reported here were generally much higher in the MDMA group than the placebo group, indicating that these symptoms are mostly caused by MDMA. Cells with an * indicate that the placebo value was equal to or higher than the MDMA value. Two rows of the original data were ommitted because MDMA had minimal effect on them.
+
+ Psychedelic experiences are famously prone to strangeness, and we wanted to include at least one illustration of how this can play out, at least in one instance. 
+
+  % \item Suicidal ideation, psychosis, and mania are dangerous states, and, as detailed below, there is an unresolved gap between expert consensus and evidence on the risk of MDMA or psychedelic therapy exacerbating these conditions. Experts tend to recommend either avoidance of psychedelics, or, increasingly, caution and high levels of support for individuals with these conditions or at high risk of these conditions \cite{la2022Psychosis}. High levels of skilled, ethical, and well-matched psychological and psychiatric support are undoubtably beneficial for individuals with these conditions. However, as far as we can tell, the belief that MDMA therapy tends to cause or make these conditions worse has not been established by clear evidence. Here is the best information we have been able to find on the subject:
+    %     \begin{itemize}
+    %         \item \textbf{Suicidal Ideation:} MDMA therapy with high levels of support decreases suicidal ideation about as much as placebo with therapy, on average \cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. When interpreting these results it is important to note that average improvements can mask the possibility that a small portion of individuals can get worse even while the majority improve, though this applies to the placebo group as much as the MDMA group.
+    %         \item \textbf{Psychosis:} There is virtually no high quality experimental data because people with a history of psychosis are usually excluded from clinical trials of psychedelics \cite{la2022Psychosis}. Case reports of psychotic episodes induced by MDMA are rare and typically, though not always, report confounding factors like co-use with other psychoactive drugs, chronic abuse of other drugs, lack of verification of MDMA ingestion, heat stroke, hyponatremia, extreme doses, or extreme frequency of use \cite{psychosisTreatment,arnovitzSchizophrenia,mcguirePsychosis,patelPsychosis,vaivaPsychosis}. One participant out of 174 in the MDMA phase III clinical trials reported a psychotic episode after the trial ended in poorly-documented circumstances, even though participants reporting any personal history (family history was allowed) of psychotic disorders were excluded from participation \cite{powerTrip,smithSystematic,mitchellMDMAClinicalTrial2}. We have personally heard of two cases of temporary psychosis leading to hospitalization triggered by a high-dose psilocybin trip conducted the day after an MDMA therapy session. This suggests a lack of adequate recovery between sessions is a major risk factor. \textcite{psychosisTreatment} found that when psychedelics were implicated in psychotic episodes, the episode lasted an average of 1.8 weeks with psychiatric treatment.
+    %         \item \textbf{Mania:} There is virtually no high quality experimental data because people with a history of mania (less-so hypomania) are usually excluded from clinical trials of psychedelics \cite{gardBipolar}. The MDMA phase III trials did not exclude individuals with bipolar II and no manic episodes were reported \cite{mitchellMDMAClinicalTrial2}. One small, uncontrolled study of psilocybin-assisted therapy for people with bipolar II but not currently in a hypomanic state showed good efficacy and safety when combined with a high level of support \cite{aaronsonBipolarII}. We aren't sure how well that translates to MDMA therapy. Notably, we couldn't find a single case report of mania where MDMA was unambiguously involved in the recent past, and are therefore confused why MDMA and disorders involving mania are often considered a risky combination. Perhaps it is because bipolar I frequently also involves psychosis, which does have a link to MDMA use, even though it seems rare and typically associated with exacerbating factors not seen in therapeutic contexts.
+    %     \end{itemize}
+    %  We think the clearest line of reasoning for MDMA therapy triggering these conditions is that 1) high stress is a known risk factor for psychotic or manic episodes \cite{winkelPsychosisStress,Umeoka2021stressmania}, and 2) MDMA therapy is known to occasionally create high amounts of stress through confronting previously-avoided traumatic memories or other types of destabilization (see Section \ref{sec:complex}). Of course, this also implies that MDMA therapy can reduce the risk of psychotic or manic episodes when MDMA therapy resolves existing stress. It also suggests that high quality psychological support before, during, and after the session would indeed reduce risks. We don't know any way to predict whether MDMA therapy will help or hurt in any specific situation. Conclusively resolving the gap between low evidence of risk and expert consensus will require much more research.
+
+
+\begin{table}[htbp]
+    \centering
+    \caption{Adapted from Table 3 of \textcite{liechtiGender}. Values indicate the percent of participants reporting that symptom. Placebo values are in parenthases. Green shading indicates MDMA increased an effect compared to placebo. White shading indicates roughly no change. Red shading indicates MDMA decreased an effect compared to placebo. We converted the original data listing the number of participants reporting a symptom to percentages.}
+    \label{table:sideeffects}
+    \begin{tabular}{|r|l|l|}
+    \hline
+    \textbf{Symptom} & \textbf{Acute \%} & \textbf{24 Hours \%} \\ \hline
+        Difficulty concentrating & 80 (20) & 38 (11)\\
+        Jaw clenching            & 78 (0)  & 27 (0)\\
+        Lack of appetite         & 73 (5)  & 53 (4)\\
+        Dry mouth/thirst         & 72 (4)  & 46 (5)\\
+        Impaired balance         & 66 (0)  & 9\phantom{0} (0)\\
+        Restless legs            & 55 (1)  & 15 (1)\\
+        Sensitivity to cold      & 55 (15) & 16 (4)\\
+        Dizziness                & 51 (1)  & 9\phantom{0} (0)\\
+        Palpitations             & 47 (1)  & 9\phantom{0} (0)\\
+        Restlessness             & 46 (1)  & 16 (1)\\
+        Being cold               & 46 (9)  & 12 (4)\\
+        Sweating/sweaty palms    & 42 (0)  & 16 (0)\\
+        Forgetfulness            & 38 (1)  & 15 (1)\\
+        Heavy legs               & 36 (1)  & 16 (0)\\
+        Fatigue                  & \cellcolor{jlred}35 (64) & 55 (35)\\
+        Weakness                 & 35 (1)  & 32 (1)\\
+        Hot flushes              & 32 (4)  & 20 (1)\\
+        Tremor                   & 31 (0)  & 11 (0)\\
+        Paresthesia (tingling sensation) & 30 (12) & \cellcolor{jlred}1 (11) \\
+        Inner tension            & 27 (7)  & 11 (7)\\
+        Brooding                 & 22 (4)  & 24 (1)\\
+        Nausea                   & 20 (4)  & 1\phantom{0} (0)\\
+        Lack of energy           & 20 (11) & 32 (5)\\
+        Exhaustibility           & 20 (5)  & 26 (1)\\
+        Frequent urge to urinate & 19 (7)  & 20 (7)\\
+        Headache                 & 16 (16) & 36 (9)\\
+        Insomnia                 &                            & 32 (0)\\
+        Anxiety                  & 15 (1)  & 1\phantom{0} (1)\\
+        Irritability             & 11 (1)  & 7\phantom{0} (0)\\
+        Increased appetite       & \cellcolor{jlred}5\phantom{0} (9)  & \cellcolor{jlred}1\phantom{0} (4)\\
+        Muscle Aches             & \cellcolor{jlred}1\phantom{0} (4)  & 4\phantom{0} (4)\\
+        Bad dreams               &                                    & 9\phantom{0} (4)\\
+        \hline
+    \end{tabular}
+\end{table}
+
+ It's conceivable that MDMA therapy might optimize for violence or manipulativeness in humans who truly lack (not just an apparent lack due to maladaptive schemas) certain fundamental error sources such as empathy, and who currently have "maladaptive" schemas inhibiting them from violence or manipulativeness they would otherwise find fulfilling.
+
+  These quantities are far higher than we've heard of anyone using in therapy.
+
+  Everything in HiTOP fits this category except some chemical addictions, some thought disorders, and maybe some other odds and ends.   The second claim is our informed hunch.
