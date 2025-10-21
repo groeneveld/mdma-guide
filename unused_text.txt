@@ -1617,3 +1617,128 @@ Hyponatremia can become severe if the individual sweats a lot without replenishi
   These quantities are far higher than we've heard of anyone using in therapy.
 
   Everything in HiTOP fits this category except some chemical addictions, some thought disorders, and maybe some other odds and ends.   The second claim is our informed hunch.
+
+      \item Something being a disorder depends on a value judgement of that thing being bad. Thus, different cultures and value systems disagree about what things are mental disorders.
+
+ Truthfully, this is also a list of M.G.'s personal grievances with the field that emerged out of decades of useless and disempowering psychiatric and psychotherapeutic treatments.
+
+  Please read our disclaimers because they indicate genuine uncertainty or perception of risk. We could also be wrong about things!
+
+  % We don't currently have any professional licenses, but we do have a lot of lived experience, skepticism, drive for rigor, capacity for critically evaluating research literature, and some training and professional experience.
+
+      % \item We don't know the real risk MDMA therapy poses for those with a personal or family history of psychosis or who have current cardiovascular disease.
+
+Much public medical information seems to be poor quality and/or not practically usable, in large part because it’s optimized for avoidance of liability \cite{webMD}. We hope to offer a better resource by spending almost no effort optimizing for liability. It is also true that t
+
+ These disclaimers are serious; it isn't just disingenuous boilerplate legal stuff.
+
+ In practice, we only know of two instances of this happening, both involving other types of severe therapist misconduct \cite{sessa2015underground,lindsayLicense}.
+
+  We strongly recommend identifying and at least briefly connecting with a therapist or guide you might want to work with in case you get into deeper water than you are comfortable with.  While this model has worked for many people, we are unsure of the risk/benefit trade off.
+
+      % If this synthesis is correct and useful, why did it take someone with no relevant degree or professional experience to put it together? Possible answers: No researcher would get funding for this. The format is too unusual to be used as currency for getting tenure. Legal liability. Attachment to established practices and beliefs. Lack of time. Lack of personal experience. M.G. had exceptional motivation for completing this project and getting the theory mechanistically correct right. They felt their life depended on getting it correct.
+
+% They also see this book as saving the world and making the world safe for them and those they care about. T.H. also has related motivations.
+
+% They also see this book as saving the world and making the world safe for them and those they care about. T.H. also has related motivations.
+
+
+        
+        \vspace{\baselineskip}
+
+        We accept donations sent to mgroeneveld@protonmail.ch on Zelle, Venmo, or PayPal. We spent about 861 hours on this project, not including much of the acquisition of relevant skills and knowledge, and have no outside funding.
+
+Finally, long term follow-up results submitted to the FDA suggest that the healing is durable, and the advantage of MDMA over placebo was maintained in the long term \cite{mplongPreliminary}. 
+
+ A couple issues with data collection and study design at MAPS combined with confusion and process issues at the FDA seem to be primary factors; not necessarily poor efficacy or safety, though a better trial could show worse efficacy or safety.
+
+  We're not clear how the specific predictions of threat and powerlessness actually activate the autonomic nervous system. We're also probably missing complexity of unknown importance.
+
+  \textit{The Dark Side of Dharma: Meditation, Madness and Other Maladies on the Contemplative Path} by Anna Lutkajtis \cite{lutkajtis2021dark} and \textit{Breaking Open: Finding a Way Through Spiritual Emergency} by Jules Evans and Tim Read \cite{evans2020} may be of interest. 
+
+   The UK National Health Service recommends 40 mg 1–3 times daily \textcite{nhsPropranalol}.
+
+    Note that there is very little high quality evidence on the safety and efficacy of long-term use of prescription psychiatric medication \cite{leuchtDecline}. Studies generally only investigate short-term use.
+
+ Those with jaw problems could conceivably need to take extra precautions or start with lower doses.
+
+ On top of this, giving people who care about you and/or want to support you some kind of job to do can build closeness and help them feel less powerless. , someone to text you on the hour and remind you that you are a badass.
+
+ % \section{Organizing Community Care}
+% \label{sec:organizingcare}
+% A significant and increasing body of work supports the effectiveness of peer support within the context of formal mental health services \cite{shalaby2020peer}. At the same time, some have called for a "reimagining" of peer support in order to take advantage of the unique (and perhaps uniquely helpful) qualities of peer support, which reach outside the conventional borders of professional mental health services \cite{gillard2019peer}. It is this latter project to which we hope to contribute, offering strategies and framings drawn from our experiences organizing care on a mutual aid basis, outside the formal mental health system. We have observed that individuals who are struggling with mental illness may be aware that having a strong support network might aid significantly in their recovery, but may also lack the skills or the mental framework to:
+% \begin{itemize}
+% 	\item Cultivate such a support network
+% 	\item Confidently ask for help in a way that is appropriate to each relationship, relationally sustainable, and not manipulative or unduly high-pressure
+% 	\item Recognize what specific tasks, activities, or forms of support that network might help them with
+% \end{itemize}
+
+% In this section, we will discuss each of these processes and suggest a variety of tools and resources which may or may not be empirically validated, but which we have found helpful in these tasks. Finally, we wish to acknowledge that for a wide variety of reasons, these strategies will not be accessible to everyone. We only hope that for some people, they increase access to sustaining connection and healthy relationships of mutual care.
+
+% \subsection*{Cultivating a Support Network}
+
+% 8\% of Americans report that they don't have any close friends \cite{pewFriends}. \textcite{fehr2008friendship} identifies four components of friendship formation: environmental, individual, situational, and dyadic. This is Fehr's summary of the research of the research on these four factors (emphasis ours):
+
+% \begin{quotation}
+% 	A necessary first step for the development of most friendships is that two people's paths must cross. This is more likely to occur if the two people live near one another (e.g., same neighborhood, same building, same floor, same room) than if they do not. Living in a city or, more important, sharing the same work or school \textbf{environment} also increases the likelihood of contact. People who know people also are more likely to become friends. The probability that two individuals will meet increases to the extent that their social networks overlap.
+% \end{quotation}
+
+% Once two people meet, whether they decide to pursue a friendship depends on several additional factors. At the \textbf{individual} level, each scrutinizes the other for evidence of disliked qualities or other characteristics that may make him or her unsuitable as a friend. If these exclusion tests are passed, then inclusion tests will follow. It is likely that a friendship will be sought if each perceives the other as attractive, socially skilled, responsive, not shy, and if the two people are similar in a variety of ways.
+
+% If both exclusion and inclusion tests are passed, one might think that a friendship would be inevitable. However, \textbf{situational} factors influence whether a friendship actually is formed. Research on these factors suggests that two people are more likely to develop a friendship if they anticipate ongoing interactions, if they are dependent on one another, if they see one another frequently, and if each person's "friendship dance card" still has some room on it. Finally, the likelihood of friendship formation depends on \textbf{dyadic} variables such as whether the two people like one another and whether there is an appropriate sequencing of the depth and breadth of self-disclosure \cite[p. 68]{fehr2008friendship}.
+
+% In deference to this research–but also from our own experience–we feel that for maximal likelihood of success in building new friendships, one must routinely put oneself in environmental and situational contexts that are conducive to friendship formation. That means contexts that:
+% \begin{itemize}
+% 	\item Put you in repeated proximity with people you feel you have something in common with, at least some of whom are likely to have resources to spend on a new connection
+% 	\item Allow for plenty of friendly, cooperative interactions
+% 	\item Provide a reasonably pleasant/low stress environment, at least some of the time
+% \end{itemize}
+
+% Here are some ideas for contexts that may meet enough of these criteria to facilitate friend-finding success:
+% \begin{itemize}
+% 	\item A workplace or school (ideally in person)–especially effective if full-time and/or residential
+% 	\item A meditation group, synagogue, or church congregation
+% 	\item Gyms, pools, dance/martial arts/yoga/Pilates studios, and rec-centers
+% 	\item Recurring dance nights (salsa, blues, contra, etc.) or jam sessions at various venues
+% 	\item Events, clubs, or groups you find through local newsletters and event calendars
+% 	\item Events through your public library, senior center, community center, game shop, or farmer's market
+% 	\item Night classes through a community college–may focus on art, craft, or trade, or hobby related skills
+% 	\item Civic engagement with local government and/or activist groups
+% 	\item Long distance hiking adventures known as "through hikes" on the Appalachian Trail or others
+% 	\item Volunteering (animal shelter, horse rehab stable, soup kitchen, nonprofit thrift store, etc.)
+% 	\item Therapeutic support or self-help groups, such as Buried in Treasures groups or Alanon
+% 	\item Festivals, fairs, and conventions–the intense collaboration involved in festivals like burning man \cite{st2018civilised} and Pennsic have been known to facilitate friendship formation in a way that is difficult to replicate in the atomized mundane working world of midlife in the USA.
+% 	\item Online services like meetup.com, Bumble BFF, Captain Awkward meetups, or Buy Nothing groups, which connect people for offline interactions
+% \end{itemize}
+
+% Some online games or social networking sites can facilitate friendship formation for some users. We recognize that online socializing offers massive accessibility advantages, and we have hope that in the future digital spaces will be designed to facilitate healthy friendship formation \cite{gowen2012young} rather than being designed to extract the maximum amount of data, time, and/or money from participants. For the time being, online socializing is fraught with problematic ethical and mental health impacts–while also providing benefits, including connections that may be indispensable \cite{pantic2014online,kim2022tech,cohen2017relationship,prochnow2021depressive}. It may be that the collaborative activities of gaming or the creativity of posting are more satisfying or helpful for you than reading and reacting to others' posts, and it may be that some games leave you feeling better (or support you in interacting with others in a more satisfying way) than others. In light of these complexities, we recommend checking in with yourself carefully to gather data about how you actually feel before, during, and after specific online activities. We also recommend using whatever executive function supports \todo{Link to executive function section} are necessary to limit your participation in activities that you don't find helpful.
+
+% If you are able to repeatedly and/or protractedly place yourself in a context (environment and situation, in Fehr's framework) which offers you a good chance at proximity with high likelihood potential friends, you will still have the individual and dyadic factors to sort out. Let's return to Fehr's account of individual factors–individuals are looking for someone who is "attractive, socially skilled, responsive, not shy, and if the two people are similar". We will leave the question of attractiveness to the myriad other texts and resources on the topic, other than to point out that the research does suggest that social skills and attractiveness may represent two separate routes to friendship–you don't necessarily need both\footnote{There is clear data that social skills correlate with social support \cite{sarason1985concomitants} and also that attractiveness and social skills represent two separate routes to friendship for women \cite{reis1982physical}. For men the data is less clear–apparently for men, social skills and attractiveness, though still both separately impacting social success, tend to be highly correlated. Since social skills can be taught \cite{brigman1999teaching,sazak2013outcomes}, we feel this raises interesting questions about how men are socialized. Research on the correlations between attractiveness, social success, and social skills in nonbinary people has not yet been published. Despite these complexities, we strongly recommend social skill development as a path to greater social success for all genders. For anyone who is a man or a nonbinary person or who is close to a man or nonbinary person, we recommend Bren{\'e} Brown's workshop Men Women and Worthiness \href{soundstrue.com/products/men-women-and-worthiness}{(soundstrue.com/products/men-women-and-worthiness} as a valuable exploration of gendered challenges in socialization, self disclosure, and life.} —and that attractiveness is relative to context \cite{geiselman1984context,melamed1975effect,little2011facial,moss1975effects,lei2020contrast}.
+ 
+% Fehr identifies the important social skills for friendship formation as initiation (more important in the early finding/making friends stage) and self-disclosure (important for moving from an acquaintanceship to a friendship, and increasingly important as friendships deepen.) Other research suggests that responsiveness (including nonverbal responsiveness) and assertiveness are also important social skills for creating and sustaining satisfying friendships \cite{riggio1986assessment}.
+
+% To work on initiation skills (how to introduce yourself and make a good first impression) we recommend the content and coaching services from Healthy Gamer and advice from Captain Awkward. For folks who feel this would be a reasonable choice for them, we also recommend setting "getting rejected" as a positive goal, as a kind of prolonged exposure practice to desensitize yourself to the downsides of rejection. Finally, we have observed that in some cases, increased confidence in one's "appropriate self-disclosure" skills can make initiation more accessible.
+
+% Our recommended resources for learning appropriate self-disclosure skills are the ladder of bids (see \textcite{gottmanTrust}, Chapter "How Couples Build Trust With Attunement"), along with \textcite{brownDaring} work on "Shame webs vs support networks." We have witnessed considerable transformation in these skills by motivated individuals who practiced applying these tools over time.
+
+% We feel that assertiveness and nonverbal responsiveness are probably best addressed by cultivating a mindset of confidence, compassion, calm, and balanced entitlement, and trying to carry this perspective into social interactions. This is extremely hard to do when one is mentally ill–as, indeed, are the recommendations in this section generally. To cultivate this positive mindset, we recommend the following resources (if you find them helpful and resonant to your own situation):
+% \begin{itemize}
+% 	\item The work of Bren{\'e} Brown generally
+% 	\item \textit{Good Inside} by Dr. Becky Kennedy (putatively about parenting, but the general concepts can be applied to relationships with self and others generally). See Section \ref{sec:psychoeducation}.
+% 	\item \textit{Grit} by Angela Duckworth
+% 	\item \textit{Bird by Bird}, by Anne Lamott
+% 	\item \textit{The Upside of Stress}, by Kelly McGonnigal
+% 	\item How to live alone and like it (every ism, but very good at teaching people to "romanticize your life"–to tell yourself and others a positive and appealing story about yourself and how you live–and breaking this down into many specific sub-skills and practices)
+% 	\item Games like Roots of Pacha
+% 	\item Compassion meditation
+% 	\item Other mantras ("it's OK to make mistakes", "I am enough/I have enough", "I am becoming consistently capable of lovingly attentive behavior")
+% 	\item The Unwinding Anxiety app
+% \end{itemize}
+
+% We are sure there are many other resources that would also serve this purpose well. In addition, despite the inherent awkwardness and discomfort of this practice, we would expect role playing with a therapist, coach, or reasonably skilled peer to be an excellent strategy for improving any of these social skills.
+
+ (10–15 mg/day during the first month, and 5–10 mg/day during the next 5 months)
+
+ It is more likely that these memories are psychologically real and important for you.
+
+ , possibly in part due to MDMA increasing thirst when you don't actually need more water \cite{liechtiGender}
