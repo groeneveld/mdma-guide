@@ -89,9 +89,9 @@ class Config:
     """Configuration constants for the citation verifier."""
     
     # File paths
-    PAPERS_DIR = 'papers'
-    PAPER_TEX_FILE = 'paper.tex'
-    REFERENCES_BIB_FILE = 'references.bib'
+    PAPERS_DIR = '../papers'
+    PAPER_TEX_FILE = '../paper.tex'
+    REFERENCES_BIB_FILE = '../references.bib'
     OUTPUT_FILE = 'citation_inventory.md'
     ANALYSIS_FILE = 'citation_analysis.md'
     

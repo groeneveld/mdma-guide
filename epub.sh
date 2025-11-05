@@ -1,1 +1,0 @@
-tex4ebook -c epub_config.tex -f epub3 Open\ MDMA.tex

@@ -1742,3 +1742,19 @@ Finally, long term follow-up results submitted to the FDA suggest that the heali
  It is more likely that these memories are psychologically real and important for you.
 
  , possibly in part due to MDMA increasing thirst when you don't actually need more water \cite{liechtiGender}
+
+ While there were complex motivations for the War on Drugs, it functions and persists primarily as moral panic, a means to punish certain groups of people, and a means for politicians to disenfranchise and ostracize the voter base of their political opponents. 
+
+ However, the recreational users in that study also used much more MDMA (median of 44 occasions) than is typical in therapeutic use.
+
+     Some observational human studies and controlled high-dose animal studies have found that MDMA use is associated with neurotoxcicity (oxidative stress in this case) or cognitive problems \cite{passieHistory}. However, these problems have not been found in controlled studies in humans. The human observational studies that find problems usually fail to adequately control for multiple-drug use, a significant risk factor. Notably, \textcite{halpernMormonRavers} ruled out high levels of long-term cognitive issues from recreational MDMA use in a population that had exceptionally low lifetime use of other psychoactive substances. Unfortunately the study didn't have the statistical power to rule out low-moderate levels of cognitive issues. One small randomized study of MDMA therapy also did not find any significant cognitive effects \cite{mithoeferSafety}. The animal studies that found problems typically used extreme doses, extreme frequencies of use, or injected the medicine, a more potent method of administration than swallowing a pill \cite{passieHistory}. It's also not clear that humans respond the same way as rats to an equivalent dose. It's possible that replicating these conditions of extreme doses or frequency of use could cause harmful neural oxidative stress in humans. Some studies have found serotonin system changes in humans, but the studies use a poorly controlled cross-sectional observational design \cite{van2022serotonin}. So it's not clear that MDMA, rather than other drug use or population difference, causes these changes, that the changes are bad, or that the changes are clinically significant even if they are bad. The changes appear to decrease with abstinence. Fear and misinformation about MDMA is widespread due to the War on Drugs, sensationalized of poor quality research, and misattribution of MDMA-related deaths as an inherent risk of MDMA instead of its interactions with certain medications and health conditions, and the risks of heat illness or hyponatremia at raves \cite{passieHistory}. See chapter "The Toxicity Debate" in The History of MDMA by Torsten Passie for a comprehensive review of the topic.
+
+As described in Sections \ref{frequency} and \ref{sec:safety}, we have been unable to find any high-quality evidence suggesting that this session frequency causes problems aside from a poorly-established association with increased risk of "loss of magic \cite{farreTolerance,parrottTolerance}." It also hasn't been rigorously tested. M.G. did 2 week spacing for a while and didn't notice any increased side effects.
+
+ \cite{wolfgang2025,riggDeaths,roxburghDeaths}
+
+ Where do solo MDMA therapy and professionally-guided MDMA therapy fit on the mental health treatment Pareto Frontier of cost, effectiveness, and safety?
+
+  \textcite{jain2025polypharmacology} profiled MDMA for 318 human G-protein-coupled receptors.
+
+ You can submit anonymous feedback \href{https://docs.google.com/forms/d/e/1FAIpQLScZe2h4L9PcLQGGpuerk44FXiWThRC2w6YNwSm67OXIJun-rA/viewform?usp=dialog}{here}.
