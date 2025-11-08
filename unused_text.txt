@@ -1771,3 +1771,5 @@ As described in Sections \ref{frequency} and \ref{sec:safety}, we have been unab
  (this is the typical activator, some people may dissociate in response to atypical activators)
 
   Updating-away deidentification might be as infeasible as trying to update-away a model of how floors work.
+
+   See \textcite{laukkonenNone} and \textcite{laukkonen2025beautiful} for some emerging technical discussions.
