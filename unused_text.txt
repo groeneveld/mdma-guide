@@ -1773,3 +1773,10 @@ As described in Sections \ref{frequency} and \ref{sec:safety}, we have been unab
   Updating-away deidentification might be as infeasible as trying to update-away a model of how floors work.
 
    See \textcite{laukkonenNone} and \textcite{laukkonen2025beautiful} for some emerging technical discussions.
+
+    Reality is certainly more complex than our model, though we don't know by how much.
+
+    There are a variety of anecdotes from people saying hospitalization helped them \cite{emanuelHospitalization}. 
+
+\item \textbf{Increased Precision-Weighting of Sensory Information:} MDMA, along with meditation and other psychedelics, increases the precision weighting of sensory information. This signal is strong enough to update-away any maladaptive priors when those priors are also activated. With sufficient exposure to this state the individual models the attention-modulation pattern with a new set of second-order priors.
+\item \textbf{Reduced Strength of Prediction Error Inhibitors:} MDMA facilitates exceptional reduction of prediction error inhibitors such as low-attention, fight-or-flight, and tonic/collapsed immobility. Then, normal incoming sensory evidence is sufficient to update all maladaptive priors that are activated during the session. With sufficient exposure to the state the individual can somehow learn to recreate it.
