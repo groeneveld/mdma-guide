@@ -97,12 +97,12 @@ def extract_glossary_terms(glossary_file):
 def find_all_headings(content):
     """Find all section and subsection heading positions in the document"""
     heading_matches = []
-    # Define the pattern for LaTeX section and subsection commands
-    heading_pattern = r'\\(chapter|section|subsection|subsubsection){[^}]*}'
-    
+    # Define the pattern for LaTeX section and subsection commands (including starred versions)
+    heading_pattern = r'\\(chapter|section|subsection|subsubsection)\*?{[^}]*}'
+
     for match in re.finditer(heading_pattern, content):
         heading_matches.append((match.start(), match.end(), match.group()))
-    
+
     return heading_matches
 
 def find_all_skip_tag_positions(content, skip_tags):
