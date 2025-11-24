@@ -1780,3 +1780,89 @@ As described in Sections \ref{frequency} and \ref{sec:safety}, we have been unab
 
 \item \textbf{Increased Precision-Weighting of Sensory Information:} MDMA, along with meditation and other psychedelics, increases the precision weighting of sensory information. This signal is strong enough to update-away any maladaptive priors when those priors are also activated. With sufficient exposure to this state the individual models the attention-modulation pattern with a new set of second-order priors.
 \item \textbf{Reduced Strength of Prediction Error Inhibitors:} MDMA facilitates exceptional reduction of prediction error inhibitors such as low-attention, fight-or-flight, and tonic/collapsed immobility. Then, normal incoming sensory evidence is sufficient to update all maladaptive priors that are activated during the session. With sufficient exposure to the state the individual can somehow learn to recreate it.
+
+\footnote{Many authors call avoidance of bodily sensations dissociation, but we reserve that term for the defense cascade state of immobility.}
+
+% We aren't sure what specific predictions activate forms of dissociation (if they exist) that don't involve immobility and freezing. Presumably at least threat.
+
+ Instead, using afterglow for sober reconsolidation exercises would be a highly productive and create durable long-term improvements to mental health.
+
+In summary, we propose that each case of mental illness or other issue is a unique attractor state whose reinforcing elements are the maladaptive schema and a reconsolidation-inhibiting process like low attention.
+
+
+\newglossaryentry{spiritual-bypass}{
+  name={Spiritual Bypass},
+  description={The use of spiritual attainments, practices, or beliefs as, perhaps unconscious, reasons to not notice, investigate, or address one's maladaptive schemas \cite{cashwell2007Bypass}. This causes a variety of problems.}
+  %defined_in={Making Sense of the Experience},
+  %stem={spiritual bypass}
+}
+
+\newglossaryentry{psychogenic-illness}{
+  name={Psychogenic Illness},
+  description={Illnesses caused in large part by maladaptive schemas \cite{harris2018deepest}.}
+  %defined_in={Physiological Health Effects of Trauma},
+  %stem={psychogenic}
+}
+
+\newglossaryentry{selective-inhibition}{
+  name={Selective Inhibition},
+  description={The suppression of all voluntary distractions, avoidance, and coping strategies to highlight maladaptive schemas \cite{razviPSIP}. Razvi proposes that this also facilitates a "completion" of the defense cascade cycle, but we are uncertain about this.}
+  %defined_in={Handling Dissociation and Avoidance During the Session},
+  %stem={selective inhibition}
+}
+
+\newglossaryentry{grounding-techniques}{
+  name={Grounding Techniques},
+  description={Activities that turn off or turn down defense cascade activations. These usually involve distraction (e.g. name all the round objects in the room), feelings of safety (e.g. vividly recalling memories of safety), or feelings of power (e.g. vividly constructing mental imagery of overcoming some adversity) \cite{grounding}. As far as we can tell, they are not based in rigorous evidence, but people like them, they're easy, and they seem low-risk.}
+  %defined_in={Managing Anxiety, Dissociation, and Other Adverse Symptoms Outside the Session},
+  %stem={grounding}
+}
+
+\newglossaryentry{alexithymia}{
+  name={Alexithymia},
+  description={Consistent difficulty in noticing, identifying, and describing emotions \cite{hogeveen2021alexithymia}. This inhibits reconsolidation. The causes are not well-established.}
+  %defined_in={Efficacy of MDMA Therapy},
+  %stem={alexithymia}
+}
+
+\newglossaryentry{contraindication}{
+  name={Contraindication},
+  description={Any medical condition, life circumstance, activity, or medication that makes MDMA use particularly risky.}
+  %defined_in={na},
+  %stem={contraindicat}
+}
+
+\newglossaryentry{non-dual-awareness}{
+  name={Non-dual Awareness},
+  description={Experiences of unity, without the usual separation into self and other \cite{metzingerElephant}. We suspect that MDMA can produce states of partial non-dual awareness.}
+  %defined_in={na},
+  %stem={non-dual}
+}
+
+\newglossaryentry{ait}{
+  name={Adverse Idealizing Transference (AIT)},
+  description={Idealizing Transference is a phenomena in which clients develop strong positive feelings towards their therapist \cite{hook2018boundary,transferranceLoveHarm}. Sometimes this idealization can be intense enough that an unscrupulous or unskilled therapist may exploit (intentionally or not) the client for emotional, sexual, or financial gain, creating severe trauma for the client.}
+  %defined_in={How to Find a Skilled and Well-Matched Therapist or Guide},
+  %stem={adverse idealizing transference}
+}
+
+\newglossaryentry{window-of-tolerance}{
+  name={Window of Tolerance},
+  description={The range of dissociation, arousal, or fight-or-flight where reconsolidation is possible. High levels of these states often inhibit reconsolidation \cite{razviPSIP}. MDMA expands the window beyond what is usable in regular psychotherapy.}
+  %defined_in={na},
+  %stem={window of tolerance}
+}
+
+ Two of the guides in the trials sexually abused a participant \cite{powerTrip}.
+
+     \item Therapy outcomes are moderately dependent on the client's working relationship with their therapist \cite{fluckiger2018alliance}, yet trial participants had little choice in their therapist, as reported by one of the participants \cite{kacandaNoChoice}.
+
+\footnote{The next two paragraphs largely rely on blog posts by several scientists. This is not traditionally citable material, but we felt 1) this discussion is important to set the stage for the rest of the book, 2) these posts contain unusually high-quality material by practicing scientists, and 3) we don't have the capacity to sufficiently learn and synthesize this area of knowledge ourselves.} 
+
+(experimental and statistical methods have improved over time)
+
+ (these provide more robust results than individual experiments)
+
+ (a partial indication that a paper outside our scope of knowledge is well-respected)
+
+     % \item Extraordinary claims require extraordinary evidence: We're claiming that one thing, MDMA therapy, can durably resolve a large part of most mental illness. To be fair, it's never actually been established that many mental illnesses don't have a common core. We're not contradicting any established evidence, just some traditional views.
