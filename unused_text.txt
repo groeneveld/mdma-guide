@@ -1866,3 +1866,11 @@ In summary, we propose that each case of mental illness or other issue is a uniq
  (a partial indication that a paper outside our scope of knowledge is well-respected)
 
      % \item Extraordinary claims require extraordinary evidence: We're claiming that one thing, MDMA therapy, can durably resolve a large part of most mental illness. To be fair, it's never actually been established that many mental illnesses don't have a common core. We're not contradicting any established evidence, just some traditional views.
+
+    % \item Planning careful or reduced movement during altered states of consciousness may be advisable if your body is prone to injury from otherwise typical human movement. A sitter, guide, or therapist could help you with this during the session, or you could put an obvious reminder sign in your field of view.
+
+Resilience to trauma is complex \cite{bonanno2008loss}. 
+
+(e.g., \enquote{My friendships remind me that I'm safe in many circumstances.} or \enquote{I am already emotionally secure.}) The risk factors may also also be circumstances that inhibit nuance (e.g.,) or may directly inhibit reconsolidation (e.g., thought suppression).
+
+, even when they have been rigorously shown to be helpful (many haven't been evaluated for long-term efficacy and risk \cite{leuchtDecline}),
