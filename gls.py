@@ -11,7 +11,8 @@ SKIP_TAGS = [
     'url',        # Skip \url{...}
     'textcite',
     'nameref',
-    'nameref*'
+    'nameref*',
+    'combinedref'
     # Add more tags here as needed
 ]
 
