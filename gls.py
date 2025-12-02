@@ -12,7 +12,8 @@ SKIP_TAGS = [
     'textcite',
     'nameref',
     'nameref*',
-    'combinedref'
+    'combinedref',
+    'cref'
     # Add more tags here as needed
 ]
 
