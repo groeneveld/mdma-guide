@@ -1996,3 +1996,197 @@ Additionally, as detailed in \cref{sec:safety}, extremely high cumulative amount
 
         \item There are many prescription sleep medications outside the scope of this book. Check whether your medicine is compatible with MDMA before doing another session (see \cref{sec:safety}). Note that there is very little high-quality evidence on the long-term safety and efficacy of prescription psychiatric medication \cite{leuchtDecline}.
 
+ However, MDMA experiences are (in)famously difficult to control. Easing in might be more feasible without MDMA. We think MDMA tends to be more destabilizing than conventional therapy.
+
+  Psychedelics, possibly including MDMA, also change the coupling between brain activity and blood flow \cite{padawerNeurovascularCoupling}.
+
+ Psychedelics can also inflate feelings of meaning, potentially biasing respondents to report that their experiences were more valuable than they actually were \cite{hartogsohn2018meaning}.
+
+  because psychedelic experiences can incite a wide variety of mutually exclusive beliefs and amplify feelings of meaning \cite{hartogsohn2018meaning}.
+
+Psychedelics can imbue a variety of experiences and beliefs with feelings of profound meaning \cite{hartogsohn2018meaning}. Unfortunately, we sometimes interpret these experiences as objective truth, when in reality they may be some complex mixture of MDMA-induced sensations, accurate insights, inaccurate insights, your existing beliefs about the world, and beliefs you are aware of but may not have previously held \cite{mcgovern2024integrated}. We suggest investigating these beliefs with your more reliable tools of discernment: compassion, skepticism, and high-quality evidence. Other tools of discernment, cognitive and emotional flexibility, will gradually improve as you continue reconsolidating more maladaptive schemas and the number of things to be afraid of decreases. Use these to rigorously and critically engage with a diverse and challenging set of high-quality information and experiences.
+
+ One small, uncontrolled study of psilocybin-assisted therapy for people with bipolar II but not currently in a hypomanic state showed good efficacy and safety when combined with a high level of support \cite{aaronsonBipolarII}. We aren't sure how well that translates to MDMA therapy.
+
+    
+    If that is true, the chain of events might look like something like this:
+    \begin{enumerate}
+        \item Psychedelics temporarily either create sensory artifacts or make existing sensory artifacts, which the brain typically filters out, available to conscious awareness.
+        \item The brain then associates a terrifying psychedelic experience with pre-existing but typically unnoticed sensory artifacts or builds an overly-strong set of schemas modelling the previously-not-existing sensory artifacts\footnote{Existing anxiety makes the brain more likely to associate new experiences with anxiety \cite{berghSelfEvidencing}, increasing the risk of HPPD for those with very deep anxiety. Terrifying experiences with classic psychedelics may rarely still be sufficient to create essentially PTSD with HPPD as a symptom even in the relatively psychologically healthy \cite{evans2023extended}.}.
+        \item The set of schemas modeling these sensory artifacts as a threat, and which drive hypervigilance to the threat, are resistant to natural reconsolidation for the same reasons many other maladaptive schemas are resistant to reconsolidation.
+    \end{enumerate}
+    Presumably they can also be resolved like other somatic symptoms.
+
+We are not aware of any research comparing the effects of session frequency. People have success with session frequencies anywhere from once every two weeks (M.G.'s experience) to every 6 weeks in the MAPS trials \cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}, to much more infrequently. The following was written assuming the goal of healing as fast as possible while minimizing side effects, financial costs, and logistical costs.
+
+ We suggest stopping recreational use to maintain efficacy for future therapeutic needs if you are reliant on MDMA for therapeutic progress.
+
+, one of which is psychosis. We have heard two reliable anecdotes of high-dose psilocybin trips done the day after an MDMA therapy session causing psychotic episodes. This is unsurprising given that high doses and frequent use of a wide range of psychoactive drugs are well-established risk factors \cite{drugsPsychosis}.
+
+Adequate sleep likely helps with session productivity and post-session recovery \cite{simon2020sleep}. 
+
+By default, it is a racemic (equal) mixture of the R-MDMA and S-MDMA enantiomers (right- and left-handed versions of a molecule), though it is possible to purify either enantiomer, and they have different effects \cite{straumann2024racemic}. 
+
+ You're probably now among the most mentally healthy and in touch with reality 1\% of the global population. If none of the items in any of those lists bring up even a hint of avoidance, disconnection, fear, or anger, congratulations! 
+
+  We recommend the assistance of an ethical, well-matched, and skilled therapist for anyone who develops a pattern of harmful, escapist, or addictive MDMA use. If someone is unable to stop, it may help to shift the content of the sessions from escapism to engagement with maladaptive schemas. That would make the sessions less rewarding and facilitate improved mental health, which might even help with the addiction.
+
+
+        
+        It is important to note that possession of MDMA is a felony in most of the world, though in practice many jurisdictions do not enforce or prioritize charges for possession of small amounts \cite{alphaLegalization}.
+
+Even if you aren't taking any medications, the precautionary principle might suggest spacing sessions far enough apart to allow recovery, perhaps a week or two at minimum.
+
+The degree of danger is unclear and dependent on a drug's degree of inhibition and dose. 
+
+We recommend doing additional research for other serious health conditions.
+
+% You can use the concept of half-lives to plan discontinuation if your medication isn't on one of those lists, you can't access a doctor or pharmacist, and you can temporarily discontinue it safely and with tolerable effects. One half-life is the time it takes for a drug's concentration in your body to decrease by half\footnote{Each drug has a different half-life, which can be found on \href{https://go.drugbank.com}{DrugBank} under Pharmacology → Metabolism.}. So the concentration would be 50\% after one-half life, 25\% after two, etc. Discontinuing a drug for 5 drug half-lives before the session and 2 days (5 MDMA half-lives) after the session would generally ensure that 98\% of a drug has been excreted from your body \cite{torrePharmacology}. This does not account for health conditions that affect metabolism. You would also need to see if the drug has any active metabolited and look at their half lives. On rare occasions a drug's relevant effects persist even after it has been totally eliminated from your body, as is the case with SSRIs, SNRIs, and MAOIs. When restarting a medication after using MDMA, it's also important to account for CYP2D6 inhibition, as described below. Additionally, some medications require tapering.
+
+ Olanzapine and risperidone seem much more effective than chlorpromazine for LSD-induced psychosis in published case reports. 
+
+ In one study, a combination of high ambient temperature (30 °C / 86 °F), untreated hyperthyroidism, and 2 mg/kg MDMA increased the core temperature of rats by 2 °C (3.6 °F) \cite{shokryHyperthyroidism}. This effect did not occur at lower ambient temperature (22 °C / 72 °F) or in rats with normal thyroid function.
+
+ That may not be a complete list of cardiovascular conditions contraindicated for MDMA.
+
+ \footnote{Doses around the high end of this range don't cause long-term cognitive impairment when used a handful of times \cite{mithoeferSafety}, but there is concern that a number of higher-dose sessions can cause that issue \cite{corayMemory}.}
+
+ \todo{Does this ever actually happen outside extremely rare circumstances circumstances involving multiple cardiovascular-influencing drugs + cardiovascular disease? \textcite{makunts2023concomitant}}
+
+ , and may on rare occasion also cause other cardiovascular issues in people with cardiovascular disease \cite{mapsInvestigatorBrochure}
+
+ Severe hyponatremia on MDMA is caused by drinking exceedingly large amounts of water exceeding sweat and urine losses, and is therefore easily avoided \cite{riggDeaths}.
+
+ \subsection{When to Seek Emergency Care}
+NOTE: I feel that this subsection is not useful. Following the MAPS recommendations for cardiovascular events would have people rushing off to the ER all the time. I also don't know enough to make the hyponatremia guidelines useful.
+
+As previously discussed, most of the interactions that can cause severe acute harm are known and can be avoided with proper precautions or by avoiding using MDMA \cite{wolfgang2025,riggDeaths}. However, individuals may not always follow proper precautions or may not have had certain health conditions diagnosed. We have largely been unable to find an MDMA-specific set of recommendations for when to seek emergency care. However, the direct causes of severe acute damage involving MDMA are mostly high body temperature or hyponatremia \cite{riggDeaths} and rarely cardiovascular events \cite{mapsInvestigatorBrochure}. Because of this, we list what symptoms of those conditions one should generally seek emergency care for here:
+\begin{itemize}
+    \item \textbf{Heat Stroke:} Body temperature over 40 °C (104 °F) is a medical emergency \cite{morris2023heatstroke}. Other symptoms include confusion, ataxia (loss of control of body movement), delirium, or seizures. As discussed above, this can be caused by serotonin syndrome, extended physical activity in high temperatures combined with dehydration, exceedingly high doses, or combining MDMA with hyperthyroidism in high ambient temperature. MDMA normally increases body temperature by 0.3°C (0.5 °F) in therapeutic contexts \cite{mitchellMDMAClinicalTrial}. It also has side effects not associated with increases in body temperature, include sweating, feeling cold, and feeling hot \cite{liechtiGender}.
+    \item \textbf{Severe Hyponatremia:} Symptoms of hyponatremia (not necessarily severe hyponatremia) include anorexia, nausea and vomiting, fatigue, headache, muscle cramps, altered mental status, agitation, seizures, and coma \cite{mohottige2019hypovolemic}. Distinguishing these symptoms from the side effects of MDMA might be difficult since MDMA can also cause nausea, vomiting, and appetite suppression \cite{liechtiGender}. Therapeutically appropriate defense cascade activation can also cause agitation, fatigue, and sleepiness \cite{kozlowskaDefenseCascade}. Mild hyponatremia is common on MDMA with unrestricted water access \cite{atilaHyponatremia}, is not a significant problem, and resolves within a few hours after the cessation of water intake \cite{baggottWater}.
+    \item \textbf{Cardiovascular Events:} MDMA therapy occasionally causes non-cardiac chest pain \cite{colcott2024side}. The cardiologist Nicole Bhave, MD offers this general advice for what type of chest pain you should go to the emergency room for \cite{chestPain}:
+    \begin{quotation}
+        \ldots it most often boils down to the severity of the pain and the heart attack symptoms we mentioned above. If the pain is so severe that you feel like you can't function, or if you are experiencing central or left-sided chest pain---especially if you have nausea or a cold and clammy feeling alongside it---it is always safest to go to the emergency room. With chest pain, it's best to be cautious.
+    \end{quotation}
+    MDMA's side effects also include nausea, feeling cold, and sweating, adding difficulty to distinguishing MDMA's symptoms from a heart attack. MAPS has these recommendations for what to do about potential symptoms of stroke or heart attack during MDMA therapy: \enquote{Any symptoms such as chest pain, shortness of breath, neurological deficit or confusion[, or] other potential indicators of end organ effects of hypertension should prompt additional vital sign measurements and intervene [sic] if appropriate} \cite{mapsInvestigatorBrochure}.
+\end{itemize}
+
+ If you are worried about your potential for addiction or have significantly impaired impulse control, we suggest only possessing one dose at a time and only obtaining MDMA from a trusted mental health professional who can monitor your abuse potential.
+    
+    If someone is unable to stop, it may help to shift the content of the sessions from escapism to engagement with maladaptive schemas. That would make the sessions less rewarding and facilitate improved mental health, which might even help with the addiction.
+
+It's important to not mix MDMA with some substances of abuse, and certain major withrawal symptoms may also be dangerous to mix with MDMA therapy.
+
+Research into the clinical use of MDMA is still relatively new, and 
+
+Putting this in perspective, one panel of drug-misuse experts estimated that MDMA poses a significantly lower overall health risk than marijuana and far less than alcohol \cite{nuttDrugHarms}. That's even in recreational contexts where users are likely not as cautious as they should be of risks. However, as detailed in \cref{sec:complex}, anyone with mental illness undergoing MDMA therapy has a higher chance of destabilization than the average recreational user. Combining unusual states of consciousness, the physiological effects of MDMA, possibly intense trauma reactions, activation or deactivation of defense cascade states, and psychogenic illness might also unpredictably impact a wide variety of conditions.
+
+ Unless otherwise specified, MDMA is an equal mixture of the right- and left-handed versions of the molecule \cite{straumann2024racemic}.
+
+High-quality analysis of adulterants and dosage can only be done with sophisticated laboratory equipment. \textcite{testingLabs} maintains a list of testing laboratories. It is also straightforward to test for the presence of many common adulterants at home using reagent kits \cite{reagentInstructions}. \textcite{testKitSuppliers} maintains a list of reagent kit suppliers. However, it is not possible to accurately measure the quantity or concentration of MDMA and various fillers, binding agents, and adulterants at home. Unregulated pills rarely specify how much MDMA they contain, and it's always mixed with fillers, binders, and dyes. Loose crystals are often, but not always, fairly pure MDMA. Some vendors will package measured amounts of crystals into capsules.
+
+ \textcite{baggottSupplements} summarizes the existing research on this topic and offers some personal recommendations.
+
+     \item \textbf{Adulterants:} Unregulated pills marketed as MDMA/ecstasy/molly can contain harmful adulterants or different amounts of MDMA than were advertised \cite{saleemiAdulterants}.
+
+\footnote{See \cref{ssriRetraction} explaining why we cite this retracted study.}
+
+    \item \textbf{Unknowns:} MDMA, like many medicines, may have uncommon, poorly understood side effects, particularly after long-term, high-frequency use or in populations with certain genetic features or medical conditions.
+
+A good clinician will collaboratively make a plan with you that accounts for the role a drug plays in your life and interactions with underlying medical conditions. When pausing or temporarily reducing the dose, they would time the duration to balance the tradeoffs between withdrawal and interactions with MDMA.
+
+\footnote{The half life is 7.6--10 hours in 95\% of healthy individuals but can range from 4.6--16 hours in healthy people \cite{straumann2024racemic}.}
+
+ Note that exceptionally high doses might move a low- to medium-risk interaction to a high-risk interaction.
+
+No generally high-risk interactions apart from MAOIs and lithium have yet been identified. However, some may increase low- to moderate-risk effects. Refer to \textcite{sarparastDrugInteractions,liechtiInteractions,spiritMemberProgram} for drug-specific information and recommendations.
+
+    \item \textbf{Drugs Associated with Increased Risk in Recreational Contexts:} Some drugs are associated with higher mortality in recreational contexts: MDMA metabolites and analogs (adjusted odds ratio of death of 8.7), muscle relaxants (8.2), anesthetics (7.1), amphetamines and stimulants (3.1), benzodiazepines (2.3), opioids (2.1), ethanol (2), and antidepressants (1.6) \cite{cohenMDMADrugCombinations}\footnote{Taken from Table S4, multivariate analysis with binary predictor \cite{cohenMDMADrugCombinations}.}. Mixing some of these drugs with MDMA may be safe in therapeutic contexts, especially when the combination is planned by a doctor or pharmacist. However, this list strongly suggests that additional caution should be used with these combinations.
+
+Combining large doses of other drugs that are metabolized by CYP450 with MDMA may overload one of these metabolic pathways and potentially cause problems.
+
+Some inhibitors, like SSRIs, don't cause dangerous effects when combined with MDMA. 
+
+Mild--moderate adverse effects caused by high serotonin levels may occur via interactions with a variety of other drugs that increase intrasynaptic serotonin or therapeutic doses of MDMA.
+
+Severe serotonin toxicity, called serotonin syndrome, can be deadly.
+
+    High doses of certain antioxidants, including alpha-lipoic acid, ascorbic acid (vitamin C), and acetyl-L-carnitine, administered shortly before and during the session, prevented oxidative stress in rats given high doses of MDMA \cite{aguirre1999alpha,shankaran2001ascorbic,alves2009acetyl}. It's unclear what dose is needed for humans with the doses of MDMA used in therapy.
+
+With the right precautions, MDMA therapy is low risk and well-tolerated by most people, but t
+
+ There have been many flaws in studies on MDMA abuse. Consequently, little is known about what level of use causes physical or psychological problems.
+
+  The LD$_{50}$, the dose at which 50\% of individuals die, is 22 mg/kg in monkeys \cite{ld50}.
+
+ Adequate recovery between sessions should reduce risk.
+
+     \item Taking moderate-high doses of lithium. There is a high risk of seizures.
+
+    \item \textbf{Lithium:} Mixing prescription doses of lithium with classic psychedelics can cause seizures \cite{nayakLithium}. It's conceivable that mixing it with MDMA can also cause seizures, given MDMA's effects on serotonin 5-$HT_{2A}$.
+
+The phase III clinical trials inclusion and exclusion criteria for physical health conditions may suggest a reasonable, though incomplete, starting point \cite{mitchellMDMAClinicalTrial2}. 
+
+. \textcite{højlundGRADE} assessed the quality of the MAPS placebo-controlled MDMA trials for PTSD as \textit{moderate}\footnote{A few small active placebo MDMA trials have also been done \cite{højlundGRADE}. When those were included with the large placebo-control trials the overall GRADE score was downgraded to \textit{low} because GRADE penalizes mixing control types in a single analysis.} using the GRADE\footnote{GRADE is a gold standard in evidence-based medicine.} approach, meaning \enquote{The intervention probably decreases the outcome [PTSD symptoms].}, according to \textcite{neumannGRADE}. None of the authors reported a conflict of interest with MAPS or Resiliant (formerly Lykos), the organizations that conducted the MDMA trials.
+
+\todo{Normal body temp can reach 99F; MDMA might increase it a further 1F in some people; then if the person is processing a panic reaction during therapy that might send it up another 0.5-1F. Would a "higher than 100F" threshold unnecessarily send people to the ER?}
+
+    There isn't much data on which antipsychotics work best for MDMA-induced psychosis \cite{sulstarova2025treatment}. One uncontrolled study found that olanzapine (10--15 mg/day during the first month and 5--10 mg/day during the next 5 months) plus supportive therapy in an outpatient setting was highly effective for severe, prolonged MDMA-induced psychosis, though the lack of a control group limits the conclusions that can be drawn \cite{landabaso2002ecstasy}. 
+
+\subsection{Psychosis}
+See also the psychosis bullet point in \cref{psychosis} for further information on psychosis and MDMA.
+
+Like other forms of mental illness, psychosis at least partially consists of overly-strong maladaptive schemas, frequently involving persecution and volatility \cite{sheffield2024understanding}. Unlike most of the other types of issues we discuss, the maladaptive schemas of psychosis are partly caused by \textit{aberrant salience} \cite{corlett2025}. This is a biological issue with the dopamine system whereby normal, unsurprising events frequently create perceptual surprise and prediction error. The brain tries to model these distorted perceptions in the same way normal brains try to model all perception, but frequently surprising perceptions not based external reality are very difficult to model \cite{sheffield2024understanding}. The best-fit model may end up being a hidden actor who controls all these surprising events, e.g., \enquote{the CIA is out to get me and their secret agents keep interfering with my life.}
+
+Schemas also modulate sensory perception \cite{clark2015surfing}. This is mostly adaptive, but can malfunction. Certain unusually strong maladaptive schemas create inaccurate but convincing somatic perceptions, like some types of chronic pain, that do not match external/bodily reality \cite{berghPsychogenic}. Similar processes may presumably also create the complex and inaccurate perceptions involved in psychosis. Unfortunately, these hallucinations may further be perceived as additional evidence for the maladaptive schemas driving that perception \cite{sheffield2024understanding}, creating what looks to us like a self-reinforcing attractor state of psychosis.
+
+Growing up in an actually volatile and persecutory environment would also incentivize the creation of accurate schemas predicting pervasive volatility and persecution. We speculate that this existing mental wiring would make it easier to develop inaccurate schemas about volatility and persecution in late adolescence to early adulthood when psychosis typically first shows up.
+
+Here are the psychosis treatments we know of:
+\begin{itemize}
+    \item There isn't much data on which antipsychotics work best for MDMA-induced psychosis \cite{sulstarova2025treatment}. One uncontrolled study found that olanzapine (10--15 mg/day during the first month, and 5--10 mg/day during the next 5 months) plus supportive therapy in an outpatient setting was highly effective for severe prolonged MDMA-induced psychosis, though the lack of control group limits the conclusions that can be drawn \cite{landabaso2002ecstasy}.
+
+    \textcite{psychosisTreatment} found that when MDMA and psychedelics were implicated in psychotic episodes, the episode lasted an average of 1.8 ± 4.2 weeks with antipsychotic treatment.
+    \item Cognitive behavioral therapy for psychosis (CBTp) has a small-medium effect size \cite{CBTp}.
+    \item Reducing stress \cite{winkelPsychosisStress}.
+    \item Reducing the dose and frequency of use of unnecessary psychoactive drugs, including cannabis \cite{drugsPsychosis} and caffeine \cite{wang2015caffeine}.
+    \item The above theorizing suggests that reconsolidation could improve psychosis depending on the particulars of the case. As detailed in the psychosis bullet point in \cref{psychosis}, we've seen a few anecdotes of people successfully using MDMA therapy for this purpose, but this seems especially risky since it can also cause psychosis. Complex system transitions are difficult to predict.
+\end{itemize}
+
+    It is likely worth seeking outpatient psychiatric treatment if MDMA-induced psychosis persists to the next day. Hospitalization is needed if the episode is dangerous. See \textcite{alexanderInpatient} for advice on navigating/avoiding inpatient care. One study found that when MDMA and psychedelics were implicated in psychotic episodes, the episode lasted an average of 1.8 ± 4.2 weeks with antipsychotic treatment \cite{psychosisTreatment}.
+
+    It is likely worth seeking outpatient psychiatric treatment if MDMA-induced mania persists to the next day. Hospitalization is needed if the episode is dangerous. See \textcite{alexanderInpatient} for advice on navigating/avoiding inpatient care.
+
+    As discussed in \cref{suicideCops} (paragraph on involuntary commitment), going to the hospital for suicidality appears to often be counterproductive. It frequently increases the medium-term chances of suicide completion \cite{emanuelHospitalization}.
+
+, even though participants reporting any personal history (family history was allowed) of psychotic disorders were excluded from participation \cite{mitchellMDMAClinicalTrial2}.
+
+    Destabilization can consist of many different symptoms \cite{evans2023extended}. 
+
+However, MDMA, like most experiences that can make you feel profoundly safe, can be psychologically addictive when it is used to escape from difficult feelings rather than engaging with them. 
+
+    There is a significant difference between using MDMA to engage with difficult emotions vs escaping difficult emotions. Addiction in the first case is unrecorded in clinical trials, and addictions in the latter case are rare.
+ It's unclear how this translates to humans.
+
+  The serotonin system hasn't recovered yet so this spacing risks oxidative stress \cite{} and therefore might be reserved for exceptional circumstances of unbearable destabilization that don't respond to other treatments.
+
+  First, it takes about 4 days to recover from the post-acute fatigue and side effects \cite{liechtiGender}. The serotonin system hasn't recovered yet so this spacing risks oxidative stress \cite{} and therefore might be reserved for exceptional circumstances of unbearable destabilization that don't respond to other treatments. 
+
+   The \enquote{three-month rule} was one semi-educated guess for this.
+
+    % \item High quality sleep is likely important for reconsolidation~\cite{simon2020sleep}. We recommend a highly effective evidence-based protocol called \textit{cognitive behavioral therapy for insomnia} if you struggle getting quality sleep~\cite{trauerCBTI}. Stanford Medicine has a guide~\cite{stanfordSleep}.
+
+    \item We think thought records are an excellent mental health and memory reconsolidation tool that can be used alone or with a clinician. If you are interested, we recommend completing at least one before your first medicine session, to familiarize yourself with the process and support yourself in making optimal use of this tool afterward, during your integration period. See \textcite{harperThought} for a worksheet.
+
+    \item \textit{Breaking Open: Finding a Way Through Spiritual Emergency} by Jules Evans and Tim Read \cite{evans2020}
+
+% It could also conceivably be the altered gene expression that many psychoactive drugs cause~\cite{stahlPsychopharmacology}.
+
+	% \item a healthy relationship with the therapist or guide. This might contradict many maladaptive relational schemas.
+
+. This contradicts schemas predicting imminent threat.
+
+	% \item Connection might contradict all schemas fundamentally about some sort of disconnection from life, safety, love, 
+
+	% \item Partial non-dual awareness, which might be a form of deep, inviolable connection or safety.
+

@@ -21,7 +21,7 @@ p = plot(size=(800, 600),
          xrotation=45,
          bottom_margin=8Plots.mm,
          left_margin=5Plots.mm,
-         fontfamily="Computer Modern",
+         fontfamily="Palatino",
          legendfontsize=12,
          titlefontsize=12,
          guidefontsize=12,
@@ -62,6 +62,6 @@ for (i, group) in enumerate(groups)
 end
 
 # Save as PDF
-savefig(p, "psychedelic_effects_plot.pdf")
+savefig(p, "effects_plot.pdf")
 
 println("Plot saved as 'effects_plot.pdf'")

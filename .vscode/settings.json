@@ -1,0 +1,51 @@
+{
+  // LTeX+ Configuration
+  "ltex.enabled": true,
+  "ltex.language": "en-US",
+  "ltex.checkFrequency": "manual",
+  "ltex.diagnosticSeverity": "information",
+  "ltex.clearDiagnosticsWhenClosingFile": false,
+
+  // LaTeX-specific settings
+  "ltex.latex.commands": {
+    "\\cite{}": "ignore",
+    "\\citep{}": "ignore",
+    "\\citet{}": "ignore",
+    "\\parencite{}": "ignore",
+    "\\textcite{}": "ignore",
+    "\\autocite{}": "ignore",
+    "\\glsdisp{}{}": "dummy",
+    "\\gls{}": "dummy",
+    "\\label{}": "ignore",
+    "\\ref{}": "ignore",
+    "\\eqref{}": "ignore"
+  },
+
+  // Performance settings for large files
+  "ltex.java.initialHeapSize": 512,
+  "ltex.java.maximumHeapSize": 2048,
+  "ltex.sentenceCacheSize": 5000,
+
+  // Additional settings
+  "ltex.additionalRules.enablePickyRules": true,
+  "ltex.additionalRules.motherTongue": "en-US",
+
+  // Ensure these file types are checked
+  "ltex.latex.environments": {
+    "lstlisting": "ignore",
+    "verbatim": "ignore"
+  },
+
+  "ltex.languageToolHttpServerUri": "https://api.languagetoolplus.com/",
+  "ltex.languageToolOrg.username": "mgroeneveld@protonmail.ch",
+  "ltex.languageToolOrg.apiKey": "pit-80XGqnZoeeSQ",
+  "ltex.diagnosticSeverity": "information",
+  "ltex.completionEnabled": true,
+  "ltex.additionalRules.enablePickyRules": true,
+  "ltex.hiddenFalsePositives": {
+      "en-US": [
+          "{\"rule\": \"QB_NEW_EN_OTHER\", \"sentence\": \".*\\\\s+\\\\.$\"}",
+          // "{\"rule\": \"QB_NEW_EN_OTHER\", \"sentence\": \".*\\\\s+,$\"}"
+      ]
+  }
+}
