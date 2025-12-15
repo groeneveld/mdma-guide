@@ -1,3 +1,5 @@
+
+
 Psychedelics are capable of catalyzing important insights but they (less so MDMA) are also capable of generating a wide variety of compelling yet ungrounded conceptual hallucinations. Psychedelics increase the strength of your imagination, thereby weakening your mind's ability to differentiate between reality and imaginary \cite{quantaRealityImagination}. Please critique your insights with mainstream academic philosophy, neuroscience, and physics before concluding that the tree next to you harbors malevolent intentions or that the entity you talked to was real. It was in all likelihood a construct of your subconscious mind.
 
 
@@ -2190,3 +2192,43 @@ However, MDMA, like most experiences that can make you feel profoundly safe, can
 
 	% \item Partial non-dual awareness, which might be a form of deep, inviolable connection or safety.
 
+-for instance, by giving financial advice or creating a dual relationship-
+
+, style=apa
+
+% We do know that MDMA therapy won't durably resolve:
+% \begin{itemize}
+%     \item Autism is genetically and environmentally determined~\cite{taylorAutismEtiology}. However, autistic people often have anxieties that seem amenable to resolution~\cite{danforth2018autismMDMA}.
+% \end{itemize}
+
+
+Both MDMA phase III clinical trials reported that MDMA-assisted non-directive psychotherapy highly outperformed placebo-with-therapy treatments for PTSD~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. Phase III is the final round of clinical trials that test efficacy and safety on a large sample size; 174 total participants in this case.
+
+The greater effect size in CAPS-5 compared to SDS may reflect the fact that many participants had complex trauma. Targeting a single trauma in therapy will improve those specific symptoms to a greater degree than the client's overall symptoms, which are caused by multiple or complex traumas. 
+
+The first phase III study reported a Clinician-Administered PTSD Scale for DSM-5 (CAPS-5) effect size of $d = 0.91$ with $p < 0.0001$, and the second reported $d = 0.7$ with $p < 0.001$. Those numbers indicate large effect sizes. CAPS-5 scores represent therapeutic progress related to the single traumatic event that participants chose as their therapeutic target. However, another measurement collected in the studies, the Sheehan Disability Scale (SDS), also reported large gains in total life functionality independent of progress related to that single traumatic event. The first trial reported $d = 0.43$ with $p = 0.0116$, and the second reported $d = 0.4$ with $p = 0.03$.
+
+ various other conditions, symptoms, and feelings. When available, we report GRADE scores, a gold standard in evidence-based medicine. They bundle a variety of factors, including study size, study quality, 
+    (moderate\footnote{A few small active placebo MDMA trials have also been done~\cite{højlundGRADE}. When those were included with the large placebo-control trials the overall GRADE score was downgraded to \textit{low} because GRADE penalizes mixing control types in a single analysis.} GRADE\footnote{GRADE is a gold standard in evidence-based medicine.} quality)~\cite{højlundGRADE}
+
+    \item PTSD, as just discussed (11 randomized controlled trials (RCTs), total participants (N) = 303, effect size 95\% CI = (0.6--1.1) (medium--very large))~\cite{højlundGRADE}
+
+\textcite{højlundGRADE} pooled all the MDMA therapy trials together and calculated the average effect sizes of MDMA with therapy compared to placebo with therapy, though these calculations don't include some potential biases. It is somewhere between 0.6--1.1 (medium--large) for PTSD symptom reduction (measured for 303 participants) and somewhere between 0.15--0.72 (very small--medium) for functional impairment (measured for 194 participants). Actual effects were larger since that just reports the difference between MDMA and placebo; both involved therapy, which had it's own positive effect. Those ranges are confidence intervals (CI); roughly speaking, there is a 95\% chance that the true average effect is within that range\footnote{This isn't exactly what a confidence interval means, but the technically accurate definitions are mostly confusing and useless.}. Confidence intervals convey the statistical precision of studies. Individuals will also have a range of responses surrounding the average.
+
+\footnote{Own work from the \enquote{Alexithymia} row of Table 2 from \textcite{vanSelfExperience}. $change = baseline - followup$ $d = \frac{change_{MDMA}-change_{placebo}}{\sqrt{\frac{\sigma_{MDMA-baseline}^2+\sigma_{placebo-baseline}^2}{2}}}$})
+
+See \textcite{wolfgang2025,icerReport} for a more thorough discussion of efficacy. 
+
+% We suspect reconsolidation would significantly improve everything in HiTOP (\hyperref{hitop-system.org/current-model}) except some chemical addictions, some thought disorders, and some other odds and ends.
+
+As previously mentioned, mental illness is a complex interaction of biology (genes and medical history), psychology (schemas, attention/avoidance), and social context~\cite{engel1977need}. We think reconsolidation can likely resolve the \textit{psycho} part of \textit{biopsychosocial}~\cite{carhart2019rebus,eckerUnlocking}, which we suspect plays a major part in the majority of mental illness cases.  For instance, the current categorization of mental illness in the DSM and ICD-CDDR are self-admittedly in large part just semi-arbitrary clustering of different symptoms~\cite{apaDSM,ICD}. They mostly do not attempt to determine causes.
+
+However, there is a great deal of controversy and confusion over certain aspects of those trials and whether the FDA was correct in not approving MDMA therapy until more data is gathered \textcite{evansBlame}.
+
+The Food and Drug Administration's response letter (\textcite{crl}) lists the reasons they did not approve it.
+
+Trials for all mental health interventions rarely control for expectancy of good results among participants and researchers, one type of study bias that placebos are supposed to correct for~\cite{hunekeExpectancy}. This results in much of the field using poor-quality data that doesn't properly differentiate how much of the treatment effect is due to study bias vs. the intrinsic effects of the treatment itself. This most obviously impacts trials where blinding is impossible, like psychotherapy and mindfulness. However, it also affects trials that attempt blinding but where the effect of the medicine is noticeable enough that the patients or providers unblind themselves. After unblinding, the patient's and provider's expectations about whether the drug works then alter either how much the treatment actually works or how much they report that the treatment works. Psychedelic-assisted therapy trials like the MDMA trials possibly have worse-than-typical unblinding and researcher bias compared to typical trials for psychiatric drugs because the effects of psychedelics can be so noticeable~\cite{adayMethodologicalRigor}. \textcite{vanElkMethodology} thoroughly discusses these problems. We still think MDMA therapy is more effective than placebo due to two lines of evidence. First, some anecdotes appear to support durable therapeutic improvement in situations where the user was intending a recreational rather than therapeutic experience but happened to activate some emotional issues. Second, anecdotes of successful MDMA therapy outcomes frequently match the signs of successful therapeutic improvement reported by \textcite{eckerUnlocking}: emotional non-reactivation, symptom cessation, and effortless permanence. \todo{expectancy bias, response bias, attrition bias, co-intervention bias, communication bias, and reporter bias}
+
+Additionally, almost no other psychoactive drug trials have needed blinding assessment and expectancy corrections to be approved~\cite{hunekeExpectancy}
+
+There were three MDMA therapy sessions, each with high levels of pre- and post-session psychological support.
