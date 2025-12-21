@@ -2232,3 +2232,163 @@ Trials for all mental health interventions rarely control for expectancy of good
 Additionally, almost no other psychoactive drug trials have needed blinding assessment and expectancy corrections to be approved~\cite{hunekeExpectancy}
 
 There were three MDMA therapy sessions, each with high levels of pre- and post-session psychological support.
+
+ Preliminary data from the phase III trials \cite{mplongPreliminary}.
+
+  and concluded that \enquote{It does not, or only minimally, leads to abuse, dependency, or use-related disorders}
+
+    Because MDMA therapy inherently involves confrontation of distressing emotions, it is often deeply unpleasant and not an experience 
+
+e know that some people have enough resources, skill, and slack to use solo MDMA therapy to successfully treat debilitating mental illness. Many more people can use solo MDMA therapy to reconsolidate relatively minor issues. Skilled, ethical, and well-matched professional support is especially desirable for people with significant risk factors for dangerous conditions like suicide, psychosis, and mania. However, we recognize that people sometimes have to make the best of bad situations. Solo MDMA with risk factors might occasionally be a better option than the available alternatives, though this is highly individualized and we can't make any specific recommendations.
+
+ Scientific rigor, theoretical consistency, double-checking every conceivable error, covering every possible contingency, intellectual honesty, transparency, and m
+ \footnote{As with most coping strategies that people with complex trauma develop, these are neurotic in many aspects of my life. They have been quite helpful here, though.}.
+
+ These models might gradually update away when juxtaposed with contradictory evidence from other priors and sensory input if they are inaccurate. They should be less likely to update away when juxtaposed with other priors or reality if they are an accurate perception. It's also conceivable that they are inaccurate but highly self-reinforcing. We're skeptical of this possibility since avoidance is a critical factor in maladaptive priors sticking around, and internalized MDMA feels good, thus incentivizing anti-avoidance. The people who learn the internalized-MDMA priors are also typically mentally ill and put extremely high amounts of attention on priors and perceptions of danger, which would normally update away many inaccurate safety priors. It's also conceivable that the internalized-MDMA priors were created with such unusually high-precision weighting that no conceivable experience has enough precision to create prediction error. We're also skeptical of this explanation because people have all sorts of profoundly-true-feeling experiences on MDMA that they later come to disbelieve or interpret differently. Thus, we suspect the learned model in large part accurately reflects reality.
+
+     \item Gain a better understanding of which side effects are part of the therapeutic process and which aren't.
+
+You almost certainly did not break your brain unless you combined MDMA with MAOIs or severely overdosed.
+
+
+    \item Do you think “losing the magic,” accumulated damage in the serotonin system from excessive oxidative stress, and the long-term cognitive decline seen in some observational studies of recreational users are the same phenomenon?
+
+
+Please comment on the following:
+\begin{itemize}
+    \item Do you know what afterglow is neurologically? People commonly report a few-day to few-week long period following MDMA therapy that consists of well-being, positive mood, mindfulness, positive behaviors, and less mental illness. Some people also report that conventional therapy is easier in this period. See \cref{afterglow} for more information.
+    \item Do you think “losing the magic,” accumulated damage in the serotonin system from excessive oxidative stress, and the long-term cognitive decline seen in some observational studies of recreational users are the same phenomenon?
+    \item Do you know what "therapy hangover" is neurologically? It feels like an odd flavor of mental and physical exhaustion following extended memory reconsolidation, facilitated either by MDMA and conventional therapy. It's a common limiting factor in the productive duration of MDMA therapy and conventional therapy. I haven't been able to find a single mention of it the literature. It seems to resolve in a few hours to a day.
+
+    Here's the microphenomenology for me (and I think others): In an MDMA session I will engage with a fear or anger and it's associated belief (e.g., \enquote{I'm afraid I'll die if no one loves me}). At first, that emotion and belief are crystal clear and strong. After a couple hours of processing different fears I will suddenly feel a wave of mental and physical exhaustion and the fears and beliefs are no longer clear and I can no longer reconsolidate them. I know they're still activated because I still feel vaguely anxious and behave according to those fears. Sometimes the MDMA will \enquote{push} though that exhaustion and I'll get another period of clarity and ability to reconsolidate.
+
+    I don't think this is just the MDMA peak wearing off. The same thing happens in regular sober therapy.
+
+    This type of exhaustion also has a \enquote{spacey} flavor, like I'm also in a slightly altered state of consiousness different from regular exhaustion. My partner who has never done psychedelics reports the same thing after a hard therapy session.
+    \item Do you know how long short term tolerance lasts? I haven't been able to find any data.
+\end{itemize}
+
+
+    \item \textbf{Session spacing:} It's difficult to give specific recommendations for session spacing because everyone has a different MDMA therapy risk/reward tradeoff and different bodies respond differently to MDMA. However, we do know some factors worth considering, listed below. They suggest two separate minimum spacings to us. The first spacing is the length of time long afterglow lasts for you (see \cref{afterglow}). Regular reconsolidation exercises, like psychotherapy, might be easier than normal in this period. If that is the case for you, then it likely makes sense to do that rather than more MDMA. It's unclear whether the serotonin and antioxidant systems have recovered yet, so we think this spacing should be reserved for situations of high therapeutic need where you use your minimum effective dose (see \cref{sec:dosing}). The second spacing is the length of time it takes for your tolerance to completely reset, which is best estimate we know of for how long it takes your serotonin and antioxidant\todo{Tolerance seems more related to serotonin restoration. How could anyone tell how long it takes to recover antioxidants?} systems to recover~\cite{baggottSerotonin}. This likely depends on dose and individual varibility, and the average is not known. We think anywhere from 6\,weeks (the phase III trials~\cite{mitchellMDMAClinicalTrial2}) to 3\,months (community \enquote{three month rule}) is a reasonable starting point.
+
+, like overdosing, heat stroke, severe hyponatremia, and drug mixing
+
+~\cite{straumann2024racemic}\footnote{The half life is 7.6--10 hours in 95\% of healthy individuals but can also range from 4.6--16 hours in some healthy people \cite{straumann2024racemic}.}
+
+
+    \item \textbf{Alterations in the Serotonin System:} High cumulative use and high frequency use are associated with long term alterations in the brain's serotonin system \cite{farreTolerance,parrottTolerance}.
+
+We have seen many anecdotes of people believing that healthy eating and exercise will protect them from oxidative stress. We have been unable to find any evidence supporting this and do not recommend believing it without further rigorous evidence.
+
+
+    
+    Conversely, daily antioxidant supplements could conceivably downregulate the body's own antioxidant system, leaving it less able to buffer the stress of MDMA. It might be worth stopping regular antioxidant supplementation well before a session, especially since they're rarely useful for much anyway~\cite{bjelakovicAntioxidant}.
+
+your lowest effective dose without a booster. Taking large doses of certain antioxidants shortly before and during the session may help too~\cite{aguirre1999alpha,shankaran2001ascorbic,alves2009acetyl}. Some companies bundle these antioxidants together in commercially available products, like \textcite{rollKit}, but we are not aware of them having been rigorously tested for usefulness in humans. 
+
+However, we do know some factors worth considering, listed below. They suggest two separate minimum spacings to us. The first spacing is the length of time long afterglow lasts for you, if you get it (see \cref{afterglow}). Regular reconsolidation exercises, like psychotherapy, might be easier than normal in this period. If that is the case for you, then it likely makes sense to do that rather than another MDMA session while you are still in afterglow. It's unclear whether the serotonin and antioxidant systems have recovered yet~\cite{baggottDamage}, so we think this spacing should be reserved for situations of high therapeutic need where you also use your minimum effective dose (see \cref{sec:dosing}). The second spacing is the length of time it takes for your tolerance to completely reset, which is best estimate we know of for how long it takes your serotonin and antioxidant\todo{Tolerance seems more related to serotonin restoration. How could anyone tell how long it takes to recover antioxidants?} systems to recover~\cite{baggottSerotonin}. This likely depends on dose and individual varibility, and the average is not known. We think anywhere from 6\,weeks (the phase III trials~\cite{mitchellMDMAClinicalTrial2}) to 3\,months (community \enquote{three month rule}) is a reasonable starting point.
+
+    \item Tolerance to MDMA starts developing within 1--2\,hours of ingestion~\cite{farreTolerance,parrottTolerance}. We have been unable to find any data showing how long this lasts. Distinguishing the effects of tolerance from immobility, avoidance, or the natural variation of sessions may be difficult. Space sessions further apart if you notice a pattern of diminishing effects. Using higher doses to overcome tolerance risks undesirable effects like, possibly, long-term cognitive impairment~\cite{corayMemory}.
+
+
+    \item As detailed in \cref{sec:safety}, a number of higher-dose MDMA sessions may cause long-term cognitive impairment.
+
+\item MDMA eventually loses its effects for some people (\enquote{losing the magic}) in a way that lasts longer than short-term tolerance~\cite{farreTolerance,parrottTolerance}. The mechanism and prevalence are unclear, though it's associated with higher or more frequent doses.
+
+    \item MDMA almost completely inhibits the CYP2D6 liver enzyme that partially metabolizes MDMA~\cite{omathunaCYP}. This enzyme inhibition returns to baseline with a half-life of 47\,hours. Thus, about 2\,days after a session, enzyme activity would be 50\% of the way to baseline, 75\% after 4\,days, 88\% after 6, 94\% after 8, and 97\% after 10. This effect may counteract short-term tolerance or lead to unexpectedly strong reactions to a subsequent dose. % We don't know the consequences of having perpetually-inhibited CYP2D6 from frequent MDMA sessions; the precautionary principle might suggest spacing sessions far enough apart to allow recovery, perhaps a week or two.
+
+ It's conceivable that high cumulative use also causes other, poorly understood issues, particularly for groups of people with certain genetic variants or health conditions.
+
+     \item As detailed in \cref{sec:safety}, extremely high cumulative amounts of MDMA and possibly other psychedelics can cause valvular heart disease. 
+    
+    \item MDMA therapy frequently causes fatigue the following day~\cite{liechtiGender}, so it's nice to have the following day free for resting.
+
+MDMA commonly causes mild hyponatremia (low plasma sodium concentration) in individuals who drink fluids as desired during the session~\cite{atilaHyponatremia}. We extrapolated from \textcite{baggottWater} that drinking a maximum of 0.5\,L of water during the session would easily prevent hyponatremia. It is also more than sufficient for preventing dehydration in the average person at a comfortable temperature~\cite{valtinWater}. Adding salt to the fluid has not been tested as a solution and is known to not prevent hyponatremia in athletic activities~\cite{hew2008statement}. 
+
+    % \item Major distractions during the session may reduce efficacy~\cite{roseman2024interrupting}. It is helpful to arrange easy access to necessities like a restroom, snacks, and a small amount of (or no) water.
+
+    \item Sessions may be either stabilizing or destabilizing (see \cref{sec:complex}). If you find your sessions consistently destabilizing to a degree that is causing you major problems, waiting longer between sessions may reduce these problems. In this circumstance we also recommend a combination of professional support and proactive self-care strategies like the ones listed in \cref{sectionManagement}. Traditional psychotherapy may be less destabilizing than MDMA therapy. Conversely, another MDMA session conducted after a week- or two-long recovery phase may stabilize you after a particularly destabilizing experience, such as the previous MDMA session. We don't know how to predict when a session will be stabilizing or destabilizing.
+
+ People with a family or personal history of psychosis may benefit from avoiding frequent sessions and using total doses toward the lower end of the effective range. They may also benefit from eliminating or reducing cannabis use, another known risk factor~\cite{drugsPsychosis}.
+
+     \item MDMA therapy sometimes creates an afterglow period of 1--2\,weeks where regular therapy is more effective (see \cref{afterglow}). This is an excellent opportunity to pack in a lot of sober reconsolidation, maybe even maxing out every day (see \cref{sec:moreReconsolidation}). We don't know of many good reasons to do sessions more frequently than this.
+    
+    \item People commonly experience up to three days of post-session fatigue and other adverse effects~\cite{liechtiGender}. Starting another session before you have recovered from the previous one will likely reduce session effectiveness and increase adverse effects in addition to those previously mentioned.
+
+
+When your reconsolidation exercises aren't working well. Maintaining a long-term state of afterglow with a three-week frequency might facilitate extraordinarily high amounts of reconsolidation. Given the uncertain risks of high-frequency sessions~\cite{baggottDamage}, we suggest only do them using the precautions outlined in \cref{sec:dosing}. Further, even with those precautions, we think this approach is best used as a limited-duration on-ramp to sober reconsolidation exercises or less frequent MDMA therapy sessions.
+
+\textcite{BRWAIdownload} describes it as \enquote{The bond between client and therapist; the collaborative approach and agreement on treatment goals; the collaborative approach and agreement on treatment tasks.} The quality of the therapeutic alliance is a moderate predictor of the effectiveness of psychotherapy~\cite{fluckiger2018alliance}.
+
+    \writtenByDay{
+    \item 
+    
+    One of the most important aspects of psychological counseling is the therapeutic alliance. While there are adaptive reasons to distrust therapists, there are also maladaptive impediments to forming a healthy therapeutic relationship. MDMA therapy might offer a first foothold in the healing of trauma by reducing transference\footnote{Transference is the attribution of feelings actually about other people and circumstances to the clinician or therapeutic process.} or discomfort that is preventing you from effectively working with a therapist. Thus, one of our concerns about keeping low-frequency MDMA interventions is that this opportunity could be missed, or time could be wasted. A critical mass of support for a briefer period of time can allow someone to become more self-sufficient or able to access community supports. The same amount of support spread out over a greater period of time effectively perpetuates disability.
+    }
+
+\textcite{alexanderPrecision} provides a more accessible summary of the paper.
+
+
+\subsection{Additional Precautions for Higher Frequency or High Cumulative Use}
+As discussed later in the Medical Risks subsection, there is a possibility that high doses or frequent sessions gradually cause long-term cognitive impairment~\cite{baggottDamage}. It's unclear what dose and frequency is sufficient to cause this, but it's possible that the above recommended doses can when used frequently.
+
+In the face of this uncertainty, we recommend that anyone planning more than a handful of sessions should find their lowest effective dose. 
+
+    \item Season 1 of \prosecite{powerTrip}.
+
+% To make matters worse, some of the most respected \enquote{above-ground} organizations, such as MAPS, have been accused of participating in this toxic culture by \textcite{powerTrip}. Perhaps worst of all, survivors of abuse or misconduct in the context of PAT have repeatedly been told by respected community leaders that they must keep their silence because they have a responsibility not to detract from the legalization process with demands for accountability. Furthermore, the underground/illegal nature of the endeavor has left survivors with minimal, if any, assistance from the legal system.
+
+ One case of a clinical trial participant reporting a psychotic episode after the trial ended in poorly documented circumstances~\cite{powerTrip}.
+
+     
+    The only drugs with less risk were LSD, buprenorphine, and psilocybin. 
+
+
+    The Dutch State Commission on MDMA found no cases of MDMA addiction in Dutch treatment centers~\cite{netherlandsMDMA}.  These suggest that MDMA use rarely leads to severe addiction. 
+
+That being said, there are reports of MDMA addiction causing problems for people in recreational contexts, though t
+
+ One survey of MDMA users reported that 5\% had tried to reduce their consumption unsuccessfully, though it wasn't reported how much of a problem their MDMA use was creating for them~\cite{GrønnerødNorway}. Many people try to reduce coffee consumption unsuccessfully while also not suffering much harm from their consumption pattern.
+
+
+
+While there is some good data on some aspects of dosing, there are missing pieces. This subsection attempts to fill in the gaps between what is known. Unfortunately, this sometimes results in 
+
+\footnote{There isn't a lot of good data on dosing, and different studies use mg/kg or fixed dosing. We tried to piece these data points together the best we could.}
+
+Accurate data on the upper limit of safe doses is unfortunately absent due to difficulties translating the results of animal testing to humans and confounding factors muddying the study of harmful effects in recreational use~\cite{passieHistory}. \textcite{liechtiInteractions}\footnote{M. Liechti, personal communication, December 11, 2025, clarified that 200\,mg is the maximum total dose, not a maximum initial dose. It also only applies to individuals with higher body masses, though specifics weren't mentioned.} recommends a maximum total dose of 200\,mg for the highest body masses.
+
+However, it hasn't been demonstrated that this extends to a larger number of sessions. Therefore, we recommend that anyone planning more than a handful of sessions not use booster doses if possible. Individual circumstances with a different tradeoff between risk and reward may 
+
+This has worked well in the trials. However, \textcite{liechtiInteractions}\footnote{M. Liechti, personal communication, December 11, 2025, clarified that they do not recommend booster doses.} recommends against booster doses, and \textcite{baggottSupplements} recommends a maximum dose of 2 mg/kg, which effectively means no booster for most people. The latter attributes this recommendation to uncertainty about what dose will cause oxidative damage and cognitive impairment.
+
+The primary goal of dosing is matching the strength of MDMA's effects to the the str
+
+Reconsolidation depends on the strength of fear/anger/sadness from the maladaptive schema being somewhat matched to the strength of contradictory evidence~\cite{eckerUnlocking}\footnote{\textcite{eckerUnlocking} states that strength matching isn't very relevant in conventional psychotherapy, but we think it appears to be relevant in MDMA therapy.}. We're not clear to what degree MDMA reduces the strength of maladaptive schemas vs. providing contradictory evidence, but the effect in either case tends in the same direction. 
+
+Long-term cognitive impact is mostly only observed in people who use lots of MDMA at raves over long periods of time~\cite{corayMemory}. 
+
+The rodent studies establish that neurotoxic doses and schedules are possible but do not establish what dose and frequency of dosing cause toxicity in humans~\cite{baggottDamage}.
+
+A span of 3--5 weeks might be enough, since \textcite{mithoeferSafety} didn't find any negative cognitive impact from two sessions at that spacing\footnote{Most studies don't measure more direct markers of oxidative stress, so cognitive function is the next best option. Oxidative stress might not cause cognitive impairment, or if it does, the amount a couple of sessions causes isn't enough to be measurable~\cite{baggottDamage}.}.
+
+For lack of better ideas, the 6\,week spacing used in the phase III trials might be a decent minimum.
+
+ (none of the latter sessions were like this)
+
+
+
+    Around hour 1100 I decided to try MDMA again. I was in a particularly tough place and was wondering if I had been wrong about MDMA being redundant with auto-reconsolidation. The session went well. It felt easier to clearly notice what maladaptive schemas were activated, and I have a general, though vague, sense that it was more powerful hour-for-hour than my regular practice.
+
+That experience makes me think the initial inviolable-well-of-safety experience was at least partially a non-dual experience, though it didn't feel like my sense of self was different at the time. I suspect that experience became deeply internalized because it accurately predicted reality in some way. I don't have any metaphysical, ontological, or epistemological insight as to what this means. The initial experience didn't seem sufficient on its own to destabilize my sense of self. That seems to have required re-activating that knowledge for 600\,hours in addition to an existing habit of compulsively monitoring and distrusting my thoughts and self. The latter process seems similar to the insight meditation practices explicitly designed to facilitate shifts to non-dual awareness.
+
+ Sometimes, when that happens, I recall dreaming about my usual fears immediately before waking up.
+
+The interview was informal and didn't use any of the formal bias-reduction techniques often used in qualitative data gathering. 
+
+    I suspect reconsolidation is also happening in dreams on rare occasions. Once in a great while I feel exhausted in a way similar to a therapy hangover when I wake up.
+
+
+    
+    Looking back, the cycling seems like an uncomfortable bump on the road, with neither the old nor new state obviously better than the other. However, that ambivalence might arise from an inability to compare the two stable states, separated by many months, side-by-side. In any case, the auto-reconsolidation capacity is more than valuable enough to have made the distress of this experience easily worth it for me. Also, 
+
