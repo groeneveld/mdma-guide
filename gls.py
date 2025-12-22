@@ -317,8 +317,8 @@ def process_paper(paper_file, glossary_terms):
         f.write(new_content)
     
     # Write debug log
-    with open('glossary_debug.log', 'w', encoding='utf-8') as f:
-        f.write('\n'.join(debug_log))
+    # with open('glossary_debug.log', 'w', encoding='utf-8') as f:
+    #     f.write('\n'.join(debug_log))
     
     # Print statistics
     print("\nProcessing Statistics:")

@@ -1,8 +1,13 @@
 python3 gls.py
-pdflatex "Open MDMA.tex"
-biber "Open MDMA"
-makeglossaries "Open MDMA"
-pdflatex "Open MDMA.tex"
-biber "Open MDMA"
-pdflatex "Open MDMA.tex"
-pdflatex "Open MDMA.tex"
+
+mkdir -p temp
+
+pdflatex -output-directory=temp "Open MDMA.tex"
+biber --input-directory=temp --output-directory=temp "Open MDMA"
+makeglossaries -d build "Open MDMA"
+pdflatex -output-directory=temp "Open MDMA.tex"
+biber --input-directory=temp --output-directory=temp "Open MDMA"
+pdflatex -output-directory=temp "Open MDMA.tex"
+pdflatex -output-directory=temp "Open MDMA.tex"
+
+mv temp/"Open MDMA.pdf" .

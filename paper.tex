@@ -85,6 +85,10 @@
 
 \interfootnotelinepenalty=10000
 
+% Make citations and text that only appear in markdown for reddit
+\newcommand{\mdcite}[1]{}
+\newcommand{\mdonly}[1]{}
+
 % Make \citetitle do capitalization right
 % \usepackage{titlecaps}
 % \Addlcwords{a an the and but or nor for so yet to of in on at by with from as into onto upon}
@@ -181,7 +185,7 @@ While this guide has universal aspects, it doesn't cover all frameworks for doin
 \end{center}
 \vspace{\baselineskip}
 
-Reworked and polished \nameref{sec:safety}, \nameref{frequency}, \nameref{ppHypotheses}, Efficacy, \nameref{internalizedReports}, Preface. Edited everything for grammar and spelling. Removed Our Pitch because it didn't fit in well and was redundant. Shuffled a couple sections around. Also made a lot of little changes here and there.
+Reworked and polished \nameref{sec:safety}, \nameref{frequency}, \nameref{ppHypotheses}, Efficacy, \nameref{internalizedReports}, Preface, Plain Language Summary. Edited everything for grammar and spelling. Removed Our Pitch because it didn't fit in well and was redundant. Shuffled a couple sections around. Also made a lot of little changes here and there.
 
 \begin{center}
     \textbf{Changes from Version 4 to 5}
@@ -302,92 +306,107 @@ See \cref{authortable}.
 \mainmatter
 
 \chapter{Plain Language Summary}
+% BEGIN_PLAIN_SUMMARY
 MDMA therapy is a powerful tool for
 \begin{itemize}
     \item healing mental illness
-    \item connecting or resolving conflict with yourself, those you love, and the world
+    \item connecting with yourself, those you love, and the world
+    \item resolving conflict
     \item developing equanimity, patience, compassion, introspection, resilience, alignment of behavior with goals, and cognitive and emotional flexibility
     \item unburdening from hypervigilance, fear, chronic stress, loneliness, shame, guilt, etc.
-    \item helping you focus on the things that you can change and let go of the things you can't
+    \item focusing on what you can change and letting go of the things you can't
 \end{itemize}
 
-There is moderate-quality clinical trial evidence that a limited course of MDMA therapy is highly effective for durably resolving PTSD, not just managing its symptoms. However, we think there are good theoretical reasons and ample anecdotal evidence that MDMA therapy can also resolve other issues. These include CPTSD and attachment issues and some types of anxiety, the psychological part of addictions, obsessions, eating disorders, ADHD, depression, somatic symptom disorders, personality disorders, dissociation, panic, and more, depending on the underlying cause.
+There is moderate-quality clinical trial evidence that a limited course of MDMA therapy is highly effective for durably resolving PTSD, not just managing its symptoms. However, we think there are good theoretical reasons and ample anecdotal and clinical reports indicating that MDMA therapy can also resolve the psychological part of most mental illnesses and emotional issues. This includes CPTSD, non-secure attachment, anxiety, addiction, obsessions, eating disorders, ADHD, depression, somatic symptom disorders, personality disorders, dissociation, panic, and more. Some instances of these issues may have biological components that MDMA therapy does not address.
 
-As of 2025, MDMA is not approved by the FDA and most other medical regulators. There is disagreement over whether existing clinical trials were sufficient to approve MDMA for medical use. The FDA thought the existing evidence was insufficient and requested one more trial, but a Dutch state commission determined that \enquote{Scientific research has shown that MDMA-AT is an effective and safe treatment method. \dots The State Commission deems it desirable that this treatment method become available in the Netherlands as soon as possible}~\cite{netherlandsMDMA}. Possession of MDMA is a felony in most jurisdictions, though it often isn't an enforcement priority. The vast majority of MDMA therapy in 2025 is done underground, though there are also clinical trials and special access programs in certain countries. The following assumes that MDMA therapy works how we think it does and that it isn't just a particularly effective placebo that may stop working when people's expectations for it subside.
+As of 2025, MDMA has not been approved by most medical regulators. There is disagreement over whether existing clinical trials were sufficient to approve MDMA for medical use~\mdcite{fdaVSdutch}. The US FDA thought the existing evidence was insufficient and requested one more trial~\mdcite{crlAlpha}, but a Dutch state commission determined that \enquote{Scientific research has shown that MDMA-AT is an effective and safe treatment method. \dots The State Commission deems it desirable that this treatment method become available in the Netherlands as soon as possible}~\cite{netherlandsMDMA}. Possession of MDMA is a felony in most jurisdictions, though it often isn't an enforcement priority. The vast majority of MDMA therapy in 2025 is done underground, though there are also clinical trials and special access programs in certain countries. The following assumes that MDMA therapy works as we believe it does and that it isn't just a particularly effective placebo that may stop working when people's expectations for it subside.
 
 \subsubsection*{A Working Model of the Types of Issues MDMA Therapy Seems to Address}
-Our brains continually learn beliefs (e.g., \enquote{barns are red,} \enquote{I am bad}), emotional reactions, memories, and behavioral patterns to move through the world and thrive. Different therapeutic frameworks group these components into units called schemas, parts, trauma reactions, priors, etc., because the components seem to act as an integrated whole rather than separate things. Sometimes, the schemas we learn to survive in one context become neurotic and maladaptive in another context. This often, but not exclusively, starts when we learn particularly deep, pervasive, negative, and resilient schemas about ourselves, other people, and relationships to survive emotionally or physically insecure childhoods. Once we shift out of that context, like when we become adults, a wide variety of circumstances trigger those old schemas, resulting in fear, anxiety, anger, depression, panic, etc. in situations where those reactions are no longer helpful.
+Our brains continually learn beliefs (e.g., \enquote{I can't do anything right,} \enquote{I am bad}), emotional reactions, memories, and behavioral patterns to move through the world and thrive~\mdcite{eckerUnlocking}. Different therapeutic frameworks group these components into units called schemas, parts, trauma reactions, priors, etc., because the components seem to act as an integrated whole rather than separate things. Occasionally, the schemas we learn to survive in one context become maladaptive in another context. This often starts when we learn particularly deep, pervasive, negative, and resilient schemas about ourselves, other people, and relationships to survive emotionally or physically insecure childhoods. Once we shift out of that context, like when we become adults, a wide variety of circumstances trigger those old schemas, resulting in fear, anxiety, anger, depression, panic, etc. in situations where those reactions are no longer helpful.
 
-Exceptionally strong schemas involving feelings or beliefs of imminent threat and powerlessness also trigger the biological defenses of nervous system arousal, freezing, dissociation/immobility, and fight-or-flight.
+Strong schemas of imminent threat and powerlessness also cause our nervous systems to activate the defensive states of arousal, fight-or-flight, freeze, and dissociation~\mdcite{kozlowskaDefenseCascade}.
 
-Our brains have an update process that, in normal circumstances, gradually modifies schemas to become adaptive to different situations. Unfortunately, some things can inhibit this process, like dissociation, fight-or-flight, avoidance (often unconscious), and lack of time or emotional capacity. Exceptionally strong schemas also seem resistant to updating, perhaps because they are too overwhelming to be present with. For example, in PTSD, there is an exceptionally strong belief of imminent danger that doesn't update when the danger passes.
+Our brains have an update process that, in normal circumstances, gradually modifies schemas to become adaptive to different situations~\mdcite{eckerUnlocking}. Unfortunately, some things can inhibit this process, like dissociation, fight-or-flight, avoidance (often unconscious), and lack of time or emotional capacity~\mdcite{berghSelfEvidencing,kozlowskaDefenseCascade}. Exceptionally strong schemas also seem resistant to updating, perhaps because they are too overwhelming to be present with. For example, in PTSD, there is an exceptionally strong belief of imminent danger that doesn't update when the danger passes.
 
 \subsubsection*{How MDMA Therapy Works}
-MDMA seems to start the previously blocked update process for any maladaptive/stuck schema you activate or trigger during the session and then stay present with. Thinking, writing, or talking about your issue is often sufficient to do this. After the schema updates, it will not reactivate after the session is over, though complex schemas may have numerous parts that you have to individually update. Dissociation, anxiety, and fight-or-flight should also resolve once you update the underlying schemas.
+MDMA seems to start the previously blocked update process for any maladaptive schema you activate or trigger during the session and then stay present with. Thinking, writing, or talking about your issue is often sufficient to do this. After the schema updates, it will not reactivate after the session is over, though complex schemas have numerous parts that you have to individually update. Dissociation, arousal, freeze, and fight-or-flight also resolve once you update the underlying schemas.
 
-This is a powerful process but is not a quick fix for all but the simplest of issues. People typically need to do a lot of between-session therapy-like work as well as multiple sessions. Resolving severe mental illness, severe CPTSD, or severe attachment issues will take years of hard work.
+This is a powerful process but is not a quick fix except for simple issues. People typically need to do a lot of between-session therapy-like work as well as multiple sessions. Resolving the most severe issues will take years of hard work.
 
-Psychological destabilization is likely the most significant downside. It is a common and probably often unavoidable phase of therapy for those with severe trauma but is actually associated with greater improvement later in the therapeutic process. Unfortunately, people are sometimes not explicitly aware they have gone through severe trauma. This may happen if that trauma takes the form of disorganized attachment (assess with \href{https://www.attachmentproject.com}{attachmentproject.com}), the abuse is explained away as cultural tradition or \enquote{how things are,} the trauma took place in the period of childhood amnesia, or it is not remembered for some reason. Diagnosis of mental illness indicates higher risk as well.
+Psychological destabilization is likely the most significant downside. It is a common and probably often unavoidable phase of therapy for those with severe trauma but is actually associated with greater improvement later in the therapeutic process~\mdcite{olthofDestabilization}. Unfortunately, people are sometimes not explicitly aware they have gone through severe trauma. This may happen if that trauma takes the form of disorganized attachment (assess with \href{https://www.attachmentproject.com}{attachmentproject.com}), the abuse is explained away as cultural tradition or \enquote{how things are,} the trauma took place in the period of childhood amnesia, or it is not remembered for some reason. Diagnosis of mental illness indicates higher risk as well.
 
-\textit{Destabilization is occasionally overwhelming and long-lasting and can cause major problems when poorly managed or entered into at an inappropriate moment in your life.} It may also, on rare occasion, exacerbate or activate dangerous symptoms like psychosis or suicide attempts, so people with a history of those may especially benefit from skilled, ethical, and well-matched professional support. Check out the Challenging Psychedelic Experiences Project for help (\textcite{peersupportgroup}).
+\textit{Destabilization is occasionally long and overwhelming and can cause major problems when poorly managed or entered into at an inappropriate moment in your life.} It may also, on rare occasion, exacerbate or activate dangerous symptoms like psychosis or suicide attempts. People with a history of those may especially benefit from skilled, ethical, and well-matched professional support. Check out the Challenging Psychedelic Experiences Project for help: \href{https://challengingpsychedelicexperiences.com}{challengingpsychedelicexperiences.com}.
 
-MDMA-assisted therapy tends to speed up both healing and destabilization. Additional MDMA sessions and regular therapy often help work through destabilization. Connecting with other people who have had similar experiences is also important to the overall process.
+MDMA-assisted therapy tends to speed up both healing and destabilization. Additional MDMA sessions and regular therapy often help work through destabilization. Connecting with other people who have had similar experiences also helps.
+
+Destabilization is sometimes caused by experiences that feel like remembering apparently forgotten memories. Unfortunately, there is no way to determine how accurate these memories are other than independent corroboration. See \href{https://psychedelicsandrecoveredmemories.com}{psychedelicsandrecoveredmemories.com} for more information.
 
 \subsubsection*{Sessions}
-A common starting dose is 100\,mg for body mass less than 60\,kg (132\,lb) or those over 75\,years old and 125\,mg for higher body mass. You can take an optional half-strength booster dose 1.5--2\,hours later to extend the session length. The dose can be adjusted later to fit individual circumstances. Low doses generally don't work. A regular dose might not be sufficient for severe dissociation or panic. Too high of a dose might be so blissful that you can't engage with your trauma reactions.
+A standard, safe dose is 100\,mg for body masses less than 60\,kg (132\,lb) and 125\,mg for more~\mdcite{liechtiInteractions,baggottSupplements}. People over 75\,years old also start with 100\,mg. These doses can be adjusted later to fit individual circumstances. Low doses generally don't work. A regular dose might not be sufficient for severe dissociation or panic. Too high of a dose might be so blissful that you can't engage with your trauma reactions.
 
-The general strategy during the session is to emotionally activate, or trigger, your anxieties, depression, panic, etc., then stay with that feeling, regardless of what it is or how intense it is. If you have the right dose of MDMA and aren't dissociating, the feeling should gradually dissipate. That's the updating process at work.
+Booster doses half the strength of the initial dose are sometimes taken 1.5--2.5\,hours later to extend the session length. This has worked well in large clinical trials with no obvious, reported adverse effects. However, there is a lower degree of certainty that these higher total doses are safe for more than a handful of sessions~\mdcite{baggottSupplements}. We think booster doses are fine to start off with, but that once people have established a reliably therapeutic routine, they gradually reduce their dose to find their \textit{minimum effective dose.}
 
-For dissociation, some clinicians recommend \enquote{\dots bringing blankness, flat affect, nothingness, boredom, sleepiness, or sobriety [the subjective feelings of dissociation] into focus}~\cite{razviPSIP}. Then, \enquote{In a psychedelic-assisted session, it might take staying with it from minutes to a full day-long session, but it will crack.} A skilled, ethical, and well-matched professional may also be especially helpful here.
+The general strategy during the session is to emotionally activate your anxieties, depression, panic, etc., then stay with that feeling, regardless of what it is. If you have the right dose of MDMA and aren't dissociating, the feeling should gradually dissipate. That's the updating process at work.
 
-People often need the whole following day to recover, and aftereffects may last up to a few days. It's also important to spend significant amounts of time in the following days and weeks attending to your emotional changes.
+For dissociation, some clinicians recommend \enquote{\dots bringing blankness, flat affect, nothingness, boredom, sleepiness, or sobriety [the subjective feelings of dissociation] into focus}~\cite{razviPSIP}. Then, \enquote{\dots it might take staying with it from minutes to a full day-long session, but it will crack.} A skilled, ethical, and well-matched professional may also be especially helpful here.
 
-People sometimes experience moderately increased psychological turmoil and adverse symptoms for days to weeks after a session. This might be due to attending to feelings you were previously avoiding or other more complex shifts that activate previously latent schemas. It's worthwhile developing a set of healthy coping practices to help you through this period.
+People often need the whole following day to recover, and aftereffects may last a few days. It's also important to spend significant amounts of time in the following days and weeks attending to your emotional changes.
+
+It's common to experience moderately increased psychological turmoil and adverse symptoms for days to weeks after a session. MDMA helps us confront distressing feelings that we have been avoiding, and our minds can feel distressed about that until we process those feelings and reactions. It's often worthwhile developing a set of healthy coping practices to help you through this period.
 
 The Fireside Project offers a hotline to help people through challenging psychedelic experiences at +1 (623) 473-7433 in the USA or in their app in Canada. \href{https://tripsit.me/webchat}{tripsit.me/webchat} is a chatroom available anywhere.
 
-Unfortunately, there is no way to determine how accurate recovered memories are other than independent corroboration. See \textcite{psychedelicrecoveredmemory} for more information.
+There is almost no data on how frequently it is safe to do sessions, though many people have strong opinions on the subject nonetheless. In the absence of better data, the 6\,week spacing used in the clinical trials might be a reasonable minimum.
 
-There's not much clarity on how often it is safe to do sessions. As an absolute bare minimum, wait a few days to completely recover from the side effects of the last one. A more reasonable frequency is likely somewhere between a few weeks and a few months. If you're on the more frequent end of that spectrum, take extra care to follow the risk-reduction steps listed below in the bullet point about cognitive impairment.
-
-\subsubsection*{Working with a Guide, Therapist, or Other Mental Health Professional}
-It's helpful to start MDMA therapy with a skilled, ethical, and well-matched professional, at least to learn the ropes. Some people have success starting off solo, but it's usually harder and riskier. A trip sitter who is trusted, experienced, empathetic, and emotionally non-reactive is especially helpful for those starting off solo.
+\subsubsection*{Working with a Guide or Therapist}
+It's helpful to start MDMA therapy with a skilled, ethical, and well-matched professional, at least to learn the basics. Some people have success starting off solo, but it's usually harder and riskier. A trip sitter who is trusted, experienced, empathetic, and emotionally non-reactive can also be helpful.
 
 There are a few important factors when working with a guide, therapist, or other mental health professional:
 \begin{itemize}
-    \item Ethical: They should (a) inform you of the benefits and risks, (b) not abuse you, and (c) maintain strict professional boundaries. A not-insignificant number of MDMA guides and therapists, some of whom are influential, abuse their clients. Be extra cautious with anyone where you feel something is off, they don't seem like fans of strict professional boundaries, or you see any other red flags. Touch or love from the therapist are not essential healing components of MDMA therapy. You can always video record your session or bring a trusted friend or family member along. For more information on red flags, see \textcite{safetyFlags}.
-    \item Skilled: They should have thorough knowledge of, and experience successfully working with, a wide spectrum of difficult situations that might arise during MDMA therapy. This especially includes intense dissociation, avoidance, panic, and destabilization.
+    \item Ethical: They should inform you of the benefits and risks, not abuse you, and maintain strict professional boundaries. Occasionally guides and therapists abuse their clients. Be extra cautious with anyone if you feel something is off, they aren't committed to strict professional boundaries, or you see any other red flags. Touch or love from the therapist are not essential healing components of MDMA therapy. You can always video record your session or bring a trusted friend or family member along. For more information on red flags, see \textcite{safetyFlags}.
+    \item Skilled: They should have thorough knowledge of, and experience successfully resolving, a wide spectrum of difficult situations that might arise during MDMA therapy. This especially includes intense dissociation, avoidance, panic, and destabilization.
     \item Well-matched: You get along well with them.
 \end{itemize}
 
-You can use the Brief Revised Working Alliance Inventory (\textcite{BRWAIdownload}) to assess your relationship with your guide or therapist.
+You can use the Brief Revised Working Alliance Inventory (\href{https://greenspacehealth.com/en-us/br-wai}{greenspacehealth.com/en-us/br-wai}) to assess your relationship with your guide or therapist.
 
 \subsubsection*{Medical, Psychological, and Drug Interaction Risks}
 A limited course of MDMA therapy is generally well-tolerated for healthy people, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks:
 
-\paragraph{Always avoid:}
+\paragraph{Always Avoid (significant risk of death or irreversible damage):}
 \begin{itemize}
-    \item Taking irreversible MAOIs within 2\,weeks before a session or within a few days after. Also taking reversible MAOIs, like those in ayahuasca, within 2--3\,days before a session. This is potentially deadly.
-    \item Extremely high lifetime use of MDMA and psychedelics. Over 250\,tablets risks heart valve disease.
-    \item Taking ritonavir or cobicistat or HIV drugs that contain them. This is potentially deadly.
-    \item Hyperthyroidism that isn't \enquote{well-managed and mild.}
+    \item MAOIs and ayahuasca
+    \item ritonavir, cobicistat, or HIV drugs that contain them
+    \item combined lifetime use of MDMA and medium--high dose psychedelics over 125 tablets
+    \item hyperthyroidism that isn't \enquote{well managed and mild,} as assessed by a doctor~\cite{mitchellMDMAClinicalTrial2}
 \end{itemize}
 
-\paragraph{Use caution with:}
+\paragraph{Use Caution With:}
 \begin{itemize}
-    \item Co-use with other psychiatric drugs. This is unlikely to be dangerous but may increase side effects or decrease (SSRIs in particular) the therapeutic effect.
-    \item Drinking significantly more than perhaps 0.5\,L of water during the six hours of the session unless you need to replace large amounts of sweat. Drinking as desired, even just lying on a couch in comfortable temperatures, frequently causes mild hyponatremia (low plasma sodium) when on MDMA. Adding electrolytes probably won't help.
-    \item A number of higher-dose sessions or high session frequency. There's an unclear possibility that this causes long-term cognitive impairment, though the specifics are unknown. In the face of this uncertainty, take extra care to find your minimum effective dose, possibly skip booster doses, and minimize co-use of caffeine when doing more than a handful of sessions. Antioxidant supplements may help as well; see \textcite{baggottSupplements}.
-    \item Existing liver or cardiovascular problems. The risk is unclear. Consult a doctor and bring the relevant section of the MAPS pharmaceutical investigator's brochure (\textcite{mapsInvestigatorBrochure}) with you for them to review.
-    \item Unusually high doses. The risk is unclear.
-    \item Possibly poorly understood or rare interactions with certain health conditions.
-    \item A history of psychosis, mania, or serious amphetamine/cocaine addiction. The risk is high, but it may not be an absolute contraindication.
-    \item Adulterated pills. The risk is unclear and varies by adulterant. The presence of some common adulterants can be checked with reagent test kits (\textcite{testKitSuppliers} maintains a list of suppliers). Laboratory testing is much better (\textcite{testingLabs} maintains a list of labs). It measures the amount of MDMA and all other ingredients but is harder to access depending on where you live.
+    \item a family or personal history of psychosis or mania
+    \item a history of addiction to amphetamines or cocaine
+    \item total doses over 2 mg/kg for more than a handful of sessions
+    \item session spacing less than 6 weeks
+    \item drugs/medications/supplements/herbs, including large doses of caffeine. 
+    \item liver and cardiovascular problems
+    \item other serious medical conditions, especially ones that are not \enquote{well managed and mild,} as assessed by a doctor~\cite{mitchellMDMAClinicalTrial2}
+    \item a history of bad reactions to amphetamines
 \end{itemize}
 
-Putting this in perspective, one panel of drug-misuse experts estimated that MDMA poses a significantly lower overall health risk than marijuana and far less than alcohol. That's even in recreational contexts where users are likely not as cautious as they should be of risks. However, anyone undergoing MDMA therapy has a higher chance of destabilization than the average recreational user.
+\paragraph{Take Precaution:}
+\begin{itemize}
+    \item Don't drink more than 0.5\,L of water during the six hours of the session unless you need to replace large amounts of sweat~\mdcite{myBook}.
+    \item Avoid SSRIs and SNRIs for 2\,months (ideally) prior.
+    \item Test your MDMA. The presence of some common adulterants can be checked with reagent test kits; \href{https://www.reddit.com/r/ReagentTesting/wiki/test\_kit\_suppliers}{/r/ReagentTesting/wiki/test\_kit\_suppliers} maintains a list of suppliers. Laboratory testing is much better; \href{https://www.reddit.com/r/ReagentTesting/wiki/labs}{/r/ReagentTesting/wiki/labs} maintains a list of labs. It measures the amount of MDMA and all other ingredients but is harder to access depending on where you live.
+    \item Prepare robust psychological support if you have severe trauma, diagnosed mental illness, or severely disorganized attachment.
+    \item MDMA and therapy exhaustion can impair awareness and reaction times. Avoid driving and other risky activities on the same day as the session.
+\end{itemize}
 
-Do not use MDMA with any other drug or drug without first establishing that the combination is safe. Consult \textcite{liechtiInteractions} for many interactions with psychiatric drugs.
+\mdonly{Written by Mark Groeneveld (u/night81) based on a draft of their book \href{https://www.doi.org/10.31234/osf.io/aps5g}{doi.org/10.31234/osf.io/aps5g} and feedback from r/mdmatherapy.
+
+Please comment or DM if you spot any errors or have any suggestions for this document!}
+
+% END_PLAIN_SUMMARY
 
 \chapter{Introduction}
 \section{How to Read this Book}
@@ -882,11 +901,11 @@ For additional popular-press coverage of the physiological impacts of trauma and
 
 \chapter{Methodology and Core Assumptions}
 \label{sec:assumptions}
-We wrote this book by informally synthesizing information from four categories of sources. First papers, books, and blogs that looked relevant or interesting to us. Second, M.G.'s own experience using MDMA therapy to treat their complex trauma. Third, T.H.'s personal experience with community mental health and professional experience as a therapist. Fourth, trip reports (largely from \href{https://www.reddit.com/r/mdmatherapy}{/r/mdmatherapy}) and discussions with people who have done MDMA therapy. There was a loop of personal experience informing theory, which then informed interpretation of personal experience, which then further informed theory, etc.
+We wrote this book by informally synthesizing information from four categories of sources. First papers, books, and blogs that looked relevant or interesting to us. Second, M.G.'s own experience using MDMA therapy to treat their complex trauma. Third, T.H.'s personal experience with community mental health and professional experience as a therapist. Fourth, trip reports (largely from \href{https://www.reddit.com/r/mdmatherapy}{reddit.com/r/mdmatherapy}) and discussions with people who have done MDMA therapy. There was a loop of personal experience informing theory, which then informed interpretation of personal experience, which then further informed theory, etc.
 
 We didn't cite any neuroimaging studies because neuroimaging seems like a complicated minefield of poor statistical methods, low statistical power, and mistaking correlation for causation~\cite{hoelNeuroscience}. Some psychedelics also change the coupling between brain activity and blood flow (the thing that fMRI measures), though it's not clear if MDMA also has that effect~\cite{padawerNeurovascularCoupling}. It seems like one has to be both a specialist in the field and have expertise in causal statistical methods to even evaluate study quality and significance.
 
-We applied these checks on the validity of our references while writing this book:
+\subsection*{Validity Checks}
 \begin{itemize}
     \item \textbf{Retractions and PubPeer comments:} Almost all references. We still cite \textcite{feducciaSSRIDiscontinuation}. It was retracted for a few reasons~\cite{feduccia2024retraction,nytimesRetraction}. A study therapist sexually abused one trial participant. The researchers knew about this but failed to report it and remove that participant's data from the analysis. They also failed to disclose conflicts of interest. These are major ethical breaches. We still cite the paper because it's the only source of rigorous data on this important phenomenon that we are aware of. Additionally, the effect size was so large that one changed data point wouldn't have significantly changed the outcome. We also don't see an obvious financial conflict regarding the interaction of SSRIs and MDMA.
     \item \textbf{Reproduction of experimental results by other labs:} No systematic evaluation. We have changed the book when we happen across published replication failures.
@@ -895,6 +914,31 @@ We applied these checks on the validity of our references while writing this boo
 \end{itemize}
 
 Basically none of the psychology articles we cite have established causation beyond all reasonable doubt. We also don't generally cite effect sizes.
+
+\subsection*{Major Unresolved Issues}
+\begin{itemize}
+    \item We are not clear why MDMA therapy facilitates prediction error for some schemas but not others, and why the schemas it tends to reconsolidate are casually or therapeutically identifiable as \textit{maladaptive.} It's also not clear what exactly \textit{maladaptive} means in this context. A process can only be adaptive or maladaptive in relation to a goal or optimization function. Predictive processing posits that the brain's fundamental optimization function is minimization of prediction error, but it remains to be seen which particular sources of prediction error that function contains in most people~\cite{clark2015surfing}. Some near-immutable intrinsic sources of prediction error for almost everyone may include hunger, thirst, pain, companionship, etc., and the future fulfillment of these. MDMA therapy may optimize schemas according to your existing set of fundamental errors or to some MDMA-modified set. \cref{ppHypotheses} lists some hypotheses about why MDMA facilitates prediction error for maladaptive schemas.
+
+    In our experience, MDMA therapy seems to produce, in the long term, changes that both the individual and their emotionally healthy friends and therapists think are positive developments\footnote{High-control communities and abusers may be unhappy about increases in independence. Likewise, communities that form an identity around their fear, hatred, or subjugation of an out-group may be unhappy about increased compassion for the out-group.}. In this book we use the terms \textit{maladaptive} and \textit{adaptive} casually in this sense.
+    \item How does a schema's emotional component fit into the predictive processing framework?
+    \item Destabilization seems associated with severe complex trauma or severe attachment issues, but besides that, we don't know how to predict an individual's risk. It's also uncertain when more MDMA therapy will reduce or increase existing destabilization. It's not even clear to what degree these uncertainties are conceptually resolvable; they could be computationally intractable even with perfect information, which itself is impossible to acquire. See \cref{sec:complex} for more information.
+    \item We don't know when or why MDMA therapy might not work for someone, apart from the somewhat-known factors of immobility, avoidance, and recent use of SSRIs and SNRIs. There may be unknown but necessary factors in addition to the right dose of MDMA, activation of a maladaptive schema, and non-avoidance.
+    \item How does a schema map to priors, possibly in multiple pathways like sensory modeling and reward?
+\end{itemize}
+
+\subsection*{Reasons to be Skeptical}
+We hope we are not doing \enquote{cargo cult science}, but that is difficult to evaluate from a first-person perspective~\cite{feynmanCargo}! We know of the following weak points while acknowledging that we could easily be avoiding the book's real weak points~\cite{yudkowskiWeak}.
+\begin{itemize}
+    \item Our theoretical integration of MDMA therapy, complex systems dynamics, memory reconsolidation, prediction error, attention, and the defense cascade appears novel despite each piece and some combinations of the pieces being fairly well established. The application of that integrated framework to a practical guide and MDMA therapy is also largely novel. Novel frameworks are usually incorrect to some degree even when their authors find them convincing. Reality is certainly more complex than our model, though we don't know by how much.
+    \item Frequent reliance on anecdotes or personal experience that might not reflect how MDMA therapy works for a wider range of people.
+    \item We both have maladaptive schemas that we have written into the book's subtext.
+    \item Most MDMA therapy researchers are MDMA enthusiasts~\cite{jylkka2025researcherExperiences}.
+    \item The MAPS clinical trials had some methodological flaws, though it's unclear how bad they were compared to the norm.
+    \item M.G. is an MDMA therapy enthusiast because it saved their life.
+    \item Our model has major missing gaps regarding the kind of mental illness we focus on, like why antidepressants help some people.
+    \item There is a missing explanatory gap for MDMA therapy. We think the known causal chain is approximately, (some) known effects on neurotransmitters → ???? → (apparent) prediction error for any activated maladaptive schema, where the ???? may be multiple steps.
+    \item Extraordinary claims require extraordinary evidence. We think that one thing, a limited course of MDMA therapy, can durably resolve most symptoms of most mental illnesses, excluding disorders with clear biological or medical causes, for most people. To be fair, it's never actually been established that most mental illnesses don't have a common core. The DSM and ICD--CDDR don't theorize or assess etiology. We're not contradicting any established evidence, just some traditional views.
+\end{itemize}
 
 \section*{Core Assumptions}
 The following assumptions are the foundation of this book as we see it. The list might be missing some important assumptions that we either haven't noticed or haven't identified as critical. Note that we don't have the deep expertise to really evaluate the mechanism of action of these phenomena, instead relying on other researchers' summaries. Obviously, different people will have significantly different assessments of how likely each of these assumptions is.
@@ -935,33 +979,6 @@ The following assumptions are the foundation of this book as we see it. The list
 	\item MDMA does not directly cause significant post-acute cognitive issues with low-medium doses in therapeutic contexts. Certainty -- medium/high. One well-done observational study of recreational use (median of 44 occasions) gave recreational users a battery of 15 neuropsychological tests~\cite{halpernMormonRavers}. That ruled out high levels of cognitive deficit but didn't have the statistical power to rule out low-moderate effects for heavy users. One small randomized study of MDMA therapy also did not find any significant cognitive effects~\cite{mithoeferSafety}. Animal studies and one particularly good observational study in humans do indicate that large numbers of high-dose sessions do cause long-term cognitive impairment~\cite{corayMemory}. Surfacing of traumatic material may also occasionally cause immobility-induced or panic-induced cognitive impairment. \textcite{wolfgang2025,passieHistory} discusses the issue in further detail.
 \end{itemize}
 
-\subsection*{Major Unresolved Issues}
-\begin{itemize}
-    \item We are not clear why MDMA therapy facilitates prediction error for some schemas but not others, and why the schemas it tends to reconsolidate are casually or therapeutically identifiable as \textit{maladaptive.} It's also not clear what exactly \textit{maladaptive} means in this context. A process can only be adaptive or maladaptive in relation to a goal or optimization function. Predictive processing posits that the brain's fundamental optimization function is minimization of prediction error, but it remains to be seen which particular sources of prediction error that function contains in most people~\cite{clark2015surfing}. Some near-immutable intrinsic sources of prediction error for almost everyone may include hunger, thirst, pain, companionship, etc., and the future fulfillment of these. MDMA therapy may optimize schemas according to your existing set of fundamental errors or to some MDMA-modified set. \cref{ppHypotheses} lists some hypotheses about why MDMA facilitates prediction error for maladaptive schemas.
-
-    In our experience, MDMA therapy seems to produce, in the long term, changes that both the individual and their emotionally healthy friends and therapists think are positive developments\footnote{High-control communities and abusers may be unhappy about increases in independence. Likewise, communities that form an identity around their fear, hatred, or subjugation of an out-group may be unhappy about increased compassion for the out-group.}. In this book we use the terms \textit{maladaptive} and \textit{adaptive} casually in this sense.
-
-    % A deeper issue of epistemic circularity is fundamentally unavoidable in the healing process and in life in general~\cite{epistemicCircularity}. Reconsolidation changes schemas, but schemas are also the beliefs and actions that prompt you to seek healing in the first place, evaluate whether reconsolidation was helpful, and evaluate whether to continue. The reconsolidation process is not special or unusual in this regard; all experience and action changes the brain, and the changed brain then evaluates those experiences and actions through the changed set of schemas~\cite{clark2015surfing}. The brain/schemas, in their interaction with the world, are ever-changing self-modeling loops of action, perception, prediction, and beliefs. There is no conceivable viewpoint or perspective that is truly objective and from which a process or change can be assessed without bias~\cite{epistemicCircularity}. Professional assistance doesn't resolve this either, because they are their own bundle of schemas, and your schemas are evaluating their trustworthiness.
-    \item How does a schema's emotional component fit into the predictive processing framework?
-    \item Destabilization seems associated with severe complex trauma or severe attachment issues, but besides that, we don't know how to predict an individual's risk. It's also uncertain when more MDMA therapy will reduce or increase existing destabilization. It's not even clear to what degree these uncertainties are conceptually resolvable; they could be computationally intractable even with perfect information, which itself is impossible to acquire. See \cref{sec:complex} for more information.
-    \item We don't know when or why MDMA therapy might not work for someone, apart from the somewhat-known factors of immobility, avoidance, and recent use of SSRIs  SNRIs. There may be unknown but necessary factors in addition to the right dose of MDMA, activation of a maladaptive schema, and non-avoidance.
-    \item How does a schema map to priors, possibly in multiple pathways like sensory modeling and reward?
-\end{itemize}
-
-\subsection*{Reasons to be Skeptical}
-We hope we are not doing \enquote{cargo cult science}, but that is difficult to evaluate from a first person perspective~\cite{feynmanCargo}! We know of the following weak points while acknowledging that we could easily be avoiding the book's real weak points~\cite{yudkowskiWeak}.
-\begin{itemize}
-    \item Our theoretical integration of MDMA therapy, complex systems dynamics, memory reconsolidation, prediction error, attention, and the defense cascade appears novel despite each piece and some combinations of the pieces being fairly well established. The application of that integrated framework to a practical guide and MDMA therapy is also largely novel. Novel frameworks are usually incorrect to some degree even when their authors find them convincing. Reality is certainly more complex than our model, though we don't know by how much.
-    \item Frequent reliance on anecdotes or personal experience that might not reflect how MDMA therapy works for a wider range of people.
-    \item We both have maladaptive schemas that we have written into the book's subtext.
-    \item Most MDMA therapy researchers are MDMA enthusiasts~\cite{jylkka2025researcherExperiences}.
-    \item The MAPS clinical trials had some methodological flaws, though it's unclear how bad they were compared to the norm.
-    \item M.G. is an MDMA therapy enthusiast because it saved their life.
-    \item Our model has major missing gaps regarding the kind of mental illness we focus on, like why antidepressants help some people.
-    \item There is a missing explanatory gap for MDMA therapy. We think the known causal chain is approximately, (some) known effects on neurotransmitters → ???? → (apparent) prediction error for any activated maladaptive schema, where the ???? may be multiple steps.
-    \item Extraordinary claims require extraordinary evidence. We think that one thing, a limited course of MDMA therapy, can durably resolve most symptoms of most mental illnesses, excluding disorders with clear biological or medical causes, for most people. To be fair, it's never actually been established that most mental illnesses don't have a common core. The DSM and ICD--CDDR don't theorize or assess etiology. We're not contradicting any established evidence, just some traditional views.
-\end{itemize}
-
 \chapter{Practical Considerations}
 \section{The Big Picture, Long-Term Process of Healing}
 \label{bigPicture}
@@ -979,15 +996,15 @@ Unconscious avoidance and lack of understanding about what improvements are poss
 \label{sec:safety}
 MDMA is often considered a risky substance due to its illegality, adulterants, and association with occasional deaths in recreational contexts. However, the vast majority of these risks are easily avoided by taking the right precautions or not doing MDMA therapy if you have certain risk factors~\cite{riggDeaths,malcolmSerotonin}. This section covers the significant drug interactions, medical contraindications, and psychological risks. Here is a summary of how to avoid or prepare for the most significant risks (in therapeutic contexts) discussed in the literature, detailed later:
 
-\paragraph{Always avoid:} (high risk of death or irreversible damage)
+\paragraph{Always Avoid (significant risk of death or irreversible damage):}
 \begin{itemize}
     \item MAOIs and ayahuasca
     \item ritonavir, cobicistat, or HIV drugs that contain them
     \item combined lifetime use of MDMA and medium--high dose psychedelics over 125 tablets\footnote{This number is extremely imprecise, but as described below, there isn't any better data.}
-    \item hyperthyroidism that isn't \enquote{well managed and mild} \todo{Mild while treated or mild in a hypothetical untreated state?}, as assessed by a doctor
+    \item hyperthyroidism that isn't \enquote{well managed and mild,} \todo{Mild while treated or mild in a hypothetical untreated state?} as assessed by a doctor
 \end{itemize}
 
-\paragraph{Use caution with:} (continue reading for further assessment)\todo{I left off lithium because \textcite{liechtiInteractions} says its low risk and I couldn't find a single case report or internet anecdote of the combination causing issues without major exacerbating factors.}
+\paragraph{Use Caution With (continue reading for further assessment):}\todo{I left off lithium because \textcite{liechtiInteractions} says its low risk and I couldn't find a single case report or internet anecdote of the combination causing issues without major exacerbating factors.}
 \begin{itemize}
     \item a family or personal history of psychosis or mania
     \item a history of addiction to amphetamines or cocaine
@@ -999,7 +1016,7 @@ MDMA is often considered a risky substance due to its illegality, adulterants, a
     \item a history of bad reactions to amphetamines
 \end{itemize}
 
-\paragraph{Take precaution:}
+\paragraph{Take Precaution:}
 \begin{itemize}
     \item Don't drink more than 0.5\,L of water during the six hours of the session unless you need to replace large amounts of sweat.
     \item Avoid SSRIs and SNRIs for 2\,months (ideally) prior.

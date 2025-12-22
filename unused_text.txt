@@ -2394,4 +2394,39 @@ The interview was informal and didn't use any of the formal bias-reduction techn
 
  It contains very little individually original research or insights.
 
- 
+
+
+
+
+
+A limited course of MDMA therapy is generally well-tolerated for healthy people, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks:
+
+\paragraph{Always avoid:}
+\begin{itemize}
+    \item Taking irreversible MAOIs within 2\,weeks before a session or within a few days after. Also taking reversible MAOIs, like those in ayahuasca, within 2--3\,days before a session. This is potentially deadly.
+    \item Extremely high lifetime use of MDMA and psychedelics. Over 250\,tablets risks heart valve disease.
+    \item Taking ritonavir or cobicistat or HIV drugs that contain them. This is potentially deadly.
+    \item Hyperthyroidism that isn't \enquote{well-managed and mild.}
+\end{itemize}
+
+\paragraph{Use caution with:}
+\begin{itemize}
+    \item Co-use with other psychiatric drugs. This is unlikely to be dangerous but may increase side effects or decrease (SSRIs in particular) the therapeutic effect.
+    \item Drinking significantly more than perhaps 0.5\,L of water during the six hours of the session unless you need to replace large amounts of sweat. Drinking as desired, even just lying on a couch in comfortable temperatures, frequently causes mild hyponatremia (low plasma sodium) when on MDMA. Adding electrolytes probably won't help.
+    \item A number of higher-dose sessions or high session frequency. There's an unclear possibility that this causes long-term cognitive impairment, though the specifics are unknown. In the face of this uncertainty, take extra care to find your minimum effective dose, possibly skip booster doses, and minimize co-use of caffeine when doing more than a handful of sessions. Antioxidant supplements may help as well; see \textcite{baggottSupplements}.
+    \item Existing liver or cardiovascular problems. The risk is unclear. Consult a doctor and bring the relevant section of the MAPS pharmaceutical investigator's brochure (\textcite{mapsInvestigatorBrochure}) with you for them to review.
+    \item Unusually high doses. The risk is unclear.
+    \item Possibly poorly understood or rare interactions with certain health conditions.
+    \item A history of psychosis, mania, or serious amphetamine/cocaine addiction. The risk is high, but it may not be an absolute contraindication.
+    \item Adulterated pills. The risk is unclear and varies by adulterant. The presence of some common adulterants can be checked with reagent test kits (\textcite{testKitSuppliers} maintains a list of suppliers). Laboratory testing is much better (\textcite{testingLabs} maintains a list of labs). It measures the amount of MDMA and all other ingredients but is harder to access depending on where you live.
+\end{itemize}
+
+Putting this in perspective, one panel of drug-misuse experts estimated that MDMA poses a significantly lower overall health risk than marijuana and far less than alcohol. That's even in recreational contexts where users are likely not as cautious as they should be of risks. However, anyone undergoing MDMA therapy has a higher chance of destabilization than the average recreational user.
+
+Do not use MDMA with any other drug or drug without first establishing that the combination is safe. Consult \textcite{liechtiInteractions} for many interactions with psychiatric drugs.
+
+As an absolute bare minimum, wait a few days to completely recover from the side effects of the last one. A more reasonable frequency is likely somewhere between a few weeks and a few months. If you're on the more frequent end of that spectrum, take extra care to follow the risk-reduction steps listed below in the bullet point about cognitive impairment.
+
+    % A deeper issue of epistemic circularity is fundamentally unavoidable in the healing process and in life in general~\cite{epistemicCircularity}. Reconsolidation changes schemas, but schemas are also the beliefs and actions that prompt you to seek healing in the first place, evaluate whether reconsolidation was helpful, and evaluate whether to continue. The reconsolidation process is not special or unusual in this regard; all experience and action changes the brain, and the changed brain then evaluates those experiences and actions through the changed set of schemas~\cite{clark2015surfing}. The brain/schemas, in their interaction with the world, are ever-changing self-modeling loops of action, perception, prediction, and beliefs. There is no conceivable viewpoint or perspective that is truly objective and from which a process or change can be assessed without bias~\cite{epistemicCircularity}. Professional assistance doesn't resolve this either, because they are their own bundle of schemas, and your schemas are evaluating their trustworthiness.
+
+\paragraph{We applied these checks on the validity of our references while writing this book:}
