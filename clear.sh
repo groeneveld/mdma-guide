@@ -1,7 +1,7 @@
-rm temp/*
+rm -r temp/*
 rm -rf `biber --cache`
 rm "Open MDMA.PDF"
 rm "Open MDMA.tex"
 rm paper.pdf
 rm plain-summary.md
-rm book.epub
+rm Open MDMA.epub

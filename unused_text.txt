@@ -2430,3 +2430,22 @@ As an absolute bare minimum, wait a few days to completely recover from the side
     % A deeper issue of epistemic circularity is fundamentally unavoidable in the healing process and in life in general~\cite{epistemicCircularity}. Reconsolidation changes schemas, but schemas are also the beliefs and actions that prompt you to seek healing in the first place, evaluate whether reconsolidation was helpful, and evaluate whether to continue. The reconsolidation process is not special or unusual in this regard; all experience and action changes the brain, and the changed brain then evaluates those experiences and actions through the changed set of schemas~\cite{clark2015surfing}. The brain/schemas, in their interaction with the world, are ever-changing self-modeling loops of action, perception, prediction, and beliefs. There is no conceivable viewpoint or perspective that is truly objective and from which a process or change can be assessed without bias~\cite{epistemicCircularity}. Professional assistance doesn't resolve this either, because they are their own bundle of schemas, and your schemas are evaluating their trustworthiness.
 
 \paragraph{We applied these checks on the validity of our references while writing this book:}
+
+
+
+        \vspace{1em}
+
+        \includegraphics[width=0.6\textwidth]{auxillaryFiles/safrole}
+        \caption{Structure of Safrole.}
+        \label{fig:safrole}
+
+        \vspace{1em}
+
+        \includegraphics[width=0.6\textwidth]{auxillaryFiles/piperonol}
+        \caption{Structure of Piperonal.}
+        \label{fig:piperonal}
+
+\textit{International Classification of Diseases -- Clinical Descriptions and Diagnostic Guidelines} (
+
+\chemfig{*6(-=-(--[::-60]=[::60])=-(*5(-O--O-))=)}
+\chemfig{*6(-=-(-=[::-60]O)=-(*5(-O--O-))=)}

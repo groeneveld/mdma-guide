@@ -72,13 +72,14 @@ class AuxParser:
         # Parse \newlabel{label@cref} entries for cleveref
         # Format: \newlabel{label@cref}{{[type][num1][num2]number}{...}{title}{...}{}}
         # Example: \newlabel{essentials@cref}{{[section][1][2]2.1}{...}}
-        cref_pattern = r'\\newlabel\{([^@}]+)@cref\}\{\{(\[([^\]]+)\][^\}]*?)(\d+(?:\.\d+)*)\}'
+        # Example: \newlabel{internalizedReports@cref}{{[appendix][1][]A}{...}}
+        cref_pattern = r'\\newlabel\{([^@}]+)@cref\}\{\{(\[([^\]]+)\][^\}]*?)([A-Z0-9]+(?:\.[0-9]+)*)\}'
         for match in re.finditer(cref_pattern, content):
             label_name = match.group(1)
-            ref_type = match.group(3)  # e.g., "section", "chapter", "table"
-            number = match.group(4)     # e.g., "2.1", "3"
+            ref_type = match.group(3)  # e.g., "section", "chapter", "table", "appendix"
+            number = match.group(4)     # e.g., "2.1", "3", "A", "B"
 
-            # Format as "Section 2.1", "Chapter 3", "Table 1", etc.
+            # Format as "Section 2.1", "Chapter 3", "Table 1", "Appendix A", etc.
             formatted = f"{ref_type.capitalize()} {number}"
             self.cref_labels[label_name] = formatted
 
@@ -264,19 +265,6 @@ class RefExpander:
         self.aux = aux_parser
         self.bbl = bbl_parser
 
-        # Map chemfig structures to their corresponding SVG files
-        self.chemfig_map = {
-            # MDMA structure
-            r'\chemfig{*6(-=-(--[::-60](-NH-[::-60])-[::-60])=-(*5(-O--O-))=)}':
-                r'\\includegraphics[width=0.8\\textwidth]{auxillaryFiles/mdma.svg}',
-            # Safrole structure
-            r'\chemfig{*6(-=-(--[::-60]=[::60])=-(*5(-O--O-))=)}':
-                r'\\includegraphics[width=0.8\\textwidth]{auxillaryFiles/safrole.svg}',
-            # Piperonal structure (note: file is named piperonol.svg)
-            r'\chemfig{*6(-=-(-=[::-60]O)=-(*5(-O--O-))=)}':
-                r'\\includegraphics[width=0.8\\textwidth]{auxillaryFiles/piperonol.svg}',
-        }
-
     def expand_cref(self, match):
         """Expand \cref{label} command, handling comma-separated references."""
         labels_str = match.group(1)
@@ -387,8 +375,6 @@ class RefExpander:
             'combinedcref': 0,
             'prosecite': 0,
             'textcite': 0,
-            'chemfig': 0,
-            'chemfig_split': 0
         }
 
         # Expand \cref{label}
@@ -427,57 +413,6 @@ class RefExpander:
         content = re.sub(r'~\\parencite\{', r' \\parencite{', content)
         content = re.sub(r'~\\textcite\{', r' \\textcite{', content)
 
-        # Replace chemfig commands with SVG images
-        for chemfig_cmd, svg_include in self.chemfig_map.items():
-            # Escape special regex characters in the chemfig command
-            pattern = re.escape(chemfig_cmd)
-            count_before = len(re.findall(pattern, content))
-            content = re.sub(pattern, svg_include, content)
-            stats['chemfig'] += count_before
-
-        # Split the multi-figure chemfig block into separate figures
-        # Find the specific figure block with all three chemical structures
-        # Use \s* to match any whitespace flexibly
-        figure_pattern = (
-            r'(\\FloatBarrier\s*\\begin\{figure\}\[htbp\]\s*\\centering\s*)'
-            r'\\includegraphics\[width=0\.8\\textwidth\]\{auxillaryFiles/mdma\.svg\}\s*'
-            r'\\caption\{Structure of MDMA\.\}\s*'
-            r'\\label\{fig:mdma\}\s*'
-            r'\\vspace\{1em\}\s*'
-            r'\\includegraphics\[width=0\.8\\textwidth\]\{auxillaryFiles/safrole\.svg\}\s*'
-            r'\\caption\{Structure of Safrole\.\}\s*'
-            r'\\label\{fig:safrole\}\s*'
-            r'\\vspace\{1em\}\s*'
-            r'\\includegraphics\[width=0\.8\\textwidth\]\{auxillaryFiles/piperonol\.svg\}\s*'
-            r'\\caption\{Structure of Piperonal\.\}\s*'
-            r'\\label\{fig:piperonal\}\s*'
-            r'(\\end\{figure\}\s*\\FloatBarrier)'
-        )
-
-        replacement = r'''\1\\includegraphics[width=0.8\\textwidth]{auxillaryFiles/mdma.svg}
-        \\caption{Structure of MDMA.}
-        \\label{fig:mdma}
-        \\end{figure}
-        \\FloatBarrier
-
-        \\begin{figure}[htbp]
-        \\centering
-        \\includegraphics[width=0.8\\textwidth]{auxillaryFiles/safrole.svg}
-        \\caption{Structure of Safrole.}
-        \\label{fig:safrole}
-        \\end{figure}
-        \\FloatBarrier
-
-        \\begin{figure}[htbp]
-        \\centering
-        \\includegraphics[width=0.8\\textwidth]{auxillaryFiles/piperonol.svg}
-        \\caption{Structure of Piperonal.}
-        \\label{fig:piperonal}
-        \2'''
-
-        content = re.sub(figure_pattern, replacement, content, flags=re.DOTALL)
-        stats['chemfig_split'] = 1 if '\end{figure}\n        \\FloatBarrier\n\n        \\begin{figure}[htbp]\n        \\centering\n        \\includegraphics[width=0.8\\textwidth]{auxillaryFiles/safrole.svg}' in content else 0
-
         # Write output
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(content)
@@ -488,8 +423,6 @@ class RefExpander:
         print(f"  \\combinedcref: {stats['combinedcref']} replacements")
         print(f"  \\prosecite: {stats['prosecite']} replacements")
         print(f"  \\textcite: {stats['textcite']} conversions")
-        print(f"  \\chemfig: {stats['chemfig']} replacements")
-        print(f"  chemfig figure split: {'Yes' if stats['chemfig_split'] else 'No'}")
         print(f"\nOutput written to: {output_path}")
 
 
