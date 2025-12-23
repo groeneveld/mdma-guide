@@ -4,3 +4,4 @@ rm "Open MDMA.PDF"
 rm "Open MDMA.tex"
 rm paper.pdf
 rm plain-summary.md
+rm book.epub
