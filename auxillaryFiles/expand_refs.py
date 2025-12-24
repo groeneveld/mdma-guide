@@ -7,9 +7,11 @@ This script takes paper.tex and expands:
 - \cref{label1,label2} -> "Section 2.1 and Section 3.4"
 - \combinedref{label} -> "number (title)"
 - \combinedcref{label} -> "formatted (title)"
+- \nameref{label} -> "title" (hyperlinked)
+- \nameref*{label} -> "title" (not hyperlinked)
 - \prosecite{key} -> "Title by Author [citation_number]"
 - \textcite{key} -> "LastName \cite{key}" (for EPUB: "Smith [24]")
-- \textcite{key1,key2,...} -> \parencite{key1,key2,...} (multi-key only)
+- \textcite{key1,key2,...} -> \textcite{key1}\textcite{key2}... (multi-key expanded)
 
 Output is written to temp/paper_expanded.tex
 
@@ -301,26 +303,46 @@ class RefExpander:
                 return ', '.join(expanded[:-1]) + f', and {expanded[-1]}'
 
     def expand_combinedref(self, match):
-        """Expand \combinedref{label} command with hyperlink."""
+        """Expand \combinedref{label} command with hyperlink on number only."""
         label = match.group(1)
         if label in self.aux.labels:
             info = self.aux.labels[label]
             number = info['number']
             title = info['title']
-            return f"\\hyperref[{label}]{{{number} ({title})}}"
+            # Only hyperlink the number, not the title
+            return f"\\hyperref[{label}]{{{number}}} ({title})"
         else:
             return f"\\combinedref{{{label}}}"  # Keep original if not found
 
     def expand_combinedcref(self, match):
-        """Expand \combinedcref{label} command with hyperlink."""
+        """Expand \combinedcref{label} command with hyperlink on formatted part only."""
         label = match.group(1)
         formatted = self.aux.cref_labels.get(label, self.aux.labels.get(label, {}).get('number', label))
         title = self.aux.labels.get(label, {}).get('title', '')
 
         if title:
-            return f"\\hyperref[{label}]{{{formatted} ({title})}}"
+            # Only hyperlink the formatted reference, not the title
+            return f"\\hyperref[{label}]{{{formatted}}} ({title})"
         else:
             return f"\\combinedcref{{{label}}}"  # Keep original if not found
+
+    def expand_nameref(self, match):
+        """Expand \nameref{label} command with hyperlink."""
+        label = match.group(1)
+        if label in self.aux.labels:
+            title = self.aux.labels[label]['title']
+            return f"\\hyperref[{label}]{{{title}}}"
+        else:
+            return f"\\nameref{{{label}}}"  # Keep original if not found
+
+    def expand_nameref_star(self, match):
+        """Expand \nameref*{label} command without hyperlink."""
+        label = match.group(1)
+        if label in self.aux.labels:
+            title = self.aux.labels[label]['title']
+            return title  # Just the title, no hyperlink
+        else:
+            return f"\\nameref*{{{label}}}"  # Keep original if not found
 
     def expand_prosecite(self, match):
         """Expand \prosecite{key} command with regular citation."""
@@ -337,7 +359,7 @@ class RefExpander:
         Expand \textcite{key1,key2,...} commands.
 
         Single-key textcite: Convert to "LastName \cite{key}" for EPUB
-        Multi-key textcite: Convert to \parencite for proper parenthetical formatting
+        Multi-key textcite: Expand into multiple "LastName \cite{key}" citations
         """
         keys_str = match.group(1)
         keys = [k.strip() for k in keys_str.split(',')]
@@ -352,9 +374,22 @@ class RefExpander:
                 # Fallback if author not found
                 return f"\\cite{{{key}}}"
         else:
-            # Multiple keys - convert to parencite for proper formatting
-            # This ensures proper linking and punctuation in EPUB output
-            return f"\\parencite{{{keys_str}}}"
+            # Multiple keys - expand each to "LastName \cite{key}" format
+            expanded = []
+            for key in keys:
+                lastname = self.bbl.get_first_author_lastname(key)
+                if lastname:
+                    expanded.append(f"{lastname} \\cite{{{key}}}")
+                else:
+                    # Fallback if author not found
+                    expanded.append(f"\\cite{{{key}}}")
+
+            # Join with "and" between items
+            if len(expanded) == 2:
+                return f"{expanded[0]} and {expanded[1]}"
+            else:
+                # For 3+ items, use commas and "and" for the last one
+                return ', '.join(expanded[:-1]) + f', and {expanded[-1]}'
 
     def process_file(self, input_path, output_path):
         """Process input file and write expanded version to output."""
@@ -373,6 +408,8 @@ class RefExpander:
             'cref': 0,
             'combinedref': 0,
             'combinedcref': 0,
+            'nameref': 0,
+            'nameref_star': 0,
             'prosecite': 0,
             'textcite': 0,
         }
@@ -394,6 +431,18 @@ class RefExpander:
             stats['combinedcref'] += 1
             return self.expand_combinedcref(match)
         content = re.sub(r'\\combinedcref\{([^}]+)\}', count_combinedcref, content)
+
+        # Expand \nameref*{label} - must be processed BEFORE \nameref
+        def count_nameref_star(match):
+            stats['nameref_star'] += 1
+            return self.expand_nameref_star(match)
+        content = re.sub(r'\\nameref\*\{([^}]+)\}', count_nameref_star, content)
+
+        # Expand \nameref{label}
+        def count_nameref(match):
+            stats['nameref'] += 1
+            return self.expand_nameref(match)
+        content = re.sub(r'\\nameref\{([^}]+)\}', count_nameref, content)
 
         # Expand \prosecite{key}
         def count_prosecite(match):
@@ -421,6 +470,8 @@ class RefExpander:
         print(f"  \\cref: {stats['cref']} replacements")
         print(f"  \\combinedref: {stats['combinedref']} replacements")
         print(f"  \\combinedcref: {stats['combinedcref']} replacements")
+        print(f"  \\nameref: {stats['nameref']} replacements")
+        print(f"  \\nameref*: {stats['nameref_star']} replacements")
         print(f"  \\prosecite: {stats['prosecite']} replacements")
         print(f"  \\textcite: {stats['textcite']} conversions")
         print(f"\nOutput written to: {output_path}")

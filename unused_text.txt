@@ -2449,3 +2449,5 @@ As an absolute bare minimum, wait a few days to completely recover from the side
 
 \chemfig{*6(-=-(--[::-60]=[::60])=-(*5(-O--O-))=)}
 \chemfig{*6(-=-(-=[::-60]O)=-(*5(-O--O-))=)}
+
+ (3,4-methylenedioxymethamphetamine)
