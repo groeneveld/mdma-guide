@@ -300,7 +300,7 @@ def main():
             content_before_brace = entry_text[:last_brace].rstrip()
 
             # Use full path for file field
-            file_path = PAPERS_DIR + filename
+            file_path = ":" + PAPERS_DIR + filename + ":"
 
             if needs_comma:
                 # Add comma to end of last line, then add file field

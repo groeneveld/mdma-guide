@@ -2451,3 +2451,44 @@ As an absolute bare minimum, wait a few days to completely recover from the side
 \chemfig{*6(-=-(-=[::-60]O)=-(*5(-O--O-))=)}
 
  (3,4-methylenedioxymethamphetamine)
+
+ The Claude 4 large language models were accurate, clear, and helpful in our testing. ChatGPT-5 and Gemini 2.5 Pro gave much worse results, and we don't recommend using them. 
+
+ Claude can probably also translate and respond in your choice of language.
+
+  Removing the bibliography from the PDF before uploading it will reduce the file size and allow you more questions before you hit usage limits.
+
+ A number of licensed therapists and underground psychedelic guides have appeared in the news for boundry violation~\cite{powerTrip}.   
+
+ MDMA adds a source of intense safety, compassion, and connection to a therapeutic session without the strong loss of self, hallucinations, or traumatizing experiences that LSD, DMT, or mushrooms can sometimes create. These emotional states make the engagement and unlearning of maladaptive patterns easier and more productive. MDMA's properties make therapeutic progress simpler than traditional psychotherapy. People often make major therapeutic progress when all they do is take the medicine in a relatively safe environment and emotionally (not just intellectually) engage with maladaptive beliefs or trauma responses. A therapeutic framework (e.g., CBT or IFS) or a highly attuned therapist is not necessary. However, a structured and safe container definitely increases the chances of benefit and reduces risk. Most obviously, this container includes skilled, ethical, and well-matched professional assistance in addition to preparatory and follow-up sessions. MDMA's capacity for powerful and rapid therapeutic progress is also associated with a capacity for intense destabilization in those with severe complex trauma.
+
+ MDMA broadens the window of tolerance, such that some degree of panic, resistance, or dissociation is not a barrier to effective unlearning of maladaptive patterns during the session. Higher degrees of panic, resistance, or dissociation may still pose difficulty~\cite{razviPresentation}.
+
+MDMA has a few serious medical and drug contraindications, and additional caution and support are warranted in clients with a history dangerous or difficult-to-manage symptoms. It is generally safe and non-addictive in therapeutic contexts. See \cref{sec:safety} for more information.
+
+\textcite{ecker2015misunderstood} provides an important complementary resource addressing common misunderstandings and clarifies some fundamental mechanisms.
+
+ by providing better information to therapists, guides, and clients.
+
+ the pseudonymous blogger duo 
+
+ (one of whom is a cognitive scientist and statistician)
+
+     \item relationship conflicts (historical practice by therapists) \cite{passieHistory}
+
+    \item[Reduced Precision Weighting of Social Priors] MDMA might relax all socially or relationally relevant priors~\cite{carhart2019rebus}. Therapeutically relevant maladaptive priors might largely fall into this category. Lowered precision of priors makes regular sensory information relatively strong enough to update them when attention is brought to those priors.
+    \item[Increased Precision Weighting of Sensory Information] MDMA, along with meditation and psychedelics, increases the precision weighting of sensory information. This signal is strong enough to update away any maladaptive priors when those priors are also activated.
+
+
+    \item[Increased Precision Weighting of Sensory Information] MDMA, along with meditation and psychedelics, increases the precision weighting of sensory information. This signal is strong enough to update away any maladaptive priors when those priors are also activated.
+    
+    \textit{Supporting Evidence:} External stimuli can be more interesting on MDMA.
+
+    \textit{Contradictory Evidence:} People don't seem to be paying attention to external or bodily stimuli while intensely engaging with maladaptive priors, and, for instance, lying on a couch with an eye mask on.
+
+ Testing them would require fleshing them out more and formalizing them. 
+
+
+    
+    Alternatively, existential safety may be the base state of perception when MDMA turns off some pervasive swath of ever-present prediction error. In either case, the safety is relatively strong enough to update any maladaptive priors with aberrantly high-precision weighting when attention is brought to those priors.
+
