@@ -56,7 +56,7 @@ The `gls.py` script is central to the build process:
 The build process requires:
 - LaTeX distribution with pdflatex, biber, makeglossaries
 - Python 3 for gls.py script
-- tex4ebook for EPUB generation (optional)
+- pandoc for EPUB generation (optional)
 
 ### Glossary Processing
 - Terms are only replaced once per section

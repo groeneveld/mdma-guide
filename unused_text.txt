@@ -2492,3 +2492,18 @@ MDMA has a few serious medical and drug contraindications, and additional cautio
     
     Alternatively, existential safety may be the base state of perception when MDMA turns off some pervasive swath of ever-present prediction error. In either case, the safety is relatively strong enough to update any maladaptive priors with aberrantly high-precision weighting when attention is brought to those priors.
 
+ It seems like one has to be both a specialist in the field and have expertise in causal statistical methods to even evaluate study quality and significance.
+
+
+    
+    the data from one trial participant was not excluded from their data set. The second was that It was retracted for a few reasons~\cite{feduccia2024retraction,nytimesRetraction}. A study therapist sexually abused one trial participant. The researchers knew about this but failed to report it and remove that participant's data from the analysis. They also failed to disclose conflicts of interest. These are major ethical breaches. We still cite the paper because it's the only source of rigorous data on this important phenomenon that we are aware of. Additionally, the effect size was so large that one changed data point wouldn't have significantly changed the outcome. We also don't see an obvious financial conflict regarding the interaction of SSRIs and MDMA.
+
+\textcite{carhart2019rebus} speculates that afterglow is an enduring but temporary relaxation of high-level schemas.
+
+
+
+We could not find any high-quality evidence of MDMA-induced post-session neuroplasticity\footnote{Two weeks is the length of time of a certain type of increased neuroplasticity that \textcite{nardouMDMAPlasticity} found following MDMA dosing in mice. However, that lab's results with psilocybin failed to replicate in a large multi-site replication effort, calling their MDMA results into question too~\cite{Lu2025noplasticity}.}, 
+
+ The following assumes that MDMA therapy works as we believe it does and that it isn't just a particularly effective placebo that may stop working when people's expectations for it subside.
+
+ 

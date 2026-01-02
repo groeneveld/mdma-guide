@@ -7,26 +7,24 @@ A comprehensive tool for academic citation management that helps verify and vali
 citations in LaTeX documents. This script provides two main functions:
 
 1. **Citation Inventory Generation**: Creates a detailed inventory of all citations
-   in your LaTeX paper, matching them to PDF files and DOIs
+   in your LaTeX paper, reading file paths directly from references.bib
 2. **Citation Validation**: Uses Claude Code AI to verify that citations accurately
    support the claims made in your academic text
 
 FEATURES:
 ---------
 • Scans LaTeX files for \cite{} and \textcite{} patterns
-• Extracts DOIs from PDF files in your papers directory
-• Matches citation keys to filenames automatically
+• Reads file paths directly from references.bib file field
 • Generates structured citation inventory with file availability status
 • AI-powered validation of citation accuracy using Claude Code
-• Preserves previously analyzed citations to avoid duplicate work
 • Parallel processing for improved performance
 
 REQUIREMENTS:
 -------------
 • Python 3.6+
-• PyMuPDF (pip install PyMuPDF) - for PDF DOI extraction
 • Claude Code CLI (https://claude.ai/code) - for citation validation
 • LaTeX project with references.bib and paper.tex files
+• references.bib entries must include 'file' field with paths to PDFs
 
 USAGE:
 ------
@@ -37,29 +35,25 @@ Citation validation (requires Claude Code):
     python3 citation_verifier.py -verify
 
 The script will:
-1. Parse your references.bib file for citation keys and DOIs
-2. Scan your papers directory for PDF files and extract DOIs
-3. Match files to citation keys by filename or DOI
-4. Generate citation_inventory.md with detailed citation information
-5. (With -verify) Validate each citation using AI analysis
+1. Parse your references.bib file for citation keys and file paths
+2. Extract citations from paper.tex
+3. Generate citation_inventory.md with detailed citation information
+4. (With -verify) Validate each citation using AI analysis
 
 OUTPUT FORMAT:
 --------------
 Each citation entry shows:
-- Status: READY (has files), MISSING_FILE (missing PDFs), ANALYZED (verified)
+- Status: READY (has files), MISSING_FILE (missing PDFs)
 - Citation keys in parentheses
-- DOIs in parentheses (if available)
-- Filenames in parentheses (if available)
 - Line numbers where citations appear
 
-Example: READY (smith2020,jones2021), (10.1000/abc123), (Smith2020.pdf) - 45,67,89
+Example: READY (smith2020,jones2021) - 45,67,89
 
 DIRECTORY STRUCTURE:
 --------------------
 Your project should have:
 - paper.tex (your main LaTeX document)
-- references.bib (your bibliography)
-- papers/ (directory containing PDF files)
+- references.bib (your bibliography with file fields)
 - citation_inventory.md (generated output)
 These can be changed below.
 ======================
@@ -72,13 +66,6 @@ import os
 import sys
 import subprocess
 from collections import defaultdict
-
-try:
-    import fitz  # PyMuPDF
-    PYMUPDF_AVAILABLE = True
-except ImportError:
-    PYMUPDF_AVAILABLE = False
-    print("Warning: PyMuPDF not available. DOI extraction from PDFs will be skipped.")
 
 
 # =============================================================================
@@ -149,64 +136,6 @@ class ProcessUtils:
 
 
 # =============================================================================
-# PDF PROCESSING
-# =============================================================================
-
-class PDFProcessor:
-    """Handles PDF file processing and DOI extraction."""
-    
-    @staticmethod
-    def extract_doi_from_pdf(pdf_path):
-        """Extract DOI from the first page of a PDF with size limits."""
-        if not PYMUPDF_AVAILABLE:
-            return None
-        
-        try:
-            # Check file size before processing
-            file_size_mb = os.path.getsize(pdf_path) / (1024 * 1024)
-            if file_size_mb > Config.MAX_PDF_SIZE_MB:
-                relative_path = os.path.relpath(pdf_path)
-                print(f"Warning: Skipping {relative_path} - file too large ({file_size_mb:.1f}MB > {Config.MAX_PDF_SIZE_MB}MB)")
-                return None
-                
-            doc = fitz.open(pdf_path)
-            if len(doc) == 0:
-                doc.close()
-                return None
-            
-            # Get text from first page only
-            first_page = doc[0]
-            text = first_page.get_text()
-            doc.close()
-            
-            return PDFProcessor._find_doi_in_text(text)
-            
-        except Exception as e:
-            relative_path = os.path.relpath(pdf_path)
-            print(f"Error extracting DOI from {relative_path}: {e}")
-            return None
-    
-    @staticmethod
-    def _find_doi_in_text(text):
-        """Find DOI patterns in text."""
-        doi_patterns = [
-            r'doi[:\s]*([0-9]+\.[0-9]+\/[^\s]+)',
-            r'DOI[:\s]*([0-9]+\.[0-9]+\/[^\s]+)',
-            r'https?:\/\/doi\.org\/([0-9]+\.[0-9]+\/[^\s]+)',
-            r'https?:\/\/dx\.doi\.org\/([0-9]+\.[0-9]+\/[^\s]+)',
-            r'doi\.org\/([0-9]+\.[0-9]+\/[^\s]+)',
-        ]
-        
-        for pattern in doi_patterns:
-            match = re.search(pattern, text, re.IGNORECASE)
-            if match:
-                doi = match.group(1).rstrip('.,;)')
-                return doi
-        
-        return None
-
-
-# =============================================================================
 # BIBTEX PROCESSING
 # =============================================================================
 
@@ -237,37 +166,45 @@ class BibtexParser:
                 all_citation_keys.add(citation_key)
         
         return all_citation_keys
-    
+
     @staticmethod
-    def parse_citation_to_doi_mapping(bib_path):
-        """Parse references.bib to create mapping of citation keys to DOIs."""
-        citation_to_doi = {}
-        
+    def parse_citation_metadata(bib_path):
+        """Parse references.bib to extract citation keys with file paths."""
+        citation_metadata = {}
+
         try:
             with open(bib_path, 'r', encoding='utf-8') as f:
                 content = f.read()
         except FileNotFoundError:
             print(f"Warning: Bibliography file {bib_path} not found. Please ensure the file exists and the path is correct.")
             return {}
-        
+
         entries = re.split(r'(?=@\w+\{)', content)
-        
+
         for entry in entries:
             if not entry.strip():
                 continue
-                
+
             key_match = re.match(r'@\w+\{([^,]+),', entry)
             if not key_match:
                 continue
-            
+
             citation_key = key_match.group(1).strip()
-            
-            doi_match = re.search(r'DOI\s*=\s*\{([^}]+)\}', entry, re.IGNORECASE)
-            if doi_match:
-                doi = doi_match.group(1).strip()
-                citation_to_doi[citation_key] = doi
-        
-        return citation_to_doi
+            metadata = {}
+
+            # Extract file path
+            file_match = re.search(r'file\s*=\s*\{([^}]+)\}', entry, re.IGNORECASE)
+            if file_match:
+                file_path = file_match.group(1).strip()
+                # Convert to relative path from papers directory if it's an absolute path
+                # Just use the basename for display
+                metadata['filename'] = os.path.basename(file_path)
+                metadata['filepath'] = file_path
+
+            if metadata:
+                citation_metadata[citation_key] = metadata
+
+        return citation_metadata
 
 
 # =============================================================================
@@ -293,14 +230,18 @@ class LatexProcessor:
         
         for line_num, line in enumerate(lines, 1):
             matches = re.finditer(citation_pattern, line)
-            
+
             for match in matches:
                 keys_string = match.group(1)
-                keys = [key.strip() for key in keys_string.split(',')]
-                keys_tuple = tuple(keys)
-                
-                if line_num not in citation_inventory[keys_tuple]:
-                    citation_inventory[keys_tuple].append(line_num)
+                # Filter out keys starting with # (LaTeX parameter placeholders)
+                keys = [key.strip() for key in keys_string.split(',') if not key.strip().startswith('#')]
+
+                # Only process if we have valid keys after filtering
+                if keys:
+                    keys_tuple = tuple(keys)
+
+                    if line_num not in citation_inventory[keys_tuple]:
+                        citation_inventory[keys_tuple].append(line_num)
         
         return citation_inventory
     
@@ -331,90 +272,6 @@ class LatexProcessor:
 
 
 # =============================================================================
-# FILE MATCHING
-# =============================================================================
-
-class FileMatcher:
-    """Handles matching of files to citation keys and DOIs."""
-    
-    @staticmethod
-    def scan_papers_directory(papers_dir, all_citation_keys=None):
-        """Scan papers directory for all files, extracting DOIs from PDFs and checking filenames for citation key matches."""
-        file_to_doi = {}
-        file_to_citation_key = {}
-        documents_without_matches = []
-        
-        papers_dir = FileUtils.normalize_path(papers_dir)
-        
-        if not os.path.exists(papers_dir):
-            print(f"Warning: Papers directory {papers_dir} not found. Please create the directory and add your PDF files, or update PAPERS_DIR configuration.")
-            return file_to_doi, file_to_citation_key, documents_without_matches
-        
-        print(f"Scanning papers directory recursively: {papers_dir}")
-        for root, dirs, files in os.walk(papers_dir):
-            dirs[:] = [d for d in dirs if not d.startswith('.')]
-            
-            for filename in files:
-                if filename.startswith('.'):
-                    continue
-                    
-                file_path = os.path.join(root, filename)
-                relative_path = os.path.relpath(file_path, papers_dir)
-                print(f"  Processing: {relative_path}")
-                
-                doi_found = False
-                
-                # Try to extract DOI from PDF files
-                if filename.lower().endswith('.pdf'):
-                    doi = PDFProcessor.extract_doi_from_pdf(file_path)
-                    if doi:
-                        file_to_doi[relative_path] = doi
-                        print(f"    Found DOI: {doi}")
-                        doi_found = True
-                
-                # Check if filename matches citation key
-                if not doi_found:
-                    filename_without_ext = os.path.splitext(filename)[0]
-                    if all_citation_keys and filename_without_ext in all_citation_keys:
-                        file_to_citation_key[relative_path] = filename_without_ext
-                        print(f"    Filename matches citation key: {filename_without_ext}")
-                    else:
-                        file_type = "PDF" if filename.lower().endswith('.pdf') else "file"
-                        print(f"    No DOI found in {file_type} and filename doesn't match any citation key")
-                        documents_without_matches.append(relative_path)
-        
-        return file_to_doi, file_to_citation_key, documents_without_matches
-    
-    @staticmethod
-    def create_citation_metadata(citation_to_doi, file_to_doi, file_to_citation_key):
-        """Create mapping from citation keys to metadata including DOI and filename."""
-        citation_metadata = {}
-        
-        # Create reverse mapping: DOI -> filename
-        doi_to_file = {doi: filename for filename, doi in file_to_doi.items()}
-        
-        # Build citation metadata from DOI matches
-        for citation_key, doi in citation_to_doi.items():
-            metadata = {'doi': doi}
-            if doi in doi_to_file:
-                metadata['filename'] = doi_to_file[doi]
-            citation_metadata[citation_key] = metadata
-        
-        # Add metadata for filename-based matches
-        for filename, citation_key in file_to_citation_key.items():
-            if citation_key in citation_metadata:
-                if 'filename' not in citation_metadata[citation_key]:
-                    citation_metadata[citation_key]['filename'] = filename
-            else:
-                citation_metadata[citation_key] = {
-                    'filename': filename,
-                    'doi': citation_to_doi.get(citation_key, '')
-                }
-        
-        return citation_metadata
-
-
-# =============================================================================
 # OUTPUT FORMATTING
 # =============================================================================
 
@@ -434,31 +291,24 @@ class OutputFormatter:
         
         for keys, line_numbers in sorted_citations:
             keys_str = ','.join(keys)
-            
-            dois = []
-            filenames = []
+
             keys_with_files = 0
-            
+
             if citation_metadata:
                 for key in keys:
                     if key in citation_metadata:
                         metadata = citation_metadata[key]
-                        if 'doi' in metadata:
-                            dois.append(metadata['doi'])
                         if 'filename' in metadata:
-                            filenames.append(metadata['filename'])
                             keys_with_files += 1
-            
+
             if len(keys) > 0 and keys_with_files == len(keys):
                 prefix = "READY"
             else:
                 prefix = "MISSING_FILE"
-            
-            dois_str = ','.join(dois) if dois else ''
-            filenames_str = ','.join(filenames) if filenames else ''
+
             line_numbers_str = ','.join(map(str, sorted(line_numbers)))
-            
-            output_line = f"{prefix} ({keys_str}), ({dois_str}), ({filenames_str}) - {line_numbers_str}"
+
+            output_line = f"{prefix} ({keys_str}) - {line_numbers_str}"
             output_lines.append(output_line)
         
         return '\n'.join(output_lines)
@@ -493,25 +343,19 @@ class CitationVerifier:
             line = line.strip()
             if not line:
                 continue
-            
-            match = re.match(r'(\w+) \(([^)]+)\), \(([^)]*)\), \(([^)]*)\) - (.+)', line)
+
+            match = re.match(r'(\w+) \(([^)]+)\) - (.+)', line)
             if match:
                 prefix = match.group(1)
                 keys_str = match.group(2)
-                dois_str = match.group(3)
-                filenames_str = match.group(4)
-                line_numbers_str = match.group(5)
-                
+                line_numbers_str = match.group(3)
+
                 citation_keys = [k.strip() for k in keys_str.split(',') if k.strip()]
-                dois = [d.strip() for d in dois_str.split(',') if d.strip()]
-                filenames = [f.strip() for f in filenames_str.split(',') if f.strip()]
                 line_numbers = [int(n.strip()) for n in line_numbers_str.split(',') if n.strip().isdigit()]
-                
+
                 entries.append({
                     'prefix': prefix,
                     'citation_keys': citation_keys,
-                    'dois': dois,
-                    'filenames': filenames,
                     'line_numbers': line_numbers,
                     'raw_line': line
                 })
@@ -542,27 +386,34 @@ class CitationVerifier:
         return paragraphs
     
     @staticmethod
-    def call_claude_for_verification(filenames, citation_keys, line_info, papers_dir=Config.PAPERS_DIR):
+    def call_claude_for_verification(file_paths_or_names, citation_keys, line_info, papers_dir=Config.PAPERS_DIR):
         """Call Claude Code to verify citations using two sequential calls with parallelized first step."""
-        if not filenames:
-            raise Exception("No filenames available for verification")
-        
-        # Prepare file paths
+        if not file_paths_or_names:
+            raise Exception("No file paths available for verification")
+
+        # Prepare file paths - they could be full paths or just filenames
         file_paths = []
-        for filename in filenames:
-            file_path = CitationVerifier._resolve_file_path(filename, papers_dir)
-            
-            if os.path.exists(file_path):
-                file_paths.append(file_path)
+        for filepath in file_paths_or_names:
+            # If it's already an absolute path, use it directly
+            if os.path.isabs(filepath):
+                if os.path.exists(filepath):
+                    file_paths.append(filepath)
+                else:
+                    print(f"Warning: File not found at {filepath}. Skipping.")
             else:
-                relative_path = os.path.relpath(file_path)
-                print(f"Warning: PDF file {filename} not found at {relative_path}. Check file path or move file to papers directory.")
-        
+                # Try to resolve relative to papers_dir
+                resolved_path = CitationVerifier._resolve_file_path(filepath, papers_dir)
+                if os.path.exists(resolved_path):
+                    file_paths.append(resolved_path)
+                else:
+                    print(f"Warning: File {filepath} not found. Skipping.")
+
         if not file_paths:
             raise Exception("No valid files found for verification")
-        
+
         paragraphs = CitationVerifier._group_lines_into_paragraphs(line_info)
-        filenames_text = ', '.join(filenames)
+        # Use basenames for display
+        filenames_text = ', '.join([os.path.basename(fp) for fp in file_paths])
         citation_keys_text = ', '.join(citation_keys)
         
         try:
@@ -737,49 +588,46 @@ class CitationInventoryManager:
         input_file = FileUtils.normalize_path(self.config.PAPER_TEX_FILE)
         output_file = FileUtils.normalize_path(self.config.OUTPUT_FILE)
         bib_file = FileUtils.normalize_path(self.config.REFERENCES_BIB_FILE)
-        papers_dir = FileUtils.normalize_path(self.config.PAPERS_DIR)
-        
+
         print("=== Citation Verifier Enhanced ===")
-        
-        # Step 1: Parse references.bib
+
+        # Step 1: Parse references.bib for all citation metadata
         print("\n1. Parsing references.bib...")
         all_citation_keys = BibtexParser.parse_all_citation_keys(bib_file)
-        citation_to_doi = BibtexParser.parse_citation_to_doi_mapping(bib_file)
+        citation_metadata = BibtexParser.parse_citation_metadata(bib_file)
         print(f"   Found {len(all_citation_keys)} total citation keys")
-        print(f"   Found {len(citation_to_doi)} citation keys with DOIs")
-        
-        # Step 2: Process files in papers directory
-        print("\n2. Processing files in papers directory...")
-        file_to_doi, file_to_citation_key, documents_without_matches = FileMatcher.scan_papers_directory(papers_dir, all_citation_keys)
-        print(f"   Found DOIs in {len(file_to_doi)} PDF files")
-        print(f"   Found {len(file_to_citation_key)} files matched by filename to citation keys")
-        
-        # Display unmatched documents
-        if documents_without_matches:
-            print(f"\n\033[31mCan't find DOI's or citation key matches for the following files. Manually change filenames to citation keys so the files can be properly indexed.\033[0m")
-            for filename in documents_without_matches:
-                print(f"  {filename}")
-        else:
-            print("\n   All files have extractable DOIs or filename matches")
-        
-        # Step 3: Create citation metadata
-        citation_metadata = FileMatcher.create_citation_metadata(citation_to_doi, file_to_doi, file_to_citation_key)
-        
-        # Step 4: Extract citations from paper.tex
-        print(f"\n3. Scanning {input_file} for citations...")
+        print(f"   Found {len(citation_metadata)} citation keys with metadata (files)")
+
+        # Check for citations without files
+        citations_without_files = []
+        citations_with_files = 0
+        for key in all_citation_keys:
+            if key in citation_metadata and 'filename' in citation_metadata[key]:
+                citations_with_files += 1
+            else:
+                citations_without_files.append(key)
+
+        print(f"   Citations with linked files: {citations_with_files}")
+        if citations_without_files:
+            print(f"\n\033[33mWarning: {len(citations_without_files)} citation(s) without linked files:\033[0m")
+            for key in sorted(citations_without_files):
+                print(f"      {key}")
+
+        # Step 2: Extract citations from paper.tex
+        print(f"\n2. Scanning {input_file} for citations...")
         citation_inventory = LatexProcessor.extract_citations(input_file)
-        
+
         if not citation_inventory:
             print("No citations found or error reading file.")
             return
-        
+
         print(f"   Found {len(citation_inventory)} unique citation key combinations")
         print(f"   Total citation instances: {sum(len(lines) for lines in citation_inventory.values())}")
-        
-        # Step 5: Format and write output
-        print(f"\n4. Writing results to {output_file}...")
+
+        # Step 3: Format and write output
+        print(f"\n3. Writing results to {output_file}...")
         formatted_output = OutputFormatter.format_citation_inventory(citation_inventory, citation_metadata)
-        
+
         try:
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(formatted_output)
@@ -787,76 +635,92 @@ class CitationInventoryManager:
         except IOError as e:
             print(f"   Error writing to {output_file}: {e}")
             return
-        
-        # Step 6: Print summary
-        self._print_summary(file_to_doi, file_to_citation_key, documents_without_matches, 
-                           citation_to_doi, citation_metadata, citation_inventory)
+
+        # Step 4: Print summary
+        self._print_summary(citation_metadata, citation_inventory)
     
     def run_verification(self):
         """Run verification process on citation inventory."""
         inventory_file = FileUtils.normalize_path(self.config.OUTPUT_FILE)
         analysis_file = FileUtils.normalize_path(self.config.ANALYSIS_FILE)
-        
+        bib_file = FileUtils.normalize_path(self.config.REFERENCES_BIB_FILE)
+
         print("=== Citation Verification Process ===")
-        
+
+        # Parse citation metadata from .bib to get file paths
+        print(f"1. Loading citation metadata from {bib_file}...")
+        citation_metadata = BibtexParser.parse_citation_metadata(bib_file)
+        print(f"   Loaded metadata for {len(citation_metadata)} citations")
+
         # Parse citation inventory
-        print(f"1. Parsing {inventory_file}...")
+        print(f"\n2. Parsing {inventory_file}...")
         entries = CitationVerifier.parse_citation_inventory(inventory_file)
-        
+
         if not entries:
             print("No entries found in citation inventory.")
             return
-        
+
         print(f"   Found {len(entries)} entries")
-        
+
         # Process each entry
         for i, entry in enumerate(entries, 1):
             print(f"\n[{i}/{len(entries)}] Processing entry: {', '.join(entry['citation_keys'])}")
-            
-            # Only verify READY entries that have filenames
-            if entry['prefix'] != 'READY' or not entry['filenames']:
+
+            # Only verify READY entries
+            if entry['prefix'] != 'READY':
                 print(f"   ⏭️  Skipping verification (status: {entry['prefix']})")
                 continue
-            
+
+            # Get full file paths from citation metadata
+            file_paths = []
+            filenames = []
+            for key in entry['citation_keys']:
+                if key in citation_metadata and 'filepath' in citation_metadata[key]:
+                    file_paths.append(citation_metadata[key]['filepath'])
+                    if 'filename' in citation_metadata[key]:
+                        filenames.append(citation_metadata[key]['filename'])
+
+            if not file_paths:
+                print("   ❌ No file paths found in metadata")
+                continue
+
+            # Store filenames in entry for use by AnalysisWriter
+            entry['filenames'] = filenames
+
             # Get line contents from paper.tex
             line_info = LatexProcessor.get_line_contents_from_paper(entry['line_numbers'], self.config.PAPER_TEX_FILE)
-            
+
             if not line_info:
                 print("   ❌ No line contents found")
                 continue
-            
+
             # Run Claude verification
             try:
                 result = CitationVerifier.call_claude_for_verification(
-                    entry['filenames'], 
-                    entry['citation_keys'], 
+                    file_paths,
+                    entry['citation_keys'],
                     line_info
                 )
             except Exception as e:
                 print(f"   ❌ Verification failed: {str(e)}")
                 continue
-            
+
             print(f"   ✅ Verification completed")
-            
+
             # Write analysis
             try:
                 AnalysisWriter.write_analysis(entry, result, analysis_file)
                 print(f"   ✅ Analysis written to {analysis_file}")
             except Exception as e:
                 print(f"   ❌ Error writing analysis: {e}")
-        
-        print(f"\n2. Processing complete! Results saved to {analysis_file}")
+
+        print(f"\n3. Processing complete! Results saved to {analysis_file}")
     
-    def _print_summary(self, file_to_doi, file_to_citation_key, documents_without_matches, 
-                      citation_to_doi, citation_metadata, citation_inventory):
+    def _print_summary(self, citation_metadata, citation_inventory):
         """Print summary statistics."""
         print("\n=== Summary ===")
-        print(f"Files processed: {len(file_to_doi) + len(file_to_citation_key) + len(documents_without_matches)}")
-        print(f"Files with extractable DOIs: {len(file_to_doi)}")
-        print(f"Files matched by filename: {len(file_to_citation_key)}")
-        print(f"Citation keys in references.bib: {len(citation_to_doi)}")
         matched_files = sum(1 for metadata in citation_metadata.values() if 'filename' in metadata)
-        print(f"Citation keys matched to files: {matched_files}")
+        print(f"Citation keys with linked files: {matched_files}/{len(citation_metadata)}")
         print(f"Unique citation combinations in paper.tex: {len(citation_inventory)}")
         print(f"Total citation instances: {sum(len(lines) for lines in citation_inventory.values())}")
 

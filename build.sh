@@ -1,13 +1,13 @@
+#!/bin/bash
+
+# Run glossary preprocessing
 python3 auxillaryFiles/gls.py
 
+# Create temp directory if it doesn't exist
 mkdir -p temp
 
-pdflatex -output-directory=temp "Open MDMA.tex"
-biber --input-directory=temp --output-directory=temp "Open MDMA"
-makeglossaries -d temp "Open MDMA"
-pdflatex -output-directory=temp "Open MDMA.tex"
-biber --input-directory=temp --output-directory=temp "Open MDMA"
-pdflatex -output-directory=temp "Open MDMA.tex"
-pdflatex -output-directory=temp "Open MDMA.tex"
+# Run latexmk with configuration from .latexmkrc
+latexmk "Open MDMA.tex"
 
+# Move final PDF to root directory
 mv temp/"Open MDMA.pdf" .
