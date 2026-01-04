@@ -13,7 +13,8 @@ SKIP_TAGS = [
     'nameref',
     'nameref*',
     'combinedref',
-    'cref'
+    'cref',
+    'prosecite'
     # Add more tags here as needed
 ]
 

@@ -2506,4 +2506,20 @@ We could not find any high-quality evidence of MDMA-induced post-session neuropl
 
  The following assumes that MDMA therapy works as we believe it does and that it isn't just a particularly effective placebo that may stop working when people's expectations for it subside.
 
- 
+     \item \textbf{Misuse:}
+        We are not aware of any clear evidence indicating that recreational or solo-therapeutic use of MDMA is problematic as long as the safety considerations in this section are followed. One panel of drug-misuse experts estimated that MDMA poses a significantly lower overall health risk than marijuana and far less than alcohol~\cite{nuttDrugHarms}. While those drugs can be used in harmful ways, they can also be used responsibly with negligible negative effects. In recreational contexts it's still important to avoid mixing drugs (including alcohol), and additional precautions may need to be taken to offset sweating with more water consumption, but not so much as to get hyponatremia.
+
+, 35\% as harmful as tobacco, and 45\% as harmful as cannabis. 
+
+That's even in recreational contexts where users likely aren't as careful as they could be. Additionally, m
+
+The application of that integrated framework to a practical guide and MDMA therapy is also largely novel. 
+
+Note that in this book we strictly define dissociation as the production and effects of endogenous (self-produced) opioids, despite others having used the term'
+We avoid the term dissociation in this book because it is too broad in our opinion, encompassing several phenomena including immobility and strong, unconscious avoidance~\cite{kozlowskaDefenseCascade}. 
+
+Our impression is that, aside from tonic/collapsed immobility, there is a lot of uncertainty about which dissociative, feeling-of-disconnection, and other mental health issues are caused by endogenous opioids vs. unconscious avoidance (see \cref{attention}). The field usually lumps all these together under the umbrella term \textit{dissociation.}
+
+Muscles remain tense in case the predator gets distracted, and you have to run or fight again. 
+
+, like when a deer notices a wolf nearby or chasing them,

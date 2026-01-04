@@ -196,6 +196,8 @@ class BibtexParser:
             file_match = re.search(r'file\s*=\s*\{([^}]+)\}', entry, re.IGNORECASE)
             if file_match:
                 file_path = file_match.group(1).strip()
+                # Strip leading and trailing colons (some reference managers wrap paths with colons)
+                file_path = file_path.strip(':')
                 # Convert to relative path from papers directory if it's an absolute path
                 # Just use the basename for display
                 metadata['filename'] = os.path.basename(file_path)
