@@ -2602,3 +2602,28 @@ Unfortunately, it's difficult to describe what these shifts are and what differe
 Other people may inadvertently find themselves on that path through rare experiences with MDMA therapy, psychedelics, other life experiences, or a meditation practice they were using for other purposes.
 
  It's much more likely that new symptoms are maladaptive schemas or somatic symptoms. See \cref{sectionManagement,psychogenic}.
+
+ Dissociation and avoidance are some of the the largest challenges for MDMA therapy, as they are for traditional psychotherapy~\cite{razviPSIP}. 
+
+    \item Extraordinary claims require extraordinary evidence. We think that one thing, a limited course of MDMA therapy, can durably resolve most symptoms of most mental illnesses, excluding disorders with clear biological or medical causes, for most people. To be fair, it's never actually been established that most mental illnesses don't have a common core. The DSM and ICD--CDDR don't theorize or assess etiology. We're not contradicting any established evidence, just some traditional views.
+
+    \item How does a schema's emotional component fit into the predictive processing framework?
+
+    \item How does a schema map to priors, possibly in multiple pathways like sensory modeling and reward?
+
+We categorize the techniques for reducing avoidance into three buckets: (a) reducing the need for avoidance by increasing feelings of safety, (b) paying attention to schemas in the face of avoidance and feeling unsafe, and (c) reconsolidating a maladaptive schemas that produce the avoidance.
+
+Therefore, we propose the following. First, directly reconsolidating the schemas predicting powerlessness and imminent threat with MDMA therapy may work if the dissociation isn't too strong~\cite{razviPSIP} or if you have learned how to pay attention to maladaptive schemas in the face of distress. Second, deactivating the immiment threat and powerlessness predictions via indications of safety, power, or distraction. This might allow you to gently refocus on those schemas and reconsolidate them before they become so strong that they produce unworkable dissociation.
+
+Increasing feelings of safety during the session allows you to pay better attention to, and reconsolidate maladaptive schemas. It can also reduce avoidance and dissociation.
+
+Avoidance is often itself a maladaptive schema (e.g., \enquote{I'll die if I feel that.}) rather than simple avoidance of (intense) discomfort or uncertainty about what to do. If this is the case, reconsolidating this schema first will be more useful than trying to bypass it. If you don't reconsolidate it, it may keep coming back to impede the therapeutic process. We suggest:
+
+    Selective inhibition involves suppressing voluntary distractions, like minor movements and escapist thoughts~\cite{razviPSIP}. We hypothesize this may reduce the \enquote{noise} in your mind, making the active maladaptive schema more noticeable. You then pay attention to that distressing emotion or physical sensations of distress (muscle tension, altered breathing patterns, etc.), and the associated schema reconsolidates.
+
+    While they designed this technique for dissociation, we think it's highly promising for avoidance as well.
+
+    \textcite{razviPSIP} reports consistent success reconsolidating (our interpretation) the activating schemas for dissociation by \enquote{\dots bringing blankness, flat affect, nothingness, boredom, sleepiness, or sobriety [the subjective effects of dissociation] into focus.} \enquote{In a psychedelic-assisted session, it might take staying with it from minutes to a full day-long session, but it will crack.}
+
+\footnote{They don't frame it in terms of reconsolidation and schemas, but the technique involves focusing attention on subtle sensations of distress during intense dissociation, while supressing distractions.}
+
