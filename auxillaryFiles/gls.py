@@ -14,7 +14,7 @@ SKIP_TAGS = [
     'nameref*',
     'combinedref',
     'cref',
-    'prosecite'
+    'prosecite',
     # Add more tags here as needed
 ]
 
@@ -164,6 +164,7 @@ def process_paper(paper_file, glossary_terms):
         'not_found': 0,
         'skipped_in_tag': 0,
         'skipped_heading': 0,
+        'skipped_overlap': 0,
         'replaced': 0,
         'stems_matched': 0,
         'stems_searched': 0
@@ -191,9 +192,11 @@ def process_paper(paper_file, glossary_terms):
         
         debug_log.append(f"Processing section: '{section_title}' ({section_end - section_start} chars)")
         section_content = content[section_start:section_end]
-        
+
         # Track which terms have been replaced in this section
         replaced_terms = set()
+        # Track replacement positions in this section to prevent overlaps
+        section_replacements = []
         
         # Process each glossary term
         for term_id, term_info in glossary_terms.items():
@@ -279,20 +282,33 @@ def process_paper(paper_file, glossary_terms):
                     start, end, matched_text = valid_match
                     abs_start = section_start + start
                     abs_end = section_start + end
-                    
-                    # Use the complete word in the replacement
-                    replacement = f"\\glsdisp{{{term_id}}}{{{matched_text}}}"
-                    
-                    replacements.append((abs_start, abs_end, replacement))
-                    stats['replaced'] += 1
-                    stats['stems_matched'] += 1
-                    replaced_terms.add(term_id)
-                    
-                    debug_log.append(f"  Adding replacement: '{matched_text}' -> {replacement}")
-                    
-                    # Successfully found and replaced a term in this section,
-                    # continue to the next stem
-                    break
+
+                    # Check for overlap with existing replacements in this section
+                    overlaps = False
+                    for existing_start, existing_end, _ in section_replacements:
+                        # Two ranges overlap if one doesn't end before the other starts
+                        if not (abs_end <= existing_start or abs_start >= existing_end):
+                            overlaps = True
+                            debug_log.append(f"  Skipping stem '{stem}' - overlaps with existing replacement at {existing_start}-{existing_end}")
+                            break
+
+                    if not overlaps:
+                        # Use the complete word in the replacement
+                        replacement = f"\\glsdisp{{{term_id}}}{{{matched_text}}}"
+
+                        replacements.append((abs_start, abs_end, replacement))
+                        section_replacements.append((abs_start, abs_end, replacement))
+                        stats['replaced'] += 1
+                        stats['stems_matched'] += 1
+                        replaced_terms.add(term_id)
+
+                        debug_log.append(f"  Adding replacement: '{matched_text}' -> {replacement}")
+
+                        # Successfully found and replaced a term in this section,
+                        # continue to the next stem
+                        break
+                    else:
+                        stats['skipped_overlap'] += 1
                 else:
                     # All matches were in headings or skip zones
                     all_in_headings = all(in_heading for _, _, in_heading, _, _ in matches)
@@ -330,6 +346,7 @@ def process_paper(paper_file, glossary_terms):
     print(f"Terms not found in section: {stats['not_found']}")
     print(f"Terms skipped (in tags): {stats['skipped_in_tag']}")
     print(f"Terms skipped (in heading): {stats['skipped_heading']}")
+    print(f"Terms skipped (overlapping): {stats['skipped_overlap']}")
     print(f"stems searched: {stats['stems_searched']}")
     print(f"stems matched: {stats['stems_matched']}")
     print(f"Terms replaced: {stats['replaced']}")

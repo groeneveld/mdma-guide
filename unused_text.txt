@@ -2523,3 +2523,82 @@ Our impression is that, aside from tonic/collapsed immobility, there is a lot of
 Muscles remain tense in case the predator gets distracted, and you have to run or fight again. 
 
 , like when a deer notices a wolf nearby or chasing them,
+
+
+%     % \item (\textit{S})-MDMA. The S enantiomer of MDMA has similar pharmacodynamics to (\textit{R,S})-MDMA, whereas (\textit{R})-MDMA does not~\cite{baggottNewEntactogens}. Using (\textit{S})-MDMA rather than (\textit{R,S})-MDMA may allow lower doses, conceivably reducing risk~\cite{straumann2024racemic}.
+
+We think most techniques for addressing either avoidance or uncertainty boil down to tuning in to whatever, possibly subtle, fear, anger, sadness, or other distress you are feeling in the present moment. 
+
+This manual has three audiences: individuals interested in MDMA therapy for themselves, mental health professionals, and MDMA therapy researchers. Unfortunately, it's difficult to write for all audiences in the same book. We primarily wrote to the therapy client or solo user because that is the foundation of our personal expertise. Consequently, the mental health professional will have to combine the information in this book with their existing training and possibly also with training programs for MDMA-assisted therapy. The necessity of training is likely different for different circumstances. Giving MDMA to a highly functional, securely attached, and emotionally intelligent client to use at home is quite different from an in-person, all-day session with someone with severely disorganized attachment and poor self-awareness.
+
+\footnote{We haven't found any indication that immobility/dissociation is helping people by protecting them from things they couldn't bear, as is commonly claimed by therapists. On the contrary, we suspect that, similarly to avoidance, it inhibits reconsolidation. \textcite{kozlowskaDefenseCascade} presents it as only helpful when it causes a predator (possibly a human) to lose interest in killing you.}
+
+Freezing's function is to put a flight-or-fight response temporarily on hold in situations where the predator may not spot you if you stay very still~\cite{kozlowskaDefenseCascade}. It involves an opioid response, prediction of threat, and possibly some other prediction or mechanism that we are not aware of that differentiates its activators from the activators of flight-or-fight and immobility. In the absence of knowing this other factor, we suggest the same interventions listed for immobility.
+
+These signals might not reconsolidate the originating schema, but they might balance out the amount of threat and powerlessness that the nervous system perceives or possibly deactivate the originating schemas. 
+
+Some clinical experience indicates that MDMA can reconsolidate the originating predictions if immobility isn't so strong that you fall asleep~\cite{razviPSIP}.
+
+\subsection*{Immobility}
+As described in \cref{sec:defensecascade}, immobility's (playing dead) function is reducing movement to such an extent that the predator who caught you loses interest and leaves you alone~\cite{kozlowskaDefenseCascade}. While immobility is biologically complex, its effects in large part derive from the brain producing opioids in response to a combination of powerlessness and threat. Of course, the prediction of threat and powerlessness during a therapy session is typically a maladaptive schema instead of an actual threat of imminent death and powerlessness. Therefore, we propose that reducing immobility requires at least one of:
+\begin{itemize}
+	\item Reconsolidating the predictions of powerlessness and threat. We think some clinical experience indicates that MDMA can reconsolidate the originating predictions if immobility isn't so strong that you fall asleep~\cite{razviPSIP}. Higher doses, creating a higher sense of safety, may help with higher amounts of immobility~\cite{regan2021Connection}. \textcite{razviPSIP} reports consistent success reconsolidating (our interpretation) the activating schemas for immobility by \enquote{\dots bringing blankness, flat affect, nothingness, boredom, sleepiness, or sobriety [the subjective effects of immobility] into focus.} Further, \enquote{In a psychedelic-assisted session, it might take staying with it from minutes to a full day-long session, but it will crack.} They facilitate this process through a technique they call selective inhibition, which involves the client suppressing all minor body movement and distracting thoughts.
+	\item Sending signals of safety or power to your nervous system. The signals might not reconsolidate the originating schema, but they might balance out the amount of threat and powerlessness that the nervous system perceives or possibly deactivate the originating schemas. Additional sources of safety may include an attuned, skilled, and ethical therapist or guide whom you work well with; a comforting and safe physical environment; and sufficient pre-session preparation. We suspect grounding exercises can also do this~\cite{fisherGrounding}. Grounding exercises include exercises like naming 5 things you can see, 4 you can feel, 3 you can hear, 2 you can smell, and 1 you can taste. If these techniques lower the amount of immobility you have, they may make reconsolidating the underlying schemas. We don't know whether these techniques are more effective than the previously listed technique in this list.
+	% \item There is low-quality evidence that 50--250\,mg of the opioid antagonist naltrexone deactivates opioid-mediated states (like immobility and freezing)~\cite{escamilla2023treatment}. Naloxone and nalmefene have similar mechanisms of action and could conceivably also work, though this hasn't been demonstrated. Naloxone's half-life seems more appropriate to MDMA therapy than naltrexone's. Some of these drugs require prescriptions in certain jurisdictions, and collaboration with a prescribing medical professional may be necessary. We are not aware of any attempts at combining opioid antagonists with MDMA. If you try this novel combination, we suggest using lower doses, as all drugs have side effects, ranges of safe dosing, and interactions with other drugs, including potentially MDMA. \textcite{naltrexoneInfo} provides thorough information about naltrexone. We are unable to provide instructions on safe and effective use here. Reducing immobility may make reconsolidating the schemas triggering it easier.
+\end{itemize}
+
+
+
+The original situation that created immobility-activating schemas likely also involved extreme levels of fear, anger, and flight-or-fight responses
+
+However, we avoid that term in this book because it is too broad, in our opinion, encompassing many different phenomena~\cite{kozlowskaDefenseCascade,escamilla2023treatment}. Some dissociative disorders may not involve immobility or opioids. Unfortunately, we have been unable to find any convincing mechanistic explanations or categorizations for other possible forms of dissociation and are thus unable to include them in this book. We do discuss avoidance (broadly defined) in \cref{attention}, which some might classify as dissociation when it is automatic and unnoticed. We suggest that anyone experiencing another type of dissociation follow this book's suggestions for immobility and avoidance. They will likely be helpful despite being less targeted because the various types of dissociation all similarly inhibit information processing, which includes reconsolidation.
+
+People in immobility aren't always completely immobile, suggesting immobility is variable, can be overridden by executive control to some degree, or that people develop tolerance to some of the effects. 
+
+\footnote{It appears that immobility evolved to 
+        
+    While immobility may blunt or temporarily \enquote{protect} you from emotional distress, we haven't found any evidence suggesting that that is immobility's evolutionary primary function. On the contrary, it inhibits information processing (like memory reconsolidation~\cite{eckerUnlocking}), prolonging overwhelming feelings~\cite{laniusNeurobiology}. Immobility's \enquote{protection} may be an accidental byproduct of }
+
+\footnote{Chronic immobility is often framed as adaptive in situations of long-term}
+
+The defense cascade model may have gaps or occasional, atypical interactions with MDMA. 
+
+ These will often be felt after the immobility is reduced~\cite{razviPSIP}. We recommend reviewing the list of immobility symptoms in \cref{sec:signsofdc} before your session. This may help you better identify immobility before it occurs. We recommend \prosecite{razviDissociation} for more information on the topic.
+
+\textcite{razviPSIP} reports better clinical success using a specific kind of cannabis-assisted psychotherapy they developed called psychosomatic somatic interactional psychotherapy (PSIP). 
+
+
+    \item Triggering yourself harder might make the schema more noticeable, though it might also reactively increase avoidance if the avoidance is trying to protect you from that feeling. See the list of ways to activate maladaptive schemas in \cref{session}.
+
+\textcite{razviPSIP} proposes a technique called \textit{selective inhibition} for \enquote{unsticking} immobility during MDMA therapy, but we suspect it may also be useful for reducing avoidance. 
+
+    One individual with preexisting bipolar II claimed that MDMA triggered a manic episode. Another individual claimed MDMA consistently triggered manic episodes; it's unclear when their bipolar disorder started and they were using higher doses of MDMA than is used in therapy. The third individual had preexisting bipolar I and reported that MDMA consistently activated manic episodes and also deactivated manic episodes when taken during one. Only two reports is notably different from MDMA-induced psychosis, where many case reports are easily found.
+
+While commonly regarded as risky, actual risk in therapeutic contexts is unclear. 
+
+ Bipolar I frequently also involves psychosis, which does have a link to MDMA use.
+
+MDMA is a strong stimulant that generally increases feelings of energy~\cite{vizeliActuteEffects}. Activating schemas (one you are perhaps not aware of) of powerlessness and threat during therapy commonly activates immobility, which can include sleepiness~\cite{kozlowskaDefenseCascade}. We suggest immobility is the most likely cause for sleepiness during a session, though atypical responses to the drug or other medical conditions could conceivably play a role. See \cref{sec:sessionbarriers} for suggestions on working with immobility. We recommend following the immobility guidelines first even if you suspect an atypical stimulant/neurotransmitter response because these conditions may be difficult to distinguish, especially in multiple altered states of consciousness (both MDMA and immobility). \cref{sec:signsofdc} is a list of immobility symptoms that may prove helpful in differentiating immobility from another response.
+
+\subsection{Numbness, Heaviness, or Sleepiness}
+This is likely tonic/collapsed immobility. See \cref{sec:signsofdc} for a list of other symptoms and \cref{sec:sessionbarriers} for recommendations on addressing it.
+
+It's conceivable that some people may also have atypical reactions to MDMA, though we suggest working through the above mentioned section first even if you suspect this. Some relatively mentally healthy people report feelings of heaviness on MDMA~\cite{liechtiGender}. 
+
+A higher dose on the next session could provide enough additional safety to engage with these emotions~\cite{regan2021Connection}. Keep in mind that the effects of MDMA increase faster than linearly with dose, so smaller than expected increments should be used~\cite{de2000nonlinear}. See \cref{sec:dosing} for more information. Alternatively, a trusted sitter, guide, or therapist could help provide an additional feeling of safety.
+
+Reconsolidation requires the strength of the mismatch and the maladaptive schema to be somewhat matched~\cite{eckerUnlocking}\footnote{\textcite{eckerUnlocking} reports that this strength mismatch is never an issue in regular psychotherapy. Anecdotal reports suggest that this phenomenon does exist for MDMA therapy. Both too high and too low doses of MDMA impair the therapeutic process.}. The MDMA dose may have been too strong for the schema you wanted to work on. Alternatively, you could try activating a more strongly distressing schema or triggering yourself even harder for the schema you are currently working on.
+
+Additionally, although we do not know how well it fosters unitive and non-dual insight, the Acceptance and Commitment Therapy model is a system for fostering mindful and values-based action~\cite{actSimple}. As such, it may provide a helpful secular framework for exploring some of these concepts, depending on the goals for such exploration.
+
+; your therapeutic practices should be in pursuit of what is right for you, coming from your
+
+ Predictive processing interpretations of this process are immature.
+
+ in your sense of self, existence, reality, spirituality, or the causes of suffering~\cite{ingramMDMA,ingram2018mastering}.
+
+Unfortunately, it's difficult to describe what these shifts are and what differentiates them from normal therapeutic insights. If you feel confused about this, we suggest reading some material from the second of the lists below and seeing if any of it resonates with your experience.
+
+Other people may inadvertently find themselves on that path through rare experiences with MDMA therapy, psychedelics, other life experiences, or a meditation practice they were using for other purposes.
+
+ It's much more likely that new symptoms are maladaptive schemas or somatic symptoms. See \cref{sectionManagement,psychogenic}.
