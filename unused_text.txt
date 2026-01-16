@@ -2649,3 +2649,39 @@ We hope we are not doing \enquote{cargo cult science,} but that is difficult to 
 
 members of the underground PAT community have told individuals who were assaulted during their therapy that they \enquote{called it in to themselves}-invoking a concept from New Age spirituality, which suggests that people bring their life experiences onto themselves. 
 
+ In the absence of better evidence, the previously mentioned 3--5 weeks might be a reasonable minimum. Where you fall in that range depends on your risk/reward balance.
+
+%There is no solid data on how long this takes, so anyone's guess is just a guess. Our first guess is that the 6\,week spacing used in the phase III trials is reasonable since, as far as we are aware, it didn't cause any neurological or cognitive issues obvious enough to be reported. While moderate oxidative stress may not cause obvious issues after three sessions, we don't know of any better line of reasoning.
+
+% We used the deep research function of the Claude LLM to 
+
+% \footnote{We used the following prompt 
+% \begin{quotation}
+%     Give me two 95\% confidence intervals for how long the brain's antioxidant buffer takes to replenish after a single dose of MDMA, assuming no hyperthermia. The first CI is for a dose large enough to use up all the buffer but not any more. The second CI is for doses that exceed the buffer. The research on MDMA oxidation is scare, so you'll have to extrapolate some from other research. This is a complex issue so you'll have to think hard. I've attached an overview of the antioxidant system as a reliable starting place. <<a PDF of \textcite{jomovaAntioxidant}>>
+% \end{quotation}
+% }
+
+\todo{Meditation, process addiction / attention management, right livelihood, money management, nature connectedness, housekeeping, physical environment adequate for needs but not overconsumption (how to keep house while drowning, decluttering at the speed of life), work clean book}
+
+ \todo{Structure, function, quality}
+
+ \todo{Mention transformative/restorative justice concept, list some groups working on it}
+
+ \section{Psychoeducation}
+\label{sec:psychoeducation}
+In the course of researching this book, we've come across a number of interesting or helpful educational resources that may be relevant to the needs of therapeutic MDMA practitioners. Many have been individually helpful to us or come recommended by trusted colleagues. Although we have not rigorously evaluated all these items, we chose to include them on the assumption that our readership may find value in such a list. Note that most of these resources are not theoretically rigorous in the sense of framing things in terms of schemas and predictive processing.
+\begin{itemize}
+    \item \prosecite{eckerUnlocking} may have popularized the connection between prediction error, memory reconsolidation, and therapeutic improvement. We think it is required reading for all mental health professionals. \textcite{ecker2015misunderstood} provides a complementary resource addressing common misunderstandings and clarifies some fundamental mechanisms.
+    \writtenByDay{
+    \item \prosecite{kennedy2022good} illustrates calmly and thoroughly what it looks like when several of the healthiest and most \enquote{workable} schemas play out in a parenting realm and compares them to common, less workable alternatives. The author has elsewhere described this school of thought as \enquote{study parenting}: introducing parents to schemas and behavioral strategies that allow them to be sturdy leaders in a family setting. Many of the strategies focus on differentiating between parents' emotional support of children and parents' behavioral compliance with children's demands. Kennedy encourages parents to provide a basically unlimited amount of validation and witnessing of their children's struggles and to develop robust emotional relationships in which they earn the trust to witness their children's inner worlds. At the same time, she clearly illustrates that this emotional intimacy can be paired with robust boundaries around children's behavior. Both those boundaries and that validation are essential for cultivating children's experience of safety in the world and trust in themselves.
+
+    We find this book to be an excellent resource for parents and non-parents alike. It's true that the triggers of dysregulation will be different for non-parents than for the parents and young children who the book directly addresses. However, the basic behavioral patterns the book promotes are tremendously adaptive and are adaptable to any kind of relationship. Additionally, we suspect that working with this book may facilitate attachment healing through schema reconsolidation in the same vein as Ideal Parent Figure imagery.
+    \item \prosecite{mcgonigalStress} discusses how not all stress is harmful. Short-lived stress can foster resilience and growth. The book highlights the importance of mindset and provides tools to reinterpret stressors as growth opportunities.
+    \item \prosecite{pryorDog} helps you think about and change the incentives causing unwanted behaviors.
+    }
+    \item If you're interested in the general theory of predictions in the brain, we highly recommend \prosecite{eckerUnlocking} as essential reading for all mental health professionals and anyone else interested in schemas in a therapeutic context. Scott Alexander's review~\cite{alexanderSurfing} of \prosecite{clark2015surfing}, is also an excellent introduction to the general theory of predictions in the brain. \prosecite{clark2024experience} is a more mass-market version.
+    \item \prosecite{gottmanTrust}, describes using emotional attunement to build healthy relationships.
+\end{itemize}
+
+    \item \textbf{Self-Education:} See \cref{sec:psychoeducation} and the rest of this book.
+

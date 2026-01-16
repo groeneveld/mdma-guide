@@ -96,12 +96,14 @@ def parse_authors(author_field):
 def entry_to_cs1(entry):
     """
     Convert a BibTeX entry to Wikipedia CS1 template.
-    Returns a {{cite journal}}, {{cite book}}, {{cite web}}, etc. template string.
+    Returns a {{cite journal}}, {{cite book}}, {{cite web}}, {{cite report}}, etc. template string.
     """
     entry_type = entry.get('ENTRYTYPE', '')
 
     # Determine citation template type
-    if entry_type in ('online', 'misc', 'unpublished', 'report'):
+    if entry_type == 'report':
+        template_type = 'cite report'
+    elif entry_type in ('online', 'misc', 'unpublished'):
         template_type = 'cite web'
     elif entry_type == 'reference':
         template_type = 'cite book'
@@ -142,8 +144,10 @@ def entry_to_cs1(entry):
             if first:
                 template_parts.append(f'|editor{i}-first={first}')
 
-    # Year
-    if 'year' in entry:
+    # Date (prefer date field over year for reports)
+    if 'date' in entry:
+        template_parts.append(f'|date={entry["date"]}')
+    elif 'year' in entry:
         template_parts.append(f'|year={entry["year"]}')
 
     # Title
@@ -154,6 +158,10 @@ def entry_to_cs1(entry):
         title = re.sub(r'\\emph\{([^}]+)\}', r'\1', title)
         template_parts.append(f'|title={title}')
 
+    # Work (for reports, this is like a series or collection name)
+    if 'series' in entry and template_type == 'cite report':
+        template_parts.append(f'|work={entry["series"]}')
+
     # Journal (article or journaltitle field)
     journal = entry.get('journal') or entry.get('journaltitle')
     if journal:
@@ -163,23 +171,36 @@ def entry_to_cs1(entry):
     if 'volume' in entry:
         template_parts.append(f'|volume={entry["volume"]}')
 
-    # Issue/Number
-    if 'number' in entry:
-        template_parts.append(f'|issue={entry["number"]}')
-    elif 'issue' in entry:
-        template_parts.append(f'|issue={entry["issue"]}')
+    # Issue/Number (not for reports - they use docket instead)
+    if template_type != 'cite report':
+        if 'number' in entry:
+            template_parts.append(f'|issue={entry["number"]}')
+        elif 'issue' in entry:
+            template_parts.append(f'|issue={entry["issue"]}')
 
     # Pages
     if 'pages' in entry:
         template_parts.append(f'|pages={entry["pages"]}')
 
+    # Location (for reports and books)
+    if 'location' in entry or 'address' in entry:
+        location = entry.get('location') or entry.get('address')
+        template_parts.append(f'|location={location}')
+
     # Publisher
     if 'publisher' in entry:
         template_parts.append(f'|publisher={entry["publisher"]}')
 
-    # Institution (for reports)
-    if 'institution' in entry:
+    # Institution (for reports) - map to publisher if no publisher field
+    if 'institution' in entry and 'publisher' not in entry:
         template_parts.append(f'|publisher={entry["institution"]}')
+
+    # Docket (for reports - use number field if available)
+    if template_type == 'cite report':
+        if 'number' in entry:
+            template_parts.append(f'|docket={entry["number"]}')
+        elif 'docket' in entry:
+            template_parts.append(f'|docket={entry["docket"]}')
 
     # DOI
     if 'doi' in entry:
@@ -188,6 +209,10 @@ def entry_to_cs1(entry):
     # URL (only if no DOI)
     if 'url' in entry and 'doi' not in entry:
         template_parts.append(f'|url={entry["url"]}')
+
+    # Access date (for URLs)
+    if 'urldate' in entry and 'url' in entry:
+        template_parts.append(f'|access-date={entry["urldate"]}')
 
     # ISBN
     if 'isbn' in entry:
