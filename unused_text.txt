@@ -2685,3 +2685,12 @@ In the course of researching this book, we've come across a number of interestin
 
     \item \textbf{Self-Education:} See \cref{sec:psychoeducation} and the rest of this book.
 
+\enquote{Nonviolent Communication is the integration of four things: Consciousness: a set of principles that support living a life of compassion, collaboration, courage, and authenticity. Language: understanding how words contribute to connection or distance. Communication: knowing how to ask for what we want, how to hear others even in disagreement, and how to move toward solutions that work for all. Means of influence: sharing \enquote{power with others} rather than using \enquote{power over others}}
+Effective conflict resolution is valuable for any relationship. 
+
+Many MDMA therapy clients have unanswered questions, feel distressed, or are confused about parts of their professionally guided MDMA therapy sessions. Additionally, many therapists lack critical information about MDMA therapy. This section isn't a full accounting of all the things one needs to know to be an MDMA therapist. Rather, it's a c
+
+The providers in \textcite{bender2025provider} recommended an average of 10 combined hours of pre- and post-session psychological support for individuals with serious mental illness undergoing psychedelic therapy for the first time.
+
+	\item \prosecite{miller2014secrets} explores the concept of \textit{supershrinks,} therapists who consistently achieve superior outcomes regardless of their theoretical orientation or specific techniques. The authors argue that exceptional performance in therapy, as in other fields, is primarily the result of deliberate practice and ongoing feedback rather than innate talent or experience alone. They propose a three-part formula for improving therapeutic effectiveness: determining one's baseline of effectiveness, engaging in deliberate practice, and consistently seeking and incorporating client feedback. By tracking outcomes, comparing performance to national norms, and actively working to improve skills through targeted practice and reflection, the authors suggest that all therapists can significantly enhance their effectiveness and client outcomes.
+
