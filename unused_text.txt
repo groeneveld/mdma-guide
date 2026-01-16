@@ -2627,3 +2627,25 @@ Avoidance is often itself a maladaptive schema (e.g., \enquote{I'll die if I fee
 
 \footnote{They don't frame it in terms of reconsolidation and schemas, but the technique involves focusing attention on subtle sensations of distress during intense dissociation, while supressing distractions.}
 
+  % description={Emotional numbing caused by brain-produced opioids in situations of perceived threat and powerlessness, which is usually a maladaptive schema when you're not in an acutely dangerous situation \cite{lanius2018review,kozlowskaDefenseCascade}. This can escalate to immobility and greater degrees of detachment from one's self and external reality.}
+
+%    \item Help your loved ones better achieve their goals. \prosecite{millerMotivationalInterviewing} \enquote{MI is a collaborative, goal-oriented style of communication with particular attention to the language of change. It is designed to strengthen personal motivation for and commitment to a specific goal by eliciting and exploring the person's own reasons for change within an atmosphere of acceptance and compassion.}
+
+%    \todo{\item Influence, the psychology of persuasion}
+%    \todo{\item Boundaries, fierce intimacy} \todo{Evaluate relationships and which are good/bad for you; severe personality disorders or ambivalence}
+%    \todo{\item Social comparisons / status, rethinking narcissism, the gifts of imperfection}
+
+%    \todo{\item Influence, the psychology of persuasion}
+%    \todo{\item Boundaries, fierce intimacy} \todo{Evaluate relationships and which are good/bad for you; severe personality disorders or ambivalence}
+%    \todo{\item Social comparisons / status, rethinking narcissism, the gifts of imperfection}
+
+    % \todo{\item \textbf{Unwinding Anxiety App:} Day write}
+
+
+        % \todo{\item \textbf{Feeling and Symptom Tracking:} Day write or link}
+        % \todo{\item \textbf{Intuitive Eating:} Day write or link}
+
+We hope we are not doing \enquote{cargo cult science,} but that is difficult to evaluate from a first-person perspective~\cite{feynmanCargo}. 
+
+members of the underground PAT community have told individuals who were assaulted during their therapy that they \enquote{called it in to themselves}-invoking a concept from New Age spirituality, which suggests that people bring their life experiences onto themselves. 
+
