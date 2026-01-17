@@ -2694,3 +2694,24 @@ The providers in \textcite{bender2025provider} recommended an average of 10 comb
 
 	\item \prosecite{miller2014secrets} explores the concept of \textit{supershrinks,} therapists who consistently achieve superior outcomes regardless of their theoretical orientation or specific techniques. The authors argue that exceptional performance in therapy, as in other fields, is primarily the result of deliberate practice and ongoing feedback rather than innate talent or experience alone. They propose a three-part formula for improving therapeutic effectiveness: determining one's baseline of effectiveness, engaging in deliberate practice, and consistently seeking and incorporating client feedback. By tracking outcomes, comparing performance to national norms, and actively working to improve skills through targeted practice and reflection, the authors suggest that all therapists can significantly enhance their effectiveness and client outcomes.
 
+One panel of drug-misuse experts ranked MDMA at 2\% the risk of alcohol for harm to others~\cite{nuttDrugHarms}. 
+
+We can't responsibly suggest how to interpret or use this data, given its uncertain origin. We would personally use somewhere between 1--2\times\ the upper limit, so 2--4\,weeks.
+
+
+
+The reductions can be done by reducing both the initial and booster doses by 10\%, or by eliminating the booster dose and increasing the initial dose such that the total dose is reduced by 10\%. 
+
+The structure of our societies and culture often makes forming healthy relationships difficult. We suggest making relationships a higher priority in your life through, for instance, co-living, co-working, volunteering, or seeking romantic, artistic, or business partnerships. \prosecite{brownDaring} is a good resource.
+
+
+   \item Healthy relationships improve mental and physical health~\cite{holt-lunstadRelationships}.
+
+
+   \item Consider how you cope with stress. Which behaviors are healthy for you and those around you? Which aren't?
+
+      \item There is low-quality evidence that journaling improves mental health~\cite{sohalJournaling}.
+
+ Its efficacy for sleep disorders without comorbid mental illness is well-established, but it is poorly studied for sleep disorders caused by mental illness. 
+
+ 
