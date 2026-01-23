@@ -20,7 +20,7 @@
 \usepackage[capitalise,noabbrev]{cleveref}
 
 % Stuff for my glossary that I don't completely understand
-\usepackage[nonumberlist]{glossaries}
+\usepackage[nonumberlist,toc]{glossaries}
 \renewcommand*{\glspostdescription}{}
 \makeglossaries
 \input{glossary.tex}
@@ -137,7 +137,7 @@
 \author{
     Mark Groeneveld
 }
-\date{Preprint Draft Version 5.2 \today. The content is largely complete, though we've only edited half of it so far. It also needs to be reviewed. Safety recommendations are still in flux.}
+\date{Preprint Draft Version 5.2 \today. The content is largely complete, though we've only edited half of it so far. It also needs to be reviewed and then edited again. Safety recommendations are still in flux.}
 
 \maketitle
 
@@ -200,7 +200,7 @@ The purpose of the book is reducing suffering. As part of that goal, several sec
 
 There's now an ebook version at \href{https://github.com/groeneveld/mdma-guide/blob/main/Open%20MDMA.epub}{github.com/groeneveld/mdma-guide/blob/main/Open MDMA.epub}. There a few minor formatting issues including section headings in the Table of Contents not displaying at the right level and missing Appendix and Bibliography headings.
 
-Substantively edited \nameref{sec:safety}, \nameref{frequency}, \nameref{ppHypotheses}, Efficacy, \nameref{internalizedReports}, Preface, Plain Language Summary, How to Read this Book, \nameref{afterglow}, \nameref{sec:defensecascade}, \nameref{sec:sessionbarriers}, Troubleshooting, \nameref{practitionerSkills}, \nameref{sec:lifechanges}. Copyedited everything. Added the Feeling Like You are Going Crazy troubleshooting subsection. Removed Our Pitch because it didn't fit in well and was redundant. Removed Psychoeducation because it seemed redundant. Shuffled a couple sections around. Moved T.H. from an author to an acknowledged contributor since they're no longer a part of the project.
+Copyedited everything. Substantively edited all the sections not marked by \enquote{[unedited]}. Added the Feeling Like You are Going Crazy troubleshooting subsection. Removed Our Pitch because it didn't fit in well and was redundant. Removed Psychoeducation because it seemed redundant. Shuffled a couple sections around. Moved T.H. from an author to an acknowledged contributor since they're no longer a part of the project.
 
 \begin{center}
     \textbf{Changes from Version 4 to 5}
@@ -456,7 +456,8 @@ For help understanding the book, you can also upload it to a Claude AI model and
     <<SESSION PROMPT: Read the entirety of the first \zref[abspage]{end} pages\footnote{This excludes the gossary, appendices, and bibliography. Reducing the file size improves LLM output quality and gives you more responses before hitting usage limits.} into your context window before replying. You should helpfully answer the user's questions about MDMA therapy based on the attached document. The user may not understand the technical content of the paper, so you should make it easier to understand when appropriate. Don't add external medical advice or conventional wisdom that might contradict the document's framework.\footnote{We added this because without it Claude would constantly mix in poor-quality information it picked up from the internet and mainstream mental health resources that haven't the slightest clue how MDMA therapy works. We don't want to discourage you from using other high-quality resources.} The document has specific views on what's normal vs. concerning in MDMA therapy that may differ from conventional medical perspectives. Don't say \enquote{the document says/recommends/presents}; that is assumed.>>
 \end{quotation}
 
-\section{Introduction}
+\section{[unedited] Introduction}
+\label{sec:introduction}
 MDMA and some other substances in the same class create extraordinary feelings of compassion, connection, and safety.\footnote{These may not be noticeable during the session if strong fear, anger, or other distressing emotions are also present. The process can still work very well in these instances.} As described later, this state of mind is highly effective for processing difficult or unhelpful emotions or reactions. However, there are no quick fixes for all but the most simple issues. We think that, even in optimal conditions, MDMA therapy and the best cases of traditional psychotherapy can take multiple years to heal severe mental illness. Additionally, almost all models of MDMA therapy currently emphasize the necessity of between-session therapy or at-home therapeutic exercises to fully treat mental illness~\cite{bathje2022Integration}. We think MDMA can provide an on-ramp to these activities if they have traditionally been difficult or useless for you. Uncovering distressing, previously avoided memories and sensations can be psychologically destabilizing until the newly surfaced content is processed~\cite{olthofDestabilization}. We think destabilization can be intense for those with severe trauma. Unfortunately, avoidance makes straightforward self-assessment of that difficult. Diagnosis of mental illness indicates higher risk as well.
 
 We think the potential benefits of MDMA therapy can be described as
@@ -487,7 +488,7 @@ We don't provide a simple list of instructions to follow because the practice of
 
 \textcite{stockerConnectogen} describes MDMA being variously termed a \textit{psychedelic} (\enquote{showing the mind}), \textit{entactogen} (\enquote{producing a touching within}), or \textit{empathogen} (\enquote{empathy generating}). We prefer the term \textit{connectogen} (\enquote{producing connection}) from \textcite{stockerConnectogen} because MDMA facilitates connection to self, body, senses, and others. It also reduces the association between MDMA and hallucination-inducing psychedelics like LSD and psilocybin. We still use the term \textit{psychedelic} regarding the social movement surrounding psychedelics since it encompasses a few different classes of drugs. We also use \textit{psychedelic} when discussing the many studies that don't differentiate MDMA from the \textit{classic psychedelics.}
 
-\section{How to Evaluate Mental Health Research and Practice}
+\section{[unedited] How to Evaluate Mental Health Research and Practice}
 \label{howtoevaluate}
 Here we contextualize our framework within the broader field of mental health science and practice. We start by briefly introducing the concept of scientific models, the poor quality of the mental health models currently used in clinical practice (and much research), and the problems this causes. This is well-worn territory entirely known to in-the-know observers; we include it as an introduction for everyone else.
 
@@ -572,7 +573,8 @@ The sympathetic and parasympathetic nervous systems govern a wide variety of inv
 Assessments of threat and power are relative to your ability to deal with the threat; children activate easily because the threshold at which a threat becomes life-threatening is much lower for them than it is for securely attached adults. Lack of parental support, attention, or attunement (see \cref{attachment}) can be life-threatening situations for children. Here is the defense cascade:\footnote{We use the taxonomy of \textcite{kozlowskaDefenseCascade}. Other sources categorize the states differently, but the general pattern of an active, sympathetic state; a passive, parasympathetic state; and a mixed state is similar.}
 \begin{description}
     \item[Arousal] The most common initial reaction to a potential threat. Think of how a deer becomes alert when they see something moving far away. Vigilance, muscle tension, respiratory rate, and heart rate all somewhat increase, allowing us to quickly assess and respond to possible dangers.
-    \item[Flight-or-Fight]\footnote{We put \textit{flight} first, following the recommendation of \textcite{kozlowskaDefenseCascade}, who states that flight is more common than fight.} When an imminent danger is identified and there is a perceived chance of escape or winning the fight, this response prepares the body to immediately either escape or confront the threat. The adaptations of the arousal stage intensify and are augmented by an adrenaline surge, further suppression of pain (via endocannabinoids~\cite{lanius2018review}), and an urge to fight or run.
+    \item[Flight-or-Fight\footnotemark] \footnotetext{We put \textit{flight} first, following the recommendation of \textcite{kozlowskaDefenseCascade}, who states that flight is more common than fight.}
+    When an imminent danger is identified and there is a perceived chance of escape or winning the fight, this response prepares the body to immediately either escape or confront the threat. The adaptations of the arousal stage intensify and are augmented by an adrenaline surge, further suppression of pain (via endocannabinoids~\cite{lanius2018review}), and an urge to fight or run.
     \item[Freeze] When the danger is imminent, but you might still go unnoticed, the freeze response temporarily pauses a flight-or-fight response. If the predator notices you, freezing can quickly revert to flight-or-fight. While most physiological responses from flight-or-fight remain, muscles are immobilized, though tone remains high, and heart rate may or may not decrease.
     \item[Tonic/Collapsed Immobility] Tonic immobility (playing dead) activates in situations of high imminent threat and high powerlessness, like when the predator has overpowered you. Flight-or-fight responses are deactivated, the body is partially to fully paralyzed, heart rate slows, and the brain produces opioids that numb and disconnect you from reality. Playing dead sometimes causes predators, who prefer live prey, to lose interest in you; there may be an opportunity to escape at some point.
     
@@ -581,8 +583,6 @@ Assessments of threat and power are relative to your ability to deal with the th
 \end{description}
 
 The body can rapidly transition between these states as needed~\cite{kozlowskaDefenseCascade}.
-
-Beyond these somewhat established states, the defense cascade model may have gaps or occasional, atypical interactions with MDMA. \textcite{razviPSIP} reports another state sometimes encountered during MDMA therapy where a person \enquote{may have very little or no response to substances as powerful as MDMA or psilocybin. They will feel sober, or bored or sleepy as if they could get up and go about their day. If a therapist wasn't in the room, they might fall asleep during the height of an MDMA session.} Sleepiness, soberness, and boredom are neither effects of immobility nor MDMA. This suggests there might be at least one more poorly understood state or interaction between a state and MDMA.
 
 The defense cascade activates during immediate physical attacks like a predator biting you, but it also is obviously activated by stimuli (sounds, thoughts, sensations, places, etc.) associated with threats~\cite{kozlowskaDefenseCascade}.\footnote{In the rest of the book we call these associations \textit{schemas.}} These associative activations are ideally adaptive; activation when you see a wolf running toward you will give you more time to run than if activation only occurs when the wolf bites you.
 
@@ -743,7 +743,7 @@ Refer to \cref{sec:signsofdc} for a thorough comparison of the signs of intensif
 
 \end{longtable}
 
-\section{Trauma and its Effects}
+\section{[unedited] Trauma and its Effects}
 \label{sec:trauma}
 Our brains continually build and run prediction and response models (formally called \textit{predictive processing}) of the world, other people, our bodies, and our minds for the purpose of fulfilling our innate needs for bodily integrity, community, homeostasis, reproduction, etc~\cite{eckerUnlocking,clark2015surfing}. We typically predict and respond to threats in an appropriate and unproblematic manner and don't usually ruminate about falling off cliffs until we are near a cliff edge. Then the closer to the edge we go, the more alert and cautious we become. This alertness or fear is not due to trauma because the response is situationally appropriate. However, not all responses are situationally appropriate. The brain's learning process doesn't necessarily build \textit{true} models of the world; it builds models (an individual model is called a \textit{schema}) that are \textit{true enough} (a heuristic) to work mostly well in the contexts they develop in. These heuristics sometimes don't work very well outside the context in which they form, like a soldier who goes into fight mode in response to loud noises even after the war is over. We might describe trauma as events that create heuristics that impair functioning in regular life. \textcite{laneReconsolidation} describes traumas as distressing events or chronic conditions that overwhelm our ability to cope, where our ability to cope depends on our capabilities and resources. Standing near cliffs is not typically traumatic because the situation is under our control, and we manage the situation to avoid overwhelm. If nothing surprising or threatening occurs, our predictions of what happens around cliffs don't change much. Conversely, threatening situations outside our control create strong signals for updating our predictive model because your survival may depend on avoiding or managing that situation in the future. Maybe someone attacks you near the cliff edge, and you almost fall off. You may learn that cliffs, the combination of cliffs and other people, or the combination of cliffs and just that particular person are much more dangerous than you previously thought. You may feel alertness or fear from much farther away from the edge than you did before. If the attack was overwhelming enough, you may learn that everything about cliffs is dangerous, even the thought of them or pictures of them. We think \enquote{high caution around that particular person} or \enquote{that person is dangerous and unpredictable} is likely the adaptive response in this scenario. Unfortunately the other responses, such as fear at the thought of cliffs, sometimes occur and can cause problems for you or others. Or instead of learning a somewhat helpful but not very accurate heuristic, you may learn a very accurate heuristic that only becomes an issue when your environment changes, but the heuristic doesn't. These are the types of responses that we call maladaptive schemas and focus on throughout this book. Note that \textcite{eckerUnlocking} argues that calling these schemas maladaptive is pathologizing because they actually make complete internal sense in the context of an individual's lived experience. We empathize with their point but don't know a better shorthand term to distinguish schemas that are adaptive to current external reality from schemas that are not adaptive to current external reality.
 
@@ -795,7 +795,7 @@ As Resmaa Menakem says in \textcite{menakemContext}:
 
 For more information, we highly recommend \prosecite{eckerUnlocking} as essential reading for all mental health professionals and anyone else interested in schemas in a therapeutic context. Scott Alexander's review~\cite{alexanderSurfing} of \prosecite{clark2015surfing}, is also an excellent introduction to the general theory of predictions in the brain. \prosecite{clark2024experience} is a more mass-market version.
 
-\section{Attention and Avoidance}
+\section{[unedited] Attention and Avoidance}
 \label{attention}
 Our potentially maladaptive schemas usually update when our ability to handle adversity increases (e.g., growing up) or when the original difficulty ends~\cite{eckerUnlocking}. As further discussed in the following section, the updating process is initiated by \textit{prediction error.} Prediction error is a \textit{consciously experienced, though not necessarily explicitly understood, contradiction} between the original prediction and a new experience. For instance, you might learn \enquote{broccoli tastes bad} after only eating mushy broccoli. At a later point you eat properly cooked and seasoned broccoli, which creates prediction error with the \enquote{broccoli tastes bad} belief. The belief might then update to \enquote{broccoli can taste good in the right circumstance.}
 
@@ -815,7 +815,7 @@ Schemas aren't just abstract beliefs about things; they also control actions and
 
 We recommend Scott Alexander's summary~\cite{alexanderPrecision} of \prosecite{berghSelfEvidencing} to the interested reader seeking a more thorough understanding of this phenomenon.
 
-\section{Mechanism of Healing}
+\section{[unedited] Mechanism of Healing}
 \label{sec:mechanism}
 \todo{Too dense}
 As discussed in the previous section, a consciously experienced contradiction between an old schema and a new experience or existing knowledge creates prediction error~\cite{eckerUnlocking}. Prediction error triggers an updating process called memory reconsolidation. When schemas are first created, they are \textit{consolidated.} After that, when a consciously experienced contradiction creates prediction error for that schema, the schema enters a state of plasticity where it can be changed. Maintaining that experience of contradiction over a period of time will gradually update the schema to account for the contradiction. About 5\,hours after the initial prediction error (in animal models), the memory is \textit{re-consolidated,} re-entering a stable state where it can no longer be changed without another consciously experienced contradiction. Throughout this book, for convenience, we will use \textit{reconsolidate} in a slightly different way to denote the entire process of schema destabilization, updating, and restabilization.
@@ -855,7 +855,7 @@ Fear extinction is another strategy commonly used to deal with maladaptive schem
 
 We highly recommend \prosecite{lesswrongCoherenceTherapy}. It describes the fundamental process of reconsolidation better than any other resource we are aware of, short of the book they are reviewing.
 
-\section{Complex Systems, Worsening Symptoms, and Destabilization}
+\section{[unedited] Complex Systems, Worsening Symptoms, and Destabilization}
 \label{sec:complex}
 The framework we've laid out is accurate, especially for simple issues, but doesn't capture the full complexity of many mental illnesses. We think maladaptive schemas and the defense cascade states they activate play a large role in the large majority of mental illnesses, unhelpful reactions, and emotional problems. However, the personal circumstances leading to the creation of particular schemas are only part of the story. The prevailing model in the field is called the biopsychosocial model~\cite{engel1977need}. It describes how many mental illnesses arise through complex interactions of biology (genetics, medical history, defense cascade activation, sleep quality), psychology (schemas, attention, emotions), and social context (social models of how to respond to trauma, support networks, living situation, work situation). \textcite{hayes2020complex} summarizes research (citations 13, 17--26 in the original) on this complex-adaptive-systems modeling of mental illness:\footnote{\label{complexPriors}We make several assumptions about what the elements of the complex system are that haven't been rigorously established. Most importantly, we haven't been able to find conclusive research establishing neural priors as constitutive elements of the complex adaptive system of the brain. Crossover research between the fields of predictive processing and complex systems seems rare. Nevertheless, we think the \enquote{priors/schemas as critical elements of the complex system} assertion is obvious given some established research and a short chain of logic. First, conceptualizing mental health and illness as complex adaptive system states is well established~\cite{hayes2020complex}. Second, it is known that individual schemas or priors play large roles in mental illness~\cite{eckerUnlocking}. Therefore, we conclude that schemas/priors are some critical elements of that complex system. The other mentioned elements are obvious.}
 \begin{quotation}
@@ -887,7 +887,7 @@ While complex systems dynamics surely explain important parts of the therapeutic
 
 Throughout this book we use the term \textit{destabilization} to mean both stable symptom worsening and symptom fluctuation, unless otherwise specified. Stable symptom worsening and destabilization are rarely \enquote{part of the process} when they're caused by guides or therapists crossing strict professional boundaries.
 
-\section{Somatic Symptoms and Health Conditions Associated with Trauma}
+\section{[unedited] Somatic Symptoms and Health Conditions Associated with Trauma}
 \label{psychogenic}
 We use the term \textit{schema} to represent emotionally significant beliefs that drive perception, attention, and behavior~\cite{eckerUnlocking}. But more broadly, all brain activity is functionally composed of innumerable schemas that model the world, interpret sensory information, and control action~\cite{clark2015surfing}. Perceived reality is largely a learned model that incoming sensory information just nudges into congruence with external reality.\footnote{See Scott Alexander's summary~\cite{alexanderSurfing} of \textcite{clark2015surfing}.} We never or only rarely consciously experience raw, unfiltered sensory information. For example, people don't perceive a gap in the visual field where the retinal nerve bundle passes through a hole in the retina. Thus, even healthy perception (e.g., feeling pain) and action (e.g., moving your limbs) schemas are not perfectly accurate but are rather accurate enough and useful enough to efficiently accomplish tasks. Healthy perception and action schemas also adapt over time in response to new sensory input. However, these schemas can sometimes become more significantly inaccurate and unuseful for reasons similar to how the other previously discussed maladaptive schemas can become dysfunctional~\cite{berghPsychogenic}.
 
@@ -924,7 +924,7 @@ Here's what we have been able to find about the types of issues most associated 
 
 For additional popular-press coverage of the physiological impacts of trauma and how to heal them, we strongly recommend \prosecite{harris2018deepest}. The video \href{https://www.youtube.com/watch?v=oHoFqwF2OAU}{You're Not Crazy For Being Sick - Understanding Psychosomatic Illness} is also excellent. Note that both of these largely focus on the maladaptive schema → stress → organ dysfunction category of issue. They also get some other things wrong because they come from a pre-schema era of thought on the subject.
 
-\chapter{Methodology and Core Assumptions}
+\chapter{[unedited] Methodology and Core Assumptions}
 \label{sec:assumptions}
 We wrote this book by informally synthesizing information from four categories of sources. First papers, books, and blogs that looked relevant or interesting to us. Second, M.G.'s own experience using MDMA therapy to treat their complex trauma. Third, T.H.'s personal experience with community mental health and professional experience as a therapist. Fourth, trip reports (largely from \href{https://www.reddit.com/r/mdmatherapy}{reddit.com/r/mdmatherapy}) and discussions with people who have done MDMA therapy.\footnote{Throughout this text, references to anecdotes and reports refer to these sources unless otherwise specified.} There was a loop of personal experience informing theory, which then informed interpretation of personal experience, which then further informed theory, etc.
 
@@ -1012,7 +1012,7 @@ The following assumptions are the foundation of this book as we see it. The list
 \end{itemize}
 
 \chapter{Practical Considerations}
-\section{The Long-Term Process of Healing}
+\section{[unedited] The Long-Term Process of Healing}
 \label{bigPicture}
 Healing is fundamentally a process of aligning schemas developed in past situations of adversity with current external reality~\cite{eckerUnlocking}. These old, currently maladaptive, schemas stick around because they formed a self-reinforcing loop together with avoidance of contradictory information~\cite{berghSelfEvidencing}. That contradictory information would have naturally reconsolidated the schemas. This avoidance takes the form of dissociation; panic; automatic, unnoticed diversion of attention; or escapism, as detailed in \cref{attention}. MDMA therapy addresses both parts of this loop: it facilitates reconsolidation, as described in \cref{sec:mechanism}, and it also decreases avoidance \todo{Cite}.
 
@@ -1225,7 +1225,7 @@ Specific recommendations for session spacing are difficult because individuals h
 
 There is an indirect line of reasoning suggesting that MDMA-induced oxidative damage may not be a major concern in low-risk therapeutic use patterns. One panel of drug misuse experts compared the harms of common drugs of abuse in non-therapeutic contexts~\cite{nuttDrugHarms}. In their categorization of harms, we think neural oxidative damage might be categorized as either drug-specific damage or drug-related impairment of mental functioning. The assessed drug-specific damage of MDMA was roughly equivalent to that of cannabis and far less than alcohol. The assessed drug-related impairment of mental functioning of MDMA was about half that of cannabis and about one-third that of alcohol. This suggests that MDMA use falls well within many people's risk tolerances. Furthermore, a significant portion of those assessed harms likely comes from risky behavior at raves rather than MDMA itself~\cite{riggDeaths}. This suggests that oxidative stress from less risky therapeutic use may be less of a problem, especially compared to the potential improvements in mental health.
 
-That being said, even mild-to-moderate amounts of risk are worth minimizing when possible. Occasionally, people may also need to do many MDMA sessions to treat extreme CPTSD, and gradually cumulative effects may become more noticeable. In the absence of any better line of reasoning, we used the research function of the Claude 4.5 Opus AI model to find and read scientific papers on the topic and then generate a span of likely values\todo{I recognize these estimates are tentative at best. I'm open to removing them. I thought it would be helpful to provide an order-of-magnitude estimate rather than leaving readers to guess anywhere from a day to a decade. The output of Claude is available at \href{https://github.com/groeneveld/mdma-guide/blob/main/auxillaryFiles/claude_third_antioxidant_report.pdf}{https://github.com/groeneveld/mdma-guide/blob/main/auxillaryFiles/claude_third_antioxidant_report.pdf}. Note that we reported 3--14 days instead of the 3--10 days from the report for scenario 1. We gave Claude a more accurate range of MDMA half-lives after it generated the report, and then it updated the report with the new information. However, the new report didn't contain any source links, so we only included the original here.}\footnote{
+That being said, even mild-to-moderate amounts of risk are worth minimizing when possible. Occasionally, people may also need to do many MDMA sessions to treat extreme CPTSD, and gradually cumulative effects may become more noticeable. In the absence of any better line of reasoning, we used the research function of the Claude 4.5 Opus AI model to find and read scientific papers on the topic and then generate a span of likely values\todo{I recognize these estimates are tentative at best. I'm open to removing them. I thought it would be helpful to provide an order-of-magnitude estimate rather than leaving readers to guess anywhere from a day to a decade. The output of Claude is available at \href{https://github.com/groeneveld/mdma-guide/blob/main/auxillaryFiles/claude\_third\_antioxidant\_report.pdf}{https://github.com/groeneveld/mdma-guide/blob/main/auxillaryFiles/claude\_third\_antioxidant\_report.pdf}. Note that we reported 3--14 days instead of the 3--10 days from the report for scenario 1. We gave Claude a more accurate range of MDMA half-lives after it generated the report, and then it updated the report with the new information. However, the new report didn't contain any source links, so we only included the original here.}\footnote{
     First, we found a reputable paper summarizing the body's antioxidant systems (\textcite{jomovaAntioxidant}). Then we uploaded the pdf to Claude with this prompt:
     \begin{quotation}
         Give me two 95\% confidence intervals for how long the brain's antioxidant buffer takes to replenish after a single dose of MDMA, assuming no hyperthermia. The first CI is for a dose large enough to use up all the buffer but not any more. The second CI is for doses that exceed the buffer. The research on MDMA oxidation is scare [sic], so you'll have to extrapolate some from other research. This is a complex issue so you'll have to think hard. I've attached an overview of the antioxidant system as a reliable starting place.
@@ -1418,7 +1418,7 @@ In the absence of MDMA-specific advice, the cardiologist Nicole Bhave, MD offers
         Similarly, the reconsolidation process can't always help you unlearn erroneous beliefs that were formed from unrepresentative sets of experiences. If you were the first human to meet aliens, and they attacked you, you might reasonably learn, \enquote{these aliens are dangerous.} No amount of reconsolidation will change that until you acquire contradictory knowledge, like learning that that alien was a pirate but all the other aliens are very nice people.
 \end{itemize}
 
-\section{Professional Guidance vs. Self-Guidance}
+\section{[unedited] Professional Guidance vs. Self-Guidance}
 \label{professionalVSSelf}
 MDMA therapy can succeed in a wide variety of contexts, including therapist-guided sessions with pre- and post-session support, do-it-yourself couples therapy, and solo therapy~\cite{mitchellMDMAClinicalTrial2,colbertEvenings,hillsSolo}. However, we believe working completely alone with MDMA presents higher risks and a lower healing likelihood compared to partnering with an ethical, skilled, and well-matched mental health professional (see \cref{sec:howtofind} for definitions). However, that may not always be the best option available because it is often difficult and expensive to access an ethical, skilled, and well-matched therapist or guide. This is especially common for those who have had a series of negative experiences with mental health professionals. Per our individual and clinical experience, an ethical, skilled, and well-matched therapist or guide may provide
 \begin{itemize}
@@ -1467,7 +1467,7 @@ We propose the following ranking of options for people who can access a skilled,
 
 Group therapy might offer lower cost but comes with a different set of risks and tradeoffs~\cite{marseille2023group}.
 
-\section{How to Find a Therapist or Guide}
+\section{[unedited] How to Find a Therapist or Guide}
 \label{sec:howtofind}
 \textit{M.G.'s note:} \href{www.reddit.com/r/mdmatherapy}{/r/mdmatherapy} maintains a list of guide and therapist directories and referral services in the sidebar (on the new Reddit; not old.reddit.com). We have not vetted most of them. You may also be able to find guides and therapists by talking to people at psychedelic meetups. Also, in addition to the information in this section, \prosecite{safetyFlags} is a list of green/yellow/orange/red flags to look for in practitioners.
 
@@ -1680,7 +1680,7 @@ Keep an eye out for cultic group structures or dynamics. Accounts from the under
 
 \chapter{Mapping Maladaptive Schemas}
 \label{mapping}
-\section{Prompts for Uncovering Maladaptive Schemas}
+\section{[unedited] Prompts for Uncovering Maladaptive Schemas}
 \label{uncovering}
 Healing benefits increase as you continue reconsolidating maladaptive schemas~\cite{eckerUnlocking}. In an ideal world, everyone would have access to as much strong clinical support as they need before, during, and after all of their reconsolidation efforts to facilitate the surfacing of maladaptive schemas. In the absence of that support, we use our experience to offer the following prompts to help you access the schemas that you may not be aware of but that could be having a significant negative impact on your life. While there are no clear lines between the categories of prompts we offer, many of them directly relate to mental illness. Others focus more on assisting you with living the life of compassion, self-knowledge, connection, and flexibility that you may desire. Assisting you in finding pain points you have been automatically hiding from yourself is one of the jobs a therapist would have, but it is possible to do some of it on your own with tools like these. These methods attempt to elicit strong negative emotions, which are valuable signals that adequate emotional processing has not occurred. As discussed in the safety section, if you struggle with severe mental illness, including but not limited to suicidal ideation and psychosis, we strongly urge you to engage these kinds of prompts with caution and professional support.
 
@@ -1780,7 +1780,7 @@ We have experienced this kind of work to be positively transformative, satisfyin
 %     \item Political correctness; can't say certain things; will be unfairly punished?
 % \end{itemize}
 
-\section{Shame Triggers Writing Exercise}
+\section{[unedited] Shame Triggers Writing Exercise}
 \label{sec:shametriggers}
 This list was adapted from \prosecite{brownThought}. We think it is another useful tool for uncovering maladaptive schemas. Complete the \enquote{I want to be perceived as} and \enquote{I don't want to be perceived as} prompts for each item. Feel free to add categories that are especially relevant to you.
 
@@ -1812,7 +1812,7 @@ This list was adapted from \prosecite{brownThought}. We think it is another usef
     \item Home/living situation
 \end{itemize}
 
-\section{Self-Determination Theory}
+\section{[unedited] Self-Determination Theory}
 \label{sec:sdt}
 Self-Determination Theory (SDT) is a theory of human motivation and behavior, positing that people have innate psychological needs, and satisfying these needs leads to better mental well-being and performance~\cite{deciSDT}. Many studies across cultures, age groups, and domains (education, work, sports, health, etc.) have examined and supported its principles. Contemplating how these needs have or have not been fulfilled in your life may reveal maladaptive schemas.
 
@@ -1825,7 +1825,7 @@ The three fundamental psychological needs identified in SDT are:
 
 For more information, see \prosecite{deciSDT}.
 
-\section{Attachment Theory}
+\section{[unedited] Attachment Theory}
 \label{attachment}
 Attachment theory describes how secure attachments formed in the first 18\,months of life serve as the foundation for emotional and psychological development throughout your life~\cite{brownAttachmentDisturbances}. It is one of the most empirically supported theories in psychology, with over 70\,years of well-replicated research behind it. According to attachment theory, the presence of consistent, sensitive caregiving facilitates the development of secure attachment, and in its absence, individuals tend to develop anxious, avoidant, or disorganized styles of attachment. Researchers have identified five pillars of secure attachment. Cultivating secure attachment requires caregivers who are physically present, consistent, reliable, and interested in enacting these five pillars. That is to say, for the five pillars to be met, these additional conditions must also be met as their foundation. The five pillars are:
 
@@ -1848,7 +1848,7 @@ We also recommend
 \end{itemize}
 
 \chapter{Pre- to Post-Session}
-\section{Pre-Session Checklist}
+\section{[unedited] Pre-Session Checklist}
 \label{prep}
 Proper planning of a session is important for comfort, safety, and success. This is traditionally divided into three sections of mindset, setting, and cultural/personal matrix~\cite{setSettingMatrix}. We add two more: tools for the session and planning for the post-session. The concept of \textit{set and setting} is a popular framework for understanding, within psychedelic subcultures, what leads to a productive vs. unproductive~\cite{setSettingMatrix}.
 
@@ -1903,6 +1903,8 @@ Avoidance and dissociation are difficult to deal with because they impede recons
 
 We define avoidance in this context as deliberately or automatically (often unnoticed) diverting attention away from maladaptive schemas. Uncertainty about the process of tuning in to maladaptive schemas might also play a similar role. As described in \cref{sec:defensecascade}, schemas predicting imminent threat and powerlessness produce dissociation, usually via self-produced opioids.\todo{We think defense cascade responses are continually generated by maladaptive prediction and deactivate when you reconsolidate the prediction. That pathway is mechanistically simple and obvious. We haven't come accross clear evidence of activation arising out of dysfunction in the sympathetic and parasympathetic nervous systems themselves without maladaptive predictions but are open to the idea if it is an established phenomenon in mental health.}
 
+\textcite{razviPSIP} reports another state sometimes encountered during MDMA therapy where a person \enquote{may have very little or no response to substances as powerful as MDMA or psilocybin. They will feel sober, or bored or sleepy as if they could get up and go about their day. If a therapist wasn't in the room, they might fall asleep during the height of an MDMA session.} Sleepiness, soberness, and boredom are neither effects of immobility nor MDMA. This suggests there might be at least one more poorly understood state or interaction between a state and MDMA.
+
 We group the interventions listed here into two categories: deactivating the avoidance- and dissociation-producing schemas by increasing feelings of safety, and paying better attention to maladaptive schemas in the face of avoidance and dissociation. This grouping is done for organizational simplicity even though the attractor state is naturally circular. For instance, increasing safety leads to decreased avoidance and dissociation, which facilitates reconsolidation of the maladaptive schemas producing avoidance and dissociation, which makes further reconsolidation easier, etc. Alternatively, starting with increased attention can lead to reconsolidation, which then reduces avoidance and dissociation, etc.
 
 MDMA combined with deliberate therapeutic introspection is often sufficient to deactivate avoidance and dissociation or reconsolidate the avoidance- and dissociation-producing schemas if they aren't too strong~\cite{razviPSIP}. Of course, this is not always the case.
@@ -1944,7 +1946,7 @@ MDMA therapy may not always be able to resolve dissociation. Saj Razvi, founder 
 
 % Opioid-blocking drugs may be an additional option for dissociation. There is low-quality evidence that 50--250\,mg of the opioid blocker naltrexone deactivates opioid-mediated states, like immobility and freezing~\cite{escamilla2023treatment}. Naloxone and nalmefene have similar mechanisms of action and could also work, though this has not yet been demonstrated. Naloxone's half-life (1--2\,hours~\cite{saariNaloxone}) may be more appropriate to MDMA therapy than naltrexone's (4--10\,hours~\cite{crabtreeNaltrexone}). Naloxone is also often available without a prescription and is very safe. We could not find any prior instances, even anecdotal reports on the internet, of combining opioid antagonists with MDMA. One uncertainty is that opioid blockers blunt the subjective effects of amphetamine, and therefore possibly MDMA, for unknown reasons~\cite{jayaramNaltrexone}.
 
-\section{The Therapeutic MDMA Session}
+\section{[unedited] The Therapeutic MDMA Session}
 \label{session}
 Many first-hand reports of successful MDMA therapy can be found on the top posts on \href{https://reddit.com/r/mdmatherapy/top/?sort=top&t=all}{reddit.com/r/mdmatherapy}. The top posts mostly describe productive sessions that don't contain strong dissociation, avoidance, or poorly handled destabilization. You can see descriptions of less productive or more disruptive sessions by sorting by \textit{new.} \textcite{godes2023perceived} also lists the common self-reported experiences of MDMA therapy clients: staying with what \enquote{is}; decreased reactivity; insight, reflection, linking; mental clarity; recovery of traumatic memories; disentangling trauma from self; reuniting lost affects and parts; self-acceptance; joy, happiness, gratitude; hope and empowerment; relaxation, calmness, peace; comfort; gratitude, compassion, empathy; union, wider perspective; inner healing intelligence [the therapeutic framework used in this study]; accessibility to emotions; and mind-body connection.
 
@@ -2118,7 +2120,7 @@ Anecdotal reports also indicate that people sometimes chase afterglow with more 
 
 Afterglow can occasionally be strong enough that it feels like a low dose of MDMA, as M.G. and one person they know have experienced. Both instances occurred after particularly profound initial MDMA experiences.
 
-\section{Assessing Whether the Session Worked}
+\section{[unedited] Assessing Whether the Session Worked}
 People are sometimes confused as to whether a session was helpful. There are a few ways to assess this:
 \begin{itemize}
     \item We think that the presence of a therapy hangover indicates that a large amount of reconsolidation happened. Its absence doesn't necessarily mean no reconsolidation happened. Smaller amounts of reconsolidation might not be sufficient to cause a therapy hangover, or the effects of MDMA may mask the hangover. A therapy hangover also doesn't tell you which schema you reconsolidated or how that helps you.
@@ -2133,7 +2135,7 @@ People are sometimes confused as to whether a session was helpful. There are a f
     \end{quotation}
 \end{itemize}
 
-\section{Making Sense of the Experience}
+\section{[unedited] Making Sense of the Experience}
 \label{makingsense}
 When applying scientific studies to your life and health, it is important to remember that the data we glean from these studies flattens a wide variety of individual responses by combining them into readable averages. You as an individual may experience something very different from the average participant of any given study, and that may be totally normal and fine. Some examples include: you may be much more or less sensitive to the psychological or physical impacts of MDMA. The medicine may impact you for a greater or lesser amount of time than it impacts the average person. You may experience more healing, faster, than the average study participant, or you may not be helped by MDMA at all. Many normal human variations, like low or high body weight, recent pregnancy, or menstrual cycle status, clearly have an impact on many mental health interventions (especially when it comes to effective dosage) but are not typically studied. One of the great frustrations of mental healthcare research is that every real-life situation is infinitely complex, and a corresponding infinity of confounding factors have the potential to influence outcomes. We encourage you to discuss with your clinician any difference in what you are experiencing (during any mental health intervention) from what the average response is that you might have expected from the research. It's important to keep an eye on any health and safety concerns that might be related to your response. At the same time, remember that the range of normal and healthy responses to any mental health intervention is much broader than the averages suggest.
 
@@ -2156,7 +2158,7 @@ We suggest that in the face of these realities, you have to think, \enquote{Give
 Please be compassionate with yourself, as much as you possibly can. Whether your suffering is real and matters is a different question from \enquote{what is the best strategy for addressing my suffering.} Your pain is trustworthy, even if your memories are not. If you feel like you are suffering, that is real, and it matters.
 
 \chapter{Between Sessions}
-\section{Reconsolidation Tools}
+\section{[unedited] Reconsolidation Tools}
 \label{sec:moreReconsolidation}
 Gains in functionality and emotional health often depend on reconsolidation of the underlying maladaptive schemas~\cite{eckerUnlocking}. We guesstimate that accessing the maximum possible benefits from reconsolidation may take anywhere from single-digit hours of mismatching for the simplest problems to single-digit thousands of hours for the most severe mental illness. These estimates do not include the overhead of uncovering schemas, finding mismatches, finding techniques that work for you, or developing relationships with therapists. Because there are risks from extremely high cumulative MDMA use~\cite{tagen2023valvular,corayMemory}, and because MDMA sessions have significant logistical or financial costs, we recommend using the techniques listed in this section to achieve the bulk of your therapeutic progress.
 
@@ -2221,7 +2223,7 @@ For your information, \textcite{eckerUnlocking} makes the case that many therape
     \end{itemize}
 \end{enumerate}
 
-\section{[need to cite better] Making Positive Life Changes}
+\section{[unedited] [need to cite better] Making Positive Life Changes}
 \label{sec:behavioralchange}
 Some people may find that as they reconsolidate schemas and have positive disconfirming experiences, they have less need for compulsive self-soothing over time. They benefit from the therapy not just through reconsolidation, but through the support that the subsequent peace and perspective provide for positive behavioral changes. Sometimes being in a rut is the function of inertia; sometimes it is self protective, and improved regulation or a sense of new experience or perspective can help a person break out of it.
 
@@ -2273,7 +2275,7 @@ Second, despite the dystopian background, strategic habit development can (with 
 
 A harm reduction framework is both evidence-based and essential when addressing addictive coping patterns. We once read (maybe in the book \textit{tiny habits}?) that the most important characteristic for personal growth is the ability to experience satisfaction from small victories. Abstinence is an excellent goal for many people in many situations, but abstinence is not interesting or realistic for in many situations. In those cases, your welfare may depend on your ability to give care to yourself by identifying the harms your coping mechanism creates and mitigating those harms in more realistic ways. There are incremental victories to be had that make a significant difference in the level of harm an addictive coping mechanism creates in a person's life. You may reduce the amount you use, or regulate the timing (only after work), or refrain from mixing multiple substances or from gambling in the first three days after your paycheck comes in. If you are not ready to stop drinking, you may focus on making sure that you get all your driving and work accomplished before you start drinking each day, and that you stay hydrated and eat some healthy food on the regular. Maybe you want to start meditating for three minutes each day before you start drinking. These measures are meaningful. They reduce harm, improve your quality of life, and will leave you in better shape if the day comes when you are ready to make bigger changes. It's important to adopt a mental framework (and cultivate a support system) that sees the value of small improvements and supports you in making the changes you are interested in and ready to make.
 
-\section{Managing Adverse Symptoms Outside the Session}
+\section{[unedited] Managing Adverse Symptoms Outside the Session}
 \label{sectionManagement}
 Effective therapy often follows a pattern of feeling worse before it feels better~\cite{olthofDestabilization}. Therapy may reveal disturbing, previously avoided information, or schemas may shift in more complex ways (see \cref{sec:complex}). This is uncomfortable, and distressing schemas can have a wide variety of mental and physical symptoms (see \cref{psychogenic,sec:signsofdc})~\cite{kroenkeSomatic,henningsenSomatic}. Fully resolving destabilization likely requires further reconsolidation, either with MDMA or with traditional therapeutic techniques (see \cref{sec:mechanism,sec:moreReconsolidation,bigPicture}), as described in \cref{sec:complex}. However, sometimes you need to develop symptom management skills or resources to manage the immediate problem, which we detail below. These coping tools may, in some cases, actually resolve your issue. However, without reconsolidation, some issues are more likely to remain latent and reactivate in certain circumstances.
 
@@ -2383,7 +2385,7 @@ Some of these may not work as well for people with certain health conditions.
 
 \chapter{Beyond Therapy}
 The following exercises extend beyond what is typically considered therapy and are more speculative than the rest of the book.%, and may be overwhelming for many traumatized people. They will be most effective for people who have already built emotional resilience.
-\section{Aligning Personal Action with Moral Intuitions}
+\section{[unedited] Aligning Personal Action with Moral Intuitions}
 \label{stopcycle}
 We posit that taking a holistic approach to compassion and cognitive empathy can avoid major oversights in our personal actions and beliefs, allowing us to maximize the benefits of a more connected and compassionate life by exercising compassion in areas where we otherwise might not have. Additionally, we posit that formalizing your compassionate impulses can sometimes lead to better prioritization and better outcomes.\footnote{Formal ethical systems, like the various forms of deontology, virtue ethics, and consequentialism, are just the result of taking people's existing moral intuitions, writing them out in precise language, and resolving any conflicts.} Both of these practices may assist us in expanding our moral intuition into new situations.
 
@@ -2419,7 +2421,7 @@ Obviously the answers to some questions depends on knowing things about these be
 We also recommend that practitioners be cautious of major ethical readjustments during or after an MDMA trip, just as you would be with major life choice changes. Particularly high caution is warranted around actions that involve harm to some beings in the pursuit of a greater goal~\cite{askellSelfServing}. While we are often faced with unavoidable and difficult choices, these types of actions often have toxic personal, organizational, and reputational effects that we may be discounting. We recommend thinking through the many effects of your actions, including their larger systemic and relational impacts. Such actions are also commonly used as an automatic rationalization of poorly-understood ego-related schemas. We suggest that deeper exploration and reconsolidation of maladaptive schemas, including those listed in \cref{mapping}, will help you better align personal actions with the needs of all beings.
 
 When recovering from trauma, it is common for your moral framework to become intertwined with maladaptive schemas-leading to unhealthy ethical frameworks like the \enquote{I must save the world to be a valid person} belief discussed in \prosecite{mate2011body}. At the same time, cultures and institutions often dismiss major harms-current examples relevant to mainstream US culture include childbirth trauma and the trauma of living through a mass extinction; past examples include enslavement or \enquote{resettlement schools.} In situations like these, we posit that traumatized survivors represent an important repository of experience, essential for crafting cultural shifts that could help avoid the future repetition of these and similar harms. As such, it is important not to dismiss the moral intuition generated by traumatic experience, but rather to approach it with compassionate curiosity, as one important source of insight among many.
-\section{Cognitive Flexibility and Truth-Seeking}
+\section{[unedited] Cognitive Flexibility and Truth-Seeking}
 \label{cognitiveflexibility}
 We assert that cognitive flexibility is both highly important and lower than it should be for most people in the modern world. Intense tribalism instincts seem to be a major reason why. It may have been selected for in a past where survival was much more tenuous than in it today for most people, and where societies were much smaller. While we still need to form coalitions (family, workplace relationships, friendships, etc.) to accomplish almost anything, we suspect our tribal tendency is overpowered for life in modern nation-states. This creates all sorts of problems, such as poor governmental policy because of people vote based on identity~\cite{klein2020Polarized} rather than good policy, being shunned for believing or doing things that have become a marker of belonging to a rival group, etc.
 
@@ -2452,7 +2454,6 @@ The world is full of pervasive threats, fear-based messaging, and out-group demo
 \zlabel{end}
 
 \printglossaries
-\addcontentsline{toc}{chapter}{Glossary}
 \label{sec:glossary}
 
 \appendix

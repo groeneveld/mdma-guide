@@ -19,60 +19,60 @@ SKIP_TAGS = [
 ]
 
 def extract_glossary_terms(glossary_file):
-    """Extract term IDs, names, stems, and defined_in sections from glossary.tex"""
+    """Extract term IDs, names, stems, and defined_in section labels from glossary.tex"""
     with open(glossary_file, 'r', encoding='utf-8') as f:
         content = f.read()
-    
+
     # Split by newglossaryentry to find the start of each entry
     parts = content.split('\\newglossaryentry{')
-    
+
     # Dictionary to store term data
     glossary_terms = {}
-    
+
     # Counters for debugging
     total_entries = 0
     entries_with_stems = 0
     total_stems = 0
-    
+
     # Process each entry (skip the first part which is before any entry)
     for part in parts[1:]:
         if not part.strip():
             continue
-            
+
         total_entries += 1
-        
+
         # Extract term_id
         term_id_end = part.find('}')
         term_id = part[:term_id_end].strip()
-        
+
         # Find the content between the first { after term_id and its matching }
         content_start = part.find('{', term_id_end + 1)
-        
+
         # Count braces to find the matching closing brace
         brace_count = 1
         content_end = content_start + 1
-        
+
         while brace_count > 0 and content_end < len(part):
             if part[content_end] == '{':
                 brace_count += 1
             elif part[content_end] == '}':
                 brace_count -= 1
             content_end += 1
-        
+
         # Extract the entry content
         entry_content = part[content_start + 1:content_end - 1].strip()
-        
+
         # Extract name
         name_match = re.search(r'name={([^}]+)}', entry_content)
         name = name_match.group(1) if name_match else None
-        
-        # Extract defined_in section (commented out)
+
+        # Extract defined_in section label (commented out)
         defined_in_match = re.search(r'%defined_in={([^}]+)}', entry_content)
         defined_in = defined_in_match.group(1) if defined_in_match else None
-        
+
         # Extract stems (with % comment)
         stems_match = re.search(r'%stem={([^}]+)}', entry_content)
-        
+
         # Process stems if they exist
         stems = []
         if stems_match:
@@ -81,20 +81,20 @@ def extract_glossary_terms(glossary_file):
             entries_with_stems += 1
             total_stems += len(stems)
             print(f"Found {len(stems)} stems for {term_id}: {stems}")
-        
+
         # Store the term data
         glossary_terms[term_id] = {
             'name': name,
             'defined_in': defined_in,
             'stems': stems
         }
-    
+
     # Print summary
     print(f"\nGlossary Summary:")
     print(f"Total entries: {total_entries}")
     print(f"Entries with stems: {entries_with_stems}")
     print(f"Total stems: {total_stems}")
-    
+
     return glossary_terms
 
 def find_all_headings(content):
@@ -178,36 +178,41 @@ def process_paper(paper_file, glossary_terms):
         section_title = section_match.group(1)
         section_start = section_match.end()
         section_end = len(content) if i == len(section_matches) - 1 else section_matches[i+1].start()
-        
+
         stats['total_sections'] += 1
-        
+
         # Skip "Quick Start / Essentials" section
         if "Quick Start / Essentials" in section_title:
             stats['skipped_quick_start'] += 1
             debug_log.append(f"Skipping section: {section_title}")
             continue
-        
-        # Clean section title for comparison (remove ** and other markers)
-        cleaned_section_title = section_title.lstrip('*').strip()
-        
-        debug_log.append(f"Processing section: '{section_title}' ({section_end - section_start} chars)")
+
+        # Extract section label if present (look for \label{...} after section command)
+        section_label = None
+        # Search for label within first 300 characters after section command
+        label_search_text = content[section_start:min(section_start + 300, section_end)]
+        label_match = re.search(r'\\label\{([^}]+)\}', label_search_text)
+        if label_match:
+            section_label = label_match.group(1)
+
+        debug_log.append(f"Processing section: '{section_title}' (label: {section_label}, {section_end - section_start} chars)")
         section_content = content[section_start:section_end]
 
         # Track which terms have been replaced in this section
         replaced_terms = set()
         # Track replacement positions in this section to prevent overlaps
         section_replacements = []
-        
+
         # Process each glossary term
         for term_id, term_info in glossary_terms.items():
             stats['total_term_checks'] += 1
             defined_in = term_info['defined_in']
             stems = term_info['stems']
-            
-            # Skip if term is defined in this section - use EXACT matching
-            if defined_in and defined_in == cleaned_section_title:
+
+            # Skip if term is defined in this section - compare against label
+            if defined_in and section_label and defined_in == section_label:
                 stats['skipped_defined_in'] += 1
-                debug_log.append(f"  Skipping '{term_id}' - defined in this section")
+                debug_log.append(f"  Skipping '{term_id}' - defined in this section (label: {section_label})")
                 continue
             
             # Skip if no stems defined

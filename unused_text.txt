@@ -2737,3 +2737,5 @@ The structure of our societies and culture often makes forming healthy relations
    We varyingly report fixed doses vs. mg/kg because the .
 
 We have also not seen any evidence suggesting that MDMA-induced oxidative stress is practically significant. 
+
+Beyond these somewhat established states, the defense cascade model may have gaps or occasional, atypical interactions with MDMA. \textcite{razviPSIP} reports another state sometimes encountered during MDMA therapy where a person \enquote{may have very little or no response to substances as powerful as MDMA or psilocybin. They will feel sober, or bored or sleepy as if they could get up and go about their day. If a therapist wasn't in the room, they might fall asleep during the height of an MDMA session.} Sleepiness, soberness, and boredom are neither effects of immobility nor MDMA. This suggests there might be at least one more poorly understood state or interaction between a state and MDMA.
