@@ -2714,4 +2714,26 @@ The structure of our societies and culture often makes forming healthy relations
 
  Its efficacy for sleep disorders without comorbid mental illness is well-established, but it is poorly studied for sleep disorders caused by mental illness. 
 
- 
+ If you try this novel combination, we suggest using lower doses, as all drugs have side effects, ranges of safe dosing, and interactions with other drugs, including potentially MDMA. \textcite{naltrexoneInfo} provides thorough information about naltrexone. We are unable to provide instructions on safe and effective use here.
+
+\thanks{\href{mailto:mgroeneveld@protonmail.ch}{mgroeneveld@protonmail.ch}}
+
+ \todo{For a listing of the more common possibilities and a brief discussion of the differences between them, see Appendix NUMBER.}
+
+ \todo{WE SHOULD TALK IN DETAIL SOMEWHERE ABOUT WHAT DECISIONS ARE REASONABLE TO DELEGATE OR NOT}
+
+ 	% \todo{\item \textbf{Unwinding Anxiety App:} Day write}
+
+ \todo{Detailed in Appendix}
+
+ \todo{Rest and play. Can also boost executive function}
+
+ Session frequency, another important piece of safety, is addressed separately in \cref{frequency}.
+
+ One-third of that total dose came from a booster dose 50\% the strength of the initial dose taken 1.5--2.5\,hours later to extend the productive duration of the session. 
+
+  This was used as the basis for the large phase III trials that used three 120\,+\,60\,mg sessions~\cite{mitchellMDMAClinicalTrial}.
+
+   We varyingly report fixed doses vs. mg/kg because the .
+
+We have also not seen any evidence suggesting that MDMA-induced oxidative stress is practically significant. 
