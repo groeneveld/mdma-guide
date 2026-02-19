@@ -2854,3 +2854,24 @@ There is low-quality evidence that breathing exercises reduce stress~\cite{finch
 
 Using specific sources of prediction error, as is often done in regular therapy, may be more useful for targeting a single schema.
 
+
+    \writtenByDay{
+    \item Mapping your triggers can help you avoid or manage overwhelming situations. Safety mapping is a valuable tool for identifying sources of safety and threat in your life. Journal about the things, places, practices, people, or situations with which you feel safe and at home, and with which you feel unsafe. Then make a diagram with two axes, safe-feeling and accessibility. Plot at least the top 10 items you journaled about on this diagram. You can use this information to imagine a safe, comforting scenario when you feel overwhelmed. Imagine vivid sensations, like the feel of your bare feet on a forest floor if that's comforting to you, to increase its power. You can also set boundaries around stimuli that activate challenging schemas. For example, you could tell someone you feel overwhelmed when they discuss a particular topic, and you would appreciate them avoiding it.
+    }
+
+    \item Exercises like noticing five things you can see, four you can touch, three you can hear, two you can smell, and one that you can taste.
+
+\textcite{argyri2025practitioner} also recommended looking for five things you can see, four things you can touch, three things you can hear, two things you can smell, and one thing you can taste.
+
+\section{[unedited] Distraction Tools}
+Coping tools are anything that temporarily deactivates (grounding exercises) your maladaptive schemas or distracts you from your current state of distress. They are highly individual because an activity that calms one person may do the opposite for someone else. \textcite{argyri2025practitioner} reported consensus among psychedelic therapy practitioners on the benefit of coping tools (called grounding practices in the paper). However, few individuals experiencing prolonged post-psychedelic difficulties think they are helpful~\cite{robinson2024coming}. The only  We recommend using them only as much as necessary, since, as a form of avoidance, they may delay healing.
+\begin{itemize}
+    \item Tensing and relaxing muscle groups one by one. See \textcite{michiganProgressive}.
+    \item Weighted blankets, holding a comforting object, or touch from a trusted person.
+    \item Warm baths, creating novels, TV, videos, creating art, nature walks, pleasant scents, hot herbal tea, reading, interacting with pets.
+    \item Imagining a safe container or box where difficult memories can be stored until you have time for reconsolidation.
+    \item Deep breathing exercises.
+    \item Setting boundaries with people around certain topics that activate your maladaptive schemas.
+\end{itemize}
+
+Randomized controlled trials show no long-term mental health benefit of learning emotional regulation\footnote{We assume emotional regulation is roughly the same as grounding.} skills in addition to reconsolidation~\cite{selePhased,oprelPhased,vlietPhased}.
