@@ -2802,3 +2802,55 @@ Certain beliefs and behaviors surrounding the therapeutic process itself are hel
     \item M.G. (semi-maladaptively) feels that improving access to effective and safe reconsolidation is important for their personal safety.
 
     \item The proposal that each case of mental illness is a unique complex system of schemas may be difficult to prove with \enquote{objective} measurements for the foreseeable future. The model is built on reports from clients and therapists.
+    
+It may have been selected for in a past where survival was much more tenuous than in it today for most people and where societies were much smaller. 
+
+
+
+\section{[unedited] Psychological Screening and Building Regulation}
+There is expert consensus among therapists specializing in PTSD and complex PTSD (CPTSD) that treatment of CPTSD should be staged~\cite{cloitreStaged}. We suspect CPTSD means most cases of complex trauma, severely non-secure attachment, and moderate-to-severe mental illness, given the strong overlap between diagnostic categories. Staged treatment 
+
+This can lead to a strong upward trajectory, whereas the same amount of reconsolidation spread over a longer period of time might not achieve the same critical mass necessary.
+
+A portion of people experience a temporary period of post-session symptom exacerbation. Only do MDMA therapy if you are willing to go through this. It is a part of the healing process; it is usually mild-to-moderate and short-lasting, but can be severe in rare circumstances.
+    
+    Prepare robust psychological support to manage potential post-session destabilization if you have severe complex trauma, diagnosed mental illness, or severely non-secure attachment.
+
+    
+ These coping tools may, in some cases, actually resolve your issue. However, without reconsolidation, some issues are more likely to remain latent and reactivate in certain circumstances.
+
+ By bringing attention to the body, it could conceivably facilitate processes like reconsolidating schemas relating to the body or increasing your understanding of how schemas, defense cascade activation, and your body interact with each other.
+
+\item \textbf{Fatigue or Exhaustion:} Intense therapeutic experiences often destabilize an entrenched pattern of schemas. We suspect that this can initiate a period of \enquote{natural} reconsolidation that occurs without a deliberate reconsolidation practice. This can produce a therapy hangover if it is intense enough.    
+
+\textcite{ecstaticIntegration} contains a wealth of information on adverse effects.
+
+
+    \writtenByDay{
+    \item Write or tell a friend or supportive stranger your \enquote{shitty first draft}: the story you're telling yourself about who you are, what you've experienced, and what it all means.
+    }
+
+    \writtenByDay{
+    \item Asking for help from your community can be incredibly vulnerable. Additionally, asking for specific things can be very hard when you're distressed. It can feel pointless when you feel very deeply as though nothing could possibly make you feel better. However, even small gestures of support can make things a little more bearable until your body-mind can start healing itself. Consider asking for food, water, tea, someone to sit with you, or someone to watch a movie with you.
+    }
+
+\textcite{robinson2024coming} surveyed people who have experienced prolonged post-psychedelic difficulties about what coping strategies and support helped them. This study did not focus only on MDMA or therapeutic use, so these results may only partially apply here. The most common techniques people reported being helpful, in decreasing order of commonality, were peers and community support, meditation and prayer, professional therapeutic or coaching assistance, self-educational reading about the issue, physical exercise, breathing techniques, journaling, acceptance and surrender, embodied contemplative practices, and time in nature. When receiving emotional support, participants most commonly reported the following as helpful: talking and feeling heard, acceptance and validation, and shared similar experiences.
+
+\textcite{argyri2025practitioner} surveyed psychedelic therapy professionals about their beliefs on what helps people with post-psychedelic difficulties. This study did not focus only on MDMA or therapeutic use, so these results may only partially apply here. They reported, in order from most cited to least cited: individual psychotherapy (particularly trauma-informed approaches), grounding and mindfulness techniques, peer and community support, meaning-making and narrative reconstruction, and in some cases, short-term psychiatric drugs.
+
+Here are what we think are good examples of the previously mentioned practices and some additional practices we think are relevant. Note that unless otherwise specified, most of these probably haven't been rigorously studied. However, they are generally low risk, common practice, or common sense.
+
+Many symptoms are just temporary physiological side effects of MDMA, which can last up to 3\,days~\cite{liechtiGender}. See \cref{table:sideeffects} for a list. 
+
+    We used the Claude AI model's research function, which reads and synthesizes hundreds of web resources (particularly scientific papers), to look for evidence that contradicts our model. We didn't treat any research report as definitive and have observed that it is often incorrect. Rather, we treat it as one source of evidence among many and always double check its reasoning by reading the primary sources. 
+
+\footnote{High-quality studies tend to have preregisteration, active placebo control, unblinding and expectancy effects measured and adjusted for, independent data analysis, unbiased staff, open data and code, multi-site design, etc.}
+
+There is low-quality evidence that breathing exercises reduce stress~\cite{fincham2023breathwork}.
+
+    \item Visualize a safe space where you feel like your truest self. Imagine vivid sensations, like the feel of your bare feet on a forest floor if that's comforting to you, to increase its power.
+
+    \item Why does MDMA therapy facilitate prediction error for some schemas but not others? Why are the schemas it tends to reconsolidate casually or therapeutically identifiable as \textit{maladaptive.} This may depend on what \textit{maladaptive} means. A process can only be adaptive or maladaptive in relation to a goal or optimization function. Predictive processing posits that the brain's fundamental optimization function is minimizing prediction error, but it remains to be seen which particular sources of prediction error that function contains in most people~\cite{clark2015surfing}. Some near-immutable intrinsic sources of prediction error for almost everyone may include hunger, thirst, pain, and the need for companionship.
+
+Using specific sources of prediction error, as is often done in regular therapy, may be more useful for targeting a single schema.
+
