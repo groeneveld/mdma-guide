@@ -2875,3 +2875,52 @@ Coping tools are anything that temporarily deactivates (grounding exercises) you
 \end{itemize}
 
 Randomized controlled trials show no long-term mental health benefit of learning emotional regulation\footnote{We assume emotional regulation is roughly the same as grounding.} skills in addition to reconsolidation~\cite{selePhased,oprelPhased,vlietPhased}.
+
+
+        
+    A state of consciousness akin to a low-intensity version of the MDMA state of consciousness can sometimes be reactivated using cues that were present during the MDMA session. The cues we know of include playing music and visualizing yourself in the location of a particularly magical MDMA session. It's not clear to us how such a capacity emerges or works, and we haven't found any papers describing the phenomenon. There are two original reports of it in \cref{internalizedReports}, and predictive processing hypotheses for how it works in \cref{ppHypotheses}.
+
+ and \prosecite{walkingMeditation}
+
+ The basic process of walking meditation can also be applied to many other daily tasks. Body movement practices that focus attention on your body, like yoga or stretching, might help too if you avoid feeling your body.
+
+ Gains in functionality and emotional health often depend on reconsolidation of the underlying maladaptive schemas~\cite{eckerUnlocking}. We guesstimate that accessing the maximum possible benefits from reconsolidation may take anywhere from single-digit hours of mismatching for the simplest problems to single-digit thousands of hours for the most severe mental illness. These estimates do not include the overhead of uncovering schemas, finding mismatches, finding techniques that work for you, or developing relationships with therapists. Because there are risks from extremely high cumulative MDMA use~\cite{tagen2023valvular,corayMemory}, and because MDMA sessions have significant logistical or financial costs, we recommend using the techniques listed in this section to achieve the bulk of your therapeutic progress.
+
+People sometimes report that between-session reconsolidation exercises are easier for some period of time following an MDMA session (see \cref{afterglow}). If this occurs for you, and if you want to accelerate healing, we recommend spending more effort on and experimenting with reconsolidation exercises in this period. You may even find that maxing out your reconsolidation capacity every day will deliver large amounts of therapeutic progress. Developing the skill of sober reconsolidation can reduce your therapeutic reliance on MDMA and allow reconsolidation in a wide variety of circumstances where MDMA use is not appropriate. When well-developed, it also allows faster healing because the safety and logistical considerations of MDMA therapy are no longer limiting.
+
+for additional healing between or instead of MDMA sessions. Those doing solo healing may find more or less luck attempting these methods on themselves. We suggest, if therapist cost or availability are significant barriers, that at least a few sessions with a trained professional can be greatly beneficial for learning a technique. Many therapists offer video therapy available from anywhere with a good internet connection, though therapists are often legally prohibited from working with clients outside their state or country of licensure.
+
+
+
+\textcite{eckerUnlocking} makes the case that many therapeutic frameworks explicitly or implicitly follow these 7 steps, quoted here:
+
+\begin{quotation}
+\subsubsection*{Preparation (Accessing sequence)}
+\begin{enumerate}
+\renewcommand{\labelenumi}{\Alph{enumi}.}
+    \item Identify symptom
+    \item Retrieve target learning (symptom-generating schema)
+    \item Identify contradictory knowledge
+\end{enumerate}
+
+[Anecdotal reports indicate that B \& C are often not necessary. Some people successfully use the present moment to reconsolidate any unknown maladaptive schema. Some of them do this without ever having used MDMA, while others learn to internalize the process of MDMA therapy (see \cref{internalizedReports}).]
+
+\subsubsection*{Transformation (Unlearning sequence)}
+\begin{enumerate}
+    \item Reactivate target learning (B)
+    \item Co-activate contradictory knowledge (C)
+    \item Repeat pairing of (B)+(C)
+\end{enumerate}
+
+\subsubsection*{Verification}
+\begin{enumerate}
+    \renewcommand{\labelenumi}{V.}
+    \item Observe markers of target learning nullification:
+    \begin{itemize}
+        \item Emotional non-reactivation
+        \item Symptom cessation
+        \item Effortless permanence
+    \end{itemize}
+\end{enumerate}
+\end{quotation}
+
