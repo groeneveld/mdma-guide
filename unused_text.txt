@@ -2995,3 +2995,46 @@ Second, despite the dystopian background, strategic habit development can (with 
 
 A harm reduction framework is both evidence-based and essential when addressing addictive coping patterns. We once read (maybe in the book \textit{tiny habits}?) that the most important characteristic for personal growth is the ability to experience satisfaction from small victories. Abstinence is an excellent goal for many people in many situations, but abstinence is not interesting or realistic for in many situations. In those cases, your welfare may depend on your ability to give care to yourself by identifying the harms your coping mechanism creates and mitigating those harms in more realistic ways. There are incremental victories to be had that make a significant difference in the level of harm an addictive coping mechanism creates in a person's life. You may reduce the amount you use, or regulate the timing (only after work), or refrain from mixing multiple substances or from gambling in the first three days after your paycheck comes in. If you are not ready to stop drinking, you may focus on making sure that you get all your driving and work accomplished before you start drinking each day, and that you stay hydrated and eat some healthy food on the regular. Maybe you want to start meditating for three minutes each day before you start drinking. These measures are meaningful. They reduce harm, improve your quality of life, and will leave you in better shape if the day comes when you are ready to make bigger changes. It's important to adopt a mental framework (and cultivate a support system) that sees the value of small improvements and supports you in making the changes you are interested in and ready to make.
 
+This chapter discusses between-session reconsolidation, managing common adverse symptoms, and making positive life changes. See the Adverse Effects Lasting More than Three Days section in \cref{sec:troubleshooting} for a comprehensive list of possible persisting symptoms.
+
+Sometimes you need to develop coping skills or resources to manage maladaptive schemas that are impairing your funtioning. However, we recommend using coping tools only when necessary, since, as a form of avoidance, they may inhibit reconsolidation.
+
+Effective therapy often follows a pattern of feeling worse before it feels better~\cite{olthofDestabilization}. Therapy may reveal disturbing, previously avoided information, and some maladaptive schemas may react poorly to your healing or decreased avoidance (see \cref{sec:complex}). This can be deeply uncomfortable, and these activating maladaptive schemas can have a wide variety of mental and physical symptoms (see \cref{psychogenic,sec:signsofdc})~\cite{kroenkeSomatic,henningsenSomatic}. Fully resolving destabilization requires further reconsolidation, either deliberate or the \enquote{background} reconsolidation that can might happen in the days-to-weeks after a session (see \cref{sec:moreReconsolidation,bigPicture}), as described in \cref{sec:complex}.
+
+
+    \writtenByDay{
+    \item \textbf{Harm Reduction for Chemical Coping:} Try a harm reduction approach when it comes to using alcohol, opiates, benzodiazepines, stimulants, etc. to cope with difficult feelings:
+    \begin{itemize}
+        \item Avoid using alone. If you are isolated, call a friend on the phone.
+        \item Avoid mixing substances or stacking doses.
+        \item If you end up using substances that you have been trying to avoid, try to be very gentle with yourself. You always have a fundamental worth and dignity no matter what.
+        \item Buprenorphine is highly effective and safe for opioid dependence~\cite{Mattickbuprenorphine}.
+    \end{itemize}
+    }
+
+We also offer practical guidance for several common challenges experienced by people with mental illness:
+\begin{itemize}
+    \item \textbf{Sleep Problems:}
+    \begin{itemize}
+        \item \textit{Cognitive Behavioral Therapy for Insomnia} has high-quality evidence for effectiveness~\cite{trauerCBTI}. \textcite{stanfordSleep} has a guide that looks easy to follow.
+        \item Melatonin is safe (long-term use is poorly studied), and its efficacy for sleep disorders without comorbid mental illness is well-established. However, it is not clear how helpful it is for anxiety-based insomnia~\cite{moon2022role}. See \textcite{scottMelatonin} for how to use it. The typical quick-release dose is 0.3\,mg, far lower than many over-the-counter pills.
+        \item Sleep issues are often maintained by maladaptive schemas about sleep or wakefulness, which are amenable to reconsolidation.
+    \end{itemize}
+    \item \textbf{Headaches:} Anger (sometimes unnoticed) can cause jaw clenching and headaches, which over-the-counter pain medication can resolve.
+\end{itemize}
+
+Anger (sometimes unnoticed) can cause jaw clenching and headaches, which over-the-counter pain medication can resolve.
+
+\section{Additional Healing and Symptom Management Tools}
+\textcite{robinson2024coming,argyri2025practitioner} identified several additional healing tools that complement the other tools discussed in this chapter. We rank these from most to least commonly reported as helpful in \textcite{robinson2024coming} and exclude items that fewer than 10\% of respondents reported:
+\begin{itemize}
+    \item \textbf{Meditation or Prayer:} Depending on how it's used, meditation could be a tool for reconsolidation, grounding, or learning about your mind and body.\footnote{Meditation can also occasionally facilitate persistent experiences of non-duality or unity, and this was meditation's traditional goal in various religions. See \cref{selfinsight}.} We discuss the reconsolidation application in the Attention bullet of \cref{increasingAttention}. Using meditation to stay focused on the present moment while acknowledging and letting go of thoughts and emotions may be grounding. Using meditation to observe your mind and body is also an effective way to learn about yourself.
+    
+    See
+    \begin{itemize}
+        \item \prosecite{rain}
+        \item \prosecite{bodyscan}
+        \item \prosecite{walkingMeditation}
+        \item \prosecite{lkMeditation}
+    \end{itemize}
+
