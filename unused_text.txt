@@ -3038,3 +3038,31 @@ Anger (sometimes unnoticed) can cause jaw clenching and headaches, which over-th
         \item \prosecite{lkMeditation}
     \end{itemize}
 
+This is difficult to ascertain, as many therapeutic processes are not actually a good match for many people.
+
+Short-term avoidance can be healthy if used to temporarily postpone dealing with a problem until you have more capacity.
+
+Minimization of prediction error is the brain's core optimization function, achieved through the construction of more complex and accurate world models.
+
+
+
+\newglossaryentry{mismatch}{
+  name={Mismatch},
+  description={The conscious contradiction of an active schema via either sensory input or another schema \cite{eckerUnlocking}.}
+  %defined_in={sec:mechanism},
+  %stem={mismatch}
+}
+
+Each compound has different effects, but they generally relax abstract predictions~\cite{carhart2019rebus}
+
+make the assumption that other possible types are dealt with similarly to immobility and lump them together under the term \textit{dissociation} 
+
+Immobility, and possibly other phenomena, produce \textit{dissociation}~\cite{kozlowskaDefenseCascade}. In our understanding, immobility is the only form of dissociation that is somewhat well understood. Other types may or may not be similarly caused by opioids and parasympathetic activation. 
+
+In our understanding, immobility is the only form of chemical numbing that is somewhat well understood. Other types may or may not be similarly caused by opioids and parasympathetic activation. 
+
+ In this book we strictly define dissociation as chemical numbing (usually endogenous opioids) because we want a term that  to mechanistically differentiate chemical numbing from top-down processes that may produce similar effects. We call all top-down phenomenon that might fit the ICD definition of dissociation\footnote{\enquote{Involuntary disruption or discontinuity in the normal integration of one or more of the following: identity, sensations, perceptions, affects, thoughts, memories, control over bodily movements, or behaviour}~\cite{icd11}.} \glsdisp{avoidance}{avoidance}.
+
+ What are called low-level (physically lower in the brain) schemas perform a vast array of functions relating to the maintenance of basic bodily functions and sensory data processing~\cite{clark2024experience}. Therapeutically relevant schemas are generally more abstract predictions about the self, relationships, or whether the world is generally safe/predictable or not.
+
+  In our experience, people are capable of 1--2\,hours of reconsolidation a day before exhaustion becomes so intense that the process is no longer possible.
