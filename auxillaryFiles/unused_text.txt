@@ -3066,3 +3066,110 @@ In our understanding, immobility is the only form of chemical numbing that is so
  What are called low-level (physically lower in the brain) schemas perform a vast array of functions relating to the maintenance of basic bodily functions and sensory data processing~\cite{clark2024experience}. Therapeutically relevant schemas are generally more abstract predictions about the self, relationships, or whether the world is generally safe/predictable or not.
 
   In our experience, people are capable of 1--2\,hours of reconsolidation a day before exhaustion becomes so intense that the process is no longer possible.
+
+  These genes are not clear \textit{causes,} rather, they co-create conditions through their interaction with other elements. For instance, a 
+
+  The term \textit{dissociation} is frequently used as a synonym for immobility, freeze, and other states caused by endogenous opioids. However, the most widely accepted definition of dissociation, \enquote{involuntary disruption or discontinuity in the normal integration of one or more of the following: identity, sensations, perceptions, affects, thoughts, memories, control over bodily movements, or behaviour}~\cite{icd11}, covers a wider range of phenomena. In this book we strictly define dissociation as chemical numbing to align with the defense cascade literature and to mechanistically differentiate chemical numbing from automatic, unnoticed avoidance, which could also fit the official definition of dissociation.
+
+Opioid numbing, along with automatic, unnoticed avoidance, and possibly other phenomena, produce dissociation, an \enquote{involuntary disruption or discontinuity in the normal integration of one or more of the following: identity, sensations, perceptions, affects, thoughts, memories, control over bodily movements, or behaviour}~\cite{icd11}.
+
+ The different types of dissociation generally include emotional numbing.
+
+ and highlight the emotional flattening aspect, which can be an important impediment during MDMA therapy
+
+
+In this book we strictly define dissociation as chemical numbing (usually endogenous opioids) to align with the defense cascade literature and to mechanistically differentiate chemical numbing from automatic, unnoticed \glsdisp{avoidance}{avoidance}, which could also fit the ICD definition\footnote{\enquote{Involuntary disruption or discontinuity in the normal integration of one or more of the following: identity, sensations, perceptions, affects, thoughts, memories, control over bodily movements, or behaviour}~\cite{icd11}.} of dissociation.
+
+\footnote{We mention these traditional categories only because they are commonly known. They have poor validity, and there are much better categorizations available, like \textcite{kotov2017hierarchical}.}
+
+\footnote{Even if you don't believe the schema formulation of mental illness, statistical clustering suggests that PTSD, generalized anxiety disorder, major depressive disorder, dysthemia, and borderline personality disorder are the same phenomenon~\cite{kotov2017hierarchical}.}
+
+DSM/ICD mental disorders are largely semi-arbitrary historical conventions rather than natural types. 
+
+\footnote{The structures of safrole and piperonal can be seen on their Wikipedia pages for comparison to MDMA.}
+
+
+
+        MDMA therapy is not for everyone, but discomfort is not a barrier to MDMA-facilitated reconsolidation. It might help you process your fear of drugs.
+
+Furthermore, most of the harm associated with MDMA is caused by dancing all night until you mixing it with other drugs at raves~\cite{riggDeaths}.
+
+\footnote{Technically, a drug is any substance that affects the body or mind. The term has come to also mean \textit{illegal drugs}.}
+
+        MDMA impairs scontrol and cognition significantly less than psilocybin~\cite{studerus2010psychometric}.
+
+(\cref{fig:mdma}) 
+
+To our knowledge, no rigorous evidence indicates that non-therapeutic use of MDMA is problematic as long as the safety considerations in this section are followed. 
+
+In recreational contexts it's still important to avoid mixing drugs (including alcohol), and additional precautions may need to be taken to offset sweating with more water consumption, but not so much as to get hyponatremia.
+
+While drinking to thirst might cause mild hyponatremia on MDMA~\cite{atilaHyponatremia}, mild hyponatremia isn't a major issue. 
+
+ When properly conducted, this process produces pure MDMA. Single-substance purity is necessary for making efective and safe doses.
+
+ While alcohol, like MDMA, can be used in harmful ways, it can also be used responsibly with minimal negative effects.
+
+
+
+
+Proper hydration is more difficult in recreational contexts than in therapeutic contexts. It's important to replace sweat losses to avoid heat illness. On the other hand, excess hydration causes hyponatremia, and MDMA makes hyponatremia more likely by altering plasma sodium regulation~\cite{baggottWater}.
+       
+It might not be possible to reliably avoid mild hyponatremia in hot environments while sweating and hydrating. People often get mild hyponatremia on MDMA while just lying on a couch in comfortable temperatures with unrestricted water access~\cite{atilaHyponatremia}. However, temporary and mild hyponatremia is not a significant issue for most people. We suggest taking a break every hour to assess how thirsty you are and then drinking to thirst.\footnote{Drinking to thirst is the body's built-in, reliable hydration regulator.} You could further reduce hydration if that strategy causes frequent urination, a sign of excess hydration.
+
+Do not mix alcohol with MDMA, as that combination significantly increases the risk of both overheating and hyponatremia~\cite{vanOverheatingAlcohol}. Additionally, ingesting extra electrolytes has not been tested as a solution and is known to not prevent hyponatremia in athletic activities~\cite{hew2008statement}.
+
+
+
+To our knowledge, recreational use of MDMA is not significantly harmful when the safety precautions in this chapter are followed. 
+
+
+    \item \textbf{Misuse:}
+       One panel of drug-misuse experts estimated that the non-therapeutic use of MDMA poses 13\% of the overall harm of alcohol and 45\% overall harm of cannabis~\cite{nuttDrugHarms}. 
+
+\subsection*{History of MDMA}
+MDMA was first made in the early 20th century by Merck, but no one recognized a use for it at the time~\cite{passieHistory}. The first known human use of MDMA was in the early 1970s as a legal alternative for MDA for recreational use. It was first used for therapy in the late 1970s after the independent chemist Alexander Shulgin realized its therapeutic potential and introduced it to the therapist Leo Zeff. Zeff then used it with many clients and taught many therapists how to use it. Then, once it was made illegal, legal therapeutic use ended. Making it legal again would require enormous amounts of money to run proper FDA-approved clinical trials. No regular drug company was willing to do this because the original patent expired in the 1930s, and they wouldn't be able to recoup their investment through drug sales. The 21st-century clinical trials were funded through a combination of donations to the nonprofit Multidisciplinary Association for Psychedelic Studies (MAPS) and MAPS selling shares of its for-profit division Resilient Pharmaceuticals (formerly Lykos, formerly MAPS Public Benefit Corporation)~\cite{lykosPatents}. To recoup their investment, Resilient tried to patent a specific particle size of MDMA crystals within a pill, but the patent office rejected it. Their business plan is now unclear. To our knowledge, in 2025, outside rare clinical trials or limited legal use in certain countries, all MDMA used in therapy is ultimately sourced from underground chemistry labs and has nothing to do with Resilient or MAPS.
+
+
+        
+        
+        While engagement with distressing feelings can be intense, people also regularly have clear, emotionally nuanced conversations on MDMA~\cite{colbertEvenings}.
+
+Similarly, the reconsolidation process can't always help you unlearn erroneous beliefs that were formed from unrepresentative sets of experiences. If you were the first human to meet aliens, and they attacked you, you might reasonably learn, \enquote{these aliens are dangerous.} No amount of reconsolidation will change that until you acquire more information, like learning that that alien was a pirate but all the other aliens are very nice people.
+
+It is far better to purchase and store MDMA in pure crystal/powder form rather than as pills or dissolved in water in common law countries. In these countries, drug charges are typically based on the mass of the entire drug mixture. Possession of less than 1\,g of pure MDMA is usually a simple possession charge. Dissoving 1\,g of MDMA in 1\,L of water immediately allows a prosecutor to upgrade simple possesion into intent to distribute with mandatory minimum prison sentences because you now legally possess 1\,kg of MDMA.
+
+ MDMA has frequency and cumulative-use limitations and therefore can't provide the bulk of reconsolidation for many people.
+
+  and GABAergic sedatives (e.g., alcohol, benzodiazepines)
+
+, though anecdotal reports indicate it isn't always necessary.
+
+
+        
+        There might be rare situations where a healthy but false-according-to-your-liveds-experience schema is unlearned. For example, someone's especially deep desire to not be alive might be able to contradict their desire to, say, avoid falling off cliffs. In that case their avoid-falling-off-cliffs schema would be an unintegrated remnant from a time in their life when they did want to be alive. In case such a scenario is actually possible, please do not try to unlearn any schemas critical for keeping you or any other being safe. Do not conduct MDMA therapy in acutely dangerous situations where healthy danger avoidance schemas may activate. We also hope that using MDMA's compassion, connection, and safety to facilitate reconsolidation of your fears and insecurities also tends to result in schemas that are associated with more compassion, connection, and safety. On a practical level, we are unaware of any instances of MDMA therapy unlearning a fundamentally healthy schema. The closest example we are aware of is the unlearning of fear-based schemas that, while unhealthy, may temporarily provide some necessary functionality in your life (see \cref{sec:complex}).
+
+            \item \textit{Voluntary Bodily Control:} Anecdotal reports indicate that people occasionally shake while on MDMA. To our knowledge, that is the only relevant effect other than unusual instances of vomiting.
+
+
+% \chapter{Trauma and Insecurity in Society}
+% \label{society}
+
+% Mental illness as illness myth to sooth the conscience of society and families.
+
+% Prisons and courts locate trauma reactions in the individual to sooth the conscience of society.
+
+
+\section{[unedited] Self-Determination Theory}
+\label{sec:sdt}
+Self-Determination Theory (SDT) is a theory of human motivation and behavior, positing that people have innate psychological needs, and satisfying these needs leads to better mental well-being and performance~\cite{deciSDT}. Many studies across cultures, age groups, and domains (education, work, sports, health, etc.) have examined and supported its principles. Contemplating how these needs have or have not been fulfilled in your life may reveal maladaptive schemas.
+
+The three fundamental psychological needs identified in SDT are:
+\begin{description}
+    \item[Autonomy] The need to feel in control of your actions and choices. It's not about being independent but rather about feeling that your behavior is self-endorsed and congruent with personal values and interests.
+    \item[Competence] The need to feel effective and capable in your activities. It involves mastering tasks, gaining new skills, and feeling a sense of growth in your capacities.
+    \item[Relatedness] The need to feel connected to others, to care for and be cared for by others, and to feel that you belong with others. It emphasizes the importance of relationships and emotional connections with peers, family, and the broader community.
+\end{description}
+
+For more information, see \prosecite{deciSDT}.
+
