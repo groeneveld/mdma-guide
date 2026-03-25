@@ -3173,3 +3173,63 @@ The three fundamental psychological needs identified in SDT are:
 
 For more information, see \prosecite{deciSDT}.
 
+Most of our hypotheses are relatively mundane and the accuracy (matches reality) of the altered precision and attention doesn't provoke notable or unusual metaphysical implications. The major exception is Fundamental Safety or Satisfactoriness. That hypothesis prompts various questions: if MDMA-facilitated satisfactoriness is more accurate than the baseline state of mind, why do we suffer? What is suffering? Why is a constant, subtle level of suffering the baseline state of mind? Why does that baseline arrangement \textit{feel} aversive (see \textcite{hardProblem})?
+
+    \item You use reconsolidation-inhibiting drugs.
+
+\subsection*{Failure Modes}
+Some maladaptive schema/defense-cascade attractor states are not possible to escape, either temporarily or permanently. We suspect this largely happens when reconsolidation inhibitors outweigh reconsolidation drivers. For instance:
+\begin{itemize}
+    \item It's too painful to acknowledge that you have issues or that you should deal with them.
+    \item Inaccurate fears about MDMA or reconsolidation. Many people learned inaccurate fears of MDMA from War on Drugs propaganda and the adverse effects of mixing MDMA with risky behavior at raves.
+    \item You are too depressed to start reconsolidation or are convinced it wouldn't work.
+    \item You gave up on MDMA therapy after an unproductive session without going through the troubleshooting steps in \cref{sec:troubleshooting}.
+    \item Spiritual bypassing: Becoming convinced that you don't need to deal with your maladaptive schemas anymore because you think you are (or are) enlightened, or on the path to enlightenment or you think all you need is to be more devout/mindful/etc~\cite{cashwell2007Bypass}.
+    \item You, your family, or your culture don't have the resources to access reconsolidation or manage destabilization.
+    \item You, your family, or your culture are invested in an incorrect interpretation of your issues that is incompatible with reconsolidation-facilitating practices (e.g., biological psychiatry,\footnote{See \glsdisp{biopsychosocial-model}{biopsychosocial} in the \hyperref[sec:glossary]{glossary} for our reasoning.} \enquote{I have X DSM/ICD disorder and there is no cure; I just have to cope with the symptoms.}, \enquote{My brain is damaged.}, \enquote{This is just the way I am.}, \enquote{The only way to heal mental illness is to join this religion or be more devout.}).
+    \item You don't know what reconsolidation is or how to do it successfully.
+    \item Stopping reconsolidation when your primary symptoms become manageable or good and not going through a process akin to \cref{mapping,stopcycle,cognitiveflexibility} to resolve secondary issues.
+    \item Current tools may not be able to resolve certain attractor states involving exceptionally strong avoidance or opioid dampening.
+\end{itemize}
+
+ As discussed in the safety section, if you struggle with severe mental illness, including but not limited to suicidal ideation and psychosis, we strongly urge you to engage these kinds of prompts with caution and professional support.
+
+    Two anecdotal reports that we know of are congruent with this multi-factor risk. In both cases, high-dose psilocybin sessions conducted the day after an MDMA therapy session caused psychotic episodes.
+
+Group therapy might offer lower cost but comes with a different set of risks and downsides~\cite{marseille2023group}.
+
+    \item assistance identifying which coping strategies are best for you in a particular context
+    \item assistance preparing executive function supports for yourself to maximize your capacity to use the right strategies at the right times
+        \item monitoring of your level of destabilization over time
+
+adverse idealizing transference (see \combinedcref{def:ait})
+    \item a trustworthy presence that creates a greater feeling of safety, enabling more effective healing
+
+However, we believe working completely alone with MDMA presents higher risks and a lower healing likelihood compared to partnering with an ethical, skilled, and well-matched mental health professional (see \cref{sec:howtofind} for definitions). However, that may not always be the best option available because it is often difficult and expensive to access an ethical, skilled, and well-matched therapist or guide. This is especially common for those who have had a series of negative experiences with mental health professionals.
+
+    \writtenByDay{
+    \item a skilled and experienced perspective about how best to maintain your window of tolerance and broaden it over time
+    \item assistance in learning appropriate coping strategies
+    \item management of destabilization periods to reduce disruptions to your life, including empathetic encouragement to rest or cut back from other obligations when appropriate. This preserves overall wellness and capability.
+    \item an empathetic and grounding presence while you think through major life decisions, relational challenges, and challenging new schemas that may emerge in the course of the work
+    \item assistance identifying supplementary treatment modalities that are likely to be most effective for your situation, and in some cases, information about how best to access those treatment modalities
+    \item assistance in planning for your medicine experience and organizing appropriate social support for the whole process
+    }
+
+Individual and couples MDMA therapy without professional assistance appears to work well for some people, including M.G.~\cite{hillsSolo,colbertEvenings}. 
+
+We are uncertain what circumstances lead to positive vs. negative experiences or the degree to which various risks are increased. We can't say if this is appropriate for your particular situation, but it is an option that many people like for various reasons. 
+
+We don't recommend this model for people who can access good professional assistance because self-assessment of risk factors is difficult. Not having an expert to discuss things with may make various parts of the process harder. 
+
+We propose the following ranking of options for people who can access a skilled, ethical, and well-matched mental health professional. The top of the list represents the lowest risk of unworkable destabilization, the highest likelihood of durable healing, and also the highest financial cost. The tradeoffs are different for those who have been traumatized by professionals or who cannot access the right professional help. In that situation the status quo of mental illness is an additional risk, and minimizing risk may occasionally mean doing solo sessions. 
+
+This list is a general guide, and the exact positions of items are debatable, as well as dependent on personal circumstance. Exceptions to the rule always exist.
+
+Or you work with an incompetent or abusive guide or therapist who may harm you by suggesting overly intense MDMA sessions and not effectively help you with the resulting destabilization. They may also offer distorted or unhealthy interpretations of experiences you have during a session.
+
+We include this model as an example of what not to do:
+\begin{itemize}
+    \item Self-guide all your medicine sessions and do all of your own between-session work. You don't use any high-quality reference material and don't understand the nuances of safe and effective healing. \textit{We don't recommend this in any circumstance. While it is occasionally helpful, the lack of an accurate framework impairs your capacity to contextualize the ups and downs of MDMA therapy, do it safely and effectively, fully utilize the possible benefits, and manage destabilization.}
+\end{itemize}
+
