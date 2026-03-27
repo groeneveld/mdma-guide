@@ -3233,3 +3233,17 @@ We include this model as an example of what not to do:
     \item Self-guide all your medicine sessions and do all of your own between-session work. You don't use any high-quality reference material and don't understand the nuances of safe and effective healing. \textit{We don't recommend this in any circumstance. While it is occasionally helpful, the lack of an accurate framework impairs your capacity to contextualize the ups and downs of MDMA therapy, do it safely and effectively, fully utilize the possible benefits, and manage destabilization.}
 \end{itemize}
 
+The concept of \textit{set and setting} is a popular framework for understanding, within psychedelic subcultures, what leads to a productive vs. unproductive~\cite{setSettingMatrix}.
+
+The concept of \textit{set and setting} is a popular framework for understanding, within psychedelic subcultures, what leads to a productive vs. unproductive~\cite{setSettingMatrix}.
+
+Proper planning of a session is important for comfort, safety, and efficacy. Planning is traditionally divided into mindset (set) and setting. These are core factors that predict much of how the session will go. 
+
+ People who are especially worried about dehydration could fully hydrate two hours before taking MDMA (Matthew Baggott, personal communication, November 24, 2025). That would provide enough time for the body to excrete any excess water by the time the session starts.
+
+You can journal about the things, places, practices, people, or situations with whom you feel safe and at home, and with whom you feel unsafe. Then make a diagram with two axes: safe-feeling and accessibility. Plot at least the top 10 items you journaled about on this diagram. Identify the items that are both safe and accessible and keep them in mind for possible post-session destabilization. Then, plan increased time with these items and decreased time with the items in the opposite corner while you're still more sensitive after the session.
+
+ It's also good to prepare a light meal or snack to eat in the middle of the session if you don't feel nauseous and didn't eat breakfast. MDMA can make food taste worse, so it should be particularly tasty and easy to eat.
+
+  These could add to the feeling of safety from the medicine and ease down opioid dampening and resistance and increase mismatch.
+
