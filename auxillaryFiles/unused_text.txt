@@ -3251,3 +3251,21 @@ You can journal about the things, places, practices, people, or situations with 
 
      We don't think all insights are useful. In fact, we suggest focusing on reconsolidation rather than insight-hunting. Insights don't necessarily change how you feel and react. Reconsolidation does change how you feel and react, and in our experience, insight naturally follows reconsolidation.
 
+, with the neuroplasticity window providing an opportune time to build positive habits and process emotional memories
+
+Healing experiences are often, to one degree or another, stressful. Although stress is frequently regarded as harmful in US culture, it is crucial to both meaning and personal growth~\cite{mcgonigalStress}. You only experience stress when things matter to you, and a stress-free life is a life of apathy and meaninglessness. It is stressful, but also helpful and important, to sit with the discomfort of a maladaptive schema or a mismatch. Even our original traumas could not have harmed us if we did not value the things we value---trauma is intrinsically connected to meaning. As you progress, try to differentiate between adaptive stress, which may alert you to immediate dangers or motivate beneficial actions, and maladaptive stress, which is more than you can process or respond to healthily. A good clinician or guide can help you gain insight into which stress is helpful for you and which stress is more likely to harm. A good clinician or guide who is up-to-date on the research on this topic can also help you reframe stress in a way that greatly reduces its negative impacts on you, even on a physiological level. For a comprehensive discussion of the dual nature of stress and the importance of looking at stress as an adaptive process, refer to \prosecite{mcgonigalStress}.
+
+It is often worth spending time with yourself, thoughts, and feelings after major experiences, like some MDMA therapy sessions. You might investigate the meaning of the session, the insights you gained, and how you react differently after reconsolidation. People commonly do this through journaling, nature walks, making art, body movement practices, listening to recordings of your sessions if you self-narrate during the session, meditation, and talking through your experiences with an emotionally skilled friend or clinician.
+
+We think these are the most common misperceptions of MDMA therapy:
+Severe underestimation of the benefits of reconsolidation
+Not aware of destabilization risk for people with severe trauma
+People expect a quick fix for severe issues
+People think just taking the MDMA will help them, and there is no need to activate maladaptive schemas
+
+It's also not clear what exactly \textit{maladaptive} means in this context.
+
+, and why the schemas it tends to reconsolidate are casually or therapeutically identifiable as \textit{maladaptive.}
+
+A higher dose of MDMA, especially if the initial dose was lower than the standard dose listed in \cref{sec:dosing}\todo{Saj Razvi doesn't think that higher-than-standard doses are helpful. Why? How likely are higher-than-standard doses to work if you can't access or do PSIP/SI?}.
+
