@@ -3308,3 +3308,14 @@ However, given the number of maladaptive schemas that most people have, we think
 I'm looking for an experienced MDMA therapy practitioner to provide detailed feedback. Email me if you're interested!
 
 Focus on that nothingness while suppressing movement, thought, and avoidance, and \enquote{it might take staying with it from minutes to a full day-long session, but it [the opioid dampening] will crack.} Note that you may transition from opioid dampening to flight-or-fight, which in our opinion is less challenging on MDMA.
+
+why MDMA therapy facilitates prediction error for some schemas but not others, and why the schemas it tends to reconsolidate are casually or therapeutically identifiable as \textit{maladaptive.} It's also not clear what exactly \textit{maladaptive} means in this context.
+
+\footnote{A process can only be adaptive or maladaptive in relation to a goal or optimization function. Predictive processing posits that the brain's fundamental optimization function is minimization of prediction error, but it remains to be seen which particular sources of prediction error that function contains in most people~\cite{clark2015surfing}. Some near-immutable intrinsic sources of prediction error for almost everyone may include hunger, thirst, pain, companionship, etc., and the future fulfillment of these. MDMA therapy may optimize schemas according to your existing set of fundamental errors or to some MDMA-modified set. \cref{ppHypotheses} lists some hypotheses about why MDMA facilitates prediction error for maladaptive schemas.
+
+In our experience, MDMA therapy seems to produce, in the long term, changes that both the individual and their emotionally healthy friends and therapists think are positive developments. In this book we use the terms \textit{maladaptive} and \textit{adaptive} casually in this sense.}
+
+Note that \textcite{eckerUnlocking} argues that calling these schemas maladaptive is pathologizing because they actually make complete internal sense in the context of an individual's lived experience. We empathize with their point but don't know a better shorthand term to distinguish schemas that are adaptive to current external reality from schemas that are not adaptive to current external reality.
+
+\footnote{Hurting other people in anger or fear is of course not always maladaptive. For instance, self-defense against immediate physical attack is typically considered healthy and justified.}
+
