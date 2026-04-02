@@ -3269,3 +3269,42 @@ It's also not clear what exactly \textit{maladaptive} means in this context.
 
 A higher dose of MDMA, especially if the initial dose was lower than the standard dose listed in \cref{sec:dosing}\todo{Saj Razvi doesn't think that higher-than-standard doses are helpful. Why? How likely are higher-than-standard doses to work if you can't access or do PSIP/SI?}.
 
+% People frequently interpret the MDMA-facilitated reconsolidation process via various metaphors like \enquote{I sent love to my inner child, told it that it was ok, and then the inner child finally relaxed,} or spiritual/religious narratives.% You aren't really controlling the love; the love is an unusual MDMA-facilitated configuration of perception, schemas, and attention (see \cref{ppHypotheses}).
+
+We warn you not to take more MDMA during a session than you initially planned to unless you took a low dose and after 1.5--2.5\,hours decide bumping it up to the equivalent of a regular dose would be better. We suggest not even keeping any MDMA within easy access of your session location. We suggest that anxiety about the session not working is actually a useful reconsolidation target, and staying present with that feeling may eventually resolve that issue.
+
+We divide the session into traditional phases based on subjective effects and therapeutic potential.
+
+ This might be anxiety about the session not going well.
+
+Once you're activated, just stay present with that fear, sadness, anger, etc. Lean into the feeling, and the MDMA should gradually dissipate it without any further action on your part. It may also help to hold difficult schemas with compassionate curiosity and agnosticism about their truth.
+
+Schemas in the model of \textcite{laneReconsolidation} have two primary components: a belief like \enquote{if I move I will die} and an emotion like fear, anger, or sadness. Bodily expressions of that emotion may also be present, like bared teeth in rage. Episodic memories of related events are also often recalled. While \textcite{laneReconsolidation} doesn't include psychogenic pain or impairment, it is obvious that memory/schemas can also generate inaccurate perceptions of bodily sensations (e.g. pain, itching) and movement ability (e.g. an inability to make a certain movement when your body is physically cabale of it). See \cref{psychogenic} for more information.
+
+Additionally, MDMA might allow you to do more reconsolidation in a day than is possible sober.
+
+ This may result in higher doses leading to shorter sessions because a faster reconsolidation rate leads to hitting the therapy hangover limit sooner.
+
+ This results in maladaptive patterns and interrupted psychological development. It may be helpful to double-check yourself against this if you are prone to spiritual interpretations of altered states of consciousness, the effects of MDMA, and the reconsolidation process.
+
+ See \cref{unlearnHealthy} for a discussion of why we think unlearning a healthy schema is unlikely.
+
+\writtenByDay{
+Relatedly, you may feel that you are receiving a message from the medicine, stating that your healing is complete and further medicine work is not appropriate or useful~\cite{razviDissociation}. Anecdotal reports suggest the message may take a form like, \enquote{the medicine has done all it can do for me, and now I need to focus on some specific practical aspect of my life.} Practical life circumstances can have an enormous impact on mental health, and we do not discourage anyone from making healthy life changes. However, we caution you to be mindful of the possibility that these messages may be another form of avoidance. 
+
+To understand what is accurate insight and what is avoidance, it may be helpful to examine what symptoms and side effects remain active in an individual's life. It may also be helpful to spend time with the negative feelings about further medicine work in the context of reconsolidation exercises, whether assisted by medicine or otherwise.
+}
+
+clearly emotionally activating\footnote{Not all schemas are emotional, but the type of maladaptive schemas addressed in therapy involve strong emotions~\cite{eckerUnlocking}. Intellectualizing about the topic isn't sufficient.} and staying present with your desired schema, 
+
+MDMA is known for exceptional feelings of love, and we suggest refraining from telling anyone how much you love them unless that is an established norm in your relationship.
+
+ It is deeply unfortunate that disclosing your most distressing thoughts to your mental health provider may endanger your safety and the safety of others in many circumstances.
+
+
+
+However, given the number of maladaptive schemas that most people have, we think it is implausible that you have reconsolidated all of them. Therefore, MDMA therapy has likely not done all it can for you. Being finished with MDMA therapy ideally depends on cost, time, safety, and availability tradeoffs rather than \enquote{being finished} with reconsolidation. At a minimum, w
+
+I'm looking for an experienced MDMA therapy practitioner to provide detailed feedback. Email me if you're interested!
+
+Focus on that nothingness while suppressing movement, thought, and avoidance, and \enquote{it might take staying with it from minutes to a full day-long session, but it [the opioid dampening] will crack.} Note that you may transition from opioid dampening to flight-or-fight, which in our opinion is less challenging on MDMA.
