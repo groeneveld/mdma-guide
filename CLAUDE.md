@@ -12,7 +12,7 @@ LaTeX-based academic book project for MDMA-assisted psychotherapy manual with au
 - If build fails: `./clear.sh && ./build.sh`
 
 **Alternative Formats:**
-- `./epub.sh` - Generate EPUB3 (expand_refs.py → pandoc with Nature CSL style)
+- `./epub.sh` - Generate EPUB3 (epub/expand_refs.py → pandoc with Nature CSL style)
 - `./md.sh` - Extract markdown summary between BEGIN_PLAIN_SUMMARY/END_PLAIN_SUMMARY markers (converts \mdcite to \citep, uses APA CSL)
 - `cd wiki && ./wiki.sh <input>.tex` - Convert to MediaWiki format (pre-wiki.py → pandoc → to-wiki-refs.py with CS1 citations)
 
@@ -29,7 +29,8 @@ LaTeX-based academic book project for MDMA-assisted psychotherapy manual with au
 - `temp/*` - Build artifacts
 
 **Key Directories:**
-- `auxillaryFiles/` - Scripts (gls.py, citation utilities), styles (CSL, CSS), graphics (cover.pdf, mdma.svg/pdf), chemical structures
+- `auxillaryFiles/` - Scripts (gls.py, citation utilities), graphics (cover.pdf, mdma.svg/pdf), chemical structures
+- `epub/` - EPUB generation pipeline (epub.sh, expand_refs.py, nature.csl, swap-pdf-images.lua, epub-styles.css)
 - `wiki/` - Wikipedia conversion pipeline (wiki.sh, pre-wiki.py, to-wiki-refs.py, example .tex files)
 - `temp/` - Build artifacts (intermediate files, gitignored)
 - `oavvalidationfigure2data/` - OAV validation data and Julia plotting scripts
