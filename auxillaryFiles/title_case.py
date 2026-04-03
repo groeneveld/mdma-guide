@@ -34,8 +34,9 @@ def titlecase_preserving_braces(text):
     result = titlecase(protected)
 
     # Restore braced groups (longest keys first to avoid partial matches)
+    # Use case-insensitive replace since titlecase() may lowercase the placeholder
     for key in sorted(placeholders, key=len, reverse=True):
-        result = result.replace(key, placeholders[key])
+        result = re.sub(re.escape(key), placeholders[key], result, flags=re.IGNORECASE)
 
     return result
 
