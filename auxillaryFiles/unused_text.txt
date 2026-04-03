@@ -3319,3 +3319,13 @@ Note that \textcite{eckerUnlocking} argues that calling these schemas maladaptiv
 
 \footnote{Hurting other people in anger or fear is of course not always maladaptive. For instance, self-defense against immediate physical attack is typically considered healthy and justified.}
 
+Also spent another 1600 hours of time thinking about how my schemas and reactions change over the process of reconsolidation
+
+Destabilization results from certain large steps in a complex system. While MDMA facilitates large steps, it is not the step itself. Few steps in complex systems are the same, so while a pattern of strong MDMA induced destabilization is a good data point, a single destabilizing trip does not imply that the next one will also be destabilizing. It may even be stabilizing. 
+
+For additional popular-press coverage of the physiological impacts of trauma and how to heal them, we strongly recommend \prosecite{harris2018deepest}. The video \href{https://www.youtube.com/watch?v=oHoFqwF2OAU}{You're Not Crazy For Being Sick - Understanding Psychosomatic Illness} is also excellent. Note that both of these largely focus on the stuck schema → stress → organ dysfunction category of issue. They also get some other things wrong because they come from a pre-schema era of thought on the subject.
+
+    \item \textbf{Thought Records:} We suspect this facilitates reconsolidation. See \prosecite{harperThought} for a worksheet.
+
+These stuck schemas may be intertwined with the stuck schemas more commonly addressed in therapy. Therefore, we advocate arranging probust sychological support if you are at risk of severe destabilization, like if you have severe complex trauma, diagnosed mental illness, or severely disorganized attachment.
+
