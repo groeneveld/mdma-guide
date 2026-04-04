@@ -3329,3 +3329,59 @@ For additional popular-press coverage of the physiological impacts of trauma and
 
 These stuck schemas may be intertwined with the stuck schemas more commonly addressed in therapy. Therefore, we advocate arranging probust sychological support if you are at risk of severe destabilization, like if you have severe complex trauma, diagnosed mental illness, or severely disorganized attachment.
 
+Your individual brain is not broken. If anything is broken, it is the evolved architecture of the brain itself, in the sense that it is capable of preventing schemas from updating as you mature or otherwise move into different environmental contexts.
+
+\todo{Explain why people crash in early twenties and sometimes later. Early schemas can coast for a while with soso okness and at some point a stressor breaks a weak point and the whole structure becomes unstable.}
+
+Here's what I have been able to find about the types of issues most associated with trauma: certain types of trauma, especially multiple severe traumas in childhood without a mediating secure attachment relationship, increase the risk for a wide variety of chronic health conditions~\cite{harris2018deepest}. This may occur either through harmful coping behavior~\cite{felittiACE}, chronic high stress causing problems with the hypothalamic-pituitary-adrenal axis~\cite{CSAHealth} and immune system, or heightened neural sensitization to normally unremarkable sensory evidence~\cite{karimov2024childhood,fitzcharles2021nociplastic}. Other mechanisms may exist too, and though I am not sure to what degree each particular issue is caused by behavioral vs. physiological mechanisms. 
+
+They can have a major negative impact on quality of life and are notoriously difficult to obtain satisfying medical care for.
+
+Reducing stress through stress-reduction activities may help here (see \cref{sectionManagement}).
+
+ that is completely unrelated to schemas
+
+Schemas may also directly cause physiological symptoms by altering physiological processes that are controlled by the brain. This may happen because the brain learned that changing these processes to produce physical (or non-physical) symptoms facilitated a desired outcome, like being cared for by a typically neglectful parent.
+
+~\cite{berghPsychogenic}. Much of this operates outside explicit awareness~\cite{clark2015surfing}. 
+
+For example, it took me two years to realize that memory reconsolidation researchers and predictive processing researchers define the term \textit{prediction error} differently, despite the two concepts appearing to be the same thing.
+
+Of course, people often learn useful meta-beliefs about the reliability of their perceptions and can question the accuracy of symptom perception at the same time as they're perceiving the symptom's existence.
+
+Childhood trauma is robustly associated with an increased risk of cardiovascular issues (e.g., heart attack, stroke, ischemic heart disease), respiratory issues (e.g., asthma, bronchitis), gastrointestinal problems (e.g., hernia, spastic colitis), metabolic disorders (e.g., diabetes, obesity), neurological problems (e.g., headaches, migraines), musculoskeletal problems (e.g., arthritis, broken bones), ulcers, sexually transmitted diseases, cancer, and autoimmune disorders~\cite{wegman2009meta,norman2012long,hughes2017effect}. Conditions like fibromyalgia, functional dyspepsia, chronic fatigue syndrome, and irritable bowel syndrome are also significantly correlated with anxiety, depression, and childhood trauma history~\cite{henningsenSomatic,gardoki2022prevalence,silvernale2024relationship}. Additionally, dementia is strongly associated with childhood trauma~\cite{severs2023traumatic}.
+
+I don't know to what degree each particular disorder can be reversed by unlearning the underlying schemas and associated stress or behaviors. There are many anecdotal reports of improvements to these disorders following successful therapy or practices that increase attention to the body~\cite{vanderKolkBody}. The field of psychoneuroendocrinoimmunology may also help address some of these conditions.
+
+Presumably, in any of the scenarios involving tissue damage or organ dysfunction, accurate perception of these physiological symptoms may sometimes further reinforce other inaccurate perceptions of illness or injury, thereby driving further inaccurate symptom perception.
+
+ Medical interventions to fix the tissue damage or organ dysfunction may also help.
+
+ This could conceivably form a positive feedback loop of anxiety causing organ dysfunction, the perception of which further increases anxiety, which then further increases organ dysfunction, etc.
+
+Additionally, anger (sometimes unnoticed) can cause jaw clenching and headaches.
+
+So far, I have used the term \textit{schema} to describe emotionally significant units of beliefs, emotions, and episodic memories~\cite{eckerUnlocking}. But more broadly, most brain activity is functionally composed of innumerable learned, schema-like networks that model the world, interpret sensory information, and control action~\cite{clark2015surfing}.\footnote{It's unclear whether these are legitimately termed \textit{schemas,} but I will use that word for simplicity. For consistency, I also use the term \textit{reconsolidation} instead of \textit{prior updating} that \textcite{berghPsychogenic} prefers.}
+
+Perceived reality itself is largely a learned model that incoming sensory information just nudges into congruence with external reality~\cite{clark2015surfing}.\footnote{See Scott Alexander's summary (\textcite{alexanderSurfing}) of \textcite{clark2015surfing}.} We never or only rarely consciously experience raw, unfiltered sensory information. For example, people don't perceive a gap in the visual field where the retinal nerve bundle passes through a hole in the retina. Thus, even healthy perception (e.g., feeling pain) and action (e.g., moving your limbs) schemas are not perfectly accurate but are rather accurate enough and useful enough to efficiently accomplish tasks. Healthy perception and action schemas also adapt over time in response to new sensory input. However, these schemas can sometimes become more significantly inaccurate and no longer useful for reasons that seem similar to the previous discussion of how schemas become stuck~\cite{berghPsychogenic}.
+
+ This may be learned from family or culture.
+
+ \textcite{berghPsychogenic} calls the last two items interoceptive exposure therapy and interoceptive differentiation training. Research in these areas is too limited to say anything with certainty, but I think \textit{somatic therapies} like yoga, massage, and gradually progressive strength training sound like the kind of thing that might help. There are many anecdotal reports of these practices improving the sort of issues discussed~\cite{vanderKolkBody}.
+
+\begin{itemize}
+    \item Reconsolidating\footnote{For consistency, I also use the term \textit{reconsolidation} instead of \textit{prior updating} that \textcite{berghPsychogenic} prefers. As discussed earlier, I think reconsolidation is one type of prior updating.} the pervasive-threat or better-safe-than-sorry schemas~\cite{berghSelfEvidencing}. These are deeply ingrained and may take a long time to reconsolidate.
+    \item Reconsolidating the schemas driving low attention to contradictory bodily sensations. See \cref{attention} for more discussion on what causes this avoidance.
+    \item Disconfirming experiences where a touch or movement is feared to produce symptom perception but doesn't~\cite{berghPsychogenic}.
+    \item Learning more finely-grained categories of sensation may increase the certainty of contradictory evidence~\cite{berghPsychogenic}.
+\end{itemize}
+
+    \item Possibly genetic or environmental factors~\cite{berghPsychogenic}.
+
+ Trauma frequently creates these schemas.
+
+ It's conceivable that stuck schemas indirectly cause organ dysfunction via chronic stress, though \textcite{berghPsychogenic} thinks that the evidence for this is weak. 
+
+Research in these areas is too limited to say anything with certainty, but I think \textit{somatic therapies} like yoga, massage, and gradually progressive strength training sound promising. There are many anecdotal reports of these practices improving the issues discussed~\cite{vanderKolkBody}.
+
+\textit{Somatic therapies} may provide the necessary safe and detailed sensory input. Research on these is limited, but

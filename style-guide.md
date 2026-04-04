@@ -4,7 +4,7 @@ Derived from patterns in the edited sections. Use this as a reference for consis
 
 ## Voice and Person
 
-- **"We"** for the authors' collective voice: "We think," "We recommend," "We speculate." Never "I" except inside personal accounts (quotation blocks attributed to M.G. or others).
+- **"I"** for the author's voice: "I think," "I recommend," "I speculate." The exception is the sections that T.H. wrote.
 - **"You"** for the reader: "you might," "you can," "your session."
 - Refer to the authors by initials in the third person when needed: "M.G.'s experience," "T.H.'s professional experience."
 
@@ -22,10 +22,10 @@ The book distinguishes carefully between levels of confidence. Use the right hed
 | Confidence | Phrasing |
 |---|---|
 | Established evidence | "X causes Y" (with citation) |
-| Strong but incomplete evidence | "We think," "We recommend" |
-| Reasonable inference | "We suspect," "This suggests" |
-| Uncertain inference | "We speculate," "It's conceivable," "It's plausible" |
-| Unknown | "We don't know," "It's unclear," "It's not clear," "We are not aware of" |
+| Strong but incomplete evidence | "I think," "I recommend" |
+| Reasonable inference | "I suspect," "This suggests" |
+| Uncertain inference | "I speculate," "It's conceivable," "It's plausible" |
+| Unknown | "I don't know," "It's unclear," "It's not clear," "I are not aware of" |
 | Anecdotal | "Anecdotal reports indicate/suggest," "Personal experience and anecdotal reports suggest" |
 
 - Always flag when evidence is low-quality, limited, or absent.
@@ -38,8 +38,8 @@ The book distinguishes carefully between levels of confidence. Use the right hed
 
 **Pick one hedge per sentence and commit to it.** When multiple hedges pile up — "it's conceivable that X may possibly cause Y in certain cases" — the sentence loses all meaning. The reader can't tell if you think this is plausible or nearly impossible.
 
-Bad: "We speculate that this might conceivably show up in therapy as..."
-Good: "We speculate that this shows up in therapy as..."
+Bad: "I speculate that this might conceivably show up in therapy as..."
+Good: "I speculate that this shows up in therapy as..."
 
 Bad: "It's conceivable that certain complex stuck schema networks may reconstitute certain components over time."
 Good: "Some complex networks of stuck schemas may reconstitute components over time."
@@ -89,7 +89,7 @@ Use these terms consistently:
 - Very frequent. Use `\begin{itemize}` for unordered lists.
 - **Bold labels** at the start of list items for categories: `\textbf{Ethical:} They should...`
 - List items are typically complete sentences or substantial sentence fragments.
-- Italicized commentary after a recommendation is used to add the authors' assessment: `\textit{We think this model is...}`
+- Italicized commentary after a recommendation is used to add the authors' assessment: `\textit{I think this model is...}`
 - Nested lists are used occasionally but don't over-nest.
 
 ## Citations
@@ -145,13 +145,13 @@ Use these terms consistently:
 > See \prosecite{eckerUnlocking} for further discussion.
 
 **Flagging uncertainty:**
-> We are not aware of any research or reliable reports indicating that...
+> I are not aware of any research or reliable reports indicating that...
 
 **Presenting anecdotal evidence:**
 > Anecdotal reports indicate that people frequently...
 
 **Giving a recommendation with hedge:**
-> We suggest / We recommend (for stronger) / We think (for opinions) / We speculate (for weak inferences)
+> I suggest / I recommend (for stronger) / I think (for opinions) / I speculate (for weak inferences)
 
 **Noting clinical trial limitations:**
 > Clinical trial exclusion criteria are conservative and designed to reduce unknown variables, regulatory scrutiny, and actual, if uncertain, harm.
@@ -165,7 +165,7 @@ Prefer direct phrasing over roundabout constructions:
 
 | Wordy | Tighter |
 |---|---|
-| "We have been able to find some evidence that" | "There is some evidence that" |
+| "I have been able to find some evidence that" | "There is some evidence that" |
 | "effective for durably improving" | "produces durable improvement in" |
 | "It is important to note that" | (just state the thing) |
 | "There is a possibility that X may" | "X may" |
