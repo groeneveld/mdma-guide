@@ -3385,3 +3385,16 @@ Perceived reality itself is largely a learned model that incoming sensory inform
 Research in these areas is too limited to say anything with certainty, but I think \textit{somatic therapies} like yoga, massage, and gradually progressive strength training sound promising. There are many anecdotal reports of these practices improving the issues discussed~\cite{vanderKolkBody}.
 
 \textit{Somatic therapies} may provide the necessary safe and detailed sensory input. Research on these is limited, but
+
+\footnote{MDMA therapy is fundamentally akin to psychotherapy. When looked at from that perspective, MDMA therapy has already met higher standards than conventional talk therapy. Methods of psychotherapy are unregulated and require no demonstration of efficacy or safety.}
+
+ I think this generally produces good outcomes but is not perfect.
+
+However, during the war on drugs, many psychoactive substances were stigmatized and deemed harmful without evidence-based assessments of their actual risk~\cite{alexanderNewJimCrow}.
+
+
+
+        No schemas perfectly model reality, and therefore the reconsolidation process doesn't imply that your post-reconsolidation beliefs will be a precise truth about the world or yourself. Rather, post-reconsolidation schemas will be more true than the previous beliefs in the context of your lived experience.
+
+        I am also not aware of any unambiguous instances of MDMA therapy creating false beliefs.
+
