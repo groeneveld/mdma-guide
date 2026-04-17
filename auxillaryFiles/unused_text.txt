@@ -3756,3 +3756,74 @@ This comprehensive open-science manual provides evidence-informed guidance for M
 This provides a mechanistic account consistent with the positive results of two phase III clinical trials and the Dutch state commission finding that MDMA therapy is highly effective and ready for public availability.  The mechanism also accounts for other studies and anecdotal evidence demonstrating that MDMA therapy works across a wide range of mental illnesses.
 
 The total contribution of hours was about 85\% M.G. and 15\% T.H.
+
+\section{[unedited] Attachment Theory}
+\label{attachment}
+Attachment theory describes how secure attachments formed in the first 18\,months of life serve as the foundation for emotional and psychological development throughout your life~\cite{brownAttachmentDisturbances}. It is one of the most empirically supported theories in psychology, with over 70\,years of well-replicated research behind it. According to attachment theory, the presence of consistent, sensitive caregiving facilitates the development of secure attachment, and in its absence, individuals tend to develop anxious, avoidant, or disorganized styles of attachment. Researchers have identified five pillars of secure attachment. Cultivating secure attachment requires caregivers who are physically present, consistent, reliable, and interested in enacting these five pillars. That is to say, for the five pillars to be met, these additional conditions must also be met as their foundation. The five pillars are:
+
+\begin{description}
+    \item[Felt Safety/Protection] The child knows the caregivers are on their side and will act in their best interest across many domains of life (physically, emotionally, etc.).
+    \item[Feeling Seen and Known/Attunement] The child accurately feels that their caregivers actually know what is going on with them; caregivers encourage and value open communication and are sensitive and responsive to a wide variety of cues from the child. Caregivers recognize and validate the child's separate experiences.
+    \item[Felt Comfort/Soothing and Reassurance] Caregivers assist the child in accepting and regulating their emotions, and the child can feel calm when needed and able to feel appropriate distress without self-judgment or repression. Caregivers are available, responsive, and skilled at reassuring the child when the child is upset.
+    \item[Feeling Valued/Expressed Delight] Caregivers express pleasure in the child's presence and satisfaction in their existence; caregivers are openly affectionate, loving, valuing, and caregiving towards the child on a consistent basis.
+    \item[Felt Support for Best Self/Unconditional Support and Encouragement] Caregivers support the child in exploring the world away from the caregiver and in interests and desires that are different from the caregiver's as well as those that are the same.
+\end{description}
+
+\textit{M.G.'s Note: While the intention of the parent is important, the ultimate impact is how much the child feels these factors. The absence of these factors in early childhood often leads to profound emotional pain and dysfunction later in life. For a more thorough discussion, see Qualities Known in General to Promote Secure Attachment on pages 323--325 of \prosecite{brownAttachmentDisturbances}.}
+
+T.H. also recommends
+\begin{itemize}
+    \item the \textit{Heidi Priebe} YouTube channel, which offers an array of videos that provide practical advice on specific topics from a rich, rigorous, and nuanced attachment-based perspective~\cite{priebeYoutube}.
+    \item \href{https://www.theattachmentproject.com}{theattachmentproject.com}, which offers free access to an empirically validated instrument for assessing your attachment style (labeled there as a quiz)~\cite{attachmentProject}. They also provide a list, based on the work of Dr. Jeffrey Young et al., of common stuck schemas caused by insecure attachment~\cite{earlyMalSchemas}.
+    \item \textit{Therapists Uncensored,} a podcast where two therapists discuss many aspects of attachment theory with guests who include experts in the field~\cite{therapistsUncensored}.
+    \item \prosecite{brownAttachmentDisturbances}. A great, though lengthy and dense, textbook for understanding and treating adult attachment disorders. It combines clinical insights with research findings and illustrative case studies.
+\end{itemize}
+
+\writtenByDay{
+When applying scientific studies to your life and health, it is important to remember that the data gleaned from these studies flattens a wide variety of individual responses by combining them into readable averages. You as an individual may experience something very different from the average participant of any given study, and that may be totally normal and fine. Some examples include: you may be much more or less sensitive to the psychological or physical impacts of MDMA. The medicine may impact you for a greater or lesser amount of time than it impacts the average person. You may experience more healing, faster, than the average study participant, or you may not be helped by MDMA at all. Many normal human variations, like low or high body mass, recent pregnancy, or menstrual cycle status, clearly have an impact on many mental health interventions (especially when it comes to effective dosage) but are not typically studied.
+
+One of the great frustrations of mental healthcare research is that every real-life situation is infinitely complex, and a corresponding infinity of confounding factors have the potential to influence outcomes. This book encourages you to discuss with your clinician any difference in what you are experiencing (during any mental health intervention) from what the average response is that you might have expected from the research. It's important to keep an eye on any health and safety concerns that might be related to your response. At the same time, remember that the range of normal and healthy responses to any mental health intervention is much broader than the averages suggest.
+}
+
+all estimated that MDMA poses far lower health risk than alcohol even in non-therapeutic contexts, suggesting that it is not a significant concern~\cite{nuttDrugHarms}.
+
+ MDMA is also used far less in therapeutic contexts than in recreational ones.
+
+ That being said, to my knowledge, no trials have investigated long-term physical consequences.
+
+ Furthermore, much of the harm of non-therapeutic MDMA use is caused by the known contraindications listed in \cref{sec:safety} that are easily avoided in therapeutic contexts.
+
+Unhealthy parental behavior and attitudes are the cause of many stuck schemas. 
+
+ Dysfunctional homes are not limited to overt abuse; 41\% of the US population has non-secure attachment~\cite{mickelson1997adult}, which is generally caused by parents' behaviors~\cite{brownAttachmentDisturbances}.
+
+There is an indirect line of reasoning suggesting that MDMA-induced oxidative damage may not be a major concern in low-risk therapeutic use patterns. Three panels of drug misuse experts from three countries evaluated the harms of non-therapeutic drug use~\cite{nuttDrugHarms,bonomoHarms,crossinHarms}. In their categorization of harms, I think neural oxidative damage would be categorized as either drug-specific damage or drug-related impairment of mental functioning. Even in non-therapeutic contexts---where overdose, mixing drugs, and over- and under-hydration are common---the assessed drug-specific damage of MDMA, or substances sold as MDMA, was almost zero in two studies and equivalent to cannabis or 1/3 that of alcohol in the third. The assessed drug-related impairment of mental functioning of MDMA was roughly equivalent to that of cannabis in each study and varied from 1/4 that of alcohol to being equivalent. This suggests that MDMA use falls well within many people's risk tolerances. Given the non-therapeutic context, a significant portion of those assessed harms come from risky behavior at raves rather than MDMA itself~\cite{riggDeaths}. This suggests that harm from much less risky therapeutic use is even less of a problem, especially compared to the potential improvements in mental health.
+
+Neither is likely sufficient on it's own to produce good outcomes. This process also goes awry when stuck schemas interfere with the schemas we build through moral reasoning.
+
+Most people want to avoid causing unnecessary harm to other beings. 
+
+many of the explicit or implicit cultural and family teachings we internalize makes this difficult to greater or lesser degrees.
+
+ \prosecite{trestman2026animal} and \prosecite{gruen2024moral} are philosophy encyclopedia entries discussing the nuances of their topics.
+
+    See \prosecite{birchEdge} (open access book) and \prosecite{butlinAI} for further discussion, though both are dense.
+
+is difficult because it depends on knowing what beings have subjective experience and whether that experience can include suffering and happiness.\footnote{I assumme that the capacity for subjective experiences of suffering or happiness imbues a being with moral worth. This is a common, though somewhat arbitrary position chosen based on my own ethical values. It is also necessary to make some starting assumptions, since moral/ethical reasoning is intractible without them~\cite{metaEthics}.} These are critical unsolved problem in philosophy of mind~\cite{hardProblem,birchEdge}. In the absence of those solutions, I can only offer some heuristics for acting as you would want to according to your existing innate empathetic impulses if you weren't subtly avoiding, justifying, or denying anything important surrounding harm or worth.
+
+(e.g., rocks\footnote{Multiple proposed solutions to the hard problem of consciousness propose that everything is consciouss, including rocks~\cite{hardProblem}. I exclude them because, while they might have some form of foreign subjective experience, I don't think it would include suffering or happiness, and therefore moral worth.}, single cells)
+
+\footnote{These assessments are inherently evidence-informed hunches that the scientific process may be unable to fully resolve~\cite{hardProblem}. It's not even currently possible to prove that any cognitively normal adult humans other than yourself have a subjective experience, and there are even philosophers of mind who don't think they have subjective experience. Therefore, I am left with multiple lines of educated guesswork.}
+
+Formalizing your ethical beliefs may also help, especially when considering novel situations. Formalized ethics generally take the form of the various types of deontology, virtue ethics, and consequentialism.
+
+\writtenByDay{
+This book also recommends that you be cautious of major ethical readjustments during or after an MDMA trip, just as you would be with major life choice changes. Particularly high caution is warranted around actions that involve harm to some beings in the pursuit of a greater goal~\cite{askellSelfServing}. While we live in a reality of pervasive, unavoidable, and difficult tradeoffs, these types of actions often have toxic personal, organizational, and reputational effects that we may be discounting. This book recommends thinking through the many effects of your actions, including their larger systemic and relational impacts. Such actions are also commonly used as an automatic rationalization of poorly-understood ego-related schemas. This book suggests that deeper exploration and reconsolidation of stuck schemas, including those listed in \cref{mapping}, will help you better align personal actions with the needs of all beings.
+}
+
+Acknowledging the worth of some beings may actually be a major threat to some people whose lives or wellbeing depend on being in good standing with their community, if that community is particularly high-control or dysfunctional in certain ways. I think the perception of threat is probably a stuck schema if you're not in that situation.\footnote{Some people may find it's ethically worth it to take on that risk even in that situation.}\footnote{My definition of maladaptive is most noticeably diverging from hard individualism here. It includes the effects of our actions on other people.}
+
+Avoidance is a powerful force even on MDMA, and it may be impossible to clearly consider these questions without first reconsolidating the distressing schemas that surround them. Thinking through these questions after the MDMA session will be easier without these schemas.
+
+Some of the relevant harm are obfuscated from being incentivized through a series of intermediaries, like markets, elections, or culture. One example is consumers creating demand for cheap fish, which farmers fulfill through fish farms with conditions of extreme mass suffering~\cite{singerLiberation}. The consumer is so far removed that they don't have to think of what their purchases incentivize.
+
