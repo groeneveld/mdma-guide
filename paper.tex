@@ -294,7 +294,17 @@ Mark
 \subsubsection*{Project Contributions:} T.H. wrote \nameref{sec:howtofind}, most of \nameref{navigating}, and minor parts other sections. M.G. was responsible for everything else. M.G. also copyedited all of T.H.'s sections and changed some terms to match the rest of the book. T.H. also provided early feedback on many of M.G.'s sections.
 
 \subsubsection*{AI Disclosure}
-I used Claude for editing suggestions (extensive), identifying sources for further reading (occasional), summarizing papers (occasional), simple content generation (once, for \cref{mssProbes}), quantity estimation (once, in \cref{frequency}), and double checking that my sources actually back up my claims (occasional). All AI responses were verified against original sources and treated as one input among many---not as authoritative. With the exception of \cref{mssProbes}, my human editor and I wrote virtually all the words in this document. On rare occasion, I incorporated Claude's rephrasing of an existing sentence during editing.
+I used Claude for
+\begin{itemize}
+    \item editing suggestions (extensive)
+    \item double checking that my sources actually back up my claims (occasional)
+    \item summarizing papers (occasional)
+    \item identifying sources for further reading (occasional)
+    \item rephrasing an existing sentence or paragraph for clarity (rare)
+    \item reformulating a list of clauses from one form into another (once, for \cref{mssProbes})
+    \item quantity estimation (once, in \cref{frequency})
+\end{itemize}
+All AI responses were verified against original sources and treated as one input among many---not as authoritative. With the exception of \cref{mssProbes}, all words originated from human authors and editors. In the rare instances I accepted Claude's rephrasing of an existing sentence or paragraph, my original meaning remained intact.
 
 \subsubsection*{Biases, Conflicts of Interest, and Background:}
 See \cref{authortable}.
@@ -1407,7 +1417,7 @@ HOW TO SCHEDULE RECONSOLIDATION
 MDMA is a moderately scarce resource because of the unclear possibility of a number of higher-dose sessions or high session frequency causing long-term tolerance~\cite{farreTolerance,parrottTolerance}, long-term cognitive impact~\cite{corayMemory}, and valvular heart disease~\cite{droogmans2007valvular}. Thus, I suggest achieving the bulk of reconsolidation with sober reconsolidation exercises like those described in \cref{sec:moreReconsolidation}, if possible. Individuals with a lot of time might find that maxing out on reconsolidation exercises whenever you have the time and can cope with a few hours of therapy hangover will deliver high rates of progress. Maxing out might take 4--6\,hours a day if you spend 2\,hours reconsolidating and 2--4\,hours in a strong therapy hangover. That assumes it's exceptionally easy for you to do reconsolidation exercises, and you're doing them at maximum intensity. It usually takes longer because of the overhead of uncovering schemas, finding mismatches, finding techniques that work for you, or developing relationships with therapists. I've noticed in my practice and the practice of one person I know that you don't have to deal with a therapy hangover as much when you do reconsolidation right before going to sleep. The therapy hangover resolves while you're asleep.
 
 WHEN ARE YOU DONE
-Unnoticed avoidance and lack of understanding about what improvements are possible also make it difficult to assess when you are done with the process. If you get to the point of thinking you are done or close-enough, I suggest working through every item in \cref{mapping,stopcycle,cognitiveflexibility} during MDMA sessions. Filling out \textcite{maladaptiveSchemaScale} may also help. These will help you uncover, understand, and reconsolidate many of the stuck schemas that even mentally healthy people typically avoid dealing with or thinking about. I really do think it's worth working through all the items in those sections; just getting to a point of good-enough mental health leaves a ton of individual improvement and capacity for connection and compassion on the table.
+Unnoticed avoidance and lack of understanding about what improvements are possible also make it difficult to assess when you are done with the process. If you get to the point of thinking you are done or close-enough, I suggest working through every item in \cref{mapping} during MDMA sessions. Filling out \textcite{maladaptiveSchemaScale} may also help. These will help you uncover, understand, and reconsolidate many of the stuck schemas that even mentally healthy people typically avoid dealing with or thinking about. I really do think it's worth working through all the items in those sections; just getting to a point of good-enough mental health leaves a ton of individual improvement and capacity for connection and compassion on the table.
 
 RESOURCES
 I recommend the following resources for guidance on the long term process of healing:
@@ -1713,13 +1723,14 @@ Keep an eye out for cultic group structures or dynamics. Accounts from the under
 
 \chapter{Prompts for Activating Stuck Schemas}
 \label{mapping}
-Remember, these are supposed to feel uncomfortable. 
-If these feel overwhelming on MDMA, start with the easiest ones and work your way up to the harder ones over time.
-\section{[unedited] Personal Schemas}
-See \cref{mssProbes} for a list of prompts designed to activate stuck schemas during an MDMA therapy session.
+Schema activation does not always happen spontaneously during a session, and when it does, it may not cover all the stuck schemas that are worth reconsolidating in your life. This section helps you deliberately activate and reconsolidate common stuck schemas that you may not be aware of. Working through these prompts builds more resilience and equanimity than the default of just doing enough MDMA therapy to make your primary issue feel manageable.
+
+These are going to feel uncomfortable, but that's part of the process. Start with the easiest ones and work your way up to the harder ones over time.
+\section{Personal Schemas}
+See \cref{mssProbes} for a list of prompts designed to activate many mental illness, developmental, and attachment-related stuck schemas that people commonly have. It may help to imagine a concrete scenario for each item. Feel free to skip sections you feel totally comfortable with.
 
 \begin{longtable}{>{\raggedright}p{0.6\textwidth} p{0.35\textwidth}}
-\caption{Schema Activation Prompts inspired by \textcite{maladaptiveSchemaScale}. I used Claude to generate this table using the original scale as input, transforming the diagnostic form of each item into a schema-activating form.}
+\caption{Schema Activation Prompts inspired by \prosecite{maladaptiveSchemaScale}. I used Claude to transform the items in the original scale from their diagnostic forms into schema-activating forms, each framed as a scenario the schema is built to defend against.}
 \label{mssProbes} \\
 \toprule
 \textbf{Activation Prompt} & \textbf{Schema Domain} \\
@@ -1738,8 +1749,8 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 \multicolumn{2}{l}{\textbf{Safety \& Attachment}} \\
 \midrule
 
--Someone you love is pulling away from you & Abandonment \\
--The people you love most can't fully commit to you &  \\
+-Someone you love is about to leave you without warning & Abandonment \\
+-The person closest to you is wavering on their commitment &  \\
 -You desperately need someone and no one is coming &  \\
 -The person you depend on most is leaving &  \\
 \addlinespace
@@ -1751,7 +1762,7 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 \addlinespace
 
 -You're struggling and there's no one to turn to & Emotional Deprivation \\
--You're in trouble and you need to call someone right now &  \\
+-You're in trouble right now and there's no one you can call &  \\
 -The people around you don't care how you feel &  \\
 -You need emotional support and no one is offering it &  \\
 \addlinespace
@@ -1759,29 +1770,29 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 -Someone is being kind to you but you can't see their real motive & Mistrust of Others \\
 -You have to trust someone completely right now &  \\
 -Someone is telling you something important and you can't verify it &  \\
--Everyone around you is lying &  \\
+-You just realized the people around you have been lying to you &  \\
 \addlinespace
 
--The people around you are selfish and don't care about you & Others are Dangerous \\
--No one genuinely cares about anyone else's wellbeing &  \\
+-You just saw clearly how selfish the people around you really are & Others are Dangerous \\
+-You're watching someone suffer and no one is stepping in to help &  \\
 -The person in front of you could become violent at any moment &  \\
--The people closest to you are fundamentally bad &  \\
+-Someone just revealed who they really are underneath &  \\
 \addlinespace
 
--You are fundamentally different from everyone in the room & Social Isolation \\
--No one has ever truly understood how you think &  \\
--You walk into a group and everyone turns away &  \\
+-You walked into a room and immediately felt you don't belong here & Social Isolation \\
+-You're trying to explain something important and no one understands &  \\
+-You're surrounded by people and none of them can see you &  \\
 -You are completely on the outside looking in &  \\
 \addlinespace
 
 -The people closest to you can finally see who you really are & Defectiveness / Shame \\
--There is something broken at your core that can't be fixed &  \\
--The parts of you that you hide most are fully visible right now &  \\
+-Someone just looked at you and saw what's broken &  \\
+-The people you love can't love you because of what's wrong with you &  \\
 -You are exposed and there are real reasons to feel ashamed &  \\
 \addlinespace
 
 -You've stepped outside your safe zone and bad things are closing in & Vulnerability \\
--The world around you is unsafe and you are unprotected &  \\
+-You just realized you're exposed and nothing is protecting you &  \\
 -Everything is falling apart and catastrophe is coming &  \\
 -The world is hostile and it's coming for you &  \\
 
@@ -1807,13 +1818,13 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 -The problems you're facing are beyond your ability to manage &  \\
 \addlinespace
 
--Your life is being shaped by forces completely outside your control & Fatalism \\
--Nothing you do will change what happens next &  \\
--Outside forces are deciding your future no matter what you try &  \\
--The path of your life is not yours to steer &  \\
+-Something important is being decided about your life and you can't influence it & Fatalism \\
+-A critical moment is coming and nothing you do will change the outcome &  \\
+-You're watching your future be decided by things completely beyond you &  \\
+-You just realized you've never really been steering your own life &  \\
 \addlinespace
 
--Someone you love is in pain and their pain is now your pain & Enmeshment \\
+-Someone you love is in pain and it's your job to carry it & Enmeshment \\
 -You can't tell where your feelings end and someone else's begin &  \\
 -You are dissolving into another person---you can't find yourself &  \\
 -Someone else's needs are consuming everything you have &  \\
@@ -1830,19 +1841,19 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 
 -Someone needs you and you must put them first no matter what & Self-Sacrifice \\
 -Someone is bringing you their pain and it's your duty to hold it &  \\
--Your own needs don't matter as much as theirs &  \\
+-You need something right now but someone else needs more &  \\
 -You've given everything you have and it's still not enough &  \\
 \addlinespace
 
 -You have to choose between what you want and what others approve of & Approval-Seeking \\
 -Someone disagrees with you and you feel the pull to agree with them &  \\
--Someone dislikes you and you can feel it &  \\
+-Someone you don't even care for doesn't like you, and it's eating at you &  \\
 -You need to decide but you don't know what anyone else thinks &  \\
 \addlinespace
 
--Strong emotions are rising and you need to let them through & Emotional Inhibition \\
+-Strong emotions are pushing up and they won't stay contained much longer & Emotional Inhibition \\
 -Your emotions are taking over and they're going to cause damage &  \\
--Feelings are flooding in and you need to shut them down &  \\
+-You're about to cry in front of people who can't handle it &  \\
 -Your emotions are dangerously intense right now &  \\
 
 \midrule
@@ -1851,26 +1862,26 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 
 -Something is about to go wrong, as it always does & Pessimism \\
 -You're facing uncertainty and there's no reason to hope &  \\
--You're expecting the worst because that's what always comes &  \\
--The future is dark and nothing good is ahead &  \\
+-You're waiting for the bad news you know is coming &  \\
+-You're looking ahead and you can't see anything good coming &  \\
 \addlinespace
 
 -You just made a mistake and you can't let it go & Unrelenting Standards \\
 -You have to choose between being happy and meeting your standards &  \\
--Anything less than excellence is unacceptable &  \\
+-You performed well but not perfectly and it's not enough &  \\
 -You fell short and that is not okay &  \\
 \addlinespace
 
--You made a mistake and you don't deserve compassion for it & Punitiveness (Self) \\
+-You just made a mistake and you don't deserve compassion for it & Punitiveness (Self) \\
 -Something went wrong and you shouldn't get away with it &  \\
--You failed and now you must face the consequences &  \\
--Even a small mistake deserves punishment &  \\
+-You failed and now you deserve what's coming &  \\
+-A small thing just went wrong and you must pay for it &  \\
 \addlinespace
 
 -Someone made a mistake and they don't deserve your compassion & Punitiveness (Others) \\
 -Someone failed and they should be held accountable &  \\
 -Someone let you down and they deserve consequences &  \\
--People who make mistakes deserve to suffer for them &  \\
+-Someone did something wrong and letting it go would be wrong &  \\
 
 \midrule
 \multicolumn{2}{l}{\textbf{Realistic \& Consistent Limits}} \\
@@ -1882,7 +1893,7 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 -You're being treated like everyone else and you deserve more &  \\
 \addlinespace
 
--You are in complete control of everything that happens to you & Full Control \\
+-Something has gone wrong and you should have been able to prevent it & Full Control \\
 -Something is happening that you cannot control or influence &  \\
 -Willpower alone cannot change this situation &  \\
 -Something has been left to chance and you can't intervene &  \\
@@ -1897,16 +1908,16 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 \multicolumn{2}{l}{\textbf{Coherence \& Fairness}} \\
 \midrule
 
--The system is rigged and there is no justice & Unfairness \\
+-You just experienced something unjust and no one is going to fix it & Unfairness \\
 -You are being treated unfairly and no one sees it &  \\
 -Something bad happened to you and you didn't deserve it &  \\
 -Good things keep happening to other people but never to you &  \\
 \addlinespace
 
--You have no purpose and nothing you do matters & Meaninglessness \\
--Searching for meaning is pointless &  \\
--Everything you've built will amount to nothing &  \\
--Human life is fundamentally without purpose &  \\
+-You're looking at your life and nothing in it seems to matter & Meaninglessness \\
+-You've been trying to find meaning and coming up empty &  \\
+-You can see now that everything you've worked for will be forgotten &  \\
+-You're watching people strive and none of it will have meant anything &  \\
 \addlinespace
 
 -You don't know who you are right now & Lack of Coherent Identity \\
@@ -1916,18 +1927,20 @@ See \cref{mssProbes} for a list of prompts designed to activate stuck schemas du
 
 \end{longtable}
 
-\subsection*{[unedited] Habit Mapping}
+\subsection*{Habit Mapping}
 \writtenByDay{
-If you hope to unlearn old habits or to reconnect to a project that you've been feeling too overwhelmed to engage with, T.H. recommends habit mapping (see \prosecite{habitMapping}). This consists of identifying behaviors you are hoping to adjust, identifying what triggers lead you to engage in those behaviors, and identifying what results emerge after you engage in the behavior. For example, you might identify that you would like to adjust the habit of scrolling through social media on your phone for three to five hours every day as soon as you get off work.
+If you hope to unlearn old habits or to reconnect to a project that you've been feeling too overwhelmed to engage with, habit mapping (see \prosecite{habitMapping}) can help. This consists of identifying behaviors you are hoping to adjust, identifying what triggers lead you to engage in those behaviors, and identifying the results after you engage in the behavior. For example, you might identify that you would like to adjust the habit of scrolling through social media on your phone for three to five hours every day as soon as you get off work.
 
-Identifying triggers might involve exploring: what are the feelings that precede my going online? What are the stories you tell yourself? What physical and social environment are you experiencing that supports this behavior? Are you triggered by loneliness, by a desire to be free of demands for a period of time, or by a feeling of boredom/desire for stimulation, or all of the above? What happens when you work the second half of my workday in a communal space vs. when you work alone? What happens when you lock the phone in the glove compartment of your car during your lunch break and don't revisit it until you've walked outside to the parking lot?
+Identifying triggers might involve exploring: what are the feelings that precede your going online? What are the stories you tell yourself? What physical and social environment are you experiencing that supports this behavior? Are you triggered by loneliness, by a desire to be free of demands for a period of time, or by a feeling of boredom/desire for stimulation, or all of the above? What happens when you work the second half of your workday in a communal space vs. when you work alone? What happens when you lock the phone in the glove compartment of your car during your lunch break and don't revisit it until you've walked outside to the parking lot?
 
-The last stage of habit mapping involves checking in with yourself and taking time to feel \textit{all} the consequences of enacting the habit. You might feel stiff and sedentary, which feels bad in your body; your might find yourself feeling anxious or tired or lonelier than when you started scrolling, or that you get caught up in cycles of self-judgment or shame about the behavior. Maybe you feel frustrated and wish you had more time for other things. Or perhaps you feel some of these things and also feel delighted and inspired by the content you are consuming. The goal of habit mapping is to observe and record each habit as it plays out in your life and to open yourself to deeply understanding whether the choices you are making are the choices that are best for you. Sitting with whatever it is that you feel an intense need to numb and the consequences you are willing to face to achieve that numbing may prime you to face that thing during the session.
+The last stage of habit mapping involves checking in with yourself and taking time to feel \textit{all} the consequences of enacting the habit. You might feel stiff and sedentary, which feels bad in your body; you might find yourself feeling anxious or tired or lonelier than when you started scrolling, or that you get caught up in cycles of self-judgment or shame about the behavior. Maybe you feel frustrated and wish you had more time for other things. Or perhaps you feel some of these things and also feel delighted and inspired by the content you are consuming. The goal of habit mapping is to observe and record each habit as it plays out in your life and to open yourself to deeply understanding whether the choices you are making are the choices that are best for you. Sitting with what you feel an intense need to numb---and with the consequences you're willing to pay for that numbing---may prime you to face those feelings during the session.
 }
 
-\section{[unedited] Social Schemas}
+To activate the relevant schemas during a session, you can repeat this activity or just read over the notes you made when you did it sober.
+
+\section{Social Schemas}
 \label{socialPrompts}
-Imagine, as vividly as possible, being a member of a different group of people. Then, imagine how you and your friends, family, coworkers, and community would react to you. Go toward any fear, disgust, or shame and stay with that feeling. Race, gender, disability, class, political affiliation, wealth, education, attractiveness, and religion are all good attributes to consider. Feel free to add any other categories relevant to your situation. Choosing the lowest status item from each category may be the most effective.
+Imagine, as vividly as possible, being a member of a different group of people. Then, imagine how you and your friends, family, coworkers, and community would react to you. Go toward any fear, disgust, or shame and stay with that feeling. Race, gender, disability, class, political affiliation, wealth, education, attractiveness, and religion are all good attributes to consider. Add any other categories relevant to your situation. Choosing the lowest status group for each category may activate the strongest stuck schemas.
 
 In addition to imagining you are a member of the other group, consider
 \begin{itemize}
@@ -1939,10 +1952,10 @@ In addition to imagining you are a member of the other group, consider
     \item the other group outcompeting your group, while your group fades into history
 \end{itemize}
 
-\section{[unedited] Existential Schemas}
-Imagine permanent disconnection from health, relationships, meaning, belonging, status, being a good person, certainty, material comfort, order, sensory pleasures, life, and existence (including any afterlife). Additionally, consider the possibility that your fundamental assumptions about life, meaning, existence, and self might not actually be true. To our understanding, reconsolidating these stuck schemas leads to equanimity, not the loss of healthy protective behaviors or basic attachments.
+\section{Existential Schemas}
+Imagine permanent disconnection from health, material comfort, sensory pleasures, relationships, belonging, status, order, certainty, meaning, being a good person, life, and existence (including any afterlife). Additionally, consider the possibility that your fundamental assumptions about life, meaning, existence, and self might not actually be true. To my understanding, reconsolidating these stuck schemas leads to equanimity, not the loss of healthy protective behaviors or basic attachments.
 
-Attaining persistent non-attachment and non-duality requires considerably more work than using the prompts just mentioned to activate stuck schemas during MDMA therapy. \cref{selfinsight} lists a few starting points.
+Attaining persistent non-attachment and non-duality/unity requires considerably more work than using the prompts just mentioned to reconsolidate stuck schemas during MDMA therapy. \cref{selfinsight} lists a few starting points.
 
 \section{[unedited] Cognitive Flexibility and Truth-Seeking}
 \label{cognitiveflexibility}
@@ -1993,7 +2006,7 @@ The second is for situations where the driver is a perceived solution to fear, a
 
 Focus on noticing and staying with any fear, anger, or other distress you feel during this process rather than getting completely distracted by intellectual thought. This should reconsolidate any associated stuck schemas, and intellectual questions can be considered after the session is over, when there are fewer stuck schemas getting in the way. The next question is who to bring into this contemplation.
 
-Analytically determining what beings have inherent worth is difficult; it depends on solving multiple open problems in philosophy of mind and moral philosophy, like metaethics and the hard problem of consciousness~\cite{hardProblem,metaEthics}. Since there are no broadly agreed-upon solutions to these, I take a pragmatic approach that centers uncertainty and the precautionary principle. This involves thinking about what features of humans are associated with having positive and negative internal experiences and then looking at what other beings possess those features. I recommend \prosecite{birchPrecautionary} for an introduction to this approach.
+Analytically determining what beings have inherent worth is difficult; it depends on solving multiple open problems in philosophy of mind and moral philosophy, like metaethics and the hard problem of consciousness~\cite{hardProblem,metaEthics}. Since there are no broadly agreed-upon solutions to these, I take a pragmatic approach that centers uncertainty and the precautionary principle. This involves thinking about what features of humans are associated with having positive and negative internal experiences and then looking at what other beings possess those features. I recommend the short video \prosecite{birchPrecautionary} for an introduction to this approach.
 
 I propose considering beings that some major groups of people think have inherent worth, if only to check whether you're missing something others have noticed. Here are the categories that seem worth considering to me. You might disagree about where to draw the line of who to consider. I've included references for further reading that take positions of uncertainty in edge cases (e.g., AI) and compassion in stronger cases (e.g., mammals and birds).
 \begin{itemize}
@@ -2017,10 +2030,39 @@ I propose considering beings that some major groups of people think have inheren
     \prosecite{singerLiberation} may be the most influential secular work on the inherent worth of animals and how they are treated in various contexts. It was written by a moral philosopher for a general audience and is quite readable. \prosecite{scullyDominion} is a popular conservative Christian book on the topic. \prosecite{birchEdge} goes into depth about uncertainty of which animals to consider.
     \item Current or future artificial intelligences. This is far more uncertain than the previous categories and dependent on the specific architecture of an AI. Animals, like humans, at least have physical bodies with pain receptors and brains that, while less complex, operate according to the same fundamental principles as human brains (i.e., cell-based predictive processing).
     
-    See \prosecite{birchPodcastAI} for further discussion. \prosecite{birchEdge} (open access book) goes into much more detail.
+    See the podcast \prosecite{birchPodcastAI} for further discussion. \prosecite{birchEdge} (open access book) goes into much more detail.
 \end{itemize}
 
 This procedure will likely be uncomfortable, but that's part of the process. Discomfort, avoidance, and automatic discounting of worth are strong indicators that there are stuck schemas. Stay with that feeling until it reconsolidates.
+
+\section{[unedited] Connection with Nature}
+\label{sec:nature}
+Healthy natural ecosystems are home to many people and wild animals, clean our air, make oxygen, provide clean water.
+
+This exercise will help you connect to nature and reconsolidate any maladaptive schemas inhibiting that. My hope is that this will facilitate your continued access to nature as a source of peace and enjoyment.
+
+\writtenByDay{
+To safely get the most from this exercise, consider:
+\begin{itemize}
+   \item Arranging the presence of a nature-experienced friend who can assist you in finding a good location and staying safe during the session
+   \item Access to support services and utilities, like bathrooms, food, shelter, and medical care
+   \item Your level of experience and prior experiences with the medicine and dosage you will be using
+   \item Physical hazards, like things you could fall off of and things that could fall on you
+   \item Local plants (like poison ivy, thorn bushes, or plants that would be dangerous if ingested)
+   \item Local wildlife and its likelihood of interacting with your specific location (many snakes like rocky areas near water, bears and rodents can be attracted to food, areas with higher human traffic tend to see less wildlife, etc.)
+   \item Biting or stinging insects and arachnids
+   \item Additional precautions to avoid other humans and maintain legal safety
+   \item Weather appropriate food, water, gear, first aid supplies, and shelter
+\end{itemize}
+
+Although this list may appear daunting, most nature-experienced individuals are accustomed to taking these things into account continuously. Securing a location that takes all these items into consideration may be as simple as arranging to use the backyard of a friend who lives in the countryside or the woods, or having a friend who understands what you are looking for recommend a preferred campsite.
+}
+
+During the session, engage all your senses---touch soil with your bare feet, study plants and (non-stinging and non-biting) insects, and feel bark textures. As with the previous exercises, prioritize noticing and staying with any feelings of distress. This will reconsolidate many relevant stuck schemas that create discomfort with nature.
+
+Psilocybin sessions might durably increase feelings of nature-connectedness \cite{forstmannPsilocybinNature}. Psilocybin is significantly more unpredictable than MDMA and doesn't necessarily buffer difficult experiences with feelings of safety, so we strongly suggest starting with low doses, like 0.5\,g dried mushrooms.
+
+If you are interested in doing more to help preserve natural areas, I highly recommend \prosecite{ritchie2024not}. It presents rigorous, evidence-based solutions that are individually actionable and neither overly optimistic nor pessimistic.
 
 \chapter{Pre- to Post-Session}
 \section{Pre-Session Checklist}
@@ -2154,7 +2196,7 @@ See \cref{table:sideeffects} for how side effects change as the drug wears off. 
 \todo{Move somed descriptions to the timeline section, like the shaking stuff.}
 First, if you're experiencing ok-ness and self-love for the first time or are seeing how trauma shapes the world, I recommend engaging with that and not trying to refocus on engaging with distressing schemas. This experience can be a preview of the end goal of therapy and can be a great motivator for staying on the healing journey long-term through challenges. The peace and compassion may not last long after this first session, but you will gradually get some of it back as you reconsolidate various stuck schemas over the long term. Regular life is rarely total bliss, but reconsolidation does gradually improve life over the long run. If you find yourself repeating these blissful experiences on subsequent sessions, I recommend refocusing on your stuck schemas. Repeat exposure likely has declining marginal return even if the love and ok-ness feel wonderful.
 
-In my model, the first main activity in this phase is emotional activation of stuck schemas,\footnote{Some people think insight is the primary goal during MDMA therapy, but I disagree. Insight is important for conventional psychotherapy, where it's often helpful to know what the schema is before you reconsolidate it~\cite{eckerUnlocking}. I don't think this is critical in MDMA therapy, where you can skip straight to reconsolidation without knowing what the schema is first. In my experience, insight can be gained through post-session reflection. This reserves scarce session time for difficult reconsolidation.} a prerequisite for reconsolidation~\cite{eckerUnlocking}. You can do this through
+In my model, the first main activity in this phase is emotional activation of stuck schemas,\footnote{Some people think insight is the primary goal during MDMA therapy, but I disagree. Insight is important for conventional psychotherapy, where it's often helpful to know what the schema is before you reconsolidate it~\cite{eckerUnlocking}. I don't think this is critical in MDMA therapy, where you can skip straight to reconsolidation without knowing what the schema is first. In my experience, insight can be gained through post-session reflection. This reserves scarce session time for difficult reconsolidation.} a prerequisite for reconsolidation~\cite{eckerUnlocking}. You're \enquote{triggering} yourself. You can do this through
 \begin{itemize}
     \item just thinking about your issue or telling your sitter or practitioner about your issue
     \item looking at or listening to relevant material like photographs, letters, voicemails, etc.
