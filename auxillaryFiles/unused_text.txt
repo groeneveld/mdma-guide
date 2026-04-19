@@ -3841,3 +3841,34 @@ They may have been selected for in a past where survival was much more tenuous t
 
 \textit{While each of the parts in this section logically follows from the rest of the book, applying them to this class of stuck schemas is partially speculative.}
 
+While grounding might provide short-term stabilization in daily life, it shouldn't be mistaken for long-term healing. Since reconsolidation requires a conscious juxtaposition of a stuck schema and contradictory evidence, grounding tools, by directing focus away from the stuck schema, likely inhibit reconsolidation.
+
+As described in \cref{bigPicture}, you typically also need to do reconsolidation between MDMA sessions.
+
+    \item trusting that things are unfolding as they need to and that you will be ok
+
+About 5\,hours after the initial prediction error (in animal models), 
+
+Fear extinction is another strategy commonly used to deal with stuck schemas~\cite{eckerUnlocking}. I mention it here only to discuss why I do not focus on using it. In fear extinction, you attempt to create a secondary schema that activates in response to the same stimuli that activate the stuck schema. Ideally, this secondary schema will preferentially activate instead of the stuck one. The process is time-intensive as it requires individually training the secondary schema for every stimulus you want it to activate for. It is also fragile because the stuck schema remains unaltered and will activate any time you encounter a stimulus you have not sufficiently trained the secondary schema for. As \textcite[p. 1420]{doss2024memory} states based on \textcite{dunsmoor2022laboratory}, \enquote{Extinction memory is characteristically weaker, more transient, and more contextually specific than the original fear memory, rendering conditioned fear susceptible to return under various circumstances.}
+
+Contradictory information can come from many sources: feelings of safety and connection from an attuned therapist, a second activated memory, secure relationships, everyday life, and a wide variety of other experiences and knowledge. Personal experience and anecdotal reports suggest that in practice, MDMA often seems to facilitate or provide effective mismatches for most, if not all, stuck schemas. I don't know exactly what type of contradictory information you might encounter in any particular scenario, but it might be\footnote{I list several hypotheses in \cref{ppHypotheses}.}
+\begin{itemize}
+	\item other schemas or memories you already have, as is frequently used in therapy~\cite{eckerUnlocking}
+	\item normal internal or external sensory information indicating safety in the present moment
+	\item a source of inviolable safety, connection, or self-compassion perceived to be more real and fundamental than any stuck schema (\cref{internalizedReports})
+\end{itemize}
+
+It could be that multiple of these occur at the same or different times throughout one or more sessions. In all cases, MDMA's safety and empathy likely make it easier to stay present with the emotional activation of your highly distressing schemas, a requirement for reconsolidation. I've noticed that MDMA seems associated with seeing schemas and memories from a few steps back instead of feeling like the schema is unquestionably real or accurate or \textit{me.} This might also facilitate some of the previously listed prediction errors. It's not clear whether MDMA directly facilitates this perspective or whether the perspective is a natural downstream effect of reconsolidation.
+
+
+
+Reconsolidation reduces the intensity of distressing feelings of a schema, but as previously discussed, schemas also contain abstract beliefs (e.g., \enquote{I am a bad person})~\cite{laneReconsolidation}. Thus the reconsolidation process frequently produces healthy changes in self-conception, the narrative of your life, and associated beliefs and values. It also expands emotional perspective, integrates previously separated aspects of your mind, and increases cognitive flexibility. People might not even conceptualize the experience as activation and reconsolidation of a stuck schema.
+
+\todo{add attention reconsolidation?}
+
+ Reconsolidation clearly does not describe the moment-to-moment prior updating that, for example, keeps track of the positions of objects in the visual field.
+
+ These are not all the changes that reconsolidation facilitates. One of the behaviors that schemas control is where you direct your attention---toward or away from particular experiences. The brains of severely traumatized people carefully avoid many bodily sensations and certain aspects or implications of some memories. This creates dissociation, the \enquote{involuntary disruption or discontinuity in the normal integration of one or more of the following: identity, sensations, perceptions, affects, thoughts, memories, control over bodily movements, or behaviour}~\cite[sec. Dissociative disorders]{icd11}. Reconsolidation reduces avoidance and thus facilitates integrating these facets of the mind. As discussed in the next section, this can be difficult, with many ups and downs.
+
+When reconsolidation updates your schemas, those schemas no longer activate in contexts where they don't accurately represent the situation~\cite{eckerUnlocking}. Thus, in addition to your beliefs being more accurate, your emotional, behavioral, and somatic symptoms also improve since the schema is no longer creating them.
+
