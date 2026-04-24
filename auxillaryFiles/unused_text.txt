@@ -3872,3 +3872,124 @@ Reconsolidation reduces the intensity of distressing feelings of a schema, but a
 
 When reconsolidation updates your schemas, those schemas no longer activate in contexts where they don't accurately represent the situation~\cite{eckerUnlocking}. Thus, in addition to your beliefs being more accurate, your emotional, behavioral, and somatic symptoms also improve since the schema is no longer creating them.
 
+ Stable symptom worsening and destabilization are rarely \enquote{part of the process} when they're caused by guides or therapists crossing strict professional boundaries.
+
+The framework I've laid out is only part of the picture. It explains simple issues well but doesn't capture the full complexity of many mental illnesses or complex sets of stuck schemas. 
+
+ Notably, therapeutic alliance is a moderate predictor of good therapy outcomes when working with a mental health practitioner~\cite{fluckiger2018alliance}. See \textcite{BRWAIdownload} for a rating scale. It's possible that a skilled therapist you align with well could help you gently ease into avoided distressing memories and sensations during MDMA therapy instead of directly confronting them.
+
+ It's possible that a skilled therapist you align with well could help you gently ease into avoided distressing memories and sensations during MDMA therapy instead of directly confronting them.
+
+ Notably, therapeutic alliance is a moderate predictor of good therapy outcomes when working with a mental health practitioner~\cite{fluckiger2018alliance}. See \textcite{BRWAIdownload} for a rating scale. It's possible that a skilled therapist you align with well could help you gently ease into avoided distressing memories and sensations during MDMA therapy instead of directly confronting them.
+
+While complex systems dynamics surely explain important parts of the therapeutic process, its practical applications are currently limited~\cite{hayes2020complex}. Complex systems are difficult to model; the model architecture is unknown and might be significantly different for every individual, the architecture dynamically reorganizes all the time in complex ways, and almost all the parameters of the model are extremely difficult or impossible to measure. Furthermore, the state space these states exist in isn't just a simple one- or two-dimensional landscape of valleys and hills that the \enquote{ball} of mental health rolls around in; it has as many dimensions as there are schemas, behaviors, and environmental elements. I don't know how many dimensions are of practical importance in any particular case, but it could easily be enough that many therapeutically relevant systems are too complicated for any human to comprehend. So while complex system dynamics succeeds at qualitatively describing some therapeutic dynamics, it doesn't offer much practical advice~\cite{helmich2024slow,hayes2020complex}. It's unclear who will destabilize/worsen, when they will destabilize/worsen, and how long they will be destabilized/worsened for. No one knows for sure what distressing material you may or may not uncover or how reconsolidating certain schemas will cause complex nonlinear shifts in schema networks. It may also be the case that skilled therapists have developed heuristics useful for navigating this landscape.
+
+Stuck schemas and the defense cascade states they activate play a significant role in the most mental illnesses, unhelpful reactions, and emotional problems. However, they are only part of the story. The prevailing model in the field is called the biopsychosocial model~\cite{engel1977need}. It describes how many mental illnesses arise through complex interactions between biology (e.g., genetics, medical history, defense cascade activation, sleep quality), psychology (e.g., schemas, attention, emotions, thoughts), and social context (e.g., social models of how to respond to trauma, support networks, living situation, work situation).\footnote{While many biomarkers are associated with mental illness, vanishingly few have been established as significant causes rather than symptoms or associations~\cite{carvalhoBiomarker}. The exceptions are uncommon disorders like neurosyphilis and thyroid dysfunction. In my reading of \textcite{aftabGenetics,alexanderHeritability1,alexanderHeritability2}, there are a few rare gene variants that cause significant risks and numerous common gene variants that have tiny, unclear gene\,×\,environment interactions. On the other hand, the psychological and social components are predominant and obvious in numerous instances~\cite{eckerUnlocking}. I think this discrepancy between established biological and psychosocial causes suggests that mental illness is largely psychosocial.} 
+
+These elements interact with each other in complex, hard-to-understand system that is continually adapting, or trying to adapt, to its environment. 
+
+, or (d) gradually destabilizing an entrenched maladaptive state and then creating a new stable adaptive state(s).
+
+In this case, stable mental health is defined as a system that quickly returns to an adaptive state when perturbed. Transitioning to mental health is accomplished through
+
+Mental illness and health are complex systems. The prevailing model in the field is called the biopsychosocial model~\cite{engel1977need}. It describes how many mental illnesses arise through complex interactions between biology (e.g., genetics, medical history, defense cascade activation, sleep quality), psychology (e.g., schemas, attention, emotions, thoughts), and social context (e.g., social models of how to respond to trauma, support networks, living situation, work situation). However, it doesn't say anything about the details of how this might work.
+
+In this section I narrow the focus to just the initial loop I describe. This is because stuck schemas and their interactions are clearly major causes of many mental illnesses, and, aside from a few rare things, there is vanishingly little evidence that genetics or biological abnormalities are a major cause of more than a few mental illness (see footnote for citations).\footnote{While many biomarkers are associated with mental illness, vanishingly few have been established as significant causes rather than symptoms or associations~\cite{carvalhoBiomarker}. The exceptions are uncommon disorders like neurosyphilis and thyroid dysfunction. In my reading of \textcite{aftabGenetics,alexanderHeritability1,alexanderHeritability2}, there are a few rare gene variants that cause significant risks and numerous common gene variants that have tiny, unclear gene\,×\,environment interactions. On the other hand, the psychological and social components are predominant and obvious in numerous instances~\cite{eckerUnlocking}. I think this discrepancy between established biological and psychosocial causes suggests that mental illness is largely psychosocial.}
+
+On a broader level, mental illness and health is already a complex system even without that dynamic. The prevailing model in the field is called the biopsychosocial model~\cite{engel1977need}. It describes how many mental illnesses arise through complex interactions between biology (e.g., genetics, medical history, defense cascade activation, sleep quality), psychology (e.g., schemas, attention, emotions, thoughts), and social context (e.g., social models of how to respond to trauma, support networks, living situation, work situation). However, it doesn't say anything about the details of how this might work.
+
+This loop of reconsolidation allowing new sensations, thoughts, feelings, and behaviors, which then activate additional stuck schemas forms what is called a complex system.
+
+You can nudge the ball one way or another with interventions like getting better sleep or exercising, but those often aren't sufficient to push the ball out of the bown entirely, to a place of good mental health. The ball just rolls back down the slope to the bottom.
+
+\textcite[p. 2]{hayes2020complex}, while discussing mental illness as a complex system, defines complex systems (citations 13, 17--26 in the original) (brackets are my interpretation):
+\begin{quotation}
+	A dynamic system [the brain or mental states in this case] is a set of interconnected elements that evolve over time and self-organize into higher-order functional units, called attractor states [stable patterns of behavior, beliefs, emotions, and somatic sensations], that are preferred and govern system behavior. Self-organization is the process by which lower-order processes [individual schemas, defense cascade activations, elements of life circumstances, gene variants, etc.] interact and higher-order patterns emerge and then influence the lower-order processes in a top-down manner. Attractor states constrain system behavior such that it tends to be \enquote{pulled} back to these states when perturbed. An adaptive system is flexible as conditions change, but also able to maintain functional integrity in the face of perturbation. A system that has multiple functional patterns (known as multistability) can flexibly switch between patterns to meet the demands of internal and external challenges.
+	
+	Attractors that are well-established have strongly interconnected elements, with reinforcing and inhibiting feedback loops that can increase or decrease the probability of activation over time and contexts. When attractor patterns are entrenched, they become rigid and relatively insensitive to challenges or new information [as in most mental illness]. Significant disturbance [like the unlearning of stuck schemas] or strong jolts are therefore required to disrupt these patterns. Less developed or destabilized [they mean \textit{weakened}, rather than how I use it to mean \textit{worsening symptoms}] attractors have a weaker hold, allowing the system to more easily switch to alternative states.
+\end{quotation}
+
+ While the newly perceived information may reconsolidate some stuck schemas, there may be a lot more still-avoided information inhibiting reconsolidation of many other schemas. It may be possible to end up in an even more stable and maladaptive state than you started in unusual circumstances.
+
+
+
+
+There isn't much certainty about whether good mental health is a single attractor state that accomplishes multpe functions on depending on the context, or multiple shallow attractor states that the system can easily switch between as needed~\cite{hayes2020complex}. 
+
+
+
+In simpler terms, therapy is a process of moving from stuck state(s) of mental illness to state(s) of mental health~\cite{hayes2020complex}. 
+
+\todo{
+I propose three mechanisms of destabilization based on personal experience and anecdotal reports:
+\begin{itemize}
+    \item Reconsolidation decreases avoidance, and the newly-perceived information activates other stuck schemas, some of which may not have been previously activated.
+    \item Reconsolidation decreases behavioral inhibition, and the new behaviors you enact activate other stuck schemas, some of which may not have been previously activated.
+    \item Reconsolidation unlearns a stuck schema that was producing avoidance, and the newly-perceived information activates other stuck schemas, some of which may not have been previously activated.
+\end{itemize}
+}
+
+Therapeutic improvement frequently requires paying attention to and integrating previously avoided distressing information like sensations, memories, or emotions~\cite{berghSelfEvidencing}. This newly perceived information may activate various distressing (possibly latent) schemas related to the information's meaning or implications. This may further activate intense defense cascade states in severe cases. I think this new state of worsened symptoms is likely temporary because the previously avoided information is precisely what was needed to reconsolidate some symptom-producing stuck schemas; avoiding this information was what prevented reconsolidation. These worsened symptoms may drag on longer than necessary if panic, avoidance, or opioid dampening inhibit the natural reconsolidation process the newly perceived information would otherwise activate. In that case the schemas producing defense cascade activation may need to be deliberately reconsolidated.
+
+Complex systems are inherently difficult to analyze, there is little research on its application to mental illness, the brain is almost infinitely complex, and each person's system of stuck schemas is likely unique. It's impossible to fully describe the whole system, but it is often possible to isolate one set of components and make a working model of it that is accurate enough to be useful. In this section we isolate schemas and attention to build a working model of destabilization.
+
+Complex systems are inherently difficult to analyze, there is little research on its application to mental illness, the brain is almost infinitely complex, and each person's system of stuck schemas is likely unique.
+
+It is difficult to jump from an entrenched state of mental illness to a weaker state of mental health~\cite{hayes2020complex}. Therapy can gradually weaken the entrenched state or strengthen weak states of mental health. 
+
+reducing the behavioral, social, or environmental elements that reinforce state(s) of mental illness. Also increasing the strength of the schemas, behaviors, and environment that reinforce state(s) of good mental health. 
+
+shaking the system hard enough that you (hopefully) jump straight from the stable state of mental illness to an existing but inactive and somewhat stable state of good mental health~\cite{hayes2020complex}.
+
+The occasional anecdotal report of odd things suddenly improving someone's mental health may also be examples of this.
+
+So, while complex system dynamics succeeds at qualitatively describing some therapeutic dynamics, it doesn't offer much detailed practical help~\cite{helmich2024slow,hayes2020complex}. 
+
+, fluctuations between that state and a weaker adaptive state become more frequent
+
+I hope these illustrate that convoluted networks of schemas, dysfunction, and destabilization are sometimes encountered in the reconsolidation process. They may be considerably more complex and opaque in real life.
+
+Real minds may have multiple attractor states of mental dysfunction~\cite{hayes2020complex}. Some attractor states may even be surrounded by \enquote{mountains} that the ball has a difficult time getting over or around. 
+
+Further weakening of the old state or strengthening of the new state resolves this flutuation as the new state becomes even more stable and the old state becomes even harder to transition to. In simple terms, you can think of healing as standing up. Sitting and standing are both stable positions. The transition between the two is unstable but must be passed through if you want to walk anywhere. This destabilization process could also theoretically signal an impending shift to an even more maladaptive state. However, some experimental evidence indicates that destabilization during therapy tends to be a marker of later therapeutic improvement rather than stable worsening~\cite{hayes2020complex,olthofDestabilization}.
+
+Here is one example: Occasionally, one stuck schema may provide some valuable functionality in your life that your other stuck schemas would otherwise inhibit. 
+
+Throughout this book I use the term \textit{destabilization} to mean all these phenomena.
+
+    \item The proposal that each case of mental illness is a unique complex system of schemas may be very difficult to prove with \enquote{objective} measurements for the foreseeable future. The model is built on reports from clients and therapists.
+
+ but is actually associated with greater improvement later in the therapeutic process~\mdcite{olthofDestabilization}
+
+ Thus, this section, and the book as a whole, largely focus on the loop of stuck schemas, avoidance, reconsolidation, and destabilization. As described in the above footnote, reality is certainly more complicated, but I needed a working model simple enough to understand and communicate that still captures much of what is going on.
+
+\footnote{My primary source in this section, \textcite{hayes2020complex} uses the term \textit{destabilization} to mean the weakening of stuck states of mental illness. This book uses the term to mean aversive or problematic symptom changes.}
+
+Given that immobility is maintained via endogenous opioids, you might be able to dignose whether you are in immobility by taking a standard dose of intranasal naloxone. It should Naloxone is safe, often available without a prescription, starts working within a few minutes, and lasts up to a few hours~\cite{saariNaloxone}. One possible challenge is that opioid blockers blunt the subjective effects of amphetamine, and therefore possibly MDMA, for unknown reasons~\cite{jayaramNaltrexone}.
+
+The newly-active stuck schemas composing the state are also now be available to reconsolidate. I think it's necessary to resolve most of these maladaptive attractor states. It may also not be feasible to spend the rest of your life carefully avoiding falling into them.
+
+As mentioned above, good mental health is a large collection of adaptive states that the system goes in and out of as needed, depending on the context~\cite{hayes2020complex}. Healthy attractor states also continue to adapt to whatever situation they're in and don't get stuck. Unhealthy attractor states might be defined by their stuckness; they are so deep and self-reinforcing that the system does not adapt, staying stuck in old, maladaptive patterns.
+
+The brain, and many mental illness and emotional issues, are complex systems. I make several assumptions about what the elements of the complex system are that haven't been rigorously established. Most importantly, I haven't been able to find conclusive research establishing schemas/priors as constitutive elements of the complex system of mental illness. Crossover research between the fields of predictive processing, memory reconsolidation, and complex systems seems rare. Nevertheless, 
+
+ Additionally, constant effort may be needed to maintain the set of behavioral and environmental elements that maintain a state of mental health.
+
+    \item changing your context to one that has fewer elements that reinforce the maladaptive attractor state or more elements that reinforce adaptive attractor states~\cite{hayes2020complex}. This might happen by making various non-therapy improvements to your life. \cref{sec:lifechanges} discusses this, but it is not my core focus. It might also happen suddenly. I speculate that sometimes, post-MDMA afterglow is a short-lived example of this (see \cref{afterglow}). In either case, mental health might continue to improve if the new state has fewer elements that inhibit natural reconsolidation. It the state is still stuck, then any improvement will require ongoing effort.
+
+ In either case, mental health might continue to improve if the new state has fewer elements that inhibit natural reconsolidation. It the state is still stuck, then any improvement will require ongoing effort.
+
+These make a quick transition easier with the right nudge (e.g., getting a better job, leaving a bad relationship).
+
+ I speculate that post-MDMA afterglow is a short-lived example of this (see \cref{afterglow}). 
+
+  Mental health might continue to improve if the new state has fewer elements that inhibit natural reconsolidation.
+
+ may come either from gradually disassembling the components and feedback loops that maintain maladaptive states, or from a quick transition from a maladaptive state to a set of adaptive states. 
+
+ Deliberate building up of adaptive states may also be involved in any of these. 
+
+This section builds a working model of symptom worsening and healing from the phenomena of schemas, reconsolidation, and attention. This is because, while it's impossible to fully describe the whole system, it is often possible to isolate one set of components and make a working model of it that is accurate enough to be useful.
+
+The process in the second bullet can leave the maladaptive attractor inactive but intact~\cite{hayes2020complex}. Relapse occurs when the right circumstances reactivate that old attractor. Reconsolidation permanently dismantles many of the reinforcing elements of mental illness~\cite{eckerUnlocking}. There would be no, or only a weakened, latent attractor of mental illness to relapse into.
+
