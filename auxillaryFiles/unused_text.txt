@@ -3993,3 +3993,20 @@ This section builds a working model of symptom worsening and healing from the ph
 
 The process in the second bullet can leave the maladaptive attractor inactive but intact~\cite{hayes2020complex}. Relapse occurs when the right circumstances reactivate that old attractor. Reconsolidation permanently dismantles many of the reinforcing elements of mental illness~\cite{eckerUnlocking}. There would be no, or only a weakened, latent attractor of mental illness to relapse into.
 
+\writtenByDay{
+To safely get the most from this exercise, consider:
+\begin{itemize}
+   \item arranging the presence of a nature-experienced friend who can assist you in finding a good location and staying safe during the session
+   \item access to support services and utilities, like bathrooms, food, shelter, and medical care
+   \item your level of experience and prior experiences with the medicine and dosage you will be using
+   \item physical hazards, like things you could fall off of and things that could fall on you
+   \item local plants like poison ivy, thorn bushes, or plants that would be dangerous if ingested
+   \item local wildlife and its likelihood of interacting with your specific location. Many snakes like rocky areas near water; bears and rodents can be attracted to food, areas with higher human traffic tend to see less wildlife; etc.
+   \item biting or stinging insects and arachnids
+   \item additional precautions to avoid other humans and maintain legal safety
+   \item weather appropriate food, water, gear, first aid supplies, and shelter
+\end{itemize}
+
+Although this list may appear daunting, most nature-experienced individuals are accustomed to taking these things into account continuously. Securing a location that takes all these items into consideration may be as simple as arranging to use the backyard of a friend who lives in the countryside or the woods, or having a friend who understands what you are looking for recommend a preferred campsite.
+}
+
