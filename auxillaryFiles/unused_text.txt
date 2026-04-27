@@ -4010,3 +4010,49 @@ To safely get the most from this exercise, consider:
 Although this list may appear daunting, most nature-experienced individuals are accustomed to taking these things into account continuously. Securing a location that takes all these items into consideration may be as simple as arranging to use the backyard of a friend who lives in the countryside or the woods, or having a friend who understands what you are looking for recommend a preferred campsite.
 }
 
+ This is well-worn territory entirely known to in-the-know observers; I include it as an introduction for everyone else.
+
+Here I contextualize my framework within the broader field of mental health science and practice. I start by briefly introducing the concept of scientific models, the poor quality of the mental health models currently used in clinical practice (and much research), and the problems this causes.
+
+ He specifically argues that neuroscience has no conclusively accepted overarching model of brain function.\footnote{I use predictive processing, a compelling candidate framework~\cite{clark2015surfing}}
+
+\footnote{See the psychologist \citefullauthor{MastroianniPsychology}'s blog post \textcite{MastroianniPsychology} for a discussion of psychology's lack of mechanistic models.}
+
+ These models don't haven't percolated very far out of certain specialist labs into other areas of mental health science, much less the world of clinical practice, though there are exceptions.
+
+ These issues are well-known to many researchers in the field and to some clinicians, but generally not to the public. 
+
+ I hope to sidestep some, but not all, of the above issues by basing this book on the memory reconsolidation, predictive processing, complex systems, and defense cascade models of mental illness that do have somewhat-established mechanistic explanations.
+
+    \item Mental illness is difficult to measure. Mental illness is mostly measured by questionnaires filled in by the client or clinician, which have uncertain and variable connections to the underlying phenomena that are labeled mental illness~\cite{uherRatingScales}.
+
+Some important assumptions and common practices in the field are probably neither true nor useful.
+
+ The rating scales themselves are also beset by issues~\cite{uherRatingScales}.
+
+
+    
+    For example, it is commonly claimed that MDMA reduces fear by reducing activity in the amygdala. However, the claim of MDMA reducing amygdala activity was based on a questionable and weak correlation~\cite{mdmaNeuroimaging}. Further, even if MDMA does reduce blood flow to the amygdala, it is not known whether the reduction in blood flow causes reduced fear, is caused by reduced fear, or both are caused by some third factor. The changes in blood flow to the amygdala could easily be irrelevant to the therapeutic effects of MDMA.
+
+(neutrons, protons, electrons, strong force, weak force, electromagnetic force, etc.)
+
+
+    
+    When a high-quality clinical trial does find an effect, that effect is statistical. It demonstrates that the intervention causes some effect in the average person. It doesn't show the full chain of causation.
+    
+    I think not understanding why a drug really works significantly raises the likelihood of several issues. First, it's not very predictable when the drug will or will not work for any particular person. Second, the drug may have unknown but significant side effects. Third, the drug may superficially improve some symptoms while creating other, harder to see problems. For instance, it is not widely known that long-term use of SSRIs occasionally causes severe dependence~\cite{crossingZero}.
+
+\footnote{These may not be noticeable during the session if strong fear, anger, or other distressing emotions are also present. The process can still work very well in these instances.}
+
+extraordinary feelings of compassion, connection, and safety.\footnote{These may not be noticeable during the session if strong fear, anger, or other distressing emotions are also present. The process can still work very well in these instances.}
+
+ As described later, this state of mind is highly effective for processing difficult or unhelpful emotions or reactions.
+
+ Of course, this assumes that the clinical trials were reporting a repeatable effect rather than some sort of bias.
+
+I tend not to provide a simple list of instructions to follow in this book because each individual's situation is unique and the practice of MDMA therapy is sometimes complex. Many uncertainties about the practice also remain unresolved. Instead of providing simp
+
+As of the early 2020s, we are somewhere in a psychedelic hype bubble~\cite{yaden2022preparing}. 
+
+ Aside from the rare mental conditions whose biological origins are well established, many mental illnesses may actually be curable to some degree through the process outlined in this book.\footnote{Some mental disorders/differences are entirely caused by physical damage, genetics, or developmental gene-environment interactions not related to psychological trauma. These are not resolvable with MDMA therapy, according to my understanding of MDMA therapy's mechanism of action.}
+
