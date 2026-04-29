@@ -4056,3 +4056,66 @@ As of the early 2020s, we are somewhere in a psychedelic hype bubble~\cite{yaden
 
  Aside from the rare mental conditions whose biological origins are well established, many mental illnesses may actually be curable to some degree through the process outlined in this book.\footnote{Some mental disorders/differences are entirely caused by physical damage, genetics, or developmental gene-environment interactions not related to psychological trauma. These are not resolvable with MDMA therapy, according to my understanding of MDMA therapy's mechanism of action.}
 
+Most, but not all, models of MDMA therapy also emphasize the necessity of between-session therapy or at-home therapeutic exercises to fully treat mental illness~\cite{bathje2022Integration,methyloneRCT}. I think MDMA can provide an on-ramp to these activities if they have traditionally been difficult or useless for you. Uncovering distressing, previously avoided aspects of certain memories and sensations can temporarily worsen symptoms until the newly surfaced content is processed. This can be intense for those with severe trauma. Unfortunately, unconscious avoidance makes straightforward self-assessment of that difficult.
+
+MDMA therapy also has risks. As described in \cref{sec:complex}, healing often involves reducing avoidance (conscious or unconscious), and the previously avoided feelings or sensations can be distressing until you finish processing them. This can occasionally overwhelm or incapacitate people with severe trauma. Unfortunately, unconscious avoidance makes straightforward self-assessment of trauma history difficult.
+
+As detailed in \cref{sec:assumptions}, I think the core theories that this manual relies on are solid. However, any pharmaceutical or therapeutic intervention relies on a multitude of choices that have not been rigorously studied. In this case they might include questions like 1.6\,mg/kg vs. 1.4\,mg/kg of MDMA; non-directive vs. minimally directive therapy; and which type of therapist training is best. Any manual or practice, including mine, thus inherently depends on a lot of educated guesswork to fill in the gaps between the main support beams of validated theory and practice. 
+
+Disagreements between authors were generally discussed until a more nuanced position could be stated, though M.G. retained final control.
+
+I think the psychedelic hype bubble has burst, but some of its aspects may still linger, particularly in certain social circles~\cite{yaden2022preparing}. There are many anecdotal reports of psychedelics treating a wide variety of health conditions. The hype bubble makes it difficult to figure out which of these are true and which are false. There are also many claims that psychedelics will solve a wide variety of issues like war, oppression, etc. I don't believe that just taking the medicine will necessarily change people's beliefs and actions related to these issues. However, some insecurities partly driving these problems can likely be unlearned by explicitly activating those feelings during an MDMA session, as described in \cref{socialPrompts}.
+
+\textcite{stockerConnectogen} describes MDMA as being variously called a \textit{psychedelic} (\enquote{showing the mind}), \textit{entactogen} (\enquote{producing a touching within}), or \textit{empathogen} (\enquote{empathy generating}). I prefer the term \textit{connectogen} (\enquote{producing connection}) that they coin because MDMA facilitates connection to self, body, senses, and others. The term also reduces the association between MDMA and hallucination-inducing psychedelics like LSD and psilocybin. I still use the term \textit{psychedelic} regarding the social movement surrounding psychedelics since it encompasses a few different classes of drugs. I also use \textit{psychedelic} when discussing the many studies that don't differentiate MDMA from the \textit{classic psychedelics.}
+
+\todo{Easier cheaper better replacement for conventional therapy for people with the right capacity and enough slack.}
+
+Put another way, MDMA therapy, and the best cases of traditional psychotherapy, can help you achieve the following characteristics of securely attached adults developed by \textcite[Table 3.1]{brownAttachmentDisturbances}:
+\begin{quotation}
+    Seeks emotional closeness with others; Able to establish emotional intimacy; Comfortable with mutual dependence; Comfortable being alone; Positive self-image and other image; Warm and open with others; Accepts criticism without significant distress; Strong sense of self; Self-esteem; Self-observational skills; Self-reflective skills; Able to trust in relationship; Relationships tend to be stable, lasting; Open with others about feelings; Positive feelings about relationships; Balanced experience of emotions-neither too little nor too much; Values attachment
+\end{quotation}
+
+, suggesting that a \enquote{try it if you are uncertain} strategy might be useful for mental illnesses where the cause is not well-established, which is almost all of them. 
+
+Unfortunately, determining to what degree any particular issue is caused by the psychological component can be difficult.
+
+\footnote{Alternatively, all the different mental illnesses that MDMA therapy treats could be together as a single mental illness, perhaps called \enquote{stuck schema disorder}, based on \cref{science}.}
+
+While many biomarkers are associated with mental illness, vanishingly few have been established as significant causes rather than symptoms or associations~\cite{carvalhoBiomarker}. The clearest exceptions are uncommon disorders like neurosyphilis and thyroid dysfunction. In my reading of \textcite{aftabGenetics,alexanderHeritability1,alexanderHeritability2}, there are a few rare gene variants that cause significant risks and numerous common gene variants that have tiny, unclear gene\,×\,environment interactions. It's not clear that the numerous tiny interactions really \textit{cause} mental illness.
+
+On the other hand, in the clinical practice of therapy, it is often clear that psychological and social causes are critical~\cite{eckerUnlocking}. I think this discrepancy between established biological and psychosocial causes suggests that mental illness is largely psychosocial.
+
+ Unfortunately, it's uncertain to what degree each mental illness is caused by psychological factors vs. biological factors. Mental illness diagnoses from the DSM or the ICD-CDDR are largely just semi-arbitrary symptom clusters~\cite{apaDSM,ICD}. Those manuals usually do not attempt to attribute causes to these clusters.
+
+\footnote{See \cref{biopsychosocial} for my position on biological reductionism.}
+
+As described in the next section and \cref{sec:mechanism}, a limited course of MDMA therapy may durably resolve the psychological part of many mental illnesses.
+
+
+
+Independent of my theoretical model, there is an additional reason to believe that MDMA therapy works for more than just PTSD. T
+
+MDMA therapy's apparent broad spectrum of effect. ; HiTOP's grouping together of anxiety, depression, and PTSD; and the finding of \textcite{eckerUnlocking} that a single mechanism of treatment durably resolves many mental illnessses all suggest to me that MDMA therapy treats the psychological components of most, if not all, biopsychosocial mental illnesses. 
+
+, suggesting that still broader swaths of psychopathology may share common underlying processes.
+
+ (see \cref{sec:safety} for )
+
+A regular dose might not be sufficient for severe dissociation or panic.
+
+ It is likely not worth trying for the few disorders that seem clearly biological, such as thyroid dysfunction, neurosyphilis, and anti-NMDA receptor encephalitis.
+
+ It's not clear that the numerous tiny interactions really \textit{cause} mental illness.
+
+ Thus, I think that the psychosocial component, possibly addressable with MDMA therapy, is substantial in most disorders.
+
+Genetics can also increase the risk of mental illness, but in my reading of \textcite{aftabGenetics,alexanderHeritability1,alexanderHeritability2}, the currently known genes are limited to a few rare variants that cause significant risk and numerous common variants that have tiny, unclear gene\,×\,environment interactions. These might add up to significant risk.
+
+People with a history of those may especially benefit from skilled, ethical, and well-matched support.
+
+ Check out the Challenging Psychedelic Experiences Project for help: \href{https://challengingpsychedelicexperiences.com}{challengingpsychedelicexperiences.com}.
+
+in my reading of \textcite{aftabGenetics,alexanderHeritability1,alexanderHeritability2},
+
+It is widely understood by practitioners and clients that MDMA therapy is a particularly strong and effective form of therapy, and can thus address the range of mental illnesses that conventional psychotherapy can. No published work has, to my knowledge, systematically compared the phenomenology of MDMA therapy to memory reconsolidation. The comparison rests on practitioner and client reports, and my own analysis of session accounts.
+
