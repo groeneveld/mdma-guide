@@ -4164,3 +4164,9 @@ Any of these could have been either adaptive or maladaptive in the original situ
 There is much variability in individual responsiveness to danger and insecurity because all experiences and individuals are unique. A devastating event for one person may cause only temporary difficulty for someone else. Mentally healthy adults with sufficient resources are resilient to most traumas and typically develop appropriate schemas to manage those situations in the future~\cite{bonanno2008loss}. Secure attachment is also a major factor in resilience~\cite{attachmentPTSD}. Securely attached children are also resilient to trauma, especially when they have assistance from their parents. After the threat passes in these cases of resilience, the individual may have a temporary period of distress about the experience, but this dissipates in a short amount of time.
 
 
+This process is necessarily spread out over a long period of time because therapy hangover limits active reconsolidation to 2\,hours/day in my personal experience.
+
+Old, currently maladaptive, schemas stick around because a process blocked the contradictory information that would have naturally reconsolidated the schemas~\cite{berghBSTS}. These processes are usually avoidance (sometimes unnoticed), opioid dampening, or escapism, as detailed in \cref{attention}. MDMA therapy addresses both parts of this attractor state: it facilitates reconsolidation, as described in \cref{sec:mechanism}, and it also decreases avoidance \todo{Cite}.
+
+, possibly with the assistance of a skilled and ethical mental health practitioner you have a good alliance with (see \textcite{BRWAIdownload}).
+
