@@ -4146,3 +4146,21 @@ I think that stuck schemas play large roles in most mental illnesses and that mo
 Traumas are distressing events or chronic conditions that overwhelm our ability to cope, where our ability to cope depends on our capabilities and resources~\cite{laneReconsolidation}.
 
 The standard definition of trauma is distressing events or chronic conditions that overwhelm our ability to cope, where our ability to cope depends on our capabilities and resources~\cite{laneReconsolidation}.
+
+Our schemas usually update when we acquire contradictory information or become more capable of understanding complex situations, like when we grow up~\cite{eckerUnlocking}.
+
+ Given its broad effectiveness, I suspect that MDMA simply lowers one of the barriers to the natural reconsolidation process.
+
+Any of these could have been either adaptive or maladaptive in the original situation they developed in~\cite{clark2015surfing}. Mental illness often consists of a set of self-reinforcing stuck schemas that cause both noticeable negative symptoms and the avoidance or lack of attention that prevents these schemas from updating~\cite{berghSelfEvidencing}.
+
+    \item The brain learning that the act of paying attention to certain things was itself a threat that could be escaped by avoiding that specific information~\cite{berghSelfEvidencing}.
+
+    \item The brain learning that certain information wasn't useful or reliable and thus not paying any attention to it~\cite{clark2015surfing}.
+
+ Mental illness frequently inhibits recall of autobiographical memories~\cite{berghSelfEvidencing}.
+
+ The phrase \enquote{the brain} in the above list is shorthand for a schema or set of schemas that generates behavioral \enquote{actions} in the form of attention. 
+
+There is much variability in individual responsiveness to danger and insecurity because all experiences and individuals are unique. A devastating event for one person may cause only temporary difficulty for someone else. Mentally healthy adults with sufficient resources are resilient to most traumas and typically develop appropriate schemas to manage those situations in the future~\cite{bonanno2008loss}. Secure attachment is also a major factor in resilience~\cite{attachmentPTSD}. Securely attached children are also resilient to trauma, especially when they have assistance from their parents. After the threat passes in these cases of resilience, the individual may have a temporary period of distress about the experience, but this dissipates in a short amount of time.
+
+
