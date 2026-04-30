@@ -4170,3 +4170,7 @@ Old, currently maladaptive, schemas stick around because a process blocked the c
 
 , possibly with the assistance of a skilled and ethical mental health practitioner you have a good alliance with (see \textcite{BRWAIdownload}).
 
+    \todo{My impression is that bad times come from the combination of major symptom worsening and no accurate framework to contextualize it and keep going through the process. Good practitioner support often helps with the latter.}
+
+Resolving opioid dampening may immediately lead to flight-or-fight~\cite{kozlowskaDefenseCascade}, which in my understanding, is much to deal with on MDMA.
+
