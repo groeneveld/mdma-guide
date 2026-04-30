@@ -495,7 +495,7 @@ For help understanding the book, you can also upload it to a Claude LLM (large l
     <<SESSION PROMPT: Read the entirety of the first \zref[abspage]{end} pages\footnote{This excludes the gossary, appendices, and bibliography. Reducing the file size improves LLM output quality and gives you more responses before hitting usage limits.} into your context window before replying. You should helpfully answer the user's questions about MDMA therapy based on the attached document. The user may not understand the technical content of the paper, so you should make it easier to understand when appropriate. Don't add external medical advice or conventional wisdom that might contradict the document's framework.\footnote{I added this because without it Claude would constantly mix in poor-quality information it picked up from the internet and mainstream mental health resources that haven't the slightest clue how MDMA therapy works. I don't want to discourage you from using other high-quality resources.} The document has specific views on what's normal vs. concerning in MDMA therapy that may differ from conventional medical perspectives. Don't say \enquote{the document says/recommends/presents}; that is assumed.>>
 \end{quotation}
 
-\section{How to Evaluate Mental Health Research and Practice}
+\section{Approach Mental Health Research and Practice With Skepticism}
 \label{howtoevaluate}
 Robust scientific models are, as the science bloggers \textcite{mechanisticModels} argue, \enquote{a proposal for a set of entities, their features, and the rules by which they interact, that gives rise to the phenomena we observe.} They also make a wide variety of accurate predictions in the area of their relevance. Physics exemplifies this standard; it has such a complete model of atoms that their behavior can be predicted to many decimal points of precision. It also has a highly detailed and precise list of the particles and forces involved and the rules by which they interact. Few fields can match that level of completeness. Psychological models don't have convincing lists of well-defined parts and mechanisms and generally have no plausible connection to what cells are doing in the brain. The political scientist \citefullauthor{zombieSocialScience} argues on their blog that the social sciences, including psychology, mostly use models that occasionally make good predictions in a narrow area but rarely over a wide area~\cite{zombieSocialScience} (see also \textcite{evidenceBasedPolicy}).
 
@@ -514,6 +514,66 @@ These issues show up in various ways in mental health science and practice:
 \end{itemize}
 
 I am not implying that all psychiatric drugs are useless or that therapy doesn't work. Instead, I aim to calibrate expectations. Approach any model of brain function or mental health with considerable caution unless its components have been experimentally verified by multiple labs and it mechanistically explains a wide range of phenomena. Exceedingly few models of mental illness meet those criteria. That includes almost everything from psychology and psychiatry, much of neuroscience---and many parts of this book. Where my framework relies on memory reconsolidation, predictive processing, complex systems, and defense cascade models, it inherits whatever mechanistic grounding those models have---which is more than most alternatives, but less than I would like.
+
+\section{Methodology}
+\label{methodology}
+I wrote this book by synthesizing information from four categories of sources. First, papers, books, and blogs on the topic. Second, my own experience using MDMA therapy to treat my complex trauma. Third, T.H.'s personal experience with community mental health and professional experience as a therapist. Fourth, trip reports (largely from \href{https://www.reddit.com/r/mdmatherapy}{reddit.com/r/mdmatherapy}) and discussions with people who have done MDMA therapy.\footnote{Throughout this text, references to anecdotes and reports refer to these sources unless otherwise specified.} There was a loop of personal experience and discussions informing theory, which then informed interpretation of personal experience, which then further informed theory, etc. This loop continued until there were no obvious remaining disagreements.
+
+Throughout the book, I always clearly distinguish between more established science and educated guesswork by marking opinions as \enquote{I think,} \enquote{I believe,} etc.
+
+I didn't cite any neuroimaging studies because neuroimaging is a minefield of poor statistical methods, low statistical power, and mistaking correlation for causation~\cite{hoelNeuroscience}. It has provided little meaningful information about any specific mental illness~\cite{etkin2019reckoning}. Some psychedelics also change the coupling between brain activity and blood flow (the thing that fMRI measures), though it's not clear if MDMA also has that effect~\cite{padawerNeurovascularCoupling}.
+
+\subsection*{Validity Checks}
+I applied these checks on the validity of my references while writing this book:
+\begin{itemize}
+    \item \textbf{Retractions and PubPeer comments:} Almost all references.\footnote{I still cite the retracted study \textcite{feducciaSSRIDiscontinuation}. The journal claims it was retracted because of three reasons~\cite{feduccia2024retraction}. The first was that the authors did not remove one participant's data from the data set despite one of the therapists sexually abusing them. The second is that the authors did not inform the journal of the abuse. The third reason appears to be that the authors listed their conflicts of interest under the Funding section instead of a dedicated Conflicts of Interest section.
+    
+    I still cite the paper because removing one data point out of 50 would not significantly affect the results, and the third issue appears to be a negligible formatting mistake. I don't know the significance of the second. The retraction was also part of a highly contested set of events reported by \textcite{nytPsymposia}. It's unclear why the paper was retracted instead of corrected.}
+    \item \textbf{Reproduction of experimental results by other labs:} No systematic evaluation, though I strongly preferred to cite review articles that did this. I changed the book when I happened across published replication failures.
+    \item \textbf{Informal qualitative analysis of experimental design:} Most references. I highly preferred papers that randomized their participants, had high numbers of participants, controlled for certain confounding variables important in MDMA and therapy research, were recent, were reviews or meta-analyses, had high statistical power, had high citation counts, and effect size heterogeneity in meta-analyses. Not all references meet high standards for all of these criteria. I may still have included them if they were, in my judgment, particularly theoretically compelling or reasonable extrapolations of more established results. There are many quality indicators that I did not check but that are often important, such as topic-specific study design nuances outside my area of knowledge, statistical methods, data processing methods, publication bias, researcher bias, etc. However, the meta-analyses I cite frequently do assess some of these indicators.
+    \item \textbf{Contradictory evidence:} Only the core assumptions listed in \cref{sec:assumptions}. I made a significant, though non-systematic, effort to find evidence that contradicts these assumptions.
+\end{itemize}
+
+\subsection*{Major Unresolved Issues}
+Any pharmaceutical or therapeutic intervention relies on a multitude of choices that have not been rigorously studied. In this case they might include questions like 1.6\,mg/kg vs. 1.4\,mg/kg of MDMA; non-directive vs. minimally directive therapy; and which type of therapist training is best. Any manual or practice, including mine, thus inherently depends on a lot of educated guesswork to fill in the gaps between the main support beams of validated theory and practice. Beyond that general caveat, three uncertainties are particularly important to flag:
+\begin{itemize}
+    \item As discussed in \cref{ppHypotheses}, I am not clear how MDMA facilitates reconsolidation.
+    \item Symptom worsening seems associated with severe complex trauma or severe attachment issues, but besides that, I don't know how to predict an individual's risk. It's also uncertain when more MDMA therapy will reduce or increase symptoms in the short term. See \cref{sec:complex} for more information.
+    \item I don't know when or why MDMA therapy might not work for someone, apart from the somewhat-known factors of opioid dampening, avoidance, and recent use of SSRIs and SNRIs. There may be unknown but necessary factors in addition to the right dose of MDMA, activation of a stuck schema, and non-avoidance.
+\end{itemize}
+
+\subsection*{Reasons to be Confident}
+\begin{itemize}
+    \item As an independent scholar outside professional mental health, I am not subject to the financial, institutional, or cultural pressures typical in the field, nor invested in any of its dominant explanatory frameworks.
+    \item The book was interdisciplinary from the start, allowing us to connect memory reconsolidation, the defense cascade, and complex systems, which I have not seen any other author formally integrate. I also drew on an especially wide diversity of evidence: memory reconsolidation, complex systems, defense cascade, predictive processing, clinical therapy practice, personal experience, and the MDMA therapy users community.
+    \item My personal experience using MDMA therapy (\textasciitilde30 sessions) and memory reconsolidation (\textasciitilde\reconsolidationhours{}\,hours) for complex trauma grounds this work in a way that would be impossible using only theory or clinical experience.
+    \item My model is based on independently well-supported, causal theories (memory reconsolidation, complex systems, and the defense cascade).
+    \item I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \textasciitilde1200 active hours. I assessed each of the \total{citnum} citations.
+    \item I have gotten positive feedback from a few MDMA/psychedelic therapy practitioners and people using the book for solo MDMA therapy.
+    \item I used Claude to double-check that my claims strictly follow from my citations in some, but not all, sections. This is an ongoing process. The verified sections are marked with \enquote{[v]}.
+\end{itemize}
+
+\subsection*{Reasons to be Skeptical}
+I know of the following reasons to be skeptical of this book while acknowledging that I could be avoiding explicit awareness of the book's real weak points~\cite{yudkowskiWeak}. I regard this disclosure as a basic practice of truth-seeking epistemology.
+\begin{itemize}
+    \item My integration of MDMA therapy, complex systems dynamics, memory reconsolidation, predictive processing, attention, and the defense cascade is a somewhat novel formalization of existing MDMA-therapy practices. The application of that integrated framework to a practical guide and MDMA therapy is also novel. Novel frameworks are usually incorrect to some degree even when their authors find them convincing. Reality is certainly more complex than my model, though I don't know by how much.
+    \item I frequently rely on anecdotal reports and personal experience that might not reflect how MDMA therapy works for a wider range of people.
+    \item Without formal education in any of the relevant topics, I may be missing nuances that are common knowledge in the fields I draw from.
+    \item I have severe complex stuck schemas that I have surely written into the book's subtext. T.H. has likely done the same in their sections.
+    \item Most MDMA therapy researchers are MDMA enthusiasts~\cite{jylkka2025researcherExperiences}.
+    \item The MAPS clinical trials had some methodological flaws, though it's unclear how bad they were compared to drug trial norms. The MAPS trials were subject to far more public scrutiny and drama than is normal~\cite{nytPsymposia}.
+    \item I am an MDMA therapy enthusiast because it saved my life.
+    \item My model has major missing gaps regarding the kind of mental illness I focus on, like why antidepressants, ketamine, and electric and magnetic brain stimulation help some people. It also doesn't obviously explain mania or psychosis.
+    \item My experience guiding other people in MDMA therapy consists only of sitting for one friend twice.
+    \item The field of therapy is notoriously pervaded with pseudoscience and illness myths~\cite{luckPolyvagal}; I may have inadvertently included some despite my best efforts to keep it out. Likewise for therapy's tendency to focus on meaning and interpretation at the expense of mechanistic causation.
+    \item The field of mental health reifies numerous constructs of poor validity; I have surely included some despite my best efforts to keep them out.
+    \item There is a missing explanatory gap for MDMA therapy. I think the known causal chain is approximately, (some) known effects on neurotransmitters → ???? → apparent reconsolidation of any activated stuck schema, where the ???? may be multiple steps.
+    \item The current understanding of memory reconsolidation, predictive processing, the defense cascade, and mental illness as a complex system is incomplete.
+    \item I have become attached to their model, making it more resistant to contradictory evidence.
+    \item Some of my models are verbal and qualitative. They haven't been formally defined or demonstrated.
+\end{itemize}
+
+I mitigate some of these by uploading the papers I cite to Claude and asking it to verify that it actually supports what I'm claiming. Additionally, I've solicited public feedback on reddit.com/r/mdmatherapy for my drafts. I also plan to ask several MDMA therapy researchers and practitioners for technical editing once I have finished the first editing pass.
 
 \section{Efficacy of MDMA Therapy}
 \label{efficacy}
@@ -578,66 +638,6 @@ Third, \textcite{eckerUnlocking} describes how psychosocial factors cause many m
 I think that the psychological component is substantial for most mental illnesses, and in my understanding, no evidence rules this out for more than a few mental illnesses. Vanishingly few biomarkers have been established as significant causes of mental illness rather than as symptoms or unclear associations~\cite{carvalhoBiomarker}. Genetics increases the risk of mental illness, but in my reading of \textcite{aftabGenetics,alexanderHeritability1,alexanderHeritability2}, even high heritability doesn't establish that genes are the primary or only cause in any individual case. Heritability describes how much of the differences between people can be attributed to genetic differences in a given environment and population---it doesn't tell you how much genes versus environment shaped any particular person's illness. Psychosocial components may still play large roles.
 
 In the face of this uncertainty and the prevalence of psychological components, I think it's worth trying MDMA therapy to see if it works. As discussed in \cref{sec:safety}, it is safe for most people. MDMA therapy is likely not worth trying for disorders with established biological causes, like thyroid dysfunction, neurosyphilis, and anti-NMDA receptor encephalitis.
-
-\section{Methodology}
-\label{methodology}
-I wrote this book by synthesizing information from four categories of sources. First, papers, books, and blogs on the topic. Second, my own experience using MDMA therapy to treat my complex trauma. Third, T.H.'s personal experience with community mental health and professional experience as a therapist. Fourth, trip reports (largely from \href{https://www.reddit.com/r/mdmatherapy}{reddit.com/r/mdmatherapy}) and discussions with people who have done MDMA therapy.\footnote{Throughout this text, references to anecdotes and reports refer to these sources unless otherwise specified.} There was a loop of personal experience and discussions informing theory, which then informed interpretation of personal experience, which then further informed theory, etc. This loop continued until there were no obvious, remaining disagreements.
-
-Throughout the book, I always clearly distinguish between more established science and educated guesswork by marking opinions as \enquote{I think,} \enquote{I believe,} etc.
-
-I didn't cite any neuroimaging studies because neuroimaging is a minefield of poor statistical methods, low statistical power, and mistaking correlation for causation~\cite{hoelNeuroscience}. It has provided virtually no meaningful information about any specific mental illness~\cite{etkin2019reckoning}. Some psychedelics also change the coupling between brain activity and blood flow (the thing that fMRI measures), though it's not clear if MDMA also has that effect~\cite{padawerNeurovascularCoupling}.
-
-\subsection*{Validity Checks}
-I applied these checks on the validity of my references while writing this book:
-\begin{itemize}
-    \item \textbf{Retractions and PubPeer comments:} Almost all references.\footnote{I still cite the retracted study \textcite{feducciaSSRIDiscontinuation}. The journal claims it was retracted because of three reasons~\cite{feduccia2024retraction}. The first was that the authors did not remove one participant's data from the data set despite one of the therapists sexually abusing them. The second is that the authors did not inform the journal of the abuse. The third reason appears to be that the authors listed their conflicts of interest under the Funding section instead of a dedicated Conflicts of Interest section.
-    
-    I still cite the paper because removing one data point out of 50 would not significantly affect the results, and the third issue appears to be a negligible formatting mistake. I don't know the significance of the second. The retraction was also part of a highly contested set of events reported by \textcite{nytPsymposia}. It's unclear why the paper was retracted instead of corrected.}
-    \item \textbf{Reproduction of experimental results by other labs:} No systematic evaluation, though I strongly preferred to cite review articles that did this. I changed the book when I happened across published replication failures.
-    \item \textbf{Informal qualitative analysis of experimental design:} Most references. I highly preferred papers that randomized their participants, had high numbers of participants, controlled for certain confounding variables important in MDMA and therapy research, were recent, were reviews or meta-analyses, had high statistical power, had high citation counts, and effect size heterogeneity in meta-analyses. Not all references meet high standards for all of these criteria. I may still have included them if they were, in my judgment, particularly theoretically compelling or reasonable extrapolations of more established results. There are many quality indicators that I did not check but that are often important, such as topic-specific study design nuances outside my area of knowledge, statistical methods, data processing methods, publication bias, researcher bias, etc. However, the meta-analyses I cite frequently do assess some of these indicators.
-    \item \textbf{Contradictory evidence:} Only the core assumptions listed in \cref{sec:assumptions}. I made a significant, though non-systematic, effort to find evidence that contradicts these assumptions.
-\end{itemize}
-
-\subsection*{Major Unresolved Issues}
-Any pharmaceutical or therapeutic intervention relies on a multitude of choices that have not been rigorously studied. In this case they might include questions like 1.6\,mg/kg vs. 1.4\,mg/kg of MDMA; non-directive vs. minimally directive therapy; and which type of therapist training is best. Any manual or practice, including mine, thus inherently depends on a lot of educated guesswork to fill in the gaps between the main support beams of validated theory and practice. Beyond that general caveat, three uncertainties are particularly important to flag:
-\begin{itemize}
-    \item As discussed in \cref{ppHypotheses}, I am not clear how MDMA facilitates reconsolidation.
-    \item Symptom worsening seems associated with severe complex trauma or severe attachment issues, but besides that, I don't know how to predict an individual's risk. It's also uncertain when more MDMA therapy will reduce or increase symptoms in the short term. See \cref{sec:complex} for more information.
-    \item I don't know when or why MDMA therapy might not work for someone, apart from the somewhat-known factors of opioid dampening, avoidance, and recent use of SSRIs and SNRIs. There may be unknown but necessary factors in addition to the right dose of MDMA, activation of a stuck schema, and non-avoidance.
-\end{itemize}
-
-\subsection*{Reasons to be Confident}
-\begin{itemize}
-    \item As an independent scholar outside professional mental health, I am not subject to the financial, institutional, or cultural pressures typical in the field, nor invested in any of its dominant explanatory frameworks.
-    \item The book was interdisciplinary from the start, allowing us to connect memory reconsolidation, the defense cascade, and complex systems, which I have not seen any other author formally integrate. I also drew on an especially wide diversity of evidence: memory reconsolidation, complex systems, defense cascade, predictive processing, clinical therapy practice, personal experience, and the MDMA therapy users community.
-    \item My personal experience using MDMA therapy (\textasciitilde30 sessions) and memory reconsolidation (\textasciitilde\reconsolidationhours{}\,hours) for complex trauma grounds this work in a way that would be impossible using only theory or clinical experience.
-    \item My model is based on independently well-supported, causal theories (memory reconsolidation, complex systems, and the defense cascade).
-    \item I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \textasciitilde1200 active hours. I assessed each of the \total{citnum} citations.
-    \item I have gotten positive feedback from a few MDMA/psychedelic therapy practitioners and people using the book for solo MDMA therapy.
-    \item I used Claude to double-check that my claims strictly follow from my citations in some, but not all, sections. This is an ongoing process. The verified sections are marked with \enquote{[v]}.
-\end{itemize}
-
-\subsection*{Reasons to be Skeptical}
-I know of the following reasons to be skeptical of this book while acknowledging that I could be avoiding explicit awareness of the book's real weak points~\cite{yudkowskiWeak}. I regard this disclosure as a basic practice of truth-seeking epistemology.
-\begin{itemize}
-    \item My integration of MDMA therapy, complex systems dynamics, memory reconsolidation, predictive processing, attention, and the defense cascade is a somewhat novel formalization of existing MDMA-therapy practices. The application of that integrated framework to a practical guide and MDMA therapy is also novel. Novel frameworks are usually incorrect to some degree even when their authors find them convincing. Reality is certainly more complex than my model, though I don't know by how much.
-    \item I frequently rely on anecdotal reports and personal experience that might not reflect how MDMA therapy works for a wider range of people.
-    \item Without formal education in any of the relevant topics, I may be missing nuances that are common knowledge in the fields I draw from.
-    \item I have severe complex stuck schemas that I have surely written into the book's subtext. T.H. has likely done the same in their sections.
-    \item Most MDMA therapy researchers are MDMA enthusiasts~\cite{jylkka2025researcherExperiences}.
-    \item The MAPS clinical trials had some methodological flaws, though it's unclear how bad they were compared to drug trial norms. The MAPS trials were subject to far more public scrutiny and drama than is normal~\cite{nytPsymposia}.
-    \item I am an MDMA therapy enthusiast because it saved my life.
-    \item My model has major missing gaps regarding the kind of mental illness I focus on, like why antidepressants, ketamine, and electric and magnetic brain stimulation help some people. It also doesn't obviously explain mania or psychosis.
-    \item My experience guiding other people in MDMA therapy consists only of sitting for one friend twice.
-    \item The field of therapy is notoriously pervaded with pseudoscience and illness myths~\cite{luckPolyvagal}; I may have inadvertently included some despite my best efforts to keep it out. Likewise for therapy's tendency to focus on meaning and interpretation at the expense of mechanistic causation.
-    \item The field of mental health reifies numerous constructs of poor validity; I have surely included some despite my best efforts to keep them out.
-    \item There is a missing explanatory gap for MDMA therapy. I think the known causal chain is approximately, (some) known effects on neurotransmitters → ???? → apparent reconsolidation of any activated stuck schema, where the ???? may be multiple steps.
-    \item The current understanding of memory reconsolidation, predictive processing, the defense cascade, and mental illness as a complex system is incomplete.
-    \item I have become attached to their model, making it more resistant to contradictory evidence.
-    \item Some of my models are verbal and qualitative. They haven't been formally defined or demonstrated.
-\end{itemize}
-
-I mitigate some of these by uploading the papers I cite to Claude and asking it to verify that it actually supports what I'm claiming. Additionally, I've solicited public feedback on reddit.com/r/mdmatherapy for my drafts. I also plan to ask several MDMA therapy researchers and practitioners for technical editing once I have finished the first editing pass.
 
 \chapter{Theoretical Model}
 \label{science}
@@ -821,54 +821,33 @@ Refer to \cref{sec:signsofdc} for a thorough comparison of the signs of intensif
 
 \end{longtable}
 
-\section{[unedited] Trauma, Insecurity, and their Effects}
+\section{Trauma, Insecurity, and their Effects}
 \label{sec:trauma}
-Our brains continually build and run prediction and response models (formally called \textit{predictive processing}) of the world, other people, our bodies, and our minds for the purpose of fulfilling our innate needs for bodily integrity, community, homeostasis, reproduction, etc~\cite{eckerUnlocking,clark2015surfing}. We typically predict and respond to threats in an appropriate and unproblematic manner and don't usually ruminate about falling off cliffs until we are near a cliff edge. Then the closer to the edge we go, the more alert and cautious we become. This alertness or fear is not due to trauma because the response is situationally appropriate. However, not all responses are situationally appropriate. The brain's learning process doesn't necessarily build \textit{true} models of the world; it builds models (an individual model is called a \textit{schema}) that are \textit{true enough} (a heuristic) to work mostly well in the contexts they develop in. These heuristics sometimes don't work very well outside the context in which they form, like a soldier who goes into fight mode in response to loud noises even after the war is over. We might describe trauma as events that create heuristics that impair functioning in regular life. \textcite{laneReconsolidation} describes traumas as distressing events or chronic conditions that overwhelm our ability to cope, where our ability to cope depends on our capabilities and resources. Standing near cliffs is not typically traumatic because the situation is under our control, and we manage the situation to avoid overwhelm. If nothing surprising or threatening occurs, our predictions of what happens around cliffs don't change much. Conversely, threatening situations outside our control create strong signals for updating our predictive model because your survival may depend on avoiding or managing that situation in the future. Maybe someone attacks you near the cliff edge, and you almost fall off. You may learn that cliffs, the combination of cliffs and other people, or the combination of cliffs and just that particular person are much more dangerous than you previously thought. You may feel alertness or fear from much farther away from the edge than you did before. If the attack was overwhelming enough, you may learn that everything about cliffs is dangerous, even the thought of them or pictures of them. I think \enquote{high caution around that particular person} or \enquote{that person is dangerous and unpredictable} is likely the adaptive response in this scenario. Unfortunately the other responses, such as fear at the thought of cliffs, sometimes occur and can cause problems for you or others. Or instead of learning a somewhat helpful but not very accurate heuristic, you may learn a very accurate heuristic that only becomes an issue when your environment changes, but the heuristic doesn't. These are the types of responses that I call stuck schemas and focus on throughout this book. \todo{Talk about schemes that were once adaptive, but are no longer.}
+Our brains continually learn models of the world, other people, our bodies, and our minds for the purpose of fulfilling our innate needs, like bodily integrity, social connection, and reproduction~\cite{eckerUnlocking,clark2015surfing}. We typically model threats in an appropriate and unproblematic manner and don't ruminate about falling off cliffs until we are near a cliff edge. Then the closer to the edge we go, the more alert and cautious we become. This alertness or fear is healthy because the response is situationally appropriate.
 
-Schemas are not just simple stimulus-response pairs. In the model of \textcite{laneReconsolidation}, they have three components that we may be more or less explicitly aware of:
+Not all responses are situationally appropriate~\cite{eckerUnlocking}. The brain's learning process doesn't necessarily build \textit{true} models of the world; it builds models (an individual model is called a \textit{schema}) that are \textit{true enough} (a heuristic) to work mostly well in the contexts they develop in. These heuristics are sometimes inaccurate or don't work very well outside the context in which they form, like a soldier who goes into fight mode in response to loud noises even after the war is over.
+
+We can define trauma as events that create schemas that impair functioning or well-being either now or in the future. Standing near cliffs is not typically traumatic because the situation is under our control, and we manage it to stay safe. If nothing surprising or threatening occurs, our models of what happens around cliffs don't change much.
+
+Conversely, threatening situations outside our control create strong signals for updating our models because your survival may depend on avoiding or managing that situation in the future. Maybe someone attacks you near the cliff edge and you almost fall off. You may learn that cliffs, the combination of cliffs and other people, or the combination of cliffs and just that particular person are much more dangerous than you previously thought. You may feel alertness or fear from much farther away from the edge than you did before. If the attack was overwhelming enough, you may learn that everything about cliffs is dangerous, even the thought of them or pictures of them. I think \enquote{high caution around that particular person} or \enquote{that person is dangerous and unpredictable} is the adaptive response in this scenario. Unfortunately, the other responses, such as fear at the thought of cliffs, sometimes occur and can cause problems for you or others.
+
+I call these types of responses \textit{stuck schemas} throughout this book. I call them stuck because they are significantly inaccurate, cause difficulties for you and others, and resist updating to a more accurate form. \textit{Maladaptive} is another common term, but some people experience it as invalidating. Even a partially maladaptive schema might have been the best they could do at the time.
+
+Children, because of their limited life experience, frequently learn inaccurate schemas about trauma and insecurity. For instance, if their parents emotionally neglect them, they might learn \enquote{I am unlovable} instead of the more accurate schema \enquote{My parents don't know how to parent.} If a dog attacks them, they may learn \enquote{dogs are dangerous} instead of \enquote{big angry dogs are dangerous.}
+
+Schemas can generate~\cite{eckerUnlocking}
 \begin{itemize}
-	\item Emotions like fear, anger, or love
-	\item Beliefs like \enquote{no one loves me} or \enquote{dogs are unpredictable and dangerous}
-	\item Episodic memories, which are detailed memories of how specific events unfolded
+	\item emotions like fear or anger
+	\item beliefs or thoughts like \enquote{no one loves me} or \enquote{dogs are unpredictable and dangerous}
+	\item behavioral impulses
+	\item somatic sensations, like psychosomatic pain
 \end{itemize}
 
-Schemas may not contain a clear episodic memory if you were too young to form long-term episodic memories that persist into adulthood. Mental illness can also impair recall of autobiographical information~\cite{berghSelfEvidencing}. Relatedly, some people report feel that they remember previously forgotten experiences of childhood abuse through MDMA therapy~\cite{psychedelicrecoveredmemory}. These may or may not be accurate. Schemas caused by events we don't remember can be especially confusing and distressing compared to schemas we clearly see a cause for.
+When schemas are stuck, these outputs become problems: stuck schemas push us to overreact, deny the truth, misjudge significant trade-offs, say hurtful things, etc. We may seek the connection and safety we desperately need in dysfunctional ways~\cite{brownAttachmentDisturbances}, or we may get too distracted by our distress to pay attention to the needs of those we love.
 
-\todo{Talk about bergh.}
+Here's another example of a schema that became stuck. As a young child, Amy was frequently ridiculed by her peers whenever she spoke up in class or shared her opinions. She then learned \enquote{my opinions are shameful,} experiences fear at the thought of speaking up, and has a behavioral inhibition to speaking up. This schema guides Amy's behaviors and beliefs. Even when Amy is old enough to reflect on the schema explicitly, she may not think about it or realize it isn't accurate.
 
-Here's another example of a schema that became stuck:
-\begin{enumerate}
-    \item \textbf{Situation:} As a young child, Amy was frequently ridiculed by her peers whenever she spoke up in class or shared her opinions.
-    \item \textbf{Learned Schema:} \enquote{My opinions are shameful.}
-    \item \textbf{Resulting Behaviors and Beliefs:} Amy grows up avoiding speaking in group settings and tends to keep her thoughts to herself. She might decline leadership positions or avoid roles where she'd be in the spotlight. In discussions, even if she disagrees or has a valuable perspective, she might not voice it.
-\end{enumerate}
-
-This schema may operate either in or out of explicit awareness, guiding Amy's behaviors and beliefs. Even if she is explicitly aware of it, she may or may not realize that this pattern is stuck.
-
-Common traumas include:
-\begin{itemize}
-    \item different forms of unintentional or occasionally intentional neglect or abuse
-    \item lack of emotional attunement from parents~\cite{brownAttachmentDisturbances}
-    \item your parents' stuck schemas
-    \item disasters, accidents, assault, or war
-    \item chronic poverty, dehumanization, or dysfunctional social-cultural systems~\cite{roncaStructuralViolence}, sometimes explained away as tradition or, for instance, \enquote{how things are}
-    \item loss of health, home, family, or culture
-    \item a wide variety of other difficult situations
-\end{itemize}
-
-Some of these are single events, where the resulting schema is relatively simple. Someone attacked by a dog as a child may learn an intense fear of all dogs. Many traumas, especially chronic ones experienced during childhood, create complex networks of stuck schemas around things like your sense of self, relationships, body, etc. These are termed complex post-traumatic stress disorder or attachment disorders. They are often disabling because the schemas are intense and are activated by a wide variety of stimuli or a few particularly pervasive stimuli.
-
-There is a lot of variability in individual responsiveness to trauma because all experiences and individuals are unique. A devastating event for one person may cause only temporary difficulty for someone else. Mentally healthy adults with sufficient resources are resilient to most traumas and usually develop appropriate schemas to manage those situations in the future~\cite{bonanno2008loss}. Secure attachment is also a major factor in resilience~\cite{attachmentPTSD}. Securely attached children are also resilient to trauma, especially when they have assistance from their parents. After the threat passes in these cases of resilience, the individual may have a temporary period of distress about the experience, but this dissipates in a reasonable amount of time.
-
-Various risk factors reduce the capacity to bounce back and form healthy schemas for that situation. Post-trauma factors for children, adolescents, and presumably also adults to a large degree, include blaming others, thought suppression, distraction, low social support, social withdrawal, poor family functioning, and parental psychological problems~\cite{trickeyRiskFactors}. Female gender,\footnote{The gender risk factor may function differently in different cultures and in different eras.} unemployment, and low education are also risk factors for adults~\cite{tangRiskFactors}. It may be that many of those items are risk factors because they are situations of emotional, physical, and social insecurity, which are additional pieces of evidence reinforcing overly general high-threat predictions (e.g.,\enquote{I'm in danger everywhere})~\cite{berghSelfEvidencing}. These factors provide some prediction of resilience on a population level for certain situations, but individuals are too complex for the factors to be very useful in any individual circumstance~\cite{bonannoRelilienceParadox}.
-
-About 10\% of the population might meet the somewhat arbitrary criteria for mental illness at any given time~\cite{whoMentalHealth}, but virtually everyone has stuck schemas that negatively affect them and those around them to some degree. For example, one study found that 41\% of the US population has non-secure attachment (see \textcite{fivePillars})~\cite{mickelson1997adult}. These schemas may push us to overreact, deny the truth, misjudge important trade-offs, say hurtful things, etc. We may seek the connection and safety we desperately need in dysfunctional ways~\cite{brownAttachmentDisturbances}. Or we may get too distracted by our distress to pay attention to the needs of those we love. They are also associated with significantly increased risk for many physical symptoms and disorders, as discussed in \cref{psychogenic}.
-
-Different people find different utility in categorizing their stuck schemas into the semi-arbitrary boxes called mental disorders or illnesses. While sets of stuck schemas may have similarities, each person's stuck schemas are fundamentally unique adaptations to unique environments. As basic biological functions, defense cascade activation likely fits into a small set of natural categories, but even then, the schemas that activate those states are unique.
-
-\todo{describe schema components, including behavioral impulses? Models do most brain activity; why are schemas limited to a 3--4 components?}
-
-As Resmaa Menakem says in \textcite{menakemContext}:
+Schemas can be particularly confusing when we don't know what events created them. This can happen if you were too young to form long-term episodic memories that persist into adulthood or when we don't explicitly recognize the link between an event and the schemas it created. People often develop inaccurate stories about stuck schemas to fill the explanatory gap. As Resmaa Menakem says in \textcite{menakemContext}:
 \begin{quotation}
     Trauma decontextualized in a person looks like personality.
     
@@ -877,10 +856,25 @@ As Resmaa Menakem says in \textcite{menakemContext}:
     Trauma in a people looks like culture.
 \end{quotation}
 
+Common traumas or insecurities include
+\begin{itemize}
+    \item different forms of unintentional, or occasionally intentional, neglect or abuse
+    \item lack of attunement from parents~\cite{brownAttachmentDisturbances}
+    \item disasters, accidents, assault, or war
+    \item chronic poverty, dehumanization, or dysfunctional social-cultural systems~\cite{roncaStructuralViolence}, sometimes explained away as tradition or, for instance, \enquote{how things are}
+    \item loss of health, home, family, or culture
+    \item a wide variety of other difficult situations
+\end{itemize}
 
-For more information, I highly recommend \prosecite{eckerUnlocking} as essential reading for all mental health practitioners and anyone else interested in schemas in a therapeutic context. Scott Alexander's review (\textcite{alexanderSurfing}) of \prosecite{clark2015surfing}, is also an excellent, and very dense, introduction to the general theory of predictions in the brain. \prosecite{clark2024experience} is a more mass-market version.
+Some of these are transmitted intergenerationally or culturally via chains of stuck schemas creating harmful behavior that then causes other people to learn stuck schemas, etc. Think of people who beat their child whenever the child does something slightly wrong. The child learns to stop trying to do anything at all. When they grow up they inadvertently neglect their own children if they're still operating under the \enquote{don't do anything or I'll get hurt} schema.
 
-See the Heidi Priebe YouTube channel for a wealth of information on the types of schemas that trauma causes~\cite{priebeYoutube}.
+Many traumas, especially chronic ones experienced during childhood, create complex networks of stuck schemas around things like your sense of self, relationships, body, etc. These are frequently disabling because the schemas are intense and are activated by either a wide variety of stimuli or a few particularly pervasive stimuli (e.g., being alive).
+
+Some people have schemas that predict pervasive threat or classify ambiguous signals as threatening~\cite{berghSelfEvidencing}. These may have developed in situations where noticing and reacting quickly to potential threats was more important than taking the time to accurately decide if something really is a threat or not. These schemas can easily create new stuck schemas. Thus, severely traumatized people can more easily acquire more stuck schemas.
+
+About 10\% of the population meets the somewhat arbitrary criteria for mental illness at any given time~\cite{whoMentalHealth}. However, many more people have sub-clinical stuck schemas. For example, one study found that 41\% of the US population has non-secure attachment~\cite{mickelson1997adult}. It's not a matter of having them or not; virtually everyone has some stuck schemas, even if they are mild or rarely activated.
+
+For more information, I highly recommend \prosecite{eckerUnlocking}. Scott Alexander's review (\textcite{alexanderSurfing}) of \prosecite{clark2015surfing} is also an excellent introduction to the general theory of predictions/schemas in the brain. See the Heidi Priebe YouTube channel for a wealth of information on the types of schemas that trauma causes~\cite{priebeYoutube}.
 
 \section{[unedited] Attention and Avoidance}
 \label{attention}
@@ -902,6 +896,12 @@ Any of these could have been either adaptive or maladaptive in the original situ
 Schemas aren't just abstract beliefs about things; they also control actions and attention itself~\cite{clark2015surfing}. The phrase \enquote{the brain} in the above list is shorthand for a schema or set of schemas, likely not explicitly understood, that controls attention in a certain context. Attention control may be physical, like orienting the eyes and head to certain objects, or internal, like ruminating on certain things or not thinking about certain uncomfortable thoughts, emotions, or sensations. Attention control is flexible and can avoid specific abstract concepts in addition to broader categories of information or sensory input. Many symptoms and disorders look like internal avoidance from this attentional perspective. PTSD from assault frequently causes people to feel disconnected from their bodies~\cite{vanderKolkBody}. Alexithymia is basically disconnection from emotions~\cite{hogeveen2021alexithymia}. Mental illness frequently inhibits recall of autobiographical memories~\cite{berghSelfEvidencing}.
 
 I recommend Scott Alexander's summary (\textcite{alexanderPrecision}) of \prosecite{berghSelfEvidencing} for further information.
+
+
+
+Mentally healthy adults with sufficient resources are resilient to most traumas and usually develop appropriate schemas to manage those situations in the future~\cite{bonanno2008loss}.
+
+There is much variability in individual responsiveness to danger and insecurity because all experiences and individuals are unique. A devastating event for one person may cause only temporary difficulty for someone else. Mentally healthy adults with sufficient resources are resilient to most traumas and typically develop appropriate schemas to manage those situations in the future~\cite{bonanno2008loss}. Secure attachment is also a major factor in resilience~\cite{attachmentPTSD}. Securely attached children are also resilient to trauma, especially when they have assistance from their parents. After the threat passes in these cases of resilience, the individual may have a temporary period of distress about the experience, but this dissipates in a short amount of time.
 
 \section{Mechanism of Healing [v]}
 \label{sec:mechanism}
@@ -1393,26 +1393,18 @@ In the absence of MDMA-specific advice, one cardiologist offers this general adv
 
 \chapter{[unedited] The Arc of Healing}
 \label{bigPicture}
-WHAT AM I DOING
 Healing is fundamentally a process of aligning schemas with current reality~\cite{eckerUnlocking}.
 
 These old, currently maladaptive, schemas stick around because a process blocked the contradictory information that would have naturally reconsolidated the schemas~\cite{berghSelfEvidencing}. These processes are usually avoidance (sometimes unnoticed), opioid dampening, or escapism, as detailed in \cref{attention}. MDMA therapy addresses both parts of this attractor state: it facilitates reconsolidation, as described in \cref{sec:mechanism}, and it also decreases avoidance \todo{Cite}.
 
-WHAT THE PROCESS LOOKS LIKE
-
-TRAJECTORY
 This process may result in a straightforward decrease in symptoms and increase in mental health for those with simple issues. However, those with disorganized attachment or other forms of severe complex trauma are in for a very long process of unpredictable ups and downs that gradually tends upward. Complex trauma involves avoidance of a great many distressing perceptions and thoughts. Some (often latent) stuck schemas may intensely react to bringing this previously avoided information into awareness, causing new fear, anger, sadness, grief, dysfunction, etc. You then must reconsolidate these newly activated stuck schemas, which might bring further attention to more previously avoided information. This cycle of reconsolidation → decreased avoidance → reaction → reconsolidation → decreased avoidance → reaction is continued until there is no more major avoided information or stuck schemas. Note that even this cycle is a simplification of an even more complex and inscrutable process described in \cref{sec:complex}. The most simple issues may easily be resolved in a single session, but my rough estimate is that the most severe mental illnesses require thousands of hours of reconsolidation to resolve. This process is necessarily spread out over a long period of time because therapy hangover limits reconsolidation to 1--2\,hours/day in my experience.
 
-TRACKING PROGRESS
 Unnoticed avoidance makes it difficult to assess how much material you need to work through. I suggest filling out \textcite{maladaptiveSchemaScale} at least once, possibly with the assistance of a skilled and ethical mental health practitioner you have a good alliance with (see \textcite{BRWAIdownload}). It's what I would choose if I had to choose one scale to measure how intense and complicated someone's stuck schemas are. You can fill out the scale again every few months to track your therapeutic progress. The maladaptive schema scale is long, so it may be worth finding and using a shorter, more specific scale if your stuck schemas are limited to certain areas. That will save you time if you're filling it out a frequently.
 
-HOW TO SCHEDULE RECONSOLIDATION
 MDMA is a moderately scarce resource because of the unclear possibility of a number of higher-dose sessions or high session frequency causing long-term tolerance~\cite{farreTolerance,parrottTolerance}, long-term cognitive impact~\cite{corayMemory}, and valvular heart disease~\cite{droogmans2007valvular}. Thus, I suggest achieving the bulk of reconsolidation with sober reconsolidation exercises like those described in \cref{sec:moreReconsolidation}, if possible. Individuals with a lot of time might find that maxing out on reconsolidation exercises whenever you have the time and can cope with a few hours of therapy hangover will deliver high rates of progress. Maxing out might take 4--6\,hours a day if you spend 2\,hours reconsolidating and 2--4\,hours in a strong therapy hangover. That assumes it's exceptionally easy for you to do reconsolidation exercises, and you're doing them at maximum intensity. It usually takes longer because of the overhead of uncovering schemas, finding contradictions, finding techniques that work for you, or developing relationships with therapists. I've noticed in my practice and the practice of one person I know that you don't have to deal with a therapy hangover as much when you do reconsolidation right before going to sleep. The therapy hangover resolves while you're asleep.
 
-WHEN ARE YOU DONE
 Unnoticed avoidance and lack of understanding about what improvements are possible also make it difficult to assess when you are done with the process. If you get to the point of thinking you are done or close-enough, I suggest working through every item in \cref{mapping} during MDMA sessions. Filling out \textcite{maladaptiveSchemaScale} may also help. These will help you uncover, understand, and reconsolidate many of the stuck schemas that even mentally healthy people typically avoid dealing with or thinking about. I really do think it's worth working through all the items in those sections; just getting to a point of good-enough mental health leaves a ton of individual improvement and capacity for connection and compassion on the table.
 
-RESOURCES
 I recommend the following resources for guidance on the long term process of healing:
 \begin{itemize}
     \item Most skilled, ethical, and well-matched therapists who have successfully helped their clients reconsolidate, though they may use other terms, complex stuck schema networks should understand your journey even if they don't have experience with MDMA.
