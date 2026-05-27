@@ -1,4 +1,23 @@
-MDMA therapy is a powerful tool for
+MDMA facilitates extraordinary feelings of compassion, connection, and
+safety.[1] This state of mind is highly effective for processing
+difficult or unhelpful emotions, memories, and reactions. However, there
+are no quick fixes for all but the simplest issues. Even in optimal
+conditions, intensive MDMA therapy can take multiple years to heal the
+most severe mental illness.
+
+There is moderate-quality clinical trial evidence that a limited course
+of MDMA therapy is highly effective for durably resolving PTSD, not just
+managing its symptoms (Højlund et al., 2025).[2] However, I think there
+are good theoretical reasons and ample anecdotal reports indicating that
+MDMA therapy can also resolve the psychological part of most mental
+illnesses and emotional issues. This includes CPTSD, non-secure
+attachment (which 41% of the US population has (Mickelson et al.,
+1997)), anxiety, addiction, alexithymia, obsessions, eating disorders,
+ADHD, depression, somatic symptom disorders, personality disorders,
+dissociation, panic, and more. Some instances of these issues may have
+biological components that MDMA therapy does not address.
+
+More broadly, MDMA therapy is a powerful tool for
 
 - healing mental illness
 
@@ -15,18 +34,22 @@ MDMA therapy is a powerful tool for
 
 - focusing on what you can change and letting go of the things you can’t
 
-There is moderate-quality[1] clinical trial evidence that a limited
-course of MDMA therapy is highly effective for durably resolving PTSD,
-not just managing its symptoms (Højlund et al., 2025). However, I think
-there are good theoretical reasons and ample anecdotal reports
-indicating that MDMA therapy can also resolve the psychological part of
-most mental illnesses and emotional issues. This includes CPTSD,
-non-secure attachment (which 41% of the US population has (Mickelson et
-al., 1997)), anxiety, addiction, alexithymia, obsessions, eating
-disorders, ADHD, depression, somatic symptom disorders, personality
-disorders, dissociation, panic, and more. Some instances of these issues
-may have biological components that MDMA therapy does not address. It’s
-also commonly used for resolving conflict in relationships.
+Many self-reports of successful MDMA therapy can be found on the top
+posts on
+[reddit.com/r/mdmatherapy](https://reddit.com/r/mdmatherapy/top/?sort=top&t=all).
+The top posts mostly describe productive sessions that don’t contain
+intense dissociation, avoidance, or symptom worsening. You can see
+occasional descriptions of less productive or more disruptive sessions
+by sorting by *new.* Godes et al. (2023) also reports how therapy
+clients describe how they felt MDMA therapy worked during their
+sessions: staying with what “is”; decreased reactivity; insight,
+reflection, linking; mental clarity; recovery of traumatic memories;
+disentangling trauma from self; reuniting lost affects and parts;
+self-acceptance; joy, happiness, gratitude; hope and empowerment;
+relaxation, calmness, peace; comfort; gratitude, compassion, empathy;
+union, wider perspective; inner healing intelligence \[the therapeutic
+framework used in this study\]; accessibility to emotions; and mind-body
+connection.
 
 As of 2026, MDMA has not been approved by most medical regulators. There
 is disagreement over whether existing clinical trials were sufficient to
@@ -42,37 +65,38 @@ often isn’t an enforcement priority. The vast majority of MDMA therapy
 in 2026 is done underground, though there are clinical trials and
 special access programs in certain countries.
 
-### A Model of the Types of Issues that MDMA Therapy Addresses
+## How Trauma and Insecurity Affect Us
 
 Our brains continually learn beliefs (e.g., “I can’t do anything right,”
-“I am bad”), emotional reactions, memories, and behavioral patterns to
-move through the world and thrive (Ecker et al., 2024). Different
-therapeutic frameworks group these components into units called schemas,
-parts, trauma reactions, priors, etc., because the components seem to
-act as an integrated whole rather than separate things. Occasionally,
-the schemas we learn to survive in one context become maladaptive in
-another context. This often starts when we learn particularly deep,
-pervasive, negative, and resilient schemas about ourselves, other
-people, and relationships to survive emotionally or physically insecure
-childhoods. Once we shift out of that context, like when we become
-adults, a wide variety of circumstances trigger those old schemas,
-resulting in fear, anxiety, anger, depression, panic, etc. in situations
-where those reactions are no longer helpful.
+“I am bad”), emotional reactions, and behavioral patterns to move
+through the world and thrive (Ecker et al., 2024). Different therapeutic
+frameworks group these components into units called schemas, parts,
+trauma reactions, priors, etc., because the components seem to act as an
+integrated whole rather than separate things. Occasionally, the schemas
+we learn to survive in one context become maladaptive in another
+context. This often starts when we learn particularly deep, pervasive,
+negative, and resilient schemas about ourselves, other people, and
+relationships to survive emotional or physical insecurity or trauma.
+Once we shift out of that context, like when we become adults, a wide
+variety of circumstances trigger those old schemas, resulting in fear,
+anxiety, anger, depression, panic, etc. in situations where those
+reactions are no longer helpful.
 
 Strong schemas of imminent threat and powerlessness also cause our
 nervous systems to activate the defensive states of arousal,
-flight-or-fight, freeze, and immobility (Kozlowska et al., 2015).
+flight-or-fight, freeze, and tonic/collapsed immobility (Kozlowska et
+al., 2015). The latter is often called dissociation.
 
-Our brains have an update process that, in normal circumstances,
-gradually modifies schemas to become adaptive to different
-situations (Ecker et al., 2024). Unfortunately, some things can inhibit
-this process, like dissociation, flight-or-fight, immobility, avoidance
-(often unnoticed), and lack of time or emotional capacity (Kozlowska et
-al., 2015; Van den Bergh et al., 2021). Exceptionally strong schemas
-also seem resistant to updating, perhaps because they are too
-overwhelming to be present with. For example, in PTSD, there is an
-exceptionally strong belief of imminent danger that doesn’t update when
-the danger passes.
+Our brains have an updating process called memory reconsolidation, that,
+in normal circumstances, modifies schemas to become adaptive to
+different situations (Ecker et al., 2024). Unfortunately, some things
+can inhibit this process, like flight-or-fight, tonic/collapsed
+immobility, avoidance (often unnoticed), and lack of time or emotional
+capacity (Kozlowska et al., 2015; Van den Bergh et al., 2021).
+Exceptionally strong schemas also seem resistant to updating, perhaps
+because they are too overwhelming to be present with. For example, in
+PTSD, there is an exceptionally strong belief of imminent danger that
+doesn’t update when the danger passes.
 
 ## How MDMA Therapy Works
 
@@ -89,48 +113,47 @@ issues. People typically need to do a lot of between-session
 therapy-like work as well as multiple sessions. Resolving the most
 severe issues will take years of hard work.
 
-Psychological destabilization is likely the most significant downside.
-It is a common and probably often unavoidable phase of therapy for those
-with severe trauma but is actually associated with greater improvement
-later in the therapeutic process (Olthof et al., 2020). Unfortunately,
-people are sometimes not explicitly aware they have gone through severe
-trauma. This may happen if that trauma takes the form of disorganized
-attachment (assess with
+Temporary symptom worsening is likely the most significant downside. It
+is a common and probably often unavoidable phase of therapy for those
+with severe trauma. Unfortunately, people are sometimes not explicitly
+aware they have gone through severe trauma. This may happen if that
+trauma takes the form of disorganized attachment (assess with
 [attachmentproject.com](https://www.attachmentproject.com)), the abuse
 is explained away as cultural tradition or “how things are,” the trauma
 took place in the period of childhood amnesia, or it is not remembered
 for some reason. Diagnosis of mental illness indicates higher risk as
 well.
 
-*Destabilization is occasionally long and overwhelming and can cause
+*Symptom worsening is occasionally long and overwhelming and can cause
 major problems when poorly managed or entered into at an inappropriate
 moment in your life.* It may also, on rare occasion, exacerbate or
-activate dangerous symptoms like psychosis or suicide attempts. People
-with a history of those may especially benefit from skilled, ethical,
-and well-matched support. Check out the Challenging Psychedelic
-Experiences Project for help:
-[challengingpsychedelicexperiences.com](https://challengingpsychedelicexperiences.com).
+activate dangerous symptoms like psychosis or suicide attempts. In
+Robinson et al. (2024), people with prolonged post-psychedelic symptoms
+reported these activities as helpful, in order of most to least commonly
+reported, and excluding those reported by less than 10% of participants:
+peers and community support; professional therapeutic or coaching
+assistance; meditation and prayer; reading for self education; physical
+exercise; journaling; breathing strategies; embodied contemplative
+practices; time in nature; and acceptance and surrender.
 
-MDMA-assisted therapy tends to speed up both healing and
-destabilization. Additional MDMA sessions and regular therapy often help
-work through destabilization. Connecting with other people who have had
-similar experiences also helps.
+MDMA-assisted therapy tends to speed up both healing and symptom
+worsening. Additional MDMA sessions and regular therapy often help work
+through the latter.
 
-Destabilization is sometimes caused by experiences that feel like
+Symptom worsening is sometimes caused by experiences that feel like
 remembering apparently forgotten memories. Unfortunately, there is no
 way to determine how accurate these memories are other than independent
 corroboration. See
 [psychedelicsandrecoveredmemories.com](https://psychedelicsandrecoveredmemories.com)
 for more information.
 
-## Sessions
+## The MDMA Therapy Session
 
 A standard, safe dose is 100 mg for body masses less than 60 kg (132 lb)
 and 125 mg for more (Baggott, 2015; Liechti & Schmid, 2023). People over
 75 years old also start with 100 mg. These doses can be adjusted later
-to fit individual circumstances. Low doses generally don’t work. A
-regular dose might not be sufficient for severe dissociation or panic.
-Too high of a dose might be so blissful that you can’t engage with your
+to fit individual circumstances. Low doses generally don’t work. Too
+high of a dose might be so blissful that you can’t engage with your
 trauma reactions.
 
 Booster doses half the strength of the initial dose are sometimes taken
@@ -142,11 +165,11 @@ think booster doses are fine to start off with, but that once people
 have established a reliably therapeutic routine, they gradually reduce
 their dose to find their *minimum effective dose.*
 
-The general strategy during the session is to emotionally activate your
-anxieties, depression, panic, etc., then stay with that feeling,
-regardless of what it is. If you have the right dose of MDMA and aren’t
-dissociating, the feeling should gradually dissipate. That’s the
-updating process at work.
+The general strategy during the session is emotionally activating
+(triggering) your anxieties, depression, panic, etc., then staying with
+that feeling, regardless of what it is. If you have the right dose of
+MDMA and aren’t dissociating, the schema should gradually dissipate.
+That’s the updating process at work.
 
 For dissociation, Razvi & Elfrink (2020, p. 14) recommends “bringing
 blankness, flat affect, nothingness, boredom, sleepiness, or sobriety
@@ -173,17 +196,17 @@ psychedelic experiences at +1 (623) 473-7433 in the USA.
 anywhere.
 
 There is almost no data on how frequently it is safe to do sessions,
-though many people have strong opinions on the subject nonetheless. In
-the absence of better data, the 6 week spacing used in the clinical
-trials might be a reasonable minimum.
+though many people have strong opinions on the subject. In the absence
+of better data, the 6 week spacing used in the clinical trials might be
+a reasonable minimum.
 
 ## Working with a Mental Health Practitioner
 
 It’s helpful to start MDMA therapy with a skilled, ethical, and
 well-matched practitioner, at least to learn the basics. Some people
-have success starting off solo, but it’s usually harder and riskier. A
-trip sitter who is trusted, experienced, empathetic, and emotionally
-non-reactive can also be helpful.
+have success starting off solo, but it can be more difficult and
+riskier. A trip sitter who is trusted, experienced, empathetic, and
+emotionally non-reactive can also be helpful.
 
 There are a few important factors when working with a guide, therapist,
 or other mental health practitioner:
@@ -194,20 +217,19 @@ or other mental health practitioner:
   you feel something is off, they aren’t committed to strict
   professional boundaries, or you see any other red flags. Touch or love
   from the therapist are not essential healing components of MDMA
-  therapy. You can always video record your session or bring a trusted
-  friend or family member along. For more information on red flags, see
-  Friedwoman et al. (2025).
+  therapy. You can video record your session or bring a trusted friend
+  or family member along for additional comfort. For more information on
+  red flags, see Friedwoman et al. (2025).
 
 - **Skilled:** They should have thorough knowledge of, and experience
   successfully resolving, a wide spectrum of difficult situations that
   might arise during MDMA therapy. This especially includes intense
-  dissociation, avoidance, panic, and destabilization.
+  dissociation, avoidance, panic, and symptom worsening.
 
-- **Well-matched:** You get along well with them.
-
-You can use the Brief Revised Working Alliance Inventory
-([greenspacehealth.com/en-us/br-wai](https://greenspacehealth.com/en-us/br-wai))
-to assess your relationship with your practitioner.
+- **Well-matched:** You get along well with them and agree on your goals
+  for therapy. You can use the Brief Revised Working Alliance Inventory
+  ([greenspacehealth.com/en-us/br-wai](https://greenspacehealth.com/en-us/br-wai))
+  to assess your relationship with your practitioner.
 
 ## Medical, Psychological, and Drug Interaction Risks
 
@@ -215,7 +237,7 @@ A limited course of MDMA therapy is generally well-tolerated, but there
 are dangerous drug/supplement/herb interactions, medical
 contraindications, side effects, and psychological risks:
 
-### Always Avoid (significant risk of death or irreversible damage):
+### Always Avoid (significant risk of death or irreversible damage)
 
 - MAOIs and ayahuasca
 
@@ -226,7 +248,7 @@ contraindications, side effects, and psychological risks:
 - hyperthyroidism that isn’t well managed and mild, as assessed by a
   doctor (Mitchell et al., 2023)
 
-### Use Caution With:
+### Use Caution With
 
 - a family or personal history of psychosis
 
@@ -244,8 +266,8 @@ contraindications, side effects, and psychological risks:
 - other serious medical conditions, especially ones that are not well
   managed and mild, as assessed by a doctor (Mitchell et al., 2023)
 
-- using MDMA therapy while living with your abuser(s). Reconsolidating
-  your stuck schemas may dismantle the protection they provide.
+- using MDMA therapy while living with your abuser(s). Rewriting your
+  stuck schemas may dismantle the protection they provide.
 
 ### Take Precaution:
 
@@ -257,7 +279,7 @@ contraindications, side effects, and psychological risks:
 
 - Test your MDMA. The presence of some common adulterants can be checked
   with reagent test kits;
-  [/r/ReagentTesting/wiki/test_kit_suppliers](https://www.reddit.com/r/ReagentTesting/wiki/test_kit_suppliers)
+  [`/r/ReagentTesting/wiki/test_kit_suppliers`](https://www.reddit.com/r/ReagentTesting/wiki/test_kit_suppliers)
   maintains a list of suppliers. Laboratory testing is much better;
   [/r/ReagentTesting/wiki/labs](https://www.reddit.com/r/ReagentTesting/wiki/labs)
   maintains a list of labs. It measures the amount of MDMA and all other
@@ -268,12 +290,15 @@ contraindications, side effects, and psychological risks:
   help with this. Also skip booster doses at first, then gradually
   increase the total dose on subsequent sessions if needed.
 
-- Only start MDMA therapy if you can do more reconsolidation,
-  MDMA-facilitated or otherwise, in the near future. On rare occasions,
-  post-session symptom exacerbation can be severe. While a part of the
-  healing process when managed well, it might require more
-  reconsolidation to resolve. People with secure attachment and no
-  mental illness probably don’t need to consider this limitation.
+- Only start MDMA therapy if you can do more therapy, MDMA-facilitated
+  or otherwise, in the near future. On rare occasions, post-session
+  symptom exacerbation can be severe. While a part of the healing
+  process when managed well, it can require a lot of therapy to resolve,
+  and it may not resolve on the timeline you want it to. Thus, having
+  slack in your life is important for MDMA therapy.
+
+  People with secure attachment and no mental illness probably don’t
+  need to consider this limitation.
 
 - MDMA and therapy exhaustion can impair awareness and reaction times.
   Avoid driving and other risky activities on the same day as the
@@ -306,6 +331,14 @@ R., Dreisbach, S., Berjot, C., Putnam, N., & Armeni, K. (2025).
 *Psychedelic safety flags*. Psychedelic Safety Flags Community
 Collaboration.
 <https://docs.google.com/document/d/1lK2Rif24BAmJqqsLfUSkAVCO48IFNrGdysS2nI1EjZA>
+
+
+
+Godes, M., Lucas, J., & Vermetten, E. (2023). Perceived key change
+phenomena of MDMA-assisted psychotherapy for the treatment of severe
+PTSD: An interpretative phenomenological analysis of clinical
+integration sessions. *Frontiers in Psychiatry*, *14*.
+<https://doi.org/10.3389/fpsyt.2023.957824>
 
 
 
@@ -357,14 +390,6 @@ moderate to severe PTSD: A randomized, placebo-controlled phase 3 trial.
 
 
 
-Olthof, M., Hasselman, F., Strunk, G., Aas, B., Schiepek, G., &
-Lichtwarck-Aschoff, A. (2020). Destabilization in self-ratings of the
-psychotherapeutic process is associated with better treatment outcome in
-patients with mood disorders. *Psychotherapy Research*, *30*(4),
-520–531. <https://doi.org/10.1080/10503307.2019.1633484>
-
-
-
 Psychedelic Alpha. (2025). Unpacking <span class="nocase">FDA’s
 MDMA</span> rejection letter and the road ahead for lykos. *Psychedelic
 Alpha*.
@@ -376,6 +401,15 @@ Razvi, S., & Elfrink, S. (2020). The PSIP model. An introduction to a
 novel method of therapy: Psychedelic somatic interactional
 psychotherapy. *Journal of Psychedelic Psychiatry*, *2*(3), 1–24.
 <https://www.journalofpsychedelicpsychiatry.org/_files/ugd/e07c59_d4d1db6fc0174f27bef58a6124aba50e.pdf>
+
+
+
+Robinson, O. C., Evans, J., Luke, D., McAlpine, R., Sahely, A., Fisher,
+A., Sundeman, S., Ketzitzidou Argyri, E., Murphy-Beiner, A., Michelle,
+K., & Prideaux, E. (2024). Coming back together: A qualitative survey
+study of coping and support strategies used by people to cope with
+extended difficulties after the use of psychedelic drugs. *Frontiers in
+Psychology*, *15*. <https://doi.org/10.3389/fpsyg.2024.1369715>
 
 
 
@@ -400,9 +434,14 @@ Psychological Science*, *16*(2), 225–246.
 
 
 
-[1] They downgrade the overall (inert placebo plus active placebo
-studies) GRADE score from moderate to low because GRADE suggests that
-mixing study types in one analysis introduces uncertainty. I think this
-is an overly rigid application of GRADE considering that the inert and
-active placebo studies had similar effect sizes. Therefore, we use their
-score for the inert placebo studies.
+[1] Positive emotions may not be noticeable during the session if strong
+fear, anger, other distressing emotions, avoidance, or opioid dampening
+are also present. This isn’t necessarily an issue; the process can still
+work well in these instances.
+
+[2] Højlund et al. (2025) downgrades the overall (inert placebo plus
+active placebo studies) GRADE score from moderate to low because GRADE
+suggests that mixing study types in one analysis introduces uncertainty.
+I think this is an overly rigid application of GRADE considering that
+the inert and active placebo studies had similar effect sizes.
+Therefore, I use their score for the inert placebo studies.

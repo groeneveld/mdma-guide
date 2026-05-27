@@ -1,4 +1,5 @@
 using CSV, DataFrames, Plots, StatsPlots
+pgfplotsx()
 
 # Read the data
 df = CSV.read("data-Table 1.csv", DataFrame)
@@ -13,19 +14,19 @@ df.clean_group = replace.(df.Group, r" \(n=\d+\)" => "")
 x_pos = 1:length(subscales)
 
 # Initialize the plot
-p = plot(size=(800, 600), 
-         xlabel="Factors", 
+p = plot(size=(450, 340),  # rough natural size; LaTeX rescales via \resizebox
+         xlabel="Factors",
          ylabel="% of Scale Maximum",
          legend=(0.54,0.94),#:topright,
          xticks=(x_pos, subscales),
          xrotation=45,
          bottom_margin=8Plots.mm,
          left_margin=5Plots.mm,
-         fontfamily="Palatino",
-         legendfontsize=12,
-         titlefontsize=12,
-         guidefontsize=12,
-         xtickfontsize=8
+         # fontfamily inherited from document (Libertinus Serif via fontspec)
+         legendfontsize=10,
+         titlefontsize=11,
+         guidefontsize=11,
+         xtickfontsize=9
          )
 
 # Define colors and markers for each group
@@ -51,17 +52,17 @@ for (i, group) in enumerate(groups)
         end
     end
     
-    # Plot line with error bars
-    plot!(p, x_pos, y_vals, 
+    # Plot points with error bars
+    scatter!(p, x_pos, y_vals,
           yerror=(y_err_lower, y_err_upper),
           label=group,
           marker=markers[i],
           markersize=4,
-          linewidth=2,
           markerstrokecolor=:auto)
 end
 
-# Save as PDF
-savefig(p, "effects_plot.pdf")
+# Save as TeX (LaTeX-rendered fonts) and SVG (for EPUB)
+savefig(p, "effects_plot.tex")
+savefig(p, "effects_plot.svg")
 
-println("Plot saved as 'effects_plot.pdf'")
+println("Plot saved as 'effects_plot.tex' and 'effects_plot.svg'")

@@ -4174,3 +4174,22 @@ Old, currently maladaptive, schemas stick around because a process blocked the c
 
 Resolving opioid dampening may immediately lead to flight-or-fight~\cite{kozlowskaDefenseCascade}, which in my understanding, is much to deal with on MDMA.
 
+ I think this would be most applicable to people with certain health conditions. The prevalent \enquote{hydrate more} recommendations are not evidence-based~\cite{hew2008statement}. \enquote{Drink when thirsty} is the right strategy for most people.
+
+    \item The potential humans in the near- to far-future. Why do worth or obligations change or not based on temporal distance? \prosecite{macaskillFuture} makes the case for considering this.
+
+\subsection*{Higher-Level Barriers to Reconsolidation}
+Sometimes reconsolidation inhibitors outweigh reconsolidation drivers. For instance, 
+\begin{itemize}
+    \item it's too painful for you to acknowledge that you have issues or that you should deal with them.
+    \item you have inaccurate or overweighted fears about MDMA or reconsolidation. Many people learned inaccurate fears of MDMA from War on Drugs propaganda and the adverse effects of mixing MDMA with risky behavior at raves. Not all fears about MDMA are inaccurate, as detailed in \cref{sec:safety}.
+    \item you are too depressed to start reconsolidation or are convinced that it wouldn't work because nothing works.
+    \item you are convinced that you don't need to deal with your stuck schemas because you think you are (or are) enlightened or on the path to enlightenment~\cite{cashwell2007Bypass}. You may also think that all you need is to be more devout, mindful, etc. This is called spiritual bypass. Some, but not many contemplative practices might actually facilitate reconsolidation (see \cref{sec:moreReconsolidation}).
+\end{itemize}
+
+Other barriers are skill, knowledge, or resource gaps. You may not know what reconsolidation is or how to do it successfully. You may also not have the resources to do it or manage destabilization. Alternatively, you gave up on MDMA therapy after an unproductive session without going through the troubleshooting steps in \cref{sec:troubleshooting}. Many people are also invested in incorrect interpretations of their issues that are incompatible with reconsolidation. This might include \enquote{I have X DSM/ICD disorder and there is no cure; I just have to cope with the symptoms,} \enquote{my brain is damaged,} or \enquote{this is just the way I am.} These only apply to issues that are actually schema-based. See \cref{biopsychosocial} for further discussion.
+
+Current tools may also not be able to resolve attractor states involving exceptionally strong avoidance or opioid dampening.
+
+Explicit reconsolidation practices like MDMA therapy are not always necessary. Some people inadvertently reconsolidate stuck schemas in a wide range of practices and circumstances.
+

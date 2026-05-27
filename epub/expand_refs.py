@@ -356,33 +356,47 @@ class RefExpander:
 
     def expand_textcite(self, match):
         """
-        Expand \textcite{key1,key2,...} commands.
+        Expand \textcite[prenote][postnote]{key1,key2,...} commands.
 
-        Single-key textcite: Convert to "LastName \cite{key}" for EPUB
+        Single-key textcite: Convert to "LastName \cite[...]{key}" for EPUB
         Multi-key textcite: Expand into multiple "LastName \cite{key}" citations
+
+        Biblatex convention: with one optional arg, it is the postnote (locator,
+        e.g. "p. 28"); with two, they are [prenote][postnote].
         """
-        keys_str = match.group(1)
+        opt1 = match.group(1)  # first optional arg contents, or None
+        opt2 = match.group(2)  # second optional arg contents, or None
+        keys_str = match.group(3)
         keys = [k.strip() for k in keys_str.split(',')]
 
+        if opt2 is not None:
+            cite_opts = f"[{opt1}][{opt2}]"
+        elif opt1 is not None:
+            cite_opts = f"[{opt1}]"
+        else:
+            cite_opts = ""
+
         if len(keys) == 1:
-            # Single key - convert to "LastName \cite{key}"
+            # Single key - convert to "LastName \cite[...]{key}"
             key = keys[0]
             lastname = self.bbl.get_first_author_lastname(key)
             if lastname:
-                return f"{lastname} \\cite{{{key}}}"
+                return f"{lastname} \\cite{cite_opts}{{{key}}}"
             else:
                 # Fallback if author not found
-                return f"\\cite{{{key}}}"
+                return f"\\cite{cite_opts}{{{key}}}"
         else:
-            # Multiple keys - expand each to "LastName \cite{key}" format
+            # Multiple keys - expand each to "LastName \cite{key}" format.
+            # Optional args are applied to the first citation only.
             expanded = []
-            for key in keys:
+            for i, key in enumerate(keys):
                 lastname = self.bbl.get_first_author_lastname(key)
+                opts = cite_opts if i == 0 else ""
                 if lastname:
-                    expanded.append(f"{lastname} \\cite{{{key}}}")
+                    expanded.append(f"{lastname} \\cite{opts}{{{key}}}")
                 else:
                     # Fallback if author not found
-                    expanded.append(f"\\cite{{{key}}}")
+                    expanded.append(f"\\cite{opts}{{{key}}}")
 
             # Join with "and" between items
             if len(expanded) == 2:
@@ -450,17 +464,33 @@ class RefExpander:
             return self.expand_prosecite(match)
         content = re.sub(r'\\prosecite\{([^}]+)\}', count_prosecite, content)
 
-        # Expand \textcite{key} - convert to "LastName \cite{key}" or \parencite for multi-key
+        # Expand \textcite[prenote][postnote]{key} - convert to "LastName \cite[...]{key}"
         def count_textcite(match):
             stats['textcite'] += 1
             return self.expand_textcite(match)
-        content = re.sub(r'\\textcite\{([^}]+)\}', count_textcite, content)
+        content = re.sub(
+            r'\\textcite(?:\[([^\]]*)\])?(?:\[([^\]]*)\])?\{([^}]+)\}',
+            count_textcite,
+            content,
+        )
 
         # Remove non-breaking spaces before citation commands
         # This prevents awkward spacing with superscript citations in EPUB
         content = re.sub(r'~\\cite\{', r' \\cite{', content)
         content = re.sub(r'~\\parencite\{', r' \\parencite{', content)
         content = re.sub(r'~\\textcite\{', r' \\textcite{', content)
+
+        # \mdcite is markdown-only and expands to nothing in EPUB; strip the
+        # preceding ~ too so we don't leave a non-breaking space before punctuation
+        content = re.sub(r'~\\mdcite\{[^}]*\}', '', content)
+
+        # Rewrite pgfplots TikZ \input figures as \includegraphics so Pandoc treats
+        # them as images. The swap-pdf-images.lua filter then maps .pdf -> .svg.
+        content = re.sub(
+            r'\\resizebox\{[^}]*\}\{[^}]*\}\{\\input\{([^}]+)\.tex\}\}',
+            r'\\includegraphics[width=\\textwidth]{\1.pdf}',
+            content,
+        )
 
         # Write output
         with open(output_path, 'w', encoding='utf-8') as f:

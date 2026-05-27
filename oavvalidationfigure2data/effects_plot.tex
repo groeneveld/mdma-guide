@@ -1,0 +1,344 @@
+% Recommended preamble:
+% \usetikzlibrary{arrows.meta}
+% \usetikzlibrary{backgrounds}
+% \usepgfplotslibrary{patchplots}
+% \usepgfplotslibrary{fillbetween}
+% \pgfplotsset{%
+%     layers/standard/.define layer set={%
+%         background,axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground%
+%     }{
+%         grid style={/pgfplots/on layer=axis grid},%
+%         tick style={/pgfplots/on layer=axis ticks},%
+%         axis line style={/pgfplots/on layer=axis lines},%
+%         label style={/pgfplots/on layer=axis descriptions},%
+%         legend style={/pgfplots/on layer=axis descriptions},%
+%         title style={/pgfplots/on layer=axis descriptions},%
+%         colorbar style={/pgfplots/on layer=axis descriptions},%
+%         ticklabel style={/pgfplots/on layer=axis tick labels},%
+%         axis background@ style={/pgfplots/on layer=axis background},%
+%         3d box foreground style={/pgfplots/on layer=axis foreground},%
+%     },
+% }
+
+\begin{tikzpicture}[/tikz/background rectangle/.style={fill={rgb,1:red,1.0;green,1.0;blue,1.0}, fill opacity={1.0}, draw opacity={1.0}}, show background rectangle]
+\begin{axis}[point meta max={nan}, point meta min={nan}, legend cell align={left}, legend columns={1}, title={}, title style={at={{(0.5,1)}}, anchor={south}, font={{\fontsize{11 pt}{14.3 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}, align={center}}, legend style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, line width={1}, solid, fill={rgb,1:red,1.0;green,1.0;blue,1.0}, fill opacity={1.0}, text opacity={1.0}, font={{\fontsize{10 pt}{13.0 pt}\selectfont}}, text={rgb,1:red,0.0;green,0.0;blue,0.0}, cells={anchor={center}}, at={{(0.54, 0.94)}}, anchor={north west}}, axis background/.style={fill={rgb,1:red,1.0;green,1.0;blue,1.0}, opacity={1.0}}, anchor={north west}, xshift={5.0mm}, yshift={-1.0mm}, width={108.3mm}, height={77.36mm}, scaled x ticks={false}, xlabel={Factors}, x tick style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}}, x tick label style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}, rotate={45}}, xlabel style={at={(ticklabel cs:0.5)}, anchor=near ticklabel, at={{(ticklabel cs:0.5)}}, anchor={near ticklabel}, font={{\fontsize{11 pt}{14.3 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, xmajorgrids={true}, xmin={0.6999999999999993}, xmax={11.3}, xticklabels={{Blissful state,Changed meaning of percepts,Experience of unity,Disembodiment,Complex imagery,Insightfulness,Impaired control and cognition,Religious experience,Audio-visual synesthesiae,Elementary visual alterations,Anxiety}}, xtick={{1,2,3,4,5,6,7,8,9,10,11}}, xtick align={inside}, xticklabel style={font={{\fontsize{9 pt}{11.700000000000001 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}, anchor={north east}}, x grid style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={0.1}, line width={0.5}, solid}, axis x line*={left}, x axis line style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, line width={1}, solid}, scaled y ticks={false}, ylabel={\% of Scale Maximum}, y tick style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}}, y tick label style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}, rotate={0}}, ylabel style={at={(ticklabel cs:0.5)}, anchor=near ticklabel, at={{(ticklabel cs:0.5)}}, anchor={near ticklabel}, font={{\fontsize{11 pt}{14.3 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, ymajorgrids={true}, ymin={1.3476265860695946}, ymax={52.97883452006688}, yticklabels={{$10$,$20$,$30$,$40$,$50$}}, ytick={{10.0,20.0,30.0,40.0,50.0}}, ytick align={inside}, yticklabel style={font={{\fontsize{8 pt}{10.4 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, y grid style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={0.1}, line width={0.5}, solid}, axis y line*={left}, y axis line style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, line width={1}, solid}, colorbar={false}]
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            1  34.9650563719301  \\
+            1  38.1623646270505  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            2  35.3105380571766  \\
+            2  38.7547014943015  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            3  29.6453338343248  \\
+            3  32.9112410892226  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            4  25.3600177795009  \\
+            4  28.5217355334451  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            5  41.4506738361597  \\
+            5  45.0651263677139  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            6  23.8748145947666  \\
+            6  26.6695279128786  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            7  22.139905887495  \\
+            7  24.4970534834094  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            8  16.9760970735515  \\
+            8  19.6620272893435  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            9  34.2140261461183  \\
+            9  38.0815905715168  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            10  47.8239143591068  \\
+            10  51.5175739181613  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={1}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            11  7.59961044875991  \\
+            11  9.56450779792714  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={2}, only marks, draw opacity={1.0}, line width={0}, solid, mark={*}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}]
+        table[row sep={\\}]
+        {
+            \\
+            1.0  36.5637104994903  \\
+            2.0  37.032619775739  \\
+            3.0  31.2782874617737  \\
+            4.0  26.940876656473  \\
+            5.0  43.2579001019368  \\
+            6.0  25.2721712538226  \\
+            7.0  23.3184796854522  \\
+            8.0  18.3190621814475  \\
+            9.0  36.1478083588175  \\
+            10.0  49.670744138634  \\
+            11.0  8.58205912334353  \\
+        }
+        ;
+    \addlegendentry {Psilocybin}
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            1  24.9433132328088  \\
+            1  29.1842587836521  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            2  29.3845516881731  \\
+            2  33.689522385901  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            3  35.3019468618403  \\
+            3  39.9622506690239  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            4  45.9613819805652  \\
+            4  50.9892353033854  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            5  32.9994279873651  \\
+            5  37.6919300373263  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            6  21.4438319301931  \\
+            6  25.2187195101361  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            7  30.4594106108271  \\
+            7  34.4506422992258  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            8  17.7681271000463  \\
+            8  21.5528605542747  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            9  24.6365414811269  \\
+            9  29.8737465847167  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            10  30.0604422515715  \\
+            10  34.8449075426672  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            11  11.6335331487606  \\
+            11  14.5290182915686  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={4}, only marks, draw opacity={1.0}, line width={0}, solid, mark={*}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}]
+        table[row sep={\\}]
+        {
+            \\
+            1.0  27.0637860082305  \\
+            2.0  31.537037037037  \\
+            3.0  37.6320987654321  \\
+            4.0  48.4753086419753  \\
+            5.0  35.3456790123457  \\
+            6.0  23.3312757201646  \\
+            7.0  32.4550264550265  \\
+            8.0  19.6604938271605  \\
+            9.0  27.2551440329218  \\
+            10.0  32.4526748971193  \\
+            11.0  13.0812757201646  \\
+        }
+        ;
+    \addlegendentry {Ketamine}
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            1  42.6693665164927  \\
+            1  48.6508949214158  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            2  25.5345336819556  \\
+            2  31.4916101088941  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            3  25.3193187996131  \\
+            3  31.0453870827398  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            4  21.8225902063371  \\
+            4  27.0924424734014  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            5  15.289791869167  \\
+            5  19.9847179347546  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            6  13.5658960596585  \\
+            6  18.0092673390343  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            7  13.7686172129717  \\
+            7  17.7495900699415  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            8  9.03775513430023  \\
+            8  12.9164932317128  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            9  8.18848720829026  \\
+            9  12.2624931838666  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            10  4.59803849283569  \\
+            10  7.66993536337346  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={5}, draw opacity={1.0}, line width={1}, solid, mark={-}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}, forget plot]
+        table[row sep={\\}]
+        {
+            \\
+            11  2.80888718797518  \\
+            11  5.03751804078299  \\
+        }
+        ;
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={6}, only marks, draw opacity={1.0}, line width={0}, solid, mark={*}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}]
+        table[row sep={\\}]
+        {
+            \\
+            1.0  45.6601307189542  \\
+            2.0  28.5130718954248  \\
+            3.0  28.1823529411765  \\
+            4.0  24.4575163398693  \\
+            5.0  17.6372549019608  \\
+            6.0  15.7875816993464  \\
+            7.0  15.7591036414566  \\
+            8.0  10.9771241830065  \\
+            9.0  10.2254901960784  \\
+            10.0  6.13398692810457  \\
+            11.0  3.92320261437908  \\
+        }
+        ;
+    \addlegendentry {MDMA}
+\end{axis}
+\end{tikzpicture}
