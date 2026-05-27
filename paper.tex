@@ -590,13 +590,13 @@ I know of the following reasons to be skeptical of this book while acknowledging
 
 I mitigate some of these by uploading the papers I cite to Claude and asking it to verify that it actually supports what I'm claiming. Additionally, I've solicited public feedback on reddit.com/r/mdmatherapy for my drafts. I also plan to ask several MDMA therapy researchers and practitioners for technical editing once I have finished the first editing pass.
 
-\section{Efficacy of MDMA Therapy}
+\section{Efficacy of MDMA Therapy [v]}
 \label{efficacy}
 MDMA therapy showed excellent results for PTSD in clinical trials~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. However, the FDA requested one additional phase III trial be conducted to fill in some missing data before they could approve MDMA~\cite{crl}. \textcite{crlAlpha} analyzes this request in detail. \textcite{fdaVSdutch} also discusses why a Dutch government commission came to the opposite conclusion~\cite{netherlandsMDMA} and decided there actually was enough evidence of efficacy and safety to roll out MDMA therapy to the public.\footnote{The Dutch State Commission maintained their position even after the FDA's non-approval~\cite{dutchParliment}.} While the FDA's requests are mostly helpful and would certainly result in better quality evidence, I largely agree with the Dutch State Commission's overall assessment. They better incorporate secondary sources of information about the risks of MDMA. I also lay out additional reasons I think MDMA therapy is effective in the third bullet point of the Memory-Reconsolidation/Predictive-Processing section of \cref{sec:assumptions}.
 
 \textcite{icerReport} pooled both MAPS phase III MDMA therapy trials together (194 total participants) and calculated the average effect sizes\footnote{Cohen's d} of three sessions of MDMA with therapy compared to placebo with therapy, though these calculations don't include some potential systematic biases. It is between 0.49--1.1 (small--large) for PTSD symptoms, with the most likely value being 0.80 (large), and between 0.17--0.66 (very small--medium) for functional impairment, with the most likely value being 0.42 (medium). Actual effects were larger since those numbers just compare the difference between MDMA and placebo; both involved therapy that likely had its own positive effect. Those reported ranges are confidence intervals (CI); roughly speaking, there is a 95\% chance that the true average effect is within that range.\footnote{That definition of confidence intervals is a simplification. The technically accurate definitions are unintuitive and complicated.} Confidence intervals convey the statistical precision of studies. Individuals will also have a range of responses surrounding the true average, which is itself specific to the population of participants in each study and the characteristics of the study.
 
-The greater effect on PTSD symptoms than on functional impairment may reflect the fact that most participants had multiple traumas or mental illnesses~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. PTSD symptoms were measured using the Clinician-Administered PTSD Scale for DSM-5 (CAPS-5) that represents therapeutic progress related to the single traumatic event that participants chose as their therapeutic target. \cref{table:efficacy} breaks the CAPS-5 results into clinically relevant labelled bins. Functional impairment was measured using the Sheehan Disability Scale (SDS), which may better represent the entirety of an individual's issues. Logically, there would be more progress on the issue participants picked to focus on. More therapy focused on the other issues might further continue the decrease in functional impairment.
+The greater effect on PTSD symptoms than on functional impairment may reflect the fact that most participants had multiple traumas or mental illnesses~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. PTSD symptoms were measured using the Clinician-Administered PTSD Scale for DSM-5 (CAPS-5) that measures symptoms related to a single traumatic event. \cref{table:efficacy} breaks the CAPS-5 results into clinically relevant labelled bins. Functional impairment was measured using the Sheehan Disability Scale (SDS), which may better represent the entirety of an individual's issues. Logically, there would be more progress on the issue participants picked to focus on. More therapy focused on the other issues might further continue the decrease in functional impairment.
 
 \FloatBarrier
 \begin{table}[htbp]
@@ -606,7 +606,7 @@ The greater effect on PTSD symptoms than on functional impairment may reflect th
     \begin{tabular}{|c|c|c|}
     \hline
      & \makecell{\textbf{MDMA w/}\\\textbf{Therapy}} & \makecell{\textbf{Placebo w/}\\\textbf{Therapy}} \\ \hline
-    \textbf{No Response}          & 13 \%          & 35 \%          \\ \hline
+    \textbf{No Response}          & 13 \%          & 31 \%          \\ \hline
     \textbf{Clinically Meaningful Response}          & 87 \%          & 65 \%         \\ \hline
     \textbf{Loss of Diagnosis} & 69 \% & 40 \% \\ \hline
     \textbf{Remission}          & 40 \%          & 13 \%          \\ \hline
@@ -614,22 +614,22 @@ The greater effect on PTSD symptoms than on functional impairment may reflect th
 \end{table}
 \FloatBarrier
 
-Each session added durable benefits on top of the benefits persisting from previous sessions~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. This strongly suggests that more sessions beyond the three in the trials would further improve symptoms for individuals who need it. The three-session schedule was likely chosen to balance efficacy with cost and time constraints in the drug development process, and clinical use should be tailored to individual needs.
+Each session added durable benefits on top of the benefits persisting from previous sessions~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. The benefits persisted at least to the end of the study, which was two months after the last session. This strongly suggests that more sessions beyond the three in the trials would further improve symptoms for individuals who need it. The three-session schedule was likely chosen to balance efficacy with cost and time constraints in the drug development process, and clinical use should be tailored to individual needs.
 
-Only 5\% of participants in the MDMA groups discontinued treatment (half for reasons unrelated to the study), compared to 16\% in the placebo groups~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. MDMA therapy worked across severity of symptoms, presence of other mental illnesses, and history of ineffective treatment. The improvements persisted when the data was reanalyzed by an independent, blinded programmer.
+Only 5\% of participants in the MDMA groups discontinued treatment (mostly for reasons unrelated to adverse effects from MDMA therapy), compared to 16\% in the placebo groups~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. MDMA therapy worked across severity of symptoms and presence of other mental illnesses.
 
 There are differences between MDMA therapy in clinical practice and in clinical trials that may affect efficacy:
 \begin{itemize}
     \item Different expectations of positive results from the client or practitioner
     \item Higher or lower therapist compliance with professional ethics
-    \item Doses tailored to a client's body mass, which did not occur during the trial~\cite{mitchellMDMAClinicalTrial}
+    \item Doses tailored to a client's body mass, which did not occur during the trial~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}
     \item Therapists with more or less experience with MDMA or more or less skill as a therapist
     \item More choice in therapist
     \item Different types of people or people with different issues trying therapy who would have been excluded from or not interested in the trials
     \item More or less support
     \item Session pacing and number of sessions tailored to the client's needs rather than the rigid structure of the trial
     \item Less media attention than the intensely covered trials
-    \item Possible lack of video recording of the sessions
+    \item Clinical sessions usually aren't video recorded, whereas trial sessions are
 \end{itemize}
 
 \section{MDMA Therapy Generalizes Beyond PTSD}
@@ -1455,7 +1455,7 @@ It may be especially productive to schedule sessions when you have a few hours o
 \chapter{Working With or Without a Practitioner}
 \section{Practitioner Guidance vs. Self-Guidance}
 \label{professionalVSSelf}
-MDMA therapy can be safe and effective in a wide variety of contexts, including therapist-guided sessions with pre- and post-session support~\cite{mitchellMDMAClinicalTrial2}, do-it-yourself couples therapy~\cite{colbertEvenings}, and solo therapy~\cite{hillsSolo}. Unfortunately, to my knowledge, there is almost no evidence regarding what level of support is appropriate in any particular case. I rely on my experience and anecdotal evidence for the following information and recommendations. I start out discussing factors that favor either practitioner or self-guidance then make a set of recommendations.
+MDMA therapy can be safe and effective in a wide variety of contexts, including therapist-guided sessions with pre- and post-session support~\cite{mitchellMDMAClinicalTrial2,mitchellMDMAClinicalTrial}, do-it-yourself couples therapy~\cite{colbertEvenings}, and solo therapy~\cite{hillsSolo}. Unfortunately, to my knowledge, there is almost no evidence regarding what level of support is appropriate in any particular case. I rely on my experience and anecdotal evidence for the following information and recommendations. I start out discussing factors that favor either practitioner or self-guidance then make a set of recommendations.
 
 \subsection*{Factors Favoring Practitioner Guidance}
 An ethical, skilled, and well-matched practitioner may provide
