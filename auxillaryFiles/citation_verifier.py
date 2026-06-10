@@ -17,7 +17,9 @@ FEATURES:
 • Reads file paths directly from references.bib file field
 • Generates structured citation inventory with file availability status
 • AI-powered validation of citation accuracy using Claude Code
-• Parallel processing for improved performance
+• Single-call validation: feeds whole paragraphs directly to Claude and
+  instructs it to focus only on the attribution unit(s) tied to the
+  citation(s) in question
 
 REQUIREMENTS:
 -------------
@@ -29,10 +31,10 @@ REQUIREMENTS:
 USAGE:
 ------
 Basic citation inventory generation:
-    python3 citation_verifier.py
+    python3 citation_verifier_single.py
 
 Citation validation (requires Claude Code):
-    python3 citation_verifier.py -verify
+    python3 citation_verifier_single.py -verify
 
 The script will:
 1. Parse your references.bib file for citation keys and file paths
@@ -64,6 +66,7 @@ USER CONFIGURATION
 import re
 import os
 import sys
+import time
 import subprocess
 from collections import defaultdict
 
@@ -74,19 +77,25 @@ from collections import defaultdict
 
 class Config:
     """Configuration constants for the citation verifier."""
-    
+
     # File paths
     PAPERS_DIR = '../papers'
-    PAPER_TEX_FILE = '../paper.tex'
+    PAPER_TEX_FILE = '../paper_verification.tex'
     REFERENCES_BIB_FILE = '../references.bib'
     OUTPUT_FILE = 'citation_inventory.md'
     ANALYSIS_FILE = 'citation_analysis.md'
-    
+
     # Processing limits
     CLAUDE_TIMEOUT_PER_PARAGRAPH = 240  # 4 minutes per paragraph
     CLAUDE_TIMEOUT_VALIDATION = 600     # 10 minutes for validation
     MAX_PDF_SIZE_MB = 50                # Maximum PDF size to process
-    
+
+    # Retry behavior for transient `claude -p` failures (overload, rate
+    # limits, network blips). The call is retried on non-zero exit, empty
+    # output, or timeout.
+    CLAUDE_MAX_ATTEMPTS = 3
+    CLAUDE_RETRY_BACKOFF = 10           # seconds, multiplied by attempt number
+
     # Process cleanup timeouts
     PROCESS_KILL_TIMEOUT = 5
     PROCESS_TERMINATE_TIMEOUT = 2
@@ -98,13 +107,13 @@ class Config:
 
 class FileUtils:
     """Utility functions for file path handling."""
-    
+
     @staticmethod
     def normalize_path(path, base_dir=None):
         """Normalize file path to absolute path, handling relative paths consistently."""
         if not path:
             return None
-        
+
         if os.path.isabs(path):
             return os.path.abspath(path)
         else:
@@ -116,7 +125,7 @@ class FileUtils:
 
 class ProcessUtils:
     """Utility functions for subprocess management."""
-    
+
     @staticmethod
     def cleanup_processes(processes_to_cleanup, exclude_process=None):
         """Helper function to safely cleanup subprocess list."""
@@ -141,30 +150,30 @@ class ProcessUtils:
 
 class BibtexParser:
     """Handles BibTeX file parsing."""
-    
+
     @staticmethod
     def parse_all_citation_keys(bib_path):
         """Parse references.bib to get all citation keys."""
         all_citation_keys = set()
-        
+
         try:
             with open(bib_path, 'r', encoding='utf-8') as f:
                 content = f.read()
         except FileNotFoundError:
             print(f"Warning: Bibliography file {bib_path} not found. Please ensure the file exists and the path is correct.")
             return set()
-        
+
         entries = re.split(r'(?=@\w+\{)', content)
-        
+
         for entry in entries:
             if not entry.strip():
                 continue
-                
+
             key_match = re.match(r'@\w+\{([^,]+),', entry)
             if key_match:
                 citation_key = key_match.group(1).strip()
                 all_citation_keys.add(citation_key)
-        
+
         return all_citation_keys
 
     @staticmethod
@@ -215,21 +224,21 @@ class BibtexParser:
 
 class LatexProcessor:
     """Handles LaTeX file processing and citation extraction."""
-    
+
     @staticmethod
     def extract_citations(file_path):
         """Extract citation patterns from LaTeX file and track line numbers."""
         citation_inventory = defaultdict(list)
-        
+
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
         except FileNotFoundError:
             print(f"Error: LaTeX file {file_path} not found. Please ensure the file exists and PAPER_TEX_FILE configuration is correct.")
             return {}
-        
+
         citation_pattern = r'\\(?:text)?cite\{([^}]+)\}'
-        
+
         for line_num, line in enumerate(lines, 1):
             matches = re.finditer(citation_pattern, line)
 
@@ -244,33 +253,64 @@ class LatexProcessor:
 
                     if line_num not in citation_inventory[keys_tuple]:
                         citation_inventory[keys_tuple].append(line_num)
-        
+
         return citation_inventory
-    
+
     @staticmethod
     def get_line_contents_from_paper(line_numbers, paper_file):
-        """Fetch line contents from paper.tex for given line numbers."""
-        line_info = []
-        
+        """Fetch line contents from paper.tex for given line numbers.
+
+        If the line immediately after a citation line starts with \\begin{...},
+        the entire environment (through its matching \\end) is also included.
+        This captures lists that inherit the citation from the preceding
+        paragraph so they can be evaluated alongside it.
+        """
         paper_file = FileUtils.normalize_path(paper_file)
-        
+
         if not os.path.exists(paper_file):
             print(f"Error: Paper file {paper_file} not found. Please ensure your LaTeX file exists and PAPER_TEX_FILE configuration is correct.")
-            return line_info
-        
+            return []
+
         try:
             with open(paper_file, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
         except Exception as e:
             print(f"Error reading {paper_file}: {e}")
-            return line_info
-        
+            return []
+
+        collected = {}  # line_num (1-indexed) -> stripped content; dict dedupes overlaps
+
         for line_num in line_numbers:
-            if 1 <= line_num <= len(lines):
-                line_content = lines[line_num - 1].strip()
-                line_info.append((line_num, line_content))
-        
-        return line_info
+            if not (1 <= line_num <= len(lines)):
+                continue
+
+            collected[line_num] = lines[line_num - 1].strip()
+
+            # If the next line opens an environment, pull in the whole block
+            next_idx = line_num  # 0-indexed index of the line after line_num
+            if next_idx >= len(lines):
+                continue
+
+            begin_match = re.match(r'\\begin\{([^}]+)\}', lines[next_idx].strip())
+            if not begin_match:
+                continue
+
+            env_name = begin_match.group(1)
+            begin_pattern = re.compile(r'\\begin\{' + re.escape(env_name) + r'\}')
+            end_pattern = re.compile(r'\\end\{' + re.escape(env_name) + r'\}')
+
+            depth = 0
+            i = next_idx
+            while i < len(lines):
+                current_line = lines[i]
+                collected[i + 1] = current_line.strip()
+                depth += len(begin_pattern.findall(current_line))
+                depth -= len(end_pattern.findall(current_line))
+                if depth <= 0:
+                    break
+                i += 1
+
+        return sorted(collected.items())
 
 
 # =============================================================================
@@ -279,7 +319,7 @@ class LatexProcessor:
 
 class OutputFormatter:
     """Handles formatting of citation inventory and analysis output."""
-    
+
     @staticmethod
     def format_citation_inventory(citation_inventory, citation_metadata=None):
         """Format the citation inventory for output."""
@@ -288,9 +328,9 @@ class OutputFormatter:
             key=lambda x: (len(x[1]), x[0]),
             reverse=True
         )
-        
+
         output_lines = []
-        
+
         for keys, line_numbers in sorted_citations:
             keys_str = ','.join(keys)
 
@@ -312,7 +352,7 @@ class OutputFormatter:
 
             output_line = f"{prefix} ({keys_str}) - {line_numbers_str}"
             output_lines.append(output_line)
-        
+
         return '\n'.join(output_lines)
 
 
@@ -322,25 +362,25 @@ class OutputFormatter:
 
 class CitationVerifier:
     """Handles AI-powered citation verification using Claude Code."""
-    
+
     @staticmethod
     def parse_citation_inventory(inventory_file):
         """Parse citation_inventory.md file to extract entries for verification."""
         entries = []
-        
+
         inventory_file = FileUtils.normalize_path(inventory_file)
-        
+
         if not os.path.exists(inventory_file):
             print(f"Error: Citation inventory file {inventory_file} not found. Please run the main script first to generate the inventory.")
             return entries
-        
+
         try:
             with open(inventory_file, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
         except Exception as e:
             print(f"Error reading {inventory_file}: {e}")
             return entries
-        
+
         for line in lines:
             line = line.strip()
             if not line:
@@ -361,35 +401,41 @@ class CitationVerifier:
                     'line_numbers': line_numbers,
                     'raw_line': line
                 })
-        
+
         return entries
-    
+
     @staticmethod
     def _resolve_file_path(filename, papers_dir):
         """Resolve filename to absolute path."""
         return FileUtils.normalize_path(filename, papers_dir)
-    
+
     @staticmethod
     def _group_lines_into_paragraphs(line_info):
         """Group line info into paragraphs based on consecutive line numbers."""
         paragraphs = []
         current_paragraph = []
-        
+
         for line_num, line_content in line_info:
             if current_paragraph and line_num > current_paragraph[-1][0] + 1:
                 paragraphs.append(current_paragraph)
                 current_paragraph = [(line_num, line_content)]
             else:
                 current_paragraph.append((line_num, line_content))
-        
+
         if current_paragraph:
             paragraphs.append(current_paragraph)
-        
+
         return paragraphs
-    
+
     @staticmethod
     def call_claude_for_verification(file_paths_or_names, citation_keys, line_info, papers_dir=Config.PAPERS_DIR):
-        """Call Claude Code to verify citations using two sequential calls with parallelized first step."""
+        """Call Claude Code to verify citations using a single validation call.
+
+        Unlike the two-step variant in citation_verifier.py, this skips the
+        attribution-unit marking step and feeds whole paragraphs directly to
+        the validation call. The prompt instructs Claude to focus only on the
+        part of the paragraph that depends on the cited reference(s).
+        """
         if not file_paths_or_names:
             raise Exception("No file paths available for verification")
 
@@ -414,98 +460,98 @@ class CitationVerifier:
             raise Exception("No valid files found for verification")
 
         paragraphs = CitationVerifier._group_lines_into_paragraphs(line_info)
-        # Use basenames for display
-        filenames_text = ', '.join([os.path.basename(fp) for fp in file_paths])
+        # Give Claude the full absolute paths so it can Read the PDFs directly.
+        # Access to their parent directories is granted via --add-dir below.
+        filenames_text = ', '.join(file_paths)
         citation_keys_text = ', '.join(citation_keys)
-        
-        try:
-            # STEP 1: Mark attribution units in paragraphs (parallelized)
-            print(f"     → Step 1: Marking attribution units in {len(paragraphs)} paragraphs...")
-            
-            paragraph_results = []
-            processes = []
-            
-            for i, paragraph in enumerate(paragraphs):
-                paragraph_text = ""
-                for line_num, line_content in paragraph:
-                    paragraph_text += f"Line {line_num}: {line_content}\n"
-                
-                split_prompt = f"""In academic writing in APA, paragraphs are split into 'attribution units' that each depend on a certain set of citations. So the first sentence has citation1, and the following sentences inherit that until a sentence starts that uses a different set of citations or is an opinion. Mark each attribution unit in the following paragraph that uses exactly this ({citation_keys_text}) particular set of citations by inserting '->' and '<-' around that set of sentences. Markers should generally be on sentence or clause boundaries. You're acting as a input/output function; you're *only* output is the original text (and line numbers) with the markers added. DO NOT ADD ANYTHING ELSE OR EXPLAIN WHAT YOU'RE DOING.
-            
-                PARAGRAPH: <<{paragraph_text}>>"""
 
-                cmd = ['claude', '-p', split_prompt]
-                
-                process = subprocess.Popen(
-                    cmd,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE,
-                    text=True
-                )
-                processes.append((process, i))
-            
-            # Collect results with proper cleanup
-            try:
-                for process, paragraph_index in processes:
-                    try:
-                        stdout, stderr = process.communicate(timeout=Config.CLAUDE_TIMEOUT_PER_PARAGRAPH)
-                        if process.returncode != 0:
-                            ProcessUtils.cleanup_processes(processes, exclude_process=process)
-                            raise Exception(f"Claude call failed for paragraph {paragraph_index + 1}: {stderr}")
-                        paragraph_results.append((paragraph_index, stdout.strip()))
-                    except subprocess.TimeoutExpired:
-                        process.kill()
-                        ProcessUtils.cleanup_processes(processes, exclude_process=process)
-                        raise Exception(f"Claude verification timed out for paragraph {paragraph_index + 1}")
-            except Exception as e:
-                ProcessUtils.cleanup_processes(processes)
-                raise e
-            
-            paragraph_results.sort(key=lambda x: x[0])
-            
-            # STEP 2: Validate attribution units
-            print("     → Step 2: Validating attribution units...")
-            
-            validation_prompt = f"""You are assessing whether attribution units (a section of a paragraph that relies on a particular set of citations) from an academic paper are reasonably justified by their citations.
+        # Build the raw paragraph text blocks (with line numbers preserved)
+        paragraph_texts = []
+        for paragraph in paragraphs:
+            paragraph_text = ""
+            for line_num, line_content in paragraph:
+                paragraph_text += f"Line {line_num}: {line_content}\n"
+            paragraph_texts.append(paragraph_text.rstrip())
+
+        paragraphs_block = "\n\n".join(paragraph_texts)
+
+        try:
+            print("     → Validating paragraphs against cited sources (single-call mode)...")
+
+            validation_prompt = f"""You are assessing whether claims in an academic paper are reasonably justified by their citations.
 
             Citation keys: {citation_keys_text}
             Corresponding files: {filenames_text}
 
-            First, read and understand the content of the cited papers. Then evaluate each attribution unit below.
+            First, read and understand the content of the cited papers. Then evaluate the paragraphs below.
 
-            Here are the attribution units to evaluate. They are the sections of text between the -> and -< marks. There may be multiple units within a paragraph. The whole paragraph is provided for context. 
-            {paragraph_results}
+            IMPORTANT: Each paragraph below is provided in full for context, but you should only analyze the portion of the paragraph that depends on the citation(s) in question ({citation_keys_text}). In academic writing (APA style), paragraphs are split into 'attribution units' that each depend on a particular set of citations — the first sentence carries a citation and following sentences inherit it until a sentence introduces a different set of citations or is an opinion or common knowledge. Identify the attribution unit(s) tied to ({citation_keys_text}) and assess only those; the rest of the paragraph is only there for context if its needed.
 
-            For each attribution unit, provide your assessment in this format exactly:
-            Line <line_number>: <✅ or ❌ or ⚠️> <analysis of one or more attribution units in that paragraph>
+            Here are the paragraphs to evaluate:
+            {paragraphs_block}
 
-            Use ✅ if the cited papers support the claims or if they represent reasonable extrapolations. Use ❌ if the papers don't support the claims, explaining why in your own words for the analysis. Use ⚠️ for an in-between option.
+            For each paragraph, provide your assessment in this format exactly:
+            Line <line_number>: <[SUPPORTED] or [NOT SUPPORTED] or [CAUTION]> <analysis of the attribution unit(s) tied to the citation(s) in question>
+
+            Do not provide any analysis if the paragraph is [SUPPORTED], just the [SUPPORTED] label.
+
+            Use the line number where the relevant attribution unit begins. Use [SUPPORTED] if the cited papers support the claims or if they represent reasonable extrapolations. Use [NOT SUPPORTED] if the papers don't support the claims, explaining why in your own words for the analysis. Use [CAUTION] for an in-between option.
 
             DO NOT ADD ANYTHING ELSE OR EXPLAIN WHAT YOU'RE DOING, unless you run into an error, which you can explain."""
 
-            cmd2 = ['claude', '-p', validation_prompt] + file_paths
-            
-            result2 = subprocess.run(
-                cmd2,
-                capture_output=True,
-                text=True,
-                timeout=Config.CLAUDE_TIMEOUT_VALIDATION
-            )
-            
-            if result2.returncode != 0:
-                raise Exception(f"Second Claude call failed: {result2.stderr}")
-            
-            analysis_output = result2.stdout.strip()
-            if not analysis_output:
-                raise Exception("Second Claude call returned no output")
-            
-            return {
-                'marked_paragraphs': [result for _, result in paragraph_results],
-                'analysis': analysis_output
-            }
-            
-        except subprocess.TimeoutExpired:
-            raise Exception("Claude verification timed out")
+            # Grant read access to each PDF's parent directory. Many bib
+            # entries live outside the project (e.g. iCloud Papers folder),
+            # and `claude -p` denies reads outside cwd by default. The PDFs
+            # are NOT appended as positional args: `--add-dir` is variadic and
+            # would greedily swallow them ("X.pdf is not a directory"). Claude
+            # opens them via the Read tool using the full paths in the prompt.
+            add_dir_args = []
+            for parent in sorted({os.path.dirname(fp) for fp in file_paths if os.path.dirname(fp)}):
+                add_dir_args += ['--add-dir', parent]
+
+            cmd = ['claude', '-p', validation_prompt, '--model', 'opus'] + add_dir_args
+
+            last_error = None
+            for attempt in range(1, Config.CLAUDE_MAX_ATTEMPTS + 1):
+                try:
+                    result = subprocess.run(
+                        cmd,
+                        capture_output=True,
+                        text=True,
+                        timeout=Config.CLAUDE_TIMEOUT_VALIDATION
+                    )
+
+                    if result.returncode != 0:
+                        # Include stdout too: when claude fails partway it may
+                        # have written diagnostics there, and stderr can carry
+                        # unrelated startup noise.
+                        raise Exception(
+                            f"claude exited {result.returncode}. "
+                            f"stderr: {result.stderr.strip()} | stdout: {result.stdout.strip()}"
+                        )
+
+                    analysis_output = result.stdout.strip()
+                    if not analysis_output:
+                        raise Exception(f"claude returned no output. stderr: {result.stderr.strip()}")
+
+                    return {
+                        'paragraphs': paragraph_texts,
+                        'analysis': analysis_output
+                    }
+
+                except FileNotFoundError:
+                    # Not transient — don't waste retries on a missing CLI.
+                    raise
+                except (subprocess.TimeoutExpired, Exception) as e:
+                    last_error = "timed out" if isinstance(e, subprocess.TimeoutExpired) else str(e)
+                    if attempt < Config.CLAUDE_MAX_ATTEMPTS:
+                        backoff = Config.CLAUDE_RETRY_BACKOFF * attempt
+                        print(f"     ⚠️  Attempt {attempt}/{Config.CLAUDE_MAX_ATTEMPTS} failed "
+                              f"({last_error}); retrying in {backoff}s...")
+                        time.sleep(backoff)
+
+            raise Exception(f"Claude call failed after {Config.CLAUDE_MAX_ATTEMPTS} attempts: {last_error}")
+
         except FileNotFoundError:
             raise Exception("'claude' command not found. Please install Claude Code CLI from https://claude.ai/code and ensure it's in your PATH.")
         except Exception as e:
@@ -518,7 +564,7 @@ class CitationVerifier:
 
 class AnalysisWriter:
     """Handles writing of analysis results to output file."""
-    
+
     @staticmethod
     def write_analysis(entry, result, analysis_file):
         """Write analysis result to file."""
@@ -528,48 +574,70 @@ class AnalysisWriter:
                 f.write(f"## {', '.join(entry['citation_keys'])}\n\n")
                 f.write(f"**Files:** {', '.join(entry['filenames'])}\n")
                 f.write(f"**Lines:** {', '.join(map(str, entry['line_numbers']))}\n\n")
-                
+
                 # Write verification result
                 if isinstance(result, dict):
-                    # Parse the analysis to extract line-specific assessments
-                    analysis_lines = result['analysis'].split('\n')
+                    # Parse the analysis to extract line-specific assessments.
+                    # Tolerant regex: allow leading bullets/markdown, optional
+                    # bold around "Line N", optional dash separator, and accept
+                    # either ":" or "-" after the line number.
+                    # Normalize any status emoji the model may still emit to
+                    # text labels, keeping output consistent with the rest of
+                    # citation_analysis.md (which is text-only for portability).
+                    raw_analysis = result['analysis']
+                    for emoji, label in (('✅', '[SUPPORTED]'),
+                                         ('❌', '[NOT SUPPORTED]'),
+                                         ('⚠️', '[CAUTION]'),
+                                         ('⚠', '[CAUTION]')):
+                        raw_analysis = raw_analysis.replace(emoji, label)
+
+                    analysis_lines = raw_analysis.split('\n')
                     line_analyses = {}
-                    
-                    # Extract line numbers and their analyses from Claude's output
+                    line_re = re.compile(
+                        r'^[\s\-\*>#]*\**\s*Line\s+(\d+)\**\s*[:\-–—]\s*(.+)$',
+                        re.IGNORECASE,
+                    )
+
                     for line in analysis_lines:
-                        if line.strip().startswith('Line '):
-                            match = re.match(r'Line (\d+): (.+)', line.strip())
-                            if match:
-                                line_num = int(match.group(1))
-                                analysis_text = match.group(2)
-                                line_analyses[line_num] = analysis_text
-                    
-                    # Write marked-up text with analysis for each line
-                    for marked_paragraph in result['marked_paragraphs']:
-                        paragraph_lines = marked_paragraph.split('\n')
+                        match = line_re.match(line.strip())
+                        if match:
+                            line_num = int(match.group(1))
+                            analysis_text = match.group(2).strip()
+                            line_analyses[line_num] = analysis_text
+
+                    # Fallback: if nothing parsed, dump Claude's raw output so
+                    # the format mismatch is visible instead of silently lost.
+                    if not line_analyses:
+                        f.write("**Unparsed Claude response (no `Line N:` matches found):**\n\n")
+                        f.write("```\n")
+                        f.write(raw_analysis)
+                        f.write("\n```\n\n")
+
+                    # Write raw paragraph text first, then any analyses at the
+                    # end of the block — so multi-line paragraphs (e.g. a
+                    # citation followed by a \begin{itemize}...\end{itemize})
+                    # don't get an annotation inserted between source lines.
+                    for paragraph in result['paragraphs']:
+                        paragraph_lines = paragraph.split('\n')
+                        matched = []
+
                         for para_line in paragraph_lines:
-                            if para_line.strip():
-                                # Format the line: italic text with bold attribution units
-                                formatted_line = para_line
-                                # Replace -> text <- with **text** (bold) while keeping the rest italic
-                                formatted_line = re.sub(r'->(.*?)<-', r'**\1**', formatted_line)
-                                # Make the entire line italic
-                                formatted_line = f"*{formatted_line}*"
-                                
-                                f.write(f"{formatted_line}\n")
-                                
-                                # Extract line number and add analysis
-                                line_match = re.match(r'Line (\d+):', para_line)
-                                if line_match:
-                                    line_num = int(line_match.group(1))
-                                    if line_num in line_analyses:
-                                        f.write(f"  {line_analyses[line_num]}\n")
-                                f.write("\n")
+                            if not para_line.strip():
+                                continue
+                            f.write(f"*{para_line}*\n\n")
+                            line_match = re.match(r'Line (\d+):', para_line)
+                            if line_match:
+                                line_num = int(line_match.group(1))
+                                if line_num in line_analyses:
+                                    matched.append((line_num, line_analyses[line_num]))
+
+                        for line_num, analysis_text in matched:
+                            f.write(f"  {analysis_text}\n\n")
                         f.write("\n")
-                
+
                 f.write("---\n\n")
                 f.flush()
-                
+
         except Exception as e:
             raise Exception(f"Error writing analysis: {e}")
 
@@ -580,10 +648,10 @@ class AnalysisWriter:
 
 class CitationInventoryManager:
     """Main application class that orchestrates the citation verification process."""
-    
+
     def __init__(self):
         self.config = Config()
-    
+
     def generate_inventory(self):
         """Generate citation inventory from LaTeX and BibTeX files."""
         # Normalize all file paths
@@ -591,7 +659,7 @@ class CitationInventoryManager:
         output_file = FileUtils.normalize_path(self.config.OUTPUT_FILE)
         bib_file = FileUtils.normalize_path(self.config.REFERENCES_BIB_FILE)
 
-        print("=== Citation Verifier Enhanced ===")
+        print("=== Citation Verifier Enhanced (single-call) ===")
 
         # Step 1: Parse references.bib for all citation metadata
         print("\n1. Parsing references.bib...")
@@ -640,14 +708,14 @@ class CitationInventoryManager:
 
         # Step 4: Print summary
         self._print_summary(citation_metadata, citation_inventory)
-    
+
     def run_verification(self):
         """Run verification process on citation inventory."""
         inventory_file = FileUtils.normalize_path(self.config.OUTPUT_FILE)
         analysis_file = FileUtils.normalize_path(self.config.ANALYSIS_FILE)
         bib_file = FileUtils.normalize_path(self.config.REFERENCES_BIB_FILE)
 
-        print("=== Citation Verification Process ===")
+        print("=== Citation Verification Process (single-call) ===")
 
         # Parse citation metadata from .bib to get file paths
         print(f"1. Loading citation metadata from {bib_file}...")
@@ -717,7 +785,7 @@ class CitationInventoryManager:
                 print(f"   ❌ Error writing analysis: {e}")
 
         print(f"\n3. Processing complete! Results saved to {analysis_file}")
-    
+
     def _print_summary(self, citation_metadata, citation_inventory):
         """Print summary statistics."""
         print("\n=== Summary ===")

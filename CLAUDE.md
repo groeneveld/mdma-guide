@@ -11,11 +11,6 @@ LaTeX-based academic book project for MDMA-assisted psychotherapy manual with au
 - `./clear.sh` - Clean all build artifacts (latexmk -C, biber cache, temp/, generated files). Used when ./build.sh fails for unclear reasons.
 - If build fails: `./clear.sh && ./build.sh`
 
-**Alternative Formats:**
-- `./epub.sh` - Generate EPUB3 (epub/expand_refs.py → pandoc with Nature CSL style)
-- `./md.sh` - Extract markdown summary between BEGIN_PLAIN_SUMMARY/END_PLAIN_SUMMARY markers (converts \mdcite to \citep, uses APA CSL)
-- `cd wiki && ./wiki.sh <input>.tex` - Convert to MediaWiki format (pre-wiki.py → pandoc → to-wiki-refs.py with CS1 citations)
-
 ## Files & Directories
 
 **Primary Documents:**
