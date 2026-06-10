@@ -492,6 +492,20 @@ class RefExpander:
             content,
         )
 
+        # Flatten \makecell{...} for Pandoc. Pandoc doesn't understand makecell,
+        # so the \\ line break inside the cell is parsed as a table-row break,
+        # scrambling multi-line headers into garbled extra rows. Drop the wrapper
+        # and turn the internal \\ into a space. (The PDF build uses paper.tex
+        # directly, so its stacked headers are unaffected.)
+        def flatten_makecell(match):
+            inner = re.sub(r'\\\\', ' ', match.group(1))
+            return re.sub(r'\s+', ' ', inner).strip()
+        content = re.sub(
+            r'\\makecell\{((?:[^{}]|\{[^{}]*\})*)\}',
+            flatten_makecell,
+            content,
+        )
+
         # Write output
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(content)
