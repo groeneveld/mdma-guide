@@ -73,7 +73,7 @@ pandoc \
     --lua-filter epub/strip-longtable-continuation.lua \
     --css=temp/html.css \
     --resource-path=. \
-    -o html/index.html \
+    -o index.html \
     temp/paper_expanded.tex
 
 # MD
