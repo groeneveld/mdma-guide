@@ -4196,3 +4196,13 @@ Explicit reconsolidation practices like MDMA therapy are not always necessary. S
  The improvements persisted when the data was reanalyzed by an independent, blinded programmer.
 
  Certain health conditions also affect half-lives.
+
+ ~\mdcite{højlundGRADE}.\footnote{\textcite{højlundGRADE} downgrades the overall (inert placebo plus active placebo studies) GRADE score from moderate to low because GRADE suggests that mixing study types in one analysis introduces uncertainty. I think this is an overly rigid application of GRADE considering that the inert and active placebo studies had similar effect sizes. Therefore, I use their score for the inert placebo studies.}
+
+ , which is congruent with the finding from \textcite{halpernHPPD} that HPPD improves as the associated anxiety and dissociation are treated.
+
+ \footnote{\textcite{malcolmER} further discusses these criteria, but the author lists a lower temperature threshold in this document for unexplained reasons. The 100\,°F threshold of danger is implausibly low; a moderate dose of MDMA alone can raise body temperature that high, and it is not dangerous~\cite{liechtiTemperature}.}
+
+     \item Some MDMA therapy researchers are MDMA evangelists~\cite{jylkka2025researcherExperiences}.
+
+ Some carry out structured and empirically validated approaches and work under the supervision and organizational support of fully licensed practitioners, as exemplified by the Healthy Gamer coaching programs~\cite{healthyGamerMethodology}.

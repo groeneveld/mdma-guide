@@ -47,15 +47,15 @@ most severe mental illness.
 
 There is moderate-quality clinical trial evidence that a limited course
 of MDMA therapy is highly effective for durably resolving PTSD, not just
-managing its symptoms (Højlund et al., 2025).[2] However, I think there
-are good theoretical reasons and ample anecdotal reports indicating that
-MDMA therapy can also resolve the psychological part of most mental
-illnesses and emotional issues. This includes CPTSD, non-secure
-attachment (which 41% of the US population has (Mickelson et al.,
-1997)), anxiety, addiction, alexithymia, obsessions, eating disorders,
-ADHD, depression, somatic symptom disorders, personality disorders,
-dissociation, panic, and more. Some instances of these issues may have
-biological components that MDMA therapy does not address.
+managing its symptoms. However, I think there are good theoretical
+reasons and ample anecdotal reports indicating that MDMA therapy can
+also resolve the psychological part of most mental illnesses and
+emotional issues. This includes CPTSD, non-secure attachment (which 41%
+of the US population has (Mickelson et al., 1997)), anxiety, addiction,
+alexithymia, obsessions, eating disorders, ADHD, depression, somatic
+symptom disorders, personality disorders, dissociation, panic, and more.
+Some instances of these issues may have biological components that MDMA
+therapy does not address.
 
 More broadly, MDMA therapy is a powerful tool for
 
@@ -392,17 +392,6 @@ systems, and the defense cascade*.
 
 
 
-Højlund, M., Kafali, H. Y., Kırmızı, B., Fusar-Poli, P., Correll, C. U.,
-Cortese, S., Sabé, M., Fiedorowicz, J., Saraf, G., Zein, J., Berk, M.,
-Husain, M. I., Rosenblat, J. D., Rubaiyat, R., Corace, K., Wong, S.,
-Hatcher, S., Kaluzienski, M., Yatham, L. N., … Solmi, M. (2025).
-Efficacy, all-cause discontinuation, and safety of serotonergic
-psychedelics and MDMA to treat mental disorders: A living systematic
-review with meta-analysis. *European Neuropsychopharmacology*, *101*,
-41–55. <https://doi.org/10.1016/j.euroneuro.2025.09.011>
-
-
-
 Kozlowska, K., Walker, P., McLean, L., & Carrive, P. (2015). Fear and
 the defense cascade: Clinical implications and management. *Harvard
 Review of Psychiatry*, *23*(4), 263.
@@ -481,10 +470,3 @@ Psychological Science*, *16*(2), 225–246.
 fear, anger, other distressing emotions, avoidance, or opioid dampening
 are also present. This isn’t necessarily an issue; the process can still
 work well in these instances.
-
-[2] Højlund et al. (2025) downgrades the overall (inert placebo plus
-active placebo studies) GRADE score from moderate to low because GRADE
-suggests that mixing study types in one analysis introduces uncertainty.
-I think this is an overly rigid application of GRADE considering that
-the inert and active placebo studies had similar effect sizes.
-Therefore, I use their score for the inert placebo studies.

@@ -13,7 +13,7 @@ citations in LaTeX documents. This script provides two main functions:
 
 FEATURES:
 ---------
-• Scans LaTeX files for \cite{} and \textcite{} patterns
+• Scans LaTeX files for \\cite{} and \\textcite{} patterns
 • Reads file paths directly from references.bib file field
 • Generates structured citation inventory with file availability status
 • AI-powered validation of citation accuracy using Claude Code
@@ -31,10 +31,10 @@ REQUIREMENTS:
 USAGE:
 ------
 Basic citation inventory generation:
-    python3 citation_verifier_single.py
+    python3 citation_verifier.py
 
 Citation validation (requires Claude Code):
-    python3 citation_verifier_single.py -verify
+    python3 citation_verifier.py -verify
 
 The script will:
 1. Parse your references.bib file for citation keys and file paths
@@ -360,8 +360,44 @@ class OutputFormatter:
 # CITATION VERIFICATION
 # =============================================================================
 
+class UsageLimitError(Exception):
+    """Raised when `claude -p` reports it is out of usage/tokens.
+
+    This is a terminal condition for the run: retrying or moving on to the
+    next entry won't help until the limit resets, so it propagates all the
+    way up to stop the verification process cleanly.
+    """
+
+
 class CitationVerifier:
     """Handles AI-powered citation verification using Claude Code."""
+
+    # Regex patterns (matched case-insensitively against claude's
+    # stdout+stderr) that indicate the run is out of tokens/usage and should
+    # stop entirely rather than retry. Claude Code (v2.x) does NOT expose a
+    # reliable exit code or a JSON error field for this in `-p` text mode, so
+    # sniffing the documented error text is the only practical signal.
+    #
+    # These are deliberately specific to the *quota-exhausted* messages and
+    # must NOT match transient rate-limit/overload text — note the 429 message
+    # literally reads "...(not your usage limit)", so a bare "usage limit"
+    # substring would wrongly fire on it. Documented exhaustion strings:
+    #   subscription: "You've hit your session/weekly/Opus limit · resets ..."
+    #   API credits:  "Credit balance is too low"
+    USAGE_LIMIT_PATTERNS = (
+        re.compile(r"hit your .*\blimit\b", re.IGNORECASE),  # subscription quotas
+        re.compile(r"credit balance is too low", re.IGNORECASE),  # API credits
+    )
+
+    @staticmethod
+    def _is_usage_limit(*texts):
+        """Return True if any text indicates a usage/token limit was hit.
+
+        Matches only terminal quota-exhaustion messages, not transient
+        rate-limit (429) or overload (529) errors, which are retried instead.
+        """
+        haystack = ' '.join(t for t in texts if t)
+        return any(p.search(haystack) for p in CitationVerifier.USAGE_LIMIT_PATTERNS)
 
     @staticmethod
     def parse_citation_inventory(inventory_file):
@@ -405,6 +441,42 @@ class CitationVerifier:
         return entries
 
     @staticmethod
+    def remove_entry_from_inventory(inventory_file, raw_line):
+        """Remove a successfully-analyzed entry's line from the inventory file.
+
+        Called after an entry's analysis has been written so the inventory
+        acts as a work queue: re-running -verify resumes where it left off
+        instead of re-processing completed entries. Rewrites the file with
+        the first matching line dropped.
+        """
+        inventory_file = FileUtils.normalize_path(inventory_file)
+
+        try:
+            with open(inventory_file, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+        except Exception as e:
+            print(f"     ⚠️  Could not read {inventory_file} to remove entry: {e}")
+            return
+
+        kept = []
+        removed = False
+        for line in lines:
+            if not removed and line.strip() == raw_line:
+                removed = True
+                continue
+            kept.append(line)
+
+        if not removed:
+            print(f"     ⚠️  Entry not found in inventory; nothing removed: {raw_line}")
+            return
+
+        try:
+            with open(inventory_file, 'w', encoding='utf-8') as f:
+                f.writelines(kept)
+        except Exception as e:
+            print(f"     ⚠️  Could not write {inventory_file} after removing entry: {e}")
+
+    @staticmethod
     def _resolve_file_path(filename, papers_dir):
         """Resolve filename to absolute path."""
         return FileUtils.normalize_path(filename, papers_dir)
@@ -429,7 +501,7 @@ class CitationVerifier:
 
     @staticmethod
     def call_claude_for_verification(file_paths_or_names, citation_keys, line_info, papers_dir=Config.PAPERS_DIR):
-        """Call Claude Code to verify citations using a single validation call.
+        """Call Claude Code to verify citations.
 
         Unlike the two-step variant in citation_verifier.py, this skips the
         attribution-unit marking step and feeds whole paragraphs directly to
@@ -476,7 +548,7 @@ class CitationVerifier:
         paragraphs_block = "\n\n".join(paragraph_texts)
 
         try:
-            print("     → Validating paragraphs against cited sources (single-call mode)...")
+            print("     → Validating paragraphs against cited sources ...")
 
             validation_prompt = f"""You are assessing whether claims in an academic paper are reasonably justified by their citations.
 
@@ -521,6 +593,15 @@ class CitationVerifier:
                         timeout=Config.CLAUDE_TIMEOUT_VALIDATION
                     )
 
+                    # Out of tokens/usage: terminal, so bail out of the whole
+                    # run instead of retrying or skipping to the next entry.
+                    # Check regardless of exit code since it's unreliable here.
+                    if CitationVerifier._is_usage_limit(result.stdout, result.stderr):
+                        raise UsageLimitError(
+                            f"claude reports usage/token limit reached. "
+                            f"stderr: {result.stderr.strip()} | stdout: {result.stdout.strip()}"
+                        )
+
                     if result.returncode != 0:
                         # Include stdout too: when claude fails partway it may
                         # have written diagnostics there, and stderr can carry
@@ -539,8 +620,9 @@ class CitationVerifier:
                         'analysis': analysis_output
                     }
 
-                except FileNotFoundError:
-                    # Not transient — don't waste retries on a missing CLI.
+                except (FileNotFoundError, UsageLimitError):
+                    # Not transient — don't waste retries on a missing CLI or
+                    # on an exhausted usage/token limit.
                     raise
                 except (subprocess.TimeoutExpired, Exception) as e:
                     last_error = "timed out" if isinstance(e, subprocess.TimeoutExpired) else str(e)
@@ -554,6 +636,11 @@ class CitationVerifier:
 
         except FileNotFoundError:
             raise Exception("'claude' command not found. Please install Claude Code CLI from https://claude.ai/code and ensure it's in your PATH.")
+        except UsageLimitError:
+            # Let the terminal usage-limit signal propagate untouched so the
+            # caller can stop the run rather than treating it as a per-entry
+            # verification failure.
+            raise
         except Exception as e:
             raise Exception(f"Claude verification failed: {str(e)}")
 
@@ -659,7 +746,7 @@ class CitationInventoryManager:
         output_file = FileUtils.normalize_path(self.config.OUTPUT_FILE)
         bib_file = FileUtils.normalize_path(self.config.REFERENCES_BIB_FILE)
 
-        print("=== Citation Verifier Enhanced (single-call) ===")
+        print("=== Citation Verifier Enhanced ===")
 
         # Step 1: Parse references.bib for all citation metadata
         print("\n1. Parsing references.bib...")
@@ -715,7 +802,7 @@ class CitationInventoryManager:
         analysis_file = FileUtils.normalize_path(self.config.ANALYSIS_FILE)
         bib_file = FileUtils.normalize_path(self.config.REFERENCES_BIB_FILE)
 
-        print("=== Citation Verification Process (single-call) ===")
+        print("=== Citation Verification Process ===")
 
         # Parse citation metadata from .bib to get file paths
         print(f"1. Loading citation metadata from {bib_file}...")
@@ -771,6 +858,14 @@ class CitationInventoryManager:
                     entry['citation_keys'],
                     line_info
                 )
+            except UsageLimitError as e:
+                # Out of tokens: stop here. This entry was not analyzed, so it
+                # stays in the inventory and the run can be resumed later.
+                print(f"   🛑 {e}")
+                print("\nStopping: Claude usage/token limit reached. "
+                      f"{len(entries) - i + 1} entr(ies) remain in the inventory; "
+                      "re-run -verify after the limit resets to continue.")
+                return
             except Exception as e:
                 print(f"   ❌ Verification failed: {str(e)}")
                 continue
@@ -783,6 +878,11 @@ class CitationInventoryManager:
                 print(f"   ✅ Analysis written to {analysis_file}")
             except Exception as e:
                 print(f"   ❌ Error writing analysis: {e}")
+                continue
+
+            # Only drop the entry from the inventory once its analysis is
+            # safely written, so an interrupted run can be resumed cleanly.
+            CitationVerifier.remove_entry_from_inventory(inventory_file, entry['raw_line'])
 
         print(f"\n3. Processing complete! Results saved to {analysis_file}")
 
