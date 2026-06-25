@@ -36,5 +36,5 @@ Open_MDMA-epub3
 papers
 temp
 auxillaryFiles/__pycache__
-claim_verifier
+latex_claim_verifier
 latex_evidence_assessor
