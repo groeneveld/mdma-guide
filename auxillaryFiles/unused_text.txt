@@ -4206,3 +4206,5 @@ Explicit reconsolidation practices like MDMA therapy are not always necessary. S
      \item Some MDMA therapy researchers are MDMA evangelists~\cite{jylkka2025researcherExperiences}.
 
  Some carry out structured and empirically validated approaches and work under the supervision and organizational support of fully licensed practitioners, as exemplified by the Healthy Gamer coaching programs~\cite{healthyGamerMethodology}.
+
+  A search of the FDA Adverse Event Reporting System by \textcite[p. 2]{makunts2023concomitant} revealed, \enquote{A total of 17 unique cases were reviewed in this study. There were no reports where MDMA was taken as a single agent and ischemic, hypertensive, or arrhythmic adverse events were reported. All cases included co-use with other drugs associated with cardiac function abnormalities.}

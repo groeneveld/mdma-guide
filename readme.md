@@ -13,14 +13,14 @@ transparency, and respect for autonomy.
 
 These ideas are grounded in a theoretical model based on frameworks of
 memory reconsolidation, predictive processing, complex system dynamics,
-and the defense cascade model of autonomic threat responses. I use this
-to explain how many mental illnesses work, how MDMA therapy works, why
-destabilization exists, and how to navigate the long-term healing
-process. I argue that MDMA therapy durably improves many mental
-illnesses and stuck emotional reactions and beliefs through the
-unlearning, or reconsolidation, of inaccurate mental models. It
-reconsolidates all stuck mental models that are activated—and which you
-stay present with—during the session.
+and the defense cascade model of autonomic nervous system threat
+responses. I use this to explain how many mental illnesses work, how
+MDMA therapy works, why destabilization exists, and how to navigate the
+long-term healing process. I argue that MDMA therapy durably improves
+many mental illnesses and stuck emotional reactions and beliefs through
+the unlearning, or reconsolidation, of inaccurate mental models. It
+reconsolidates most or all stuck mental models that are activated—and
+which you stay present with—during the session.
 
 Practical guidance contains evidence-based discussion of safety, session
 preparation, the session itself, troubleshooting, between-session
@@ -31,7 +31,7 @@ ethical reasoning. The tradeoffs between practitioner- versus
 self-guidance and instructions on how to find skilled, ethical, and
 well-matched practitioners are included.
 
-This is the first MDMA/psychedelic therapy manual to explain and justify
+This is the only MDMA/psychedelic therapy manual to explain and justify
 its recommendations based on a mechanistic theory of mental illness and
 healing while providing reasons for both confidence and skepticism of
 its claims.
@@ -190,7 +190,7 @@ for more information.
 ## The MDMA Therapy Session
 
 A standard, safe dose is 100 mg for body masses less than 60 kg (132 lb)
-and 125 mg for more (Baggott, 2015; Liechti & Schmid, 2023). People over
+and 125 mg for more (Baggott, 2015; Liechti & Schmid, 2026). People over
 75 years old also start with 100 mg. These doses can be adjusted later
 to fit individual circumstances. Low doses generally don’t work. Too
 high of a dose might be so blissful that you can’t engage with your
@@ -399,9 +399,9 @@ Review of Psychiatry*, *23*(4), 263.
 
 
 
-Liechti, M., & Schmid, Y. (2023). *Interactions with psychedelics and
+Liechti, M., & Schmid, Y. (2026). *Interactions with psychedelics and
 MDMA*.
-<https://saept.ch/wp-content/uploads/2024/01/Interactions-with-Psychedelics-and-MDMA-V4-6.11.23.pdf>
+<https://saept.ch/wp-content/uploads/2026/03/interactions-with-Psychedelics-and-MDMA-V8-23.03.2026.pdf>
 
 
 
