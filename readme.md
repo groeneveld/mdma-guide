@@ -371,8 +371,7 @@ change*. Taylor & Francis. <https://doi.org/10.4324/9781003231431>
 
 Friedwoman, L., Dean, H., Fine, C., Hall, W., Dennis, T. P., Lancelotta,
 R., Dreisbach, S., Berjot, C., Putnam, N., & Armeni, K. (2025).
-*Psychedelic safety flags*. Psychedelic Safety Flags Community
-Collaboration.
+*Psychedelic safety flags*.
 <https://docs.google.com/document/d/1lK2Rif24BAmJqqsLfUSkAVCO48IFNrGdysS2nI1EjZA>
 
 
@@ -452,9 +451,9 @@ evidence-based psychedelic therapies*.
 
 
 Toebes, B., Brink, W. van den, Gresnigt, F., Jonge, M. de, Kolthoff, E.,
-& Vermetten, E. (2024). *MDMA. Beyond the ecstasy*. State Commission on
+& Vermetten, E. (2024). *MDMA. Beyond the Ecstasy*. State Commission on
 MDMA.
-<https://www.government.nl/binaries/government/documenten/reports/2024/05/31/mdma-beyond-ecstasy/MDMA+Beyond+Ecstasy.pdf>
+<https://www.government.nl/site/binaries/site-content/collections/documents/2024/05/31/mdma-beyond-ecstasy/MDMA+Beyond+Ecstasy.pdf>
 
 
 

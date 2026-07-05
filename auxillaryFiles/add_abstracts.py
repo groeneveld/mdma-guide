@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Fill in missing `abstract = {...}` fields in references.bib.
 
-Runs in two passes, one local MLX model each (they don't fit in memory
-together, so they never load at the same time):
+Runs in two passes:
 
   Pass 1 (default) fills abstracts from two cheap sources:
     1. Crossref  - look the DOI up in the Crossref REST API and use the
@@ -13,12 +12,15 @@ together, so they never load at the same time):
        gemma-4-E4B-it-OptiQ-4bit) and let it pull the abstract out verbatim.
 
   Pass 2 (--gen) generates abstracts. For every entry that still lacks one but
-  has an attached file (.pdf or .txt), a larger local model (mlx-community/
-  gemma-4-12B-it-OptiQ-4bit) writes a fresh abstract from the document text.
-  Generated abstracts are prefixed with a marker so they're distinguishable
-  from real ones. Run this after pass 1.
+  has an attached file (.pdf or .txt), the file is handed straight to the Claude
+  CLI (`claude -p --model haiku`), which reads the document itself and writes a
+  fresh abstract. This runs remotely, so unlike the old local 12B model it uses
+  no local GPU/RAM and does no PDF extraction or OCR here. Generated abstracts
+  are prefixed with a marker so they're distinguishable from real ones. Run this
+  after pass 1.
 
-Everything is local; nothing leaves the machine. The old algorithmic
+Pass 1 is local. The pass-2 generator shells out to the Claude CLI, which reads
+the attached file and sends its contents to Anthropic. The old algorithmic
 ABSTRACT/Introduction marker scraping is gone; it was unreliable.
 
 The .bib is edited by targeted insertion (not full re-serialization), so the
@@ -39,6 +41,7 @@ import re
 import sys
 import json
 import pathlib
+import subprocess
 import unicodedata
 import urllib.request
 import urllib.parse
@@ -51,18 +54,16 @@ BIB = REPO / "references.bib"
 MISSES = HERE / "abstract_misses.txt"
 
 DRY_RUN = "--dry-run" in sys.argv
-# Two passes, one model each (they don't fit in memory together):
-#   default      -> Crossref + verbatim extraction (small model).
+# Two passes:
+#   default      -> Crossref + verbatim extraction (small local model).
 #   --gen        -> generate abstracts for any file-bearing entry still missing
-#                   one (large model). Run this after the default pass.
+#                   one, via the Claude CLI. Run this after the default pass.
 GEN_PASS = "--gen" in sys.argv
 LIMIT = None
 if "--limit" in sys.argv:
     LIMIT = int(sys.argv[sys.argv.index("--limit") + 1])
 
 MAX_PAGES = 2          # pages sent to the LLM for verbatim extraction
-GEN_MAX_PAGES = 50     # pages read when generating an abstract from scratch
-GEN_MAX_CHARS = 200000 # cap on text fed to the generator (~50 pages of prose)
 GEN_MARKER = "[AI-generated abstract] "   # prefix flagging generated abstracts
 MIN_WORDS = 20         # reject anything shorter as not-a-real-abstract
 MAILTO = "mgroeneveld@protonmail.ch"   # Crossref polite-pool contact
@@ -71,7 +72,7 @@ MAILTO = "mgroeneveld@protonmail.ch"   # Crossref polite-pool contact
 # `tesseract` binary; PyMuPDF shells out to it. Disable with --no-ocr.
 OCR = "--no-ocr" not in sys.argv
 OCR_MIN_CHARS = 200    # if the text layer yields fewer chars, OCR the pages
-OCR_DPI = 300
+OCR_DPI = 150
 # PyMuPDF needs TESSDATA_PREFIX pointing at the tessdata dir.
 for _td in (os.environ.get("TESSDATA_PREFIX"),
             "/opt/homebrew/share/tessdata", "/usr/local/share/tessdata",
@@ -80,17 +81,15 @@ for _td in (os.environ.get("TESSDATA_PREFIX"),
         os.environ["TESSDATA_PREFIX"] = _td
         break
 
-# Small model: pulls an existing abstract out of a PDF verbatim.
+# Pass 1 small local model: pulls an existing abstract out of a PDF verbatim.
 MLX_MODEL = "mlx-community/gemma-4-E4B-it-OptiQ-4bit"
-# Larger model: writes a fresh abstract for documents that don't have one.
-MLX_GEN_MODEL = "mlx-community/gemma-4-12B-it-OptiQ-4bit"
-# These models are reasoning models: they emit chain-of-thought first, so the
-# ceiling must cover both the reasoning and the answer. Generation reasons far
-# more than extraction (it drafts and self-critiques), so it gets a much higher
-# ceiling; too low and the answer is truncated before the model emits it.
-MLX_MAX_TOKENS = 2048        # verbatim extraction (short reasoning)
-MLX_GEN_MAX_TOKENS = 8192    # generation (long reasoning + ~200-word abstract)
+# Thinking is disabled (see mlx_run), so the ceiling only needs to cover the
+# answer itself. Kept generous so a long real abstract is never clipped.
+MLX_MAX_TOKENS = 2048        # verbatim extraction
 _MLX = {}              # model_name -> (model, tokenizer), loaded lazily
+
+# Pass 2 writes fresh abstracts via the Claude CLI instead of a local model.
+CLAUDE_GEN_MODEL = "haiku"
 
 PROMPT = (
     "You are given the raw text of the first two pages of an academic paper or "
@@ -103,13 +102,15 @@ PROMPT = (
 )
 
 GEN_PROMPT = (
-    "You are given the raw text of a document that has no "
-    "abstract of its own. Write a single-paragraph abstract of roughly 150-250 "
-    "words summarizing the document's purpose, methods, key findings, and "
+    "Read the document at the path given below; it likely has no abstract of "
+    "its own. Write a single-paragraph abstract of roughly 150-250 words "
+    "summarizing the document's purpose, methods, key findings, and "
     "conclusions, in the neutral style of a journal abstract. Base it only on "
-    "the text provided; do not invent results. Output the abstract as a single "
-    "line with no line breaks and nothing else - no preamble, no heading, no "
-    "quotation marks."
+    "the document's contents; do not invent results. Output the abstract as a "
+    "single line with no line breaks and nothing else - no preamble, no "
+    "heading, no quotation marks. If the document already contains something "
+    "like an abstract or summary, just output that text, shortened to "
+    "abstract-length if it's very long.\n\nDocument path: "
 )
 
 
@@ -144,9 +145,13 @@ def accept(text: str):
     return cleaned, None
 
 
-def pages_text(pdf_path: str, n=MAX_PAGES) -> str:
+def pages_text(pdf_path: str, n=MAX_PAGES):
+    """Return (text, total_pages, used_pages). used_pages < total_pages means the
+    PDF was longer than `n` and only the first `n` pages were read."""
     doc = fitz.open(pdf_path)
-    pages = [doc.load_page(i) for i in range(min(n, doc.page_count))]
+    total = doc.page_count
+    used = min(n, total)
+    pages = [doc.load_page(i) for i in range(used)]
     txt = "\n".join(p.get_text("text") for p in pages)
     # Image-only / scanned PDF: little or no embedded text -> OCR the page images
     # so the LLM has something to read.
@@ -162,7 +167,7 @@ def pages_text(pdf_path: str, n=MAX_PAGES) -> str:
         except Exception as e:
             print(f"    ocr-failed: {e}", flush=True)
     doc.close()
-    return txt
+    return txt, total, used
 
 
 # --- source 1: Crossref -----------------------------------------------------
@@ -228,7 +233,13 @@ def mlx_run(model_name: str, prompt: str, doc_text: str, max_tokens: int):
     messages = [{"role": "user",
                  "content": f"{prompt}\n\n--- BEGIN TEXT ---\n"
                             f"{doc_text}\n--- END TEXT ---"}]
-    prompt_ids = tok.apply_chat_template(messages, add_generation_prompt=True)
+    # Thinking off: these models otherwise burn the whole token budget on
+    # chain-of-thought and truncate before emitting the answer. gemma-4 OptiQ
+    # only exposes a binary enable_thinking flag (no graduated reasoning budget),
+    # and must have it set to False explicitly or the response is reasoning-only
+    # with an empty answer.
+    prompt_ids = tok.apply_chat_template(messages, add_generation_prompt=True,
+                                         enable_thinking=False)
     try:
         out = generate(model, tok, prompt=prompt_ids, max_tokens=max_tokens,
                        sampler=make_sampler(temp=0.0))
@@ -247,43 +258,40 @@ def mlx_extract_abstract(page_text: str):
     return accept(out)
 
 
-def mlx_generate_abstract(doc_text: str):
-    """Write a fresh abstract with the larger model, for documents that have
-    none of their own."""
-    out, err = mlx_run(MLX_GEN_MODEL, GEN_PROMPT, doc_text[:GEN_MAX_CHARS],
-                       MLX_GEN_MAX_TOKENS)
-    if err:
-        return None, err
+# Pass 1: verbatim extraction from a PDF (small local model).
+def extract_from_pdf(pdf_path: str):
+    """Pull an existing abstract out of a PDF verbatim. Returns (abstract, err)."""
+    try:
+        ptext, _total, _used = pages_text(pdf_path)
+    except Exception as e:
+        return None, f"pdf-open: {e}"
+    return mlx_extract_abstract(ptext)
+
+
+# Pass 2: hand the file to the Claude CLI and let it write a fresh abstract.
+def generate_from_file(file_path: str):
+    """Write an abstract for a .pdf or .txt document by feeding the file
+    straight to `claude -p --model haiku`, which reads it itself (no local PDF
+    extraction or OCR). Returns (abstract, err)."""
+    abs_path = str(pathlib.Path(file_path).resolve())
+    try:
+        proc = subprocess.run(
+            ["claude", "-p", GEN_PROMPT + abs_path,
+             "--model", CLAUDE_GEN_MODEL, "--allowedTools", "Read"],
+            capture_output=True, text=True, timeout=600)
+    except FileNotFoundError:
+        return None, "claude-cli-not-found"
+    except subprocess.TimeoutExpired:
+        return None, "claude-timeout"
+    if proc.returncode != 0:
+        return None, f"claude-error: {proc.stderr.strip()[:200] or proc.returncode}"
+    out = proc.stdout.strip()
     if not out or out.upper() == "NONE":
         return None, "gen-empty"
     cleaned, reason = accept(out)
     if cleaned is None:
         return None, reason
     return GEN_MARKER + cleaned, None
-
-
-# Pass 1: verbatim extraction from a PDF (small model).
-def extract_from_pdf(pdf_path: str):
-    """Pull an existing abstract out of a PDF verbatim. Returns (abstract, err)."""
-    try:
-        ptext = pages_text(pdf_path)
-    except Exception as e:
-        return None, f"pdf-open: {e}"
-    return mlx_extract_abstract(ptext)
-
-
-# Pass 2: generate a fresh abstract from a file's full text (large model).
-def generate_from_file(file_path: str):
-    """Write an abstract for a .pdf or .txt document. Returns (abstract, err)."""
-    try:
-        if file_path.lower().endswith(".txt"):
-            doc_text = pathlib.Path(file_path).read_text(
-                encoding="utf-8", errors="replace")
-        else:
-            doc_text = pages_text(file_path, n=GEN_MAX_PAGES)
-    except Exception as e:
-        return None, f"file-open: {e}"
-    return mlx_generate_abstract(doc_text)
 
 
 # --- iterate entries in the raw .bib ----------------------------------------
@@ -394,7 +402,7 @@ for i, (key, pos, doi, file_path) in enumerate(candidates, 1):
 MISSES.write_text("\n".join(miss_log) + "\n", encoding="utf-8")
 
 pass_name = "gen pass" if GEN_PASS else "extract pass"
-model = MLX_GEN_MODEL if GEN_PASS else MLX_MODEL
+model = CLAUDE_GEN_MODEL if GEN_PASS else MLX_MODEL
 print(f"\n{'[dry-run] ' if DRY_RUN else ''}done ({pass_name}, model: {model}).")
 if GEN_PASS:
     print(f"  from llm (gen)    : {stats['llm_gen']}")

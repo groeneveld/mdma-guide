@@ -14,7 +14,7 @@
 \usepackage[
   paperwidth=6in, paperheight=9in,
   textwidth=4.4in,
-  left=0.8in, right=1in,
+  left=0.8in, right=0.8in,
   top=0.9in, bottom=1.0in,
 ]{geometry}
 
@@ -72,27 +72,27 @@
 {\begin{itemize}[nosep, leftmargin=1em, itemsep=0pt, topsep=0pt]}
 {\end{itemize}}
 
-% \usepackage[backend=biber, style=apa, citestyle=numeric]{biblatex}
-\usepackage[backend=biber, style=apa]{biblatex}
+\usepackage[backend=biber, style=apa, citestyle=numeric]{biblatex}
+% \usepackage[backend=biber, style=apa]{biblatex}
 \let\cite\parencite
 
 % Redefine bibliography to include numbers like numeric style does
-% \DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
-% \setlength{\biblabelsep}{1em}
-% \defbibenvironment{bibliography}
-%   {\list
-%      {\printtext[labelnumberwidth]{%
-%         \printfield{labelprefix}%
-%         \printfield{labelnumber}}}
-%      {\setlength{\labelwidth}{\labelnumberwidth}%
-%       \setlength{\leftmargin}{\labelwidth}%
-%       \setlength{\labelsep}{\biblabelsep}%
-%       \addtolength{\leftmargin}{\labelsep}%
-%       \setlength{\itemsep}{\bibitemsep}%
-%       \setlength{\parsep}{\bibparsep}}%
-%    \renewcommand*{\makelabel}[1]{\hss##1}}
-%   {\endlist}
-%   {\item}
+\DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
+\setlength{\biblabelsep}{1em}
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{%
+        \printfield{labelprefix}%
+        \printfield{labelnumber}}}
+     {\setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \addtolength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}%
+   \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
 
 % Count citations
 \usepackage{totcount}
@@ -162,7 +162,7 @@
 % Some stuff that makes todo notes work for some reason
 \setlength{\marginparwidth}{2cm}
 \setlength{\marginparsep}{0.3cm}
-\usepackage[textsize=tiny,textwidth=2cm]{todonotes}
+\usepackage[textsize=tiny,textwidth=2cm,disable]{todonotes}
 
 \newcommand{\reconsolidationhours}{\the\numexpr (730 * ((\year - 2023) * 12 + (\month - 10)) / 12) / 100 * 100 \relax{}}
 
@@ -192,7 +192,7 @@
 \author{
     Mark Groeneveld
 }
-\date{Preprint Draft Version 5.9 \today. The content is largely complete and passed one round of editing. It needs to be reviewed and then edited again. Safety recommendations are still being refined.}
+\date{Preprint Draft Version 6.0 \today. The book needs to be reviewed and then substantively edited again; some sections are significantly less rigorous than desired. Safety recommendations are still being refined.}
 
 \maketitle
 
@@ -205,7 +205,7 @@
 
     \vspace{\baselineskip}
 
-    An ebook version more suited to reading on small screens is available \href{https://raw.githubusercontent.com/groeneveld/mdma-guide/refs/heads/main/Open%20MDMA.epub}{here}. An HTML version is available \href{https://groeneveld.github.io/mdma-guide/}{groeneveld.github.io/mdma-guide/}.
+    An ebook version more suited to reading on small screens is available \href{https://raw.githubusercontent.com/groeneveld/mdma-guide/refs/heads/main/Open%20MDMA.epub}{here}. An HTML version is available at \href{https://groeneveld.github.io/mdma-guide/}{groeneveld.github.io/mdma-guide/}.
 
     \vspace{\baselineskip}
 
@@ -249,7 +249,7 @@ The purpose of the book is reducing suffering. As part of that goal, several sec
 \frontsection{Changes from Version 5 to 6}
 There's now an ebook version at \href{https://github.com/groeneveld/mdma-guide/blob/main/Open%20MDMA.epub}{\nolinkurl{github.com/groeneveld/mdma-guide/blob/main/Open MDMA.epub}}. There a few minor formatting issues that I haven't figured out how to fix, including section headings in the Table of Contents not displaying at the right level and missing Appendix and Bibliography headings. There's also an html version at \href{https://groeneveld.github.io/mdma-guide/}{groeneveld.github.io/mdma-guide/}.
 
-Substantively edited / rewrote almost everything for clarity, logical flow, and rigor. Also fixed almost all the grammar and spelling issues. Added the Feeling Like You are Going Crazy troubleshooting subsection. Added Alternatives to MDMA. Removed Our Pitch because it didn't fit in well and was redundant. Removed Psychoeducation and Self Determination Theory because they were also redundant. Removed Making Sense of the Experience and distributed its content to Precautions and Uncertain Memory. Reorganized \nameref{sectionManagement}. Shuffled a few other sections around. Condensed Making Positive Life Changes to a small subsection at the end of \nameref{sec:lifechanges}. Moved T.H. from an author to an acknowledged contributor since they're no longer a part of the project.
+Substantively edited almost everything for clarity, logical flow, and rigor. This meant rewriting about a third of the content. Also fixed almost all the grammar and spelling issues. Added the Feeling Like You are Going Crazy troubleshooting subsection. Added Alternatives to MDMA. Removed Our Pitch because it didn't fit in well and was redundant. Removed Psychoeducation and Self Determination Theory because they were also redundant. Removed Making Sense of the Experience and distributed its content to Precautions and Uncertain Memory. Reorganized \nameref{sectionManagement}. Shuffled a few other sections around. Condensed Making Positive Life Changes to a small subsection at the end of \nameref{sec:lifechanges}. Moved T.H. from an author to an acknowledged contributor since they're no longer a part of the project.
 
 \frontsection{Changes from Version 4 to 5}
 Removed the two Beyond Therapy sections and Organizing Community Care because they were overly influenced by my own stuck schemas. Added \nameref{ppHypotheses}, \nameref{bigPicture}, \nameref{attention}, the Sessions Become Less Effective Over Time troubleshooting subsection, Plain Language Summary, the Psychosis troubleshooting subsection, and the subsection Reasons to be Skeptical to \nameref{methodology}. Rewrote \nameref{psychogenic}, \nameref{frequency}, and the Safety section bullet point on psychosis. Split Epistemic Status into \nameref{sec:assumptions} and \nameref{howtoevaluate}. Shuffled around various sections into different chapters or renamed them. Bumped up the risk assessment of frequent higher-dose sessions due to \textcite{corayMemory}. Also made a lot of little changes here and there.
@@ -482,9 +482,9 @@ A limited course of MDMA therapy is generally well-tolerated, but there are dang
     \item Ideally, avoid SSRIs and SNRIs for 2\,months prior.
     \item Test your MDMA. The presence of some common adulterants can be checked with reagent test kits; \href{https://www.reddit.com/r/ReagentTesting/wiki/test\_kit\_suppliers}{\nolinkurl{/r/ReagentTesting/wiki/test\_kit\_suppliers}} maintains a list of suppliers. Laboratory testing is much better; \href{https://www.reddit.com/r/ReagentTesting/wiki/labs}{/r/ReagentTesting/wiki/labs} maintains a list of labs. It measures the amount of MDMA and all other ingredients.
     \item People with a personal history of mania should take care to sleep well before and after the session; a pre-supplied course of sleep aids can help with this. Also skip booster doses at first, then gradually increase the total dose on subsequent sessions if needed.
-    \item Only start MDMA therapy if you can do more therapy, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While a part of the healing process when managed well, it can require a lot of therapy to resolve, and it may not resolve on the timeline you want it to. Thus, having slack in your life is important for MDMA therapy.
+    \item Only start MDMA therapy if you have slack in your life and can do much more therapy, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While a part of the healing process when managed well, it can require a lot of therapy to resolve, and it may not resolve on the timeline you want it to.
     
-    People with secure attachment and no mental illness probably don't need to consider this limitation.
+    People with secure attachment and no mental illness might not need to consider this limitation.
     \item MDMA and therapy exhaustion can impair awareness and reaction times. Avoid driving and other risky activities on the same day as the session.
 \end{itemize}
 
@@ -1015,7 +1015,7 @@ In practice, reconsolidation is often sufficient to resolve many issues~\cite{ec
 
 See \prosecite{alexanderMountains} for more information. Also reference \prosecite{hayes2020complex}, the main citation for this section.
 
-\subsection*{The Limitations of Our Model and the Complex Systems Approach}
+\subsection*{The Limitations of My Model and the Complex Systems Approach}
 While complex systems dynamics qualitatively describes important parts of therapy and stuck schemas, it currently offers few detailed predictions~\cite{hayes2020complex}. Complex systems are difficult to model; the brain's architecture is unknown and might be significantly different for every individual, the architecture dynamically reorganizes all the time, and almost all the parameters of the model are extremely difficult or impossible to measure. Furthermore, the state space these attractors exist in isn't just a simple one- or two-dimensional landscape of valleys and hills that the \enquote{ball} of mental health rolls around in; it has as many dimensions as there are schemas, behaviors, and environmental elements. That number is essentially infinite. Even the number of practically significant dimensions in any particular case could easily be enough that it's frequently too complicated for any human to comprehend and possibly too complex for any computer to model, even with perfect information.
 
 It's unclear who will worsen, when they will worsen, and how long the worsening will last~\cite{hayes2020complex}. No one knows for sure what avoided, distressing material you may or may not uncover, or how reconsolidating certain schemas will cause complex nonlinear shifts in schema networks. It may also be the case that skilled therapists have developed useful heuristics for navigating the complex landscape, but I am not sure.
@@ -1048,9 +1048,9 @@ MDMA is often considered a risky substance due to its illegality, adulterants, a
 \begin{itemize}
     \item Test your MDMA.
     \item Ideally, avoid SSRIs and SNRIs for 2\,months prior.
-    \item Only start MDMA therapy if you can do more reconsolidation, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While a part of the healing process when managed well, it can require a lot of reconsolidation to resolve, and it may not resolve on the timeline you want it to. Thus, having slack in your life is important for MDMA therapy.
+    \item Only start MDMA therapy if you have slack in your life and can do much more therapy, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While a part of the healing process when managed well, it can require a lot of therapy to resolve, and it may not resolve on the timeline you want it to.
     
-    People with secure attachment and no mental illness probably don't need to consider this limitation.
+    People with secure attachment and no mental illness might not need to consider this limitation.
     \item MDMA and therapy exhaustion can impair awareness and reaction times. Avoid driving and other risky activities on the same day as the session.
     \item Don't drink more than 0.5\,L of water during the first six hours of the session unless you need to replace large amounts of sweat.
     \item People with a personal history of mania should take care to sleep well before and after the session; a pre-supplied course of sleep aids can help with this. Also skip booster doses at first, then gradually increase the total dose on subsequent sessions if needed.
@@ -1359,7 +1359,7 @@ Practitioners should be able to accurately identify each of the following condit
     
     Psychedelic-induced psychosis sometimes transitions into schizophrenia, but it's not known how often this happens in MDMA therapy and whether it really causes schizophrenia vs. just accelerating its onset in those who would have otherwise gotten it~\cite{sabeReconsidering}.
 
-    MDMA-induced psychosis is a risk for those with a predisposition, but some people with risk factors may still think it's worth trying. There are some precautions people with a history of psychosis should take if they try MDMA therapy. You could minimize the known risk factors of stress~\cite{winkelPsychosisStress}, cannabis~\cite{drugsPsychosis}, and abrupt withdrawal of antipsychotics~\cite{moncrieffAntiPsychotics}. Skipping the booster dose of MDMA should also help, assuming a dose-dependent risk.
+    MDMA-induced psychosis is a risk for those with a predisposition, but some people with risk factors may still think it's worth trying. There are some precautions people with a history of psychosis should take if they try MDMA therapy. You could minimize the known risk factors of stress~\cite{winkelPsychosisStress}, cannabis~\cite{drugsPsychosis}, and abrupt withdrawal of antipsychotics~\cite{moncrieffAntiPsychotics}. Skipping the booster dose of MDMA should also help if the risk is proportional to total dose, length of session, or quantity of reconsolidation.
     \item \textbf{Suicidal Ideation and Behavior:} MDMA therapy with high levels of support decreases suicidal ideation on average about as much as placebo with the same level of support~\cite{mitchellMDMAClinicalTrial,mitchellMDMAClinicalTrial2}. When interpreting these results, it is important to understand that average improvements can mask the possibility that a minority of individuals can get worse while the majority improve. Of course, this applies to the placebo group as much as the MDMA group. Suicidal ideation is part of the biopsychosocial complex system of mental health. The psycho/schema component seems particularly influential since suicidal ideation almost always involves accompanying schema-like beliefs and justifications. Suicidality might get worse for a period of time, like many other schemas during the reconsolidation process.
     \item \textbf{Addiction:}
     Three independent panels of drug-misuse experts assessed non-therapeutic MDMA, or drugs sold as MDMA, as having among the lowest risk of dependence and harm among 20 of the most popular illegal or harmful drugs~\cite{nuttDrugHarms,bonomoHarms,crossinHarms}. Alcohol and cannabis scored much worse. Significant withdrawal was also not found in one rodent study, even at an extreme dosing schedule~\cite{robledoDependence}. Some minor symptoms were noted, but the authors concluded that \enquote{chronic MDMA administration does not induce classical manifestations of physical dependence.} When MDMA is abused, it is associated with partying or avoidance of difficult feelings rather than therapeutic engagement~\cite{erowidAbuse}.
@@ -1378,7 +1378,7 @@ Practitioners should be able to accurately identify each of the following condit
 
     Unlike MDMA-induced psychosis, I couldn't find a single published case report of mania where MDMA was unambiguously involved in the recent past. I only found three plausible anecdotal reports of MDMA-induced mania on the Internet that didn't obviously involve major exacerbating factors (overdose, multi-drug abuse, etc.) that aren't present in therapeutic contexts~\cite{erowidMania1,erowidMania2,bluelightMania1}.\footnote{I searched for the terms \enquote{manic} and \enquote{mania} on reddit.com/r/mdma, reddit.com/r/mdmatherapy, erowid.org, and bluelight.org and read every result, or in the case of bluelight.org, read every search result snippet. There were a few additional reports on bluelight.org where people said that MDMA worsened their manic-depressive symptoms, but it wasn't clear that the manic symptoms in particular were worsened.} Two of those people reported pre-existing bipolar, and the third was unclear.
 
-    This scarcity of evidence suggests that mania is not a significant risk in MDMA therapy. However, there are some risk-reduction precautions that people with a history of mania could take if they try MDMA therapy. Adequate pre- and post-session sleep is critical given sleep's role in mania. MDMA should be taken early in the morning so that it's easier to sleep that night. It would also help to have a short course of sleep aids supplied in advance in case there are post-session sleep issues. High doses of caffeine might be avoided on the day of the session and continue until short-term side effects have dissipated~\cite{laraCaffeine}, though abrupt withdrawal would also increase risk. Skipping the booster dose of MDMA might also help, assuming a dose-dependent risk.
+    This scarcity of evidence suggests that mania is not a significant risk in MDMA therapy. However, there are some risk-reduction precautions that people with a history of mania could take if they try MDMA therapy. Adequate pre- and post-session sleep is critical given sleep's role in mania. MDMA should be taken early in the morning so that it's easier to sleep that night. It would also help to have a short course of sleep aids supplied in advance in case there are post-session sleep issues. High doses of caffeine might be avoided on the day of the session and continue until short-term side effects have dissipated~\cite{laraCaffeine}, though abrupt withdrawal would also increase risk. Skipping the booster dose of MDMA might also help if the risk is proportional to total dose, length of session, or quantity of reconsolidation.
 \end{itemize}
 
 \section{When to Seek Emergency Care}
@@ -1446,7 +1446,7 @@ It may be especially productive to schedule sessions when you have a few hours o
 \caption{Example decision matrix for when to schedule MDMA therapy sessions, based on available time and session cost. This represents my informed thoughts and is not based on any rigorous research process. Individuals will need to consider other factors as well.}
 \label{sessionDecision}
 \centering
-\begin{tabular}{|p{2.7cm}|p{6.15cm}|p{6.15cm}|}
+\begin{tabular}{|p{2.1cm}|p{4.5cm}|p{4.5cm}|}
     \hline
     & \centering\textbf{Low Session Cost} & \centering\textbf{High Session Cost} \tabularnewline
     \hline
