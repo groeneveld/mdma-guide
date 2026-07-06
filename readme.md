@@ -330,15 +330,15 @@ contraindications, side effects, and psychological risks:
   help with this. Also skip booster doses at first, then gradually
   increase the total dose on subsequent sessions if needed.
 
-- Only start MDMA therapy if you can do more therapy, MDMA-facilitated
-  or otherwise, in the near future. On rare occasions, post-session
-  symptom exacerbation can be severe. While a part of the healing
-  process when managed well, it can require a lot of therapy to resolve,
-  and it may not resolve on the timeline you want it to. Thus, having
-  slack in your life is important for MDMA therapy.
+- Only start MDMA therapy if you have slack in your life and can do much
+  more therapy, MDMA-facilitated or otherwise, in the near future. On
+  rare occasions, post-session symptom exacerbation can be severe. While
+  a part of the healing process when managed well, it can require a lot
+  of therapy to resolve, and it may not resolve on the timeline you want
+  it to.
 
-  People with secure attachment and no mental illness probably don’t
-  need to consider this limitation.
+  People with secure attachment and no mental illness might not need to
+  consider this limitation.
 
 - MDMA and therapy exhaustion can impair awareness and reaction times.
   Avoid driving and other risky activities on the same day as the

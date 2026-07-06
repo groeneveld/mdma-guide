@@ -4208,3 +4208,11 @@ Explicit reconsolidation practices like MDMA therapy are not always necessary. S
  Some carry out structured and empirically validated approaches and work under the supervision and organizational support of fully licensed practitioners, as exemplified by the Healthy Gamer coaching programs~\cite{healthyGamerMethodology}.
 
   A search of the FDA Adverse Event Reporting System by \textcite[p. 2]{makunts2023concomitant} revealed, \enquote{A total of 17 unique cases were reviewed in this study. There were no reports where MDMA was taken as a single agent and ischemic, hypertensive, or arrhythmic adverse events were reported. All cases included co-use with other drugs associated with cardiac function abnormalities.}
+
+ The core ideas of the book are likely solid; however, I have probably made some errors in extrapolating those core ideas into the framework I use. Some of my citations will also inevitably not reproduce in further experiments. Reproducible science is difficult to do or identify.
+
+    \item The field of therapy is notoriously pervaded with pseudoscience and illness myths~\cite{luckPolyvagal}; I may have inadvertently included some despite my best efforts to keep it out. Likewise for therapy's tendency to focus on meaning and interpretation at the expense of mechanistic causation.
+
+My deepest desire is that this book aids the well-being and cooperation of all beings through the unlearning of stuck reactions and beliefs. However, I have wide and deep-seated stuck beliefs (severely disorganized attachment in my case) and have certainly projected them into this book in unhelpful ways despite attempting to avoid that. I've tried to be critical of the things I'm enthusiastic about, but inevitably my biases have pushed me to be overly critical of some things and credulous about others.
+
+In addition, the scope of this book presents some issues. I have thorough experience with some aspects of MDMA therapy and have excellent broad knowledge of the research but am not an expert on any of the individual theoretical frameworks I use. Hence, while I have done my best to critically evaluate the evidence and references, I certainly have missed some nuances only visible to certain subject-matter experts.
