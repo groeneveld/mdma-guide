@@ -96,14 +96,14 @@ is disagreement over whether existing clinical trials were sufficient to
 approve MDMA for medical use (Schenberg, 2024). The US FDA thought the
 existing evidence was insufficient and requested one more
 trial (Psychedelic Alpha, 2025), but the Dutch State Commission on MDMA
-determined that “Scientific research has shown that MDMA-AT \[assisted
-therapy\] is an effective and safe treatment method. … The State
-Commission deems it desirable that this treatment method becomes
-available in the Netherlands as soon as possible.” (Toebes et al., 2024,
-p. 203). Possession of MDMA is a felony in many jurisdictions, though it
-often isn’t an enforcement priority. The vast majority of MDMA therapy
-in 2026 is done underground, though there are clinical trials and
-special access programs in certain countries.
+determined that “Scientific research has shown that MDMA therapy is an
+effective and safe treatment method. … The State Commission deems it
+desirable that this treatment method becomes available in the
+Netherlands as soon as possible.” (Toebes et al., 2024, p. 203).
+Possession of MDMA is a felony in many jurisdictions, though it often
+isn’t an enforcement priority. The vast majority of MDMA therapy in 2026
+is done underground, though there are clinical trials and special access
+programs in certain countries.
 
 ## How Trauma and Insecurity Affect Us
 
@@ -176,9 +176,9 @@ assistance; meditation and prayer; reading for self education; physical
 exercise; journaling; breathing strategies; embodied contemplative
 practices; time in nature; and acceptance and surrender.
 
-MDMA-assisted therapy tends to speed up both healing and symptom
-worsening. Additional MDMA sessions and regular therapy often help work
-through the latter.
+MDMA therapy tends to speed up both healing and symptom worsening.
+Additional MDMA sessions and regular therapy often help work through the
+latter.
 
 Symptom worsening is sometimes caused by experiences that feel like
 remembering apparently forgotten memories. Unfortunately, there is no
@@ -215,8 +215,7 @@ For dissociation, Razvi & Elfrink (2020, p. 14) recommends “bringing
 blankness, flat affect, nothingness, boredom, sleepiness, or sobriety
 \[the subjective feelings of dissociation\] into focus.” Then, “it might
 take staying with it from minutes to a full day-long session, but it
-will crack.” A skilled, ethical, and well-matched practitioner may also
-be especially helpful here.
+will crack.” A skilled practitioner may also be especially helpful here.
 
 People often need the whole following day to recover, and aftereffects
 may last a few days. It’s also important to spend significant amounts of
@@ -242,11 +241,11 @@ a reasonable minimum.
 
 ## Working with a Mental Health Practitioner
 
-It’s helpful to start MDMA therapy with a skilled, ethical, and
-well-matched practitioner, at least to learn the basics. Some people
-have success starting off solo, but it can be more difficult and
-riskier. A trip sitter who is trusted, experienced, empathetic, and
-emotionally non-reactive can also be helpful.
+It’s helpful to start MDMA therapy with a practitioner, at least to
+learn the basics. Some people have success starting off solo, but it can
+be more difficult and riskier. A trip sitter who is trusted,
+experienced, empathetic, and emotionally non-reactive can also be
+helpful.
 
 There are a few important factors when working with a guide, therapist,
 or other mental health practitioner:
@@ -283,7 +282,7 @@ contraindications, side effects, and psychological risks:
 
 - ritonavir, cobicistat, or HIV drugs that contain them
 
-- over 240 sessions
+- over 200 lifetime doses, not including boosters
 
 - hyperthyroidism that isn’t well managed and mild, as assessed by a
   doctor (Mitchell et al., 2023)
@@ -311,7 +310,7 @@ contraindications, side effects, and psychological risks:
 
 ### Take Precaution:
 
-- Don’t drink more than 0.5 L of water during the six hours of the
+- Don’t drink more than 0.5 L of water during the first six hours of the
   session unless you need to replace large amounts of sweat (Groeneveld,
   2026).
 
@@ -466,6 +465,6 @@ Psychological Science*, *16*(2), 225–246.
 
 
 [1] Positive emotions may not be noticeable during the session if strong
-fear, anger, other distressing emotions, avoidance, or opioid dampening
-are also present. This isn’t necessarily an issue; the process can still
-work well in these instances.
+fear, anger, other distressing emotions or dissociation are also
+present. This isn’t necessarily an issue; the process can still work
+well in these instances.

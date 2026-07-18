@@ -4,6 +4,14 @@ LaTeX-based academic book project for MDMA-assisted psychotherapy manual with au
 
 **Important:** If you need to build the project, ask me to do it. Build output is verbose and uses unnecessary tokens.
 
+## Second-Round Editing (context-aware)
+
+The book is being edited with whole-book awareness without loading the full text each time. Two digests live in `editing/`:
+- `editing/book-map.md` — per-section summary + global voice/style/theme/terminology notes. Load this instead of the whole book.
+- `editing/cross-cutting-issues.md` — whole-book problems (duplication, contradictions, terminology drift, ordering) to fix before section-level polish.
+
+**When editing any section of `paper.tex`:** first load `editing/book-map.md` (and the relevant `cross-cutting-issues.md` entries). **After editing a section, update that section's entry in `editing/book-map.md`** (a line or two: revised argument, any claims/numbers that changed, added/removed cross-references) so later edits are made against the current book, not the original. If an edit resolves or creates a cross-cutting issue, update `cross-cutting-issues.md` too.
+
 ## Build Commands
 
 **Standard Workflow:**

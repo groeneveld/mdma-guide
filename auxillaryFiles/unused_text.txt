@@ -4216,3 +4216,19 @@ Explicit reconsolidation practices like MDMA therapy are not always necessary. S
 My deepest desire is that this book aids the well-being and cooperation of all beings through the unlearning of stuck reactions and beliefs. However, I have wide and deep-seated stuck beliefs (severely disorganized attachment in my case) and have certainly projected them into this book in unhelpful ways despite attempting to avoid that. I've tried to be critical of the things I'm enthusiastic about, but inevitably my biases have pushed me to be overly critical of some things and credulous about others.
 
 In addition, the scope of this book presents some issues. I have thorough experience with some aspects of MDMA therapy and have excellent broad knowledge of the research but am not an expert on any of the individual theoretical frameworks I use. Hence, while I have done my best to critically evaluate the evidence and references, I certainly have missed some nuances only visible to certain subject-matter experts.
+
+    \item Similarly, from a complex systems approach, it's conceivable that certain complex stuck schema networks may reconstitute certain components over time after those components are partially or fully reconsolidated. High intensities of reconsolidation over short-to-long periods of time might be needed to reconsolidate multiple reinforcing components and break free of these traps.
+
+
+
+\textit{M.G.'s note:} Clients sometimes feel that therapy helped them remember traumatic events they weren't previously aware of~\cite{psychedelicrecoveredmemory}. These may or may not be accurate recollections of historic events, and I am not aware of any reliable method of distinguishing a memory's accuracy other than independent corroboration. To avoid incorrect interpretation of perceptions during the session, practitioners should categorically avoid suggesting a memory is either true or false and shouldn't even suggest that a specific individual has avoided memories they can recover~\cite{otgaarMemory}.\footnote{People who retract claims of recovering accurate memories of abuse overwhelmingly blame their therapist for improperly influencing them~\cite{otgaarMemory}.}
+
+
+
+\newglossaryentry{connectogen}{
+  name={Connectogen},
+  description={A term for MDMA's class of drug, designed to unify the competing terms \textit{entactogen} (\enquote{producing a touching within}) and \textit{empathogen} (\enquote{empathy generating})~\cite{stockerConnectogen}. MDMA facilitates profound connection to self, body, senses, and others. The ego and sense of self are maintained and hallucinations are minimal, unlike with the classic psychedelics or hallucinogens.
+}
+  %defined_in={sec:introduction},
+  %stem={Connectogen}
+}
