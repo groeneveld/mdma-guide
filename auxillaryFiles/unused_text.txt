@@ -4232,3 +4232,10 @@ In addition, the scope of this book presents some issues. I have thorough experi
   %defined_in={sec:introduction},
   %stem={Connectogen}
 }
+
+ This alignment is a predictor of whether you will see challenging experiences as positive or negative~\cite{lindahl2017varieties}.
+
+ \writtenByDay{If your existentially disruptive experience reflects your most honest perceptions of yourself and the world, I suspect you will not be able to fully return to your prior state.} Deliberate attention to the insight and its implications in daily life will facilitate high levels of integration of the new insight, whereas avoidance will tend to keep the insight poorly integrated.
+
+    \item T.H. thinks that \prosecite{kennedy2022good} is an excellent guide to raising mentally healthy children. It may also be helpful for thinking about your childhood.
+

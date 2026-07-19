@@ -135,9 +135,6 @@
 \newcommand{\mdcite}[1]{}
 \newcommand{\mdonly}[1]{}
 
-% Just function-less tracking of who wrote what
-\newcommand{\writtenByDay}[1]{#1}
-
 % A helper command to simplify the How to Read This Book section
 \newcommand{\combinedref}[1]{\ref{#1} (\nameref*{#1})}
 
@@ -247,12 +244,12 @@ The purpose of the book is reducing suffering. As part of that goal, several sec
 \newpage
 
 \frontsection{Changes from Version 6 to 7}
-Removed T.H.'s How to Find a Practitioner section and replaced it with a few paragraphs that link out to equivalent information written by other people.
+Removed the rest of Thomas Harper's content. I replaced their major section, How to Find a Practitioner, with a few paragraphs that link out to equivalent information written by other people.
 
 \frontsection{Changes from Version 5 to 6}
 There's now an ebook version at \href{https://github.com/groeneveld/mdma-guide/raw/refs/heads/main/Open%20MDMA.epub}{\nolinkurl{https://github.com/groeneveld/mdma-guide/raw/refs/heads/main/Open 20MDMA.epub}}. There a few minor formatting issues that I haven't figured out how to fix, including section headings in the Table of Contents not displaying at the right level and missing Appendix and Bibliography headings. There's also an html version at \href{https://groeneveld.github.io/mdma-guide/}{groeneveld.github.io/mdma-guide/}.
 
-Substantively edited almost everything for clarity, logical flow, and rigor. This meant rewriting about a third of the content. Also fixed almost all the grammar and spelling issues. Added the Feeling Like You are Going Crazy troubleshooting subsection. Added Alternatives to MDMA. Removed Our Pitch because it didn't fit in well and was redundant. Removed Psychoeducation and Self Determination Theory because they were also redundant. Removed Making Sense of the Experience and distributed its content to Precautions and Uncertain Memory. Reorganized \nameref{sectionManagement}. Shuffled a few other sections around. Condensed Making Positive Life Changes to a small subsection at the end of \nameref{sec:lifechanges}. Moved T.H. from an author to an acknowledged contributor since they're no longer a part of the project.
+Substantively edited almost everything for clarity, logical flow, and rigor. This meant rewriting about a third of the content. Also fixed almost all the grammar and spelling issues. Added the Feeling Like You are Going Crazy troubleshooting subsection. Added Alternatives to MDMA. Removed Our Pitch because it didn't fit in well and was redundant. Removed Psychoeducation and Self Determination Theory because they were also redundant. Removed Making Sense of the Experience and distributed its content to Precautions and Uncertain Memory. Reorganized \nameref{sectionManagement}. Shuffled a few other sections around. Condensed Making Positive Life Changes to a small subsection at the end of \nameref{sec:lifechanges}. Moved Thomas Harper from an author to an acknowledged contributor since they're no longer a part of the project.
 
 \frontsection{Changes from Version 4 to 5}
 Removed the two Beyond Therapy sections and Organizing Community Care because they were overly influenced by my own stuck schemas. Added \nameref{ppHypotheses}, \nameref{bigPicture}, \nameref{attention}, the Sessions Become Less Effective Over Time troubleshooting subsection, Plain Language Summary, the Psychosis troubleshooting subsection, and the subsection Reasons to be Skeptical to \nameref{methodology}. Rewrote \nameref{psychogenic}, \nameref{frequency}, and the Safety section bullet point on psychosis. Split Epistemic Status into \nameref{sec:assumptions} and \nameref{howtoevaluate}. Shuffled around various sections into different chapters or renamed them. Bumped up the risk assessment of frequent higher-dose sessions due to \textcite{corayMemory}. Also made a lot of little changes here and there.
@@ -308,13 +305,11 @@ The strength and novelty of this book lie in the synthesis of multiple theoretic
 
 I think my recursive approach produced a higher-quality and better-grounded book than if I worked from either theory or personal experience alone. Personal experience informed theory, which then informed interpretation of personal experience, which further informed theory, etc.
 
-Finally, I would like to thank Jessica Sojorne Libere for much MDMA therapy guidance; the scientists and therapists who developed this body of knowledge and practice; my partner for encouragement, support, and editing; \href{https://www.reddit.com/r/mdmatherapy}{r/mdmatherapy} for numerous case examples and feedback; the researchers who answered my questions; one primary care physician for feedback on \cref{sec:safety}; Claude for a few things listed below, and several users on \href{www.dharmaoverground.org}{dharmaoverground.org} for feedback on \cref{selfinsight}. Thomas Harper (T.H.) also provided major contributions.
+Finally, I would like to thank Jessica Sojorne Libere for much MDMA therapy guidance; the scientists and therapists who developed this body of knowledge and practice; my partner for encouragement, support, and editing; \href{https://www.reddit.com/r/mdmatherapy}{r/mdmatherapy} for numerous case examples and feedback; the researchers who answered my questions; one primary care physician for feedback on \cref{sec:safety}; Claude for a few things listed below, and several users on \href{www.dharmaoverground.org}{dharmaoverground.org} for feedback on \cref{selfinsight}. Thomas Harper provided early feedback on many sections.
 
 May this work benefit all beings.
 
 Mark
-
-\subsubsection*{Project Contributions:} Thomas Harper (T.H.) wrote most of \nameref{navigating} and minor parts other sections. M.G. was responsible for everything else. M.G. copyedited all of T.H.'s parts. T.H. also provided early feedback on many of M.G.'s sections.
 
 \subsubsection*{AI Disclosure}
 I used Claude for
@@ -328,7 +323,7 @@ I used Claude for
     \item rewriting a list of simple clauses from one form to another (once, in \cref{mssProbes} where the AI use is noted)
     \item quantity estimation (once, in \cref{frequency}, where the AI use and a corresponding uncertainty disclaimer are prominently noted)
 \end{itemize}
-With the exception of \cref{mssProbes} and T.H.'s writing, I authored all content. In the occasional instances where I accepted Claude's rephrasing of an existing sentence or paragraph, I exercised complete editorial control and my original meaning remained intact. All AI responses were also verified against original sources and treated as one input among many---not as authoritative.
+With the exception of \cref{mssProbes}, I authored all content. In the occasional instances where I accepted Claude's rephrasing of an existing sentence or paragraph, I exercised complete editorial control and my original meaning remained intact. All AI responses were also verified against original sources and treated as one input among many---not as authoritative.
 
 \subsubsection*{Biases, Conflicts of Interest, and Background:}
 \claim{Attachments and Beliefs}{Disorganized attachment to MDMA therapy}
@@ -495,7 +490,7 @@ I am not implying that all psychiatric drugs are useless or that therapy doesn't
 
 \section{Methodology}
 \label{methodology}
-I wrote this book by synthesizing information from four categories of sources. First, papers, books, and blogs on the topic. Second, my own experience using MDMA therapy to treat my complex trauma. Third, T.H.'s personal experience with community mental health and professional experience as a therapist. Fourth, trip reports (largely from \href{https://www.reddit.com/r/mdmatherapy}{reddit.com/r/mdmatherapy}) and discussions with people who have done MDMA therapy, henceforth called anecdotal reports. There was a loop of personal experience and discussions informing theory, which then informed interpretation of personal experience, which then further informed theory, etc. This loop continued until there were no obvious disagreements.
+I wrote this book by synthesizing information from four categories of sources. First, papers, books, and blogs on the topic. Second, my own experience using MDMA therapy to treat my complex trauma. Third, trip reports (largely from \href{https://www.reddit.com/r/mdmatherapy}{reddit.com/r/mdmatherapy}) and discussions with people who have done MDMA therapy, henceforth called anecdotal reports. There was a loop of personal experience and discussions informing theory, which then informed interpretation of personal experience, which then further informed theory, etc. This loop continued until there were no obvious disagreements.
 
 Throughout the book, I always clearly distinguish between more established science and educated guesswork by marking opinions as \enquote{I think,} \enquote{I believe,} etc. Of course, I'm also making judgements about what is established science that others disagree with.
 
@@ -529,7 +524,7 @@ Any pharmaceutical or therapeutic intervention relies on a multitude of choices 
     \item The book was interdisciplinary from the start, allowing us to connect memory reconsolidation, the defense cascade, and complex systems, which I have not seen any other author formally integrate. I also drew on an especially wide diversity of evidence: memory reconsolidation, complex systems, defense cascade, predictive processing, clinical therapy practice, personal experience, and the MDMA therapy users community.
     \item My experience using MDMA therapy (\textasciitilde30 sessions) and memory reconsolidation (\textasciitilde\reconsolidationhours{}\,hours) for complex trauma grounds this work in a way that would be impossible using only theory or clinical experience.
     \item The model is based on independently well-supported, causal theories (memory reconsolidation, complex systems, and the defense cascade).
-    \item I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \textasciitilde1200 active hours. I (or T.H.) assessed each of the \total{citnum} citations.
+    \item I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \textasciitilde1200 active hours. I assessed each of the \total{citnum} citations.
     \item I have gotten positive feedback from a few MDMA/psychedelic therapy practitioners and people using the book for solo MDMA therapy.
     \item I used Claude Opus inside \href{https://github.com/groeneveld/latex_claim_verifier}{this} custom harness I made to double-check that my claims are supported by their citations. I ran this for almost every citation that I could easily download the text of, which was perhaps 80\% of them. Additionally, I used Claude Opus to double-check that entire sections follow from my primary, though not secondary, citations in \cref{efficacy,science,sec:dosing,frequency,interactions,grounding}.
 \end{itemize}
@@ -1703,17 +1698,6 @@ See \cref{mssProbes} for a list of prompts designed to activate many mental illn
 
 \end{longtable}
 
-\subsection*{Habit Mapping}
-\writtenByDay{
-If you hope to unlearn old habits or to reconnect to a project that you've been feeling too overwhelmed to engage with, habit mapping (see \prosecite{habitMapping}) can help. This consists of identifying behaviors you are hoping to adjust, identifying what triggers lead you to engage in those behaviors, and identifying the results after you engage in the behavior. For example, you might identify that you would like to adjust the habit of scrolling through social media on your phone for three to five hours every day as soon as you get off work.
-
-Identifying triggers might involve exploring: what are the feelings that precede your going online? What are the stories you tell yourself? What physical and social environment are you experiencing that supports this behavior? Are you triggered by loneliness, by a desire to be free of demands for a period of time, or by a feeling of boredom/desire for stimulation, or all of the above? What happens when you work the second half of your workday in a communal space vs. when you work alone? What happens when you lock the phone in the glove compartment of your car during your lunch break and don't revisit it until you've walked outside to the parking lot?
-
-The last stage of habit mapping involves checking in with yourself and taking time to feel \textit{all} the consequences of enacting the habit. You might feel stiff and sedentary, which feels bad in your body; you might find yourself feeling anxious or tired or lonelier than when you started scrolling, or that you get caught up in cycles of self-judgment or shame about the behavior. Maybe you feel frustrated and wish you had more time for other things. Or perhaps you feel some of these things and also feel delighted and inspired by the content you are consuming. The goal of habit mapping is to observe and record each habit as it plays out in your life and to open yourself to deeply understanding whether the choices you are making are the choices that are best for you. Sitting with what you feel an intense need to numb---and with the consequences you're willing to pay for that numbing---may prime you to face those feelings during the session.
-}
-
-To activate the relevant schemas during a session, you can repeat this activity or just read over the notes you made when you did it sober.
-
 \section{Social Schemas}
 \label{socialPrompts}
 Imagine, as vividly as possible, being a member of a different group of people. Then, imagine how you and your friends, family, coworkers, and community would react to you. Go toward any fear, disgust, or shame and stay with that feeling. Race, gender, disability, class, political affiliation, wealth, education, attractiveness, and religion are all good attributes to consider. Add any other categories relevant to your situation. Choosing the lowest status group for each category may activate the strongest stuck schemas.
@@ -2103,28 +2087,39 @@ See \cref{medicalSupport} for more information.
     \item You could be hitting therapy hangover sooner as you get more practiced at engaging with stuck schemas.
 \end{itemize}
 
+\subsection{Remembering Previously Forgotten Memories}
+\label{navigating}
+During MDMA therapy, you may feel you remembered traumatic events you weren't previously aware of~\cite{psychedelicrecoveredmemory}. These may or may not be accurate recollections of historical events, and I am not aware of any reliable method of distinguishing a memory's accuracy other than independent corroboration. To avoid incorrect interpretation of perceptions during the session, practitioners should categorically avoid suggesting a memory is either true or false and shouldn't even suggest that you have memories that you can recover~\cite{otgaarMemory}.\footnote{People who retract claims of recovering accurate memories of abuse overwhelmingly blame their therapist for improperly influencing them~\cite{otgaarMemory}.}
+
+Relatedly, stuck schemas not clearly related to specific remembered events often form in the period of childhood amnesia. While you may or may not eventually be able to understand where these schemas came from, they can be reconsolidated like any other stuck schema.
+
+Whether or not you can corroborate a memory, I suggest focusing on any fear, anger, sadness, etc. about the memory itself or its implications for your life. These feelings can be processed like any other stuck schema.
+
+I highly recommend \textcite{psychedelicrecoveredmemory} for a nuanced guide on psychedelics and remembering previously forgotten memories.
+
 \subsection{Insight into Selfhood, Existence, Reality, Suffering, or Spirituality}
 \label{selfinsight}
 \todo{Rewrite with mechanistic explanation?}
-Some experiences---particularly meditation, psychedelics, and MDMA---can facilitate a particular set of durable, uncommon, experiential shifts~\cite{ingramMDMA,ingram2018mastering}. Many contemplative traditions (traditionally religious groups, but increasingly secular) frame these shifts---especially unity with God or non-duality, impermanence, and unsatisfactoriness---as important, positive, and potentially destabilizing~\cite{ingram2018mastering}.\footnote{The fact that multiple traditions describe similar paths of contemplative development suggests that there is an overlapping set of underlying changes~\cite{ingram2018mastering}. This presumably consists of major changes to networks of schemas that model self, agency, permanence, consciousness, and how those all relate to perception and reality. Each tradition then interprets these changes within their own religious framework.} These traditions have established practices, largely different forms of meditation, for facilitating these shifts for those who want to walk that path and achieve contemplative attainments. People who inadvertently find themselves on that path face additional challenges since they have to figure out what's happening and how to deal with it.
+Some experiences---particularly meditation, psychedelics, and MDMA---can facilitate a particular set of durable, uncommon, experiential shifts~\cite{ingramMDMA,ingram2018mastering}. Many contemplative traditions (traditionally religious groups, but increasingly secular) frame these shifts---especially non-duality or unity with God, impermanence, and unsatisfactoriness---as important, positive, and potentially destabilizing~\cite{ingram2018mastering}.\footnote{The fact that multiple traditions describe similar paths of contemplative development suggests that there is an overlapping set of underlying changes~\cite{ingram2018mastering}. This presumably consists of major changes to networks of schemas that model self, agency, permanence, consciousness, and how those all relate to perception and reality. Each tradition then interprets this common set of changes through their existing religious beliefs.} These traditions have established practices, largely different forms of meditation, for facilitating these shifts for those who want to walk that path and achieve contemplative attainments. People who inadvertently find themselves on that path face additional challenges since they have to figure out what's happening and how to deal with it.
 
-Those traditions often frame some challenging experiences as temporary (when properly handled) but legitimate periods in the longer path of contemplative development. Some other challenging experiences may not be considered part of the process; \textcite{lindahlDifferential} discusses which are which. As \textcite[p. 25]{lindahl2017varieties} discusses, \enquote{what is categorized as \enquote{progress} versus \enquote{pathology} may differ across traditions, lineages, or even teachers.} \writtenByDay{If your existentially disruptive experience reflects your most honest perceptions of yourself and the world, I suspect you will not be able to fully return to your prior state.} Deliberate attention to the insight and its implications in daily life will facilitate high levels of integration of the new insight, whereas avoidance will tend to keep the insight poorly integrated. \writtenByDay{I also think that, as in healthy therapeutic relationships, your practice of integration should align with your goals, expectations, and autonomy.} This alignment is a predictor of whether you will see challenging experiences as positive or negative~\cite{lindahl2017varieties}.
+Those traditions often frame some challenging experiences as temporary (when properly handled) but legitimate periods in the longer path of contemplative development. Some other challenging experiences may not be considered part of the process; \textcite{lindahlDifferential} discusses which are which. As \textcite[p. 25]{lindahl2017varieties} discusses, \enquote{what is categorized as \enquote{progress} versus \enquote{pathology} may differ across traditions, lineages, or even teachers.}
 
-\textcite[sec. Abstract]{canbyTeachers} reported that when working with a teacher:
+As in therapeutic relationships, it's important that your contemplative practices and teacher are well-matched to your needs~\cite{canbyTeachers}. You might even use the \textcite{BRWAIdownload} to evaluate your alignment with your teacher. \textcite[sec. Abstract]{canbyTeachers} reported that when working with a teacher:
 \begin{quotation}
     Key characteristics in beneficial student-teacher relationships included having access to and receiving appropriate guidance from a well-qualified teacher, as well as having a teacher whose approach to working with challenges was informed by training in psychology or mental health. Other factors described as unhelpful or leading to additional distress included a lack of availability or teacher access; limited student tracking or disclosure; invalidating, unsupportive, victim-blaming, or scripted teacher responses; a lack of perceived teacher expertise; or mismatched interpersonal or cultural dynamics.
 \end{quotation}
 
-Regardless of how you proceed, the most important thing is stabilization of adverse symptoms if they are overwhelming or preventing you from accomplishing critically important tasks in your life. \textcite{cheetahHouse} specializes in helping people through this stabilization process. In addition, many practices aiming toward high levels of integration involve processing large amounts of existential distress~\cite{ingram2018mastering} that can be destabilizing, especially when done without proper practice or supportive teachers that respect your autonomy and goals~\cite{lindahl2017varieties}. \writtenByDay{This may be difficult when mixed with mental illness, or it may be that existential distress is already intertwined with your mental illness in such a way that they can only be processed at the same time. \prosecite{treleaven2018trauma} focuses heavily on ways of engaging with mindfulness practices that are fully respectful of autonomy, and I recommend it.}
+Regardless of how you proceed, the most important thing is stabilization of adverse symptoms if they are overwhelming or preventing you from accomplishing critically important tasks in your life. \textcite{cheetahHouse} specializes in helping people through this stabilization process. In addition, many practices aiming toward high levels of integration involve processing large amounts of existential distress~\cite{ingram2018mastering} that can be destabilizing, especially when done without proper practice or supportive teachers that respect your goals~\cite{lindahl2017varieties}. Stuck schemas may or may not be intertwined with these experiential shifts, so different people may need to either delay contemplative work until their mental health is improved or work on both projects at once.
 
-Below is a set of resources for dealing with spiritual emergencies that I have seen others endorse but have mostly not verified myself:
+Below is a set of resources for dealing with these difficulties that I have seen others endorse but have mostly not verified myself:
 \begin{itemize}
-    \item \textcite{cheetahHouse} provides consultations to help people reduce adverse symptoms from meditation. Psychedelics can facilitate the same effects. Both M.G. and T.H. personally recommend this resource.
+    \item \textcite{cheetahHouse} provides consultations to help people reduce adverse symptoms from meditation. Psychedelics can facilitate similar effects.
     \item \prosecite{lutkajtis2021dark}
     \item \textcite{sen}
     \item \textcite{imhu}
     \item \textcite{aciste}
     \item \prosecite{fireKasinaChallenges}
+    \item \prosecite{treleaven2018trauma}
 \end{itemize}
 
 Here are several resources for integrating these existential insights; I have not read most of them but know they are well-regarded by a range of practitioners:
@@ -2270,27 +2265,9 @@ I highly recommend specialist services over non-specialists who likely won't und
 	\item \textcite{alexianerClinic} has a psychedelic outpatient clinic.
 \end{itemize}
 
-\writtenByDay{
-If you seek medical assessment from providers who don't specialize in psychedelics, it is important to at least find a medical professional who understands the physical and psychological symptoms of trauma. It is ideal to find a medical professional who will anticipate and accommodate your trauma-related safety needs or at least be willing to listen and adapt. Unfortunately, many medical systems are severely overstressed. Medical professionals are frequently both undertrained on these topics and lacking the resources to effectively implement the understanding they do have. Additionally, many under-supported healthcare professionals are undergoing extended workplace trauma themselves, which does not necessarily lend itself to optimal participant care. As such, T.H. recommends taking a posture of firmly compassionate self-advocacy wherever possible. You deserve safe and trauma-informed care; whether you receive this care or not is not a reflection of what you deserve. You may wish to take notes about the symptoms you are experiencing or collect information (like \cref{sec:safety}) about the safety of MDMA to bring with you to your medical appointment; these measures can help you support your healthcare professionals in giving you the best quality of care possible.
-}
+If you can't find a medical provider who understands psychedelics, try to find one who at least understands trauma. They will be much more helpful than the average provider who doesn't understand anything about what you're going through.
 
 Finally, check whether your medication is compatible with MDMA before doing another session (see \cref{sec:safety}).
-
-\section{Navigating Uncertain Memories}
-\label{navigating}
-During MDMA therapy, you may feel you remembered traumatic events you weren't previously aware of~\cite{psychedelicrecoveredmemory}. These may or may not be accurate recollections of historical events, and I am not aware of any reliable method of distinguishing a memory's accuracy other than independent corroboration. To avoid incorrect interpretation of perceptions during the session, practitioners should categorically avoid suggesting a memory is either true or false and shouldn't even suggest that you have memories that you can recover~\cite{otgaarMemory}.\footnote{People who retract claims of recovering accurate memories of abuse overwhelmingly blame their therapist for improperly influencing them~\cite{otgaarMemory}.} I recommend \textcite{psychedelicrecoveredmemory} for a nuanced guide on psychedelics and remembering previously forgotten memories.
-
-Relatedly, stuck schemas not clearly related to specific remembered events often form in the period of childhood amnesia. While you may or may not eventually be able to understand where these schemas came from, they can be reconsolidated like any other.
-
-\writtenByDay{
-T.H. thinks that Western culture prioritizes a continuous and linear narrative understanding of ourselves and our place in the world. This can further disempower survivors of trauma, especially childhood abuse, since the nature of memory often precludes clear and objective understandings of what exactly happened in our childhoods. The shame and taboo surrounding discussion of abuse---and the fact that many cultures condone some forms of child abuse (e.g. spanking)---further obscure what happened. In cases where abuse is extensively documented, survivors may face aggressive gaslighting and extended abuse in response to speaking up about their initial experiences. Even documented certainty about the actual events that happened is not always enough to endow survivors' suffering with the legitimacy they are frequently seeking when they focus on the accuracy or inaccuracy of recovered memories.
-
-So, given that you can never know for sure what actually happened, then what? And \enquote{what,} as it turns out, is that you still deserve compassion and healing. It can be reassuring to gather as much objective evidence as you can about your history. This can be a way of reclaiming what you can of your broken narrative, of knowing what is possible to know, and at least laying hold of it. And you may need to grieve a great deal, because frequently the evidence is very thin, and knowledge of your history is one of the things that was stolen from you. But your deservingness of healing does not depend on someone coming along and saying, \enquote{I have a video of you suffering a legitimate kind of suffering, so your pain is valid now.}
-
-It may be helpful to explore the following questions, either by journaling on your own or by talking them through with a trusted/emotionally skilled friend or a clinician: What does it mean to me if X actually happened? What does it mean if Y happened instead, or Z? What does that say about my identity, my needs, how I perceive myself, and how others perceive me? What does it say about my future? What does it say about what I deserve?
-
-Please be compassionate with yourself, as much as you possibly can. That your suffering is real and matters is a different question from what to do about it. Your pain is trustworthy, even if your memories are not. If you feel like you are suffering, that is real, and it matters.
-}
 
 \section{Life Changes Associated with Improved Mental Health}
 \label{sec:lifechanges}
@@ -2320,7 +2297,6 @@ While the effect of most of these items on mental health has not been rigorously
    \item Emotional attunement is an important skill for trust in many relationships~\cite{gottmanTrust}. See \prosecite{gottmanTrust}.
    \item \prosecite{rosenbergNVC} is a popular framework for productively discussing conflict.
    \item Community and relational accountability practices, beyond just punishment, are healthy. I recommend \textcite{mingusAccountability,barnardCommunities,crucial}.
-   \item T.H. thinks that \prosecite{kennedy2022good} is an excellent guide to raising mentally healthy children. It may also be helpful for thinking about your childhood.
    \item Marie Kondo developed a popular method of mindfully considering your relationships to the things you own. It helps you determine which things you should and shouldn't keep in your life. See \prosecite{konmari}.
 \end{itemize}
 

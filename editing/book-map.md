@@ -201,9 +201,6 @@ schema-inventory scale; when-you-think-you're-done advice; `sessionDecision` sch
 - **Grounding Tools** (`grounding`): grounding vs reconsolidation distinction.
 - **Peer and Community Support** , **Medical/Psychiatric Support** (~2488, ends with a
   T.H.-voice `\writtenByDay` block).
-- **Navigating Uncertain Memories** (`navigating`): recovered-memory caution (M.G. note +
-  long T.H.-voice block). **The M.G. recovered-memory note here duplicates the one in
-  `individualActions`.**
 - **Life Changes Associated with Improved Mental Health** (`sec:lifechanges`): health habits,
   relationships, making-changes framework. Low-evidence, explicitly non-essential.
 
