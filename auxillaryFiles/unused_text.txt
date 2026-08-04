@@ -4239,3 +4239,11 @@ In addition, the scope of this book presents some issues. I have thorough experi
 
     \item T.H. thinks that \prosecite{kennedy2022good} is an excellent guide to raising mentally healthy children. It may also be helpful for thinking about your childhood.
 
+ \textcite{nardouMDMAPlasticity} measured a certain type of increased neuroplasticity following MDMA dosing in mice. However, that lab's similar results with psilocybin failed to replicate in a large multi-site replication effort, calling their MDMA results into question as well~\cite{Lu2025noplasticity}.
+
+ Regular life is rarely total bliss, but reconsolidation does gradually improve life over the long run.
+
+  These practices might include reconsolidation or just pre-reconsolidation practices like steps A, B, and C of the Therapeutic Reconsolidation Process described by \textcite{eckerUnlocking}. These are symptom identification, retrieval of target learning (see \cref{retrieval}), and identification of contradictory knowledge.
+
+   See the Heidi Priebe YouTube channel for a wealth of information on the types of schemas that trauma causes~\cite{priebeYoutube}.
+

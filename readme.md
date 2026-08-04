@@ -83,9 +83,9 @@ occasional descriptions of less productive or more disruptive sessions
 by sorting by *new.* Godes et al. (2023) also reports how therapy
 clients describe how they felt MDMA therapy worked during their
 sessions: staying with what “is”; decreased reactivity; insight,
-reflection, linking; mental clarity; recovery of traumatic memories;
-disentangling trauma from self; reuniting lost affects and parts;
-self-acceptance; joy, happiness, gratitude; hope and empowerment;
+reflection, linking; mental clarity; recovery of traumatic \[episodic\]
+memories; disentangling trauma from self; reuniting lost affects and
+parts; self-acceptance; joy, happiness, gratitude; hope and empowerment;
 relaxation, calmness, peace; comfort; gratitude, compassion, empathy;
 union, wider perspective; inner healing intelligence \[the therapeutic
 framework used in this study\]; accessibility to emotions; and mind-body
@@ -127,8 +127,8 @@ nervous systems to activate the defensive states of arousal,
 flight-or-fight, freeze, and tonic/collapsed immobility (Kozlowska et
 al., 2015). The latter is often called dissociation.
 
-Our brains have an updating process called memory reconsolidation, that,
-in normal circumstances, modifies schemas to become adaptive to
+Our brains have an updating process called memory[2] reconsolidation,
+that, in normal circumstances, modifies schemas to become adaptive to
 different situations (Ecker et al., 2024). Unfortunately, some things
 can inhibit this process, like flight-or-fight, tonic/collapsed
 immobility, avoidance (often unnoticed), and lack of time or emotional
@@ -142,11 +142,15 @@ doesn’t update when the danger passes.
 
 MDMA starts the previously blocked update process for any stuck schema
 you activate or trigger during the session and then stay present with.
-Thinking, writing, or talking about your issue is often sufficient to do
-this. After the schema updates, it will not reactivate after the session
-is over, though complex schemas have numerous parts that you have to
-individually update. Dissociation and flight-or-fight also resolve once
-you update the underlying schemas.
+Staying present means focusing on it and allowing it to be felt in the
+body and mind without acting to end, alter, escape, or explain it away.
+It can also include *investigatively feeling,* feeling how the feelings
+change as you move or as your thoughts and triggers change or as the
+schema reconsolidates. Thinking, writing, or talking about your issue is
+often sufficient to do this. After the schema updates, it will not
+reactivate after the session is over, though complex schemas have
+numerous parts that you have to individually update. Dissociation and
+flight-or-fight also resolve once you update the underlying schemas.
 
 This is a powerful process but is not a quick fix except for simple
 issues. People typically need to do a lot of between-session
@@ -181,8 +185,8 @@ Additional MDMA sessions and regular therapy often help work through the
 latter.
 
 Symptom worsening is sometimes caused by experiences that feel like
-remembering apparently forgotten memories. Unfortunately, there is no
-way to determine how accurate these memories are other than independent
+remembering apparently forgotten events. Unfortunately, there is no way
+to determine how accurate these memories are other than independent
 corroboration. See
 [psychedelicsandrecoveredmemories.com](https://psychedelicsandrecoveredmemories.com)
 for more information.
@@ -468,3 +472,7 @@ Psychological Science*, *16*(2), 225–246.
 fear, anger, other distressing emotions or dissociation are also
 present. This isn’t necessarily an issue; the process can still work
 well in these instances.
+
+[2] In this case, memory refers to implicit memory, not explicit memory
+of events and facts (Ecker et al., 2024). Implicit memory is our often
+unconscious model of the world and self.
