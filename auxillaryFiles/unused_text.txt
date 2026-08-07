@@ -4247,3 +4247,9 @@ In addition, the scope of this book presents some issues. I have thorough experi
 
    See the Heidi Priebe YouTube channel for a wealth of information on the types of schemas that trauma causes~\cite{priebeYoutube}.
 
+\begin{itemize}
+    \item consider a hated or feared political, religious, national, or cultural group---or a faction of your group if you want an easier starting point---being correct about an important point of contention
+    \item imagine believing that point yourself. How does that feel? Imagine expressing your new belief to your friends, family, or community. How would they react? How would you feel about that?
+    \item consider if others' criticism of you or something important to you (e.g. your job) that made you defensive might be correct.
+    \item think about harmful things you do for money (e.g. working in the marketing department of an oil company) or social acceptance. 
+\end{itemize}

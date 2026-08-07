@@ -107,20 +107,19 @@ programs in certain countries.
 
 ## How Trauma and Insecurity Affect Us
 
-Our brains continually learn beliefs (e.g., “I can’t do anything right,”
-“I am bad”), emotional reactions, and behavioral patterns to move
-through the world and thrive (Ecker et al., 2024). Different therapeutic
-frameworks group these components into units called schemas, parts,
-trauma reactions, priors, etc., because the components seem to act as an
-integrated whole rather than separate things. Occasionally, the schemas
-we learn to survive in one context become maladaptive in another
-context. This often starts when we learn particularly deep, pervasive,
-negative, and resilient schemas about ourselves, other people, and
-relationships to survive emotional or physical insecurity or trauma.
-Once we shift out of that context, like when we become adults, a wide
-variety of circumstances trigger those old schemas, resulting in fear,
-anxiety, anger, depression, panic, etc. in situations where those
-reactions are no longer helpful.
+Our brains continually create internal models to move through the world
+and thrive (Ecker et al., 2024). These models create our
+thoughts/beliefs (e.g., “I can’t do anything right,” “I am bad”),
+emotional reactions, and behavioral patterns. Different therapeutic
+frameworks call these models schemas, parts, priors, etc. Occasionally,
+the schemas we learn to survive in one context become maladaptive or
+inaccurate in another context. This often starts when we learn
+particularly deep, pervasive, negative, and resilient schemas about
+ourselves, other people, and relationships to survive emotional or
+physical insecurity or trauma. Once we shift out of that context, like
+when we become adults, a wide variety of circumstances trigger those old
+schemas, resulting in fear, anxiety, anger, depression, panic, etc. in
+situations where those reactions are no longer helpful.
 
 Strong schemas of imminent threat and powerlessness also cause our
 nervous systems to activate the defensive states of arousal,
@@ -134,9 +133,9 @@ can inhibit this process, like flight-or-fight, tonic/collapsed
 immobility, avoidance (often unnoticed), and lack of time or emotional
 capacity (Kozlowska et al., 2015; Van den Bergh et al., 2021).
 Exceptionally strong schemas also seem resistant to updating, perhaps
-because they are too overwhelming to be present with. For example, in
-PTSD, there is an exceptionally strong belief of imminent danger that
-doesn’t update when the danger passes.
+because they create emotions that are too overwhelming to be present
+with. For example, in PTSD, there is an exceptionally strong belief of
+imminent danger that doesn’t update when the danger passes.
 
 ## How MDMA Therapy Works
 
@@ -212,8 +211,8 @@ their dose to find their *minimum effective dose.*
 The general strategy during the session is emotionally activating
 (triggering) your anxieties, depression, panic, etc., then staying with
 that feeling, regardless of what it is. If you have the right dose of
-MDMA and aren’t dissociating, the schema should gradually dissipate.
-That’s the updating process at work.
+MDMA and aren’t dissociating, the schema creating these feelings should
+gradually dissipate. That’s the updating process at work.
 
 For dissociation, Razvi & Elfrink (2020, p. 14) recommends “bringing
 blankness, flat affect, nothingness, boredom, sleepiness, or sobriety
@@ -278,7 +277,8 @@ or other mental health practitioner:
 
 A limited course of MDMA therapy is generally well-tolerated, but there
 are dangerous drug/supplement/herb interactions, medical
-contraindications, side effects, and psychological risks:
+contraindications, side effects, and psychological risks (**some of
+these are best guesses based on sparse evidence**):
 
 ### Always Avoid (significant risk of death or irreversible damage)
 
