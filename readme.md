@@ -286,7 +286,7 @@ these are best guesses based on sparse evidence**):
 
 - ritonavir, cobicistat, or HIV drugs that contain them
 
-- over 200 lifetime doses, not including boosters
+- over 200 lifetime doses (boosters count as partial extra doses)
 
 - hyperthyroidism that isn’t well managed and mild, as assessed by a
   doctor (Mitchell et al., 2023)

@@ -4253,3 +4253,5 @@ In addition, the scope of this book presents some issues. I have thorough experi
     \item consider if others' criticism of you or something important to you (e.g. your job) that made you defensive might be correct.
     \item think about harmful things you do for money (e.g. working in the marketing department of an oil company) or social acceptance. 
 \end{itemize}
+
+ The account offered above provides a more parsimonious explanation: many symptoms can be fully accounted for by inaccurate mental models without needing to invoke stress-mediated tissue damage or organ dysfunction.
