@@ -299,7 +299,7 @@ these are best guesses based on sparse evidence**):
 
 - total doses over 2 mg/kg for more than a handful of sessions
 
-- session spacing less than 6 weeks
+- session spacing less than 4 weeks
 
 - drugs/medications/supplements/herbs, including large doses of
   caffeine.
