@@ -4278,3 +4278,8 @@ Since the components of highly complex systems tangle together, it's often uncle
 
 Symptom worsening is certainly difficult, but it isn't necessarily bad~\cite{hayes2020complex}. The worse attractor might have more intense symptoms but fewer self-reinforcing features that make the attractor persist over long periods of time. I think you would also likely have benefited from accessing and reconsolidating the newly-active stuck schemas composing the attractor at some point. Continuing to avoid them indefinitely tends to come with its own costs.
 
+ Put another way, trauma is distressing events or chronic conditions that overwhelm our ability to cope, where our ability to cope depends on our capabilities and resources.
+
+\footnote{I don't think using antioxidant supplements to do more frequent sessions is wise because the oral dose of antioxidants humans need to prevent oxidative damage is unknown~\cite{baggottSupplements}. It's not even established that it's possible or safe to get antioxidant plasma concentrations high enough using oral dosing. The studies demonstrating antioxidant protection injected rats with massive doses, though that was to protect against similarly massive doses of MDMA.}
+
+For instance, depression schemas appear to divert attention from most sensory input~\cite{alexanderPrecision}.

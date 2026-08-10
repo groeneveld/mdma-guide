@@ -261,7 +261,7 @@ or other mental health practitioner:
   from the therapist are not essential healing components of MDMA
   therapy. You can video record your session or bring a trusted friend
   or family member along for additional comfort. For more information on
-  red flags, see Friedwoman et al. (2025).
+  red flags, see Friedwoman et al. (n.d.).
 
 - **Skilled:** They should have thorough knowledge of, and experience
   successfully resolving, a wide spectrum of difficult situations that
@@ -373,8 +373,8 @@ change*. Taylor & Francis. <https://doi.org/10.4324/9781003231431>
 
 
 Friedwoman, L., Dean, H., Fine, C., Hall, W., Dennis, T. P., Lancelotta,
-R., Dreisbach, S., Berjot, C., Putnam, N., & Armeni, K. (2025).
-*Psychedelic safety flags*.
+R., Dreisbach, S., Berjot, C., Putnam, N., & Armeni, K. (n.d.).
+*Psychedelic safety flags*. Retrieved 2026, from
 <https://docs.google.com/document/d/1lK2Rif24BAmJqqsLfUSkAVCO48IFNrGdysS2nI1EjZA>
 
 

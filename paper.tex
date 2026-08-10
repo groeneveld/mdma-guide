@@ -43,8 +43,24 @@
     },
 }
 \usepackage{chemfig}
-\usepackage{csquotes}
-\usepackage{microtype}
+% Loaded for its hyphenation patterns only. The default US patterns are Knuth's
+% original set and cannot break "psychedelic", "tryptamines", "ergamides", or
+% "methylenedioxymethamphetamine" at all; the British patterns break all four.
+% The two visible side effects are pinned back to American below: csquotes is
+% given style=american, and biblatex is mapped to american-apa.
+\usepackage[british]{babel}
+\usepackage[style=american]{csquotes}
+% stretch/shrink widen microtype's font-expansion range from its default 20 to
+% 30 (3%), which gives the line breaker much more room before it has to resort
+% to stretching the word spaces.
+\usepackage[stretch=30,shrink=30]{microtype}
+
+% TeX only overflows the margin when every alternative break would exceed
+% \tolerance, and by default it is not permitted to loosen a line to escape.
+% \emergencystretch authorizes that final pass. Together with the expansion
+% range above this clears overfull lines without hyphenation exceptions.
+\emergencystretch=3em
+
 \usepackage[all]{nowidow}
 \usepackage{hyperref}
 \usepackage{xurl}
@@ -68,6 +84,9 @@
 \usepackage{booktabs}
 \usepackage{makecell}
 \usepackage{enumitem}
+% A description label is boxed by default, so a long \item[...] cannot wrap and
+% runs into the margin. Unboxed lets it break across lines.
+\setlist[description]{style=unboxed}
 \newenvironment{compactitemize}
 {\begin{itemize}[nosep, leftmargin=1em, itemsep=0pt, topsep=0pt]}
 {\end{itemize}}
@@ -89,7 +108,11 @@
       \setlength{\labelsep}{\biblabelsep}%
       \addtolength{\leftmargin}{\labelsep}%
       \setlength{\itemsep}{\bibitemsep}%
-      \setlength{\parsep}{\bibparsep}}%
+      \setlength{\parsep}{\bibparsep}%
+      % Entries are full of long DOIs, URLs, and chemical names that cannot be
+      % broken. Justifying them forces huge word gaps; ragged right absorbs the
+      % slack in the margin instead.
+      \raggedright}%
    \renewcommand*{\makelabel}[1]{\hss##1}}
   {\endlist}
   {\item}
@@ -100,7 +123,9 @@
 \AtEveryBibitem{\stepcounter{citnum}}
 
 % Standard bibliography stuff, though I don't like having to set penalties
-\DeclareLanguageMapping{english}{english-apa}
+% Maps the british document language onto American APA so the bibliography is
+% byte-for-byte what it was before babel was introduced.
+\DeclareLanguageMapping{british}{american-apa}
 \addbibresource{references.bib}
 \setcounter{biburlnumpenalty}{9000}
 \setcounter{biburlucpenalty}{9000}
@@ -649,7 +674,9 @@ See \prosecite{kozlowskaDefenseCascade} for further discussion of the defense ca
 
 Refer to \cref{sec:signsofdc} for a thorough comparison of the signs of intensified arousal, immobility, and probably also the schemas that activate them.
 
-\begin{longtable}{p{0.48\textwidth}|p{0.48\textwidth}}
+% Column widths must leave room for 4 x \tabcolsep plus the vertical rule,
+% otherwise the table overruns \textwidth.
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr0.48\textwidth-2\tabcolsep}|>{\raggedright\arraybackslash}p{\dimexpr0.48\textwidth-2\tabcolsep}}
 \caption{Comparison of hyperarousal and dissociation [opioid dampening] signs. \textcite{cheetahSigns} compiled this from \textcite{ogden2006sensorimotor,magyari2016teaching,treleaven2018trauma}. Reprinted with permission. I think that these are likely the signs of hyperarousal, opioid dampening, and the schemas that activate those states, not just signs of hyperarousal and opioid dampening themselves.} \label{sec:signsofdc} \\
 
 \toprule
@@ -819,7 +846,7 @@ Schemas can generate~\cite{eckerUnlocking}
 	\item somatic sensations, like psychosomatic pain
 \end{itemize}
 
-These \textit{symptoms} are not the schema/model itself, just its outputs~\cite{eckerUnlocking}. \footnote{\label{retrieval}Brains and mental models are complicated and poorly understood. However, we can often gain a decent understanding of how a particular schema developed, works, and influences us~\cite{eckerUnlocking}. Practices in therapy can help us observe the structure of the schema itself instead of just a poorly understood collection of symptoms. In the example of Richard from \textcite{eckerUnlocking}, he starts at noticing fear and a thought of "they hate me" when he thinks about confidently speaking up in meetings. Through therapy he gains awareness of the structure of the schema, which takes the form of a verbalized thought, \enquote{Having a feeling of confidence as you speak turns you into an arrogant asshole, like Dad.} It's accompanied by deep sense of feeling that the explanation is right.} Some of these symptoms may also not be noticed or noticeable. For example, I've had many experiences in MDMA therapy where I notice the emotion first, and the belief only becomes clear after some amount of reconsolidation.
+These \textit{symptoms} are not the schema/model itself, just its outputs~\cite{eckerUnlocking}. \footnote{\label{retrieval}Brains and mental models are complicated and poorly understood. However, we can often gain a decent understanding of how a particular schema developed, works, and influences us~\cite{eckerUnlocking}. Practices in therapy can help us observe the structure of the schema itself instead of just a poorly understood collection of symptoms. In the example of Richard from \textcite{eckerUnlocking}, he starts at noticing fear and a thought of "they hate me" when he thinks about confidently speaking up in meetings. Through therapy he gains awareness of the structure of the schema, which takes the form of a verbalized thought, \enquote{Having a feeling of confidence as you speak turns you into an arrogant asshole, like Dad.} It's accompanied by deep sense of feeling that the explanation is right. In my experience, MDMA also facilitates access to a verbalized structure of a schema, either immediately or after some reconsolidation.} Some of these symptoms may also not be noticed or noticeable. For example, I've had many experiences in MDMA therapy where I notice the emotion first, and the belief only becomes clear after some amount of reconsolidation.
 
 When schemas are stuck, these outputs become problems: stuck schemas push us to overreact, deny the truth, misjudge significant trade-offs, say hurtful things, etc. We may seek the connection and safety we desperately need in dysfunctional ways~\cite{brownAttachmentDisturbances}, or we may get too distracted by our distress to pay attention to the needs of those we love.
 
@@ -869,7 +896,7 @@ However, prediction error is often too small or too large to start the update pr
 \begin{itemize}
     \item Traumatized people frequently avoid things that activate their stuck schemas. This can be deliberate behavioral avoidance, like not petting dogs when you have stuck schemas about how dangerous dogs are. It can also be automatic and unnoticed, like your brain unconsciously diverting attention away from certain emotions when you perceive that feeling them is threatening.
     \item The brain might decrease attention to all sensory input when it thinks reacting quickly to potential threats is much more important than spending time figuring out whether something is really a threat or not~\cite{berghBSTS}.
-    \item The brain may learn that certain information wasn't useful or reliable and thus not paying any attention to it. For instance, depression schemas frequently appear to divert attention from all or most sensory input~\cite{alexanderPrecision}.
+    \item The brain may learn that certain information wasn't useful or reliable and thus not paying any attention to it.
     \item People may not have the time or capacity to pay attention to their environment or stuck schemas.
     \item Opioid dampening appears to impair cognition and sensory processing~\cite{cheetahSigns}.
 \end{itemize}
@@ -941,7 +968,7 @@ Other factors play roles too, but I limit this discussion to schemas and low att
 
 To recap, the landscape of attractors and the \enquote{mountains} between them is created by the interactions of schemas and attention. It changes slowly through learning and reconsolidation, though MDMA can temporarily reshape it. Your current mental state is the current position of the ball, which can roll through the landscape on a short timescale when nudged by internal or external events. Its trajectory is determined by the shape of the landscape and the nudges it receives.
 
-\subsection{Symptom Worsening}
+\subsection*{Symptom Worsening}
 Symptom worsening (symptoms being emotions, thoughts, behaviors, and somatic sensations~\cite{eckerUnlocking}) is typically temporary but can be stable, at least without further intervention~\cite{evans2023extended}. It occurs when something, like MDMA therapy, opens up or pushes you onto previously blocked trajectories in the landscape\footnote{Hallucinogens like ayahuasca also have the possibility of just creating new stuck schemas from traumatizing experiences. E.g., you feel that a demon is possessing you, and this is deeply ingrained in your mental model during the trip. I'm not aware of this type of problem happening with MDMA.}. Your mental state is then free to go to these new areas, where your schemas then create an array of (potentially distressing and maladaptive) emotions, thoughts, behaviors, and possibly defense cascade activations. In practice, this might look like
 \begin{itemize}
     \item fluctuation between two attractors. As reconsolidation gradually weakens a maladaptive attractor, the maladaptive attractor and the adaptive attractors become more equal in strength~\cite{hayes2020complex}. Minor environmental changes are then enough of a jolt to initiate a transition from one to the other, and the system may fluctuate between them. This might be a sign of an imminent shift from the old maladaptive attractor being primarily active to the adaptive attractors being primarily active. Symptom fluctuation may not be aversive or problematic, and therefore it may be only sometimes categorized as symptom worsening. Some evidence indeed suggests that symptom fluctuation is associated with better long-term outcomes in therapy~\cite{olthofDestabilization}.
@@ -1152,11 +1179,11 @@ There are a few other preventative measures for oxidative stress that some peopl
 
 \section{Session Frequency}
 \label{frequency}
-Specific recommendations for session spacing are difficult because individuals have different risk/reward tradeoffs and neurological responses to MDMA. There are two main limitations relevant for minimizing risk~\cite{baggottSerotonin,baggottDamage}. First, the brain's antioxidant capacity needs time to replenish after a session. MDMA causes oxidative stress, but the brain's antioxidant buffer is normally capable of neutralizing this for the doses of MDMA recommended for therapy. However, using more MDMA before it has recovered may cause oxidative damage in the brain.\footnote{I don't think using antioxidant supplements to do more frequent sessions is wise because the oral dose of antioxidants humans need to prevent oxidative damage is unknown~\cite{baggottSupplements}. It's not even established that it's possible or safe to get antioxidant plasma concentrations high enough using oral dosing. The studies demonstrating antioxidant protection injected rats with massive doses, though that was to protect against similarly massive doses of MDMA.} To my knowledge, no human studies, including the clinical trials, have measured this time span. 
+Specific recommendations for session spacing are difficult because individuals have different risk/reward tradeoffs and neurological responses to MDMA, and safe spacing strongly depends on dose. There are two main limitations relevant for minimizing risk~\cite{baggottSerotonin,baggottDamage}. First, the brain's antioxidant capacity may need time to replenish after a session. MDMA causes oxidative stress, but the brain's antioxidant buffer is normally capable of neutralizing this, likely at least for doses under 2.0\,mg/kg~\cite{baggottSupplements}. However, using more MDMA before it has recovered may cause oxidative damage in the brain. To my knowledge, no human studies, including the clinical trials, have measured this time span.
 
 Three expert panels independently ranked MDMA, or substances sold as MDMA, among the least harmful drugs on their scales, including on criteria that would plausibly capture neurotoxic effects if those were producing clinically apparent outcomes~\cite{nuttDrugHarms,bonomoHarms,crossinHarms}. While their criteria are oriented toward observable clinical effects rather than subclinical neural changes, the absence of any signal strong enough to elevate MDMA in these rankings is consistent with oxidative damage from typical non-therapeutic use patterns being, at most, a minor--moderate contributor to population-level harm. The typical therapeutic protocol---2--3\,mg/kg total dose, proper hydration, infrequent administration, no hyperthermia, no drug mixing---would be expected to produce even less.
 
-That being said, even mild-to-moderate amounts of harm are worth minimizing when possible. People may also need to do many MDMA sessions to treat severe CPTSD, and gradually cumulative effects may become more noticeable. To my understanding, there are no public estimates on how long it takes for the human antioxidant buffer to recover after using MDMA. In the absence of any better line of reasoning, I used the research function of the Claude Opus 5 LLM model to find and read scientific papers on the topic and then generate a span of likely values\todo{I recognize these estimates are tentative at best. I'm open to removing them, but I thought it would be helpful to provide some estimate rather than leaving readers to make wild guesses.}.\footnote{
+That being said, even mild-to-moderate amounts of harm are worth minimizing when possible. People may also need to do many MDMA sessions to treat severe CPTSD, and gradually cumulative effects may become more noticeable. Since there are no public estimates on how long it takes for the human antioxidant buffer to recover after using MDMA, I used the research function of the Claude Opus 5 LLM model to find and read scientific papers on the topic and then generate a span of likely values\todo{I recognize these estimates are tentative at best. I'm open to removing them, but I thought it would be helpful to provide some estimate rather than leaving readers to make wild guesses.}.\footnote{
     I used this prompt:
     \begin{quotation}
         Give me two 95\% confidence intervals for how long the brain's antioxidant buffer takes to replenish after a single dose of MDMA, assuming no hyperthermia. The first CI is for a dose large enough to use up all the buffer but not any more. The second CI is for doses that exceed the buffer. The research on MDMA oxidation is scarce, so you'll have to extrapolate some from other research.
@@ -1169,13 +1196,13 @@ That being said, even mild-to-moderate amounts of harm are worth minimizing when
     These are not real confidence intervals; they are the LLM's guesstimates. I did try a few different prompts with the research functions of five different LLMs (Gemini 3.0 thinking, Claude 4.5/4.6/4.7/5 Opus thinking, and ChatGPT 5.2 prompted to think hard). All the reports suggested spans from a few days to a few weeks. The numbers reported above came from the run that I judged was the most rigorous.
 } Its semi-educated guess was that it takes 0.5--5 days to replenish the antioxidant buffer after complete depletion, and there is some evidence that total doses under 2\,mg/kg are unlikely to exceed the buffer~\cite{baggottSupplements}. I tentatively propose using twice\footnote{Using twice the upper end adds protection for people with exacerbating circumstances, like poor CYP2D6 metabolic capacity, other interfering drugs, and poor nutrition.} the upper end of that range as a \enquote{don't go below} spacing for oxidative stress, while noting that it is likely inaccurate due to the nature of LLMs and the limited evidence available.
 
-The second main limitation is downregulation of the serotonin system during an MDMA session, which causes short-term tolerance~\cite{baggottSerotonin,baggottDamage}. Using MDMA again before tolerance has returned to baseline will result in lower efficacy. Using higher doses to overcome that will increase the risk of oxidative damage if the dose becomes too large for the antioxidant buffer to handle. Neither the time required for tolerance to return to baseline nor the limits of the antioxidant buffer are known, so I strongly recommend spacing sessions far enough apart that you don't notice any lessening of effect. I don't think anyone has measured how long short-term tolerance lasts, though the four-week spacing of the phase III trials~\cite{mitchellMDMAClinicalTrial} produced progressively increasing benefit after each session, suggesting that this time span may be sufficient.
+The second main limitation is downregulation of the serotonin system during an MDMA session, which causes short-term tolerance~\cite{baggottSerotonin,baggottDamage}. Using MDMA again before tolerance has returned to baseline will result in lower efficacy. Using higher doses to overcome that will increase the risk of oxidative damage if the dose becomes too large for the antioxidant buffer to handle. Neither the time required for tolerance to return to baseline nor the limits of the antioxidant buffer are known, so I strongly recommend spacing sessions far enough apart that you don't notice any lessening of effect. I don't think anyone has measured how long short-term tolerance lasts, though the four-week spacing of the phase III trials~\cite{mitchellMDMAClinicalTrial} produced progressively increasing therapeutic benefit after each session, suggesting that this time span may be sufficient.
 
 Doing sessions more frequently than those limits may also risk long-term tolerance, sometimes called \enquote{losing the magic}~\cite{baggottSerotonin,baggottDamage}.
 
 I think the four-week spacing used in the phase III trials~\cite{mitchellMDMAClinicalTrial} is likely a reasonable spacing to start at, though longer is always ok too.\footnote{The sparsity of data means that well-informed people with different risk tolerances and starting assumptions will disagree on what a reasonable starting spacing is.} From there, I recommend establishing an effective MDMA therapy routine and gaining a good sense of how your sessions feel and produce durable therapeutic improvement. Then, if you feel that a shorter spacing would benefit you, you might reduce your spacing by one week every one or two sessions until you notice sessions becoming less helpful. Judge this a few weeks after the session, after the afterglow is finished (see \cref{afterglow}), and you have stabilized to a new baseline. This reduction is unlikely to waste a valuable session by making it completely ineffective.
 
-That procedure only measures short-term tolerance. You may not be able to notice when you go below your antioxidant system recovery timespan, and thus I recommend the two-week spacing as an absolute minimum.
+That procedure only measures short-term tolerance. You may not be able to notice when you go below your antioxidant system recovery timespan, and thus I recommend the ten-day spacing as an absolute minimum.
 
 See \prosecite{baggottSerotonin} for further discussion of tolerance and oxidative stress.
 
@@ -1386,7 +1413,7 @@ MDMA is a moderately scarce resource because of the unclear risk that frequent o
 
 If you want to progress as quickly as possible, I recommend maxing out on reconsolidation exercises whenever you have the time. There are two difficulties to consider, though. First, while you might be able to achieve 2\,hours of active reconsolidation a day, that will also create multiple additional hours of therapy hangover. Second, reconsolidation exercises typically require some additional time for the overhead of figuring out what your stuck schemas are and finding mismatches, not to mention all the other tasks involved in practitioner-guided therapy.
 
-If you can, try to develop techniques that require less overhead, like the first one in \cref{internalizedReports}. I've also noticed in my practice and that of one person I know that you don't have to experience a therapy hangover for as long when you reconsolidate right before going to sleep. The therapy hangover resolves while you sleep.
+If you can, try to develop techniques that require less overhead, like the first one in \cref{internalizedReports}. I've also noticed in my practice and that of one person I know that you don't have to experience a therapy hangover for as long when you reconsolidate right before going to sleep. The therapy hangover resolves before you wake up.
 
 Unnoticed avoidance makes it difficult to assess how much material you need to work through. You could fill out the \textcite{maladaptiveSchemaScale} at least once to get a rough inventory of your stuck schemas, though it's not essential. It's the broadest scale I'm aware of and should catch a wide variety of common stuck schemas. You can fill out the scale again every few months to track your therapeutic progress. The scale is long, so it may be worth finding and using a shorter, more specific scale if your stuck schemas are limited to certain areas. That will save you time if you're filling it out frequently.
 
@@ -1406,7 +1433,10 @@ It may be especially productive to schedule sessions when you have a few hours o
 \caption{Example decision matrix for when to schedule MDMA therapy sessions, based on available time and session cost. This represents my informed thoughts and is not based on any rigorous research process. Individuals will need to consider other factors as well.}
 \label{sessionDecision}
 \centering
-\begin{tabular}{|p{2.1cm}|p{4.5cm}|p{4.5cm}|}
+% Fixed cm widths totalled 11.1cm and ignored the 6 \tabcolsep gaps and 4 rules,
+% overrunning \textwidth by 35.4pt. Same proportions, expressed as fractions of
+% \textwidth with the gaps deducted.
+\begin{tabular}{|>{\raggedright\arraybackslash}p{\dimexpr0.19\textwidth-2\tabcolsep-\arrayrulewidth}|>{\raggedright\arraybackslash}p{\dimexpr0.40\textwidth-2\tabcolsep-\arrayrulewidth}|>{\raggedright\arraybackslash}p{\dimexpr0.40\textwidth-2\tabcolsep-\arrayrulewidth}|}
     \hline
     & \centering\textbf{Low Session Cost} & \centering\textbf{High Session Cost} \tabularnewline
     \hline
@@ -1484,11 +1514,11 @@ I don't recommend self-guiding without high-quality reference material and an un
 
 \section{How to Find a Practitioner}
 \label{sec:howtofind}
-Practitioners vary widely in skill, ethical behavior, and how good of a fit they are to your needs. I advise choosing one carefully; many practitioners have appeared in the news for harming their clients~\cite{hallMad}. Some even participate in groups that practice organized abuse. I strongly recomment using \prosecite{safetyFlags} to evaluate the practitioners you are considering working with. I also strongly recommend using \prosecite{BRWAIdownload} to evaluate the quality of your therapeutic relationship. This quality has a large impact on the effectiveness of therapy.
+Practitioners vary widely in skill, ethical behavior, and how good of a fit they are to your needs. Choose one carefully; many practitioners have appeared in the news for harming their clients~\cite{hallMad}. Some are even members of groups that practice organized abuse. I strongly recomment using \prosecite{safetyFlags} to evaluate the practitioners you are considering working with. I also strongly recommend using \prosecite{BRWAIdownload} to evaluate the quality of your therapeutic relationship. This quality has a moderate impact on the effectiveness of therapy~\cite{fluckiger2018alliance}.
 
 Licensure may offer a mediocre amount of protection against harm and incompetence. Licensed clinicians have usually had background checks, a couple of years of typically so-so education, and a few years of pre-licensure clinical experience. There are also subject to formal complaint processes.
 
-\href{www.reddit.com/r/mdmatherapy}{/r/mdmatherapy} maintains a list of practitioner directories and referral services in the sidebar (on the new Reddit; not old.reddit.com). I have not vetted most of them. You may also be able to find practitioner by talking to people at psychedelic meetups.
+\href{www.reddit.com/r/mdmatherapy}{/r/mdmatherapy} maintains a list of practitioner directories and referral services in the sidebar (on the new Reddit; not old.reddit.com). I have not vetted most of them. You may also be able to find practitioners by talking to people at psychedelic meetups.
 
 See the following for further information about harm in the psychedelic community:
 \begin{itemize}
@@ -1501,7 +1531,9 @@ See the following for further information about harm in the psychedelic communit
 \label{suicideCops}
 Licensed practitioners are often legally obligated to call the police on you if they think you are at high risk of hurting someone or are so psychotic that you might do so accidentally. They might also coerce you into going to hospital yourself under explicit or implicit threat of calling the police on you. In practice, what the practitioner does depends on their interpretation of local laws that they may not understand, how much they fear being sued or losing their license if someone is hurt, and how much they believe involuntary hospitalization will help you. Practitioners may also call the police on you, or threaten to do so, for suicidal ideation or planning. If you are suicidal or fantasize about hurting your abuser, I strongly suggest asking your provider to elaborate on their decision criteria before you open up to them. Then you can decide if you can cope with the level of self-censorship necessary to not cross their boundary. Or, you may trust your provider enough that you can be completely open with them because you know they will only tell you to go to the hospital if you really need it. In that case you could write up a crisis plan involving which hospital you want to go to, which family members or friends you want notified, etc.
 
-If your provider does call the police on you, know that police typically have little training in mental health and will likely take your provider's word over yours~\cite{alexanderInpatient}. There is also a good chance that the police dragging you away against your will to a place you can't leave---where medical staff may do various invasive and non-consensual things to you---will traumatize you. Even worse, \textcite{emanuelHospitalization} found that (at least in Allegheny County) involuntary hospitalization actually significantly increases the chance of a patient dying by suicide or overdose or being charged with a violent crime over the 3\,months following admittance in cases where clinicians might disagree about admitting a patient (43\% of evaluations in this study). It's not clear how well these results apply to situations where multiple clinicians would all agree on admitting a patient. \textcite{alexanderInpatient} is a good guide for navigating/avoiding the inpatient mental health system.
+If your provider does call the police on you, know that police typically have little training in mental health and will likely take your provider's word over yours~\cite{alexanderInpatient}. There is also a good chance that the police dragging you away against your will to a place you can't leave---where medical staff may do various invasive and non-consensual things to you---will traumatize you. Even worse, \textcite{emanuelHospitalization} found that (at least in Allegheny County) involuntary hospitalization actually significantly increases the chance of a patient dying by suicide or overdose or being charged with a violent crime over the 3\,months following admittance in cases where clinicians might disagree about admitting a patient (43\% of evaluations in this study). It's not clear how well these results apply to situations where multiple clinicians would all agree on admitting a patient.
+
+\textcite{alexanderInpatient} is a good guide for navigating/avoiding the inpatient mental health system.
 
 \chapter{Prompts for Activating Stuck Schemas}
 \label{mapping}
@@ -1513,7 +1545,7 @@ I also strongly suggest keeping a list of subtle (or not) discomforts that you n
 \section{Personal Schemas}
 See \cref{mssProbes} for a list of prompts designed to activate many mental illness, developmental, and attachment-related stuck schemas that people commonly have. It may help to imagine a concrete scenario for each item. Feel free to skip sections you feel totally comfortable with.
 
-\begin{longtable}{>{\raggedright}p{0.6\textwidth} p{0.35\textwidth}}
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr0.6\textwidth-2\tabcolsep} >{\raggedright\arraybackslash}p{\dimexpr0.35\textwidth-2\tabcolsep}}
 \caption{Schema Activation Prompts inspired by \prosecite{maladaptiveSchemaScale}. I used Claude to transform the items in the original scale from their diagnostic forms into schema-activating forms, each framed as a scenario the schema is built to defend against.}
 \label{mssProbes} \\
 \toprule
@@ -2288,12 +2320,12 @@ Some individuals experiencing prolonged post-psychedelic difficulties in \textci
 
 Psychiatric medication is complex and largely outside the scope of this document.\footnote{While many people benefit from psychiatric medication, several aspects are typically not discussed: there is little high-quality evidence on long-term efficacy~\cite{leuchtDecline}. Even short-term benefits are often overstated since the effects of psychiatric drugs are usually noticeable and therefore difficult to truly randomize in trials, and trials rarely use active placebos to control for this~\cite{hunekeExpectancy}. Many psychiatric drugs can also cause physical dependence after chronic use and may be difficult to quit~\cite{crossingZero}. Increased adverse symptoms when tapering or quitting a psychiatric medication may be a symptom of withdrawal rather than a sign that the medication is still providing a valuable benefit.} However, my view is that, for schema- and defense-cascade-based symptom worsening, conventional psychiatric medication's clearest indication is short-term crisis management or occasional, as-needed support. For instance, sleep aids may be an important tool for reducing the risk of a manic episode after MDMA therapy for people with bipolar disorder if they can't sleep.
 
-Read \textcite{alexanderInpatient} before seeking any psychiatric treatment; it discusses how voluntary hospitalization can easily turn into involuntary hospitalization and when discussing suicidal ideation or violent intent with a psychiatrist might be dangerous. As discussed in \cref{suicideCops}, involuntary commitment for suicidality or violent intent appears to \textit{increase} the risk of suicide and violence~\cite{emanuelHospitalization}. Because of that risk, cost, and the potential for traumatization in involuntary commitment, a psychiatrist's office or mental health urgent care center is preferred over hospitalization if one is available.
+Read \textcite{alexanderInpatient} before seeking any psychiatric treatment; it discusses how voluntary hospitalization can easily turn into involuntary hospitalization and when discussing suicidal ideation or violent intent with a psychiatrist might lead to involuntary hospitalization. As discussed in \cref{suicideCops}, involuntary commitment appears to \textit{increase} the risk of suicide and being charged with violent crimes~\cite{emanuelHospitalization}. Because of that risk, cost, and the potential for traumatization in involuntary commitment, a psychiatrist's office or mental health urgent care center is preferred over hospitalization if one is available.
 
 I highly recommend specialist services over non-specialists who likely won't understand MDMA therapy and what you're going through, and who may misdiagnose you. Unfortunately, I only know of two specialized clinics (I haven't vetted them), though you may be able to find individual physicians with the right skills and knowledge:
 \begin{itemize}
 	\item \textcite{hopkinsPersonalized} has a concierge (expensive and not covered by insurance) psychiatry service that covers post-psychedelic difficulties. Email Dr. Bekhrad at \href{mailto:abekhra1@jhmi.edu}{abekhra1@jhmi.edu} to set up an appointment.
-	\item \textcite{alexianerClinic} has a psychedelic outpatient clinic.
+	\item \textcite{alexianerClinic} has a psychedelic outpatient clinic that can sometimes provide international tele-consultation.
 \end{itemize}
 
 If you can't find a medical provider who understands psychedelics, try to find one who at least understands trauma. They will be much more helpful than the average provider who doesn't understand anything about what you're going through.
@@ -2365,12 +2397,12 @@ My certainty scale is:
 \end{description}
 
 \section*{Complex Systems}
-\claim{The brain is a complex adaptive system whose most important elements include, but are not limited to, priors/schemas, attention, behavior, emotions, defense cascade activation, drugs, medical history, environment, genes, and sleep quality.}{Certainty --- high. See explanation in \cref{complexPriors}.}
-\claim{Most of the dysfunctional attractor states known as mental illness are largely caused by stuck priors/schemas, attention/avoidance, and defense cascade activation. }{Certainty --- medium/high. See explanation for priors in \cref{complexPriors}. Attention/avoidance clearly plays a major role~\cite{berghBSTS}. Defense cascade activation also clearly plays a large role in symptoms~\cite{kozlowskaDefenseCascade} and likely attractor state maintenance~\cite{laniusNeurobiology}. These being the primary causes of most mental illness reflects both my intuition and a common belief among therapists even though they often use different terminology.}
+\claim{The brain is a complex adaptive system whose most important elements include, but are not limited to, priors/schemas, attention, behavior, emotions, defense cascade activation, drugs, medical history, environment, genes, and sleep quality.}{Certainty --- high. Some are self-evident and the others are well-established.}
+\claim{Most of the dysfunctional attractor states known as mental illness are largely caused by stuck priors/schemas, attention/avoidance, and defense cascade activation. }{Certainty --- medium/high. The priors/schemas component is obvious from clinical experience~\cite{eckerUnlocking}. Attention/avoidance clearly plays a major role~\cite{berghBSTS}. Defense cascade activation also clearly plays a large role in symptoms~\cite{kozlowskaDefenseCascade} and likely attractor state maintenance~\cite{laniusNeurobiology}. These being the primary causes of most mental illness reflects both my intuition and a common belief among therapists even though they often use different terminology.}
 \claim{Complex system dynamics largely explain features of therapy like symptom worsening, sudden unforeseen improvement or worsening, and how mental illness is sometimes a stable state that doesn't naturally resolve. Additionally, symptom worsening is usually \textit{part of the healthy process of therapy} when managed well.}{Certainty --- high. Attractor states (e.g., some mental illnesses that don't naturally resolve) and nonlinear dynamics like symptom worsening and sudden unforeseen changes are core features of complex systems. Some research has shown that increased symptom variability during therapy is associated with better long-term therapeutic outcomes.}
 \claim{Sufficient further reconsolidation resolves symptom worsening (symptom fluctuation and stable symptom worsening), though the timeline is difficult to predict and there are unpredictable ups and downs.}{Certainty --- medium/high. I have two lines of reasoning for this in symptom fluctuation and one in the case of stable symptom worsening.
 
-Symptom fluctuation is a natural feature of complex systems transitioning from one state to another~\cite{hayes2020complex}. Further weakening of the old state or strengthening of the new state resolves this fluctuation. As discussed in \cref{complexPriors}, there is good reason to believe that stuck schemas/priors are critical complex system elements that reinforce attractor states. Therefore, reconsolidating the schemas reinforcing the maladaptive state eventually reduces symptom fluctuation and solidifies the transition to a more adaptive state.
+Symptom fluctuation is a natural feature of complex systems transitioning from one state to another~\cite{hayes2020complex}. Further weakening of the old state or strengthening of the new state resolves this fluctuation. As discussed in \textcite{eckerUnlocking}, there is good reason to believe that stuck schemas/priors are critical complex system elements that reinforce attractor states. Therefore, reconsolidating the schemas reinforcing the maladaptive state eventually reduces symptom fluctuation and solidifies the transition to a more adaptive state.
 
 Some evidence shows that increased symptom fluctuation during therapy is associated with better outcomes later on in the process~\cite{olthofDestabilization}. Effective therapy is generally a process of reconsolidating the schemas reinforcing maladaptive states of mental illness~\cite{eckerUnlocking}. This suggests that symptom fluctuation first increases, then decreases over an extended course of reconsolidation.
 
@@ -2428,7 +2460,7 @@ It is important for practitioners to effectively help their clients through vari
     \item suicidality
 \end{itemize}
 
-It's important for practitioners to be proficient in identifying and successfully working with opioid dampening and panic during MDMA sessions (see \cref{sec:defensecascade,sec:sessionbarriers}).
+It's also important for practitioners to be proficient in identifying and successfully working with opioid dampening and panic during MDMA sessions (see \cref{sec:defensecascade,sec:sessionbarriers}).
 
 \subsubsection*{Ethics}
 Maintaining especially high ethical boundaries is critical because MDMA can create intense feelings of trust and connection. A number of practitioners have used psychedelics to abuse their clients~\cite{hallMad,davidsonEisner}.
@@ -2475,7 +2507,7 @@ The following is my experience with internalized MDMA therapy.
 
     As of early \the\year, I've done about \textasciitilde\reconsolidationhours{}\,hours of reconsolidation. I've made tons of progress working through my backlog of stuck schemas, and I've become much less neurotic about many things. Unfortunately, severely disordered attachment and suspected childhood sexual abuse left me with an immense backlog of ever-present stuck fears and angers. Internalized MDMA therapy has been incredibly convenient for doing huge amounts of therapy without a therapist or MDMA. It also doesn't require the usual explicit process overhead of understanding my stuck schemas, figuring out a mismatch for each one, and then setting up the juxtapositions. It's kept me making therapeutic progress through periods of despair and depression when I surely wouldn't have had the capacity for any sort of typical therapy.
     
-    The only downside I have noticed is that since I have many strong stuck fears activated every waking moment, the auto-reconsolidation also starts running every morning once I wake up enough. That inevitably leads to a therapy hangover a bit later. Then the auto-reconsolidation starts up again once the therapy hangover wears off. I've been therapy hungover most of my waking hours since I started the practice. I also haven't discovered any way to turn auto-reconsolidation off. It goes for about 2\,hours a day, limited only by therapy hangovers. Other than \enquote{flipping the switch} to increase reconsolidation intensity, the only control I seem to have over the process is which stuck schemas are activated. I can activate different schemas by going to different places, doing different things, talking to people, etc. This causes the auto-reconsolidation process to preferentially reconsolidate the schemas those contexts activate. This lack of control is not optimal,\footnote{The lack of control might actually be a benefit. Many people drastically underestimate the benefits of reconsolidation, and the lack of control will keep the process going through any periods where I might be too depressed to manually activate reconsolidation.} but the process keeps delivering therapeutic progress, and I haven't noticed any unambiguous side effects yet apart from therapy hangovers.%, with one exception.
+    The only downside I have noticed is that since I have many strong stuck fears activated every waking moment, the auto-reconsolidation also starts running every morning once I wake up enough. That inevitably leads to a therapy hangover a bit later. Then the auto-reconsolidation starts up again once the therapy hangover wears off. I've been therapy hungover most of my waking hours since I started the practice. I also haven't discovered any way to turn auto-reconsolidation off. It goes for about 2\,hours a day, limited only by therapy hangovers. Other than \enquote{flipping the switch} to increase reconsolidation intensity, the only control I seem to have over the process is which stuck schemas are activated. I can activate different schemas by going to different places, doing different things, talking to people, etc. This causes the auto-reconsolidation process to preferentially reconsolidate the schemas those contexts activate. This lack of control is not optimal,\footnote{The lack of control might actually be a benefit. Many people drastically underestimate the benefits of reconsolidation, and the lack of control kept the process going through any periods where I might have been too depressed to manually reconsolidate.} but the process keeps delivering therapeutic progress, and I haven't noticed any unambiguous side effects yet apart from therapy hangovers.%, with one exception.
     
     % One day in 2024, after about 600\,hours of reconsolidation, I was riding my bicycle and suddenly felt my sense of self become partially contiguous with \enquote{external} reality. My thoughts, awareness, and the external world all felt to some degree part of the same unitive experience, no longer as divided as they used to be into self and not-self. This wasn't dissociation; I was still in touch with \enquote{my} body, emotions, and sensory experience, and could function appropriately. The effects waxed and waned over a few months and brought up a lot of distress caused by viscerally experiencing my sense of self as an impermanent construction. Luckily, internalized MDMA therapy reconsolidated all that distress too. The sense of self settled into a stable, less rigid state that became a new and unremarkable normal that doesn't seem accompanied by any dysfunction.
 
@@ -2569,7 +2601,7 @@ In this section I switch from memory reconsolidation terminology to predictive p
 I think any proposed mechanism of action needs to explain these facets of MDMA therapy:
 \begin{itemize}
     \item The fundamental process of MDMA therapy is learnable, as described later in this section and in \cref{internalizedReports}. Therefore, the process doesn't require the altered neurochemistry that MDMA induces, even though the altered neurochemistry may make the process easier and more powerful.
-    \item MDMA therapy appears to facilitate prediction error for all stuck priors predicting threat or powerlessness that are active and you pay attention to. Therefore, MDMA must either provide high-level contradictory information applicable to all stuck priors or disable some prediction-error-inhibiting process.
+    \item MDMA therapy appears to facilitate prediction error for all stuck priors involving negative emotions that are active and you stay present with. Therefore, MDMA must either provide high-level contradictory information applicable to all stuck priors or disable some prediction-error-inhibiting process.
 \end{itemize}
 
 With those constraints in mind, I propose the following hypotheses. The supporting and contradictory evidence only lists what initially came to mind. It is not comprehensive.
@@ -2624,13 +2656,13 @@ Other drugs in the same class as MDMA may also be useful for therapy. The follow
 \begin{itemize}
     \item Methylone therapy had good results in a phase II clinical trial for PTSD~\cite{methyloneRCT}. The dose was 150\,mg plus a 100\,mg booster dose 90\,minutes later. Like MDMA, it is illegal in many jurisdictions.
     \item \textcite{baggottNewEntactogens} reports that 5-MAPB is anecdotally the closest single-drug analog to MDMA. The therapeutic dose is unclear, but \textcite{erowid5MAPB} reports that a common dose is 30--70\,mg. Like MDMA, it is illegal in many jurisdictions.
-    \item \textcite{boraxMDMA} developed a specific ratio of 2-FMA, MDAI, 5-MeO-MiPT, and 5-APB succinate whose effects are almost identical to MDMA's in their experience. They also discuss possible substitutions. The dose depends on the specific components used. The components are legally available in some jurisdictions.
+    \item \textcite{boraxMDMA} developed a specific ratio of 2-FMA, MDAI, 5-MeO-MiPT, and 5-APB succinate whose effects are almost identical to MDMA's in their experience. They also discuss possible substitutions. The dose depends on the specific components used. Some components are legally available in some jurisdictions.
 \end{itemize}
 
 \chapter{Casual Observations About MDMA Therapy}
 I have observations about MDMA therapy may be true or useful but which I don't know how to formalize or back up:
 \begin{itemize}
-    \item The reconsolidation done during MDMA therapy isn't limited to the specific aspects of the active schemas that you notice during the session. Often, MDMA-facilitated reconsolidation subtly alters a swath of subtle schemas you may or may not be aware of. This can produce unexpected improvements.
+    \item The reconsolidation done during MDMA therapy isn't limited to the specific aspects of the active schemas that you notice during the session. Often, MDMA-facilitated reconsolidation subtly alters a swath of subtle schemas you may or may not be aware of. This can produce unexpected improvement or destabilization.
 \end{itemize}
 
 \chapter{Suggested Avenues of Future Research}

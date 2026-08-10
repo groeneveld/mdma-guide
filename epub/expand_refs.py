@@ -3,15 +3,15 @@
 Expand LaTeX custom reference commands for EPUB conversion.
 
 This script takes paper.tex and expands:
-- \cref{label} -> formatted reference (e.g., "Section 2.1")
-- \cref{label1,label2} -> "Section 2.1 and Section 3.4"
-- \combinedref{label} -> "number (title)"
-- \combinedcref{label} -> "formatted (title)"
-- \nameref{label} -> "title" (hyperlinked)
-- \nameref*{label} -> "title" (not hyperlinked)
-- \prosecite{key} -> "Title by Author [citation_number]"
-- \textcite{key} -> "LastName \cite{key}" (for EPUB: "Smith [24]")
-- \textcite{key1,key2,...} -> \textcite{key1}\textcite{key2}... (multi-key expanded)
+- \\cref{label} -> formatted reference (e.g., "Section 2.1")
+- \\cref{label1,label2} -> "Section 2.1 and Section 3.4"
+- \\combinedref{label} -> "number (title)"
+- \\combinedcref{label} -> "formatted (title)"
+- \\nameref{label} -> "title" (hyperlinked)
+- \\nameref*{label} -> "title" (not hyperlinked)
+- \\prosecite{key} -> "Title by Author [citation_number]"
+- \\textcite{key} -> "LastName \\cite{key}" (for EPUB: "Smith [24]")
+- \\textcite{key1,key2,...} -> \\textcite{key1}\\textcite{key2}... (multi-key expanded)
 
 Output is written to temp/paper_expanded.tex
 
