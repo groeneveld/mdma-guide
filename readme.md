@@ -202,11 +202,11 @@ trauma reactions.
 Booster doses half the strength of the initial dose are sometimes taken
 1.5–2.5 hours later to extend the session length. This has worked well
 in large clinical trials with no obvious, reported adverse effects.
-However, there is a lower degree of certainty that these higher total
-doses are safe for more than a handful of sessions (Baggott, 2015). I
-think booster doses are fine to start off with, but that once people
-have established a reliably therapeutic routine, they gradually reduce
-their dose to find their *minimum effective dose.*
+However, there is a significantly lower degree of certainty that these
+higher total doses are safe for more than a handful of
+sessions (Baggott, 2015). Booster doses might be fine to start off with,
+but once you have established a reliably therapeutic routine, *gradually
+reduce your dose to find your minimum effective dose.*
 
 The general strategy during the session is emotionally activating
 (triggering) your anxieties, depression, panic, etc., then staying with
@@ -297,7 +297,8 @@ these are best guesses based on sparse evidence**):
 
 - a personal history of addiction to amphetamines or cocaine
 
-- total doses over 2 mg/kg for more than a handful of sessions
+- total doses over 2 mg/kg, especially for more than a handful of
+  sessions
 
 - session spacing less than 4 weeks
 
@@ -309,14 +310,11 @@ these are best guesses based on sparse evidence**):
 - other serious medical conditions, especially ones that are not well
   managed and mild, as assessed by a doctor (Mitchell et al., 2023)
 
-- using MDMA therapy while living with your abuser(s). Rewriting your
-  stuck schemas may dismantle the protection they provide.
-
 ### Take Precaution:
 
-- Don’t drink more than 0.5 L of water during the first six hours of the
-  session unless you need to replace large amounts of sweat (Groeneveld,
-  2026).
+- Don’t drink more than 0.5 L of water during the first six hours of a
+  single-dose session unless you need to replace large amounts of
+  sweat (Groeneveld, 2026). Booster doses probably extend this period.
 
 - Ideally, avoid SSRIs and SNRIs for 2 months prior.
 
@@ -340,8 +338,9 @@ these are best guesses based on sparse evidence**):
   of therapy to resolve, and it may not resolve on the timeline you want
   it to.
 
-  People with secure attachment and no mental illness might not need to
-  consider this limitation.
+  An exception may be people with secure attachment and no mental
+  illness, who I think have very little chance of severe symptom
+  exacerbation.
 
 - MDMA and therapy exhaustion can impair awareness and reaction times.
   Avoid driving and other risky activities on the same day as the
@@ -380,10 +379,10 @@ R., Dreisbach, S., Berjot, C., Putnam, N., & Armeni, K. (n.d.).
 
 
 Godes, M., Lucas, J., & Vermetten, E. (2023). Perceived key change
-phenomena of MDMA-assisted psychotherapy for the treatment of severe
-PTSD: An interpretative phenomenological analysis of clinical
-integration sessions. *Frontiers in Psychiatry*, *14*.
-<https://doi.org/10.3389/fpsyt.2023.957824>
+phenomena of <span class="nocase">MDMA-assisted</span> psychotherapy for
+the treatment of severe PTSD: An interpretative phenomenological
+analysis of clinical integration sessions. *Frontiers in Psychiatry*,
+*14*. <https://doi.org/10.3389/fpsyt.2023.957824>
 
 
 
@@ -414,19 +413,19 @@ Personality and Social Psychology*, *73*(5), 1092.
 
 
 
-Mitchell, J. M., Ot’alora G., M., Kolk, B. van der, Shannon, S.,
+Mitchell, J. M., Ot’alora G., M., van der Kolk, B., Shannon, S.,
 Bogenschutz, M., Gelfand, Y., Paleos, C., Nicholas, C. R., Quevedo, S.,
 Balliett, B., Hamilton, S., Mithoefer, M., Kleiman, S., Parker-Guilbert,
-K., Tzarfaty, K., Harrison, C., Boer, A. de, Doblin, R.,
-Yazar-Klosinski, B., … Group, M. S. C. (2023). MDMA-assisted therapy for
-moderate to severe PTSD: A randomized, placebo-controlled phase 3 trial.
-*Nature Medicine*. <https://doi.org/10.1038/s41591-023-02565-4>
+K., Tzarfaty, K., Harrison, C., de Boer, A., Doblin, R.,
+Yazar-Klosinski, B., … Group, M. S. C. (2023).
+<span class="nocase">MDMA-assisted</span> therapy for moderate to severe
+PTSD: A randomized, placebo-controlled phase 3 trial. *Nature Medicine*.
+<https://doi.org/10.1038/s41591-023-02565-4>
 
 
 
-Psychedelic Alpha. (2025). Unpacking <span class="nocase">FDA’s
-MDMA</span> rejection letter and the road ahead for lykos. *Psychedelic
-Alpha*.
+Psychedelic Alpha. (2025). Unpacking FDA’s MDMA rejection letter and the
+road ahead for lykos. *Psychedelic Alpha*.
 <https://psychedelicalpha.com/news/unpacking-fdas-mdma-rejection-letter-and-the-road-ahead-for-lykos>
 
 
@@ -453,7 +452,7 @@ evidence-based psychedelic therapies*.
 
 
 
-Toebes, B., Brink, W. van den, Gresnigt, F., Jonge, M. de, Kolthoff, E.,
+Toebes, B., van den Brink, W., Gresnigt, F., de Jonge, M., Kolthoff, E.,
 & Vermetten, E. (2024). *MDMA. Beyond the Ecstasy*. State Commission on
 MDMA.
 <https://www.government.nl/site/binaries/site-content/collections/documents/2024/05/31/mdma-beyond-ecstasy/MDMA+Beyond+Ecstasy.pdf>

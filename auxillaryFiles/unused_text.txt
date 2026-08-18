@@ -4283,3 +4283,31 @@ Symptom worsening is certainly difficult, but it isn't necessarily bad~\cite{hay
 \footnote{I don't think using antioxidant supplements to do more frequent sessions is wise because the oral dose of antioxidants humans need to prevent oxidative damage is unknown~\cite{baggottSupplements}. It's not even established that it's possible or safe to get antioxidant plasma concentrations high enough using oral dosing. The studies demonstrating antioxidant protection injected rats with massive doses, though that was to protect against similarly massive doses of MDMA.}
 
 For instance, depression schemas appear to divert attention from most sensory input~\cite{alexanderPrecision}.
+
+The peak plasma concentration and likely oxidative stress\footnote{I think oxidative stress is likely related to the area under curve (AUC) rather than peak concentration.} increase much faster than linearly above 125\,mg in the $>$60\,kg group~\cite{de2000nonlinear}. For instance, increasing from 125\,mg to 150\,mg doubles the peak concentration. For the $<$60\,kg group, this faster increase presumably starts at a lower dose; I speculate 100\,mg based on initial dose recommendations \todo{Is this a reasonable speculation?}. Therefore, I suggest increasing or decreasing your total dose in smaller increments than you would expect when you're above the total doses recommended by \textcite{liechtiInteractions}. I think a 10--15\% increase or decrease per session when above the standard dose is reasonable \todo{Is this reasonable?}.
+
+    \item I can't explain types of dissociation other than tonic/collapsed immobility or unnoticed avoidance (if they exist).
+
+    \item Some MDMA therapy researchers are MDMA evangelists.
+
+    \item using MDMA therapy while living with your abuser(s). Reconsolidating your stuck schemas may dismantle the protection they provide.
+
+
+
+Since there are no public estimates on how long it takes for the human antioxidant buffer to recover after using MDMA, I used the research function of the Claude Opus 5 LLM model to find and read scientific papers on the topic and then generate a span of likely values\todo{I recognize these estimates are tentative at best. I'm open to removing them, but I thought it would be helpful to provide some estimate rather than leaving readers to make wild guesses.}.\footnote{
+    I used this prompt:
+    \begin{quotation}
+        Give me two 95\% confidence intervals for how long the brain's antioxidant buffer takes to replenish after a single dose of MDMA, assuming no hyperthermia. The first CI is for a dose large enough to use up all the buffer but not any more. The second CI is for doses that exceed the buffer. The research on MDMA oxidation is scarce, so you'll have to extrapolate some from other research.
+    \end{quotation}
+
+    The report is available \href{https://github.com/groeneveld/mdma-guide/blob/main/auxillaryFiles/opus_5\_antioxidant\_report.md}{here}.
+
+    It reported 0.5--5 days (confidence: moderate-low) for full replenishment after complete buffer depletion and 1\,week to 6\,months (confidence: low) to recover from buffer-exceeding doses that cause damage. The latter interval doesn't necessarily imply that all damage has been reversed, just that the antioxidant buffers have been restored.
+    
+    These are not real confidence intervals; they are the LLM's guesstimates. I did try a few different prompts with the research functions of five different LLMs (Gemini 3.0 thinking, Claude 4.5/4.6/4.7/5 Opus thinking, and ChatGPT 5.2 prompted to think hard). All the reports suggested spans from a few days to a few weeks. The numbers reported above came from the run that I judged was the most rigorous.
+
+} Its semi-educated guess was that it takes 0.5--5 days to replenish the antioxidant buffer after complete depletion, and there is some evidence that total doses under 2\,mg/kg are unlikely to exceed the buffer~\cite{baggottSupplements}. I tentatively propose using twice\footnote{Using twice the upper end adds protection for people with exacerbating circumstances, like poor CYP2D6 metabolic capacity, other interfering drugs, and poor nutrition.} the upper end of that range as a \enquote{don't go below} spacing for oxidative stress, while noting that it is likely inaccurate due to the nature of LLMs and the limited evidence available.
+
+
+\footnote{Strong, unnoticed avoidance of my emotions was also part of the reason I didn't understand my mental illness.}
+
