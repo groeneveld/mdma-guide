@@ -4311,3 +4311,60 @@ Since there are no public estimates on how long it takes for the human antioxida
 
 \footnote{Strong, unnoticed avoidance of my emotions was also part of the reason I didn't understand my mental illness.}
 
+    \item background information. Example prompt: \enquote{Is it common knowledge in psychiatry that lack of sleep triggers manic episodes?} \textit{occasional}
+
+    \todo{Immobility might actually include sleepiness. But, does that explain why people who fall asleep on MDMA sometimes report exceptionally restoring and restful sleep?}
+
+    \item People may not have the time or capacity to pay attention to their environment or stuck schemas.
+
+The first two items in the list above are forms of schema-driven attention control~\cite{clark2015surfing}. Attention control may be physical, like orienting the eyes and head to certain objects, or internal, like ruminating on certain things or not thinking about certain uncomfortable thoughts, emotions, or sensations. Attention control is flexible and can automatically avoid specific concepts in addition to broader categories of information or sensory input. Some symptoms and disorders look like the brain keeping attention low for certain things from this perspective. PTSD from assault frequently causes people to feel disconnected from their bodies~\cite{vanderKolkBody}. Alexithymia is basically disconnection from emotions~\cite{hogeveen2021alexithymia}.
+
+Throughout this book I use the term \textit{avoidance} for any physical or mental action that either inhibits activation of a stuck schema or decreases attention to contradictory information. These actions can be either deliberate or automatic and noticed or unnoticed.
+
+    The brain may learn that certain information wasn't useful or reliable and thus doesn't pay attention to it.
+
+
+    
+    In the latter case, you don't experience any contradictions because you avoid activating (or fully activating) the stuck schema or you distract yourself from its symptoms when it is activated.
+    
+    Traumatized people frequently avoid things that activate their stuck schemas. This can be physical avoidance, like not petting dogs when you have stuck schemas about how dangerous dogs are. It can also be mental avoidance, like not thinking about or feeling certain overwhelming or uncomfortable things, perhaps when your schemas predict that feeling them is itself a threat. Avoidance is often automatic.
+
+\section{How Schemas Update (Or Don't)}
+\label{sec:mechanism}
+A contradiction between the predictions of a schema and another source of information creates \textit{prediction error,} a difference between expected and actual reality~\cite{eckerUnlocking}. That information can be sensory or created by another schema. In the right conditions---the schema is activated and brain registers the information as unambiguous and in contradiction to the schema's predictions---prediction error triggers an updating process that changes the schema.\footnote{Memory reconsolidation researchers and predictive processing researchers formally define \textit{prediction error} differently. To my knowledge, no one has formally shown that they are the same thing despite the plain-language descriptions of both phenomena being nearly indistinguishable. I assume in this book that reconsolidation is the updating of a set of priors encoded in long-term memory. See \cref{sec:assumptions} for further discussion.} This process works well in everyday life but often fails for schemas formed under trauma, for reasons we'll see below.
+
+When schemas are first created, they are \textit{consolidated} (i.e., integrated) into long-term memory~\cite{eckerUnlocking}. Thereafter, whenever prediction error meets the previously stated criteria, the schema enters a state of plasticity where it can be changed again. That prediction error updates the schema to account for the contradictory information you're experiencing. When that is finished, the memory is \textit{re-consolidated,} re-entering a stable state where it can no longer be changed without another experience of sufficient prediction error. Throughout this book I use \textit{reconsolidate} in a slightly different way to concisely denote the entire process of schema deconsolidation, updating, and reconsolidation. The type of memory described here is implicit memory, not explicit memory of events and facts~\cite{eckerUnlocking}. Implicit memory is our often unconscious model of the world and self.
+
+For instance, you might learn \enquote{Brussels sprouts taste bad} after only eating boiled Brussels sprouts. That belief consolidates in long-term memory after your first experience. At a later point you eat Brussels sprouts pan-browned with grated Parmesan on top. This tastes great, which strongly contradicts the old \enquote{Brussels sprouts taste bad} belief. That contradiction, or prediction error, makes the old belief enter a plastic state where it might then update to \enquote{Brussels sprouts taste delicious when cooked right but bad when boiled.} After the updating, the belief reconsolidates and is again no longer changeable.
+
+Contradictory information can come from a few different sources. Conventional therapy sometimes juxtaposes two contradictory schemas next to each other to facilitate reconsolidation~\cite{eckerUnlocking}. Incoming sensory information also strongly contradicts many stuck schemas. Some stuck schemas erroneously predict immediate threat, like someone hurting you if you refuse a request\footnote{Critically, an intellectual understanding that a stuck schema is inaccurate is not sufficient to reconsolidate many therapeutically-relevant schemas~\cite{eckerUnlocking}. The contradictory information has to be deeply felt as real.}. Saying no to a normal, non-abusive person in a conversation provides contradictory sensory information indicating that they are not actually hurting you. As with the Brussels sprouts example, contradictory information in daily life naturally reconsolidates schemas all the time without any deliberate process.
+
+\label{attention}
+However, as previously stated, contradictory information isn't always perceived as sufficiently unambiguous and applicable to the stuck schema to start the update process for schemas created in traumatic situations. This might happen for a few reasons (this list is likely incomplete):
+\begin{itemize}
+    \item \textbf{Avoidance:} People reasonably try to avoid threats. This \textit{safety-seeking behavior}, as \textcite{safetySeekingBehavior} calls it, is of course adaptive for accurate predictions of threat but can prevent reconsolidation of inaccurate schemas if that behavior prevents contact with contradictory information. This can be physical avoidance, like not petting dogs when you have stuck schemas about how dangerous dogs are. It can also be mental avoidance, like distracting yourself when you think about or feel certain things when your schemas predict that feeling those emotions or thoughts is itself a threat.
+    \item \textbf{Muting [Down-Weighted Precision of Sensory Information]:} The brain can adjust attention outside your control or awareness~\cite{clark2015surfing}. This process is flexible and can decrease attention to specific things in addition to broader categories of information or sensory input~\cite{clark2015surfing}, which includes mental senses like noticing your emotions, thoughts, and memories~\cite{berghBSTS}. Decreased attention makes information more ambiguous and less precise.\footnote{\textit{Precision} is a term closely related to \textit{ambiguity} in the predictive processing literature.} I call this \textit{muting} instead of the exiting-but-clunky term \textit{down-weighted precision of sensory information.} While muting and avoidance are both actions the brain takes that make contradictory information more ambiguous, calling it all \textit{avoidance} might be confusing. That term can imply that it is within your control, which muting is not.
+        
+    \cite{berghBSTS} proposes an example of this phenomenon: the brain might mute all sensory input when it thinks reacting quickly to potential threats is much more important than spending time figuring out whether something is really a threat or not. This is strategy is active any time a schema predicts imminent threat.
+        
+    Various symptoms and disorders look like muting. PTSD frequently causes people to feel disconnected from their bodies~\cite{vanderKolkBody}. Alexithymia is basically disconnection from emotions~\cite{hogeveen2021alexithymia}. Depressed people see the world as less colorful and have impaired autobiographical memory, among other things~\cite{alexanderPrecision}.
+    \item \textbf{Opioid dampening} impairs cognition and sensory processing ~\cite{cheetahSigns}, and thus I think it plausibly impairs reconsolidation. I don't include it in \textit{muting} because those processes are specific and under the brain's nuanced, active control; opioid dampening is a broad-spectrum chemical effect.
+    \item \textbf{Misattribution:} Your brain might misinterpret contradictory evidence. For instance, you might take a lucky charm with you for protection whenever you go into places that activate a stuck schema. Your brain then interprets the fact that your fear did not come to pass as evidence that your lucky charm worked instead of the truth that your stuck schema is inaccurate.
+\end{itemize}
+ 
+The above list might explain why mentally healthy and securely attached people are resilient to events that would traumatize others~\cite{attachmentPTSD,bonanno2008loss}. They generally don't avoid much, feel comfortable attending to their feelings and body, lack preexisting opioid dampening, and don't carry schemas predicting pervasive threat.
+
+I recommend Scott Alexander's summary (\textcite{alexanderPrecision}) of \prosecite{berghBSTS} for further information about attention, which the article calls \textit{precision.} They also call schemas \textit{priors.}
+
+\textit{safety-seeking behavior}, as \textcite{safetySeekingBehavior} calls it
+
+
+They better incorporate secondary sources of information about the risks of MDMA.
+
+I define avoidance in this context as consciously or unconsciously diverting attention away from stuck schemas. Uncertainty about the process of tuning in to stuck schemas might also play a similar role. As described in \cref{sec:defensecascade}, schemas predicting imminent threat and powerlessness produce opioid dampening.\todo{I suspect defense cascade responses are continually generated by learned predictions and deactivate when you reconsolidate the prediction. That pathway is mechanistically straightforward. I haven't come accross clear evidence of activation arising out of dysfunction in the sympathetic and parasympathetic nervous systems themselves without maladaptive predictions but am open to the idea if it is an established phenomenon in mental health.}
+
+\textit{Safety seeking behaviors} (introduced in \cref{attention}) may also inhibit reconsolidation by causing your brain to attribute contradictory evidence to the wrong cause~\cite{salkovskisImportanceBehaviourMaintenance1991}.\footnote{\textcite{salkovskisImportanceBehaviourMaintenance1991} doesn't use the term reconsolidation, but I think it applies.}
+
+
+\subsection*{Misattribution}
+Sometimes the brain also misattributes contradictory evidence to the wrong cause, thus impeding reconsolidation~\cite{salkovskisImportanceBehaviourMaintenance1991}.\footnote{\textcite{salkovskisImportanceBehaviourMaintenance1991} doesn't use the term reconsolidation, but I think it applies.} 

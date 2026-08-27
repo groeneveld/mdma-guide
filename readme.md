@@ -78,10 +78,10 @@ Many self-reports of successful MDMA therapy can be found on the top
 posts on
 [reddit.com/r/mdmatherapy](https://reddit.com/r/mdmatherapy/top/?sort=top&t=all).
 The top posts mostly describe productive sessions that don’t contain
-intense dissociation, avoidance, or symptom worsening. You can see
-occasional descriptions of less productive or more disruptive sessions
-by sorting by *new.* Godes et al. (2023) also reports how therapy
-clients describe how they felt MDMA therapy worked during their
+intense dissociation, avoidance, resistance, or symptom worsening. You
+can see occasional descriptions of less productive or more disruptive
+sessions by sorting by *new.* Godes et al. (2023) also reports how
+therapy clients describe how they felt MDMA therapy worked during their
 sessions: staying with what “is”; decreased reactivity; insight,
 reflection, linking; mental clarity; recovery of traumatic \[episodic\]
 memories; disentangling trauma from self; reuniting lost affects and
