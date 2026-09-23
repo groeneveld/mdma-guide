@@ -7,6 +7,9 @@ if [ paper.tex -nt "Open MDMA.tex" ] \
     python3 auxillaryFiles/gls.py
 fi
 
+# Full table of contents (including starred headings) as Markdown
+python3 auxillaryFiles/toc.py
+
 # Create temp directory if it doesn't exist
 mkdir -p temp
 

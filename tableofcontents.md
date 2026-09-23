@@ -1,0 +1,141 @@
+# Table of Contents
+
+- Preface
+  - AI Disclosure
+  - Biases, Conflicts of Interest, and Background:
+- Summary
+  - How Trauma and Insecurity Affect Us
+  - How MDMA Therapy Works
+  - The MDMA Therapy Session
+  - Working with a Mental Health Practitioner
+  - Medical, Psychological, and Drug Interaction Risks
+    - Always Avoid (significant risk of death or irreversible damage)
+    - Use Caution With
+    - Take Precaution:
+- Introduction
+  - How to Read this Book
+  - Approach Mental Health Research and Practice With Skepticism
+  - Methodology
+    - Reference Validity Checks
+    - Major Unresolved Issues
+    - Reasons to be Confident
+    - Reasons to be Skeptical
+  - Efficacy of MDMA Therapy
+  - MDMA Therapy Generalizes Beyond PTSD
+- Theoretical Model
+  - The Defense Cascade
+  - Trauma, Insecurity, and their Effects
+  - How Schemas Update (Or Don't)
+  - How MDMA Helps Update Schemas
+  - Somatic Symptoms
+  - Complex Systems: Symptoms Can Get Worse Before They Get Better
+    - Symptom Worsening
+    - Healing in Complex Systems
+    - The Limitations of My Model and the Complex Systems Approach
+- Safety
+  - Always Avoid (significant risk of death or irreversible damage)
+  - Use Caution With (continue reading for further assessment)
+  - Take Precaution:
+  - Basic Pharmacology
+  - Acute Effects
+  - Testing and Measurement
+  - Dosing
+    - The First Set
+    - The Second Set
+    - My Recommendations
+  - Session Frequency
+    - Additional Downsides of Frequent Sessions:
+    - Benefits of Frequent Sessions:
+  - Drug Interactions
+    - The most risky classes of interactions:
+    - Specific drug interactions, starting with the most risky:
+  - Medical Risks
+    - Preexisting health conditions:
+    - Acute adverse effects:
+    - Chronic adverse effects:
+    - Higher risk groups:
+  - Psychological Risks
+  - When to Seek Emergency Care
+  - Common Concerns
+- The Arc of Healing
+  - When to Schedule Sessions
+- Working With or Without a Practitioner
+  - Practitioner Guidance vs. Self-Guidance
+    - Factors Favoring Practitioner Guidance
+    - Factors Favoring Self-Guidance
+    - Recommended Models
+  - How to Find a Practitioner
+  - Involuntary Inpatient Commitment
+- Prompts for Activating Stuck Schemas
+  - Personal Schemas
+  - Social Schemas
+  - Existential Schemas
+  - Cognitive Flexibility and Truth-Seeking
+  - Authentic Engagement with Empathy, Ethical Reasoning, and Ethical Action
+  - Connection with Nature
+    - Beyond MDMA Therapy
+- Pre- to Post-Session
+  - Pre-Session Checklist
+    - Mindset
+    - Setting
+    - Tools
+    - Preparation for the Post-Session
+  - Reconsolidation Barriers: Avoidance, Muting, and Opioid Dampening
+    - Increasing Safety
+    - Paying Attention
+    - Other Options
+  - The Therapeutic MDMA Session
+    - Session Timeline
+      - Come-up
+      - Peak
+      - Comedown
+      - After-effects
+    - Therapeutic Technique
+    - Barriers to Reconsolidation
+    - Crisis Management
+    - Therapy Hangover
+    - A Precaution Against Life-Altering Decisions
+  - Troubleshooting
+    - Numbness, Immobility, Heaviness, or Sleepiness
+    - Not Accessing Any Memories of Traumatic Events
+    - Soberness, Boredom, or No Emotional Processing
+    - Distress is too Overwhelming to Stay Present with or Reconsolidate
+    - Feeling too Blissful to Engage with Stuck Schemas
+    - Issue Comes Back After What Feels Like Successful Reconsolidation
+    - Adverse Effects Lasting up to Three Days
+    - Adverse Effects Lasting More than Three Days
+    - Not Getting to the Issue, Schema, or Memory You Want to Address
+    - Symptoms Come Back After a Few Weeks
+    - Still High More than 24 Hours Later
+    - Feeling Like You are Going Crazy
+    - Sessions Feel Like They're Becoming Less Effective Over Time
+    - Remembering Previously Forgotten Events
+    - Changes in Senses of Self, Existence, or Spirituality
+      - Working Theory
+  - Afterglow
+  - Assessing Whether the Session Worked
+- Between Sessions
+  - Reconsolidation Tools
+    - LLM Therapy
+  - Grounding Tools
+  - Peer and Community Support
+  - Medical/Psychiatric Support
+  - Life Changes Associated with Improved Mental Health
+    - Health Habits and Practices
+    - Relationships
+    - Making Changes
+- Core Assumptions
+  - Complex Systems
+  - Memory-Reconsolidation/Predictive-Processing
+  - Defense Cascade and Safety
+- Information for Practitioners
+  - Skills
+  - Ethics
+  - Treatment
+  - Experience
+  - Recommended Reading
+- Reports of Internalized MDMA Therapy
+- Mechanism of Action Hypotheses
+- Alternatives to MDMA
+- Suggested Avenues of Future Research
+- Bibliography

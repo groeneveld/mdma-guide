@@ -4368,3 +4368,18 @@ I define avoidance in this context as consciously or unconsciously diverting att
 
 \subsection*{Misattribution}
 Sometimes the brain also misattributes contradictory evidence to the wrong cause, thus impeding reconsolidation~\cite{salkovskisImportanceBehaviourMaintenance1991}.\footnote{\textcite{salkovskisImportanceBehaviourMaintenance1991} doesn't use the term reconsolidation, but I think it applies.} 
+
+
+(traditionally religious groups, but increasingly secular)
+
+\footnote{The fact that multiple traditions describe similar paths of contemplative development suggests that there is an overlapping set of underlying changes~\cite{ingram2018mastering}. This presumably consists of major changes to networks of schemas that model self, agency, permanence, consciousness, and how those all relate to perception and reality. Each tradition then interprets this common set of changes through their existing religious beliefs.}
+
+ The fact that multiple traditions describe similar paths of contemplative development~\cite{ingram2018mastering} suggests to me that there is a shared underlying transformation that each religion just interprets through its existing beliefs. Thus, feel free to pick and choose what suits you best rather than trying to stay faithful to one tradition.
+
+ When updating your schemas from a duality model to a non-dual model, the self is relegated to a temporary construct with no permenant essence. 
+
+Some traditions include unity with God, though \textcite{ingram2018mastering} argues that that and nonduality are just different terms for the same thing.
+
+ \textcite{cheetahHouse} specializes in helping people through this stabilization process. 
+
+ Anecdotal reports are congruent with this: meditation helps some people deal with stuck schemas but makes it worse for others.
