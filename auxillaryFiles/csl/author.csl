@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Helper style for Open MDMA: cites as short author names ("Kozlowska et al."),
+     used by textcite. -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info>
+    <title>Open MDMA author citations</title>
+    <id>open-mdma-author</id>
+    <updated>2026-10-06T00:00:00+00:00</updated>
+  </info>
+  <citation>
+    <layout delimiter=", ">
+      <names variable="author">
+        <name form="short" and="text" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1"/>
+        <substitute>
+          <names variable="editor"/>
+          <text variable="title"/>
+        </substitute>
+      </names>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout><text variable="title"/></layout>
+  </bibliography>
+</style>

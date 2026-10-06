@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Helper style for Open MDMA: cites as the work's title (normal form) or its
+     authors' full names (author form). Used by citetitle/citefullauthor/prosecite. -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info>
+    <title>Open MDMA title citations</title>
+    <id>open-mdma-title</id>
+    <updated>2026-10-06T00:00:00+00:00</updated>
+  </info>
+  <citation and="text" delimiter-precedes-last="never">
+    <layout delimiter="; ">
+      <choose>
+        <if type="book report thesis" match="any">
+          <text variable="title" font-style="italic"/>
+        </if>
+        <else>
+          <text variable="title" quotes="true"/>
+        </else>
+      </choose>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout><text variable="title"/></layout>
+  </bibliography>
+</style>

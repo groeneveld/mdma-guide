@@ -1,5 +1,9 @@
 # Table of Contents
 
+- Abstract
+- Disclaimer
+- Changes Since Version 6.0
+- Contents
 - Preface
   - AI Disclosure
   - Biases, Conflicts of Interest, and Background:
@@ -9,11 +13,8 @@
   - The MDMA Therapy Session
   - Working with a Mental Health Practitioner
   - Medical, Psychological, and Drug Interaction Risks
-    - Always Avoid (significant risk of death or irreversible damage)
-    - Use Caution With
-    - Take Precaution:
 - Introduction
-  - How to Read this Book
+  - How to Read This Book
   - Approach Mental Health Research and Practice With Skepticism
   - Methodology
     - Reference Validity Checks
@@ -24,7 +25,7 @@
   - MDMA Therapy Generalizes Beyond PTSD
 - Theoretical Model
   - The Defense Cascade
-  - Trauma, Insecurity, and their Effects
+  - Trauma, Insecurity, and Their Effects
   - How Schemas Update (Or Don't)
   - How MDMA Helps Update Schemas
   - Somatic Symptoms
@@ -33,9 +34,6 @@
     - Healing in Complex Systems
     - The Limitations of My Model and the Complex Systems Approach
 - Safety
-  - Always Avoid (significant risk of death or irreversible damage)
-  - Use Caution With (continue reading for further assessment)
-  - Take Precaution:
   - Basic Pharmacology
   - Acute Effects
   - Testing and Measurement
@@ -86,10 +84,6 @@
     - Other Options
   - The Therapeutic MDMA Session
     - Session Timeline
-      - Come-up
-      - Peak
-      - Comedown
-      - After-effects
     - Therapeutic Technique
     - Barriers to Reconsolidation
     - Crisis Management
@@ -99,15 +93,15 @@
     - Numbness, Immobility, Heaviness, or Sleepiness
     - Not Accessing Any Memories of Traumatic Events
     - Soberness, Boredom, or No Emotional Processing
-    - Distress is too Overwhelming to Stay Present with or Reconsolidate
-    - Feeling too Blissful to Engage with Stuck Schemas
+    - Distress Is Too Overwhelming to Stay Present with or Reconsolidate
+    - Feeling Too Blissful to Engage with Stuck Schemas
     - Issue Comes Back After What Feels Like Successful Reconsolidation
     - Adverse Effects Lasting up to Three Days
     - Adverse Effects Lasting More than Three Days
     - Not Getting to the Issue, Schema, or Memory You Want to Address
     - Symptoms Come Back After a Few Weeks
     - Still High More than 24 Hours Later
-    - Feeling Like You are Going Crazy
+    - Feeling Like You Are Going Crazy
     - Sessions Feel Like They're Becoming Less Effective Over Time
     - Remembering Previously Forgotten Events
     - Changes in Senses of Self, Existence, or Spirituality
@@ -138,4 +132,9 @@
 - Mechanism of Action Hypotheses
 - Alternatives to MDMA
 - Suggested Avenues of Future Research
+- Glossary
 - Bibliography
+- Earlier Revisions
+  - Changes from Version 5 to 6
+  - Changes from Version 4 to 5
+  - Changes from Version 3 to 4

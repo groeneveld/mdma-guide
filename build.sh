@@ -1,116 +1,125 @@
 #!/bin/bash
+# Build the Typst edition: Open MDMA.pdf, index.html, Open MDMA.epub and
+# README.md, all written to this folder.
+set -euo pipefail
+cd "$(dirname "$0")"
 
-# Run glossary preprocessing (skip if inputs are older than output)
-if [ paper.tex -nt "Open MDMA.tex" ] \
-   || [ glossary.tex -nt "Open MDMA.tex" ] \
-   || [ auxillaryFiles/gls.py -nt "Open MDMA.tex" ]; then
-    python3 auxillaryFiles/gls.py
-fi
-
-# Full table of contents (including starred headings) as Markdown
-python3 auxillaryFiles/toc.py
-
-# Create temp directory if it doesn't exist
+FONTS=auxillaryFiles/fonts  # Libertinus, SIL Open Font License (auxillaryFiles/fonts/OFL.txt)
+TYPST=(typst compile --root . --font-path "$FONTS")
 mkdir -p temp
 
-# Run latexmk with configuration from .latexmkrc
-latexmk "Open MDMA.tex"
+# Keep the LICENSE copyright year current.
+sed -i '' -E "s/^(Copyright \(c\) )[0-9]{4}/\1$(date +%Y)/" LICENSE
 
-# Move final PDF to root directory
-mv temp/"Open MDMA.pdf" .
+# PDF. Typst writes the accessibility tag tree as thousands of uncompressed
+# objects; repacking them into compressed object streams more than halves the
+# file. Needs pikepdf (pip install pikepdf).
+"${TYPST[@]}" book.typ temp/book.pdf
+python3 - <<'PY'
+import pikepdf
+with pikepdf.open("temp/book.pdf") as pdf:
+    pdf.save("Open MDMA.pdf",
+             object_stream_mode=pikepdf.ObjectStreamMode.generate,
+             compress_streams=True, recompress_flate=True)
+PY
 
-# EPUB
-python3 epub/expand_refs.py
+# HTML: Typst's export, plus the Libertinus fonts inlined as @font-face rules
+# so index.html is self-contained. The fonts are subset to the characters the
+# page uses (plus printable ASCII) and compressed as WOFF2 to keep it small.
+# Needs fonttools and brotli (pip install fonttools brotli).
+"${TYPST[@]}" --features html --format html book.typ temp/book.html
+python3 - "$FONTS" <<'PY'
+import base64, html, io, string, sys
+from fontTools import subset
+from fontTools.ttLib import TTFont
+fonts = sys.argv[1]
+page = open("temp/book.html").read()
+chars = set(html.unescape(page)) | set(string.printable)
 
-LIBERTINUS_DIR=/usr/local/texlive/2026/texmf-dist/fonts/opentype/public/libertinus-fonts
+def woff2(path):
+    font = TTFont(path)
+    options = subset.Options()
+    options.flavor = "woff2"
+    subsetter = subset.Subsetter(options)
+    subsetter.populate(text="".join(chars))
+    subsetter.subset(font)
+    out = io.BytesIO()
+    font.save(out)
+    return base64.b64encode(out.getvalue()).decode()
 
-pandoc \
-    --citeproc \
-    --bibliography=references.bib \
-    --csl=auxillaryFiles/nature.csl \
-    -f latex -t epub3 \
-    -o Open\ MDMA.epub \
-    -M link-citations=true \
-    --lua-filter epub/swap-pdf-images.lua \
-    --lua-filter epub/unwrap-adjustwidth.lua \
-    --lua-filter epub/strip-longtable-continuation.lua \
-    --css=epub/epub-styles.css \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusSerif-Regular.otf" \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusSerif-Italic.otf" \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusSerif-Bold.otf" \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusSerif-BoldItalic.otf" \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusSans-Regular.otf" \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusSans-Italic.otf" \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusSans-Bold.otf" \
-    --epub-embed-font="$LIBERTINUS_DIR/LibertinusMono-Regular.otf" \
-    temp/paper_expanded.tex
+faces = [
+    ("Libertinus Serif", "normal", "normal", "LibertinusSerif-Regular"),
+    ("Libertinus Serif", "italic", "normal", "LibertinusSerif-Italic"),
+    ("Libertinus Serif", "normal", "bold", "LibertinusSerif-Bold"),
+    ("Libertinus Serif", "italic", "bold", "LibertinusSerif-BoldItalic"),
+    ("Libertinus Sans", "normal", "normal", "LibertinusSans-Regular"),
+    ("Libertinus Sans", "italic", "normal", "LibertinusSans-Italic"),
+    ("Libertinus Sans", "normal", "bold", "LibertinusSans-Bold"),
+    ("Libertinus Mono", "normal", "normal", "LibertinusMono-Regular"),
+]
+css = "".join(
+    f'@font-face {{ font-family: "{family}"; font-style: {style}; font-weight: {weight}; '
+    f'src: url(data:font/woff2;base64,{woff2(f"{fonts}/{file}.otf")}) format("woff2"); }}\n'
+    for family, style, weight, file in faces
+)
+page = page.replace("</head>", f"<style>{css}</style></head>", 1)
+open("index.html", "w").write(page)
+PY
 
-# HTML (self-contained single page for GitHub Pages)
-# Prepend @font-face rules (machine-specific font paths) to the visual rules,
-# then let pandoc --embed-resources inline the fonts, CSS and SVG images so the
-# resulting index.html is fully portable.
-cat > temp/html.css <<CSS
-@font-face { font-family: "Libertinus Serif"; font-style: normal; font-weight: normal; src: url("$LIBERTINUS_DIR/LibertinusSerif-Regular.otf"); }
-@font-face { font-family: "Libertinus Serif"; font-style: italic; font-weight: normal; src: url("$LIBERTINUS_DIR/LibertinusSerif-Italic.otf"); }
-@font-face { font-family: "Libertinus Serif"; font-style: normal; font-weight: bold; src: url("$LIBERTINUS_DIR/LibertinusSerif-Bold.otf"); }
-@font-face { font-family: "Libertinus Serif"; font-style: italic; font-weight: bold; src: url("$LIBERTINUS_DIR/LibertinusSerif-BoldItalic.otf"); }
-@font-face { font-family: "Libertinus Sans"; font-style: normal; font-weight: normal; src: url("$LIBERTINUS_DIR/LibertinusSans-Regular.otf"); }
-@font-face { font-family: "Libertinus Sans"; font-style: italic; font-weight: normal; src: url("$LIBERTINUS_DIR/LibertinusSans-Italic.otf"); }
-@font-face { font-family: "Libertinus Sans"; font-style: normal; font-weight: bold; src: url("$LIBERTINUS_DIR/LibertinusSans-Bold.otf"); }
-@font-face { font-family: "Libertinus Mono"; font-style: normal; font-weight: normal; src: url("$LIBERTINUS_DIR/LibertinusMono-Regular.otf"); }
-CSS
-cat html/html-styles.css >> temp/html.css
+# EPUB: Typst HTML -> pandoc. The embedded fonts are subset to the characters
+# the book uses (plus printable ASCII and pandoc's footnote backlink arrow);
+# the full Libertinus files would otherwise make up most of the EPUB. They
+# stay OTF, which EPUB readers support more widely than WOFF2.
+python3 auxillaryFiles/epub-prep.py temp/book.html temp/epub.html
+python3 - "$FONTS" <<'PY'
+import glob, html, os, string, sys
+from fontTools import subset
+from fontTools.ttLib import TTFont
+chars = set(html.unescape(open("temp/epub.html").read())) | set(string.printable) | {"↩", "︎"}
+os.makedirs("temp/fonts", exist_ok=True)
+for path in glob.glob(f"{sys.argv[1]}/*.otf"):
+    font = TTFont(path)
+    subsetter = subset.Subsetter(subset.Options())
+    subsetter.populate(text="".join(chars))
+    subsetter.subset(font)
+    font.save(f"temp/fonts/{os.path.basename(path)}")
+PY
+(cd temp && pandoc epub.html -f html -t epub3 \
+    --shift-heading-level-by=-1 \
+    --metadata title="Open MDMA" --metadata author="Mark Groeneveld" \
+    --css=../auxillaryFiles/epub-styles.css \
+    --epub-embed-font="fonts/*.otf" \
+    -o "../Open MDMA.epub")
 
-pandoc \
-    --citeproc \
-    --bibliography=references.bib \
-    --csl=auxillaryFiles/nature.csl \
-    -f latex -t html5 \
-    --standalone \
-    --embed-resources \
-    --toc --toc-depth=2 \
-    --mathjax \
-    -M link-citations=true \
-    --lua-filter epub/swap-pdf-images.lua \
-    --lua-filter epub/unwrap-adjustwidth.lua \
-    --lua-filter epub/strip-longtable-continuation.lua \
-    --css=temp/html.css \
-    --resource-path=. \
-    -o index.html \
-    temp/paper_expanded.tex
+# README.md: the abstract and plain-language summary, with author-year
+# citations and the markdown-only text (#mdcite, #mdonly) switched on.
+python3 - <<'PY'
+src = open("book.typ").read()
+def between(a, b):
+    return src[src.index(a) + len(a):src.index(b)].strip()
+open("temp/readme.typ", "w").write(f'''#import "/template.typ": *
+#show: book
 
-# MD
-sed -n '/^% BEGIN_PLAIN_SUMMARY/,/^% END_PLAIN_SUMMARY/p' paper.tex \
-  | sed '1d;$d' \
-  | sed 's/\\mdcite{/\\citep{/g' \
-  | perl -0pe 's/\\mdonly\{((?:[^{}]++|\{(?:[^{}]++|\{[^{}]*\})*\})*)\}/$1/g' \
-  | pandoc \
-      --citeproc \
-      --bibliography=references.bib \
-      --csl=auxillaryFiles/apa.csl \
-      -f latex -t commonmark \
-      -o README.md
+= Short Summary
 
-sed -i '' -E '/^<\/div>$/d' README.md
-sed -i '' -E '/^<div[^>]+>$/d' README.md
-sed -i '' -E '/^<div[^>]*$/,/^[^<]*>$/d' README.md
+{between("// BEGIN_ABSTRACT", "// END_ABSTRACT")}
 
-# Prepend abstract (as Short Summary) above the existing summary (as Long Summary)
-sed -n '/^\\frontsection{Abstract}/,/^\\clearpage/p' paper.tex \
-  | sed '1d;$d' \
-  | sed 's/\\mdcite{/\\citep{/g' \
-  | perl -0pe 's/\\mdonly\{((?:[^{}]++|\{(?:[^{}]++|\{[^{}]*\})*\})*)\}/$1/g' \
-  | pandoc \
-      --citeproc \
-      --bibliography=references.bib \
-      --csl=auxillaryFiles/apa.csl \
-      -f latex -t commonmark \
-      -o temp/abstract.md
+= Long Summary
 
-{
-  printf '# Short Summary\n\n'
-  cat temp/abstract.md
-  printf '\n# Long Summary\n\n'
-  cat README.md
-} > temp/README.md.new
-mv temp/README.md.new README.md
+{between("// BEGIN_PLAIN_SUMMARY", "// END_PLAIN_SUMMARY")}
+
+= References
+#bibliography("/references.bib")
+''')
+PY
+"${TYPST[@]}" --input readme=true --features html --format html temp/readme.typ temp/readme.html
+python3 auxillaryFiles/epub-prep.py temp/readme.html temp/readme-notes.html
+pandoc temp/readme-notes.html -f html -t gfm-raw_html --wrap=none \
+    --shift-heading-level-by=-1 -o README.md
+# Typst's APA style leaves an empty month/day slot: "(2015,)" -> "(2015)"
+sed -i '' -E 's/\(([0-9]{4}[a-z]?),\)/(\1)/g' README.md
+# Citation links point at anchors GitHub strips; keep just the text.
+sed -i '' -E 's/\[([^]]*)\]\(#loc-[0-9]+\)/\1/g' README.md
+
+# Intermediate files are only needed during the build.
+rm -rf temp
