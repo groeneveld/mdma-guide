@@ -4383,3 +4383,6 @@ Some traditions include unity with God, though \textcite{ingram2018mastering} ar
  \textcite{cheetahHouse} specializes in helping people through this stabilization process. 
 
  Anecdotal reports are congruent with this: meditation helps some people deal with stuck schemas but makes it worse for others.
+
+  The book is my version of \textit{Where There Is No Doctor,} but made for a world in which even mental health practitioners need far better information than they currently have.
+

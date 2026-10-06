@@ -379,10 +379,10 @@ R., Dreisbach, S., Berjot, C., Putnam, N., & Armeni, K. (n.d.).
 
 
 Godes, M., Lucas, J., & Vermetten, E. (2023). Perceived key change
-phenomena of <span class="nocase">MDMA-assisted</span> psychotherapy for
-the treatment of severe PTSD: An interpretative phenomenological
-analysis of clinical integration sessions. *Frontiers in Psychiatry*,
-*14*. <https://doi.org/10.3389/fpsyt.2023.957824>
+phenomena of MDMA-assisted psychotherapy for the treatment of severe
+PTSD: An interpretative phenomenological analysis of clinical
+integration sessions. *Frontiers in Psychiatry*, *14*.
+<https://doi.org/10.3389/fpsyt.2023.957824>
 
 
 
@@ -417,10 +417,9 @@ Mitchell, J. M., Ot’alora G., M., van der Kolk, B., Shannon, S.,
 Bogenschutz, M., Gelfand, Y., Paleos, C., Nicholas, C. R., Quevedo, S.,
 Balliett, B., Hamilton, S., Mithoefer, M., Kleiman, S., Parker-Guilbert,
 K., Tzarfaty, K., Harrison, C., de Boer, A., Doblin, R.,
-Yazar-Klosinski, B., … Group, M. S. C. (2023).
-<span class="nocase">MDMA-assisted</span> therapy for moderate to severe
-PTSD: A randomized, placebo-controlled phase 3 trial. *Nature Medicine*.
-<https://doi.org/10.1038/s41591-023-02565-4>
+Yazar-Klosinski, B., … Group, M. S. C. (2023). MDMA-assisted therapy for
+moderate to severe PTSD: A randomized, placebo-controlled phase 3 trial.
+*Nature Medicine*. <https://doi.org/10.1038/s41591-023-02565-4>
 
 
 

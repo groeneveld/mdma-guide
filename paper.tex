@@ -72,7 +72,7 @@
     allcolors={rgb:red,0.5;green,0;blue,0.13}
 }
 
-% Stuff for my glossary that I don't completely understand
+% Stuff for my glossary that I don't understand
 \usepackage[nonumberlist,toc]{glossaries}
 \renewcommand*{\glspostdescription}{}
 \makeglossaries
@@ -117,11 +117,6 @@
   {\endlist}
   {\item}
 
-% Count citations
-\usepackage{totcount}
-\newtotcounter{citnum}
-\AtEveryBibitem{\stepcounter{citnum}}
-
 % Standard bibliography stuff, though I don't like having to set penalties
 % Maps the british document language onto American APA so the bibliography is
 % byte-for-byte what it was before babel was introduced.
@@ -156,7 +151,7 @@
 
 \interfootnotelinepenalty=10000
 
-% Make citations and text that only appear in markdown for reddit
+% Make citations and text that only appear in the markdown version
 \newcommand{\mdcite}[1]{}
 \newcommand{\mdonly}[1]{}
 
@@ -179,12 +174,13 @@
 }
 
 % Some stuff that makes todo notes work for some reason
-\setlength{\marginparwidth}{2cm}
-\setlength{\marginparsep}{0.3cm}
-\usepackage[textsize=tiny,textwidth=2cm,disable]{todonotes}
+% \setlength{\marginparwidth}{2cm}
+% \setlength{\marginparsep}{0.3cm}
+% \usepackage[textsize=tiny,textwidth=2cm,disable]{todonotes}
 
 \newcommand{\reconsolidationhours}{\the\numexpr (730 * ((\year - 2023) * 12 + (\month - 10)) / 12) / 100 * 100 \relax{}}
 
+% ?
 \usepackage{changepage}
 \newcommand{\claim}[2]{%
     \par\medskip\noindent\textbf{#1}%
@@ -262,7 +258,7 @@ The purpose of the book is reducing suffering. As part of that goal, several sec
 \newpage
 
 \frontsection{Changes from Version 6 to 7}
-Added Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events. Partially rewrote \nameref{sec:complex}, \nameref{frequency}, \nameref{sec:mechanism}, and \nameref{selfinsight} to improve rigor and clarity. Split the term \textit{avoidance} into \textit{avoidance} and \textit{muting} to better categorize the phenoma based on mechanism.
+Added the Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events troubleshooting sections. Partially rewrote \nameref{sec:complex}, \nameref{frequency}, \nameref{sec:mechanism}, and \nameref{selfinsight} to improve rigor and clarity. Split the term \textit{avoidance} into \textit{avoidance} and \textit{muting} to better categorize the phenoma based on mechanism.
 
 Finished removing Thomas Harper's content. I replaced their major section, How to Find a Practitioner, with a few paragraphs that link out to equivalent information written by other people.
 
@@ -272,7 +268,7 @@ There's now an ebook version at \href{https://github.com/groeneveld/mdma-guide/r
 Substantively edited almost everything for clarity, logical flow, and rigor. This meant rewriting about a third of the content. Also fixed almost all the grammar and spelling issues. Added the Feeling Like You are Going Crazy troubleshooting subsection. Added Alternatives to MDMA. Removed Our Pitch because it didn't fit in well and was redundant. Removed Psychoeducation and Self Determination Theory because they were also redundant. Removed Making Sense of the Experience and distributed its content to Precautions and Uncertain Memory. Reorganized \nameref{sectionManagement}. Shuffled a few other sections around. Condensed Making Positive Life Changes to a small subsection at the end of \nameref{sec:lifechanges}. Moved Thomas Harper from an author to an acknowledged contributor since they're no longer a part of the project.
 
 \frontsection{Changes from Version 4 to 5}
-Removed the two Beyond Therapy sections and Organizing Community Care because they were overly influenced by my own stuck schemas. Added \nameref{ppHypotheses}, \nameref{bigPicture}, \nameref{attention}, the Sessions Become Less Effective Over Time troubleshooting subsection, Plain Language Summary, the Psychosis troubleshooting subsection, and the subsection Reasons to be Skeptical to \nameref{methodology}. Rewrote \nameref{psychogenic}, \nameref{frequency}, and the Safety section bullet point on psychosis. Split Epistemic Status into \nameref{sec:assumptions} and \nameref{howtoevaluate}. Shuffled around various sections into different chapters or renamed them. Bumped up the risk assessment of frequent higher-dose sessions due to \textcite{corayMemory}. Also made a lot of little changes here and there.
+Removed the two Beyond Therapy sections and Organizing Community Care because they were overly influenced by our own stuck schemas. Added \nameref{ppHypotheses}, \nameref{bigPicture}, \nameref{attention}, the Sessions Become Less Effective Over Time troubleshooting subsection, Plain Language Summary, the Psychosis troubleshooting subsection, and the subsection Reasons to be Skeptical to \nameref{methodology}. Rewrote \nameref{psychogenic}, \nameref{frequency}, and the Safety section bullet point on psychosis. Split Epistemic Status into \nameref{sec:assumptions} and \nameref{howtoevaluate}. Shuffled around various sections into different chapters or renamed them. Bumped up the risk assessment of frequent higher-dose sessions due to \textcite{corayMemory}. Also made a lot of little changes here and there.
 
 \frontsection{Changes from Version 3 to 4}
 Added Preface, \nameref{sec:complex}, subsections Major Unresolved Issues and Reference Quality in \nameref{methodology}, subsection Acute Effects in \nameref{sec:safety}, self-reports of internalized MDMA therapy, paragraph on involuntary hospitalization, and Cognitive Flexibility and Truth Seeking. Rewrote \nameref{sec:moreReconsolidation} and \nameref{sectionManagement}. Also made a lot of little changes here and there.
@@ -288,7 +284,7 @@ This book combines the tasks of reviewing and theorizing, all in the packaging o
 
 The book started as my attempt to figure out what was actually happening during my MDMA therapy journey, which I started after getting no help from almost every treatment licensed mental health professionals can offer. I had a very difficult time figuring out what mental illness is, what MDMA therapy does, and how to optimize MDMA therapy for efficacy and safety. As I learned, rigorous answers to these questions have only started to appear in the 2000s and 2010s and haven't yet widely diffused down from academia. This knowledge base is also widely distributed in the literature and as far as I can tell hasn't been put together in one place before. This is unfortunate because many people are desperate for mental health treatment and are attempting MDMA therapy with inadequate information. I thought a manual could help with these problems.
 
-Since MDMA therapy was almost my last option, knowing how to do it right was critical to my health. I created this book because I felt my life was at stake. I felt that creating this unique set of actionable but accurate knowledge was my only option for survival in a world of untrustworthy and poor-quality mental health information.\footnote{Much of my motivation was attachment issues and CPTSD, but these schemas can occasionally be redirected to productive uses.} Making the best of non-optimal situations in ways the medical system doesn't approve of has been a critical survival tool for me. The book is my version of \textit{Where There Is No Doctor,} but made for a world in which even mental health practitioners need far better information than they currently have.
+Since MDMA therapy was almost my last option, knowing how to do it right was critical to my health. I created this book because I felt my life was at stake. I felt that creating this unique set of actionable but accurate knowledge was my only option for survival in a world of untrustworthy and poor-quality mental health information.\footnote{Much of my motivation was attachment issues and CPTSD, but these schemas can occasionally be redirected to productive uses.} Making the best of non-optimal situations in ways the legal medical system doesn't approve of has been a critical survival tool for me.
 
 I try to strike a balance between practical applicability and scientific robustness. My core assumptions, my reasons for believing each, and my confidence in them are laid out in \cref{sec:assumptions}.
 
@@ -296,14 +292,14 @@ The strength and novelty of this book lie in the synthesis of multiple theoretic
 
 I think my recursive approach produced a higher-quality and better-grounded book than if I worked from either theory or personal experience alone. Personal experience informed theory, which then informed interpretation of personal experience, which further informed theory, etc.
 
-Finally, I would like to thank Jessica Sojorne Libere for much MDMA therapy guidance; the scientists and therapists who developed this body of knowledge and practice; my partner for encouragement, support, and editing; \href{https://www.reddit.com/r/mdmatherapy}{r/mdmatherapy} for numerous case examples and feedback; the researchers who answered my questions; one primary care physician for feedback on \cref{sec:safety}; Claude for a few things listed below, and several users on \href{www.dharmaoverground.org}{dharmaoverground.org} for feedback on \cref{selfinsight}. Thomas Harper provided early feedback on many sections.
+Finally, I would like to thank Jessica Sojorne Libere for much MDMA therapy guidance; the scientists and therapists who developed this body of knowledge and practice; my partner for encouragement, support, and editing; \href{https://www.reddit.com/r/mdmatherapy}{r/mdmatherapy} for numerous case examples and feedback; the researchers who answered my questions; one primary care physician for feedback on \cref{sec:safety}; the Claude LLM for a few things listed below, and several users on \href{www.dharmaoverground.org}{dharmaoverground.org} for feedback on \cref{selfinsight}. Thomas Harper provided early feedback on many sections.
 
 May this work benefit all beings.
 
 Mark
 
 \subsubsection*{AI Disclosure}
-With a few minor and labeled exceptions, I wrote all the content in this book. I, or the human authors whome I cite, also created virtually all the ideas presented here. In the occasional instances where I accepted Claude's rephrasing of an existing sentence or paragraph, I exercised complete editorial control, and my original meaning remained intact. All AI responses were also verified against original sources and treated as one view among many---not as authoritative. I used Claude for
+With two minor and labeled exceptions, I wrote all the content in this book. I, or the human authors whome I cite, also created virtually all the ideas presented here. In the occasional instances where I accepted the Claude LLM's rephrasing of an existing sentence or paragraph in the editing process, I exercised complete editorial control, and my original meaning remained intact. All AI responses were also verified against original sources and treated as one view among many---not as authoritative. I used Claude for
 \begin{itemize}
     \item pointing out issues with flow, logic, and grammar in my writing. Example prompt: \enquote{Point out the issues with this section.} \textit{used extensively}
     \item double-checking that my sources actually back up my claims. See details in \cref{methodology}. \textit{extensive}
@@ -319,10 +315,10 @@ With a few minor and labeled exceptions, I wrote all the content in this book. I
 \end{itemize}
 
 \subsubsection*{Biases, Conflicts of Interest, and Background:}
-\paragraph{Attachments and Beliefs} Disorganized attachment to MDMA therapy
-\paragraph{Score on the quiz \prosecite{cultistQuiz}} 14.5/40 (not at all a cultist)
-\paragraph{Relevant Experience} I used MDMA therapy to successfully treat my own severely disorganized attachment and the stuck schemas created by childhood sexual abuse. I started with 3 practitioner guided sessions and then did about 27 solo sessions. I've been through many ups and downs throughout the process. My education was a bachelor's degree in aerospace engineering.
-\paragraph{Conflicts of Interest} I have no financial stake other than one \$500 unsolicited donation to the project from a friend unaffiliated with the psychedelic field.
+\textit{Attachments and Beliefs:} Fading disorganized attachment to MDMA therapy
+\textit{Score on the quiz \prosecite{cultistQuiz}:} 13/40 (not at all a cultist)
+\textit{Relevant Experience:} I used MDMA therapy to successfully treat part of my own severely disorganized attachment and the stuck schemas created by childhood sexual abuse. I started with 3 practitioner guided sessions, did another roughly 27 solo sessions, and have done \textasciitilde\reconsolidationhours{} total hours of memory reconsolidation, mostly using the technique I report in \cref{internalizedReports}. I've been through many ups and downs throughout the process. My education was a bachelor's degree in aerospace engineering.
+\textit{Conflicts of Interest:} I have no financial stake other than one \$500 unsolicited donation to the project from a friend unaffiliated with the psychedelic field.
 
 \mainmatter
 
@@ -515,7 +511,7 @@ Any pharmaceutical or therapeutic intervention relies on a multitude of choices 
     \item The book was interdisciplinary from the start, allowing me to connect memory reconsolidation, the defense cascade, and complex systems, which I have not seen any other author formally integrate. I also drew on an especially wide diversity of evidence: memory reconsolidation, complex systems, defense cascade, predictive processing, clinical therapy practice, personal experience, and the MDMA therapy users community.
     \item My experience using MDMA therapy (\textasciitilde30 sessions) and memory reconsolidation (\textasciitilde\reconsolidationhours{}\,hours) for complex trauma grounds this work in a way that would be impossible using only theory or clinical experience.
     \item The model is based on independently well-supported, causal theories (memory reconsolidation, complex systems, and the defense cascade).
-    \item I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \textasciitilde1300 active hours. I assessed each of the \total{citnum} citations.
+    \item I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \textasciitilde1300 active hours. I assessed every citation.
     \item I posted each major draft version for public critique on \href{www.reddit.com/r/mdmatherapy}{reddit.com/r/mdmatherapy}. I used this feedback to make improvements.
     \item I used Claude Opus inside \href{https://github.com/groeneveld/latex_claim_verifier}{this} custom harness I made to double-check that my claims are supported by their citations. I ran this for almost every citation that I could easily download the text of, which was perhaps 80\% of them. Additionally, I used Claude Opus to double-check that entire sections follow from my primary, though not secondary, citations in \cref{efficacy,science,sec:dosing,frequency,interactions,grounding}.
 \end{itemize}
@@ -606,7 +602,7 @@ In the face of this uncertainty and the prevalence of psychological components, 
 \label{science}
 \section{The Defense Cascade}
 \label{sec:defensecascade}
-The sympathetic and parasympathetic nervous systems govern a wide variety of involuntary bodily functions, such as heart rate and digestion~\cite{kozlowskaDefenseCascade}. In one of their roles, they activate a defense cascade, a sequence of responses, to protect us from threats. Increasing levels of perceived threat, threat imminence, powerlessness, and somatic sensory input activate these responses, though the order of activation also depends on individual variability and past experience.
+The sympathetic and parasympathetic nervous systems govern a wide variety of involuntary bodily functions, such as heart rate and digestion~\cite{kozlowskaDefenseCascade}. In one of their roles, they activate a defense cascade, a sequence of responses, to protect us from threats. Increasing levels of perceived threat, threat imminence, powerlessness, and somatic sensory input (e.g., needle pokes) activate these responses, though the order of activation also depends on individual variability and past experience.
 
 Assessments of threat and power are relative to your ability to deal with the threat; children activate easily because the threshold at which a threat becomes life-threatening is much lower for them than it is for securely attached adults. Lack of parental support, attention, or attunement (see \textcite{fivePillars}) can be life-threatening situations for children. Here is the defense cascade:\footnote{I use the taxonomy of \textcite{kozlowskaDefenseCascade}. Other sources categorize the states differently, but the general pattern of an active, sympathetic state; a passive, parasympathetic state; and a mixed state is similar.}
 \begin{description}
@@ -976,10 +972,10 @@ MDMA is often considered a risky substance due to its illegality, adulterants, a
     \item MAOIs and ayahuasca
     \item ritonavir, cobicistat, or HIV drugs that contain them
     \item over 200 lifetime doses (boosters count as partial extra doses)\footnote{The number 200 is extremely imprecise, but as described below, there isn't any better data.}
-    \item hyperthyroidism that isn't well managed and mild, \todo{Mild while treated or mild in a hypothetical untreated state?} as assessed by a doctor
+    \item hyperthyroidism that isn't well managed and mild, as assessed by a doctor
 \end{itemize}
 
-\subsubsection*{Use Caution With (continue reading for further assessment)}\todo{I left off lithium because \textcite{liechtiInteractions} says its low risk and I couldn't find a single case report or internet anecdote of the combination causing issues without major exacerbating factors.}
+\subsubsection*{Use Caution With (continue reading for further assessment)}
 \begin{itemize}
     \item a family or personal history of psychosis\footnote{I use the terms \textit{psychosis} and \textit{mania} in this article rather than terms like \textit{schizophrenia} and \textit{bipolar} on the assumption that they are closer to natural kinds, and more predictive of risk, than DSM/ICD diagnoses.}
     \item a personal history of addiction to amphetamines or cocaine
@@ -1094,7 +1090,7 @@ Unregulated pills are more of a challenge because they're always mixed with unkn
 
 You will also need a calibrated milligram scale to verify your supply or measure precise amounts of MDMA into empty capsules unless you trust that your supplier has accurately measured your capsules. They are inexpensive and easy to find on the internet.
 
-Illegally sourced MDMA crystals have usually absorbed small amounts of water from the air and production process even though the crystals still appear dry~\cite{kranenburgHydration}. To my knowledge, sellers market MDMA by the mass of the MDMA\,+\,water, so a given amount of illegal MDMA is slightly less potent than legal MDMA, where a pill or capsule contains exactly how much MDMA HCl it advertises. This effect, in addition to impurities, is small enough to not be worth considering for most people.\footnote{\textcite{hydrationPolymorphism} reports that most illicit MDMA HCl is roughly 4\% water, though exposing it to very dry or humid air will convert it to less or more hydrated forms ranging from 0--11\% water. You can also dry your MDMA in an oven set to 100\,°C (212\,°F) for a few hours and then measure out a dose~\cite{kranenburgHydration}. The second method is more precise, since it's difficult to be certain how hydrated your MDMA is.}
+Illegally sourced MDMA crystals have usually absorbed small amounts of water from the air and production process even though the crystals still appear dry~\cite{kranenburgHydration}. To my knowledge, sellers market MDMA by the mass of the MDMA\,+\,water, so a given amount of illegal MDMA is slightly less potent than legal MDMA, where a pill or capsule contains exactly how much MDMA HCl it advertises. This effect, in addition to impurities, is small enough to not be worth considering for most people.\footnote{\textcite{hydrationPolymorphism} reports that most illicit MDMA HCl is roughly 4\% water by mass, though exposing it to very dry or humid air will convert it to less or more hydrated forms ranging from 0--11\% water. You can also dry your MDMA in an oven set to 100\,°C (212\,°F) for a few hours and then measure out a dose~\cite{kranenburgHydration}. The second method is more precise, since it's difficult to be certain how hydrated your MDMA is.}
 
 You can also use volumetric dosing to divide your sample into doses appropriate for therapy. I suggest aiming for a simple-to-remember 1\,mg/ml solution of MDMA in water.\footnote{MDMA is extremely bitter~\cite{milivcevic2020bitter}. It may be nice to chase it with fruit.} Dissolve your measured amount of MDMA (in mg) in the same number of mL of water. It is much easier to measure one mL of liquid, whose mass is also 1\,gram, than one mg of powder. \textcite{volumetricDilution} also offers a volumetric dosing calculator.
 
@@ -1206,7 +1202,7 @@ In this section I list a couple of classes of interaction, then the most risky s
 
 \section{Medical Risks}
 \label{medical}
-MDMA's interactions with certain serious health conditions are not well understood. As of 2026, MAPS clinical trial exclusion criteria are commonly regarded as the baseline for what medical conditions are incompatible with MDMA. However, clinical trial exclusion criteria are conservative and designed to reduce unknown variables, regulatory scrutiny, and actual, if uncertain, harm. I think the exclusion criteria indicate that additional caution should be taken but are not all absolute contraindications. In the phase III trials (\textcite[Supplementary Information; p. 5]{mitchellMDMAClinicalTrial2}) \enquote{any medical condition that could make receiving a sympathomimetic drug harmful due to increased blood pressure and heart rate} was cause for exclusion, along with additional details for cardiovascular conditions discussed below. Please consult your doctor if there is any question about whether that applies to you. It would be useful to review select parts of the MAPS pharmaceutical investigator's brochure~\cite{mapsInvestigatorBrochure}\todo{This document is too long to really be of use but I don't know what else to recommend.} with your doctor.
+MDMA's interactions with certain serious health conditions are not well understood. As of 2026, MAPS clinical trial exclusion criteria are commonly regarded as the baseline for what medical conditions are incompatible with MDMA. However, clinical trial exclusion criteria are conservative and designed to reduce unknown variables, regulatory scrutiny, and actual, if uncertain, harm. I think the exclusion criteria indicate that additional caution should be taken but are not all absolute contraindications. In the phase III trials (\textcite[Supplementary Information; p. 5]{mitchellMDMAClinicalTrial2}) \enquote{any medical condition that could make receiving a sympathomimetic drug harmful due to increased blood pressure and heart rate} was cause for exclusion, along with additional details for cardiovascular conditions discussed below. Please consult your doctor if there is any question about whether that applies to you. It would be useful to review select parts of the MAPS pharmaceutical investigator's brochure~\cite{mapsInvestigatorBrochure} with your doctor.
 
 The trial inclusion criteria did regard some serious medical conditions as compatible with MDMA therapy~\cite{mitchellMDMAClinicalTrial2}. \textcite[Supplementary Information; p. 5]{mitchellMDMAClinicalTrial2} said that \enquote{individuals with medical conditions such as hypertension, asymptomatic hepatitis C virus, diabetes mellitus, hyperthyroidism, and glaucoma were eligible, providing the condition was well managed and mild.} They couldn't have assessed every type of serious medical condition, so some conditions not on that list are presumably also compatible with MDMA therapy.
 
@@ -1321,14 +1317,14 @@ Practitioners should be able to accurately identify each of the following condit
 \section{When to Seek Emergency Care}
 Most of the interactions that cause severe acute harm are known and can be avoided with proper precautions or by not using MDMA~\cite{riggDeaths,malcolmSerotonin}. However, individuals may not always follow proper precautions or may have undiagnosed health conditions. The direct causes of severe acute damage involving MDMA are almost always high body temperature, hyponatremia, or serotonin syndrome. Cardiovascular events may also rarely occur in people with pre-existing cardiovascular issues, especially when MDMA is combined with other drugs associated with cardiac function abnormalities~\cite{makunts2023concomitant}.
 
-Many typical symptoms of heat illness, hyponatremia, serotonin syndrome, and cardiac events are also therapeutically appropriate symptoms of MDMA, flight-or-fight, freeze, tonic/collapsed immobility, and confronting extreme fear or anger. Thus, recommendations specific to MDMA therapy are important. \textcite{malcolmAyahuasca} recommends seeking emergency care for any of these symptoms of psychedelic/MDMA-facilitated serotonin syndrome: \textbf{myoclonic seizures, fever greater than 38.5\,°C (101.3\,°F), fluctuating or unstable blood pressure and heart rate, delirium or coma, and muscle rigidity.}\footnote{\textcite{malcolmER} further discusses these criteria, but the author lists a lower temperature threshold in this document for unexplained reasons. The 100\,°F threshold of danger cited there is implausibly low; a moderate dose of MDMA alone can raise body temperature that high, and it is not dangerous~\cite{liechtiTemperature}.} To my knowledge, that recommendation also covers severe hyponatremia, which is only possible with very high fluid consumption, and forms of severe heat illness not caused by serotonin syndrome\todo{Is this right? I haven't been able to find any reasonable hyponatremia guidelines that distinguish it from normal MDMA symptoms.}.
+Many typical symptoms of heat illness, hyponatremia, serotonin syndrome, and cardiac events are also therapeutically appropriate symptoms of MDMA, flight-or-fight, freeze, tonic/collapsed immobility, and confronting extreme fear or anger. Thus, recommendations specific to MDMA therapy are important. \textcite{malcolmAyahuasca} recommends seeking emergency care for any of these symptoms of psychedelic/MDMA-facilitated serotonin syndrome: \textbf{myoclonic seizures, fever greater than 38.5\,°C (101.3\,°F), fluctuating or unstable blood pressure and heart rate, delirium or coma, and muscle rigidity.}\footnote{\textcite{malcolmER} further discusses these criteria, but the author lists a lower temperature threshold in this document for unexplained reasons. The 100\,°F threshold of danger cited there is implausibly low; a moderate dose of MDMA alone can raise body temperature that high, and it is not dangerous~\cite{liechtiTemperature}.} Those criteria also catch forms of severe heat illness not caused by serotonin syndrome and some of the symptoms of severe hypovolemic hyponatremia caused by high fluid intake~\cite{merckHyponatremia}. However, hyponatremic seizures are not, or not just myoclonic~\cite{nardoneAcuteSymptomaticSeizures2016}.
 
-In the absence of MDMA-specific advice, one cardiologist offers this general advice for what type of chest pain you should go to the emergency room for~\cite{chestPain}: \todo{Is there any better advice? I haven't been able to find any.}
+In the absence of MDMA-specific advice, one cardiologist offers this general advice for what type of chest pain you should go to the emergency room for~\cite{chestPain}:
 \begin{quotation}
-    It most often boils down to the severity of the pain and the heart attack symptoms I mentioned above. If the pain is so severe that you feel like you can't function, or if you are experiencing central or left-sided chest pain---especially if you have nausea or a cold and clammy feeling [also side effects of MDMA~\cite{liechtiGender}] alongside it---it is always safest to go to the emergency room. With chest pain, it's best to be cautious.
+    It most often boils down to the severity of the pain and the heart attack symptoms I mentioned above [largely overlapping with possible MDMA symptoms]. If the pain is so severe that you feel like you can't function, or if you are experiencing central or left-sided chest pain---especially if you have nausea or a cold and clammy feeling [also side effects of MDMA~\cite{liechtiGender}] alongside it---it is always safest to go to the emergency room. With chest pain, it's best to be cautious.
 \end{quotation}
 
-Additionally, the American College of Cardiology and American Heart Association say that chest pain that is left-sided, dull, aching, central, squeezing, gripping, behind the sternum, or feels like pressure, heaviness, or tightness indicates a high likelihood of cardiac ischemia (inadequate blood supply, often caused by blocked or broken blood vessels)~\cite{ahaChestPain}. Stabbing pain is a moderate risk. Pain that is right-sided, tearing, ripping, burning, sharp, fleeting, shifting, dependent on your posture, or related to breathing indicates a low likelihood of ischemia. Of course, ripping or tearing sensations may indicate other severe problems.
+Additionally, the American College of Cardiology and American Heart Association say that chest pain that is left-sided, dull, aching, central, squeezing, gripping, behind the sternum, or feels like pressure, heaviness, or tightness indicates a high likelihood of cardiac ischemia (inadequate blood supply, often caused by blocked or broken blood vessels)~\cite{ahaChestPain}. Stabbing pain is a moderate risk. Pain that is right-sided, tearing, ripping, burning, sharp, fleeting, shifting, dependent on your posture, or related to breathing indicates a low likelihood of ischemia. Of course, ripping or tearing sensations may indicate other immediate problems.
 
 There may be other rare reactions to MDMA; these criteria are not exclusive.
 
@@ -1359,11 +1355,11 @@ There may be other rare reactions to MDMA; these criteria are not exclusive.
 \label{bigPicture}
 As described in \cref{sec:mechanism}, healing is fundamentally a process of aligning stuck schemas with current reality and integrating previously-avoided/muted information.
 
-MDMA-facilitated reconsolidation may cause a straightforward decrease in symptoms and increase in mental health for those with simple issues. However, as described in \cref{sec:complex}, those with disorganized attachment or other forms of severe complex trauma face a long process of unpredictable ups and downs that gradually tends upward. MDMA and reconsolidation help you confront previously avoided/muted sensations and emotions. Confronting them may then activate other stuck schemas, producing new fear, anger, sadness, grief, dysfunction, etc. You then have to reconsolidate these newly activated stuck schemas, which might surface still more previously-avoided/muted information. This cycle of reconsolidation → decreased avoidance/muting → reaction → reconsolidation → decreased avoidance/muting → reaction continues until there are no more major avoided/muted information and stuck schemas. Note that even this cycle is a simplification of an even more complex and inscrutable process described in \cref{sec:complex}.
+MDMA-facilitated reconsolidation may cause a straightforward decrease in symptoms and increase in mental health for those with simple issues. However, as described in \cref{sec:complex}, those with disorganized attachment or other forms of severe complex trauma face a long process of unpredictable ups and downs that gradually tends upward. MDMA and reconsolidation help you confront previously avoided/muted sensations and emotions. Confronting them may then activate other stuck schemas, producing new fear, anger, sadness, grief, dysfunction, etc. You then have to reconsolidate these newly activated stuck schemas, which might surface still more previously-avoided/muted information. This cycle of reconsolidation → decreased avoidance/muting → reaction → reconsolidation → decreased avoidance/muting → reaction continues until there are no more major avoided/muted information and stuck schemas. Note that this is a simplification of an likely-more complex and inscrutable process described in \cref{sec:complex}.
 
-The simplest issues may be resolved in a single session, but my rough estimate is that the most severe mental illnesses require thousands of hours of reconsolidation to resolve. This process is necessarily spread out over a long period of time for those with complex trauma because therapy hangover limits active reconsolidation to 2\,hours/day in my experience.
+The simplest issues may be resolved in a single session, but my rough estimate is that the most severe mental illnesses require thousands of hours of reconsolidation to resolve. This process is necessarily spread out over a long period of time for those with complex trauma because therapy hangover limits active reconsolidation to roughly 2\,hours/day in my experience.
 
-MDMA is a moderately scarce resource because of the unclear risk that frequent or high-dose sessions may cause long-term tolerance~\cite{farreTolerance,parrottTolerance}, long-term cognitive impact~\cite{corayMemory}, and valvular heart disease~\cite{droogmans2007valvular}. Thus, I suggest achieving the bulk of reconsolidation with sober reconsolidation exercises like those described in \cref{sec:moreReconsolidation} if possible.
+MDMA is a moderately scarce resource because of the unclear risk that frequent or high-dose sessions may cause long-term tolerance~\cite{farreTolerance,parrottTolerance}, long-term cognitive impact~\cite{corayMemory}, and valvular heart disease~\cite{droogmans2007valvular}. Thus, I suggest achieving the bulk of reconsolidation with non-MDMA reconsolidation exercises like those described in \cref{sec:moreReconsolidation} if possible.
 
 If you want to progress as quickly as possible, I recommend maxing out on reconsolidation exercises whenever you have the time. There are two difficulties to consider, though. First, while you might be able to achieve 2\,hours of active reconsolidation a day, that will also create multiple additional hours of therapy hangover. Second, reconsolidation exercises typically require some additional time for the overhead of figuring out what your stuck schemas are and finding mismatches, not to mention all the other tasks involved in practitioner-guided therapy.
 
@@ -1464,11 +1460,9 @@ Practitioners who are ethical and skilled but whose style or personality are not
 
 I don't recommend self-guiding without high-quality reference material and an understanding of the nuances of safe and effective healing. The lack of an accurate framework to contextualize the variety of experiences in MDMA therapy impairs safety, efficacy, and your ability to fully access the possible benefits.
 
-\todo{Possible subsection on transitioning from guided to solo. Do you want to continue doing therapist sessions because they add as much value as they cost or because of some other reason? Non-secure attachment, inaccurate fears, etc.}
-
 \section{How to Find a Practitioner}
 \label{sec:howtofind}
-Practitioners vary widely in skill, ethical behavior, and how good of a fit they are to your needs. Choose one carefully; many practitioners have appeared in the news for harming their clients~\cite{hallMad}. Some are even members of groups that practice organized abuse. I strongly recomment using \prosecite{safetyFlags} to evaluate the practitioners you are considering working with. I also strongly recommend using the \citetitle{BRWAIdownload}\cite{BRWAIdownload} to evaluate the quality of your therapeutic relationship. This quality has a moderate impact on the effectiveness of therapy~\cite{fluckiger2018alliance}.
+Practitioners vary widely in skill, ethical behavior, and how good of a fit they are to your needs. Choose one carefully; many practitioners have appeared in the news for harming their clients~\cite{hallMad}. Some are even members of groups that practice organized abuse. I strongly recommend using \prosecite{safetyFlags} to evaluate the practitioners you are considering working with. I also strongly recommend using the \citetitle{BRWAIdownload}\cite{BRWAIdownload} to evaluate the quality of your therapeutic relationship. This quality has a moderate impact on the effectiveness of therapy~\cite{fluckiger2018alliance}.
 
 Licensure may offer a mediocre amount of protection against harm and incompetence. Licensed clinicians have usually had background checks, a couple of years of typically so-so education, and a few years of pre-licensure clinical experience. There are also subject to formal complaint processes.
 
@@ -1483,7 +1477,7 @@ See the following for further information about harm in the psychedelic communit
 
 \section{Involuntary Inpatient Commitment}
 \label{suicideCops}
-Licensed practitioners are often legally obligated to call the police on you if they think you are at high risk of hurting someone or are so psychotic that you might do so accidentally. They might also coerce you into going to hospital yourself under explicit or implicit threat of calling the police on you. In practice, what the practitioner does depends on their interpretation of local laws that they may not understand, how much they fear being sued or losing their license if someone is hurt, and how much they believe involuntary hospitalization will help you. Practitioners may also call the police on you, or threaten to do so, for suicidal ideation or planning. If you are suicidal or fantasize about hurting your abuser, I strongly suggest asking your provider to elaborate on their decision criteria before you open up to them. Then you can decide if you can cope with the level of self-censorship necessary to not cross their boundary. Or, you may trust your provider enough that you can be completely open with them because you know they will only tell you to go to the hospital if you really need it. In that case you could write up a crisis plan involving which hospital you want to go to, which family members or friends you want notified, etc.
+Licensed practitioners are often legally obligated to call the police on you if they think you are at high risk of hurting someone or are so psychotic that you might do so accidentally. They might also coerce you into going to hospital yourself under explicit or implicit threat of calling the police on you. In practice, what the practitioner does depends on their interpretation of local laws that they may not understand, how much they fear being sued or losing their license if someone is hurt, and how much they believe hospitalization will help you. Practitioners may also call the police on you, or threaten to do so, for suicidal ideation or planning. If you are suicidal or fantasize about hurting your abuser, I strongly suggest asking your provider to elaborate on their decision criteria before you open up to them. Then you can decide if you can cope with the level of self-censorship necessary to not cross their boundary. Or, you may trust your provider enough that you can be completely open with them because you know they will only tell you to go to the hospital if you really need it. In that case you could write up a crisis plan involving which hospital you want to go to, which family members or friends you want notified, etc.
 
 If your provider does call the police on you, know that police typically have little training in mental health and will likely take your provider's word over yours~\cite{alexanderInpatient}. There is also a good chance that the police dragging you away against your will to a place you can't leave---where medical staff may do various invasive and non-consensual things to you---will traumatize you. Even worse, \textcite{emanuelHospitalization} found that (at least in Allegheny County) involuntary hospitalization actually significantly increases the chance of a patient dying by suicide or overdose or being charged with a violent crime over the 3\,months following admittance in cases where clinicians might disagree about admitting a patient (43\% of evaluations in this study). It's not clear how well these results apply to situations where multiple clinicians would all agree on admitting a patient.
 
@@ -1493,16 +1487,16 @@ Involuntary outpatient commitment is also often abusive~\cite{croftAOC}, and the
 
 \chapter{Prompts for Activating Stuck Schemas}
 \label{mapping}
-Schema activation does not always happen spontaneously during a session, and when it does, it may not cover all the stuck schemas that are worth reconsolidating in your life. This section helps you deliberately activate and reconsolidate common stuck schemas that you may not be aware of. Reconsolidating the stuck schemas that these prompts activate build more resilience and equanimity than the default of just doing enough MDMA therapy to make your primary issue feel manageable.
+Stuck schema activation does not always happen spontaneously during a session, and when it does, it does not cover all the stuck schemas that are worth reconsolidating in your life. This section helps you deliberately activate and reconsolidate common stuck schemas that you may not be aware of. Reconsolidating the stuck schemas that these prompts activate build more resilience and equanimity than the default of just doing enough MDMA therapy to make your primary issue feel manageable.
 
 Using these prompts to trigger yourself is going to feel uncomfortable, but that's an inherent part of reconsolidation. Start with the easiest ones and work your way up to the harder ones over time.
 
-I also strongly suggest keeping a list of subtle (or not) discomforts that you notice in daily life. Some of these might be valuable reconsolidation targets.
+I also strongly suggest keeping a list of (often subtle) discomforts that you notice in daily life. Some of these are likely valuable reconsolidation targets.
 \section{Personal Schemas}
 See \cref{mssProbes} for a list of prompts designed to activate many mental illness, developmental, and attachment-related stuck schemas that people commonly have. It may help to imagine a concrete scenario for each item. Feel free to skip sections you feel totally comfortable with.
 
 \begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr0.6\textwidth-2\tabcolsep} >{\raggedright\arraybackslash}p{\dimexpr0.35\textwidth-2\tabcolsep}}
-\caption{Schema Activation Prompts inspired by \prosecite{maladaptiveSchemaScale}. I used Claude to transform the items in the original scale from their diagnostic forms into schema-activating forms, each framed as a scenario the schema is built to defend against.}
+\caption{Schema Activation Prompts inspired by \prosecite{maladaptiveSchemaScale}. I used the Claude LLM to transform the items in the original scale from their diagnostic forms into schema-activating forms.}
 \label{mssProbes} \\
 \toprule
 \textbf{Activation Prompt} & \textbf{Schema Domain} \\
@@ -1716,7 +1710,7 @@ In addition to imagining you are a member of the other group, consider
 \section{Existential Schemas}
 Imagine permanent disconnection from health, material comfort, sensory pleasures, relationships, belonging, status, order, certainty, meaning, being a good person, life, and existence (including any afterlife). Additionally, consider the possibility that your fundamental assumptions about life, meaning, existence, and self might not actually be true. To my understanding, reconsolidating these stuck schemas leads to equanimity, not the loss of healthy protective behaviors or basic attachments.
 
-Attaining persistent non-attachment and non-duality/unity requires considerably more work than using the prompts just mentioned to reconsolidate stuck schemas during MDMA therapy. \cref{selfinsight} lists a few starting points.
+I think that achieving persistent non-attachment requires considerably more work than using the prompts just mentioned to reconsolidate stuck schemas during MDMA therapy. \cref{selfinsight} lists a few starting points.
 
 \section{Cognitive Flexibility and Truth-Seeking}
 \label{cognitiveflexibility}
@@ -1813,7 +1807,7 @@ During the session, engage all your senses---press your bare feet into the soil,
 \subsection*{Beyond MDMA Therapy}
 Psilocybin sessions might durably increase feelings of nature-connectedness \cite{forstmannPsilocybinNature}. Psilocybin creates a more dramatically altered state of mind, is significantly more unpredictable than MDMA, and doesn't necessarily buffer difficult experiences with feelings of safety. I strongly suggest starting with low doses, like 0.5\,g dried mushrooms.
 
-If you are interested in doing more to help preserve natural areas, I highly recommend \prosecite{ritchie2024not}. It presents rigorous, high-impact, evidence-based solutions that an individual can do and is neither overly optimistic nor pessimistic.
+If you are interested in doing more to help preserve natural areas, I highly recommend \prosecite{ritchie2024not}. It presents high-impact, evidence-based solutions that an individual can do and is neither overly optimistic nor pessimistic.
 
 \chapter{Pre- to Post-Session}
 \section{Pre-Session Checklist}
@@ -1960,7 +1954,7 @@ The second main activity is staying present with, and leaning into, that distres
 
 You might also \textit{investigatively feel} how the schemas and symptoms change as you move, as your thoughts and triggers change, or as the schema reconsolidates.
 
-In my experience, people with complex trauma can spend the whole session quickly transitioning from one stuck schema to the next as each one reconsolidates. \todo{resistance; cascades of schemas reacting to each other as one reconsolidates}
+In my experience, people with complex trauma can spend the whole session quickly transitioning from one stuck schema to the next as each one reconsolidates.
 
 As discussed in \cref{science}, stuck schemas generate beliefs like \enquote{if I move I will die} and emotions like fear, anger, or sadness. Bodily expressions of that emotion may also be present, like bared teeth in rage. Episodic memories of related events are sometimes also recalled at the same time, though this isn't necessary for reconsolidation. Schemas can also generate inaccurate perceptions of bodily sensations (e.g., pain, itching) and movement ability (e.g., an inability to make a certain movement when your body is physically capable of it).
 
@@ -2002,6 +1996,7 @@ MDMA therapy can highlight aspects of your life that you want to change. However
 
 \section{Troubleshooting}
 \label{sec:troubleshooting}
+Unless otherwise stated, the possibilities in each section are not listed in any order. They're not decision trees, just things that you can consider.
 \subsection{Numbness, Immobility, Heaviness, or Sleepiness}
 I think these are likely tonic/collapsed immobility or something closely related, based on \textcite{razviPSIP}. See \cref{sec:signsofdc} for a list of other symptoms and \cref{sec:sessionbarriers} for recommendations.
 
@@ -2103,7 +2098,7 @@ See \cref{medicalSupport} for more information.
 
 \subsection{Remembering Previously Forgotten Events}
 \label{navigating}
-During MDMA therapy, you may feel you remember traumatic events you weren't previously aware of~\cite{psychedelicrecoveredmemory}. These may or may not be accurate recollections of historical events, and I am not aware of any reliable method of determining accuracy other than independent corroboration. To avoid incorrect interpretation of perceptions during the session, practitioners should categorically avoid suggesting an episodic memory is either accurate or inaccurate and shouldn't even suggest that you have episodic memories that you can recover~\cite{otgaarMemory}.\footnote{People who retract claims of recovering accurate memories of abuse overwhelmingly blame their therapist for improperly influencing them~\cite{otgaarMemory}.}
+During MDMA therapy, you may feel you remember traumatic events you weren't previously aware of~\cite{psychedelicrecoveredmemory}. These may or may not be accurate recollections of historical events, and I am not aware of any reliable method of determining accuracy other than independent corroboration. To avoid incorrect interpretation of perceptions during the session, practitioners should categorically avoid suggesting a perceived episodic memory is either accurate or inaccurate and shouldn't even suggest that you have episodic memories that you can recover~\cite{otgaarMemory}.\footnote{People who retract claims of recovering accurate memories of abuse overwhelmingly blame their therapist for improperly influencing them~\cite{otgaarMemory}.}
 
 Relatedly, stuck schemas not clearly related to specific remembered events often form in the period of childhood amnesia. While you may or may not eventually be able to understand where these schemas came from, they can be reconsolidated like any other stuck schema.
 
@@ -2137,8 +2132,8 @@ Here are several resources for progressing the shifts; I have not read most of t
     \item \prosecite{kornfield1993path} is a Buddhist modernist guide suitable for beginners.
     \item \prosecite{gunaratanaPlain} is an introductory Buddhist (Theravada) modernist Vipassana meditation manual.
     \item \prosecite{burbea2014seeing} is a non-traditional, non-modernist Buddhist resource for those with a basic understanding of mindfulness.
-    \item \prosecite{yatesTMI} is a secular Buddhist step-by-step guide that claims it is particularly useful to deepen an existing meditation practice.
-    \item \prosecite{ingram2018mastering} is a secular Buddhist technical manual. I appreciate its demythologization of many traditional accounts.
+    % \item \prosecite{yatesTMI} is a secular Buddhist step-by-step guide that claims it is particularly useful to deepen an existing meditation practice.
+    \item \prosecite{ingram2018mastering} is a secular Buddhism-based technical manual. I appreciate its demythologization of many traditional accounts.
     \item \prosecite{sayadaw2016manual} is a comprehensive traditional Theravada Buddhist text for experienced practitioners.
 \end{itemize}
 
@@ -2636,8 +2631,8 @@ I think the following research questions are particularly interesting or relevan
     \item What is the nature of reconsolidation exhaustion (therapy hangover)? Can the capacity be safely increased? That would enable more productive MDMA therapy sessions, which anecdotal reports suggest are often limited by reconsolidation exhaustion.
     \item Multiple people report increased capacity to reconsolidate while sober in a way phenomenologically and consequentially similar to what is experienced during MDMA therapy sessions (see \cref{internalizedReports}). This appears to be connected to prior MDMA therapy. How does this work? Anecdotal reports also suggest that some individuals with no MDMA exposure can use the present moment to reconsolidate all stuck schemas. Is that the same phenomenon as internalized MDMA therapy?
     \item Why does MDMA seem to provide prediction error for most, if not all, stuck schemas, but not the adaptive ones? See \cref{ppHypotheses} for my hypotheses.
-    \item How can therapists best prepare their clients for solo at-home sessions (e.g., for sex therapy)?
-    \item To what extent does MDMA causes valvular heart disease? Accurate human guidelines are needed that account for number of sessions, session spacing, bodymass-adjusted dose, and possibly CYP2D6 capacity.
+    \item How can therapists best prepare their clients for solo at-home sessions?
+    \item To what extent does MDMA causes valvular heart disease? Accurate human guidelines are needed that account for number of sessions, session spacing, body-mass-adjusted dose, and possibly CYP2D6 capacity.
     \item How long does short- and long-term tolerance to MDMA last? How does it work?
     \item How long does it take to restore the brain's antioxidant buffer after an MDMA therapy session?
     \item To what degree is symptom worsening avoidable or reducible while achieving the same amount of reconsolidation?
