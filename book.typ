@@ -319,7 +319,7 @@ People often need the whole following day to recover, and aftereffects may last 
 
 It's common to experience moderately increased psychological turmoil and adverse symptoms for days to weeks after a session. MDMA helps us confront distressing feelings that we have been avoiding, and our minds can feel distressed about that until we process those feelings and reactions. It's often worthwhile developing a set of healthy coping practices to help you through this period.
 
-The Fireside Project offers a hotline to help people through challenging psychedelic experiences at +1 (623) 473-7433 in the USA. #link("https://tripsit.me/webchat")[tripsit.me/webchat] is a chatroom available anywhere.
+The Fireside Project offers a hotline to help people through challenging psychedelic experiences at #link("tel:1-623-473-7433")[+1 (623) 473-7433] in the USA. #link("https://tripsit.me/webchat")[tripsit.me/webchat] is a chatroom available anywhere.
 
 There is almost no data on how frequently it is safe to do sessions, though many people have strong opinions on the subject. In the absence of better data, the 6~week spacing used in the clinical trials might be a reasonable minimum.
 
@@ -483,7 +483,7 @@ Any pharmaceutical or therapeutic intervention relies on a multitude of choices 
 
 - The model is based on independently well-supported, causal theories (memory reconsolidation, complex systems, and the defense cascade).
 
-- I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \~1300 active hours. I assessed every citation.
+- I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \~1400 active hours. I assessed every citation.
 
 - I posted each major draft version for public critique on #link("www.reddit.com/r/mdmatherapy")[reddit.com/r/mdmatherapy]. I used this feedback to make improvements.
 
@@ -1502,9 +1502,9 @@ This scarcity of evidence suggests that mania is not a significant risk in MDMA 
 
 == When to Seek Emergency Care
 <when-to-seek-emergency-care>
-Most of the interactions that cause severe acute harm are known and can be avoided with proper precautions or by not using MDMA~@riggDeaths@malcolmSerotonin. However, individuals may not always follow proper precautions or may have undiagnosed health conditions. The direct causes of severe acute damage involving MDMA are almost always high body temperature, hyponatremia, or serotonin syndrome. Cardiovascular events may also rarely occur in people with pre-existing cardiovascular issues, especially when MDMA is combined with other drugs associated with cardiac function abnormalities~@makunts2023concomitant.
+Most of the interactions that cause severe acute harm are known and can be avoided with proper precautions or by not using MDMA~@riggDeaths@malcolmSerotonin. However, people don't always follow proper precautions or may have undiagnosed health conditions. The direct causes of severe acute damage involving MDMA are almost always high body temperature, hyponatremia, or serotonin syndrome. Cardiovascular events may also rarely occur in people with pre-existing cardiovascular issues, especially when MDMA is combined with other drugs associated with cardiac function abnormalities~@makunts2023concomitant.
 
-Many typical symptoms of heat illness, hyponatremia, serotonin syndrome, and cardiac events are also therapeutically appropriate symptoms of MDMA, flight-or-fight, freeze, tonic/collapsed immobility, and confronting extreme fear or anger. Thus, recommendations specific to MDMA therapy are important. #textcite(<malcolmAyahuasca>) recommends seeking emergency care for any of these symptoms of psychedelic/MDMA-facilitated serotonin syndrome: *myoclonic seizures, fever greater than 38.5\u{202F}°C (101.3\u{202F}°F), fluctuating or unstable blood pressure and heart rate, delirium or coma, and muscle rigidity.*#footnote[#textcite(<malcolmER>) further discusses these criteria, but the author lists a lower temperature threshold in this document for unexplained reasons. The 100\u{202F}°F threshold of danger cited there is implausibly low; a moderate dose of MDMA alone can raise body temperature that high, and it is not dangerous~@liechtiTemperature.] Those criteria also catch forms of severe heat illness not caused by serotonin syndrome and some of the symptoms of severe hypovolemic hyponatremia caused by high fluid intake~@merckHyponatremia. However, hyponatremic seizures are not, or not just myoclonic~@nardoneAcuteSymptomaticSeizures2016.
+Many typical symptoms of heat illness, hyponatremia, serotonin syndrome, and cardiac events are also therapeutically appropriate symptoms of MDMA, flight-or-fight, freeze, tonic/collapsed immobility, and confronting extreme fear or anger. Thus, recommendations specific to MDMA therapy are important. #textcite(<malcolmAyahuasca>) recommends seeking emergency care for any of these symptoms of psychedelic/MDMA-facilitated serotonin syndrome: *myoclonic seizures, fever greater than 38.5\u{202F}°C (101.3\u{202F}°F), fluctuating or unstable blood pressure and heart rate, delirium or coma, and muscle rigidity.*#footnote[#textcite(<malcolmER>) further discusses these criteria, but the author lists a lower temperature threshold in this document for unexplained reasons. The 100\u{202F}°F threshold of danger cited there is implausibly low; a moderate dose of MDMA alone can raise body temperature that high, and it is not dangerous~@liechtiTemperature.] Those criteria also catch forms of severe heat illness not caused by serotonin syndrome and some of the symptoms of severe hypovolemic hyponatremia caused by high fluid intake~@merckHyponatremia. However, hyponatremic seizures are not, or not just myoclonic, so *any seizures may also be an emergency*~@nardoneAcuteSymptomaticSeizures2016.
 
 In the absence of MDMA-specific advice, one cardiologist offers this general advice for what type of chest pain you should go to the emergency room for~@chestPain:
 
@@ -1538,7 +1538,7 @@ There may be other rare reactions to MDMA; these criteria are not exclusive.
   When two mutually contradictory schemas are juxtaposed consciously, the schema that more comprehensively or credibly models reality, and therefore more usefully predicts how the world will behave, reveals the other schema to be false, and the falsified one is immediately transformed \[reconsolidated\] accordingly.
   ]
 
-  Based on, #textcite(<eckerUnlocking>), I think reconsolidation updates schemas toward whichever representation more credibly models the person's experience, which generally improves accuracy but is not infallible; the "winning" schema is whichever feels more credible during juxtaposition, not necessarily whichever is most accurate in an absolute sense. I am also not aware of any unambiguous instances of MDMA therapy unlearning healthy schemas or creating false beliefs.
+  Based on, #textcite(<eckerUnlocking>), I think reconsolidation updates schemas toward whichever representation more credibly models the person's experience, which generally improves accuracy but is not infallible; the "winning" schema is whichever feels more credible during juxtaposition, not necessarily whichever is most accurate in an absolute sense. I am also not aware of any unambiguous instances of MDMA therapy unlearning healthy schemas.
 
 = The Arc of Healing
 <bigPicture>
@@ -1892,13 +1892,13 @@ See @mssProbes for a list of prompts designed to activate many mental illness, d
 )
 <mssProbes>
 
-== Social Schemas
+== Social Identity Schemas
 <socialPrompts>
 Imagine, as vividly as possible, being a member of a different group of people. Then, imagine how you and your friends, family, coworkers, and community would react to you. Go toward any fear, disgust, or shame and stay with that feeling. Race, gender, disability, class, political affiliation, wealth, education, attractiveness, and religion are all common attributes worth considering. Add any other categories relevant to your situation.
 
 In addition to imagining you are a member of the other group, consider
 
-- a member of the other group being part of your community: moving into your neighborhood, working with you, attending your religious institution, or being your friend
+- a member of the other group being part of your community: moving into your neighborhood, working with you, or being your friend
 
 - a member of the other group having power over you: teaching your children, supervising you at work, or representing you as your elected politician
 
@@ -2028,7 +2028,7 @@ During the session, engage all your senses---press your bare feet into the soil,
 
 #lead[Beyond MDMA Therapy]
 <beyond-mdma-therapy>
-Psilocybin sessions might durably increase feelings of nature-connectedness @forstmannPsilocybinNature. Psilocybin creates a more dramatically altered state of mind, is significantly more unpredictable than MDMA, and doesn't necessarily buffer difficult experiences with feelings of safety. I strongly suggest starting with low doses, like 0.5\u{202F}g dried mushrooms.
+Psilocybin sessions might durably increase feelings of nature-connectedness @forstmannPsilocybinNature. Psilocybin creates a more dramatically altered state of mind, is significantly more unpredictable than MDMA, and doesn't necessarily buffer difficult experiences with feelings of safety. If you try it, I strongly suggest starting with low doses, like 0.5\u{202F}g dried mushrooms.
 
 If you are interested in doing more to help preserve natural areas, I highly recommend #prosecite(<ritchie2024not>). It presents high-impact, evidence-based solutions that an individual can do and is neither overly optimistic nor pessimistic.
 
@@ -2086,7 +2086,7 @@ MDMA is not inherently therapeutic; the effects of a session depend on your mind
 
 - Anecdotal reports indicate that people can reactivate the MDMA state of consciousness after the session via cues that were present during the session (see @internalizedReports). This could be very helpful for additional reconsolidation. While the cues in the reports were meditation and visual imagery, distinctive scents, music, and rituals may also work. You might, for instance, burn incense.
 
-- People often use emotionally evocative music to help them engage with their stuck schemas. Searching for "MDMA therapy" on Spotify or Apple Music will show many playlists made for this purpose.
+- People often use emotionally evocative music to help them engage with their stuck schemas. Searching for "MDMA therapy" on your music streaming service will show many playlists made for this purpose.
 
 - Some people prepare a half-strength booster dose to take 1.5--2.5~hours after the first dose to extend the duration of the session~@mitchellMDMAClinicalTrial2. See @sec:dosing for more information. I think that a booster dose may help in case you get stuck in overwhelm, avoidance, muting, or some instances of opioid dampening.
 
@@ -2215,7 +2215,7 @@ The first main activity is emotional activation of stuck schemas,#footnote[Some 
 
 Often, a stuck schema is already activated. I think this is the case if you feel any anxiety, fear, anger, sadness, or grief, or are immobile. You may nor may not also notice other symptoms of the schema at this point. I've had many experiences in MDMA therapy where I notice the emotion first, and the belief component only becomes clear after some amount of reconsolidation.
 
-The second main activity is staying present with, and leaning into, that distress. Personal experience, observations, and many anecdotal reports suggest that once you're emotionally engaged and aren't distracted, the MDMA usually reconsolidates the schema without any further action. Because of this, I think that therapeutic exercises that facilitate reconsolidation, like coherence therapy and acceptance and commitment therapy, likely won't help beyond their function of activating or engaging with stuck schemas. Abstract thinking is a distraction unless your stuck schema remains emotionally activated and you are at least partially focused on it.
+The second main activity is staying present with, and leaning into, that distress. Personal experience, observations, and many anecdotal reports suggest that once you're emotionally engaged and aren't distracted, the MDMA usually reconsolidates the schema without any further action. Because of this, I think that therapeutic exercises that facilitate reconsolidation, like coherence therapy and acceptance and commitment therapy, likely won't help beyond their function of activating or engaging with stuck schemas. Abstract thinking tends to be an impediment; sometimes reconsolidation still works if your stuck schema remain emotionally activated and you are at least partially focused on them.
 
 You might also _investigatively feel_ how the schemas and symptoms change as you move, as your thoughts and triggers change, or as the schema reconsolidates.
 
@@ -2267,6 +2267,7 @@ MDMA therapy can highlight aspects of your life that you want to change. However
 <sec:troubleshooting>
 Unless otherwise stated, the possibilities in each section are not listed in any order. They're not decision trees, just things that you can consider.
 \ \
+#lead[Section outline]
 #local-contents(<sec:troubleshooting>, <afterglow>)
 
 === Numbness, Immobility, Heaviness, or Sleepiness

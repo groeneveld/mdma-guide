@@ -1,0 +1,188 @@
+/* Styles for the HTML version (index.html). Typst's HTML export emits no CSS
+ * of its own; template.typ embeds this file. build.sh adds @font-face rules
+ * with the Libertinus fonts inlined. Adapted from ../html/html-styles.css. */
+
+body {
+    font-family: "Libertinus Serif", Charter, Georgia, serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 46em;
+    margin: 0 auto;
+    padding: 2em 1.25em 4em;
+    color: #1a1a1a;
+    background-color: #fdfdfb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Libertinus Sans", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.25;
+}
+
+h1.title {
+    text-align: center;
+    margin-top: 1em;
+}
+
+p.author, p.date {
+    text-align: center;
+}
+
+code, pre, tt, kbd, samp {
+    font-family: "Libertinus Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+a {
+    color: #1457b0;
+}
+
+/* Table of contents */
+nav[role="doc-toc"] {
+    border: 1px solid #e0e0d8;
+    border-radius: 4px;
+    padding: 1em 1.5em;
+    margin: 1.5em 0 2.5em;
+    background-color: #f7f7f2;
+}
+
+nav[role="doc-toc"] ol {
+    padding-left: 1.25em;
+}
+
+nav[role="doc-toc"] .prefix {
+    margin-right: 0.4em;
+}
+
+/* On wide screens the table of contents becomes a fixed sidebar on the left
+ * and the text column shifts right to clear it. */
+@media (min-width: 75em) {
+    nav[role="doc-toc"] {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 17em;
+        overflow-y: auto;
+        margin: 0;
+        padding: 1em 1em 2em;
+        border-width: 0 1px 0 0;
+        border-radius: 0;
+        font-size: 0.85em;
+        line-height: 1.4;
+    }
+
+    nav[role="doc-toc"] h2 {
+        margin-top: 0;
+    }
+
+    nav[role="doc-toc"] > ol {
+        padding-left: 0;
+    }
+
+    nav[role="doc-toc"] li {
+        margin: 0.25em 0;
+    }
+
+    nav[role="doc-toc"] a {
+        text-decoration: none;
+    }
+
+    nav[role="doc-toc"] a:hover {
+        text-decoration: underline;
+    }
+
+    /* A section's own list of subsections stays in the text column. */
+    .local-toc nav[role="doc-toc"] {
+        position: static;
+        width: auto;
+        margin: 1.5em 0 2.5em;
+        padding: 1em 1.5em;
+        border-width: 1px;
+        border-radius: 4px;
+        font-size: inherit;
+    }
+
+    /* 17em at the nav's 0.85em font size is about 14.5em of body text;
+     * leave a gap, and stay centred (46em column + 2.5em padding) once the
+     * window is wide enough. */
+    body {
+        margin-left: max(17em, calc((100vw - 48.5em) / 2));
+    }
+}
+
+/* Distinguish footnote markers (highlighted) from citation links. */
+sup[role="doc-noteref"] a,
+sup[role="doc-backlink"] a {
+    background-color: #ffeb3b;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+section[role="doc-endnotes"] {
+    border-top: 1px solid #d0d0c8;
+    margin-top: 3em;
+    font-size: 0.9em;
+}
+
+/* Term lists: bold term, indented description (matches the PDF) */
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1.5em;
+}
+
+/* Multi-paragraph definitions get <p> wrappers; drop their outer margins so
+ * they sit as tightly as single-paragraph (bare-text) definitions. */
+dd > div > p:first-child { margin-top: 0; }
+dd > div > p:last-child { margin-bottom: 0; }
+
+/* Figures stay within the reading column */
+figure {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+figure svg,
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.95em;
+    text-align: left;
+    margin-top: 0.5em;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    margin: 1.5em auto;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #d0d0c8;
+    padding: 0.4em 0.7em;
+    vertical-align: top;
+}
+
+th {
+    text-align: left;
+}
+
+/* Group and category rows below the column headings (Typst subheaders) */
+thead tr + tr th,
+tbody th {
+    background-color: #f7f7f2;
+}
+
+/* Bibliography: hanging [n] labels */
+section[role="doc-bibliography"] ul {
+    padding-left: 0;
+}
+
+section[role="doc-bibliography"] li {
+    margin-bottom: 0.4em;
+}

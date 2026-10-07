@@ -68,7 +68,7 @@ People often need the whole following day to recover, and aftereffects may last 
 
 It’s common to experience moderately increased psychological turmoil and adverse symptoms for days to weeks after a session. MDMA helps us confront distressing feelings that we have been avoiding, and our minds can feel distressed about that until we process those feelings and reactions. It’s often worthwhile developing a set of healthy coping practices to help you through this period.
 
-The Fireside Project offers a hotline to help people through challenging psychedelic experiences at +1 (623) 473-7433 in the USA. [tripsit.me/webchat](https://tripsit.me/webchat) is a chatroom available anywhere.
+The Fireside Project offers a hotline to help people through challenging psychedelic experiences at [+1 (623) 473-7433](tel:1-623-473-7433) in the USA. [tripsit.me/webchat](https://tripsit.me/webchat) is a chatroom available anywhere.
 
 There is almost no data on how frequently it is safe to do sessions, though many people have strong opinions on the subject. In the absence of better data, the 6 week spacing used in the clinical trials might be a reasonable minimum.
 

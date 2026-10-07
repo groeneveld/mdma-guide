@@ -1,0 +1,126 @@
+/* Custom styles for EPUB output */
+
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/LibertinusSerif-Regular.otf");
+}
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/LibertinusSerif-Italic.otf");
+}
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/LibertinusSerif-Bold.otf");
+}
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: italic;
+    font-weight: bold;
+    src: url("../fonts/LibertinusSerif-BoldItalic.otf");
+}
+@font-face {
+    font-family: "Libertinus Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/LibertinusSans-Regular.otf");
+}
+@font-face {
+    font-family: "Libertinus Sans";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/LibertinusSans-Italic.otf");
+}
+@font-face {
+    font-family: "Libertinus Sans";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/LibertinusSans-Bold.otf");
+}
+@font-face {
+    font-family: "Libertinus Mono";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/LibertinusMono-Regular.otf");
+}
+
+body {
+    font-family: "Libertinus Serif", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+code, pre, tt, kbd, samp {
+    font-family: "Libertinus Mono", monospace;
+}
+
+/*
+ * Distinguish footnote links from citation links
+ * Citations are in <sup> tags (blue, superscript)
+ * Footnotes use .footnote-ref class (yellow highlight)
+ */
+
+/* Yellow highlight for footnotes to distinguish from citations */
+a.footnote-ref {
+    background-color: #ffeb3b !important;  /* Yellow highlight */
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* Footnote back-references get the same highlight */
+a.footnote-back {
+    background-color: #ffeb3b !important;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* Tables of contents: entries carry their own section numbers, so hide the
+   list markers (the in-book Contents page and pandoc's nav document; --css
+   replaces pandoc's default stylesheet, which would otherwise do this) */
+section#contents ol,
+nav#toc ol {
+    list-style-type: none;
+    padding-left: 1.25em;
+}
+
+section#contents > ol,
+nav#toc > ol {
+    padding-left: 0;
+}
+
+section#contents .prefix {
+    margin-right: 0.4em;
+}
+
+/* Term lists: bold term, indented description (matches the PDF) */
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1.5em;
+}
+
+/* Indented claim bodies (from the LaTeX adjustwidth environment) */
+div.adjustwidth {
+    margin-left: 1.5em;
+}
+
+/* Ensure images stay at full width */
+figure {
+    margin: 1em 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+}
