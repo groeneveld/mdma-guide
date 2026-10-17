@@ -235,6 +235,12 @@
   set list(indent: 0.5em)
   set enum(indent: 0.5em)
   show link: set text(fill: link-color)
+  // Bare URL links (#link("https://...")) display without the scheme or
+  // "www."; the link target keeps them.
+  show link: it => {
+    if type(it.dest) != str or it.body != text(it.dest) { return it }
+    link(it.dest, it.dest.replace(regex("^(https?://)?(www\.)?"), ""))
+  }
   show ref: set text(fill: link-color)
   show cite: set text(fill: link-color)
   show heading: set text(font: sans)

@@ -17,18 +17,13 @@ There is moderate-quality clinical trial evidence that a limited course of MDMA 
 More broadly, MDMA therapy is a powerful tool for
 
 - healing mental illness
-
 - connecting with yourself, those you love, and the world
-
 - resolving conflict
-
 - developing equanimity, patience, compassion, introspection, resilience, alignment of behavior with goals, and cognitive and emotional flexibility
-
 - unburdening from hypervigilance, fear, chronic stress, loneliness, shame, guilt, etc.
-
 - focusing on what you can change and letting go of the things you can’t
 
-Many self-reports of successful MDMA therapy can be found on the top posts on [reddit.com/r/mdmatherapy](https://reddit.com/r/mdmatherapy/top/?sort=top&t=all). The top posts mostly describe productive sessions that don’t contain intense dissociation, avoidance, resistance, or symptom worsening. You can see occasional descriptions of less productive or more disruptive sessions by sorting by *new.* Godes et al. (2023) also reports how therapy clients describe how they felt MDMA therapy worked during their sessions: staying with what “is”; decreased reactivity; insight, reflection, linking; mental clarity; recovery of traumatic \[episodic\] memories; disentangling trauma from self; reuniting lost affects and parts; self-acceptance; joy, happiness, gratitude; hope and empowerment; relaxation, calmness, peace; comfort; gratitude, compassion, empathy; union, wider perspective; inner healing intelligence \[the therapeutic framework used in this study\]; accessibility to emotions; and mind-body connection.
+Many self-reports of successful MDMA therapy can be found on the top posts on [reddit.com/r/mdmatherapy/top/?sort=top&t=all](https://reddit.com/r/mdmatherapy/top/?sort=top&t=all). The top posts mostly describe productive sessions that don’t contain intense dissociation, avoidance, resistance, or symptom worsening. You can see occasional descriptions of less productive or more disruptive sessions by sorting by *new.* Godes et al. (2023) also reports how therapy clients describe how they felt MDMA therapy worked during their sessions: staying with what “is”; decreased reactivity; insight, reflection, linking; mental clarity; recovery of traumatic \[episodic\] memories; disentangling trauma from self; reuniting lost affects and parts; self-acceptance; joy, happiness, gratitude; hope and empowerment; relaxation, calmness, peace; comfort; gratitude, compassion, empathy; union, wider perspective; inner healing intelligence \[the therapeutic framework used in this study\]; accessibility to emotions; and mind-body connection.
 
 As of 2026, MDMA has not been approved by most medical regulators. There is disagreement over whether existing clinical trials were sufficient to approve MDMA for medical use (Schenberg, 2024). The US FDA thought the existing evidence was insufficient and requested one more trial (Psychedelic Alpha, 2025), but the Dutch State Commission on MDMA determined that “Scientific research has shown that MDMA therapy is an effective and safe treatment method. … The State Commission deems it desirable that this treatment method becomes available in the Netherlands as soon as possible.” (Toebes et al., 2024, p. 203). Possession of MDMA is a felony in many jurisdictions, though it often isn’t an enforcement priority. The vast majority of MDMA therapy in 2026 is done underground, though there are clinical trials and special access programs in certain countries.
 
@@ -42,13 +37,13 @@ Our brains have an updating process called memory[^2] reconsolidation, that, in 
 
 ## How MDMA Therapy Works
 
-MDMA starts the previously blocked update process for any stuck schema you activate or trigger during the session and then stay present with. Staying present means focusing on it and allowing it to be felt in the body and mind without acting to end, alter, escape, or explain it away. It can also include *investigatively feeling,* feeling how the feelings change as you move or as your thoughts and triggers change or as the schema reconsolidates. Thinking, writing, or talking about your issue is often sufficient to do this. After the schema updates, it will not reactivate after the session is over, though complex schemas have numerous parts that you have to individually update. Dissociation and flight-or-fight also resolve once you update the underlying schemas.
+MDMA starts the previously blocked update process for any stuck schema you activate or trigger during the session and then stay present with. Staying present means focusing on it and allowing it to be felt in the body and mind without acting to end, alter, escape, or explain it away. It can also include *investigative feeling,* feeling how the feelings change as you move or as your thoughts and triggers change or as the schema reconsolidates. Thinking, writing, or talking about your issue is often sufficient to do this. After the schema updates, it will not reactivate after the session is over, though complex schemas have numerous parts that you have to individually update. Dissociation and flight-or-fight also resolve once you update the underlying schemas.
 
 This is a powerful process but is not a quick fix except for simple issues. People typically need to do a lot of between-session therapy-like work as well as multiple sessions. Resolving the most severe issues will take years of hard work.
 
-Temporary symptom worsening is likely the most significant downside. It is a common and probably often unavoidable phase of therapy for those with severe trauma. Unfortunately, people are sometimes not explicitly aware they have gone through severe trauma. This may happen if that trauma takes the form of disorganized attachment (assess with [attachmentproject.com](https://www.attachmentproject.com)), the abuse is explained away as cultural tradition or “how things are,” the trauma took place in the period of childhood amnesia, or it is not remembered for some reason. Diagnosis of mental illness indicates higher risk as well.
+Temporary symptom worsening is likely the most significant downside. It is a common and probably often unavoidable phase of therapy for those with severe trauma. Unfortunately, people are sometimes not explicitly aware they have gone through severe trauma. This may happen if the abuse didn’t involve any dramatic events, it was explained away as cultural tradition, it happened during the period of childhood amnesia, or it’s not remembered for another reason. Diagnosis of mental illness indicates higher risk as well.
 
-*Symptom worsening is occasionally long and overwhelming and can cause major problems when poorly managed or entered into at an inappropriate moment in your life.* It may also, on rare occasion, exacerbate or activate dangerous symptoms like psychosis or suicide attempts. In Robinson et al. (2024), people with prolonged post-psychedelic symptoms reported these activities as helpful, in order of most to least commonly reported, and excluding those reported by less than 10% of participants: peers and community support; professional therapeutic or coaching assistance; meditation and prayer; reading for self education; physical exercise; journaling; breathing strategies; embodied contemplative practices; time in nature; and acceptance and surrender.
+*Symptom worsening is occasionally long and overwhelming and can cause major problems when poorly managed or entered into at an inappropriate moment in your life.* It may also, on rare occasion, exacerbate or activate dangerous symptoms like psychosis or suicide attempts. In Robinson et al. (2024), people with prolonged post-psychedelic symptoms reported the following activities as helpful, in order of most to least commonly reported, and excluding those reported by less than 10% of participants. They were: peers and community support; professional therapeutic or coaching assistance; meditation and prayer; reading for self education; physical exercise; journaling; breathing strategies; embodied contemplative practices; time in nature; and acceptance and surrender.
 
 MDMA therapy tends to speed up both healing and symptom worsening. Additional MDMA sessions and regular therapy often help work through the latter.
 
@@ -56,7 +51,7 @@ Symptom worsening is sometimes caused by experiences that feel like remembering 
 
 ## The MDMA Therapy Session
 
-A standard, safe dose is 100 mg for body masses less than 60 kg (132 lb) and 125 mg for more (Baggott, 2015; Liechti & Schmid, 2026). People over 75 years old also start with 100 mg. These doses can be adjusted later to fit individual circumstances. Low doses generally don’t work. Too high of a dose might be so blissful that you can’t engage with your trauma reactions.
+A standard, safe dose is 100 mg for body masses less than 60 kg (132 lb) and 125 mg for more (Baggott, 2015; Liechti & Schmid, 2026). People over 75 years old also start with 100 mg. These doses can be adjusted later to fit individual circumstances. Low doses generally don’t work. Too high a dose might be so blissful that you can’t engage with your trauma reactions.
 
 Booster doses half the strength of the initial dose are sometimes taken 1.5–2.5 hours later to extend the session length. This has worked well in large clinical trials with no obvious, reported adverse effects. However, there is a significantly lower degree of certainty that these higher total doses are safe for more than a handful of sessions (Baggott, 2015). Booster doses might be fine to start off with, but once you have established a reliably therapeutic routine, *gradually reduce your dose to find your minimum effective dose.*
 
@@ -68,7 +63,7 @@ People often need the whole following day to recover, and aftereffects may last 
 
 It’s common to experience moderately increased psychological turmoil and adverse symptoms for days to weeks after a session. MDMA helps us confront distressing feelings that we have been avoiding, and our minds can feel distressed about that until we process those feelings and reactions. It’s often worthwhile developing a set of healthy coping practices to help you through this period.
 
-The Fireside Project offers a hotline to help people through challenging psychedelic experiences at [+1 (623) 473-7433](tel:1-623-473-7433) in the USA. [tripsit.me/webchat](https://tripsit.me/webchat) is a chatroom available anywhere.
+The Fireside Project offers a hotline to help people through challenging psychedelic experiences at [+1 (623) 473-7433](tel:+1%20(623)%20473-7433) in the USA. [tripsit.me/webchat](https://tripsit.me/webchat) is a chatroom available anywhere.
 
 There is almost no data on how frequently it is safe to do sessions, though many people have strong opinions on the subject. In the absence of better data, the 6 week spacing used in the clinical trials might be a reasonable minimum.
 
@@ -79,39 +74,28 @@ It’s helpful to start MDMA therapy with a practitioner, at least to learn the 
 There are a few important factors when working with a guide, therapist, or other mental health practitioner:
 
 - **Ethical:** They should inform you of the benefits and risks, not abuse you, and maintain strict professional boundaries. Occasionally, practitioners abuse their clients. Be extra cautious with anyone if you feel something is off, they aren’t committed to strict professional boundaries, or you see any other red flags. Touch or love from the therapist are not essential healing components of MDMA therapy. You can video record your session or bring a trusted friend or family member along for additional comfort. For more information on red flags, see Friedwoman et al. (n.d.).
-
 - **Skilled:** They should have thorough knowledge of, and experience successfully resolving, a wide spectrum of difficult situations that might arise during MDMA therapy. This especially includes intense dissociation, avoidance, panic, and symptom worsening.
-
 - **Well-matched:** You get along well with them and agree on your goals for therapy. You can use the Brief Revised Working Alliance Inventory ([greenspacehealth.com/en-us/br-wai](https://greenspacehealth.com/en-us/br-wai)) to assess your relationship with your practitioner.
 
 ## Medical, Psychological, and Drug Interaction Risks
 
-A limited course of MDMA therapy is generally well-tolerated, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks (**some of these are best guesses based on sparse evidence**):
+A limited course of MDMA therapy is generally well-tolerated, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks (some of these are best guesses based on sparse evidence):
 
 **Always avoid (significant risk of death or irreversible damage):**
 
 - MAOIs and ayahuasca
-
 - ritonavir, cobicistat, or HIV drugs that contain them
-
 - over 200 lifetime doses (boosters count as partial extra doses)
-
 - hyperthyroidism that isn’t well managed and mild, as assessed by a doctor (Mitchell et al., 2023)
 
 **Use caution with:**
 
 - a family or personal history of psychosis
-
 - a personal history of addiction to amphetamines or cocaine
-
 - total doses over 2 mg/kg, especially for more than a handful of sessions
-
 - session spacing less than 4 weeks
-
 - drugs/medications/supplements/herbs, including large doses of caffeine.
-
 - liver and cardiovascular problems
-
 - other serious medical conditions, especially ones that are not well managed and mild, as assessed by a doctor (Mitchell et al., 2023)
 
 **Take precaution:**
@@ -120,7 +104,7 @@ A limited course of MDMA therapy is generally well-tolerated, but there are dang
 
 - Ideally, avoid SSRIs and SNRIs for 2 months prior.
 
-- Test your MDMA. The presence of some common adulterants can be checked with reagent test kits; [/r/ReagentTesting/wiki/test_kit_suppliers](https://www.reddit.com/r/ReagentTesting/wiki/test_kit_suppliers) maintains a list of suppliers. Laboratory testing is much better; [/r/ReagentTesting/wiki/labs](https://www.reddit.com/r/ReagentTesting/wiki/labs) maintains a list of labs. It measures the amount of MDMA and all other ingredients.
+- Test your MDMA. The presence of some common adulterants can be checked with reagent test kits; [reddit.com/r/ReagentTesting/wiki/test_kit_suppliers](https://www.reddit.com/r/ReagentTesting/wiki/test_kit_suppliers) maintains a list of suppliers. Laboratory testing is much better; [reddit.com/r/ReagentTesting/wiki/labs](https://www.reddit.com/r/ReagentTesting/wiki/labs) maintains a list of labs. It measures the amount of MDMA and all other ingredients.
 
 - People with a personal history of mania should take care to sleep well before and after the session; a pre-supplied course of sleep aids can help with this. Also skip booster doses at first, then gradually increase the total dose on subsequent sessions if needed.
 

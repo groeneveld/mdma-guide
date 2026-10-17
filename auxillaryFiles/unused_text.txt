@@ -4386,3 +4386,17 @@ Some traditions include unity with God, though \textcite{ingram2018mastering} ar
 
   The book is my version of \textit{Where There Is No Doctor,} but made for a world in which even mental health practitioners need far better information than they currently have.
 
+// Commented out in the LaTeX edition (original LaTeX):
+// \chapter{Casual Observations About MDMA Therapy}
+// I have observations about MDMA therapy may be true or useful but which I don't know how to formalize or back up:
+// \begin{itemize}
+// \item The reconsolidation done during MDMA therapy isn't limited to the specific aspects of the active schemas that you notice during the session. Often, MDMA-facilitated reconsolidation subtly alters a swath of subtle schemas you may or may not be aware of. This can produce unexpected improvement or destabilization.
+// \end{itemize}
+
+Non-salience is especially strong when harm is incentivized through intermediaries like markets, elections, or culture. For instance, consumers who purchase chicken, and thus increase chicken production, rarely confront the conditions of extreme suffering that they incentivize at farms.
+
+ethical (used here as a synonym for morality or "what one should do")
+
+
+
+MDMA notably increases tolerance of emotional discomfort, and I suspect it is useful for bringing attention to other beings, contemplating their worth, and reconsolidating any stuck schemas those actions activate. 
