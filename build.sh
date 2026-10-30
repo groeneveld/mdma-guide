@@ -4,6 +4,10 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
+# Use the uv-managed environment (pikepdf, fonttools, brotli) over the system
+# Python 3.9. The shell only reaches it through an alias, which scripts ignore.
+if [ -x "$HOME/.venvs/main/bin/python3" ]; then PATH="$HOME/.venvs/main/bin:$PATH"; fi
+
 FONTS=auxillaryFiles/fonts  # Libertinus, SIL Open Font License (auxillaryFiles/fonts/OFL.txt)
 TYPST=(typst compile --root . --font-path "$FONTS")
 mkdir -p temp
@@ -62,7 +66,10 @@ css = "".join(
     f'src: url(data:font/woff2;base64,{woff2(f"{fonts}/{file}.otf")}) format("woff2"); }}\n'
     for family, style, weight, file in faces
 )
-page = page.replace("</head>", f"<style>{css}</style></head>", 1)
+# GoatCounter page-view analytics (web edition only).
+goatcounter = ('<script data-goatcounter="https://groeneveld.goatcounter.com/count" '
+               'async src="//gc.zgo.at/count.js"></script>')
+page = page.replace("</head>", f"<style>{css}</style>{goatcounter}</head>", 1)
 open("index.html", "w").write(page)
 PY
 
@@ -97,7 +104,7 @@ python3 - <<'PY'
 src = open("book.typ").read()
 def between(a, b):
     return src[src.index(a) + len(a):src.index(b)].strip()
-open("temp/readme.typ", "w").write(f'''#import "/template.typ": *
+open("temp/readme.typ", "w").write(f'''#import "../auxillaryFiles/template.typ": *
 #show: book
 
 = Short Summary
@@ -123,3 +130,7 @@ sed -i '' -E 's/\[([^]]*)\]\(#loc-[0-9]+\)/\1/g' README.md
 
 # Intermediate files are only needed during the build.
 rm -rf temp
+
+
+# Table of contents
+python auxillaryFiles/toc.py

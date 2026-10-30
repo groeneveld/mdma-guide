@@ -1,4 +1,4 @@
-#import "template.typ": *
+#import "auxillaryFiles/template.typ": *
 #import "@preview/lilaq:0.6.0" as lq
 #import "@preview/alchemist:0.1.8" as alchemist
 
@@ -22,7 +22,7 @@
     name: "Reconsolidation",
     stems: ("reconsolidat",),
     defined-in: <sec:mechanism>,
-    description: [When a schema/implicit-memory first forms, it is _consolidated_~@eckerUnlocking. When contradictory evidence causes sufficient contradiction or prediction error, the schema enters a state where it can be changed (it becomes _labile_). Maintaining that contradiction or prediction error gradually updates the schema to reflect the new information. At the end of this process the schema _re-consolidates,_ and becomes unchangeable again. I also use the term _reconsolidate_ to refer to this whole process of activation, updating, and reconsolidation.],
+    description: [When a schema or implicit memory first forms, it is _consolidated_~@eckerUnlocking. When contradictory evidence causes sufficient prediction error, the schema enters a state where it can be changed (it becomes _labile_). Maintaining that contradiction or prediction error gradually updates the schema to reflect the new information. At the end of this process the schema _reconsolidates_ and becomes unchangeable again. I also use the term _reconsolidate_ to refer to this whole process of activation, updating, and reconsolidation.],
   ),
   defense-cascade: (
     name: "Defense Cascade",
@@ -34,25 +34,25 @@
     name: "Arousal",
     stems: ("arous",),
     defined-in: <sec:defensecascade>,
-    description: [Increased alertness and threat assessment activated when a potential threat is noticed~@kozlowskaDefenseCascade. It is also preparation for flight-or-fight if the threat escalates. Heart rate, breathing, and muscle tone are increased. Saliva is no longer produced, and core muscles tighten to stabilize posture.],
+    description: [Increased alertness and threat assessment activated when a potential threat is noticed~@kozlowskaDefenseCascade. It is also preparation for flight-or-fight if the threat escalates. Heart rate, breathing, and muscle tone rise. Saliva production stops and core muscles tighten to stabilize posture.],
   ),
   flight-or-fight: (
     name: "Flight-or-Fight",
     stems: ("flight-or-fight",),
     defined-in: <sec:defensecascade>,
-    description: [The active defense response characterized by high levels of adrenaline and muscle activation, highly increased heart and respiratory rates, and decreased pain sensitivity~@kozlowskaDefenseCascade.],
+    description: [The active defense response characterized by high levels of adrenaline and muscle activation, greatly increased heart and respiratory rates, and decreased pain sensitivity~@kozlowskaDefenseCascade.],
   ),
   freeze: (
     name: "Freeze",
     stems: ("freez",),
     defined-in: <sec:defensecascade>,
-    description: [A flight-or-fight response temporarily put on hold~@kozlowskaDefenseCascade. Attention to the environment remains high but the body is frozen to avoid the notice of predators who are more likely to notice moving prey. Freeze is one type of #link(<glossary:dampening>)[opioid dampening].],
+    description: [A paused flight-or-fight response~@kozlowskaDefenseCascade. Attention to the environment remains high but the body is frozen to avoid the attention of predators who are more likely to notice moving prey. Freeze is one type of #link(<glossary:dampening>)[opioid dampening].],
   ),
   immobility: (
     name: "Tonic/Collapsed Immobility",
     stems: ("immobil",),
     defined-in: <sec:defensecascade>,
-    description: [The inactive defense responses characterized by detachment; emotional and physical numbing; and immobility~@kozlowskaDefenseCascade. Predators are more attracted to moving prey and may lose interest in seemingly dead bodies. Collapsed immobility may escalate to unconsciousness. Immobility is one type of #link(<glossary:dampening>)[opioid dampening].],
+    description: [The inactive defense responses characterized by detachment; emotional and physical numbing; and difficulty moving~@kozlowskaDefenseCascade. Predators are more attracted to moving prey and may lose interest in seemingly dead bodies. Collapsed immobility may escalate to unconsciousness. Immobility is one type of #link(<glossary:dampening>)[opioid dampening].],
   ),
   dampening: (
     name: "Opioid Dampening",
@@ -88,7 +88,7 @@
     name: "Psychedelic",
     stems: ("psychedelic",),
     defined-in: <na>,
-    description: ["Showing the mind/soul," from the Greek "psyche" and "deloun"~@osmondObit. Most are tryptamines, phenethylamines, and ergamides~@gumpper2024chemistry. Different classes have different effects. I do not categorize MDMA as a psychedelic, but rather a connectogen (see #textcite(<stockerConnectogen>)). These drugs facilitate profound connection to self, body, senses, and others. The sense of self is maintained and hallucinations are minimal, unlike with the classic psychedelics or hallucinogens. I still use the term _psychedelic_ to discuss the combined social movement surrounding psychedelics and MDMA. I also use _psychedelic_ when referencing the many studies that don't differentiate MDMA from the _classic psychedelics._],
+    description: ["Showing the mind/soul," from the Greek _psyche_ and _deloun_~@osmondObit. Most are tryptamines, phenethylamines, and ergolines~@gumpper2024chemistry. Different classes have different effects. I do not categorize MDMA as a psychedelic, but rather a connectogen (see #textcite(<stockerConnectogen>)). These drugs facilitate profound connection to self, body, senses, and others. The sense of self is maintained and hallucinations are minimal, unlike with the classic psychedelics or hallucinogens. I still use the term _psychedelic_ to discuss the broader social movement surrounding psychedelics and MDMA. I also use _psychedelic_ when referencing the many studies that don't differentiate MDMA from the _classic psychedelics._],
   ),
   attachment-theory: (
     name: "Attachment Theory/Styles",
@@ -100,13 +100,13 @@
     name: "Predictive Processing",
     stems: ("predicti",),
     defined-in: <sec:trauma>,
-    description: [The prevailing model of brain function~@clark2015surfing. The brain internally models the world and self via complex networks of learned priors/beliefs to plan the future fulfillment of basic needs such as bodily integrity, reproduction, community, etc. Prediction error is a discrepancy between the brain's model of the world and incoming sensory data or between two contradictory models. A sufficiently strong prediction error updates a prior. \ \ Memory research has converged on the same phenomenon from a different angle with different terms~@eckerUnlocking. In that formulation, priors or sets of priors that encoded in long-term memory are called schemas, and updating those schemas is called reconsolidation.],
+    description: [The prevailing model of brain function~@clark2015surfing. The brain internally models the world and self via complex networks of learned priors/beliefs to plan the future fulfillment of basic needs such as bodily integrity, reproduction, community, etc. Prediction error is a discrepancy between the brain's model of the world and incoming sensory data or between two contradictory models. A sufficiently strong prediction error updates a prior. \ \ Memory research has converged on the same phenomenon from a different angle using different terms~@eckerUnlocking. In that formulation, priors or sets of priors encoded in long-term memory are called schemas, and updating those schemas is called reconsolidation.],
   ),
   resistance: (
     name: "Resistance",
     stems: ("resistance",),
     defined-in: <na>,
-    description: [Opposition to reconsolidation or other therapeutic processes that would actually be healthy for the individual.],
+    description: [Opposition to reconsolidation or other therapeutic processes that would be healthy for the individual.],
   ),
   bypass: (
     name: "Spiritual Bypass",
@@ -124,37 +124,37 @@
     name: "Muting",
     stems: ("mute", "muting"),
     defined-in: <mechanism>,
-    description: [The brain can mute (make more ambiguous or less precise) sensory information when it thinks it isn't useful or reliable or when it wants to prioritize quick action in situations of threat (see @attention). I use it as an easier-to-use substitute for _down-weighted precision of bottom-up information._],
+    description: [The brain can mute (make more ambiguous or less precise) sensory information when it thinks it isn't useful or reliable or when it wants to prioritize quick action in situations of threat (see @attention). I chose it as an easier-to-use substitute for _down-weighted precision of bottom-up information._],
   ),
   biopsychosocial-model: (
     name: "Biopsychosocial Model",
     stems: ("biopsychosocial",),
     defined-in: <sec:trauma>,
-    description: [Prevailing model of mental illness as a complex interaction of biology (genes and medical history), psychology (schemas, in our view), and society (one's support system and social models of how to respond to adversity)~@engel1977need.],
+    description: [The prevailing model of mental illness as a complex interaction of biology (genes and medical history), psychology (schemas, in our view), and society (one's support system and social models of how to respond to adversity)~@engel1977need.],
   ),
   complex-system: (
     name: "Complex System",
     stems: ("complex system",),
     defined-in: <sec:complex>,
-    description: [Systems with many interacting parts that are difficult to model and understand~@hayes2020complex. The overall behavior of the system can't be easily predicted by looking at the individual components. The mind/brain is a complex system.],
+    description: [A system with many interacting parts that is difficult to model and understand~@hayes2020complex. The overall behavior of the system can't be easily predicted by looking at the individual components. The mind/brain is a complex system.],
   ),
   attractor-state: (
     name: "Attractor",
     stems: ("attractor",),
     defined-in: <sec:complex>,
-    description: [A state in a complex system that the system is drawn to and which it is difficult to get out of~@hayes2020complex. Many mental illnesses are attractor states. Stuck schemas seem to stick around when they're paired with some reconsolidation-inhibiting process (like avoidance), which together form an attractor state~@hayes2020complex@berghBSTS. The durability of the state requires multiple reinforcing elements; removing those elements destabilizes it.],
+    description: [A state in a complex system that the system is drawn to~@hayes2020complex. Many mental illnesses are attractor states. Schemas seem to stick around when they're paired with some reconsolidation-inhibiting process (like avoidance), which together form an attractor state~@hayes2020complex@berghBSTS. The durability of the state requires multiple reinforcing elements; removing those elements destabilizes it.],
   ),
   destabilization: (
     name: "Destabilization",
     stems: ("destabiliz",),
     defined-in: <sec:mechanism>,
-    description: [Two phenomena described in @sec:complex. The first is increased fluctuation between states of good and bad mental health that often precedes a stabilizing transition to the good state. The second is a transition to a stable and even worse state of mental health, possibly precipitated by confronting disturbing memories that were previously avoided. Both phenomena are part of the healthy process of therapy when managed well and entered into at an appropriate time.],
+    description: [Two phenomena described in @sec:complex. The first is increased fluctuation between states of good and bad mental health that often precedes a stabilizing transition to the good state. The second is a transition to a stable but even worse state of mental health, possibly precipitated by confronting disturbing memories that were previously avoided. Both phenomena are part of the healthy process of therapy when managed well and entered into at an appropriate time.],
   ),
   afterglow: (
     name: "Afterglow",
     stems: ("afterglow",),
     defined-in: <afterglow>,
-    description: [A days-to-weeks long period after a session involving well-being, positive mood, mindfulness, positive behaviors, and less mental illness~@evansAfterglow. Conventional therapy might be more effective in this period. Anecdotal reports indicate that the occurrence of afterglow is unreliable. It can also occasionally be strong enough that people feel like they're on a low dose of MDMA.],
+    description: [A days-to-weeks-long period after a session characterized by well-being, positive mood, mindfulness, positive behaviors, and less mental illness~@evansAfterglow. Conventional therapy might be more effective in this period. Anecdotal reports indicate that the occurrence of afterglow is unreliable. It can also occasionally be strong enough that people feel like they're on a low dose of MDMA.],
   ),
 )
 
@@ -164,96 +164,75 @@
   title: [Open MDMA],
   subtitle: [An Evidence-Based Synthesis, Theory, and Manual for MDMA Therapy Based on Memory Reconsolidation, Complex Systems, and the Defense Cascade],
   author: [Mark Groeneveld],
-  date: [Preprint Draft Version 6.1 #datetime.today().display("[month repr:long] [day padding:none], [year]"). The book is a work-in-progress; it needs to be reviewed and then substantively edited again. Safety recommendations are still being refined.],
+  date: [Preprint Draft Version 6.x; #datetime.today().display("[month repr:long] [day padding:none], [year]"). The book is a work in progress; it needs to be reviewed and substantively edited again. Safety recommendations are still being refined.],
 )[
 This work is licensed under #link("https://creativecommons.org/licenses/by/4.0/")[CC BY 4.0].
 
-If you share this book, please use this link to ensure that people have the latest version: #link("https://doi.org/10.31234/osf.io/aps5g"). This site tallies downloads, informing me how many people are using the manual and how worthwhile it is to update it with new research.
+This book is available in #link("https://raw.githubusercontent.com/groeneveld/mdma-guide/refs/heads/main/Open%20MDMA.epub")[EPUB], #link("https://groeneveld.github.io/mdma-guide/")[HTML], and #link("https://raw.githubusercontent.com/groeneveld/mdma-guide/refs/heads/main/Open%20MDMA.pdf")[PDF]. When sharing the book, please use one of those links to ensure that people have the latest version. I update it weekly. You can sign up for notifications of new major versions (\~yearly updates) at #link("https://github.com/groeneveld/mdma-guide"). Select the _Watch_ dropdown at the top right, choose _Custom,_ then _Releases._ The major versions are also posted at #link("https://doi.org/10.31234/osf.io/aps5g") with a DOI.
 
-An ebook version more suited to reading on small screens is available #link("https://raw.githubusercontent.com/groeneveld/mdma-guide/refs/heads/main/Open%20MDMA.epub")[here]. An HTML version is available at #link("https://groeneveld.github.io/mdma-guide/").
+I'd love to hear your thoughts at #link("mailto:mgroeneveld@protonmail.ch"). I'm curious how you're using the manual, what you like, and what you don't. Please let me know about any errors. You can also submit anonymous feedback #link("https://docs.google.com/forms/d/e/1FAIpQLScZe2h4L9PcLQGGpuerk44FXiWThRC2w6YNwSm67OXIJun-rA/viewform?usp=dialog")[here].
 
-I'd love to hear your thoughts at #link("mailto:mgroeneveld@protonmail.ch"). I am curious about how you're using the manual, what you like, what you don't, any errors you spot, etc. You can also submit anonymous feedback #link("https://docs.google.com/forms/d/e/1FAIpQLScZe2h4L9PcLQGGpuerk44FXiWThRC2w6YNwSm67OXIJun-rA/viewform?usp=dialog")[here].
-
-You can sign up for new version notifications on #link("https://github.com/groeneveld/mdma-guide"). Select the _Watch_ dropdown at the top right, choose _Custom_, then _Releases._ That site also hosts a more frequently updated version of the manual.
+The changelogs are in @sec:revisions.
 ]
 
 #page-break()
 #front-section[Abstract]
 // BEGIN_ABSTRACT
-MDMA therapy is not approved by most medical regulators. But underground use is popular despite a severe lack of adequate practical guidance. Thus, I provide comprehensive practical guidance for solo and guided MDMA therapy based on critical literature synthesis, personal experience, community reports, and a mechanistic framework. I primarily address the individual doing or seeking MDMA therapy while also discussing certain aspects mostly of interest to practitioners and researchers. With this manual I aim to improve the appeal, safety, and efficacy of MDMA therapy through scientific rigor, comprehensiveness, transparency, and respect for autonomy.
+MDMA therapy is not approved by most medical regulators, but underground use is popular despite inadequate practical guidance. I provide comprehensive practical guidance for solo and guided MDMA therapy based on critical literature synthesis, personal experience, community reports, and a mechanistic framework. I primarily address the individual doing or seeking MDMA therapy while also discussing certain aspects of interest mostly to practitioners and researchers. With this manual I aim to improve the appeal, safety, and efficacy of MDMA therapy through scientific rigor, comprehensiveness, transparency, and respect for autonomy.
 
-These ideas are grounded in a theoretical model based on frameworks of memory reconsolidation, predictive processing, complex system dynamics, and the defense cascade model of autonomic nervous system threat responses. I use this to explain how many mental illnesses work, how MDMA therapy works, why destabilization exists, and how to navigate the long-term healing process. I argue that MDMA therapy durably improves many mental illnesses and stuck emotional reactions and beliefs through the unlearning, or reconsolidation, of inaccurate mental models. It reconsolidates most or all stuck mental models that are activated---and which you stay present with---during the session.
+I integrate memory reconsolidation, predictive processing, complex systems dynamics, and the defense cascade theory of autonomic nervous system threat responses. I use this model to explain how many mental illnesses arise and how MDMA therapy works, why destabilization exists, and how to navigate the long-term healing process. I argue that MDMA therapy durably improves many mental illnesses and stuck emotional reactions and beliefs through the unlearning, or reconsolidation, of inaccurate mental models. MDMA therapy reconsolidates most or all stuck mental models that are activated during the session and that you stay present with.
 
-Practical guidance contains evidence-based discussion of safety, session preparation, the session itself, troubleshooting, between-session healing, and how that all fits into the longer-term healing journey. I also extend MDMA therapy beyond clinical mental illness to mental models that inhibit healthy community relationships, cognitive flexibility, and ethical reasoning. The tradeoffs between practitioner- versus self-guidance and instructions on how to find skilled, ethical, and well-matched practitioners are included.
+The practical guidance contains evidence-based discussion of safety, session preparation, the session itself, troubleshooting, between-session healing, and how it all fits into the longer-term healing journey. I extend MDMA therapy beyond clinical mental illness to mental models that inhibit healthy community relationships, cognitive flexibility, and ethical reasoning. I also discuss the tradeoffs between practitioner- and self-guidance.
 
-This is the only MDMA/psychedelic therapy manual to explain and justify its recommendations based on a mechanistic theory of mental illness and healing while providing reasons for both confidence and skepticism of its claims.
+This is the only MDMA/psychedelic therapy manual that explains and justifies its recommendations with a mechanistic theory of mental illness and healing while providing reasons for both confidence in and skepticism about its claims.
 // END_ABSTRACT
 
 #page-break()
 #front-section[Disclaimer]
-This book doesn't offer personalized medical/therapeutic advice, guarantee healing, assure the prevention of negative (possibly severe) outcomes, or prevent legal problems if used in a place where MDMA is illegal. Instead, this book is my framework for increasing the efficacy and safety of MDMA therapy, grounded in research, community insights, and author experiences. I spent considerable effort trying to make the best book I can, but it could be wrong about some important things. Please cross-check my references with other high-quality sources of information if you question something I say or are considering doing something potentially risky. Possessing MDMA is a felony in many jurisdictions. Licensed mental health professionals might risk their licenses by offering MDMA therapy in contexts where it isn't legal.
+This book doesn't offer personalized medical or therapeutic advice, guarantee healing, prevent negative (possibly severe) outcomes, or protect against legal problems if used in a place where MDMA is illegal. It is my framework for increasing the efficacy and safety of MDMA therapy, grounded in research, community insights, and my experience. I spent considerable effort validating the book's claims, but it could be wrong about important things. Possessing MDMA is a felony in many jurisdictions. Licensed mental health professionals might risk their licenses by offering MDMA therapy in contexts where it isn't legal.
 
-While this book has universal aspects, it doesn't cover all frameworks for doing MDMA therapy. Although MDMA therapy has been practiced for 50~years, comprehensive scientific study is relatively recent, leaving many aspects unexplored or unformalized. I think my model is a formalized version of what some MDMA therapists have already been practicing for decades. However, that formalization, integrating complex systems dynamics, memory reconsolidation, attention, and the defense cascade, appears novel despite each piece and some combinations of the pieces being fairly well-established. Novel frameworks are usually incorrect or incomplete to some degree.
+While this book has universal aspects, it doesn't cover all frameworks for doing MDMA therapy. Although MDMA therapy has been practiced for 50~years, comprehensive scientific study is relatively recent, leaving many aspects unexplored and poorly theorized. I think my model is a formalized version of what some MDMA therapists have already been practicing for decades. However, my integration of complex systems dynamics, memory reconsolidation, attention, and the defense cascade appears novel even though each piece is fairly well-established. Novel frameworks are usually incorrect or incomplete to some degree.
 
-The purpose of the book is reducing suffering. As part of that goal, several sections apply MDMA therapy to topics not typically considered part of therapy.
-
-#page-break()
-#front-section[Changes Since Version 6.0]
-Added the Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events troubleshooting sections. Partially rewrote #nameref(<sec:complex>), #nameref(<frequency>), #nameref(<sec:mechanism>), and #nameref(<selfinsight>) to improve rigor and clarity. Split the term _avoidance_ into _avoidance_ and _muting_ to better categorize the phenomena based on mechanism.
-
-Finished removing Thomas Harper's content. I replaced their major section, How to Find a Practitioner, with a few paragraphs that link out to equivalent information written by other people.
-
-Changes in earlier versions are listed in @sec:revisions.
+The purpose of the book is to reduce suffering. As part of that goal, several sections apply MDMA therapy to topics not typically considered part of therapy.
 
 #page-break()
 #outline()
 
 #heading(level: 1, numbering: none)[Preface]
 <preface>
-This book combines the tasks of reviewing and theorizing, all in the packaging of a practical manual. It includes a significant amount of personal experience with the practices described here. I aim to democratize access to high-quality MDMA therapy by mixing scientific rigor, comprehensive practical guidance, high ethical standards, and transparency about my biases and what is known and not known in the field.
+This book combines the tasks of reviewing and theorizing, packaged as a practical manual. It includes a significant amount of personal experience with the practices described here. I aim to democratize access to high-quality MDMA therapy by combining scientific rigor, comprehensive practical guidance, high ethical standards, and transparency about my biases and what is and isn't known in the field.
 
-The book started as my attempt to figure out what was actually happening during my MDMA therapy journey, which I started after getting no help from almost every treatment licensed mental health professionals can offer. I had a very difficult time figuring out what mental illness is, what MDMA therapy does, and how to optimize MDMA therapy for efficacy and safety. As I learned, rigorous answers to these questions have only started to appear in the 2000s and 2010s and haven't yet widely diffused down from academia. This knowledge base is also widely distributed in the literature and as far as I can tell hasn't been put together in one place before. This is unfortunate because many people are desperate for mental health treatment and are attempting MDMA therapy with inadequate information. I thought a manual could help with these problems.
+The book started as my attempt to figure out what was actually happening during my MDMA therapy journey, which I began after nearly every treatment that licensed mental health professionals can offer had failed to help. I struggled to understand what mental illness is, what MDMA therapy does, and how to optimize it for efficacy and safety. I learned that rigorous answers to these questions only began to appear in the 2000s and 2010s and have yet to widely diffuse out from academia. This knowledge base is scattered throughout the literature and, as far as I can tell, hasn't been put together before. This is unfortunate because many people are desperate for mental health treatment and are attempting MDMA therapy with inadequate information. I thought a manual could address these problems.
 
-Since MDMA therapy was almost my last option, knowing how to do it right was critical to my health. I created this book because I felt my life was at stake. I felt that creating this unique set of actionable but accurate knowledge was my only option for survival in a world of untrustworthy and poor-quality mental health information.#footnote[Much of my motivation was attachment issues and CPTSD, but these schemas can occasionally be redirected to productive uses.] Making the best of non-optimal situations in ways the legal medical system doesn't approve of has been a critical survival tool for me.
+Since MDMA therapy was almost my last option, knowing how to do it right was essential to my health. I needed this body of actionable, accurate knowledge to survive in a world of poor-quality mental health information.#footnote[Much of my motivation came from attachment issues and CPTSD, but these schemas can occasionally be redirected to productive uses.] Making the best of suboptimal situations in ways the legal and medical systems don't approve of has been a critical survival tool for me.
 
 I try to strike a balance between practical applicability and scientific robustness. My core assumptions, my reasons for believing each, and my confidence in them are laid out in @sec:assumptions.
 
-The strength and novelty of this book lie in the synthesis of multiple theoretical frameworks for describing MDMA therapy, in this case memory reconsolidation, predictive processing, complex systems, and the defense cascade model of autonomic threat response. It is also valuable as a comprehensive review and guide for most aspects of MDMA therapy that is accessible to solo users, clients, and practitioners. I'm not aware of any other work that rigorously covers most of the knowledge required for successful MDMA therapy. Its rigorous, mechanistic, science-based approach will also appeal to readers disinterested in the New Age and shamanic beliefs that pervade psychedelic spaces. Simultaneously, it avoids the neurobabble#footnote[_Babble_ is a term for explanations that are superficially scientific but actually poorly supported, like polyvagal theory~@luckPolyvagal. They often serve the function of _illness myths_ that justify subjective suffering in a way that is congruent with a culture's beliefs about which illnesses are valid and which aren't.] that is endemic in popular and clinical discourse of mental health.
+The strength and novelty of this book lie in the synthesis of multiple theoretical frameworks for describing MDMA therapy, namely memory reconsolidation, predictive processing, complex systems, and the defense cascade model of autonomic threat response. The book is also valuable as a comprehensive review and guide to most aspects of MDMA therapy that are accessible to solo users, clients, and practitioners. I'm not aware of any other work that rigorously covers the same territory. Its mechanistic, science-based approach will appeal to readers uninterested in the New Age and shamanic beliefs that pervade psychedelic spaces. It also avoids the neurobabble#footnote[_\_babble_ is a term for explanations that are superficially scientific but actually poorly supported, like polyvagal theory~@luckPolyvagal. They often serve the function of _illness myths_ that justify subjective suffering in a way that is congruent with a culture's beliefs about which illnesses are valid and which aren't.] endemic to popular and clinical discourse on mental health.
 
-I think my recursive approach produced a higher-quality and better-grounded book than if I worked from either theory or personal experience alone. Personal experience informed theory, which then informed interpretation of personal experience, which further informed theory, etc.
+I think my recursive approach produced a higher-quality and better-grounded book than working from either theory or personal experience alone. Personal experience informed theory, which then informed interpretation of personal experience, which further informed theory, and so on.
 
-Finally, I would like to thank Jessica Sojorne Libere for much MDMA therapy guidance; the scientists and therapists who developed this body of knowledge and practice; my partner for encouragement, support, and editing; #link("https://www.reddit.com/r/mdmatherapy") for numerous case examples and feedback; the researchers who answered my questions; one primary care physician for feedback on @sec:safety\; the Claude LLM for a few things listed below, and several users on #link("www.dharmaoverground.org") for feedback on @selfinsight. Thomas Harper provided early feedback on many sections.
+Finally, I would like to thank Jessica Sojorne Libere for extensive MDMA therapy guidance; the scientists and therapists who developed this body of knowledge and practice; my partner for encouragement, support, and editing; #link("https://www.reddit.com/r/mdmatherapy") for numerous case examples and feedback; the researchers who answered my questions; one primary care physician for feedback on @sec:safety\; the Claude LLM for a few tasks listed below; and several users on #link("https://www.dharmaoverground.org") for feedback on @selfinsight. Thomas Harper provided early feedback on many sections.
 
 May this work benefit all beings.
 
 Mark
 
 #lead[AI disclosure]
-With two minor and labeled exceptions, I wrote all the content in this book. I, or the human authors whom I cite, also created virtually all the ideas presented here. In the occasional instances where I accepted the Claude LLM's rephrasing of an existing sentence or paragraph in the editing process, I exercised complete editorial control, and my original meaning remained intact. All AI responses were also verified against original sources and treated as one view among many---not as authoritative. I used Claude for
-- pointing out issues with flow, logic, and grammar in my writing. Example prompt: "Point out the issues with this section." _used extensively_
-- double-checking that my sources actually back up my claims. See details in @methodology. _extensive_
-- writing the Python, LaTeX, and Lua scripts that compile this file. _extensive_
-- summarizing papers to help me decide whether they are worth reading myself. Example prompt: "Give me a long summary of this paper. \[attachment\]" _occasional_
-- clarifying aspects of papers that I don't understand. Example prompt: "Help me understand why the authors think that indicator x is a good measure of y. \[attachment\]" _occasional_
-- simple text querying. Example prompt: "I forget, does this paper mention the specific type of vitamin E they used? \[attachment\]" _occasional_
-- rephrasing an existing sentence or paragraph for readability (the LLM sometimes suggested rephrased sentences as part of the editing process in the first bullet point) _occasional_
-- brainstorming. Example prompt: "I feel like something is off about this section, but I can't quite put my finger on it. Thoughts?" _occasional_
-- identifying sources for further reading. Example prompt using the research feature: "Survey the literature on 'resourcing' in therapy and whether it improves outcomes." _occasional_
-- rewriting a list of simple clauses from one form to another. _once, in @mssProbes where the AI use is noted_
-- quantity estimation. _once, in @frequency, where the AI use and a corresponding uncertainty disclaimer are prominently noted_
+I used the Claude LLM for a variety of assistive tasks. However, with two minor and labeled exceptions, I wrote all the content in this book. I, or the human authors whom I cite, also originated the ideas presented here. In the occasional instances where I accepted the LLM's rephrasing of an existing sentence or paragraph in the editing process, I exercised complete editorial control, and my original meaning remained intact. Almost all AI responses were also verified against original sources and treated as one source among many---not as authoritative.
 
 #lead[Biases, conflicts of interest, and background:]
-- _Attachments and Beliefs:_ Fading disorganized attachment to MDMA therapy
+- _Attachments and beliefs:_ mildly disorganized attachment to MDMA therapy
 - _Score on the quiz #prosecite(<cultistQuiz>):_ 13/40 (not at all a cultist)
-- _Relevant Experience:_ I used MDMA therapy to successfully treat part of my own severely disorganized attachment and the stuck schemas created by childhood sexual abuse. I started with 3 practitioner guided sessions, did another roughly 27 solo sessions, and have done \~#reconsolidation-hours total hours of memory reconsolidation, mostly using the technique I report in @internalizedReports. I've been through many ups and downs throughout the process. My education was a bachelor's degree in aerospace engineering.
-- _Conflicts of Interest:_ I have no financial stake other than one \$500 unsolicited donation to the project from a friend unaffiliated with the psychedelic field.
+- _Relevant experience:_ I used MDMA therapy to successfully treat part of my own severely disorganized attachment and the stuck schemas created by childhood sexual abuse. I started with 3 practitioner-guided sessions, then did 27 solo sessions. I have done \~#reconsolidation-hours hours of memory reconsolidation, mostly using the technique I report in @internalizedReports. There were many ups and downs throughout the process. My education was a bachelor's degree in aerospace engineering.
+- _Conflicts of interest:_ I have no financial stake other than one \$500 unsolicited donation to the project from a friend unaffiliated with the psychedelic field.
 
 #show: mainmatter
 
 #heading(level: 1, numbering: none)[Summary] <summary>
 // BEGIN_PLAIN_SUMMARY
 
-MDMA facilitates extraordinary feelings of compassion, connection, and safety.#footnote[Positive emotions may not be noticeable during the session if strong fear, anger, other distressing emotions or dissociation are also present. This isn't necessarily an issue; the process can still work well in these instances.] This state of mind is highly effective for processing difficult or unhelpful emotions, memories, and reactions. However, there are no quick fixes for all but the simplest issues. Even in optimal conditions, intensive MDMA therapy can take multiple years to heal the most severe mental illness.
+MDMA facilitates extraordinary feelings of compassion, connection, and safety.#footnote[Positive emotions may not be noticeable during the session if strong negative emotions or dissociation are also present. This isn't necessarily an issue; the process can still work well in these instances.] This state of mind is highly effective for processing difficult or unhelpful emotions, memories, and reactions. However, there are no quick fixes for all but the simplest issues. Even in optimal conditions, intensive MDMA therapy can take years to heal the most severe mental illnesses.
 
 There is moderate-quality clinical trial evidence that a limited course of MDMA therapy is highly effective for durably resolving PTSD, not just managing its symptoms. However, I think there are good theoretical reasons and ample anecdotal reports indicating that MDMA therapy can also resolve the psychological part of most mental illnesses and emotional issues. This includes CPTSD, non-secure attachment (which 41% of the US population has~@mickelson1997adult), anxiety, addiction, alexithymia, obsessions, eating disorders, ADHD, depression, somatic symptom disorders, personality disorders, dissociation, panic, and more. Some instances of these issues may have biological components that MDMA therapy does not address.
 
@@ -265,82 +244,82 @@ More broadly, MDMA therapy is a powerful tool for
 - unburdening from hypervigilance, fear, chronic stress, loneliness, shame, guilt, etc.
 - focusing on what you can change and letting go of the things you can't
 
-Many self-reports of successful MDMA therapy can be found on the top posts on #link("https://reddit.com/r/mdmatherapy/top/?sort=top&t=all"). The top posts mostly describe productive sessions that don't contain intense dissociation, avoidance, resistance, or symptom worsening. You can see occasional descriptions of less productive or more disruptive sessions by sorting by _new._ #textcite(<godes2023perceived>) also reports how therapy clients describe how they felt MDMA therapy worked during their sessions: staying with what "is"\; decreased reactivity; insight, reflection, linking; mental clarity; recovery of traumatic \[episodic\] memories; disentangling trauma from self; reuniting lost affects and parts; self-acceptance; joy, happiness, gratitude; hope and empowerment; relaxation, calmness, peace; comfort; gratitude, compassion, empathy; union, wider perspective; inner healing intelligence \[the therapeutic framework used in this study\]; accessibility to emotions; and mind-body connection.
+Many self-reports of successful MDMA therapy can be found at #link("https://reddit.com/r/mdmatherapy/top/?sort=top&t=all"). The top posts mostly describe productive sessions that don't contain intense dissociation, avoidance, resistance, or symptom worsening. You can see occasional descriptions of less productive or more disruptive sessions by sorting by _new._ In #textcite(<godes2023perceived>), therapy clients described how they felt MDMA therapy worked during their sessions: staying with what "is"\; decreased reactivity; insight, reflection, linking; mental clarity; recovery of traumatic \[episodic\] memories; disentangling trauma from self; reuniting lost affects and parts; self-acceptance; joy, happiness, gratitude; hope and empowerment; relaxation, calmness, peace; comfort; gratitude, compassion, empathy; union, wider perspective; inner healing intelligence \[the therapeutic framework used in this study\]; accessibility to emotions; and mind-body connection.
 
-As of 2026, MDMA has not been approved by most medical regulators. There is disagreement over whether existing clinical trials were sufficient to approve MDMA for medical use~#mdcite(<fdaVSdutch>). The US FDA thought the existing evidence was insufficient and requested one more trial~#mdcite(<crlAlpha>), but the Dutch State Commission on MDMA determined that "Scientific research has shown that MDMA therapy is an effective and safe treatment method. …~The State Commission deems it desirable that this treatment method becomes available in the Netherlands as soon as possible."~@netherlandsMDMA[p. 203]. Possession of MDMA is a felony in many jurisdictions, though it often isn't an enforcement priority. The vast majority of MDMA therapy in 2026 is done underground, though there are clinical trials and special access programs in certain countries.
+As of 2026, MDMA has not been approved by most medical regulators. There is disagreement over whether existing clinical trials were sufficient to approve MDMA for medical use~#mdcite(<fdaVSdutch>). The US FDA thought the existing evidence was insufficient and requested one more trial~#mdcite(<crlAlpha>), but the Dutch State Commission on MDMA determined that "Scientific research has shown that MDMA therapy is an effective and safe treatment method. …~The State Commission deems it desirable that this treatment method becomes available in the Netherlands as soon as possible~@netherlandsMDMA[p. 203]." Possession of MDMA is a felony in many jurisdictions, though it often isn't an enforcement priority. The vast majority of MDMA therapy in 2026 is underground, though there are a few clinical trials and special access programs in certain countries.
 
 #heading(level: 2, numbering: none, outlined: false)[How Trauma and Insecurity Affect Us]
-Our brains continually create internal models to move through the world and thrive~#mdcite(<eckerUnlocking>). These models create our thoughts/beliefs (e.g., "I can't do anything right," "I am bad"), emotional reactions, and behavioral patterns. Different therapeutic frameworks call these models schemas, parts, priors, etc. Occasionally, the schemas we learn to survive in one context become maladaptive or inaccurate in another context. This often starts when we learn particularly deep, pervasive, negative, and resilient schemas about ourselves, other people, and relationships to survive emotional or physical insecurity or trauma. Once we shift out of that context, like when we become adults, a wide variety of circumstances trigger those old schemas, resulting in fear, anxiety, anger, depression, panic, etc. in situations where those reactions are no longer helpful.
+Our brains continually create internal models to move through the world and thrive~#mdcite(<eckerUnlocking>). These models create our thoughts and beliefs (e.g., "I can't do anything right," "I am bad"), emotional reactions, and behavioral patterns. Different therapeutic frameworks call these models schemas, parts, priors, etc. Sometimes, the schemas we learn to survive in one context become maladaptive or inaccurate in another context. This often starts in situations of emotional or physical insecurity or trauma where we learn particularly deep, pervasive, negative, and durable schemas about ourselves, other people, and relationships. Once we shift out of that context, like when we become adults, a wide variety of circumstances trigger those old schemas, resulting in fear, anxiety, anger, depression, panic, etc. in situations where those reactions are no longer helpful.
 
-Strong schemas of imminent threat and powerlessness also cause our nervous systems to activate the defensive states of arousal, flight-or-fight, freeze, and tonic/collapsed immobility~#mdcite(<kozlowskaDefenseCascade>). The latter is often called dissociation.
+Schemas of imminent threat and powerlessness also cause our nervous systems to activate the defensive states of arousal, flight-or-fight, freeze, and tonic/collapsed immobility~#mdcite(<kozlowskaDefenseCascade>). The last of these is one type of dissociation.
 
-Our brains have an updating process called memory#footnote[In this case, memory refers to implicit memory, not explicit memory of events and facts~@eckerUnlocking. Implicit memory is our often unconscious model of the world and self.] reconsolidation, that, in normal circumstances, modifies schemas to become adaptive to different situations~#mdcite(<eckerUnlocking>). Unfortunately, some things can inhibit this process, like flight-or-fight, tonic/collapsed immobility, avoidance (often unnoticed), and lack of time or emotional capacity~#mdcite(<berghBSTS>, <kozlowskaDefenseCascade>). Exceptionally strong schemas also seem resistant to updating, perhaps because they create emotions that are too overwhelming to be present with. For example, in PTSD, there is an exceptionally strong belief of imminent danger that doesn't update when the danger passes.
+Our brains have an updating process called memory#footnote[In this case, memory refers to implicit memory, not explicit memory of events and facts~@eckerUnlocking. Implicit memory is our often unconscious model of the world and self.] reconsolidation that in normal circumstances modifies schemas to become adaptive to different situations~#mdcite(<eckerUnlocking>). Unfortunately, some things can inhibit this process, like flight-or-fight, tonic/collapsed immobility, avoidance (often unnoticed), and lack of time or emotional capacity~#mdcite(<berghBSTS>, <kozlowskaDefenseCascade>). Exceptionally strong schemas also seem resistant to updating, perhaps because they create emotions that are too overwhelming to be present with. For example, in PTSD, there is an exceptionally strong belief of imminent danger that doesn't update when the danger passes.
 
 #heading(level: 2, numbering: none, outlined: false)[How MDMA Therapy Works]
-MDMA starts the previously blocked update process for any stuck schema you activate or trigger during the session and then stay present with. Staying present means focusing on it and allowing it to be felt in the body and mind without acting to end, alter, escape, or explain it away. It can also include _investigative feeling,_ feeling how the feelings change as you move or as your thoughts and triggers change or as the schema reconsolidates. Thinking, writing, or talking about your issue is often sufficient to do this. After the schema updates, it will not reactivate after the session is over, though complex schemas have numerous parts that you have to individually update. Dissociation and flight-or-fight also resolve once you update the underlying schemas.
+MDMA starts the previously blocked update process for any stuck schema you activate or trigger during the session and then stay present with. Staying present means focusing on it and allowing it to be felt in the body and mind without acting to end, alter, escape, or explain it away. It can also include _investigative feeling,_ feeling how the experiences change as you move, as your thoughts and triggers change, or as the schema reconsolidates. Thinking, writing, or talking about your issue is often sufficient to do this. After the schema updates, it will not reactivate after the session is over, though complex schemas have numerous parts that you must update individually. Dissociation and flight-or-fight also resolve once you update the underlying schemas.
 
 This is a powerful process but is not a quick fix except for simple issues. People typically need to do a lot of between-session therapy-like work as well as multiple sessions. Resolving the most severe issues will take years of hard work.
 
 Temporary symptom worsening is likely the most significant downside. It is a common and probably often unavoidable phase of therapy for those with severe trauma. Unfortunately, people are sometimes not explicitly aware they have gone through severe trauma. This may happen if the abuse didn't involve any dramatic events, it was explained away as cultural tradition, it happened during the period of childhood amnesia, or it's not remembered for another reason. Diagnosis of mental illness indicates higher risk as well.
 
-_Symptom worsening is occasionally long and overwhelming and can cause major problems when poorly managed or entered into at an inappropriate moment in your life._ It may also, on rare occasion, exacerbate or activate dangerous symptoms like psychosis or suicide attempts. In #textcite(<robinson2024coming>), people with prolonged post-psychedelic symptoms reported the following activities as helpful, in order of most to least commonly reported, and excluding those reported by less than 10% of participants. They were: peers and community support; professional therapeutic or coaching assistance; meditation and prayer; reading for self education; physical exercise; journaling; breathing strategies; embodied contemplative practices; time in nature; and acceptance and surrender.
+_Symptom worsening is occasionally prolonged and overwhelming, especially when poorly managed._ It may also, on rare occasions, exacerbate or activate dangerous symptoms like psychosis or suicide attempts. In #textcite(<robinson2024coming>), people with prolonged post-psychedelic symptoms reported the following activities as helpful, in order of most to least commonly reported: peers and community support; professional therapeutic or coaching assistance; meditation and prayer; reading for self education; physical exercise; journaling; breathing strategies; embodied contemplative practices; time in nature; and acceptance and surrender#footnote[I excluded those reported by fewer than 10% of participants so that the items would represent something of a consensus.].
 
-MDMA therapy tends to speed up both healing and symptom worsening. Additional MDMA sessions and regular therapy often help work through the latter.
+MDMA therapy tends to speed up both healing and symptom worsening. Additional MDMA sessions and regular therapy often help work through symptom worsening.
 
-Symptom worsening is sometimes caused by experiences that feel like remembering apparently forgotten events. Unfortunately, there is no way to determine how accurate these memories are other than independent corroboration. See #link("https://psychedelicsandrecoveredmemories.com") for more information.
+Symptom worsening is sometimes caused by experiences that feel like remembering forgotten events. Unfortunately, there is no way to determine how accurate these memories are other than independent corroboration. See #link("https://psychedelicsandrecoveredmemories.com") for more information.
 
 #heading(level: 2, numbering: none, outlined: false)[The MDMA Therapy Session]
-A standard, safe dose is 100\u{202F}mg for body masses less than 60\u{202F}kg (132\u{202F}lb) and 125\u{202F}mg for more~#mdcite(<liechtiInteractions>, <baggottSupplements>). People over 75~years old also start with 100\u{202F}mg. These doses can be adjusted later to fit individual circumstances. Low doses generally don't work. Too high a dose might be so blissful that you can't engage with your trauma reactions.
+A standard, safe dose is 100\u{202F}mg for body masses less than 60\u{202F}kg (132\u{202F}lb) and 125\u{202F}mg for those heavier~#mdcite(<liechtiInteractions>, <baggottSupplements>). People over 75~years old also start with 100\u{202F}mg. These doses can be adjusted later to fit individual circumstances. Low doses generally don't work. Too high a dose might be so blissful that you can't engage with your trauma reactions, but a larger dose can be necessary in some situations.
 
-Booster doses half the strength of the initial dose are sometimes taken 1.5--2.5~hours later to extend the session length. This has worked well in large clinical trials with no obvious, reported adverse effects. However, there is a significantly lower degree of certainty that these higher total doses are safe for more than a handful of sessions~#mdcite(<baggottSupplements>). Booster doses might be fine to start off with, but once you have established a reliably therapeutic routine, _gradually reduce your dose to find your minimum effective dose._
+Booster doses at half the strength of the initial dose are sometimes taken 1.5--2.5~hours later to lengthen the session. This worked well in large clinical trials with no obvious or reported adverse effects. However, there is less certainty that these higher total doses are safe for more than a handful of sessions~#mdcite(<baggottSupplements>). Booster doses might be fine to start off with, but once you have established a reliably therapeutic routine, _gradually reduce your dose to find your minimum effective dose._
 
-The general strategy during the session is emotionally activating (triggering) your anxieties, depression, panic, etc., then staying with that feeling, regardless of what it is. If you have the right dose of MDMA and aren't dissociating, the schema creating these feelings should gradually dissipate. That's the updating process at work.
+The main activity is emotionally engaging with your issues. This often happens naturally when you just take MDMA and let yourself feel whatever comes up without trying to control the experience. If not much is happening or you're spending your time thinking, try deliberately activating (triggering) your anxieties, depression, panic, etc., then staying with that feeling, regardless of what it is. If you have the right dose of MDMA and aren't dissociating, the schema that creates these feelings should gradually dissipate. That's the updating process at work.
 
-For dissociation, #textcite(<razviPSIP>, supplement: [p. 14]) recommends "bringing blankness, flat affect, nothingness, boredom, sleepiness, or sobriety \[the subjective feelings of dissociation\] into focus." Then, "it might take staying with it from minutes to a full day-long session, but it will crack." A skilled practitioner may also be especially helpful here.
+For dissociation, #textcite(<razviPSIP>, supplement: [p. 14]) recommends "bringing blankness, flat affect, nothingness, boredom, sleepiness, or sobriety \[the subjective feelings of dissociation\] into focus." Then, "it might take staying with it from minutes to a full day-long session, but it will crack." A skilled practitioner may be especially helpful here.
 
-People often need the whole following day to recover, and aftereffects may last a few days. It's also important to spend significant amounts of time in the following days and weeks attending to your emotional changes.
+People often need the whole following day to recover, and aftereffects may last a few days. It's also important to attend to your emotional changes.
 
-It's common to experience moderately increased psychological turmoil and adverse symptoms for days to weeks after a session. MDMA helps us confront distressing feelings that we have been avoiding, and our minds can feel distressed about that until we process those feelings and reactions. It's often worthwhile developing a set of healthy coping practices to help you through this period.
+It's common to experience moderately increased psychological turmoil and adverse symptoms for days to weeks after a session. MDMA helps us confront distressing feelings that we have been avoiding, and our minds can feel anxiety about that until we process those feelings and reactions. It's often worth developing a set of healthy coping practices to help you through this period.
 
 The Fireside Project offers a hotline to help people through challenging psychedelic experiences at #link("tel:+1 (623) 473-7433") in the USA. #link("https://tripsit.me/webchat") is a chatroom available anywhere.
 
-There is almost no data on how frequently it is safe to do sessions, though many people have strong opinions on the subject. In the absence of better data, the 6~week spacing used in the clinical trials might be a reasonable minimum.
+There is almost no data on how frequently it is safe to do sessions, though many people have strong opinions on the subject. In the absence of better data, the 4~week spacing used in the clinical trials might be a reasonable minimum.
 
 #heading(level: 2, numbering: none, outlined: false)[Working with a Mental Health Practitioner]
 <practitioner>
-It's helpful to start MDMA therapy with a practitioner, at least to learn the basics. Some people have success starting off solo, but it can be more difficult and riskier. A trip sitter who is trusted, experienced, empathetic, and emotionally non-reactive can also be helpful.
+It's helpful to start MDMA therapy with a practitioner, at least to learn the basics. Some people have success starting off solo, but it can be more difficult and riskier. A trip sitter who is trusted, experienced, empathetic, and emotionally non-reactive can also help.
 
 There are a few important factors when working with a guide, therapist, or other mental health practitioner:
-- *Ethical:* They should inform you of the benefits and risks, not abuse you, and maintain strict professional boundaries. Occasionally, practitioners abuse their clients. Be extra cautious with anyone if you feel something is off, they aren't committed to strict professional boundaries, or you see any other red flags. Touch or love from the therapist are not essential healing components of MDMA therapy. You can video record your session or bring a trusted friend or family member along for additional comfort. For more information on red flags, see #textcite(<safetyFlags>).
+- *Ethical:* They should inform you of the benefits and risks and maintain strict professional boundaries. Occasionally, practitioners abuse their clients. Be extra cautious if you feel something is off or you notice any red flags. Touch and expressions of love from the therapist are not essential components of MDMA therapy. You can video record your session or bring a trusted friend or family member along for additional comfort. For more information on red flags, see #textcite(<safetyFlags>).
 - *Skilled:* They should have thorough knowledge of, and experience successfully resolving, a wide spectrum of difficult situations that might arise during MDMA therapy. This especially includes intense dissociation, avoidance, panic, and symptom worsening.
-- *Well-matched:* You get along well with them and agree on your goals for therapy. You can use the Brief Revised Working Alliance Inventory (#link("https://greenspacehealth.com/en-us/br-wai")) to assess your relationship with your practitioner.
+- *Well-matched:* They should get along well with you and vice versa. You can use the Brief Revised Working Alliance Inventory (#link("https://greenspacehealth.com/en-us/br-wai")) to assess your relationship with your practitioner.
 
 #heading(level: 2, numbering: none, outlined: false)[Medical, Psychological, and Drug Interaction Risks]
-A limited course of MDMA therapy is generally well-tolerated, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks (some of these are best guesses based on sparse evidence):
+A limited course of MDMA therapy is generally well tolerated, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks (some of these are best guesses based on sparse evidence):
 
 #lead[Always avoid (significant risk of death or irreversible damage):]
 - MAOIs and ayahuasca
 - ritonavir, cobicistat, or HIV drugs that contain them
 - over 200 lifetime doses (boosters count as partial extra doses)
-- hyperthyroidism that isn't well managed and mild, as assessed by a doctor~@mitchellMDMAClinicalTrial2
+- hyperthyroidism that is neither well managed nor mild, as assessed by a doctor~@mitchellMDMAClinicalTrial2
 
 #lead[Use caution with:]
 - a family or personal history of psychosis
 - a personal history of addiction to amphetamines or cocaine
-- total doses over 2\u{202F}mg/kg, especially for more than a handful of sessions
-- session spacing less than 4~weeks
-- drugs/medications/supplements/herbs, including large doses of caffeine.
+- a total dose over 2\u{202F}mg/kg per session, especially for more than a handful of sessions
+- session spacing of less than 4~weeks
+- drugs/medications/supplements/herbs, including large doses of caffeine
 - liver and cardiovascular problems
-- other serious medical conditions, especially ones that are not well managed and mild, as assessed by a doctor~@mitchellMDMAClinicalTrial2
+- other serious medical conditions, especially ones that are neither well managed nor mild, as assessed by a doctor~@mitchellMDMAClinicalTrial2
 
-#lead[Take precaution:]
+#lead[Take precautions:]
 - Don't drink more than 0.5\u{202F}L of water during the first six hours of a single-dose session unless you need to replace large amounts of sweat~#mdcite(<myBook>). Booster doses probably extend this period.
-- Ideally, avoid SSRIs and SNRIs for 2~months prior.
-- Test your MDMA. The presence of some common adulterants can be checked with reagent test kits; #link("https://www.reddit.com/r/ReagentTesting/wiki/test_kit_suppliers") maintains a list of suppliers. Laboratory testing is much better; #link("https://www.reddit.com/r/ReagentTesting/wiki/labs") maintains a list of labs. It measures the amount of MDMA and all other ingredients.
-- People with a personal history of mania should take care to sleep well before and after the session; a pre-supplied course of sleep aids can help with this. Also skip booster doses at first, then gradually increase the total dose on subsequent sessions if needed.
-- Only start MDMA therapy if you have slack in your life and can do much more therapy, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While a part of the healing process when managed well, it can require a lot of therapy to resolve, and it may not resolve on the timeline you want it to.
+- Ideally, avoid SSRIs and SNRIs for 2~months prior to the session.
+- Test your MDMA. The presence of some common adulterants can be checked with reagent test kits; #link("https://www.reddit.com/r/ReagentTesting/wiki/test_kit_suppliers") maintains a list of suppliers. Laboratory testing is much better; #link("https://www.reddit.com/r/ReagentTesting/wiki/labs") maintains a list of labs. Labs can measure the amount of MDMA and other ingredients.
+- People with a personal history of mania should take care to sleep well before and after the session; sleep aids can help with this. They should also skip booster doses at first, then gradually increase the total dose on subsequent sessions if needed.
+- Only start MDMA therapy if you have slack in your life and can do a lot more therapy, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While it can be a part of the healing process when managed well, exacerbation can require a lot of therapy to resolve, and it may not resolve as quickly as you want.
 
-  An exception may be people with secure attachment and no mental illness, who I think have very little chance of severe symptom exacerbation.
+  An exception may be people with secure attachment and no mental illness, who I think have very little chance of severe exacerbation.
 - MDMA and therapy exhaustion can impair awareness and reaction times. Avoid driving and other risky activities on the same day as the session.
 
 #mdonly[
@@ -357,103 +336,101 @@ This work is licensed under #link("https://creativecommons.org/licenses/by/4.0/"
 <introduction>
 == How to Read This Book
 <essentials>
-This book addresses a broad audience but is organized for, and talks to, a client or solo user, since that is my background. Mental health practitioners will benefit from reading the entire book as well as the supplementary material for them in @practitionerSkills.
+This book addresses a broad audience but is aimed at a client or solo user, since that is my background. Mental health practitioners will benefit from reading the entire book, along with the supplementary material written for them in @practitionerSkills.
 
-I aim to provide most of the "full stack" of knowledge needed to successfully do MDMA therapy, though I don't include much about the fundamentals of being a good mental health practitioner. Aspiring practitioners can't rely on this book alone to teach themselves to be an MDMA therapy guide. This book contains a mix of theory, checklists, instructions, and tools. Simple instructions work well in some areas, but MDMA therapy's complexity means they don't cover every aspect of the process. The theory is included so that you can adapt the tools to your own unique situation.
+I aim to provide most of the "full stack" of knowledge needed to successfully use MDMA therapy, though I don't include much about the fundamentals of being a good mental health practitioner. Aspiring practitioners can't rely on this book alone to teach themselves to be MDMA therapy guides. This book contains a mix of theory, checklists, instructions, and tools. Simple instructions work well in some areas, but MDMA therapy's complexity means such instructions don't cover every aspect of the process. The theory is included so that you can adapt the tools to your own unique situation.
 
-The book is lengthy and somewhat technical. I prioritized rigor over accessibility because there is little consensus on many of the topics explored here and thus showing my work is important to back up my claims. Feel free to skip or skim non-critical sections. I think the most important sections include:
+The book is lengthy and somewhat technical. I prioritized rigor over accessibility because there is little consensus on many of the topics explored here. Showing my work is important to back up my claims. Feel free to skip or skim non-critical sections. I think the most important sections are:
 - *Basic theory:* #combinedref(<sec:defensecascade>), #combinedref(<sec:trauma>), #combinedref(<sec:mechanism>), and #combinedref(<mdmaUpdate>)
 - *Safety:* #combinedref(<professionalVSSelf>) and the initial lists in #combinedref(<sec:safety>)
 - *Practice:* #combinedref(<sec:dosing>), #combinedref(<prep>), #combinedref(<sec:sessionbarriers>), #combinedref(<session>), and #combinedref(<sec:troubleshooting>)
 
 At a bare minimum, read #combinedref(<summary>) and #combinedref(<session>).
 
-The book is structured for front-to-back reading, but is also designed as a reference. Sections extensively cross-reference each other to facilitate that style of reading. In the PDF version, many terms are colored red, and clicking them takes you to the relevant glossary definition.#footnote[I used a script to automatically link the first occurrences of glossary terms in each section to the glossary. This process may have resulted in an occasional, inappropriately linked term.] The #link(<sec:glossary>)[glossary] is after the appendices, just before the bibliography. I use some terms differently from some other authors, and the glossary describes my choices.
+The book is structured for front-to-back reading, but is also designed as a reference. Sections extensively cross-reference each other to facilitate browsing. In the PDF version, many terms are colored red, and clicking them takes you to the relevant glossary definition.#footnote[I used a script to automatically link the first occurrences of glossary terms in each section to the glossary. This process may have resulted in an occasional inappropriately linked term.] The #link(<sec:glossary>)[glossary] is after the appendices, just before the bibliography. I use some terms differently from other authors, and the glossary describes my choices.
 
-For help understanding the book, you can also upload it to a Claude LLM (large language model) model and ask it to explain the book to you. It can also respond in your language of choice. I tested it with other major LLMs but they had unacceptable amounts of hallucinations. Paste in the following text and let it read the book. Then ask your first question in a second message.
+For help understanding the book, you can also upload it to the Claude LLM (large language model) and ask it to explain the book to you. It can also respond in your language of choice. Paste in the following text as your first message. Then ask your question in a second message. I don't recommend other LLMs, as they had unacceptable levels of hallucination in my tests.
 
 #quote(block: true)[
-\<\<SESSION PROMPT: Read the entirety of the first #context locate(<end>).page() pages#footnote[The page range instruction excludes the glossary, appendices, and bibliography. Reducing the file size improves LLM output quality and gives you more responses before hitting usage limits.] into your context window before replying. You should helpfully answer the user's questions about MDMA therapy based on the attached document. The user may not understand the technical content of the paper, so you should make it easier to understand when appropriate. Don't add external medical advice or conventional wisdom that might contradict the document's framework.#footnote[I added the warning against conventional wisdom because without it Claude would constantly mix in poor-quality information it picked up from the internet and mainstream mental health resources that haven't the slightest clue how MDMA therapy works. I don't want to discourage you from using other high-quality resources.] The document has specific views on what's normal vs. concerning in MDMA therapy that may differ from conventional medical perspectives. Don't say "the document says/recommends/presents"\; that is assumed.\>\>
+\<\<SESSION PROMPT: Read the entirety of the first #context locate(<end>).page() pages#footnote[The page range instruction excludes the glossary, appendices, and bibliography. Reducing the file size improves LLM output quality and gives you more responses before hitting usage limits.] into your context window before replying. You should helpfully answer the user's questions about MDMA therapy based on the attached document. The user may not understand the technical content of the book, so you should make it easier to understand when appropriate. Don't add external medical advice or conventional wisdom that might contradict the document's framework.#footnote[I added the warning against conventional wisdom because without it Claude would constantly mix in poor-quality information it picked up from the internet and mainstream mental health resources that don't have the slightest clue how MDMA therapy works. I don't want to discourage you from using other high-quality resources.] The document has specific views on what's normal vs. concerning in MDMA therapy that may differ from conventional medical perspectives. Don't say "the document says/recommends/presents"\; that is assumed.\>\>
 ]
 
 == Approach Mental Health Research and Practice With Skepticism
 <howtoevaluate>
-Robust scientific models are, as the science bloggers #textcite(<mechanisticModels>) argue, "a proposal for a set of entities, their features, and the rules by which they interact, that gives rise to the phenomena we observe." They also make a wide variety of accurate predictions in the area of their relevance. Physics exemplifies this standard; it has such a complete model of atoms that their behavior can be predicted to many decimal points of precision. It also has a highly detailed and precise list of the particles and forces involved and the rules by which they interact. Few fields can match that level of completeness. Psychological models don't have convincing lists of well-defined parts and mechanisms and generally have no plausible connection to what cells are doing in the brain. The political scientist #citefullauthor(<zombieSocialScience>) argues on their blog that the social sciences, including psychology, mostly use models that occasionally make good predictions in a narrow area but rarely over a wide area~@zombieSocialScience (see also #textcite(<evidenceBasedPolicy>)).
+Robust scientific models are, as the science bloggers #textcite(<mechanisticModels>) argue, "a proposal for a set of entities, their features, and the rules by which they interact, that gives rise to the phenomena we observe." They also make a wide variety of accurate predictions in their domain. Physics exemplifies this standard; it has such a complete model of atoms that their behavior can be predicted to many decimal places of precision. It also has a highly detailed and precise list of the particles and forces involved and the rules by which they interact. Few fields can match that level of completeness. Psychological models don't have convincing lists of well-defined parts and mechanisms and generally have no plausible connection to what cells are doing in the brain. The political scientist #citefullauthor(<zombieSocialScience>) argues on their blog that the social sciences, including psychology, mostly use models that occasionally make good predictions in a narrow area but rarely over a wide area~@zombieSocialScience (see also #textcite(<evidenceBasedPolicy>)).
 
-Working with these ungrounded abstractions may be a helpful first step to figuring out the set of mechanistic rules that govern a particular system. However, a number of these abstractions turn out to be false or meaningless. That's okay in the process of science, but these provisional models have taken on a great deal of undeserved prominence in popular culture and clinical practice. These problems aren't limited to the social sciences either. The neuroscientist #citefullauthor(<hoelNeuroscience>) synthesizes papers on their blog to argue that even neuroscience is beset by severe systemic issues~@hoelNeuroscience.
+Working with these ungrounded abstractions may help researchers figure out the set of mechanistic rules that govern a particular system. Many of these abstractions turn out to be false or meaningless. That's okay in the process of science, but these provisional models have taken on a great deal of undeserved prominence in popular culture and clinical practice. These problems aren't limited to the social sciences either. The neuroscientist #citefullauthor(<hoelNeuroscience>) synthesizes papers on their blog to argue that even neuroscience is beset by severe systemic issues~@hoelNeuroscience.
 
 These issues show up in various ways in mental health science and practice:
-- Mental illness is diagnosed according to semi-arbitrary clusters of subjectively assessed (either by the client or the clinician) symptoms. Mental illnesses are rarely objectively measurable or attributable to specific, well-understood causes.
-- The current categorization of mental illnesses is significantly incorrect~@kotov2017hierarchical. The Hierarchical Taxonomy Of Psychopathology (HiTOP) offers better clustering than the DSM or ICD-CDDR. However, it still doesn't explain what mental illness is.
-- Mechanisms of action for psychiatric drugs are typically only known as far as drug → partially understood effects on neurotransmitters → unknown intermediate processes → changes in behavior/mood/etc. that are imprecisely recorded in questionnaires. It is often tempting to say a drug works because of the _known effects on neurotransmitters_ when the _unknown intermediate processes_ may be just as or more important.
+- Mental illness is diagnosed according to semi-arbitrary clusters of subjectively assessed (either by the client or the clinician) symptoms. Mental illness is rarely objectively measurable or attributable to specific, well-understood causes.
+- The current categorization of mental illnesses is significantly incorrect~@kotov2017hierarchical. The Hierarchical Taxonomy of Psychopathology (HiTOP) offers better clustering than the DSM or ICD. However, it still doesn't explain what mental illness is.
+- Mechanisms of action for psychiatric drugs are typically known only as far as drug → partially understood effects on neurotransmitters → unknown intermediate processes → changes in behavior/mood/etc. that are imprecisely recorded in questionnaires. It is often tempting to say a drug works because of its _known effects on neurotransmitters_ when the _unknown intermediate processes_ may be just as important.
 
   Imprecise questionnaires, which persist partly because we don't understand the intermediate processes, may measure the wrong thing or miss major relevant effects. The drug may superficially improve some symptoms while creating other, harder-to-see problems.
 - The efficacy of long-term use of psychiatric drugs is poorly studied~@leuchtDecline. For instance, it is not widely known that long-term use of SSRIs often causes (occasionally severe) dependence~@crossingZero.
-- Even in the instances when brain imaging studies are statistically significant, it's frequently not clear that the measured changes in blood flow to a brain region tell us anything meaningful about the information-processing function of that brain region~@jonas2017microprocessor@dewit2016neuroimaging@alikoEntireBrain. This is even more relevant for some psychedelics, which change the coupling between brain activity and blood flow, though it's not clear if MDMA also has that effect~@padawerNeurovascularCoupling.
+- Neuroimaging studies are a minefield of poor statistical methods, low statistical power, and mistaken inferences of causation~@hoelNeuroscience. Another issue is that some psychedelics change the coupling between brain activity and blood flow (the thing that fMRI measures), though it's not clear if MDMA has that effect~@padawerNeurovascularCoupling. fMRI has provided little meaningful information about any specific mental illness~@etkin2019reckoning.
 - The replication crisis revealed major issues with clinical psychology methodology~@therapyReplicationCrisis. Many papers and experiments use poor statistical methods and inadequate sample sizes and can't be reproduced.
 
 I am not implying that all psychiatric drugs are useless or that therapy doesn't work. Instead, I aim to calibrate expectations. Approach any model of brain function or mental health with considerable caution unless its components have been experimentally verified by multiple labs and it mechanistically explains a wide range of phenomena. Exceedingly few models of mental illness meet those criteria. That includes almost everything from psychology and psychiatry, much of neuroscience---and many parts of this book. Where my framework relies on memory reconsolidation, predictive processing, complex systems, and defense cascade models, it inherits whatever mechanistic grounding those models have---which is more than most alternatives, but less than I would like.
 
 == Methodology
 <methodology>
-I wrote this book by synthesizing information from three categories of sources. First, papers, books, and blogs on the topic. Second, my own experience using MDMA therapy to treat my complex trauma. Third, trip reports (largely from #link("https://www.reddit.com/r/mdmatherapy")) and discussions with people who have done MDMA therapy, henceforth called anecdotal reports. There was a loop of personal experience and discussions informing theory, which then informed interpretation of personal experience, which then further informed theory, etc. This loop continued until I didn't notice any obvious disagreements.
+I wrote this book by synthesizing information from three categories of sources. First were papers, books, and blogs on the topic. Second was my own experience using MDMA therapy to treat my complex trauma. Third was trip reports (largely from #link("https://www.reddit.com/r/mdmatherapy")) and discussions with people who have done MDMA therapy, henceforth called anecdotal reports. Personal experience and discussions informed theory, which then informed interpretation of personal experience, which then further informed theory, etc. This loop continued until I didn't notice any obvious inconsistencies.
 
-Throughout the book, I distinguish between more established science and educated guesswork by marking opinions as "I think," "I believe," etc. Of course, I'm also making judgments about what is established science that others disagree with.
-
-I didn't cite any fMRI studies because it is a minefield of poor statistical methods, low statistical power, and mistaking correlation for causation~@hoelNeuroscience and I don't have the expertise to sort out what is correct. It has also provided little meaningful information about any specific mental illness~@etkin2019reckoning. Some psychedelics also change the coupling between brain activity and blood flow (the thing that fMRI measures), though it's not clear if MDMA also has that effect~@padawerNeurovascularCoupling.
+Throughout the book, I distinguish between more established science and educated guesswork by marking opinions as "I think," "I believe," etc. Of course, I'm also making judgments about what is established science.
 
 === Reference Validity Checks
 <reference-validity-checks>
 I applied these checks on the validity of my references while writing this book:
-- *Retractions and PubPeer comments:* _All references._#footnote[I still cite the retracted studies #textcite(<feducciaSSRIDiscontinuation>) and #textcite(<mithoeferRETRACTEDARTICLEMDMAassisted2019>). The journal claims they were retracted because of three reasons~@feduccia2024retraction@nytimesRetraction. The first was that the authors did not remove one participant's data from the dataset despite one of the therapists sexually abusing them. The second is that the authors did not inform the journal of the abuse. The third reason appears to be that the authors listed their conflicts of interest under the Funding section instead of a dedicated Conflicts of Interest section.
+- *Retractions and PubPeer comments:* _All references._#footnote[I still cite the retracted studies #textcite(<feducciaSSRIDiscontinuation>) and #textcite(<mithoeferRETRACTEDARTICLEMDMAassisted2019>). The journal claims they were retracted for three reasons~@feduccia2024retraction@nytimesRetraction. The first was that the authors did not remove one participant's data from the dataset despite one of the therapists having sexually abused the participant. The second was that the authors did not inform the journal of the abuse. The third reason appears to be that the authors listed their conflicts of interest under the Funding section instead of a dedicated Conflicts of Interest section.
 
-  I still cite the paper because removing one data point out of 50 would not significantly affect the results, and the third issue appears to be a negligible formatting mistake. I don't know the significance of the second. The retraction was also part of a highly public set of events reported by #textcite(<nytPsymposia>). It's unclear why the paper was retracted instead of corrected.]
+  I still cite the paper because removing one data point out of 50 would not significantly affect the results, and the third issue is a quibble. I don't know the significance of the second. The retraction was also part of a highly public set of events reported by #textcite(<nytPsymposia>). It's unclear why the paper was retracted instead of corrected.]
 - *Reproduction of experimental results by other labs:* _No systematic evaluation,_ though I strongly preferred to cite review articles, which often do this. I changed the book when I happened across published replication failures.
-- *Informal qualitative analysis of experimental design:* _Most references._ I preferred papers that randomized their participants, had high numbers of participants, controlled for certain confounding variables important in MDMA and therapy research, were recent, were reviews or meta-analyses, had high statistical power, and had high citation counts. Not all references meet high standards for all of these criteria. I may still have included them if they were, in my judgment, particularly theoretically compelling or reasonable extrapolations of more established results. There are many quality indicators that I did not check but that are often important, such as topic-specific study design nuances outside my area of knowledge, statistical methods, data processing methods, publication bias, researcher bias, etc. However, the meta-analyses I cite frequently do assess some of these indicators.
-- *Contradictory evidence:* _The vast majority of papers._ Using #link("https://scite.ai") in Aug. 2026, I read a large majority of the _contrasting_ blurbs from papers that cite my references. Additionally, for the core assumptions listed in @sec:assumptions, I made a more significant, though non-systematic, effort to find evidence that contradicts these assumptions.
+- *Informal qualitative analysis of experimental design:* _Most references._ I preferred papers that randomized their participants, had large numbers of participants, controlled for certain confounding variables important in MDMA and therapy research, were recent, were reviews or meta-analyses, had good statistical power, and had high citation counts. Not all references meet high standards for these criteria. I may still have included them if they were, in my judgment, particularly theoretically compelling or reasonable extrapolations of more established results. There are many quality indicators that I did not check but that are often important, such as topic-specific study design nuances outside my area of knowledge, statistical methods, data processing methods, publication bias, researcher bias, etc. However, the meta-analyses I cite frequently do assess some of these indicators.
+- *Contradictory evidence:* _The vast majority of papers._ Using #link("https://scite.ai") in August 2026, I read the large majority of the _contrasting_ blurbs from papers that cite my references. Additionally, for the core assumptions listed in @sec:assumptions, I made a more substantial, though non-systematic, effort to find evidence that contradicts these assumptions.
 
 === Major Unresolved Issues
 <major-unresolved-issues>
 Any pharmaceutical or therapeutic intervention relies on a multitude of choices that have not been rigorously studied. In this case they might include questions like 1.6\u{202F}mg/kg vs. 1.4\u{202F}mg/kg of MDMA; non-directive vs. minimally directive therapy; and which type of therapist training is best. Any manual or practice, including mine, thus inherently depends on a lot of educated guesswork to fill in the gaps between the main support beams of validated theory and practice. Beyond that general caveat, these uncertainties are particularly important to flag:
 - As discussed in @ppHypotheses, I don't know how MDMA facilitates reconsolidation.
 - Symptom worsening seems associated with severe complex trauma or severe attachment issues, but besides that, I don't know how to predict an individual's risk. It's also uncertain when more MDMA therapy will reduce or increase symptoms in the short term. See @sec:complex for more information.
-- It's unclear whether certain severe treatment-emergent symptoms, like psychosis, should be categorized as a regular "it gets worse before it gets better" phase of trauma therapy.
+- It's unclear whether certain severe treatment-emergent symptoms, like psychosis, are "it gets worse before it gets better" phases of trauma therapy.
 - I don't know when or why MDMA therapy might not work for someone, apart from the somewhat-known factors of opioid dampening~@razviPSIP, intense avoidance, and recent use of SSRIs and SNRIs~@feducciaSSRIDiscontinuation. There may be unknown but necessary factors in addition to the right dose of MDMA, activation of a stuck schema, and non-avoidance.
-- I can't explain the sometimes-metaphorical closed-eye visuals and experiences that some people have.
+- I can't explain the metaphorical closed-eye visuals and experiences that some people have.
 
 === Reasons to be Confident
 <reasons-to-be-confident>
 - As an independent scholar outside professional mental health, I am not subject to the financial, institutional, or cultural pressures typical in the field, nor financially invested in any of its dominant explanatory frameworks.
-- The book was interdisciplinary from the start, allowing me to connect memory reconsolidation, the defense cascade, and complex systems, which I have not seen any other author formally integrate. I also drew on an especially wide diversity of evidence: memory reconsolidation, complex systems, defense cascade, predictive processing, clinical therapy practice, personal experience, and the MDMA therapy users community.
+- I drew on an especially wide diversity of evidence: memory reconsolidation, complex systems, defense cascade, predictive processing, clinical therapy practice, personal experience, and the MDMA therapy user community.
 - My experience using MDMA therapy (\~30 sessions) and memory reconsolidation (\~#reconsolidation-hours~hours) for complex trauma grounds this work in a way that would be impossible using only theory or clinical experience.
-- The model is based on independently well-supported, causal theories (memory reconsolidation, complex systems, and the defense cascade).
+- The model is based on independently well-supported causal theories (memory reconsolidation, complex systems, and the defense cascade).
 - I wrote the book based on a careful, critical reading of the academic literature and professional blogosphere that took \~1400 active hours. I assessed every citation.
 - I posted each major draft version for public critique on #link("www.reddit.com/r/mdmatherapy"). I used this feedback to make improvements.
-- I used Claude Opus inside #link("https://github.com/groeneveld/latex_claim_verifier")[this] custom harness I made to double-check that my claims are supported by their citations. I ran this for almost every citation that I could easily download the text of, which was perhaps 80% of them. Additionally, I used Claude Opus to double-check that entire sections follow from my primary, though not secondary, citations in @efficacy, @science, @sec:dosing, @frequency, @interactions, and @sec:grounding.
+- I used Claude Opus inside a #link("https://github.com/groeneveld/latex_claim_verifier")[custom harness] I made to double-check that my claims are supported by their citations. I ran this for almost every citation that I could easily download the text of, which was perhaps 80% of them. I also used the same LLM to double-check that entire sections follow from my primary, though not secondary, citations in @efficacy, @science, @sec:dosing, @frequency, @interactions, and @sec:grounding.
 
 === Reasons to be Skeptical
 <reasons-to-be-skeptical>
-I know of the following reasons to be skeptical of this book while acknowledging that I could be missing the book's real weak points~@yudkowskiWeak. I regard this disclosure as a basic practice of truth-seeking epistemology.
-- My integration of MDMA therapy, complex systems dynamics, memory reconsolidation, predictive processing, attention, and the defense cascade is a somewhat novel formalization of existing MDMA-therapy practices. The application of that integrated framework to a practical guide and MDMA therapy is also novel. Novel frameworks are usually incorrect to some degree even when their authors find them convincing. Reality is certainly more complex than my model, though I don't know by how much.
+I know of the following reasons to be skeptical of this book while acknowledging that I could be missing the book's real weak points~@yudkowskiWeak.
+- My integration of MDMA therapy, complex systems dynamics, memory reconsolidation, predictive processing, attention, and the defense cascade is a somewhat novel formalization of existing MDMA-therapy practices. Novel frameworks are usually incorrect to some degree even when their authors find them convincing. Reality is certainly more complex than my model, though I don't know by how much.
 - I frequently rely on anecdotal reports and personal experience that might not reflect how MDMA therapy works for a wider range of people.
 - Without formal education in any of the relevant topics, I may be missing nuances that are common knowledge in the fields I draw from.
 - The MAPS clinical trials had some methodological flaws, though it's unclear how bad they were compared to drug trial norms~@crl. The MAPS trials were also subject to far more public scrutiny and drama than is normal~@nytPsymposia.
-- I am an MDMA therapy enthusiast because it saved my life. This made skepticism more difficult and confirmation bias easier.
-- My model has major missing gaps regarding the kind of mental illness I focus on, like why antidepressants, ketamine, and electric and magnetic brain stimulation help some people. It also doesn't obviously explain mania or psychosis.
-- My experience guiding other people in MDMA therapy consists only of sitting for one friend twice.
+- I became an MDMA therapy enthusiast because it saved my life. This made skepticism more difficult and confirmation bias easier.
+- My model has major gaps regarding the kind of mental illness I focus on, including why antidepressants, ketamine, and electric and magnetic brain stimulation help some people. It also doesn't obviously explain mania or psychosis.
+- My experience guiding other people in MDMA therapy consists only of sitting twice for one friend.
 - The fields of therapy and mental health reify numerous constructs of poor validity; I may have inadvertently included some.
-- There is a missing explanatory gap for MDMA therapy. I think the causal chain is approximately, (some) known effects on neurotransmitters → unknown intermediate processes → apparent reconsolidation of any activated stuck schema that you stay present with.
-- The current understanding of memory reconsolidation, predictive processing, the defense cascade, and mental illness as a complex system are incomplete.
+- There is an explanatory gap for MDMA therapy. I think the causal chain is roughly: some known effects on neurotransmitters → unknown intermediate processes → apparent reconsolidation of any activated stuck schema that one stays present with.
+- The current understanding of memory reconsolidation, predictive processing, the defense cascade, and mental illness as a complex system is incomplete.
 - I have become attached to my model, making it more resistant to contradictory evidence.
 - Some parts of my model are verbal and qualitative. They haven't been formally defined or demonstrated.
 
 == Efficacy of MDMA Therapy
 <efficacy>
-MDMA therapy showed excellent results for PTSD in clinical trials~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. However, in 2024 the FDA requested one additional trial be conducted to fill in some missing data before they could approve MDMA~@crl.#footnote[Resilient Pharmaceuticals completed a new study in 2026 and resubmitted their drug proposal~@resilientReapplication.] #textcite(<crlAlpha>) analyzes this request in detail. #textcite(<fdaVSdutch>) also discusses why a Dutch government commission came to the opposite conclusion~@netherlandsMDMA and decided there actually was enough evidence of efficacy and safety to roll out MDMA therapy to the public.#footnote[The Dutch State Commission maintained their position even after the FDA's non-approval~@dutchParliment.] While the FDA's requests are mostly helpful and would certainly result in better quality evidence, I agree with the Dutch State Commission's overall assessment. I also lay out additional reasons I think MDMA therapy is effective in the third bullet point of the Memory-Reconsolidation/Predictive-Processing section of @sec:assumptions.
+MDMA therapy showed excellent results for PTSD in clinical trials~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. However, in 2024 the FDA requested another trial to fill in missing data before it could approve MDMA~@crl.#footnote[Resilient Pharmaceuticals completed a new study in 2026 and resubmitted its drug application~@resilientReapplication.] #textcite(<crlAlpha>) analyzes this request in detail. #textcite(<fdaVSdutch>) also discusses why the Dutch State Commission came to the opposite conclusion (@netherlandsMDMA) and decided there actually was enough evidence of efficacy and safety to roll out MDMA therapy to the public.#footnote[The Dutch State Commission maintained its position even after the FDA's request for more data~@dutchParliment.] While the FDA's requests are mostly helpful and would certainly result in better quality evidence, I agree with the Dutch State Commission's overall assessment. I also lay out additional reasons I think MDMA therapy is effective in the third bullet point of the Memory-Reconsolidation/Predictive-Processing section of @sec:assumptions.
 
-#textcite(<icerReport>) pooled both MAPS phase III MDMA therapy trials together (194 total participants) and calculated the average effect sizes#footnote[Cohen's d] of three sessions of MDMA with therapy compared to placebo with therapy, though these calculations don't include some potential systematic biases. It is between 0.49--1.1 (small--large) for PTSD symptoms, with the most likely value being 0.80 (large), and between 0.17--0.66 (very small--medium) for functional impairment, with the most likely value being 0.42 (medium). Actual effects were larger since those numbers just compare the difference between MDMA and placebo. Both arms of the experiment involved therapy that likely had its own positive effect, not to mention the benefits many people get from the placebo effect. Those reported ranges are confidence intervals (CI); roughly speaking, there is a 95% chance that the true average effect is within that range.#footnote[That definition of confidence intervals is a simplification. The technically accurate definitions are unintuitive and complicated.] Confidence intervals convey the statistical precision of studies. Individuals will also have a range of responses surrounding the true average, which is itself specific to the population of participants in each study and the characteristics of the study.
+#textcite(<icerReport>) pooled both MAPS phase III MDMA therapy trials (194 total participants) and calculated the average effect sizes#footnote[The effect size was measured in Cohen's d.] of three sessions of MDMA with therapy compared to placebo with therapy, though these calculations don't include some potential systematic biases. The 95% confidence interval for the effect sizes was between 0.49 and 1.1 (small--large) for PTSD symptoms, with the most likely value being 0.80 (large), and between 0.17 and 0.66 (very small--medium) for functional impairment, with the most likely value being 0.42 (medium).#footnote[Confidence intervals convey the statistical precision of studies. Roughly speaking, there is a 95% chance that the true average effect is within that range.] The actual effects were likely larger, since those numbers only compare the difference between MDMA and placebo. Both arms of the experiment involved therapy that likely had its own positive effect, not to mention the benefits many people get from the placebo effect. Individuals will also have a range of responses around that average. The average is itself specific to the population of participants in each study and the characteristics of the study.
 
-The greater effect on PTSD symptoms than on functional impairment may reflect the fact that most participants had multiple traumas or mental illnesses~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. PTSD symptoms were measured using the Clinician-Administered PTSD Scale for DSM-5 (CAPS-5) that measures symptoms related to a single traumatic event. @table:efficacy breaks the CAPS-5 results into clinically relevant labeled bins. Functional impairment was measured using the Sheehan Disability Scale (SDS), which may better represent the entirety of an individual's issues. Logically, there would be more progress on the issue participants picked to focus on. More therapy focused on the other issues might further continue the decrease in functional impairment.
+The greater effect on PTSD symptoms than on functional impairment may reflect the fact that most participants had multiple traumas or mental illnesses~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. PTSD symptoms were measured using the Clinician-Administered PTSD Scale for DSM-5 (CAPS-5), which measures symptoms related to a single traumatic event that the participants focused on during therapy. @table:efficacy breaks the CAPS-5 results into labeled, clinically relevant bins. Functional impairment was measured using the Sheehan Disability Scale (SDS), which may better represent the entirety of an individual's issues. More therapy focused on the other issues would presumably further decrease functional impairment.
 
 #figure(
   table(
@@ -470,20 +447,20 @@ The greater effect on PTSD symptoms than on functional impairment may reflect th
   )
 <table:efficacy>
 
-Each session added durable benefits on top of the benefits persisting from previous sessions~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. The benefits persisted at least to the end of the study, which was two months after the last session. Preliminary evidence additionally shows that the improvements persist longer~@mplongPreliminary@monashMDMA. This strongly suggests that more sessions beyond the three in the trials would further improve symptoms for individuals who need it. The three-session schedule was likely chosen to balance efficacy with cost and time constraints in the drug development process, and clinical use should be tailored to individual needs.
+Each session added durable benefits~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. The benefits persisted at least to the end of the study, which was two months after the last session. Preliminary evidence additionally shows that the improvements persist for longer~@mplongPreliminary@monashMDMA. This strongly suggests that more sessions beyond the three in the trials would further improve symptoms for individuals who need them. The three-session schedule was likely chosen to balance efficacy with cost and time constraints in the drug development process, and clinical use should be tailored to individual needs.
 
-Only 5% of participants in the MDMA groups discontinued treatment (mostly for reasons unrelated to adverse effects from MDMA therapy), compared to 16% in the placebo groups~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. MDMA therapy worked across severity of symptoms and presence of other mental illnesses.
+Only 5% of participants in the MDMA groups discontinued treatment (mostly for reasons unrelated to adverse effects from MDMA therapy), compared to 16% in the placebo groups~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2. MDMA therapy worked across levels of symptom severity and presence of other mental illnesses.
 
 There are differences between MDMA therapy in clinical practice and in clinical trials that may affect efficacy:
 - Different expectations of positive results from the client or practitioner
-- Better or worse therapist compliance with professional ethics
-- Doses tailored to a client's body mass, which did not occur during the trial~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2
+- Better or worse therapist adherence to professional ethics
+- Doses tailored to a client's body mass, an option not available in the trial~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2
 - Therapists with more or less experience with MDMA or more or less skill as a therapist
 - More choice in therapist
-- Different types of people or people with different issues trying therapy who would have been excluded from or not interested in the trials
+- Different client characteristics
 - More or less support
 - Session pacing and number of sessions tailored to the client's needs rather than the rigid structure of the trial
-- Less media attention than the intensely covered trials
+- Less media attention than the trials received
 - Clinical sessions usually aren't video recorded, whereas trial sessions are
 
 == MDMA Therapy Generalizes Beyond PTSD
@@ -501,9 +478,9 @@ Three lines of reasoning suggest MDMA therapy durably resolves the psychological
 
 The second is based on the HiTOP (Hierarchical Taxonomy of Psychopathology) model, a leading model of mental illness classification. It was built from the ground up on statistical associations between symptoms and categorizes them in a hierarchy of clusters~@kotov2017hierarchical. At the subfactor level, the symptoms that are associated with PTSD, major depressive disorder, dysthymia, borderline personality disorder, and generalized anxiety disorder are clustered together. This suggests that those disorders are varying presentations of the same phenomenon. At higher levels of the hierarchy, even more symptoms and associated disorders cluster together. If the clustering reflects shared underlying processes rather than coincidental symptom overlap, then the evidence for MDMA therapy for PTSD should generalize to the other clustered disorders.
 
-Third, #textcite(<eckerUnlocking>) describes how psychosocial factors cause many mental illnesses and how psychotherapy can durably resolve these illnesses through the single psychological mechanism of memory reconsolidation. @sec:assumptions argues that MDMA therapy also facilitates memory reconsolidation when a stuck schema is activated and stayed present with.
+Third, #textcite(<eckerUnlocking>) describes how psychosocial factors cause many mental illnesses and how psychotherapy can durably resolve these illnesses through the single psychological mechanism of memory reconsolidation. @sec:assumptions argues that MDMA therapy also facilitates memory reconsolidation when a stuck schema is activated and you stay present with it.
 
-I think that the psychological component is substantial for most mental illnesses, and in my understanding, no evidence rules this out for more than a few mental illnesses. Vanishingly few biomarkers have been established as significant causes of mental illness rather than as symptoms or unclear associations~@carvalhoBiomarker. Genetics increases the risk of mental illness, but in my reading of #textcite(<aftabGenetics>), #textcite(<alexanderHeritability1>), and #textcite(<alexanderHeritability2>), even high heritability doesn't establish that genes are the primary or only cause in any individual case. Heritability describes how much of the differences between people can be attributed to genetic differences in a given environment and population---it doesn't tell you how much genes versus environment shaped any particular person's illness. Psychosocial components may still play large roles.
+I think that the psychological component is substantial for most mental illnesses, and no evidence rules it out for more than a few mental illnesses. Vanishingly few biomarkers have been established as significant causes of mental illness rather than as symptoms or unclear associations~@carvalhoBiomarker. Genetics increases the risk of mental illness, but in my reading of #textcite(<aftabGenetics>), #textcite(<alexanderHeritability1>), and #textcite(<alexanderHeritability2>), even high heritability doesn't establish that genes are the primary or only cause in any individual case. Heritability describes how much of the differences between people can be attributed to genetic differences in a given environment and population---it doesn't tell you how much genes versus environment shaped any particular person's illness. Psychosocial factors may still play large roles.
 
 In the face of this uncertainty and the prevalence of psychological components, I think it's worth trying MDMA therapy to see if it works. As discussed in @sec:safety, it is safe for most people. MDMA therapy is likely not worth trying for disorders with established biological causes, like thyroid dysfunction, neurosyphilis, and anti-NMDA receptor encephalitis.
 
@@ -516,16 +493,16 @@ The sympathetic and parasympathetic nervous systems govern a wide variety of inv
 Assessments of threat and power are relative to your ability to deal with the threat; children activate easily because the threshold at which a threat becomes life-threatening is much lower for them than it is for securely attached adults. Lack of parental support, attention, or attunement (see #textcite(<fivePillars>)) can be life-threatening situations for children. Here is the defense cascade:#footnote[I use the taxonomy of #textcite(<kozlowskaDefenseCascade>). Other sources categorize the states differently, but the general pattern of an active, sympathetic state; a passive, parasympathetic state; and a mixed state is similar.]
 
 / Arousal:
-  The most common initial reaction to a potential threat. Think of how a deer becomes alert when they see something moving far away. Vigilance, muscle tension, respiratory rate, and heart rate all somewhat increase, allowing us to quickly assess and respond to possible dangers.
+  The most common initial reaction to a potential threat. Think of how a deer becomes alert when they see something moving far away. Vigilance, muscle tension, respiratory rate, and heart rate all increase, allowing us to quickly assess and respond to possible dangers.
 
 / Flight-or-Fight#footnote[I put _flight_ before _fight_, following the recommendation of #textcite(<kozlowskaDefenseCascade>), who states that flight is more common than fight.]:
   When an imminent danger is identified and there is a perceived chance of escape or winning the fight, this response prepares the body to immediately either escape or confront the threat. The adaptations of the arousal stage intensify and are augmented by an adrenaline surge, further suppression of pain (via endocannabinoids~@lanius2018review), and an urge to fight or run.
 
 / Freeze:
-  When the danger is imminent, but you might still go unnoticed, the freeze response temporarily pauses a flight-or-fight response. If the predator notices you, freezing can quickly revert to flight-or-fight. While most physiological responses from flight-or-fight remain, muscles are immobilized, though tone remains high, and heart rate may or may not decrease.
+  When the danger is imminent but you might still go unnoticed, the freeze response temporarily pauses the flight-or-fight response. If the predator notices you, freezing can quickly revert to flight-or-fight. While most physiological responses from flight-or-fight remain, muscles are immobilized, though tone remains high, and heart rate may or may not decrease.
 
 / Tonic/Collapsed Immobility:
-  Tonic immobility (playing dead) activates in situations of high imminent threat and high powerlessness, like when the predator has overpowered you. Flight-or-fight responses are deactivated, the body is partially to fully paralyzed, heart rate slows, and the brain produces opioids that numb and disconnect you from reality. Playing dead sometimes causes predators who prefer live prey to lose interest in you; there may be an opportunity to escape at some point.
+  Tonic immobility (playing dead) activates in situations of high imminent threat and high powerlessness, like when the predator has overpowered you. Flight-or-fight responses are deactivated, the body is partially or fully paralyzed, heart rate slows, and the brain produces opioids that numb and disconnect you from reality. Playing dead sometimes causes predators who prefer live prey to lose interest in you; there may be an opportunity to escape at some point.
 
   Tonic immobility transitions to collapsed immobility when your heart rate lowers so much that your brain no longer has enough oxygen to stay conscious. It's unclear if this is an adaptive response or a physiological accident.
 
@@ -534,19 +511,19 @@ Assessments of threat and power are relative to your ability to deal with the th
 
 The body can rapidly transition between these states as needed~@kozlowskaDefenseCascade.
 
-The defense cascade activates during immediate physical attacks like a predator biting you, but it also is activated by stimuli (sounds, thoughts, sensations, places, etc.) associated with threats~@kozlowskaDefenseCascade. In the rest of the book I call these associations _schemas._ These associative activations are ideally adaptive; activation of flight-or-fight when you see a wolf running toward you will give you more time to run than if activation only occurs when the wolf bites you.
+The defense cascade activates during immediate physical attacks like a predator biting you, but it is also activated by stimuli (sounds, thoughts, sensations, places, etc.) associated with threats~@kozlowskaDefenseCascade. In the rest of the book I call these associations _schemas._ These associative activations are ideally adaptive; activation of flight-or-fight when you see a wolf running toward you will give you more time to run than if activation only occurs when the wolf bites you.
 
 Unfortunately, associative activations can also be maladaptive~@kozlowskaDefenseCascade. Think of the soldier who goes into flight-or-fight in response to loud noises even after the war is over. Maladaptive defense cascade activation is implicated in many mental illnesses. As described in subsequent sections, MDMA therapy can unlearn maladaptive associations between stimuli and activation.
 
 There is considerable uncertainty over which mental and physical states are mediated by endogenous (self-produced) opioids. Immobility and freeze may be the ones best physiologically characterized. However, other states, like some types of non-immobile derealization and depersonalization, are plausibly included. I call all opioid-mediated states _opioid dampening_ to mechanistically differentiate them from other phenomena. The term _dissociation_ is often used; it is an "involuntary disruption or discontinuity in the normal integration of one or more of the following: identity, sensations, perceptions, affects, thoughts, memories, control over bodily movements, or behaviour"~@icd11[sec. Dissociative disorders]. However, other phenomena, like deep avoidance and muting, also produce dissociation, making the term etiologically imprecise.
 
-The complexity of opioid dampening may depend on which opioids (e.g., enkephalins, endorphins, and dynorphins,) are interacting with which opioid receptors (μ, κ, δ, and their subtypes; conceivably also nociceptin and its subtypes)~@laniusNeurobiology. Other chemicals, like endocannabinoids, noradrenaline, and adrenaline, are also often present. Additionally, chronic immobility may induce opioid tolerance, which might further alter these effects.
+The complexity of opioid dampening may depend on which opioids (e.g., enkephalins, endorphins, and dynorphins) are interacting with which opioid receptors (μ, κ, δ, and their subtypes; conceivably also nociceptin and its subtypes)~@laniusNeurobiology. Other chemicals, like endocannabinoids, noradrenaline, and adrenaline, are also often present. Additionally, chronic immobility may induce opioid tolerance, which might further alter these effects.
 
 One under-explored complexity is sedation. #textcite(<kozlowskaDefenseCascade>) doesn't list sedation as a possible symptom of immobility, but #textcite(<razviPSIP>) and anecdotal reports indicate that sleepiness or actually falling asleep are relatively common symptoms of a state on the parasympathetic side of the defense cascade. This can happen both with and without MDMA.
 
-See #prosecite(<kozlowskaDefenseCascade>) for further discussion of the defense cascade. As the paper itself notes, the descriptive part is more solid than the Clinical Interventions part. I also advise caution regarding some proposed mechanisms of action because the paper cites polyvagal theory~@luckPolyvagal. While many people find therapeutic interventions associated with polyvagal theory helpful, the theory's foundation in specific neuroanatomical and evolutionary claims has not held up to empirical scrutiny.
+See #prosecite(<kozlowskaDefenseCascade>) for further discussion of the defense cascade. As the paper itself notes, the descriptive part is more solid than the Clinical Interventions section. I also advise caution regarding some proposed mechanisms of action because the paper cites polyvagal theory~@luckPolyvagal. While many people find therapeutic interventions associated with polyvagal theory helpful, the theory's foundation in specific neuroanatomical and evolutionary claims has not held up to empirical scrutiny.
 
-Refer to @sec:signsofdc for a thorough comparison of the signs of intensified arousal, immobility, and probably also the schemas that activate them.
+Refer to @sec:signsofdc for a thorough comparison of the signs of hyperarousal (I think that means flight-or-flight or a mid-point between arousal and flight-or-flight), immobility, and probably also the schemas that activate them.
 
 // Compact bullet list for the cell bodies.
 #let items(..entries) = list(
@@ -603,7 +580,7 @@ Refer to @sec:signsofdc for a thorough comparison of the signs of intensified ar
       [Flaccid muscle tone],
       [Extremely still (frozen)],
       [Pale skin tone],
-      [Fixed gaze ("thousand yard stare"), glassy eyes],
+      [Fixed gaze ("thousand-yard stare"), glassy eyes],
     ),
 
     cat[Cognitive][Cognitive],
@@ -699,14 +676,14 @@ Refer to @sec:signsofdc for a thorough comparison of the signs of intensified ar
     table.hline(stroke: 1pt),
   )
   },
-  caption: [Comparison of hyperarousal and dissociation \[opioid dampening\] signs. #textcite(<cheetahSigns>) compiled this from #textcite(<ogden2006sensorimotor>), #textcite(<magyari2016teaching>), and #textcite(<treleaven2018trauma>). Reprinted with permission. I think that these are likely the signs of hyperarousal, opioid dampening, and the schemas that activate those states, not just signs of hyperarousal and opioid dampening themselves.],
+  caption: [Comparison of hyperarousal and dissociation \[opioid dampening\] signs. #textcite(<cheetahSigns>) compiled this from #textcite(<ogden2006sensorimotor>), #textcite(<magyari2016teaching>), and #textcite(<treleaven2018trauma>). Reprinted with permission. I think that these are the signs of hyperarousal, opioid dampening, and, probably, the schemas that activate those states, not just signs of hyperarousal and opioid dampening themselves.],
   kind: table,
 )
 <sec:signsofdc>
 
 == Trauma, Insecurity, and Their Effects
 <sec:trauma>
-Our brains continually mental models of the world, other people, our bodies, and our minds for the purpose of fulfilling our innate needs, like bodily integrity, social connection, and reproduction~@clark2015surfing. We typically model threats in an appropriate and unproblematic manner and don't feel fear and ruminate about falling off cliffs until we are near a cliff edge. Then the closer to the edge we go, the more alert and cautious we become. This alertness or fear is healthy because the response is situationally appropriate.
+Our brains continually build mental models of the world, other people, our bodies, and our minds for the purpose of fulfilling our innate needs, like bodily integrity, social connection, and reproduction~@clark2015surfing. We typically model threats in an appropriate and unproblematic manner and don't feel fear and ruminate about falling off cliffs until we are near a cliff edge. The closer to the edge we go, the more alert and cautious we become. This alertness or fear is healthy because the response is situationally appropriate.
 
 Not all responses are situationally appropriate~@eckerUnlocking. The brain's learning process doesn't necessarily build _true_ models of the world; it builds models (an individual model is called a _schema_) that are _true enough_ (a heuristic) to work mostly well in the contexts they develop in. These heuristics are sometimes inaccurate or don't work very well outside the context in which they form, like a soldier who goes into fight mode in response to loud noises even after the war is over. In some cases they might not even have worked well in the original context.
 
@@ -724,7 +701,7 @@ When activated, schemas can generate~@eckerUnlocking
 - behavioral impulses
 - somatic sensations, like psychosomatic pain
 
-These _symptoms_ are not the schema/model itself, just its outputs~@eckerUnlocking. #footnote[#metadata("anchor") <retrieval>Brains and mental models are complicated and poorly understood. However, we can often gain a decent understanding of how a particular schema developed, works, and influences us~@eckerUnlocking. Practices in therapy can help us observe the structure of the schema itself instead of just a poorly understood collection of symptoms. In the example of Richard from #textcite(<eckerUnlocking>), he starts at noticing fear and a thought of \"they hate me\" when he thinks about confidently speaking up in meetings. Through therapy he gains awareness of the structure of the schema, which takes the form of a verbalized thought, "Having a feeling of confidence as you speak turns you into an arrogant asshole, like Dad." It's accompanied by deep sense of feeling that the explanation is right. In my experience, MDMA also facilitates access to a verbalized structure of a schema, either immediately or after some reconsolidation.] Some of these symptoms may also not be noticed or noticeable. For example, I've had many experiences in MDMA therapy where I notice the emotion first, and the belief only becomes clear after some amount of reconsolidation.
+These _symptoms_ are not the schema/model itself, just its outputs~@eckerUnlocking.#footnote[#metadata("anchor") <retrieval>Brains and mental models are complicated and poorly understood. However, we can often gain a decent understanding of how a particular schema developed, works, and influences us~@eckerUnlocking. Practices in therapy can help us observe the structure of the schema itself instead of just a poorly understood collection of symptoms. In the example of Richard from #textcite(<eckerUnlocking>), he starts at noticing fear and a thought of \"they hate me\" when he thinks about confidently speaking up in meetings. Through therapy he gains awareness of the structure of the schema, which takes the form of a verbalized thought, "Having a feeling of confidence as you speak turns you into an arrogant asshole, like Dad." It's accompanied by deep sense of feeling that the explanation is right. In my experience, MDMA also facilitates access to a verbalized structure of a schema, either immediately or after some reconsolidation.] Some of these symptoms may also not be noticed or noticeable. For example, I've had many experiences in MDMA therapy where I notice the emotion first, and the belief only becomes clear after some amount of reconsolidation.
 
 When schemas are stuck, these outputs become problems: stuck schemas push us to overreact, deny the truth, misjudge significant trade-offs, say hurtful things, etc. We may seek the connection and safety we desperately need in dysfunctional ways~@brownAttachmentDisturbances, or we may get too distracted by our distress to pay attention to the needs of those we love.
 
@@ -741,7 +718,7 @@ Trauma in a people looks like culture.
 ]
 
 Common traumas or insecurities include
-- different forms of unintentional, or occasionally intentional, neglect, or abuse
+- different forms of unintentional or occasionally intentional neglect or abuse
 - lack of attunement from parents~@brownAttachmentDisturbances
 - disasters, accidents, assault, or war
 - chronic poverty, dehumanization, or dysfunctional social-cultural systems~@roncaStructuralViolence, sometimes explained away as tradition or, for instance, "how things are"
@@ -884,25 +861,25 @@ MDMA is often considered a risky substance due to its illegality, adulterants, a
 - MAOIs and ayahuasca
 - ritonavir, cobicistat, or HIV drugs that contain them
 - over 200 lifetime doses (boosters count as partial extra doses)#footnote[The number 200 is extremely imprecise, but as described below, there isn't any better data.]
-- hyperthyroidism that isn't well managed and mild, as assessed by a doctor
+- hyperthyroidism that is neither well managed nor mild, as assessed by a doctor
 
 #lead[Use caution with (continue reading for further assessment):]
 - a family or personal history of psychosis#footnote[I use the terms _psychosis_ and _mania_ in this article rather than terms like _schizophrenia_ and _bipolar_ on the assumption that they are closer to natural kinds, and more predictive of risk, than DSM/ICD diagnoses.]
 - a personal history of addiction to amphetamines or cocaine
-- total doses over 2\u{202F}mg/kg, especially for more than a handful of sessions
-- session spacing less than 4~weeks
+- a total dose over 2\u{202F}mg/kg per session, especially for more than a handful of sessions
+- session spacing of less than 4~weeks
 - drugs/medications/supplements/herbs, including large doses of caffeine
 - liver and cardiovascular problems
-- other serious medical conditions, especially ones that are not well managed and mild, as assessed by a doctor
+- other serious medical conditions, especially ones that are neither well managed nor mild, as assessed by a doctor
 
-#lead[Take precaution:]
+#lead[Take precautions:]
 - Don't drink more than 0.5\u{202F}L of water during the first six hours of a single-dose session unless you need to replace large amounts of sweat. Booster doses probably extend this period.
-- Ideally, avoid SSRIs and SNRIs for 2~months prior.
+- Ideally, avoid SSRIs and SNRIs for 2~months prior to the session.
 - Test your MDMA.
-- People with a personal history of mania should take care to sleep well before and after the session; a pre-supplied course of sleep aids can help with this. Also skip booster doses at first, then gradually increase the total dose on subsequent sessions if needed.
-- Only start MDMA therapy if you have slack in your life and can do much more therapy, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While a part of the healing process when managed well, it can require a lot of therapy to resolve, and it may not resolve on the timeline you want it to.
+- People with a personal history of mania should take care to sleep well before and after the session; sleep aids can help with this. They should also skip booster doses at first, then gradually increase the total dose on subsequent sessions if needed.
+- Only start MDMA therapy if you have slack in your life and can do a lot therapy, MDMA-facilitated or otherwise, in the near future. On rare occasions, post-session symptom exacerbation can be severe. While it can be a part of the healing process when managed well, exacerbation can require a lot of therapy to resolve, and it may not resolve as quickly as you want.
 
-  An exception may be people with secure attachment and no mental illness, who I think have very little chance of severe symptom exacerbation.
+  An exception may be people with secure attachment and no mental illness, who I think have very little chance of severe exacerbation.
 - MDMA and therapy exhaustion can impair awareness and reaction times. Avoid driving and other risky activities on the same day as the session.
 
 This section aims to provide basic information, usable dosing and testing recommendations, and an overview of the most practically relevant effects and risks. It does not cover less common or less serious interactions between MDMA and drugs or medical conditions. I encourage consultation with a doctor or pharmacist for most individual questions about safety and list appropriate papers to bring with you to a consultation, since a clinician likely won't understand MDMA well.
@@ -1177,8 +1154,8 @@ Making specific recommendations for session spacing is difficult because individ
 
 Three expert panels independently ranked MDMA, or substances sold as MDMA, among the least harmful drugs on their scales, including on criteria that would plausibly capture neurotoxic effects if those were producing clinically apparent outcomes~@nuttDrugHarms@bonomoHarms@crossinHarms. The absence of any signal strong enough to elevate MDMA in these rankings is consistent with oxidative damage from typical non-therapeutic use patterns being, at most, a minor--moderate contributor to population-level harm. The typical therapeutic protocol---2--3\u{202F}mg/kg total dose, proper hydration, infrequent administration, no hyperthermia, no drug mixing---would be expected to produce even less.
 
-That being said, even mild-to-moderate amounts of harm are worth minimizing when possible. People may also need to do many MDMA sessions to treat intense or complex sets of stuck schemas, and gradually cumulative effects may become more noticeable. I know of four lines of indirect evidence that tentatively suggest that the 4~week spacing used in the phase III trials is okay when using total doses at or under 1.5\u{202F}mg/kg:
-- #textcite(<mithoeferRETRACTEDARTICLEMDMAassisted2019>) didn't find any statistically significant, lasting cognitive issues in clinical trials totaling 54 participants after two sessions using total doses ranging from 112.5--187.5\u{202F}mg#footnote[Ten percent of participants declined the second optional dose. Their total dose would have only been 75--125\u{202F}mg.].
+That being said, even mild-to-moderate amounts of harm are worth minimizing when possible. People may also need to do many MDMA sessions to treat intense or complex sets of stuck schemas, and gradually cumulative effects may become more noticeable. I know of four lines of indirect evidence that tentatively suggest that the 4~week spacing used in the phase III trials is okay when using a total dose at or under 1.5\u{202F}mg/kg per session:
+- #textcite(<mithoeferRETRACTEDARTICLEMDMAassisted2019>) didn't find any statistically significant, lasting cognitive issues in clinical trials totaling 54 participants after two sessions using a total dose ranging from 112.5--187.5\u{202F}mg per session#footnote[Ten percent of participants declined the second optional dose. Their total dose would have only been 75--125\u{202F}mg.].
 - #textcite(<guckerEffectsEcstasyMDMA2000>) found no statistically significant alterations in serotonin binding sites in the brain four weeks after a single 1.5\u{202F}mg/kg dose using positron emission tomography.
 - #textcite(<baggottSupplements>) didn't see any elevated markers of oxidative stress in urine with doses of 1.5\u{202F}mg/kg. Thus, that dose might not deplete antioxidants at all, and safe spacing for oxidation would be a nonissue.
 - I used the Claude Opus 5 LLM to review the research on MDMA oxidation and the body's antioxidant defenses and make a model of how long it takes various antioxidants in the serotonin system to recover after oxidative stress. Since little research has investigated this in humans, it guessestimated a plausible range of values for each input parameter. It then calculated different values of safe spacing from many combinations of those parameters. 95% of its estimates fell between 1~week and 7~weeks, with the median estimate being 3.7~weeks, though it was also running estimates for a range of doses from 1.5--3.0\u{202F}mg/kg. The report, which includes source code and bibliography, is #link("https://github.com/groeneveld/mdma-guide/blob/main/auxillaryFiles/antioxidant-spacing.pdf")[here]. I made sure that it double-checked that all values were accurately retrieved (from full-text article PDFs) and cited, and that it double-checked its equations. Take this with a good dose of skepticism: LLMs have notable problems and I don't have the expertise to verify that its model is reasonable.
@@ -1379,7 +1356,7 @@ There may be other rare reactions to MDMA; these criteria are not exclusive.
 <bigPicture>
 As described in @sec:mechanism, healing is fundamentally a process of aligning stuck schemas with current reality and integrating previously-avoided/muted information.
 
-MDMA-facilitated reconsolidation may cause a straightforward decrease in symptoms and increase in mental health for those with simple issues. However, as described in @sec:complex, those with disorganized attachment or other forms of severe complex trauma face a long process of unpredictable ups and downs that gradually tends upward. MDMA and reconsolidation help you confront previously avoided/muted sensations and emotions. Confronting them may then activate other stuck schemas, producing new fear, anger, sadness, grief, dysfunction, etc. You then have to reconsolidate these newly activated stuck schemas, which might surface still more previously-avoided/muted information. This cycle of reconsolidation → decreased avoidance/muting → reaction → reconsolidation → decreased avoidance/muting → reaction continues until there are no more major avoided/muted information and stuck schemas. Note that this is a simplification of a likely-more complex and inscrutable process described in @sec:complex.
+MDMA-facilitated reconsolidation may cause a straightforward decrease in symptoms and increase in mental health for those with simple issues. However, as described in @sec:complex, those with disorganized attachment or other forms of severe complex trauma face a long process of unpredictable ups and downs that gradually tends upward. MDMA and reconsolidation help you confront previously avoided/muted sensations and emotions. Confronting them may then activate other stuck schemas, producing new fear, anger, sadness, grief, dysfunction, etc. You then have to reconsolidate these newly activated stuck schemas, which might surface still more previously-avoided/muted information. This cycle of reconsolidation → decreased avoidance/muting → reaction → reconsolidation → decreased avoidance/muting → reaction continues until there is no more major avoided/muted information and stuck schemas. Note that this is a simplification of a likely-more complex and inscrutable process described in @sec:complex.
 
 The simplest issues may be resolved in a single session, but my rough estimate is that the most severe mental illnesses require tens of thousands of hours of reconsolidation to resolve. This process is necessarily spread out over a long period of time for those with complex trauma because therapy hangover limits active reconsolidation to roughly 2~hours/day in my experience.
 
@@ -1387,9 +1364,9 @@ MDMA is a moderately scarce resource because of the unclear risk that frequent o
 
 If you want to progress as quickly as possible, I recommend maxing out on reconsolidation exercises whenever you have the time. There are two difficulties to consider, though. First, while you might be able to achieve 2~hours of active reconsolidation a day, that will also create multiple additional hours of therapy hangover. Second, reconsolidation exercises typically require some additional time for the overhead of figuring out what your stuck schemas are and finding mismatches, not to mention all the other tasks involved in practitioner-guided therapy.
 
-If you can, try to develop techniques that require less overhead, like the first one in @internalizedReports. I've also noticed in my practice and that of one person I know that you don't have to experience a therapy hangover for as long when you reconsolidate right before going to sleep. The therapy hangover resolves before you wake up.
+If you can, try to develop techniques that require less overhead, like the first one in @internalizedReports. I've also noticed in my practice and that of one person I know that if you reconsolidate right before going to sleep the therapy hangover resolves before you wake up. That minimized the amount of time you spend exhausted.
 
-Unnoticed avoidance and muting and the possibility of complex chains schema activations makes it difficult to assess how much material you need to work through. You could fill out the #textcite(<maladaptiveSchemaScale>) at least once to get a rough inventory of your stuck schemas, though it's not essential. It's a broad scale that should catch a wide variety of common stuck schemas. You can fill out the scale again every few months to track your therapeutic progress. The scale is long, so it may be worth finding and using a shorter, more specific scale (or a subset of #textcite(<maladaptiveSchemaScale>)) if your stuck schemas are limited to certain areas. That will save you time if you're filling it out frequently.
+Unnoticed avoidance and muting and the possibility of complex chains of schema activations make it difficult to assess how much material you need to work through. You could fill out the #textcite(<maladaptiveSchemaScale>) at least once to get a rough inventory of your stuck schemas, though it's not essential. It's a broad scale that should catch a wide variety of common stuck schemas. You can fill out the scale again every few months to track your therapeutic progress. The scale is long, so it may be worth finding and using a shorter, more specific scale (or a subset of #textcite(<maladaptiveSchemaScale>)) if your stuck schemas are limited to certain areas. That will save you time if you're filling it out frequently.
 
 Unnoticed avoidance, muting, and lack of understanding about what improvements are possible also make it difficult to assess when you are done with the process. If you get to the point of thinking you are done or close enough, I suggest working through every item in @mapping during MDMA sessions. Filling out #textcite(<maladaptiveSchemaScale>) may also help. These will help you uncover, understand, and reconsolidate many of the stuck schemas that even mentally healthy people typically avoid dealing with or thinking about. I think it's worth working through most of the items in those sections; just getting to a point of good-enough mental health leaves a great deal of individual improvement and capacity for connection and compassion on the table.
 
@@ -1399,7 +1376,7 @@ I recommend the following resources for guidance on the long-term process of hea
 
 #lead[When to schedule sessions]
 <when-to-schedule-sessions>
-It may be especially productive to schedule sessions when you have a few hours of available time most days for the next 1--3~weeks. Some people report that reconsolidation exercises like therapy are more productive than normal in this period of afterglow (see @afterglow). Spending a few hours a day paying attention to the emotions that came up during the session may also be particularly useful (see @increasingAttention (Increasing Attention)). I list some ideas for when to schedule sessions in @sessionDecision.
+It may be especially productive to schedule sessions when you have a few hours of available time most days for the next 1--3~weeks. Some people report that reconsolidation and regular therapy are more productive than normal in this period of afterglow (see @afterglow). Spending a few hours a day paying attention to the emotions that came up during the session may also be particularly useful (see @increasingAttention (Increasing Attention)). I list some ideas for when to schedule sessions in @sessionDecision.
 
 #figure(
   table(
@@ -1492,332 +1469,6 @@ If your provider does call the police on you, know that police typically have li
 #textcite(<alexanderInpatient>) is a good guide for navigating/avoiding the inpatient mental health system.
 
 Involuntary outpatient commitment is also often abusive~@croftAOC, and there is no evidence that it's more effective than voluntary treatment~@kiselySystematicReviewMetaanalysis2025.
-
-= Prompts for Activating Stuck Schemas
-<mapping>
-Stuck schema activation does not always happen spontaneously during a session, and when it does, it does not cover all the stuck schemas that are worth reconsolidating in your life. This section helps you deliberately activate and reconsolidate common stuck schemas that you may not be aware of. Reconsolidating the stuck schemas that these prompts activate build more resilience and equanimity than the default of just doing enough MDMA therapy to make your primary issue feel manageable.
-
-Using these prompts to trigger yourself is going to feel uncomfortable, but that's an inherent part of reconsolidation. Start with the easiest ones and work your way up to the harder ones over time.
-
-I also strongly suggest keeping a list of (often subtle) discomforts that you notice in daily life. Some of these are likely valuable reconsolidation targets.
-
-== Common Trauma-Induced Schemas
-<personal-schemas>
-See @mssProbes for a list of prompts designed to activate many mental illness, developmental, and attachment-related stuck schemas that people commonly have. It may help to imagine a concrete scenario for each item. Feel free to skip sections you feel totally comfortable with.
-
-// A group heading row spans both columns and repeats as a subheader. A domain's name spans the rows of
-// its prompts, with faint rules between the prompts.
-#let group(name) = (
-  table.header(
-    level: 2,
-    table.hline(stroke: 0.8pt),
-    table.cell(colspan: 2, inset: (top: 9pt, bottom: 5pt))[*#name*],
-  ),
-)
-#let domain(name) = (..prompts) => {
-  let prompts = prompts.pos()
-  (
-    table.hline(stroke: 0.5pt),
-    table.cell(rowspan: prompts.len(), breakable: false, text(hyphenate: false, emph(name))),
-    ..prompts.map(p => (p,)).intersperse((table.hline(start: 1, stroke: 0.3pt + luma(190)),)).flatten(),
-  )
-}
-
-#figure(
-  table(
-    columns: (1fr, 2.4fr),
-    align: left + top,
-    stroke: none,
-    inset: (x: 6pt, y: 4.5pt),
-    table.hline(stroke: 1pt),
-    table.header([*Schema Domain*], [*Activation Prompt*]),
-    ..group[Safety & Attachment],
-    ..domain[Abandonment](
-      [Someone you love is about to leave you without warning],
-      [The person closest to you is wavering on their commitment],
-      [You desperately need someone and no one is coming],
-      [The person you depend on most is leaving],
-    ),
-    ..domain[Excessive Self-Reliance](
-      [You have no choice but to let someone else take care of you],
-      [Someone is getting very close to you],
-      [You are completely dependent on another person right now],
-      [You need to ask someone for help with something painful],
-    ),
-    ..domain[Emotional Deprivation](
-      [You're struggling and there's no one to turn to],
-      [You're in trouble right now and there's no one you can call],
-      [The people around you don't care how you feel],
-      [You need emotional support and no one is offering it],
-    ),
-    ..domain[Mistrust of Others](
-      [Someone is being kind to you but you can't see their real motive],
-      [You have to trust someone completely right now],
-      [Someone is telling you something important and you can't verify it],
-      [You just realized the people around you have been lying to you],
-    ),
-    ..domain[Others are Dangerous](
-      [You just saw clearly how selfish the people around you really are],
-      [You're watching someone suffer and no one is stepping in to help],
-      [The person in front of you could become violent at any moment],
-      [Someone just revealed who they really are underneath],
-    ),
-    ..domain[Social Isolation](
-      [You walked into a room and immediately felt you don't belong here],
-      [You're trying to explain something important and no one understands],
-      [You're surrounded by people and none of them can see you],
-      [You are completely on the outside looking in],
-    ),
-    ..domain[Defectiveness / Shame](
-      [The people closest to you can finally see who you really are],
-      [Someone just looked at you and saw what's broken],
-      [The people you love can't love you because of what's wrong with you],
-      [You are exposed and there are real reasons to feel ashamed],
-    ),
-    ..domain[Vulnerability](
-      [You've stepped outside your safe zone and bad things are closing in],
-      [You just realized you're exposed and nothing is protecting you],
-      [Everything is falling apart and catastrophe is coming],
-      [The world is hostile and it's coming for you],
-    ),
-    ..group[Autonomy & Competence],
-    ..domain[Dependence](
-      [You are alone and must take care of yourself with no help],
-      [You have to manage everything today entirely on your own],
-      [A major decision is in front of you and no one can advise you],
-      [You must choose and there is no one to confirm you're right],
-    ),
-    ..domain[Failure / Inferiority](
-      [Everyone around you has accomplished more than you],
-      [You're looking at what you've done with your life and it's not enough],
-      [Someone you know just succeeded at something you failed at],
-      [You're being compared to others and you're falling short],
-    ),
-    ..domain[Low Self-Efficacy](
-      [A hard problem is in front of you and you probably can't solve it],
-      [You're stuck and you can't think of any way forward],
-      [Something unexpected just happened and you have to handle it alone],
-      [The problems you're facing are beyond your ability to manage],
-    ),
-    ..domain[Fatalism](
-      [Something important is being decided about your life and you can't influence it],
-      [A critical moment is coming and nothing you do will change the outcome],
-      [You're watching your future be decided by things completely beyond you],
-      [You just realized you've never really been steering your own life],
-    ),
-    ..domain[Enmeshment](
-      [Someone you love is in pain and it's your job to carry it],
-      [You can't tell where your feelings end and someone else's begin],
-      [You are dissolving into another person---you can't find yourself],
-      [Someone else's needs are consuming everything you have],
-    ),
-    ..group[Freedom to Express Needs, Opinions & Emotions],
-    ..domain[Subjugation](
-      [Someone is telling you what to do and they know better than you],
-      [You must obey even though you disagree],
-      [Someone else is deciding what's best for you],
-      [Another person is taking control and you have to let them],
-    ),
-    ..domain[Self-Sacrifice](
-      [Someone needs you and you must put them first no matter what],
-      [Someone is bringing you their pain and it's your duty to hold it],
-      [You need something right now but someone else needs more],
-      [You've given everything you have and it's still not enough],
-    ),
-    ..domain[Approval-Seeking](
-      [You have to choose between what you want and what others approve of],
-      [Someone disagrees with you and you feel the pull to agree with them],
-      [Someone you don't even care for doesn't like you, and it's eating at you],
-      [You need to decide but you don't know what anyone else thinks],
-    ),
-    ..domain[Emotional Inhibition](
-      [Strong emotions are pushing up and they won't stay contained much longer],
-      [Your emotions are taking over and they're going to cause damage],
-      [You're about to cry in front of people who can't handle it],
-      [Your emotions are dangerously intense right now],
-    ),
-    ..group[Spontaneity & Play],
-    ..domain[Pessimism](
-      [Something is about to go wrong, as it always does],
-      [You're facing uncertainty and there's no reason to hope],
-      [You're waiting for the bad news you know is coming],
-      [You're looking ahead and you can't see anything good coming],
-    ),
-    ..domain[Unrelenting Standards](
-      [You just made a mistake and you can't let it go],
-      [You have to choose between being happy and meeting your standards],
-      [You performed well but not perfectly and it's not enough],
-      [You fell short and that is not okay],
-    ),
-    ..domain[Punitiveness (Self)](
-      [You just made a mistake and you don't deserve compassion for it],
-      [Something went wrong and you shouldn't get away with it],
-      [You failed and now you deserve what's coming],
-      [A small thing just went wrong and you must pay for it],
-    ),
-    ..domain[Punitiveness (Others)](
-      [Someone made a mistake and they don't deserve your compassion],
-      [Someone failed and they should be held accountable],
-      [Someone let you down and they deserve consequences],
-      [Someone did something wrong and letting it go would be wrong],
-    ),
-    ..group[Realistic & Consistent Limits],
-    ..domain[Entitlement](
-      [Someone just told you no],
-      [You have to follow the same rules as everyone else],
-      [No one around you recognizes how special you are],
-      [You're being treated like everyone else and you deserve more],
-    ),
-    ..domain[Full Control](
-      [Something has gone wrong and you should have been able to prevent it],
-      [Something is happening that you cannot control or influence],
-      [Willpower alone cannot change this situation],
-      [Something has been left to chance and you can't intervene],
-    ),
-    ..domain[Over-Reliance on Emotions](
-      [Your gut says one thing but the evidence says another],
-      [You're making an important decision based only on how you feel],
-      [Your emotional reaction feels like the truth even though it might not be],
-      [A problem is in front of you and thinking won't help---only feeling],
-    ),
-    ..group[Coherence & Fairness],
-    ..domain[Unfairness](
-      [You just experienced something unjust and no one is going to fix it],
-      [You are being treated unfairly and no one sees it],
-      [Something bad happened to you and you didn't deserve it],
-      [Good things keep happening to other people but never to you],
-    ),
-    ..domain[Meaninglessness](
-      [You're looking at your life and nothing in it seems to matter],
-      [You've been trying to find meaning and coming up empty],
-      [You can see now that everything you've worked for will be forgotten],
-      [You're watching people strive and none of it will have meant anything],
-    ),
-    ..domain[Lack of Coherent Identity](
-      [You don't know who you are right now],
-      [Your interests and beliefs feel like they belong to someone else],
-      [You are watching yourself from the outside, disconnected],
-      [The person you were yesterday is not the person you are today],
-    ),
-    table.hline(stroke: 1pt),
-  ),
-  caption: [Schema Activation Prompts inspired by #prosecite(<maladaptiveSchemaScale>). I used the Claude LLM to transform the items in the original scale from their diagnostic forms into schema-activating forms.],
-  kind: table,
-)
-<mssProbes>
-
-== Social Identity Schemas
-<socialPrompts>
-Imagine, as vividly as possible, being a member of a different group of people. Then, imagine how you and your friends, family, coworkers, and community would react to you. Go toward any fear, disgust, or shame and stay with that feeling. Race, gender, disability, intelligence, class, political affiliation, wealth, education, attractiveness, and religion are all common attributes worth considering. Add any other categories relevant to your situation.
-
-In addition to imagining you are a member of the other group, consider
-- a member of the other group being part of your community: moving into your neighborhood, working with you, or being your friend
-- a member of the other group having power over you: teaching your children, supervising you at work, or representing you as your elected politician
-- hugging or dating a member of the other group
-- adopting the aesthetics or practices of the other group
-- how your closest friends or family react to one of the above items
-- the other group's values becoming more popular than your group's values, while your values fade into history
-- the other group out-competing your group, while your group fades into history
-
-== Existential Schemas
-<existential-schemas>
-Imagine permanent disconnection from health, material comfort, sensory pleasures, relationships, belonging, status, order, certainty, meaning, being a good person, life, and existence (including any afterlife). Additionally, consider the possibility that your fundamental assumptions about life, meaning, existence, and self might not actually be true. To my understanding, reconsolidating these stuck schemas leads to equanimity, not the loss of healthy protective behaviors or basic attachments.
-
-I think that achieving persistent non-attachment requires considerably more work than using the prompts just mentioned to reconsolidate stuck schemas during MDMA therapy. @selfinsight lists a few starting points.
-
-== Cognitive Flexibility and Truth-Seeking
-<cognitiveflexibility>
-I think that cognitive flexibility is both highly important and lower than it should be for most people in the modern world. Tribalistic instincts are a major contributor. While we need to form coalitions (family, work, friendships, etc.) to accomplish almost anything, our tribal tendency seems disproportionate for life in modern nation-states. This creates all sorts of problems, such as poor governmental policy because people vote based on identity~@klein2020Polarized, being shunned for believing or doing things that are markers of belonging to a rival group, etc.
-
-It is common to perceive obviously false beliefs in the out-group. But how do you know they are mistaken and you aren't? The human capacity for self-deception must be strong enough to make at least one of you wrong about a supposedly obvious fact, and we have no foolproof meta-reason to believe it is them instead of us. You may think "ah, but I'm right because I've done x, y, and z to make sure", but the other person may feel they have also made sure. Confidence can easily coexist with delusion.
-
-As the psychologist #citefullauthor(<pinsof2024Truth>) says on their blog about self-deception being a core aspect of tribalism~@pinsof2024Truth:
-
-#quote(block: true)[
-We're hyper-skeptical of claims made by the out-group---the people we fear, dislike, and distrust. And we believe in-group-flattering absurdities …~because it is instrumentally rational for us to do so. The benefits of status and tribal solidarity often outweigh the costs of false beliefs, particularly if those beliefs are vague, unactionable, or unfalsifiable.
-]
-
-#prosecite(<alexanderTrapped>) proposes, based on #textcite(<berghBSTS>), another mechanism for how emotionally charged, false beliefs become entrenched. When another group or another group's beliefs are perceived as highly threatening, the brain dials down the relative certainty of all incoming sensory information, including information that indicates you aren't really in danger in the moment. Thus, the false belief never reconsolidates unless the contradictory information is extremely strong and unignorable, or the contradictory information is introduced very gradually, like in exposure therapy.
-
-Self-deception relies on a constellation of schemas that serve to justify your belief or deny the validity or existence of contradictory information. I propose that MDMA therapy can help you reconsolidate some of these stuck schemas. During a session you might consider a hated or feared political, religious, national, or cultural group---or a faction of your group if you want an easier starting point---being correct about an important point of contention. Imagine believing that point yourself. How does that feel? Imagine expressing your new belief to your friends, family, or community. How would they react? How would you feel about that? I suggest primarily focusing on noticing and staying with any fear, anger, grief, etc. that you feel during this process rather than spending all of your energy on intellectual thought. This will reconsolidate any associated stuck schemas. Intellectual engagement with the subject will work better after reconsolidation anyway, so save it for after the session. Working through @socialPrompts will also help.
-
-The point of the exercise isn't necessarily acquiring more accurate beliefs about the specific topic you imagine during the session. Rather, the point is activating and reconsolidating any stuck schemas potentially interfering with your thought processes, which improves your general, long-term ability to acquire accurate beliefs. You could actually pick an idea that you don't think is worth considering the truth of at all, like the Earth being flat. Using that as a prompt might activate and reconsolidate a stuck fear of being like _those people_, which makes you discount all beliefs that you and your social circle consider odd, but some of which are certainly true.
-
-The world is full of pervasive threats, fear-based messaging, and out-group dehumanization that may reconstitute some stuck schemas over time. I suspect additional strategies beyond reconsolidation and avoidance-reduction are necessary to maintain cognitive flexibility and compassion in the long run. I recommend the following:
-- #prosecite(<galefScoutMindset>) is an excellent book that proposes a set of habits for helping you avoid epistemic traps.
-- #prosecite(<mcraneyMinds>) is a good survey of the topic.
-- #prosecite(<klein2020Polarized>) discusses the dysfunctional positive-feedback loops between our fears and identities and the behavior of the media and politicians. This cycle increases polarization and political dysfunction, and separates us from each other. This book is more about understanding the role of identity in politics than suggesting how to improve the situation.
-- #prosecite(<traumaPsychopolitics>) discusses how politicians, the media, and ordinary people continually traumatize everyone about politically contentious topics.
-
-== Authentic Engagement with Ethical Reasoning and Action
-<stopcycle>
-As they do in other areas, stuck schemas can interfere with coherent and compassionate ethical (used here as a synonym for morality or "what one should do") reasoning and action.
-
-People sometimes hurt other beings, usually without deliberate intent or full awareness of the impact of our actions. This typically involves with a driver like fear, anger, perceived insecurity, desire, or simply a default cultural behavior. You may also develop a constellation of schemas justify the harm, deny the harm, deny the other being's worth, or prevent the harm from becoming salient in the first place.
-
-This dynamic implies a conundrum for those interested in acting compassionately: how do you know if you're significantly and unnecessarily hurting anyone if the awareness of hurting others can be so strongly obscured?
-
-Avoidance, denial, and justification in large part function to shield us from information that feels threatening (see @attention). I think that this perceived threat of fully acknowleding a harm you are doing is not accurate outside of unusual situations like immediate self defense, where you need to do violence and thinking too long about the consequences is dangerous.#footnote[Some minor threats are likely more common. People might be upset with you for even considering (much less acting upon) the worth of some groups of beings.]
-
-I strongly suspect that MDMA can help reconsolidate these stuck schemas like it can many others. During a session I suggest a few practices for different scenarios:
-- *Large-scale social (politics, religion, etc.) conflicts:* Try the prompts in @socialPrompts.
-- *Low salience:* This is for situations where you may have never deeply considered whether the other being has moral worth. This mostly applies to non-humans since humans mostly already think that humans have moral value, even if they don't live out that value well. Look at photos or real individuals and contemplate what you share with them, what causes them to suffer or thrive, what they deserve, how you have hurt or neglected to help them, and the obligations you may have to them. You may have to learn what their lives are like; I provide suggestions in the list below.
-
-Focus on noticing and staying with any fear, anger, or other distress you feel during this process rather than getting completely distracted by intellectual thought. This should reconsolidate any associated stuck schemas, and intellectual questions can be considered after the session is over, when there are fewer stuck schemas getting in the way. The next question is who to bring into this contemplation.
-
-Analytically determining what beings have inherent worth is unfeasible; it depends on solving multiple open problems in philosophy of mind and moral philosophy, like metaethics and the hard problem of consciousness~@hardProblem@metaEthics. Since there are no broadly agreed-upon, much less verified, solutions to these, I take a pragmatic approach that centers uncertainty and the precautionary principle. This involves thinking about what features of humans are associated with having positive and negative internal experiences and then looking at what other beings possess those features. I recommend the short video #prosecite(<birchPrecautionary>) for an introduction to this approach.
-
-I propose considering beings that at least some major groups of people think have inherent worth, if only to check whether you're missing something others have noticed. Here are the categories that seem worth considering to me. You might disagree about where to draw the line of who to consider. I've included references for further reading that take positions of uncertainty in edge cases (e.g., LLMs) and compassion in stronger cases (e.g., mammals and birds).
-- Yourself
-- Individuals you have hurt
-- Individuals who have hurt you
-- Groups of humans your group is in conflict with or who may even be eradicating your group. Try the prompts in @socialPrompts.
-- Groups of humans you don't like or approve of, or whom you think have deeply wrong values. Try the prompts in @socialPrompts.
-- Humans geographically distant from you. Why does worth or obligations change or not based on physical distance? See #prosecite(<singer2017famine>).
-- Humans with cognition dramatically different from the average adult: fetuses, young children, those with dementia, and those with severe cognitive disability
-- Nonhuman animals. A number of scientists and philosophers recently asserted in The New York Declaration on Animal Consciousness~@newYorkAnimal:
-
-  #quote(block: true)[
-  First, there is strong scientific support for attributions of conscious experience#footnote[Conscious experience means having subjective experience, not necessarily having self-reflection.] to other mammals and to birds.
-
-  Second, the empirical evidence indicates at least a realistic possibility of conscious experience in all vertebrates (including reptiles, amphibians, and fishes) and many invertebrates (including, at minimum, cephalopod mollusks, decapod crustaceans, and insects)
-
-  Third, when there is a realistic possibility of conscious experience in an animal, it is irresponsible to ignore that possibility in decisions affecting that animal. We should consider welfare risks and use the evidence to inform our responses to these risks.
-  ]
-
-  #prosecite(<singerLiberation>) may be the most influential secular work on the inherent worth of animals and how they are treated in various contexts. It was written by a moral philosopher for a general audience and is quite readable. #prosecite(<scullyDominion>) is a popular conservative Christian book on the topic. #prosecite(<birchEdge>) goes into depth about uncertainty of which animals to consider.
-- Current or future artificial intelligences. This is far more uncertain than the previous categories and may depend on the specific architecture of an AI. Nonhuman vertebrate brains at least all function on cell-based predictive processing. It's also much less clear what a specific AI likes and dislikes. With nonhuman animals, we can safely assume they dislike physical pain and fear and like food, for instance. An individual AI's self-reports of what they feel or like may or may not be accurate representations of their internal conscious state, if such a state exists.
-
-  See the podcast #prosecite(<birchPodcastAI>) for further discussion. #prosecite(<birchEdge>) (open access) goes into much more detail.
-
-Doing this will likely be uncomfortable, but that's part of the process. Discomfort, avoidance, and automatic discounting of worth are strong indicators that there are stuck schemas. Stay with that feeling until it reconsolidates.
-
-== Connection with Nature
-<sec:nature>
-This exercise will help you reconsolidate any stuck schemas inhibiting connection to nature. I hope that this will facilitate nature being a source of peace and enjoyment for you.#footnote[The previous prompts were designed to activate stuck schemas that almost always have negative consequences. This section is different; not everyone may have a fundamental need to connect to nature. If you don't, any stuck schemas preventing you from connecting with it may not have negative consequences.]
-
-First, if you're going anywhere more remote than a backyard, get acquainted with how MDMA and MDMA therapy affect you before adding the nature complication to your session.
-
-To safely do a session in nature,
-- bring clothes that will protect you from all possible weather conditions for the day
-- wear clothes and a hat that protect you from biting insects and arachnids. The best protection is spraying your socks, hat, long pants, and a long sleeve shirt with permethrin and letting them dry before you put them on.
-- drink only when thirsty, and don't drink so much that your pee is colorless. MDMA makes it easier to get hyponatremia~@baggottWater, and people commonly get mild hyponatremia on MDMA with free access to water~@atilaHyponatremia.
-- identify hazardous plants and animals to avoid, like poison ivy and wasps
-- don't approach the animals, even if you think they want a pat
-- don't go to places where there are other humans who might cause you trouble if they see you acting strangely
-- bring a trowel, toilet paper, soap, and water, in case there isn't a bathroom nearby
-- tell someone where you're going and when you'll be back. You can also use a share-my-location feature on your phone. Make sure your phone has enough charge for the day.
-- don't drive after the session
-
-If you're new to spending time alone outdoors, start somewhere safe, like a backyard. You can also ask a nature-experienced friend to come with you.
-
-During the session, engage all your senses---press your bare feet into the soil; look closely at plants and insects; feel bark textures; crush and smell leaves; and listen to the wind and water. Don't taste anything unless you're absolutely sure of the species and know that it's safe. As with the previous exercises, prioritize noticing, going toward, and staying with any feelings of distress to reconsolidate the associated stuck schemas.
-
-#lead[Beyond MDMA Therapy]
-<beyond-mdma-therapy>
-Psilocybin sessions might durably increase feelings of nature-connectedness @forstmannPsilocybinNature. Psilocybin creates a more dramatically altered state of mind, is significantly more unpredictable than MDMA, and doesn't necessarily buffer difficult experiences with feelings of safety. If you try it, I strongly suggest starting with low doses, like 0.5\u{202F}g dried mushrooms.
-
-If you are interested in doing more to help preserve natural areas, I highly recommend #prosecite(<ritchie2024not>). It presents high-impact, evidence-based solutions that an individual can do and is neither overly optimistic nor pessimistic.
 
 = Pre- to Post-Session
 <pre--to-post-session>
@@ -1923,7 +1574,7 @@ A half-strength booster dose taken around 1.5--2.5~hours after the first is ofte
 - you took a lower-than-standard dose and want to increase it to a standard dose (see @sec:dosing)
 - after hour 1.5, when the effects normally peak, you are having difficulty engaging with or reconsolidating stuck schemas, and the techniques in @sec:sessionbarriers aren't working
 
-The upper safe limit of MDMA is unknown. As described in @sec:dosing, I advise caution above using total doses of 2\u{202F}mg/kg for more than a handful of sessions. It is difficult to accurately measure the right amount of MDMA while you're panicking or in an altered state of consciousness, so you could prepare the additional dose, and the regular booster dose, in advance.
+The upper safe limit of MDMA is unknown. As described in @sec:dosing, I advise caution above using a total dose of 2\u{202F}mg/kg per session for more than a handful of sessions. It is difficult to accurately measure the right amount of MDMA while you're panicking or in an altered state of consciousness, so you could prepare the additional dose, and the regular booster dose, in advance.
 
 Many first-hand reports of successful MDMA therapy can be found on the top posts on #link("https://reddit.com/r/mdmatherapy/top/?sort=top&t=all"). The top posts mostly describe productive sessions that don't contain strong opioid dampening, muting, avoidance, or overwhelming symptom worsening. You can see descriptions of less productive or more disruptive sessions by sorting by _new._#footnote[#textcite(<godes2023perceived>) also lists common self-reported experiences of MDMA therapy clients: staying with what "is"\; decreased reactivity; insight, reflection, linking; mental clarity; recovery of traumatic \[episodic\] memories; disentangling trauma from self; reuniting lost affects and parts; self-acceptance; joy, happiness, gratitude; hope and empowerment; relaxation, calmness, peace; comfort; gratitude, compassion, empathy; union, wider perspective; inner healing intelligence \[the therapeutic framework used in this study\]; accessibility to emotions; and mind-body connection.]
 
@@ -2342,6 +1993,332 @@ Successful change may depend on combining different interventions:
 
 Implementing and sticking with these changes can be a difficult but worthwhile long-term process with many ups and downs.
 
+= Prompts for Activating Stuck Schemas
+<mapping>
+Stuck schema activation does not always happen spontaneously during a session, and when it does, it does not cover all the stuck schemas that are worth reconsolidating in your life. This section helps you deliberately activate and reconsolidate common stuck schemas that you may not be aware of. Reconsolidating the stuck schemas that these prompts activate build more resilience and equanimity than the default of just doing enough MDMA therapy to make your primary issue feel manageable.
+
+Using these prompts to trigger yourself is going to feel uncomfortable, but that's an inherent part of reconsolidation. Start with the easiest ones and work your way up to the harder ones over time.
+
+I also strongly suggest keeping a list of (often subtle) discomforts that you notice in daily life. Some of these are likely valuable reconsolidation targets.
+
+== Common Trauma-Induced Schemas
+<personal-schemas>
+See @mssProbes for a list of prompts designed to activate many mental illness, developmental, and attachment-related stuck schemas that people commonly have. It may help to imagine a concrete scenario for each item. Feel free to skip sections you feel totally comfortable with.
+
+// A group heading row spans both columns and repeats as a subheader. A domain's name spans the rows of
+// its prompts, with faint rules between the prompts.
+#let group(name) = (
+  table.header(
+    level: 2,
+    table.hline(stroke: 0.8pt),
+    table.cell(colspan: 2, inset: (top: 9pt, bottom: 5pt))[*#name*],
+  ),
+)
+#let domain(name) = (..prompts) => {
+  let prompts = prompts.pos()
+  (
+    table.hline(stroke: 0.5pt),
+    table.cell(rowspan: prompts.len(), breakable: false, text(hyphenate: false, emph(name))),
+    ..prompts.map(p => (p,)).intersperse((table.hline(start: 1, stroke: 0.3pt + luma(190)),)).flatten(),
+  )
+}
+
+#figure(
+  table(
+    columns: (1fr, 2.4fr),
+    align: left + top,
+    stroke: none,
+    inset: (x: 6pt, y: 4.5pt),
+    table.hline(stroke: 1pt),
+    table.header([*Schema Domain*], [*Activation Prompt*]),
+    ..group[Safety & Attachment],
+    ..domain[Abandonment](
+      [Someone you love is about to leave you without warning],
+      [The person closest to you is wavering on their commitment],
+      [You desperately need someone and no one is coming],
+      [The person you depend on most is leaving],
+    ),
+    ..domain[Excessive Self-Reliance](
+      [You have no choice but to let someone else take care of you],
+      [Someone is getting very close to you],
+      [You are completely dependent on another person right now],
+      [You need to ask someone for help with something painful],
+    ),
+    ..domain[Emotional Deprivation](
+      [You're struggling and there's no one to turn to],
+      [You're in trouble right now and there's no one you can call],
+      [The people around you don't care how you feel],
+      [You need emotional support and no one is offering it],
+    ),
+    ..domain[Mistrust of Others](
+      [Someone is being kind to you but you can't see their real motive],
+      [You have to trust someone completely right now],
+      [Someone is telling you something important and you can't verify it],
+      [You just realized the people around you have been lying to you],
+    ),
+    ..domain[Others are Dangerous](
+      [You just saw clearly how selfish the people around you really are],
+      [You're watching someone suffer and no one is stepping in to help],
+      [The person in front of you could become violent at any moment],
+      [Someone just revealed who they really are underneath],
+    ),
+    ..domain[Social Isolation](
+      [You walked into a room and immediately felt you don't belong here],
+      [You're trying to explain something important and no one understands],
+      [You're surrounded by people and none of them can see you],
+      [You are completely on the outside looking in],
+    ),
+    ..domain[Defectiveness / Shame](
+      [The people closest to you can finally see who you really are],
+      [Someone just looked at you and saw what's broken],
+      [The people you love can't love you because of what's wrong with you],
+      [You are exposed and there are real reasons to feel ashamed],
+    ),
+    ..domain[Vulnerability](
+      [You've stepped outside your safe zone and bad things are closing in],
+      [You just realized you're exposed and nothing is protecting you],
+      [Everything is falling apart and catastrophe is coming],
+      [The world is hostile and it's coming for you],
+    ),
+    ..group[Autonomy & Competence],
+    ..domain[Dependence](
+      [You are alone and must take care of yourself with no help],
+      [You have to manage everything today entirely on your own],
+      [A major decision is in front of you and no one can advise you],
+      [You must choose and there is no one to confirm you're right],
+    ),
+    ..domain[Failure / Inferiority](
+      [Everyone around you has accomplished more than you],
+      [You're looking at what you've done with your life and it's not enough],
+      [Someone you know just succeeded at something you failed at],
+      [You're being compared to others and you're falling short],
+    ),
+    ..domain[Low Self-Efficacy](
+      [A hard problem is in front of you and you probably can't solve it],
+      [You're stuck and you can't think of any way forward],
+      [Something unexpected just happened and you have to handle it alone],
+      [The problems you're facing are beyond your ability to manage],
+    ),
+    ..domain[Fatalism](
+      [Something important is being decided about your life and you can't influence it],
+      [A critical moment is coming and nothing you do will change the outcome],
+      [You're watching your future be decided by things completely beyond you],
+      [You just realized you've never really been steering your own life],
+    ),
+    ..domain[Enmeshment](
+      [Someone you love is in pain and it's your job to carry it],
+      [You can't tell where your feelings end and someone else's begin],
+      [You are dissolving into another person---you can't find yourself],
+      [Someone else's needs are consuming everything you have],
+    ),
+    ..group[Freedom to Express Needs, Opinions & Emotions],
+    ..domain[Subjugation](
+      [Someone is telling you what to do and they know better than you],
+      [You must obey even though you disagree],
+      [Someone else is deciding what's best for you],
+      [Another person is taking control and you have to let them],
+    ),
+    ..domain[Self-Sacrifice](
+      [Someone needs you and you must put them first no matter what],
+      [Someone is bringing you their pain and it's your duty to hold it],
+      [You need something right now but someone else needs more],
+      [You've given everything you have and it's still not enough],
+    ),
+    ..domain[Approval-Seeking](
+      [You have to choose between what you want and what others approve of],
+      [Someone disagrees with you and you feel the pull to agree with them],
+      [Someone you don't even care for doesn't like you, and it's eating at you],
+      [You need to decide but you don't know what anyone else thinks],
+    ),
+    ..domain[Emotional Inhibition](
+      [Strong emotions are pushing up and they won't stay contained much longer],
+      [Your emotions are taking over and they're going to cause damage],
+      [You're about to cry in front of people who can't handle it],
+      [Your emotions are dangerously intense right now],
+    ),
+    ..group[Spontaneity & Play],
+    ..domain[Pessimism](
+      [Something is about to go wrong, as it always does],
+      [You're facing uncertainty and there's no reason to hope],
+      [You're waiting for the bad news you know is coming],
+      [You're looking ahead and you can't see anything good coming],
+    ),
+    ..domain[Unrelenting Standards](
+      [You just made a mistake and you can't let it go],
+      [You have to choose between being happy and meeting your standards],
+      [You performed well but not perfectly and it's not enough],
+      [You fell short and that is not okay],
+    ),
+    ..domain[Punitiveness (Self)](
+      [You just made a mistake and you don't deserve compassion for it],
+      [Something went wrong and you shouldn't get away with it],
+      [You failed and now you deserve what's coming],
+      [A small thing just went wrong and you must pay for it],
+    ),
+    ..domain[Punitiveness (Others)](
+      [Someone made a mistake and they don't deserve your compassion],
+      [Someone failed and they should be held accountable],
+      [Someone let you down and they deserve consequences],
+      [Someone did something wrong and letting it go would be wrong],
+    ),
+    ..group[Realistic & Consistent Limits],
+    ..domain[Entitlement](
+      [Someone just told you no],
+      [You have to follow the same rules as everyone else],
+      [No one around you recognizes how special you are],
+      [You're being treated like everyone else and you deserve more],
+    ),
+    ..domain[Full Control](
+      [Something has gone wrong and you should have been able to prevent it],
+      [Something is happening that you cannot control or influence],
+      [Willpower alone cannot change this situation],
+      [Something has been left to chance and you can't intervene],
+    ),
+    ..domain[Over-Reliance on Emotions](
+      [Your gut says one thing but the evidence says another],
+      [You're making an important decision based only on how you feel],
+      [Your emotional reaction feels like the truth even though it might not be],
+      [A problem is in front of you and thinking won't help---only feeling],
+    ),
+    ..group[Coherence & Fairness],
+    ..domain[Unfairness](
+      [You just experienced something unjust and no one is going to fix it],
+      [You are being treated unfairly and no one sees it],
+      [Something bad happened to you and you didn't deserve it],
+      [Good things keep happening to other people but never to you],
+    ),
+    ..domain[Meaninglessness](
+      [You're looking at your life and nothing in it seems to matter],
+      [You've been trying to find meaning and coming up empty],
+      [You can see now that everything you've worked for will be forgotten],
+      [You're watching people strive and none of it will have meant anything],
+    ),
+    ..domain[Lack of Coherent Identity](
+      [You don't know who you are right now],
+      [Your interests and beliefs feel like they belong to someone else],
+      [You are watching yourself from the outside, disconnected],
+      [The person you were yesterday is not the person you are today],
+    ),
+    table.hline(stroke: 1pt),
+  ),
+  caption: [Schema Activation Prompts inspired by #prosecite(<maladaptiveSchemaScale>). I used the Claude LLM to transform the items in the original scale from their diagnostic forms into schema-activating forms.],
+  kind: table,
+)
+<mssProbes>
+
+== Social Identity Schemas
+<socialPrompts>
+Imagine, as vividly as possible, being a member of a different group of people. Then, imagine how you and your friends, family, coworkers, and community would react to you. Go toward any fear, disgust, or shame and stay with that feeling. Race, gender, disability, intelligence, class, political affiliation, wealth, education, attractiveness, and religion are all common attributes worth considering. Add any other categories relevant to your situation.
+
+In addition to imagining you are a member of the other group, consider
+- a member of the other group being part of your community: moving into your neighborhood, working with you, or being your friend
+- a member of the other group having power over you: teaching your children, supervising you at work, or representing you as your elected politician
+- hugging or dating a member of the other group
+- adopting the aesthetics or practices of the other group
+- how your closest friends or family react to one of the above items
+- the other group's values becoming more popular than your group's values, while your values fade into history
+- the other group out-competing your group, while your group fades into history
+
+== Existential Schemas
+<existential-schemas>
+Imagine permanent disconnection from health, material comfort, sensory pleasures, relationships, belonging, status, order, certainty, meaning, being a good person, life, and existence (including any afterlife). Additionally, consider the possibility that your fundamental assumptions about life, meaning, existence, and self might not actually be true. To my understanding, reconsolidating these stuck schemas leads to equanimity, not the loss of healthy protective behaviors or basic attachments.
+
+I think that achieving persistent non-attachment requires considerably more work than using the prompts just mentioned to reconsolidate stuck schemas during MDMA therapy. @selfinsight lists a few starting points.
+
+== Cognitive Flexibility and Truth-Seeking
+<cognitiveflexibility>
+I think that cognitive flexibility is both highly important and lower than it should be for most people in the modern world. Tribalistic instincts are a major contributor. While we need to form coalitions (family, work, friendships, etc.) to accomplish almost anything, our tribal tendency seems disproportionate for life in modern nation-states. This creates all sorts of problems, such as poor governmental policy because people vote based on identity~@klein2020Polarized, being shunned for believing or doing things that are markers of belonging to a rival group, etc.
+
+It is common to perceive obviously false beliefs in the out-group. But how do you know they are mistaken and you aren't? The human capacity for self-deception must be strong enough to make at least one of you wrong about a supposedly obvious fact, and we have no foolproof meta-reason to believe it is them instead of us. You may think "ah, but I'm right because I've done x, y, and z to make sure", but the other person may feel they have also made sure. Confidence can easily coexist with delusion.
+
+As the psychologist #citefullauthor(<pinsof2024Truth>) says on their blog about self-deception being a core aspect of tribalism~@pinsof2024Truth:
+
+#quote(block: true)[
+We're hyper-skeptical of claims made by the out-group---the people we fear, dislike, and distrust. And we believe in-group-flattering absurdities …~because it is instrumentally rational for us to do so. The benefits of status and tribal solidarity often outweigh the costs of false beliefs, particularly if those beliefs are vague, unactionable, or unfalsifiable.
+]
+
+#prosecite(<alexanderTrapped>) proposes, based on #textcite(<berghBSTS>), another mechanism for how emotionally charged, false beliefs become entrenched. When another group or another group's beliefs are perceived as highly threatening, the brain dials down the relative certainty of all incoming sensory information, including information that indicates you aren't really in danger in the moment. Thus, the false belief never reconsolidates unless the contradictory information is extremely strong and unignorable, or the contradictory information is introduced very gradually, like in exposure therapy.
+
+Self-deception relies on a constellation of schemas that serve to justify your belief or deny the validity or existence of contradictory information. I propose that MDMA therapy can help you reconsolidate some of these stuck schemas. During a session you might consider a hated or feared political, religious, national, or cultural group---or a faction of your group if you want an easier starting point---being correct about an important point of contention. Imagine believing that point yourself. How does that feel? Imagine expressing your new belief to your friends, family, or community. How would they react? How would you feel about that? I suggest primarily focusing on noticing and staying with any fear, anger, grief, etc. that you feel during this process rather than spending all of your energy on intellectual thought. This will reconsolidate any associated stuck schemas. Intellectual engagement with the subject will work better after reconsolidation anyway, so save it for after the session. Working through @socialPrompts will also help.
+
+The point of the exercise isn't necessarily acquiring more accurate beliefs about the specific topic you imagine during the session. Rather, the point is activating and reconsolidating any stuck schemas potentially interfering with your thought processes, which improves your general, long-term ability to acquire accurate beliefs. You could actually pick an idea that you don't think is worth considering the truth of at all, like the Earth being flat. Using that as a prompt might activate and reconsolidate a stuck fear of being like _those people_, which makes you discount all beliefs that you and your social circle consider odd, but some of which are certainly true.
+
+The world is full of pervasive threats, fear-based messaging, and out-group dehumanization that may reconstitute some stuck schemas over time. I suspect additional strategies beyond reconsolidation and avoidance-reduction are necessary to maintain cognitive flexibility and compassion in the long run. I recommend the following:
+- #prosecite(<galefScoutMindset>) is an excellent book that proposes a set of habits for helping you avoid epistemic traps.
+- #prosecite(<mcraneyMinds>) is a good survey of the topic.
+- #prosecite(<klein2020Polarized>) discusses the dysfunctional positive-feedback loops between our fears and identities and the behavior of the media and politicians. This cycle increases polarization and political dysfunction, and separates us from each other. This book is more about understanding the role of identity in politics than suggesting how to improve the situation.
+- #prosecite(<traumaPsychopolitics>) discusses how politicians, the media, and ordinary people continually traumatize everyone about politically contentious topics.
+
+== Authentic Engagement with Ethical Reasoning and Action
+<stopcycle>
+As they do in other areas, stuck schemas can interfere with coherent and compassionate ethical (used here as a synonym for morality or "what one should do") reasoning and action.
+
+People sometimes hurt other beings, usually without deliberate intent and full awareness of the impact of their actions. This typically involves a driver like fear, anger, perceived insecurity, desire, or simply a default cultural behavior. You may also develop a constellation of schemas thatjustify the harm, deny the harm, deny the other being's worth, or prevent the harm from becoming salient in the first place.
+
+This dynamic implies a conundrum for those interested in acting compassionately: how do you know if you're significantly and unnecessarily hurting anyone if the awareness of hurting others can be so strongly obscured?
+
+Avoidance, denial, and justification in large part function to shield us from information that feels threatening (see @attention). I think that the perceived threat of fully acknowledging a harm you may be doing is not accurate outside of unusual situations like immediate self defense, where you need to be violent, and thinking too long about the consequences is dangerous.#footnote[Some minor threats are likely more common. People might be upset with you for even considering (much less acting upon) the worth of some groups of beings.]
+
+I strongly suspect that MDMA can help reconsolidate these stuck schemas like it can many others. During a session I suggest a few practices for different situations:
+- *Large-scale social (politics, religion, etc.) conflicts:* Try the prompts in @socialPrompts.
+- *Low salience:* Look at photos or real individuals and contemplate what you share with them, what causes them to suffer or thrive, what they deserve, how you have hurt or neglected to help them, and the obligations you may have to them. You may have to learn what their lives are like; I provide suggestions in the list below.
+
+Focus on noticing and staying with any fear, anger, or other distress you feel during this process rather than getting completely distracted by intellectual thought. This should reconsolidate any associated stuck schemas, and intellectual questions can be considered after the session is over, when there are fewer stuck schemas getting in the way. The next question is who to bring into this contemplation.
+
+Analytically determining what beings have inherent worth is unfeasible; it depends on solving multiple open problems in philosophy of mind and moral philosophy, like metaethics and the hard problem of consciousness~@hardProblem@metaEthics. Since there are no broadly agreed-upon, much less verified, solutions to these, I take a pragmatic approach that centers uncertainty and the precautionary principle. This involves thinking about what features of humans are associated with having positive and negative internal experiences and then looking at what other beings possess those features. I recommend the short video #prosecite(<birchPrecautionary>) for an introduction to this approach.
+
+I propose considering beings that at least some major groups of people think have inherent worth, if only to check whether you're missing something others have noticed. Here are the categories that seem worth considering to me. You might disagree about where to draw the line of who to consider. I've included references for further reading that take positions of uncertainty in edge cases (e.g., bivalves and LLMs) and compassion in stronger cases (e.g., mammals and birds).
+- Yourself. Traumatized people often feel they are worthless.
+- Individuals you have hurt
+- Individuals who have hurt you
+- Groups of humans your group is in conflict with. Try the prompts in @socialPrompts.
+- Groups of humans you don't like or approve of, or whom you think have deeply wrong values. Try the prompts in @socialPrompts.
+- Humans geographically distant from you. Why does worth or obligations change or not based on physical distance? See #prosecite(<singer2017famine>).
+- Humans with cognition dramatically different from the typical adult: fetuses, young children, those with dementia, and those with severe cognitive disability
+- Nonhuman animals. A number of scientists and philosophers recently asserted in The New York Declaration on Animal Consciousness~@newYorkAnimal:
+
+  #quote(block: true)[
+  First, there is strong scientific support for attributions of conscious experience#footnote[Conscious experience means having subjective experience, not necessarily having self-reflection.] to other mammals and to birds.
+
+  Second, the empirical evidence indicates at least a realistic possibility of conscious experience in all vertebrates (including reptiles, amphibians, and fishes) and many invertebrates (including, at minimum, cephalopod mollusks, decapod crustaceans, and insects)
+
+  Third, when there is a realistic possibility of conscious experience in an animal, it is irresponsible to ignore that possibility in decisions affecting that animal. We should consider welfare risks and use the evidence to inform our responses to these risks.
+  ]
+
+  #prosecite(<singerLiberation>) may be the most influential secular work on the inherent worth of animals and how they are treated in various contexts. It was written by a moral philosopher for a general audience and is quite readable. #prosecite(<scullyDominion>) is a conservative Christian book on the topic. #prosecite(<birchEdge>) goes into depth about uncertainty of which animals to consider.
+- Current or future artificial intelligences. This is far more uncertain than the previous categories and may depend on the specific architecture of an AI. Nonhuman vertebrate brains at least all function by neuron-based predictive processing. It's also much less clear what would cause a specific AI suffering. With nonhuman animals, we can safely assume they dislike physical pain and fear, and like food, among other things. An individual AI's self-reports of what they feel or like may or may not be accurate representations of their internal conscious state, if such a state even exists.
+
+  See the podcast #prosecite(<birchPodcastAI>) for further discussion. #prosecite(<birchEdge>) (open access) goes into much more detail.
+
+Doing this will likely be uncomfortable, but that's part of the process. Discomfort, avoidance, and automatic discounting of worth are strong indicators that there are stuck schemas. Stay with that feeling until it reconsolidates.
+
+== Connection with Nature
+<sec:nature>
+This exercise will help you reconsolidate any stuck schemas inhibiting connection to nature. I hope that this will facilitate nature being a source of peace and enjoyment for you.#footnote[The previous prompts were designed to activate stuck schemas that almost always have negative consequences. This section is different; not everyone may have a fundamental need to connect to nature. If you don't, any stuck schemas preventing you from connecting with it may not have negative consequences.]
+
+First, if you're going anywhere more remote than a backyard, get acquainted with how MDMA and MDMA therapy affect you before adding the nature complication to your session.
+
+To safely do a session in nature,
+- bring clothes that will protect you from all possible weather conditions for the day
+- wear clothes and a hat that protect you from biting insects and arachnids. The best protection is spraying your socks, hat, long pants, and a long sleeve shirt with permethrin and letting them dry before you put them on.
+- drink only when thirsty, and don't drink so much that your pee is colorless. MDMA makes it easier to get hyponatremia~@baggottWater, and people commonly get mild hyponatremia on MDMA with free access to water~@atilaHyponatremia.
+- identify hazardous plants and animals to avoid, like poison ivy and wasps
+- don't approach the animals, even if you think they want a pat
+- don't go to places where there are other humans who might cause you trouble if they see you acting strangely
+- bring a trowel, toilet paper, soap, and water, in case there isn't a bathroom nearby
+- tell someone where you're going and when you'll be back. You can also use a share-my-location feature on your phone. Make sure your phone has enough charge for the day.
+- don't drive after the session
+
+If you're new to spending time alone outdoors, start somewhere safe, like a backyard. You can also ask a nature-experienced friend to come with you.
+
+During the session, engage all your senses---press your bare feet into the soil; look closely at plants and insects; feel bark textures; crush and smell leaves; and listen to the wind and water. Don't taste anything unless you're absolutely sure of the species and know that it's safe. As with the previous exercises, prioritize noticing, going toward, and staying with any feelings of distress to reconsolidate the associated stuck schemas.
+
+#lead[Beyond MDMA Therapy]
+<beyond-mdma-therapy>
+Psilocybin sessions might durably increase feelings of nature-connectedness @forstmannPsilocybinNature. Psilocybin creates a more dramatically altered state of mind, is significantly more unpredictable than MDMA, and doesn't necessarily buffer difficult experiences with feelings of safety. If you try it, I strongly suggest starting with low doses, like 0.5\u{202F}g dried mushrooms.
+
+If you are interested in doing more to help preserve natural areas, I highly recommend #prosecite(<ritchie2024not>). It presents high-impact, evidence-based solutions that an individual can do and is neither overly optimistic nor pessimistic.
+
 #metadata(none) <end>
 
 #show: appendix
@@ -2492,7 +2469,7 @@ Evidence does not support phased treatment (a stabilizing/resourcing phase prece
 == My Experience
 
 #quote(block: true)[
-My first MDMA session (2021) consisted of seemingly perfect safety and all-encompassing compassion. I realized how everyone's stuck reactions were due to learned, no-longer-helpful fears. I also felt a well of inviolable safety and emotional resilience inside me so strong that I thought I would feel okay inside even if I watched everyone and everything I had ever loved die in front of me.
+My first MDMA session (2021) consisted of seemingly perfect safety and all-encompassing compassion. I realized how everyone's stuck reactions were due to learned, no-longer-helpful fears. I also felt a well of inviolable safety and emotional resilience inside me so strong that I thought I would feel okay inside even if I watched everyone and everything I had ever loved die in front of me. There was also a _stillness_ with with no craving and aversion (in the Buddhist sense I think). 
 
 There was a certain week in 2022 or 2023, after perhaps 10 more MDMA therapy sessions, when I went walking to feel my anxiety. It felt really good to feel my anxiety for some reason I no longer clearly recall. It also gave me a strong therapy hangover. That week of reconsolidation is the earliest example I recall of reconsolidation that just _happened_ with no deliberate effort or control on my part.
 
@@ -2515,15 +2492,14 @@ I've also noticed that I can reconsolidate different schemas on MDMA for unclear
 As of #datetime.today().year(), I've done about #reconsolidation-hours~hours of reconsolidation. I've made tons of progress working through my backlog of stuck schemas, and I've become much less neurotic about many things. Unfortunately, severely disordered attachment and suspected childhood sexual abuse left me with an immense backlog of ever-present stuck fears and angers. Internalized MDMA therapy has been incredibly convenient for doing huge amounts of therapy without a therapist or MDMA. It also doesn't require the usual explicit process overhead of understanding my stuck schemas, figuring out a mismatch for each one, and then setting up the juxtapositions. It's kept me making therapeutic progress through periods of despair and depression when I surely wouldn't have had the capacity for any sort of typical therapy.
 
 The only downside I have noticed is that since I have many strong stuck fears activated every waking moment, the auto-reconsolidation also starts running every morning once I wake up enough. That inevitably leads to a therapy hangover a bit later. Then the auto-reconsolidation starts up again once the therapy hangover wears off. I've been therapy hungover most of my waking hours since I started the practice. I also haven't discovered any way to turn auto-reconsolidation off. It goes for about 2~hours a day, limited only by therapy hangovers. Other than "flipping the switch" to increase reconsolidation intensity, the only control I seem to have over the process is which stuck schemas are activated. I can activate different schemas by going to different places, doing different things, talking to people, etc. This causes the auto-reconsolidation process to preferentially reconsolidate the schemas those contexts activate. This lack of control is not optimal,#footnote[The lack of control might actually be a benefit. Many people drastically underestimate the benefits of reconsolidation, and the lack of control kept the process going through any periods where I might have been too depressed to manually reconsolidate.] but the process keeps delivering therapeutic progress, and I haven't noticed any unambiguous side effects yet apart from therapy hangovers.
+
+// One day in 2024, after about 600\,hours of reconsolidation, I was riding my bicycle and suddenly felt my sense of self become partially continuous with \enquote{external} reality. My thoughts, awareness, and the external world all felt to some degree part of the same unitive reality, no longer as divided as they used to be into self and not-self. This wasn't dissociation; I was still in touch with \enquote{my} body, emotions, and sensory experience, and could function appropriately. The effects waxed and waned over a few months and brought up a lot of distress caused by viscerally experiencing my sense of self as an impermanent construction. Luckily, internalized MDMA therapy reconsolidated all that distress. The sense of self settled into a stable, less rigid state that became a new and unremarkable normal that doesn't seem accompanied by any dysfunction.
+// In 2025 I had a second experience where I suddenly perceived everything as processes rather than as immutable entities. That triggered another round of fears as well. This cycling has repeated many times since then, with each cycle being a new layer of perceiving my inner experience more accurately.
+// I learned that these \textit{insight cycles} are a documented process that sometimes happens after using meditation,\footnote{Meditation is often done for the explicit purpose of entering and completing these cycles. See \cref{selfinsight}.} psychedelics, and MDMA. I found \prosecite{ingram2018mastering} very helpful in describing what was happening.
+// If \textcite{ingram2018mastering} is correct, the cycling is supposed to lead to a profound, permanent sense of inner peace at a distinct point. I haven't reached that yet. So far the benefits include a subtle feeling of at-homeness that is quite nice, and I am less confused about my self. The fear part of each cycle is unpleasant, but if this is the price for auto-reconsolidation, then it has been easily worth it.
 ]
 
-// Commented out in the LaTeX edition (original LaTeX):
-// One day in 2024, after about 600\,hours of reconsolidation, I was riding my bicycle and suddenly felt my sense of self become partially contiguous with \enquote{external} reality. My thoughts, awareness, and the external world all felt to some degree part of the same unitive experience, no longer as divided as they used to be into self and not-self. This wasn't dissociation; I was still in touch with \enquote{my} body, emotions, and sensory experience, and could function appropriately. The effects waxed and waned over a few months and brought up a lot of distress caused by viscerally experiencing my sense of self as an impermanent construction. Luckily, internalized MDMA therapy reconsolidated all that distress too. The sense of self settled into a stable, less rigid state that became a new and unremarkable normal that doesn't seem accompanied by any dysfunction.
-// In 2025 I had a second experience where I suddenly perceived everything as processes rather than as immutable entities. That triggered another round of fears as well. This cycling has repeated many times since then, with each cycle being a new layer of perceiving my inner experience more accurately.
-// I learned that these \textit{insight cycles} are a well-documented, if unusual, experience that sometimes happens after using meditation,\footnote{Meditation is often done for the explicit purpose of entering and completing these cycles. See \cref{selfinsight}.} psychedelics, and MDMA. I found \prosecite{ingram2018mastering} very helpful in describing what was happening.
-// If \textcite{ingram2018mastering} is correct, the cycling is supposed to lead to a profound, permanent sense of inner peace at a distinct point. I haven't reached that yet. So far the benefits include a subtle feeling of at-homeness that is quite nice, and I am less confused about my self. The fear part of each cycle is unpleasant, but if this is the price for auto-reconsolidation, then it has been easily worth it.
-
-== My Interview With Anonymous.
+== Interview With Anonymous.
 The interviewee explicitly consented to their answers being published in this book.
 
 #quote(block: true)[
@@ -2652,13 +2628,13 @@ I think the _stillness_~@stockerConnectogen and "everything is okay just how it 
 <alternatives-to-mdma>
 Other drugs in the same class as MDMA may also be useful for therapy. The following are the most promising candidates that I'm aware of, though none have gone through as much safety and efficacy testing as MDMA.
 - Methylone therapy had good results in a phase II clinical trial for PTSD~@methyloneRCT. The dose was 150\u{202F}mg plus a 100\u{202F}mg booster dose 90~minutes later. Like MDMA, it is illegal in many jurisdictions.
-- #textcite(<baggottNewEntactogens>) reports that 5-MAPB is anecdotally the closest single-drug analog to MDMA. The therapeutic dose is unclear, but #textcite(<erowid5MAPB>) reports that a common dose is 30--70\u{202F}mg. Like MDMA, it is illegal in many jurisdictions.
+- #textcite(<baggottNewEntactogens>) reports that 5-MAPB is anecdotally the closest single-drug analog to MDMA. The therapeutic dose is unclear, but #textcite(<erowid5MAPB>) reports that a common dose is 30--70\u{202F}mg. It is illegal in many jurisdictions.
 - #textcite(<boraxMDMA>) developed a specific ratio of 2-FMA, MDAI, 5-MeO-MiPT, and 5-APB succinate whose effects are almost identical to MDMA's in their experience. They also discuss possible substitutions. The dose depends on the specific components used. Some components are legally available in some jurisdictions.
 
 = Suggested Avenues of Future Research
 <suggested-avenues-of-future-research>
 I think the following research questions are particularly interesting or relevant to the practice of MDMA therapy.
-- What is the irreducible set of mental states that MDMA induces? It seems to induce love, safety, emotional empathy, "stillness," "things are okay just as they are," connection, and sociability. Are those reducible to some smaller set of fundamental states? Answering this might first require resolving multiple major open problems in fundamental neuroscience.
+- What is the irreducible set of mental states that MDMA induces? It seems to induce love, safety, emotional empathy, "stillness," "things are okay just as they are," connection, and sociability. Are those reducible to some smaller set of fundamental states? Answering this might require resolving multiple major open problems in fundamental neuroscience.
 - What is the nature of reconsolidation exhaustion (therapy hangover)? Can the capacity be safely increased? That would enable more productive MDMA therapy sessions, which anecdotal reports suggest are often limited by reconsolidation exhaustion.
 - Multiple people report increased capacity to reconsolidate while sober in a way phenomenologically and consequentially similar to what is experienced during MDMA therapy sessions (see @internalizedReports). This appears to be connected to prior MDMA therapy. How does this work? Anecdotal reports also suggest that some individuals with no MDMA exposure can use the present moment to reconsolidate all stuck schemas. Is that the same phenomenon as internalized MDMA therapy?
 - Why does MDMA seem to provide prediction error for most, if not all, stuck schemas, but not the adaptive ones? See @ppHypotheses for my hypotheses.
@@ -2690,6 +2666,11 @@ I think the following research questions are particularly interesting or relevan
 
 = Earlier Revisions
 <sec:revisions>
+#lead[Changes from version 6 to 7]
+Added the Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events troubleshooting sections. Partially rewrote #nameref(<sec:complex>), #nameref(<frequency>), #nameref(<sec:mechanism>), and #nameref(<selfinsight>) to improve rigor and clarity. Split the term _avoidance_ into _avoidance_ and _muting_ to better categorize the phenomena based on mechanism. Improved grammar through #nameref(<introduction>) more rigorously than previous rounds of spell/grammar checking. 
+
+Finished removing Thomas Harper's content. I replaced their major section, How to Find a Practitioner, with a few paragraphs that link out to equivalent information written by other people.
+
 #lead[Changes from version 5 to 6]
 There's now an ebook version at #link("https://github.com/groeneveld/mdma-guide/raw/refs/heads/main/Open%20MDMA.epub"). There a few minor formatting issues that I haven't figured out how to fix, including section headings in the Table of Contents not displaying at the right level and missing Appendix and Bibliography headings. There's also an HTML version at #link("https://groeneveld.github.io/mdma-guide/").
 

@@ -2,11 +2,8 @@
 
 - Abstract
 - Disclaimer
-- Changes Since Version 6.0
 - Contents
 - Preface
-  - AI Disclosure
-  - Biases, Conflicts of Interest, and Background:
 - Summary
   - How Trauma and Insecurity Affect Us
   - How MDMA Therapy Works
@@ -42,21 +39,18 @@
     - The Second Set
     - My Recommendations
   - Session Frequency
-    - Additional Downsides of Frequent Sessions:
-    - Benefits of Frequent Sessions:
   - Drug Interactions
-    - The most risky classes of interactions:
-    - Specific drug interactions, starting with the most risky:
   - Medical Risks
-    - Preexisting health conditions:
-    - Acute adverse effects:
-    - Chronic adverse effects:
-    - Higher risk groups:
   - Psychological Risks
+    - Symptom Worsening
+    - Psychosis
+    - Suicidal Ideation and Behavior
+    - Addiction
+    - Hallucinogen Persisting Perceptual Disorder:
+    - Mania
   - When to Seek Emergency Care
   - Common Concerns
 - The Arc of Healing
-  - When to Schedule Sessions
 - Working With or Without a Practitioner
   - Practitioner Guidance vs. Self-Guidance
     - Factors Favoring Practitioner Guidance
@@ -64,14 +58,6 @@
     - Recommended Models
   - How to Find a Practitioner
   - Involuntary Inpatient Commitment
-- Prompts for Activating Stuck Schemas
-  - Personal Schemas
-  - Social Schemas
-  - Existential Schemas
-  - Cognitive Flexibility and Truth-Seeking
-  - Authentic Engagement with Empathy, Ethical Reasoning, and Ethical Action
-  - Connection with Nature
-    - Beyond MDMA Therapy
 - Pre- to Post-Session
   - Pre-Session Checklist
     - Mindset
@@ -104,13 +90,12 @@
     - Feeling Like You Are Going Crazy
     - Sessions Feel Like They're Becoming Less Effective Over Time
     - Remembering Previously Forgotten Events
+    - Session Included Unusual Elements Not Mentioned Here
     - Changes in Senses of Self, Existence, or Spirituality
-      - Working Theory
   - Afterglow
   - Assessing Whether the Session Worked
 - Between Sessions
   - Reconsolidation Tools
-    - LLM Therapy
   - Grounding Tools
   - Peer and Community Support
   - Medical/Psychiatric Support
@@ -118,23 +103,24 @@
     - Health Habits and Practices
     - Relationships
     - Making Changes
+- Prompts for Activating Stuck Schemas
+  - Common Trauma-Induced Schemas
+  - Social Identity Schemas
+  - Existential Schemas
+  - Cognitive Flexibility and Truth-Seeking
+  - Authentic Engagement with Ethical Reasoning and Action
+  - Connection with Nature
 - Core Assumptions
   - Complex Systems
-  - Memory-Reconsolidation/Predictive-Processing
+  - Memory Reconsolidation and Predictive Processing
   - Defense Cascade and Safety
 - Information for Practitioners
-  - Skills
-  - Ethics
-  - Treatment
-  - Experience
-  - Recommended Reading
 - Reports of Internalized MDMA Therapy
+  - My Experience
+  - Interview With Anonymous.
 - Mechanism of Action Hypotheses
 - Alternatives to MDMA
 - Suggested Avenues of Future Research
 - Glossary
 - Bibliography
 - Earlier Revisions
-  - Changes from Version 5 to 6
-  - Changes from Version 4 to 5
-  - Changes from Version 3 to 4

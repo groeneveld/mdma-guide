@@ -4400,3 +4400,21 @@ ethical (used here as a synonym for morality or "what one should do")
 
 
 MDMA notably increases tolerance of emotional discomfort, and I suspect it is useful for bringing attention to other beings, contemplating their worth, and reconsolidating any stuck schemas those actions activate. 
+
+Please cross-check my references with other high-quality sources of information if you question something I say or are considering doing something potentially risky. 
+
+- pointing out issues with flow, logic, and grammar in my writing. Example prompt: "Point out the issues with this section." _used extensively_
+- double-checking that my sources actually back up my claims. See details in @methodology. _extensive_
+- writing the shell, Python, and Typst scripts that compile the document. _extensive_
+- summarizing papers to help me decide whether they are worth reading myself. Example prompt: "Give me a long summary of this paper. \[attachment\]" _occasional_
+- clarifying aspects of papers that I don't understand. Example prompt: "Help me understand why the authors think that indicator x is a good measure of y. \[attachment\]" _occasional_
+- simple text querying. Example prompt: "I forget, does this paper mention the specific type of vitamin E they used? \[attachment\]" _occasional_
+- rephrasing an existing sentence or paragraph for readability (the LLM sometimes suggested rephrased sentences as part of the editing process in the first bullet point) _occasional_
+- brainstorming. Example prompt: "I feel like something is off about this section, but I can't quite put my finger on it. Thoughts?" _occasional_
+- identifying sources for further reading. Example prompt using the research feature: "Survey the literature on 'resourcing' in therapy and whether it improves outcomes." _occasional_
+- rewriting a list of simple clauses from one form to another. _once, in @mssProbes where the AI use is noted_
+- quantity estimation. _once, in @frequency, where the AI use and a corresponding uncertainty disclaimer are prominently noted_
+
+This is for situations where you may have never deeply considered whether the other being has moral worth. This mostly applies to nonhumans since humans mostly already think that humans have moral value, even if they don't enact that value well.
+
+  

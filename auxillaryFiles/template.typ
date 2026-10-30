@@ -13,10 +13,10 @@
 #let is-html() = target() == "html"
 
 // --- Citations ---------------------------------------------------------------
-// Numeric [n] citations come from auxillaryFiles/csl/book.csl via the bibliography. The
+// Numeric [n] citations come from csl/book.csl via the bibliography. The
 // helper styles render the prose parts:
-//   auxillaryFiles/csl/author.csl: "Kozlowska et al."
-//   auxillaryFiles/csl/title.csl:  the work's title, or (author form) its authors' full names.
+//   csl/author.csl: "Kozlowska et al."
+//   csl/title.csl:  the work's title, or (author form) its authors' full names.
 
 // Authors and titles read as plain text; only the [n] is a link.
 #let unlinked(body) = {
@@ -27,10 +27,10 @@
 
 #let textcite(key, supplement: none) = if readme {
   cite(key, form: "prose", supplement: supplement)
-} else [#unlinked(cite(key, style: "auxillaryFiles/csl/author.csl"))~#cite(key, supplement: supplement)]
+} else [#unlinked(cite(key, style: "csl/author.csl"))~#cite(key, supplement: supplement)]
 
-#let citetitle(key) = cite(key, style: "auxillaryFiles/csl/title.csl")
-#let citefullauthor(key) = cite(key, style: "auxillaryFiles/csl/title.csl", form: "author")
+#let citetitle(key) = cite(key, style: "csl/title.csl")
+#let citefullauthor(key) = cite(key, style: "csl/title.csl", form: "author")
 #let prosecite(key) = [#unlinked[#citetitle(key) by #citefullauthor(key)]~#cite(key)]
 
 // Citations and text that only appear in the README summary.
@@ -283,7 +283,7 @@
   show figure.caption: set text(size: 10pt)
 
   set outline(depth: 2)
-  set bibliography(title: none, style: if readme { "apa" } else { "auxillaryFiles/csl/book.csl" })
+  set bibliography(title: none, style: if readme { "apa" } else { "csl/book.csl" })
   // Bibliography URLs and DOIs display without the scheme or "www."; the link
   // target keeps them.
   show bibliography: it => {
@@ -293,7 +293,7 @@
 
   context if is-html() {
     // Typst emits no CSS of its own.
-    html.elem("style", read("auxillaryFiles/html.css"))
+    html.elem("style", read("html.css"))
     show: glossary-links.with(glossary)
     body
   } else {
