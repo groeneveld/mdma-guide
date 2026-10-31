@@ -24,6 +24,7 @@ All four outputs are committed build artifacts. Edit `book.typ` and `template.ty
 - `template.typ`: page layout, citation and cross-reference helpers, glossary machinery, and the PDF and HTML differences. Use `is-html()` inside `context` to branch on the output format.
 - `references.bib`: the bibliography (biblatex), exported automatically from Zotero. Don't edit it by hand; reference changes belong in Zotero, and hand edits get overwritten on the next export. Numeric `[n]` citations use `auxillaryFiles/csl/book.csl`. `author.csl` and `title.csl` exist only to render the author and title text for the helpers.
 - `auxillaryFiles/fonts/`: Libertinus fonts. Always pass this folder with `--font-path`.
+- The PDF's chapter openings carry a sumi-e plum spray from `@local/florilegium:0.1.0` (`headpiece`), which is a symlink in `~/Library/Application Support/typst/packages/local/florilegium/0.1.0` to `~/florilegiumTypst`; the build needs it there.
 - Typst packages: `@preview/lilaq` (plots) and `@preview/alchemist` (the chemical structure). cetz-based drawings need `svg-in-html` to appear in HTML output.
 
 ## Authoring conventions (defined in template.typ)

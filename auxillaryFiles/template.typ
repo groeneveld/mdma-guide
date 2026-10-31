@@ -1,6 +1,9 @@
 // Layout, helpers and glossary machinery for Open MDMA.
 // The content lives in book.typ.
 
+// Sumi-e plum sprays above the chapter titles (PDF only).
+#import "@local/florilegium:0.1.0": headpiece
+
 // LaTeX `rgb:red,0.5;green,0;blue,0.13` normalises by the weight sum (0.63).
 #let link-color = rgb(79.366%, 0%, 20.636%)
 #let sans = "Libertinus Sans"
@@ -196,15 +199,19 @@
   body
 }
 
-#let title-page(title: none, subtitle: none, author: none, date: none, body) = {
+#let title-page(title: none, subtitle: none, author: none, date: none, bluf: none, body) = {
   context if is-html() {
     html.elem("h1", attrs: (class: "title"), title + [: ] + subtitle)
     html.elem("p", attrs: (class: "author"), author)
     html.elem("p", attrs: (class: "date"), date)
+    if bluf != none { html.elem("div", attrs: (class: "bluf"), bluf) }
     body
   } else {
     set page(numbering: none)
     set par(first-line-indent: 0pt, justify: false)
+    // A plum spray hangs from the top edge of the paper, as on chapter openings.
+    context place(top + left, dx: -page.margin.left, dy: -page.margin.top,
+      headpiece(page.width, page.margin.top.length + 1.4in, seed: here().page()))
     align(center, {
       v(1fr)
       text(font: sans, size: 22pt, weight: "bold", title)
@@ -214,6 +221,10 @@
       text(size: 13pt, author)
       v(1.2em)
       block(width: 85%, text(size: 10pt, date))
+      if bluf != none {
+        v(2.5em)
+        block(width: 75%, text(size: 10.5pt, bluf))
+      }
       v(2fr)
     })
     pagebreak()
@@ -312,8 +323,16 @@
     }
 
     // Chapters open on a new page.
+    // A plum spray fills the empty space above the title, from the top edge of
+    // the paper down to the title, its limb coming in from alternate sides.
     show heading.where(level: 1, outlined: true): it => {
       pagebreak(weak: true)
+      context {
+        let pg = here().page()
+        let h = page.margin.top.length + 2.5em - 2pt
+        place(top + left, dx: -page.margin.left, dy: -page.margin.top,
+          headpiece(page.width, h, seed: pg, flip: calc.even(pg)))
+      }
       v(2.5em)
       set par(first-line-indent: 0pt)
       if it.numbering != none {

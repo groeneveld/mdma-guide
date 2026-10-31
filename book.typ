@@ -165,6 +165,7 @@
   subtitle: [An Evidence-Based Synthesis, Theory, and Manual for MDMA Therapy Based on Memory Reconsolidation, Complex Systems, and the Defense Cascade],
   author: [Mark Groeneveld],
   date: [Preprint Draft Version 6.x; #datetime.today().display("[month repr:long] [day padding:none], [year]"). The book is a work in progress; it needs to be reviewed and substantively edited again. Safety recommendations are still being refined.],
+  bluf: [MDMA permanently heals emotional issues that you trigger and stay present with during a session. It is rapid compared to conventional therapy but is still not a quick fix for complicated problems. Those with complex trauma can go through a long series of ups and downs that gradually trends upward.]
 )[
 This work is licensed under #link("https://creativecommons.org/licenses/by/4.0/")[CC BY 4.0].
 
@@ -204,7 +205,7 @@ This book combines the tasks of reviewing and theorizing, packaged as a practica
 
 The book started as my attempt to figure out what was actually happening during my MDMA therapy journey, which I began after nearly every treatment that licensed mental health professionals can offer had failed to help. I struggled to understand what mental illness is, what MDMA therapy does, and how to optimize it for efficacy and safety. I learned that rigorous answers to these questions only began to appear in the 2000s and 2010s and have yet to widely diffuse out from academia. This knowledge base is scattered throughout the literature and, as far as I can tell, hasn't been put together before. This is unfortunate because many people are desperate for mental health treatment and are attempting MDMA therapy with inadequate information. I thought a manual could address these problems.
 
-Since MDMA therapy was almost my last option, knowing how to do it right was essential to my health. I needed this body of actionable, accurate knowledge to survive in a world of poor-quality mental health information.#footnote[Much of my motivation came from attachment issues and CPTSD, but these schemas can occasionally be redirected to productive uses.] Making the best of suboptimal situations in ways the legal and medical systems don't approve of has been a critical survival tool for me.
+Since MDMA therapy was almost my last option, knowing how to do it right was essential to my health. I needed this body of actionable, accurate knowledge to survive in a world of poor-quality mental health information.#footnote[Much of my motivation came from attachment issues and CPTSD, but these schemas occasionally have positive side effects.] Making the best of suboptimal situations in ways the legal and medical systems don't approve of has been a critical survival tool for me.
 
 I try to strike a balance between practical applicability and scientific robustness. My core assumptions, my reasons for believing each, and my confidence in them are laid out in @sec:assumptions.
 
@@ -1082,9 +1083,15 @@ I am not aware of these effects causing major problems in therapeutic contexts, 
         ticks: subscales.enumerate().map(((i, name)) => (i + 1, tick-label(name))),
         subticks: none,
       ),
-      ..("Psilocybin", "Ketamine", "MDMA").map(group => {
+      // MDMA takes the link crimson; a deep teal and an ochre complement it
+      // and stay distinct in lightness for color-blind readers.
+      ..(
+        ("Psilocybin", rgb("#c8901a")),
+        ("Ketamine", rgb("#1f6f78")),
+        ("MDMA", link-color),
+      ).map(((group, color)) => {
         let s = series-for(group)
-        lq.plot(x, s.y, yerr: s.yerr, label: group, stroke: none, mark: "o", mark-size: 4pt)
+        lq.plot(x, s.y, yerr: s.yerr, label: group, color: color, stroke: none, mark: "o", mark-size: 4pt)
       }),
     )
   },

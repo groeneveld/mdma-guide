@@ -27,6 +27,12 @@ p.author, p.date {
     text-align: center;
 }
 
+div.bluf {
+    text-align: center;
+    margin: 2em auto;
+    max-width: 30em;
+}
+
 code, pre, tt, kbd, samp {
     font-family: "Libertinus Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
