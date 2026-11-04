@@ -4,8 +4,7 @@
 // Sumi-e plum sprays above the chapter titles (PDF only).
 #import "@local/florilegium:0.1.0": headpiece
 
-// LaTeX `rgb:red,0.5;green,0;blue,0.13` normalises by the weight sum (0.63).
-#let link-color = rgb(79.366%, 0%, 20.636%)
+#let link-color = rgb("#C8302C")  // the plum blossom red of the florilegium headpiece
 #let sans = "Libertinus Sans"
 
 // `typst compile --input readme=true` builds the README summary instead:
@@ -128,11 +127,13 @@
 #let print-glossary(terms) = {
   [#heading(level: 1, numbering: none)[Glossary] <sec:glossary>]
   for (id, term) in terms.pairs().sorted(key: ((_, t)) => lower(t.name)) {
-    [#block(below: 1.2em)[
+    let entry = [#block(below: 1.2em)[
       #set par(first-line-indent: 0pt)
       #set text(hyphenate: false)
       #strong(term.name) #sym.space.quad #term.description
     ]#gls-entry-label(id)]
+    // In HTML the entries are bare divs; the class lets html.css rule them apart.
+    context if is-html() { html.elem("div", attrs: (class: "glossary-entry"), entry) } else { entry }
   }
 }
 
@@ -212,6 +213,14 @@
     // A plum spray hangs from the top edge of the paper, as on chapter openings.
     context place(top + left, dx: -page.margin.left, dy: -page.margin.top,
       headpiece(page.width, page.margin.top.length + 1.4in, seed: here().page()))
+    // A second spray rises from the bottom edge: the same drawing turned upside
+    // down, so its limb comes in from the opposite side.
+    // Turned about its top-left corner, it then extends up and left from the
+    // bottom-right corner of the paper.
+    context place(top + left,
+      dx: page.width - page.margin.left, dy: page.height - page.margin.top,
+      rotate(180deg, origin: top + left,
+        headpiece(page.width, page.margin.bottom.length + 1.4in, seed: here().page() + 1)))
     align(center, {
       v(1fr)
       text(font: sans, size: 22pt, weight: "bold", title)
@@ -305,6 +314,31 @@
   context if is-html() {
     // Typst emits no CSS of its own.
     html.elem("style", read("html.css"))
+    // Colour-scheme switch, CSS only (html.css): Auto follows the system
+    // setting, Light and Dark override it. Without JS the choice is not
+    // remembered between visits.
+    html.elem("div", attrs: (class: "theme-toggle", role: "radiogroup", aria-label: "Colour scheme"), {
+      for (value, label) in (("auto", "Auto"), ("light", "Light"), ("dark", "Dark")) {
+        let id = "theme-" + value
+        let attrs = (type: "radio", name: "theme", id: id)
+        if value == "auto" { attrs.insert("checked", "") }
+        html.elem("input", attrs: attrs)
+        html.elem("label", attrs: ("for": id), label)
+      }
+    })
+    // Contents drawer for narrow screens, CSS only (html.css): the floating
+    // button links to #toc-drawer, and :target shows the drawer. Following a
+    // link inside it changes the hash, which closes it. The close link points
+    // at an id that doesn't exist, so the page doesn't scroll. The drawer
+    // holds its own copy of the outline, so the one in the text stays put.
+    html.elem("div", html.elem("a", attrs: (class: "toc-button", href: "#toc-drawer"))[Contents])
+    html.elem("div", attrs: (id: "toc-drawer", role: "dialog", aria-label: "Contents"), {
+      html.elem("div", attrs: (class: "toc-drawer-head"), {
+        html.elem("span")[Contents]
+        html.elem("a", attrs: (class: "toc-close", href: "#close", aria-label: "Close contents"))[×]
+      })
+      outline(title: none)
+    })
     show: glossary-links.with(glossary)
     body
   } else {

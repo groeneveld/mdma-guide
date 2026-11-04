@@ -4417,4 +4417,9 @@ Please cross-check my references with other high-quality sources of information 
 
 This is for situations where you may have never deeply considered whether the other being has moral worth. This mostly applies to nonhumans since humans mostly already think that humans have moral value, even if they don't enact that value well.
 
-  
+  #footnote[My opinion is that as of 2026, Anthropic (who makes Claude), leads other LLM developers in prioritizing ethics and safety and avoiding incentives to enshittify their product.]
+
+ Exceptionally strong schemas also seem resistant to updating, perhaps because they create emotions that are too overwhelming to be present with. For example, in PTSD, there is an exceptionally strong belief of imminent danger that doesn't update when the danger passes.
+
+Once we shift out of that context, like when we become adults, a wide variety of circumstances trigger those old schemas, resulting in fear, anxiety, anger, depression, panic, etc., in situations where those reactions are no longer helpful.
+

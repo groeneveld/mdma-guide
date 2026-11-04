@@ -128,6 +128,23 @@ sed -i '' -E 's/\(([0-9]{4}[a-z]?),\)/(\1)/g' README.md
 # Citation links point at anchors GitHub strips; keep just the text.
 sed -i '' -E 's/\[([^]]*)\]\(#loc-[0-9]+\)/\1/g' README.md
 
+# Reddit version of the Long Summary. Reddit has no footnote syntax: "[^n]"
+# becomes the superscript "^(n)" and the definitions become a Notes list.
+python3 - <<'PY'
+import re
+md = open("README.md").read()
+md = md[md.index("# Long Summary\n") + len("# Long Summary\n"):]
+notes = re.findall(r"^\[\^(\d+)\]: (.*)$", md, flags=re.M)
+md = re.sub(r"^\[\^\d+\]: .*\n?", "", md, flags=re.M)
+md = re.sub(r"\[\^(\d+)\]", r"^(\1)", md).strip()
+if notes:
+    md += "\n\n# Notes\n\n" + "\n".join(f"{n}. {t}" for n, t in notes)
+from datetime import date
+d = date.today()
+md += f"\n\nUpdated {d:%B} {d.day}, {d.year}"
+open("auxillaryFiles/reddit-long-summary.md", "w").write(md + "\n")
+PY
+
 # Intermediate files are only needed during the build.
 rm -rf temp
 

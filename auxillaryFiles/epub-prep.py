@@ -10,6 +10,13 @@ import os, re, sys
 src, dst = sys.argv[1], sys.argv[2]
 s = open(src).read()
 
+# Drop the web page's own controls (template.typ): the colour-scheme toggle,
+# the floating Contents button, and the contents drawer, which ends at the
+# first </nav></div> after it opens.
+s = re.sub(r'<div class="theme-toggle".*?</div>', '', s, count=1, flags=re.S)
+s = re.sub(r'<div><a class="toc-button".*?</a></div>', '', s, count=1, flags=re.S)
+s = re.sub(r'<div id="toc-drawer".*?</nav></div>', '', s, count=1, flags=re.S)
+
 notes = s[s.find('<section role="doc-endnotes">'):]
 ids = set(re.findall(r'<li id="([^"]+)"', notes))
 s = re.sub(r'<a href="#([^"]+)">',

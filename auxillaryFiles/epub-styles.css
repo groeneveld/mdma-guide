@@ -108,6 +108,16 @@ dd {
     margin-left: 1.5em;
 }
 
+/* Glossary: a rule between entries so they're easy to tell apart. Mid-grey,
+   since reading apps may swap in a dark background. */
+div.glossary-entry {
+    padding: 0.6em 0;
+}
+
+div.glossary-entry + div.glossary-entry {
+    border-top: 1px solid #999;
+}
+
 /* Indented claim bodies (from the LaTeX adjustwidth environment) */
 div.adjustwidth {
     margin-left: 1.5em;
