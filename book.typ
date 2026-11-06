@@ -223,7 +223,7 @@ Mark
 I wrote all the content in this book except for the minor instances described in the last two bullets. Either I or the authors I cite originated almost all the ideas, including all of the major ones. I used the Claude LLM for
 - pointing out issues with flow, logic, and grammar in my writing. Example prompts: "Point out the issues with this section," or "I feel like something is off about this section, but I can't quite put my finger on it. Thoughts?" _used extensively_ 
 - double-checking that my sources actually back up my claims. See details in @methodology. _extensive_
-- rephrasing a sentence for readability when I agreed with its proposal. _occasional_
+- rephrasing a sentence for readability when I agreed with its proposal. _common_
 - summarizing papers to help me decide whether they are worth reading myself. Example: "Give me a long summary of this paper. \[attachment\]" _occasional_
 - clarifying aspects of papers that I don't understand. Example: "Help me understand why the authors think that indicator x is a good measure of y. \[attachment\]" _occasional_
 - text querying. Example: "I forget, does this paper mention the specific type of vitamin E they used? \[attachment\]" _occasional_
@@ -231,7 +231,7 @@ I wrote all the content in this book except for the minor instances described in
 - rewriting a list of simple clauses from one form to another. _once, in @mssProbes where the AI use is noted_
 - quantity estimation. _once, in @frequency, where the AI use and an uncertainty disclaimer are prominently noted_
 
-I checked LLM responses against original sources as a rule, though I think I forgot a few times.
+As a rule, I checked LLM responses against original before adding content to the book, though I think I forgot a few times.
 
 #lead[Biases, conflicts of interest, and background:]
 - _Attachments and beliefs:_ mildly disorganized attachment to MDMA therapy
@@ -528,13 +528,13 @@ Unfortunately, associative activations can also be maladaptive~@kozlowskaDefense
 
 There is considerable uncertainty over which mental and physical states are mediated by endogenous (self-produced) opioids. Immobility and freeze may be the ones best characterized physiologically. However, other states, like some types of non-immobile derealization and depersonalization, are plausibly included. I call all opioid-mediated states _opioid dampening_ to mechanistically differentiate them from other phenomena. The term _dissociation_ is often used; it is an "involuntary disruption or discontinuity in the normal integration of one or more of the following: identity, sensations, perceptions, affects, thoughts, memories, control over bodily movements, or behaviour"~@icd11[sec. Dissociative disorders]. However, other phenomena, like deep avoidance and muting, also produce dissociation, making the term etiologically imprecise.
 
-The complexity of opioid dampening may depend on which opioids (e.g., enkephalins, endorphins, and dynorphins) are interacting with which opioid receptors (μ, κ, δ, and their subtypes; conceivably also nociceptin and its subtypes)~@laniusNeurobiology. Other chemicals, like endocannabinoids, noradrenaline, and adrenaline, are also often present. Additionally, chronic immobility may induce opioid tolerance, which might further alter these effects.
+The complexity of opioid dampening may depend on which opioids (e.g., enkephalins, endorphins, and dynorphins) are interacting with which opioid receptors (μ, κ, δ, and their subtypes; conceivably also nociceptin and its subtypes)~@laniusNeurobiology. Other chemicals, like endocannabinoids, noradrenaline, and adrenaline, are also often present. Additionally, chronic endogenous opioid release may induce opioid tolerance, which would further alter the effects of opioid dampening.
 
 One under-explored complexity is sedation. #textcite(<kozlowskaDefenseCascade>) doesn't list sedation as a possible symptom of immobility, but #textcite(<razviPSIP>) and anecdotal reports indicate that sleepiness or actually falling asleep are relatively common symptoms of a state on the parasympathetic side of the defense cascade. This can happen both with and without MDMA.
 
 See #prosecite(<kozlowskaDefenseCascade>) for further discussion of the defense cascade. As the paper itself notes, the descriptive part is more solid than the Clinical Interventions section. I also advise caution regarding some proposed mechanisms of action because the paper cites polyvagal theory~@luckPolyvagal. While many people find therapeutic interventions associated with polyvagal theory helpful, the theory's foundation in specific neuroanatomical and evolutionary claims has not held up to empirical scrutiny.
 
-Refer to @sec:signsofdc for a thorough comparison of the signs of hyperarousal (I think that means flight-or-flight or a mid-point between arousal and flight-or-flight), immobility, and probably also the schemas that activate them.
+Refer to @sec:signsofdc for a thorough comparison of the signs of hyperarousal (I think that means flight-or-fight or a mid-point between arousal and flight-or-fight), immobility, and probably also the schemas that activate those states.
 
 // Compact bullet list for the cell bodies.
 #let items(..entries) = list(
@@ -875,7 +875,7 @@ MDMA is often considered a risky substance due to its illegality, adulterants, a
 - hyperthyroidism that is neither well managed nor mild, as assessed by a doctor
 
 #lead[Use caution with (continue reading for further assessment):]
-- a family or personal history of psychosis#footnote[I use the terms _psychosis_ and _mania_ in this article rather than terms like _schizophrenia_ and _bipolar_ on the assumption that they are closer to natural kinds, and more predictive of risk, than DSM/ICD diagnoses.]
+- a family or personal history of psychosis#footnote[I use the terms _psychosis_ and _mania_ in this book rather than terms like _schizophrenia_ and _bipolar_ on the assumption that they are closer to natural kinds, and more predictive of risk, than DSM/ICD diagnoses.]
 - a personal history of addiction to amphetamines or cocaine
 - a total dose over 2\u{202F}mg/kg per session, especially for more than a handful of sessions
 - session spacing of less than 4~weeks
@@ -1246,7 +1246,7 @@ The trial inclusion criteria did regard some serious medical conditions as compa
 - *Seizures:* As with most problems associated with MDMA~@riggDeaths, seizures are very rarely reported~@freidelSeizures. When they are, they are mostly associated with mixing intoxicants, extremely high doses, hyponatremia from drinking too much water, or heat stroke from dancing all night without adequate fluid intake. It's possible that caffeine co-use increases the risk~@vanattouCaffeine.
 
 #lead[Chronic adverse effects:]
-- *Valvular heart disease:* Extremely high lifetime use of MDMA and possibly most psychedelics causes valvular heart disease via serotonin 5-$H T_(2 B)$ receptor activation in heart valves~@droogmans2007valvular@tagen2023valvular. In one observational study, 28% of chronic MDMA users showed signs of valvular heart disease (VHD) when evaluated with echocardiography, compared to 0% in a matched control group who reported no MDMA use~@droogmans2007valvular. The chronic users with clinically significant VHD self-reported a mean consumption of 943\u{202F}±\u{202F}1162 MDMA tablets, while the chronic users without clinically significant VHD reported a mean consumption of 242\u{202F}±\u{202F}212 tablets. These results are so imprecise and assuredly confounded by abuse of multiple other drugs and other risk factors that they are inadequate as safety guidelines. Unfortunately, it's the only data I know of. I take the lower number as a "don't exceed" limit after rounding to one significant digit.
+- *Valvular heart disease:* Extremely high lifetime use of MDMA and possibly most psychedelics causes valvular heart disease via serotonin 5-HT#sub[2B] receptor activation in heart valves~@droogmans2007valvular@tagen2023valvular. In one observational study, 28% of chronic MDMA users showed signs of valvular heart disease (VHD) when evaluated with echocardiography, compared to 0% in a matched control group who reported no MDMA use~@droogmans2007valvular. The chronic users with clinically significant VHD self-reported a mean consumption of 943\u{202F}±\u{202F}1162 MDMA tablets, while the chronic users without clinically significant VHD reported a mean consumption of 242\u{202F}±\u{202F}212 tablets. These results are so imprecise and assuredly confounded by abuse of multiple other drugs and other risk factors that they are inadequate as safety guidelines. Unfortunately, it's the only data I know of. I take the lower number as a "don't exceed" limit after rounding to one significant digit.
 - *Oxidative damage:* MDMA causes oxidative damage in the serotonin system when the oxidative load of MDMA's effects exceeds the system's antioxidant buffer capacity~@baggottDamage. #textcite(<baggottSupplements>) states that there is some experimental evidence that doses below 2\u{202F}mg/kg don't cause oxidative damage. Indicators of oxidative damage haven't been investigated at higher doses in humans.
 
   A dose of MDMA that is not neurotoxic in a single administration can also become neurotoxic when additional session are done before the antioxidant system has recovered~@baggottDamage. Unfortunately, it's not known how long this recovery takes. It's also unclear whether this oxidative damage has any clinically significant effects.
@@ -2681,10 +2681,10 @@ I think the following research questions are particularly interesting or relevan
 <bibliography>
 #bibliography("references.bib")
 
-= Earlier Revisions
+= Revision History
 <sec:revisions>
 #lead[Changes from version 6 to 7]
-Added the Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events troubleshooting sections. Partially rewrote #nameref(<sec:complex>), #nameref(<frequency>), #nameref(<sec:mechanism>), and #nameref(<selfinsight>) to improve rigor and clarity. Split the term _avoidance_ into _avoidance_ and _muting_ to better categorize the phenomena based on mechanism. Improved grammar through #nameref(<introduction>) more rigorously than previous rounds of spell/grammar checking. 
+Added the Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events troubleshooting sections. Partially rewrote #nameref(<sec:complex>), #nameref(<frequency>), #nameref(<sec:mechanism>), and #nameref(<selfinsight>) to improve rigor and clarity. Split the term _avoidance_ into _avoidance_ and _muting_ to better categorize the phenomena based on mechanism. Did another, more thorough round of grammar editing through #nameref(<science>). 
 
 Finished removing Thomas Harper's content. I replaced their major section, How to Find a Practitioner, with a few paragraphs that link out to equivalent information written by other people.
 

@@ -28,44 +28,14 @@ with pikepdf.open("temp/book.pdf") as pdf:
 PY
 
 # HTML: Typst's export, plus the Libertinus fonts inlined as @font-face rules
-# so index.html is self-contained. The fonts are subset to the characters the
-# page uses (plus printable ASCII) and compressed as WOFF2 to keep it small.
+# so index.html is self-contained. subset-fonts.py embeds only the faces the
+# page uses, each subset to its own characters and compressed as WOFF2.
 # Needs fonttools and brotli (pip install fonttools brotli).
 "${TYPST[@]}" --features html --format html book.typ temp/book.html
-python3 - "$FONTS" <<'PY'
-import base64, html, io, string, sys
-from fontTools import subset
-from fontTools.ttLib import TTFont
-fonts = sys.argv[1]
+python3 auxillaryFiles/subset-fonts.py html temp/book.html > temp/fonts.css
+python3 - <<'PY'
 page = open("temp/book.html").read()
-chars = set(html.unescape(page)) | set(string.printable)
-
-def woff2(path):
-    font = TTFont(path)
-    options = subset.Options()
-    options.flavor = "woff2"
-    subsetter = subset.Subsetter(options)
-    subsetter.populate(text="".join(chars))
-    subsetter.subset(font)
-    out = io.BytesIO()
-    font.save(out)
-    return base64.b64encode(out.getvalue()).decode()
-
-faces = [
-    ("Libertinus Serif", "normal", "normal", "LibertinusSerif-Regular"),
-    ("Libertinus Serif", "italic", "normal", "LibertinusSerif-Italic"),
-    ("Libertinus Serif", "normal", "bold", "LibertinusSerif-Bold"),
-    ("Libertinus Serif", "italic", "bold", "LibertinusSerif-BoldItalic"),
-    ("Libertinus Sans", "normal", "normal", "LibertinusSans-Regular"),
-    ("Libertinus Sans", "italic", "normal", "LibertinusSans-Italic"),
-    ("Libertinus Sans", "normal", "bold", "LibertinusSans-Bold"),
-    ("Libertinus Mono", "normal", "normal", "LibertinusMono-Regular"),
-]
-css = "".join(
-    f'@font-face {{ font-family: "{family}"; font-style: {style}; font-weight: {weight}; '
-    f'src: url(data:font/woff2;base64,{woff2(f"{fonts}/{file}.otf")}) format("woff2"); }}\n'
-    for family, style, weight, file in faces
-)
+css = open("temp/fonts.css").read()
 # GoatCounter page-view analytics (web edition only).
 goatcounter = ('<script data-goatcounter="https://groeneveld.goatcounter.com/count" '
                'async src="//gc.zgo.at/count.js"></script>')
@@ -73,27 +43,15 @@ page = page.replace("</head>", f"<style>{css}</style>{goatcounter}</head>", 1)
 open("index.html", "w").write(page)
 PY
 
-# EPUB: Typst HTML -> pandoc. The embedded fonts are subset to the characters
-# the book uses (plus printable ASCII and pandoc's footnote backlink arrow);
-# the full Libertinus files would otherwise make up most of the EPUB. They
-# stay OTF, which EPUB readers support more widely than WOFF2.
+# EPUB: Typst HTML -> pandoc. subset-fonts.py writes the faces the book uses,
+# each subset to its own characters (the full Libertinus files would otherwise
+# make up most of the EPUB), plus the @font-face rules that load them.
 python3 auxillaryFiles/epub-prep.py temp/book.html temp/epub.html
-python3 - "$FONTS" <<'PY'
-import glob, html, os, string, sys
-from fontTools import subset
-from fontTools.ttLib import TTFont
-chars = set(html.unescape(open("temp/epub.html").read())) | set(string.printable) | {"↩", "︎"}
-os.makedirs("temp/fonts", exist_ok=True)
-for path in glob.glob(f"{sys.argv[1]}/*.otf"):
-    font = TTFont(path)
-    subsetter = subset.Subsetter(subset.Options())
-    subsetter.populate(text="".join(chars))
-    subsetter.subset(font)
-    font.save(f"temp/fonts/{os.path.basename(path)}")
-PY
+python3 auxillaryFiles/subset-fonts.py epub temp/epub.html temp/fonts > temp/epub-fonts.css
 (cd temp && pandoc epub.html -f html -t epub3 \
     --shift-heading-level-by=-1 \
     --metadata title="Open MDMA" --metadata author="Mark Groeneveld" \
+    --css=epub-fonts.css \
     --css=../auxillaryFiles/epub-styles.css \
     --epub-embed-font="fonts/*.otf" \
     -o "../Open MDMA.epub")

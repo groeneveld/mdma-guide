@@ -130,4 +130,4 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 1. In this case, memory refers to implicit memory, not explicit memory of events and facts (Ecker et al., 2024). Implicit memory is our often unconscious model of the world and self.
 2. I excluded those reported by fewer than 10% of participants so that the items would represent something of a consensus.
 
-Updated November 3, 2026
+Updated November 5, 2026
