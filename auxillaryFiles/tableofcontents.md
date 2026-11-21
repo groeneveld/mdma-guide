@@ -46,7 +46,7 @@
     - Psychosis
     - Suicidal Ideation and Behavior
     - Addiction
-    - Hallucinogen Persisting Perceptual Disorder:
+    - Hallucinogen Persisting Perceptual Disorder
     - Mania
   - When to Seek Emergency Care
   - Common Concerns
@@ -86,7 +86,7 @@
     - Adverse Effects Lasting More than Three Days
     - Not Getting to the Issue, Schema, or Memory You Want to Address
     - Symptoms Come Back After a Few Weeks
-    - Still High More than 24 Hours Later
+    - Still High More than 24 hours Later
     - Feeling Like You Are Going Crazy
     - Sessions Feel Like They're Becoming Less Effective Over Time
     - Remembering Previously Forgotten Events

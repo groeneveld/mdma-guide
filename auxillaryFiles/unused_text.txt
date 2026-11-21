@@ -4423,3 +4423,9 @@ This is for situations where you may have never deeply considered whether the ot
 
 Once we shift out of that context, like when we become adults, a wide variety of circumstances trigger those old schemas, resulting in fear, anxiety, anger, depression, panic, etc., in situations where those reactions are no longer helpful.
 
+People with contradictory religious or political beliefs can each think their belief is the true one. The contradictory positions cannot all be true; thus, having the feeling that a belief is true doesn't mean that it is.
+
+ Additionally, aerobic exercise decreases the risk for many chronic illnesses~@liebermanExercised, and whole-body muscle strengthening decreases the risk of acute and chronic injuries~@lauersenStrength. I suggest #textcite(<lowBodyweight>) or working with a physical therapist.
+
+- Indoor air pollution plausibly worsens mental health since it causes many other health problems~@airPollution, though I couldn't find any research on the topic. Air filters help and additionally reduce airborne disease transmission. However, they have to be sized appropriately for the space and number of occupants~@filterSizing. #textcite(<cleanAir>) makes filters with the best cost, noise, and performance as of 2025.
+

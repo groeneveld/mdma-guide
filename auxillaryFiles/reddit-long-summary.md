@@ -13,15 +13,15 @@ More broadly, MDMA therapy is a powerful tool for
 
 Many self-reports of successful MDMA therapy can be found at [reddit.com/r/mdmatherapy/top/?sort=top&t=all](https://reddit.com/r/mdmatherapy/top/?sort=top&t=all). The top posts mostly describe productive sessions that don’t contain intense dissociation, avoidance, resistance, or symptom worsening. You can see occasional descriptions of less productive or more disruptive sessions by sorting by *new.* In Godes et al. (2023), therapy clients described how they felt MDMA therapy worked during their sessions: staying with what “is”; decreased reactivity; insight, reflection, linking; mental clarity; recovery of traumatic \[episodic\] memories; disentangling trauma from self; reuniting lost affects and parts; self-acceptance; joy, happiness, gratitude; hope and empowerment; relaxation, calmness, peace; comfort; gratitude, compassion, empathy; union, wider perspective; inner healing intelligence \[the therapeutic framework used in this study\]; accessibility to emotions; and mind-body connection.
 
-As of 2026, MDMA has not been approved by most medical regulators. There is disagreement over whether existing clinical trials were sufficient to approve MDMA for medical use (Schenberg, 2024). The US FDA thought the existing evidence was insufficient and requested one more trial (Psychedelic Alpha, 2025), but the Dutch State Commission on MDMA determined that “Scientific research has shown that MDMA therapy is an effective and safe treatment method. … The State Commission deems it desirable that this treatment method becomes available in the Netherlands as soon as possible (Toebes et al., 2024, p. 203).” Possession of MDMA is a felony in many jurisdictions, though it often isn’t an enforcement priority. The vast majority of MDMA therapy in 2026 is underground, though there are a few clinical trials and special access programs in certain countries.
+As of 2026, MDMA has not been approved by most medical regulators. There is disagreement over whether existing clinical trials were sufficient to approve MDMA for medical use(Schenberg, 2024). The US FDA thought the existing evidence was insufficient and requested one more trial(Psychedelic Alpha, 2025), but the Dutch State Commission on MDMA determined that “Scientific research has shown that MDMA therapy is an effective and safe treatment method. … The State Commission deems it desirable that this treatment method becomes available in the Netherlands as soon as possible (Toebes et al., 2024, p. 203).” Possession of MDMA is a felony in many jurisdictions, though it often isn’t an enforcement priority. The vast majority of MDMA therapy in 2026 is underground, though there are a few clinical trials and special access programs in certain countries.
 
 ## How Trauma and Insecurity Affect Us
 
-Our brains continually create internal models to move through the world and thrive (Ecker et al., 2024). These models create our thoughts and beliefs (e.g., “I can’t do anything right,” “I am bad”), emotional reactions, and behavioral patterns. Different therapeutic frameworks call these models schemas, parts, priors, and so on. Sometimes, the schemas we learn early in life are not very accurate, especially outside the schema’s original context. This often starts in situations of emotional or physical insecurity or trauma, where we learn particularly deep, pervasive, negative, and durable schemas about ourselves, other people, and relationships. For instance, we might learn “I will die if I express vulnerability” in childhood. That might have been accurate in that context, but as an adult it causes problems because the brain learned an over-generalized principle rather than a more nuanced schema such as “I will die if I express vulnerability to my parents while I am young.”
+Our brains continually create internal models to move through the world and thrive(Ecker et al., 2024). These models create our thoughts and beliefs (e.g., “I can’t do anything right,” “I am bad”), emotional reactions, and behavioral patterns. Different therapeutic frameworks call these models schemas, parts, priors, and so on. Sometimes, the schemas we learn early in life are not very accurate, especially outside the schema’s original context. This often starts in situations of emotional or physical insecurity or trauma, where we learn particularly deep, pervasive, negative, and durable schemas about ourselves, other people, and relationships. For instance, we might learn “I will die if I express vulnerability” in childhood. That might have been accurate in that context, but as an adult it causes problems because the brain learned an over-generalized principle rather than a more nuanced schema such as “I will die if I express vulnerability to my parents while I am young.”
 
-Schemas of imminent threat and powerlessness also cause our nervous systems to activate the defensive states of arousal, flight-or-fight, freeze, and tonic/collapsed immobility (Kozlowska et al., 2015). The last of these is one type of dissociation.
+Schemas of imminent threat and powerlessness also cause our nervous systems to activate the defensive states of arousal, flight-or-fight, freeze, and tonic/collapsed immobility(Kozlowska et al., 2015). The last of these is one type of dissociation.
 
-Our brains have an updating process called memory^(1) reconsolidation that in normal circumstances modifies schemas to accurately represent different situations (Ecker et al., 2024). Unfortunately, avoidance (often unnoticed or unconscious) and possibly other processes can inhibit updating (Bergh et al., 2021).
+Our brains have an updating process called memory^(1) reconsolidation that in normal circumstances modifies schemas to accurately represent different situations(Ecker et al., 2024). Unfortunately, avoidance (often unnoticed or unconscious) and possibly other processes can inhibit updating(Bergh et al., 2021).
 
 ## How MDMA Therapy Works
 
@@ -39,9 +39,9 @@ Symptom worsening is sometimes caused by experiences that feel like remembering 
 
 ## The MDMA Therapy Session
 
-A standard, safe dose is 100 mg for body masses less than 60 kg (132 lb) and 125 mg for those heavier (Baggott, 2015; Liechti & Schmid, 2026). People over 75 years old also start with 100 mg. These doses can be adjusted if the standard dose doesn’t work for you. Low doses generally don’t work, and too high a dose might be so blissful that you can’t engage with your stuck schemas.
+A standard, safe dose is 100 mg for body masses less than 60 kg (132 lb) and 125 mg for those heavier(Baggott, 2015; Liechti & Schmid, 2026). People over 75 years old also start with 100 mg. These doses can be adjusted if the standard dose doesn’t work for you. Low doses generally don’t work, and too high a dose might be so blissful that you can’t engage with your stuck schemas.
 
-Booster doses at half the strength of the initial dose are sometimes taken 1.5–2.5 hours later to lengthen the session. Boosters worked well in large clinical trials with no obvious or reported adverse effects. However, there is less certainty that these higher total doses are safe for more than a handful of sessions (Baggott, 2015). Booster doses might be fine at first, but once you have established a reliably therapeutic routine, **gradually reduce the amount of MDMA you take to find your minimum effective dose.**
+Booster doses at half the strength of the initial dose are sometimes taken 1.5–2.5 hours later to lengthen the session. Boosters worked well in large clinical trials with no obvious or reported adverse effects. However, there is less certainty that these higher total doses are safe for more than a handful of sessions(Baggott, 2015). Booster doses might be fine at first, but once you have established a reliably therapeutic routine, **gradually reduce the amount of MDMA you take to find your minimum effective dose.**
 
 The main activity is emotionally engaging with your issues. This often happens naturally when you just take MDMA and let yourself feel whatever comes up without trying to control the experience. If not much is happening or you’re spending your time thinking, try deliberately activating (triggering) your anxieties, depression, panic, etc., then staying with that feeling, whatever it is. If you have the right dose of MDMA and aren’t dissociating, those feelings should gradually dissipate as the schemas that create them update. If you don’t have a clear idea of your issues, pre-session journaling or therapy might help.
 
@@ -53,7 +53,7 @@ It’s common to experience moderately increased psychological turmoil for days 
 
 The Fireside Project offers a hotline to help people through challenging psychedelic experiences at [+1 (623) 473-7433](tel:+1%20(623)%20473-7433) in the USA. [tripsit.me/webchat](https://tripsit.me/webchat) is a chatroom available anywhere.
 
-There is almost no data on how frequently sessions can safely be done, though there are many strong opinions on the subject. The 4 week spacing used in the clinical trials might be a reasonable minimum in the absence of better data.
+There is almost no data on how frequently sessions can safely be done, though there are many strong opinions on the subject. The 4-week spacing used in the clinical trials might be a reasonable minimum in the absence of better data.
 
 ## Working with a Mental Health Practitioner
 
@@ -67,7 +67,7 @@ There are a few important factors when working with a guide, therapist, or other
 
 ## Medical, Psychological, and Drug Interaction Risks
 
-A limited course of MDMA therapy is generally well tolerated, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks (some of these are best guesses based on sparse evidence):
+A limited course of MDMA therapy is generally well tolerated, but there are dangerous drug/supplement/herb interactions, medical contraindications, side effects, and psychological risks. Some of these are best guesses based on sparse evidence.
 
 **Always avoid (significant risk of death or irreversible damage):**
 
@@ -79,18 +79,19 @@ A limited course of MDMA therapy is generally well tolerated, but there are dang
 **Use caution with:**
 
 - a family or personal history of psychosis
-- a personal history of addiction to amphetamines or cocaine
-- a total dose over 2 mg/kg per session, especially for more than a handful of sessions
-- session spacing of less than 4 weeks
-- drugs/medications/supplements/herbs, including large doses of caffeine
+- a personal history of addiction to stimulants
+- a total dose over 2 mg/kg per session, especially across more than a handful of sessions
+- session spacing of less than 4 weeks
+- drugs, medications, supplements, herbs, and large doses of caffeine
 - liver and cardiovascular problems
 - other serious medical conditions, especially ones that are neither well managed nor mild, as assessed by a doctor (Mitchell et al., 2023)
+- doing MDMA therapy while living with your abuser. They may react poorly to anger toward them that therapy unearths.
 
 **Take precautions:**
 
-- Don’t drink more than 0.5 L of water during the first six hours of a single-dose session unless you need to replace large amounts of sweat (Groeneveld, 2026). Booster doses probably extend this period.
+- Don’t drink more than 0.5 L of water during the first six hours of a single-dose session unless you need to replace large amounts of sweat(Groeneveld, 2026). Booster doses probably extend this period.
 
-- Ideally, avoid SSRIs and SNRIs for 2 months prior to the session.
+- Ideally, avoid SSRIs and SNRIs for 2 months prior to the session.
 
 - Test your MDMA. The presence of some common adulterants can be checked with reagent test kits; [reddit.com/r/ReagentTesting/wiki/test_kit_suppliers](https://www.reddit.com/r/ReagentTesting/wiki/test_kit_suppliers) maintains a list of suppliers. Laboratory testing is much better; [reddit.com/r/ReagentTesting/wiki/labs](https://www.reddit.com/r/ReagentTesting/wiki/labs) maintains a list of labs. Labs can measure the amount of MDMA and other ingredients.
 
@@ -100,13 +101,11 @@ A limited course of MDMA therapy is generally well tolerated, but there are dang
 
   An exception may be people with secure attachment and no mental illness, who I think have very little chance of severe exacerbation.
 
-- MDMA and therapy exhaustion can impair awareness and reaction times. Avoid driving and other risky activities on the same day as the session.
+- Avoid driving and other risky activities on the same day as the session.
 
 Written by Mark Groeneveld (u/night81) based on a draft of their book [*Open MDMA: An Evidence-Based Synthesis, Theory, and Manual for MDMA Therapy Based on Memory Reconsolidation, Complex Systems, and the Defense Cascade*](https://www.doi.org/10.31234/osf.io/aps5g) and feedback from /r/mdmatherapy.
 
 Please comment or DM if you spot any errors or have any suggestions!
-
-This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 # References
 
@@ -130,4 +129,4 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 1. In this case, memory refers to implicit memory, not explicit memory of events and facts (Ecker et al., 2024). Implicit memory is our often unconscious model of the world and self.
 2. I excluded those reported by fewer than 10% of participants so that the items would represent something of a consensus.
 
-Updated November 5, 2026
+Updated November 21, 2026

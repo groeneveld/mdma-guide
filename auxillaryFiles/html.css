@@ -62,6 +62,18 @@ body {
     background-color: var(--bg);
     /* Long words wrap rather than widen the page on small screens. */
     overflow-wrap: break-word;
+    /* Scale fallback fonts to Libertinus's x-height, so the text doesn't
+     * shift when the inlined fonts finish loading. */
+    font-size-adjust: from-font;
+}
+
+/* Fewer short last lines in running text; even line lengths in short
+ * blocks. Unsupported browsers ignore both. */
+p, li, dd, figcaption {
+    text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6, div.bluf {
+    text-wrap: balance;
 }
 
 /* URLs (mostly in the bibliography) have no break points; let them break
@@ -316,11 +328,15 @@ figcaption {
 }
 
 /* Tables */
-/* A table wider than the screen scrolls sideways inside its figure instead
- * of widening the whole page (which on iOS zooms the page out and lets the
- * fixed theme toggle scroll out of view). */
-figure:has(> table) {
+/* A table wider than the screen scrolls sideways inside its wrapper
+ * (template.typ) instead of widening the whole page (which on iOS zooms the
+ * page out and lets the fixed theme toggle scroll out of view). */
+.table-scroll {
     overflow-x: auto;
+}
+.table-scroll:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
 }
 
 table {

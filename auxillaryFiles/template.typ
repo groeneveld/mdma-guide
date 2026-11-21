@@ -299,6 +299,12 @@
   // A caption above a table stays on the same page as the table's start.
   show figure.caption.where(position: top): set block(sticky: true)
   show table: set par(justify: false)
+  // In HTML, a table wider than the screen scrolls sideways inside this
+  // wrapper (html.css). tabindex and the region role let keyboard and
+  // screen-reader users reach and scroll it.
+  show table: it => context if is-html() {
+    html.elem("div", attrs: (class: "table-scroll", tabindex: "0", role: "region", aria-label: "Table (scrolls sideways)"), it)
+  } else { it }
   show figure.where(kind: table): set figure.caption(position: top)
   show figure.caption: set text(size: 10pt)
 

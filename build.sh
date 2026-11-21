@@ -39,6 +39,12 @@ css = open("temp/fonts.css").read()
 # GoatCounter page-view analytics (web edition only).
 goatcounter = ('<script data-goatcounter="https://groeneveld.goatcounter.com/count" '
                'async src="//gc.zgo.at/count.js"></script>')
+# color-scheme lets the browser paint the right background before the CSS
+# loads (no white flash in dark mode). text-scale makes 1rem follow the OS
+# text-size setting (Chromium 146+; ignored elsewhere).
+metas = ('<meta name="color-scheme" content="light dark">'
+         '<meta name="text-scale" content="scale">')
+page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">' + metas, 1)
 page = page.replace("</head>", f"<style>{css}</style>{goatcounter}</head>", 1)
 open("index.html", "w").write(page)
 PY
