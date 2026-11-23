@@ -30,6 +30,7 @@
     - Symptom Worsening
     - Healing in Complex Systems
     - The Limitations of My Model and the Complex Systems Approach
+  - Chapter Summary
 - Safety
   - Basic Pharmacology
   - Acute Effects
