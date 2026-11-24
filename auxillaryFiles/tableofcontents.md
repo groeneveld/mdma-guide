@@ -21,6 +21,7 @@
   - Efficacy of MDMA Therapy
   - MDMA Therapy Generalizes Beyond PTSD
 - Theoretical Model
+  - Overview
   - The Defense Cascade
   - Trauma, Insecurity, and Their Effects
   - How Schemas Update (Or Don't)
@@ -30,7 +31,6 @@
     - Symptom Worsening
     - Healing in Complex Systems
     - The Limitations of My Model and the Complex Systems Approach
-  - Chapter Summary
 - Safety
   - Basic Pharmacology
   - Acute Effects

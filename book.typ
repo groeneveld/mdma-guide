@@ -221,7 +221,7 @@ Mark
 
 #lead[AI disclosure]
 I wrote all the content in this book except for the minor instances described in the last two bullets. I also read all the citations. Either I or the authors I cite originated almost all the ideas, including all of the major ones. I used the Claude LLM for
-- pointing out issues with flow, logic, and grammar in my writing. Example prompts: "Point out the issues with this section," or "I feel like something is off about this section, but I can't quite put my finger on it. Thoughts?" _used extensively_ 
+- pointing out issues with flow, logic, and grammar in my writing. Example prompts: "Point out the issues with this section," or "I feel like something is off about this section, but I can't quite put my finger on it. Thoughts?" _used extensively_
 - double-checking that my sources actually back up my claims. See details in @methodology. _extensive_
 - rephrasing a sentence for readability when I agreed with its proposed change. _common_
 - summarizing papers to help me decide whether they are worth reading myself. Example: "Give me a long summary of this paper. \[attachment\]" _occasional_
@@ -405,10 +405,10 @@ I applied these checks on the validity of my references while writing this book:
 <major-unresolved-issues>
 Any pharmaceutical or therapeutic intervention relies on a multitude of choices that have not been rigorously studied. In this case they might include questions like 1.6\u{202F}mg/kg vs. 1.4\u{202F}mg/kg of MDMA; non-directive vs. minimally directive therapy; and which type of therapist training is best. Any manual or practice, including mine, thus inherently depends on a lot of educated guesswork to fill in the gaps between the main support beams of validated theory and practice. Beyond that general caveat, these uncertainties are particularly important to flag:
 - As discussed in @ppHypotheses, I don't know how MDMA facilitates reconsolidation.
-- Symptom worsening seems associated with severe complex trauma or severe attachment issues, but besides that, I don't know how to predict an individual's risk. It's also uncertain when more MDMA therapy will reduce or increase symptoms in the short term. See @sec:complex for more information.
+- Symptom worsening seems associated with severe complex trauma, but besides that, I don't know how to predict an individual's risk. It's also uncertain when more MDMA therapy will reduce or increase symptoms in the short term. See @sec:complex for more information.
 - I don't know when or why MDMA therapy might not work for someone, apart from the somewhat-known factors of opioid dampening~@razviPSIP, intense avoidance, and recent use of SSRIs and SNRIs~@feducciaSSRIDiscontinuation. There may be unknown but necessary factors in addition to the right dose of MDMA, activation of a stuck schema, and non-avoidance.
 - I can't explain the metaphorical closed-eye visuals and experiences that some people have.
-- The complex system and predictive processing frameworks plausibly explain most adverse effects from MDMA therapy as part of an "it gets worse before it gets better" phase. I don't know how to distinguish this from other types of treatment-induced problems.
+- The complex systems and predictive processing frameworks plausibly explain most adverse effects from MDMA therapy as part of an "it gets worse before it gets better" phase. When the symptoms are not objectively measureable, like body temperature, I don't know how to distinguish healthy symptom worsening from other types of treatment-induced problems which could be purely harmful.
 
 === Reasons to be Confident
 <reasons-to-be-confident>
@@ -497,6 +497,20 @@ In the face of this uncertainty and the likely importance of psychological compo
 
 = Theoretical Model
 <science>
+== Overview
+<theorySummary>
+The brain is a statistical prediction system that sometimes learns inaccurate models (schemas) of the world, self, and relationships. Inaccurate schemas produce problematic and confusing emotions, thoughts, behaviors, and somatic sensations (e.g., chronic pain).
+
+When a schema predicts certain intensities and combinations of threat and powerlessness, your nervous system activates a set of physiological responses called the defense cascade to help you survive imminent threats.#footnote[Certain somatic sensations, like needle pokes, can also activate defense cascade states.] These responses are broadly characterized as active (fleeing or fighting), passive (playing dead), or mixed. They are downstream of schemas and generally resolve when a schema stops predicting threat and powerlessness.
+
+Most schemas update (reconsolidate) automatically when there is a sufficient prediction error between what the schema predicts will happen and the sensory evidence or other knowledge you have. Avoidance, muting, and misattribution (and possibly other things) inhibit prediction error and thus block updating. I call a schema _stuck_ when it is significantly inaccurate and persistent. I think that stuck schemas, and the symptoms they produce, are a large part of what most mental illness _is._
+
+Therapy can deliberately facilitate prediction error to update stuck schemas. MDMA seems to facilitate the reconsolidation of most stuck schemas that are activated and that you stay present with, meaning that you allow the schema's symptoms to be felt in the body and mind without acting to end, alter, escape, or explain them away.
+
+Traumatized people often have complex networks of stuck schemas where the symptom of one schema will activate a different schema, whose symptoms might then activate a third schema, and so on. Paying attention to sensations that are normally avoided or muted, or reconsolidating parts of the schema network, can produce unpredictable cascades of stuck schema activation. A mild-to-moderate worsening of symptoms that lasts days or weeks and resolves without further intervention is common. On rare occasions, symptom worsening is severe and persists until you deliberately reconsolidate more of the active and latent schemas in the network or remove some triggers. On average, symptom improvement from MDMA therapy seems to significantly outweigh symptom worsening on a month-long timescale. People with severe complex trauma may go through long series of ups and downs that gradually trend upward over the course of therapy.
+
+Complete reconsolidation eliminates stuck schemas and the symptoms that they produce. Once achieved, no ongoing effort is needed to maintain the result.
+
 == The Defense Cascade
 <sec:defensecascade>
 The sympathetic and parasympathetic nervous systems govern a wide variety of involuntary bodily functions, such as heart rate and digestion~@kozlowskaDefenseCascade. In one of their roles, they activate a defense cascade, a sequence of responses that protects us from threats. Increasing levels of perceived threat, threat imminence, powerlessness, and somatic sensory input (e.g., needle pokes) activate these responses, though the order of activation also depends on individual variability and past experience.
@@ -864,20 +878,6 @@ While complex systems theory qualitatively describes important parts of mental i
 
 It's unclear to me who will worsen, when they will worsen, and how long the worsening will last~@hayes2020complex. No one knows for sure what distressing material or reactions you may or may not uncover, or how reconsolidating certain schemas will cause complex cascades of schema activations. It may also be the case that skilled therapists have developed useful heuristics for estimating these and navigating the complex landscape, though I am not sure.
 
-== Chapter Summary
-<theorySummary>
-The brain is a statistical prediction system that sometimes learns inaccurate models (schemas) of the world, self, and relationships. Inaccurate schemas produce problematic and confusing emotions, thoughts, behaviors, and somatic sensations (e.g., chronic pain).
-
-When a schema predicts certain intensities and combinations of threat and powerlessness, your nervous system activates a set of physiological responses called the defense cascade to help you survive imminent threats.#footnote[Certain somatic sensations, like needle pokes, can also activate defense cascade states.] These responses are broadly characterized as active (fleeing or fighting), passive (playing dead), or mixed. They are downstream of schemas and generally resolve when a schema stops predicting threat and powerlessness.
-
-Most schemas update (reconsolidate) automatically when there is a sufficient prediction error between what the schema predicts will happen and the sensory evidence or other knowledge you have. Avoidance, muting, and misattribution (and possibly other things) inhibit prediction error and thus block updating. I call a schema _stuck_ when it is significantly inaccurate and persistent. I think that stuck schemas, and the symptoms they produce, are a large part of what most mental illness _is._
-
-Therapy can deliberately facilitate prediction error to update stuck schemas. MDMA seems to facilitate the reconsolidation of most stuck schemas that are activated and that you stay present with, meaning that you allow the schema's symptoms to be felt in the body and mind without acting to end, alter, escape, or explain them away.
-
-Traumatized people often have complex networks of stuck schemas where the symptom of one schema will activate a different schema, whose symptoms might then activate a third schema, and so on. Paying attention to sensations that are normally avoided or muted, or reconsolidating parts of the schema network, can produce unpredictable cascades of stuck schema activation. A mild-to-moderate worsening of symptoms that lasts days or weeks and resolves without further intervention is common. On rare occasions, symptom worsening is severe and persists until you deliberately reconsolidate more of the active and latent schemas in the network or remove some triggers. On average, symptom improvement from MDMA therapy seems to significantly outweigh symptom worsening on a month-long timescale. People with severe complex trauma may go through long series of ups and downs that gradually trend upward over the course of therapy.
-
-Complete reconsolidation eliminates stuck schemas and the symptoms that they produce. Once achieved, no ongoing effort is needed to maintain the result.
-
 = Safety
 <sec:safety>
 MDMA is often considered a risky substance due to its illegality, adulterants, and association with occasional harm in recreational contexts. However, the vast majority of these risks are caused by overheating, overhydration, and mixing drugs at raves~@riggDeaths. They are largely avoided by taking the right precautions or by not doing MDMA therapy if you have certain risk factors. This section covers drug interactions, medical contraindications, and psychological risks. Here is a summary of how to avoid or prepare for the most significant risks (in therapeutic contexts) discussed in the literature. Some of these are best guesses based on sparse evidence.
@@ -1198,7 +1198,7 @@ That being said, even mild-to-moderate amounts of harm are worth minimizing when
   - All values were double-checked against sources.
   - All variables were stored using the Unitful Julia package. Unitful stores a unit along with a quantity and will throw an error if the script tries to combine variables with mismatched units.
   - I had the LLM review the model and assumptions two or three times. One review used Fable 5.2 to check the math.
-  
+
   View this estimate with skepticism since LLMs have well-known limitations.
 
 The second constraint is downregulation of the serotonin system during an MDMA session, which causes short-term tolerance~@baggottSerotonin@baggottDamage. Using MDMA again before tolerance has returned to baseline will result in lower efficacy. Using higher doses to overcome that will increase the risk of oxidative damage. Neither the time required for tolerance to return to baseline nor the limits of the antioxidant buffer are known, so I strongly recommend spacing sessions far enough apart that you don't notice any lessening of effect.#footnote[Lessening of perceived effect isn't necessarily caused by tolerance. Anecdotal reports indicate that people can need higher doses to work with more difficult material. First sessions are often special, and subsequent sessions can feel less special without any tolerance~@beckPursuit.] I don't think anyone has measured how long short-term tolerance lasts. The 4-week spacing of the phase III trials produced progressively increasing therapeutic benefit after each session~@mitchellMDMAClinicalTrial@mitchellMDMAClinicalTrial2, suggesting that this time span may be sufficient for many people, at least for a few sessions.
@@ -1381,25 +1381,27 @@ There may be other rare and dangerous reactions to MDMA; these criteria are not 
 
 = The Arc of Healing
 <bigPicture>
-As described in @sec:mechanism, healing is fundamentally a process of aligning stuck schemas with current reality and integrating previously-avoided/muted information.
+As described in @sec:mechanism, healing is fundamentally a process of aligning stuck schemas with current reality and integrating previously avoided or muted information.
 
-MDMA-facilitated reconsolidation may cause a straightforward decrease in symptoms and increase in mental health for those with simple issues. However, as described in @sec:complex, those with disorganized attachment or other forms of severe complex trauma face a long process of unpredictable ups and downs that gradually tends upward. MDMA and reconsolidation help you confront previously avoided/muted sensations and emotions. Confronting them may then activate other stuck schemas, producing new fear, anger, sadness, grief, dysfunction, etc. You then have to reconsolidate these newly activated stuck schemas, which might surface still more previously-avoided/muted information. This cycle of reconsolidation → decreased avoidance/muting → reaction → reconsolidation → decreased avoidance/muting → reaction continues until there is no more major avoided/muted information and stuck schemas. Note that this is a simplification of a likely-more complex and inscrutable process described in @sec:complex.
+MDMA-facilitated reconsolidation may cause a straightforward decrease in symptoms and increase in mental health for those with simple issues. However, as described in @sec:complex, those with disorganized attachment or other forms of severe complex trauma face a long process of unpredictable ups and downs that gradually tends upward. MDMA and reconsolidation help you confront previously avoided or muted sensations and emotions. Confronting them may then activate other stuck schemas, producing more fear, anger, sadness, grief, dysfunction, and so on. You then have to reconsolidate these newly activated stuck schemas, which might surface still more previously avoided or muted information. This cycle of reconsolidation → decreased avoidance/muting → reaction → reconsolidation → decreased avoidance/muting → reaction continues until there is no more major avoided/muted information and stuck schemas. Note that this is a simplification of a likely more complex and inscrutable process (see @sec:complex).
 
-The simplest issues may be resolved in a single session, but my rough estimate is that the most extreme mental illnesses require tens of thousands of hours of reconsolidation. This process is necessarily spread out over a long period of time for those with complex trauma because therapy hangover limits active reconsolidation to roughly 2 hours/day in my experience.
+The simplest issues may be resolved in a single session, but my rough estimate is that the most extreme mental illnesses require tens of thousands of hours of reconsolidation. This process is necessarily spread out over a long time for those with complex trauma because therapy hangover limits active reconsolidation to roughly 2 hours/day in my experience.
 
-MDMA is a moderately scarce resource because of the unclear risk that frequent or high-dose sessions may cause long-term tolerance~@farreTolerance@parrottTolerance, long-term cognitive impact~@corayMemory, and valvular heart disease~@droogmans2007valvular. Thus, I suggest achieving the bulk of reconsolidation with non-MDMA reconsolidation exercises like those described in @reconsolidationTools if possible.
+MDMA is a moderately scarce resource because of the unclear risk that frequent or high-dose sessions may cause long-term tolerance~@farreTolerance@parrottTolerance, long-term cognitive impact~@corayMemory, and valvular heart disease~@droogmans2007valvular. Thus, I suggest achieving the bulk of reconsolidation without MDMA, using exercises like those described in @reconsolidationTools if possible.
 
 If you want to progress as quickly as possible, I recommend maxing out on reconsolidation exercises whenever you have the time. There are two difficulties to consider, though. First, while you might be able to achieve 2 hours of active reconsolidation a day, that will also create multiple additional hours of therapy hangover. Second, reconsolidation exercises typically require some additional time for the overhead of figuring out what your stuck schemas are and finding mismatches, not to mention all the other tasks involved in practitioner-guided therapy.
 
-If you can, try to develop techniques that require less overhead, like those in the Meditation or General Purpose Techniques bullets in @reconsolidationTools, or the first example in @internalizedReports. I've also noticed in my practice and that of one person I know that if you reconsolidate right before going to sleep the therapy hangover resolves before you wake up. That minimized the amount of time you spend exhausted.
+Try to develop techniques that require less overhead, like those in the Meditation and General Purpose Techniques bullets in @reconsolidationTools, or the first example in @internalizedReports.
 
-Unnoticed avoidance and muting and the possibility of complex chains of schema activations make it difficult to assess how much material you need to work through. You could fill out the #textcite(<maladaptiveSchemaScale>) at least once to get a rough inventory of your stuck schemas, though it's not essential. It's a broad scale that should catch a wide variety of common stuck schemas. You can fill out the scale again every few months to track your therapeutic progress. The scale is long, so it may be worth finding and using a shorter, more specific scale (or a subset of #textcite(<maladaptiveSchemaScale>)) if your stuck schemas are limited to certain areas. That will save you time if you're filling it out frequently.
+In my experience, and in that of one person I know, the therapy hangover resolves before you wake up if you reconsolidate right before going to sleep. That minimizes the amount of time you feel exhausted.
 
-Unnoticed avoidance, muting, and lack of understanding about what improvements are possible also make it difficult to assess when you are done with the process. If you get to the point of thinking you are done or close enough, I suggest working through every item in @mapping during MDMA sessions. Filling out #textcite(<maladaptiveSchemaScale>) may also help. These will help you uncover, understand, and reconsolidate many of the stuck schemas that even mentally healthy people typically avoid dealing with or thinking about. I think it's worth working through most of the items in those sections; just getting to a point of good-enough mental health leaves a great deal of individual improvement and capacity for connection and compassion on the table.
+Avoidance, muting, and the possibility of complex chains of schema activations make it difficult to assess how much material you need to work through. You could fill out #textcite(<maladaptiveSchemaScale>) to get a rough inventory of your stuck schemas. It's a broad scale that should catch a wide variety of common stuck schemas. You can also use the scale again every few months to track your therapeutic progress. It's long, so it may be worth finding and using a shorter, more specific scale (or a subset of #textcite(<maladaptiveSchemaScale>)) if your stuck schemas are limited to certain areas. That will save you time if you're filling it out frequently.
+
+Avoidance, muting, and lack of understanding about what improvements are possible also make it difficult to assess when you are done with the process. If you get to the point of thinking you are done, I suggest working through every item in @mapping during MDMA sessions. Filling out #textcite(<maladaptiveSchemaScale>) may also aid you. Both help you uncover many of the stuck schemas that even mentally healthy people typically avoid dealing with or thinking about. I think it's worth working through most of the items in that chapter: just getting to a point of good-enough mental health leaves a great deal of individual improvement and capacity for connection and compassion on the table.
 
 I recommend the following resources for guidance on the long-term process of healing:
 - Most therapists who have successfully helped their clients reconsolidate complex stuck schema networks should understand your journey even if they don't have experience with MDMA or use different terminology.
-- #prosecite(<kaspianSolo>) is the only other manual that addresses the big picture process of healing with MDMA. I recommend it for the techniques it developed rather than the safety recommendations or commentary.
+- #prosecite(<kaspianSolo>) is the only other manual that addresses the big-picture process of healing with MDMA. I recommend it for the techniques it developed rather than the safety advice or commentary.
 
 #lead[When to schedule sessions]
 <when-to-schedule-sessions>
@@ -1413,7 +1415,7 @@ It may be especially productive to schedule sessions when you have a few hours o
     [*Lots of Time*], [Whenever you want, within the safety constraints of @sec:safety. Experiment with different frequencies to see how they affect therapeutic progress.], [When you have enough time to max out on post-session reconsolidation every day.],
     [*Little Time*], [Ideally, when you can make time for post-session reconsolidation, but sessions may still be very helpful without that.], [When you have the most time in your schedule for post-session reconsolidation.],
   )
-  , caption: [Example decision matrix for when to schedule MDMA therapy sessions, based on available time and session cost. This represents my informed thoughts and is not based on any rigorous research process. Individuals will need to consider other factors as well.]
+  , caption: [Example decision matrix for when to schedule MDMA therapy sessions, based on available time and session cost. This is my opinion and is not based on any research process. Individuals will need to consider other factors as well.]
   , kind: table
   )
 <sessionDecision>
@@ -1438,11 +1440,11 @@ A practitioner may provide
 
 === Factors Favoring Self-Guidance
 <factors-favoring-self-guidance>
-As discussed in @sec:howtofind, finding a skilled, ethical, affordable, and well-matched practitioner is difficult.
+Finding a skilled, ethical, affordable, and well-matched practitioner is difficult.
 
 Practitioner guidance is expensive when it's not covered by insurance. In 2026, in the US, a guided psychedelic therapy session including pre- and post-session support costs in the low \$1000s~@cost1@cost2@cost3. MDMA itself only costs 6--50~Euros per gram (in Europe in 2022), which is enough for 5--10 sessions~@euMDMA.
 
-Scheduling is an obvious advantage of self-guidance; you don't need to find a day when your practitioner is also available.
+Scheduling is easier when you don't need to find a day when your practitioner is also available.
 
 Self-guidance may be the only option for those who have been traumatized by mental health practitioners or who don't trust them.
 
@@ -1900,11 +1902,11 @@ Here are various practices and medicines I think are particularly useful.#footno
 - *Meditation:* Meditation was the tool most commonly reported as helpful for post-psychedelic difficulties by the individuals experiencing prolonged post-psychedelic difficulties in #textcite(<robinson2024coming>). Psychedelic therapy practitioners also rate it as highly beneficial~@argyri2025practitioner.
 
   Avoidance and muting of distressing but contradictory information are some of the primary mechanisms that maintain stuck schemas over time. I suspect that daily practices of deliberate non-avoidance, like some types of meditation, can facilitate reconsolidation. #prosecite(<rain>) is the kind of meditation that I expect would do this.
-  
+
   Certain meditative practices are explicitly promoted for their capacity for what seem like reconsolidation, though they don't use that term. For instance, #textcite(<goenkaLiving>, supplement: [ch. 8]) describes how you can permanently dissolve any old conditioned reaction by bringing sufficiently developed awareness and equanimity to the mental and phsycial sensations that the conditioning produces. #textcite(<youngScience>, supplement: [ch. 5]) states that "old material gets worked through by pouring clarity and equanimity into the experience of the moment. That clarity and equanimity percolate down into the subconscious and give the subconscious what it needs to resolve/dissolve its issues." Both books provide instructions for strengthening the faculties of awareness, clarity, and equanimity.
 
   It's important to note that many meditative practices and attainments do not facilitate reconsolidation. It's entirely possible to attain varying levels of non-duality while your psychological issues continue to cause major problems for you and those around you~@ingram2018mastering@welwoodBypass.
-  
+
   I've noticed that most of the meditation literature is focused on dereifying self rather than dissolving specific stuck schemas, and when they do discuss the latter, it's often mixed in with discussion of dereification. You may have to experiment to figure out how to tune meditation for reconsolidation. I suspect that you may have to apply the awareness, clarity, and equanimity while simultaneously activating your stuck schemas.
 
   #metadata("anchor") <increasingAttention> Increasing attention and non-avoidance in the days to weeks following an MDMA therapy session may be especially productive for two reasons. First, some people report a 1--2~week afterglow period (see @afterglow) where reconsolidation exercises feel easier. Second, MDMA-facilitated reconsolidation reduces the strength of the elements reinforcing stuck states of mental illness (see @sec:complex). The brain's natural updating process might now have the capacity to make further shifts as long as attention is devoted to your stuck schemas. I suspect that this is one reason why MDMA therapy practitioners commonly recommend clients take time after a session for _integration_ activities. These include meditation, yoga, journaling, making art about feelings, walking in nature to spend time with yourself, massage, listening to a recording of your session, singing, dancing, and breathing exercises~@mithoeferManual.
@@ -2431,7 +2433,7 @@ My certainty scale is:
     + the fear dissipating within a span of minutes to tens of minutes
     + that chunk of fear not returning when the individuals enter typically triggering contexts after the session is over; and (d) the dissipation of fear being durable and requiring no ongoing effort.
   ]
-  
+
   Points _a_ and _b_ align with the prerequisites of reconsolidation: activation of target schema, activation of contradictory knowledge, and conscious awareness of the contradiction~@eckerUnlocking. Points _c_ and _d_ align with the signs of successful reconsolidation: emotional non-reactivation, symptom cessation, and effortless permanence. Fear extinction, the only other candidate mechanism of action I am aware of, does not align with these points.
 
   I also do not think that apparent MDMA-facilitated reconsolidation is actually caused by a placebo effect or merely reported due to various biases (e.g., a trial participant saying what they think the researchers want to hear). Experiences of what appear to be accidental or semi-accidental reconsolidation are known to occur in the MDMA rave community even when the individual isn't planning or expecting a traditional therapeutic experience~@huntEcstacy. This individual's statement from #textcite(<huntEcstacy>, supplement: [p. 344]) exemplifies it: "E broke the ice. Probably to this day, if I never did E at a party, I would probably still be antisocial and probably wouldn't even go to parties. But now that I've experienced the drug side … I like the sober side now."
@@ -2496,7 +2498,7 @@ Evidence does not support phased treatment (a stabilizing/resourcing phase prece
 
 == My Experience
 #quote(block: true)[
-My first MDMA session (2021) consisted of seemingly perfect safety and all-encompassing compassion. I realized how everyone's stuck reactions were due to learned, no-longer-helpful fears. I also felt a well of inviolable safety and emotional resilience inside me so strong that I thought I would feel okay inside even if I watched everyone and everything I had ever loved die in front of me. There was also a _stillness_ with with no craving and aversion (in the Buddhist sense I think). 
+My first MDMA session (2021) consisted of seemingly perfect safety and all-encompassing compassion. I realized how everyone's stuck reactions were due to learned, no-longer-helpful fears. I also felt a well of inviolable safety and emotional resilience inside me so strong that I thought I would feel okay inside even if I watched everyone and everything I had ever loved die in front of me. There was also a _stillness_ with with no craving and aversion (in the Buddhist sense I think).
 
 There was a certain week in 2022 or 2023, after perhaps 10 more MDMA therapy sessions, when I went walking to feel my anxiety. It felt really good to feel my anxiety for some reason I no longer clearly recall. It also gave me a strong therapy hangover. That week of reconsolidation is the earliest example I recall of reconsolidation that just _happened_ with no deliberate effort or control on my part.
 
@@ -2699,7 +2701,7 @@ I think the following research questions are particularly interesting or relevan
 = Revision History
 <sec:revisions>
 #lead[Changes from version 6 to 7]
-Added the Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events troubleshooting sections. Partially rewrote #nameref(<sec:complex>), #nameref(<frequency>), #nameref(<sec:mechanism>), and #nameref(<selfinsight>) to improve rigor and clarity. Added #nameref(<theorySummary>). Split the term _avoidance_ into _avoidance_ and _muting_ to better categorize the phenomena based on mechanism. Did another, more thorough round of grammar editing through #nameref(<sec:safety>). 
+Added the Issue Comes Back After What Feels Like Successful Reconsolidation and Not Accessing Any Memories of Traumatic Events troubleshooting sections. Partially rewrote #nameref(<sec:complex>), #nameref(<frequency>), #nameref(<sec:mechanism>), and #nameref(<selfinsight>) to improve rigor and clarity. Added #nameref(<theorySummary>). Split the term _avoidance_ into _avoidance_ and _muting_ to better categorize the phenomena based on mechanism. Did another, more thorough round of grammar editing through #nameref(<sec:safety>).
 
 Finished removing Thomas Harper's content. I replaced their major section, How to Find a Practitioner, with a few paragraphs that link out to equivalent information written by other people.
 
